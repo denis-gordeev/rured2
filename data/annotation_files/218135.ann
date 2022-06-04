@@ -1,0 +1,52 @@
+T1	COUNTRY 2 8	Египте
+T2	LOCATION 24 37	Суэцкий канал
+T3	COUNTRY 53 59	Египта
+T4	DATE 70 91	в субботу, 18 октября
+T5	CARDINAL 105 111	шестью
+T6	FAC 168 183	Суэцкого канала
+T7	ORGANIZATION 194 201	Reuters
+T8	DATE 378 391	последних лет
+T9	COUNTRY 449 452	ОАЭ
+T10	COUNTRY 454 465	Нидерландов
+T11	COUNTRY 467 474	Бельгии
+T12	COUNTRY 477 480	США
+T13	COUNTRY 489 495	Египта
+T14	DATE 559 570	к 2023 году
+T15	MONEY 594 608	с 5 миллиардов
+T16	QUANTITY 717 749	в 76 тысяч квадратных километров
+T17	FAC 815 830	Суэцкого канала
+T18	PERSON 849 860	Мохаб Мемиш
+T19	DATE 926 954	не позднее августа 2015 года
+T20	COUNTRY 971 981	египетские
+T21	DATE 1003 1012	с августа
+T22	DATE 1179 1192	145 лет назад
+T23	FAC 1194 1207	Суэцкий канал
+T24	LOCATION 1251 1268	Индийским океаном
+T25	LOCATION 1271 1288	Средиземным морем
+T26	COUNTRY 1357 1363	Египта
+T27	DATE 1442 1451	2011 года
+T28	COUNTRY 1453 1456	ОАЭ
+T29	COUNTRY 1458 1475	Саудовская Аравия
+T30	COUNTRY 1478 1484	Кувейт
+T31	COUNTRY 1498 1504	Египту
+T32	MONEY 1505 1523	миллиарды долларов
+T33	PERSON 1546 1550	Сиси
+T34	DATE 1606 1622	в июле 2013 года
+T35	PERSON 1642 1657	Мухаммеда Мурси
+T36	PROFESSION 236 246	президента
+T37	PROFESSION 795 814	Глава администрации
+T38	PROFESSION 1552 1574	бывший министр обороны
+R1	WORKS_AS Arg1:T33 Arg2:T38	
+T40	PERSON 247 269	Абдель Фаттаха ас-Сиси
+T41	PROFESSION 831 848	генерал-лейтенант
+T42	PROFESSION 1631 1641	президента
+T43	ORGANIZATION 1672 1689	Братьев-мусульман
+R2	WORKS_AS Arg1:T35 Arg2:T42	
+R3	WORKPLACE Arg1:T33 Arg2:T31	
+R4	WORKS_AS Arg1:T18 Arg2:T37	
+R5	WORKS_AS Arg1:T18 Arg2:T41	
+R6	WORKS_AS Arg1:T40 Arg2:T36	
+T44	MONEY 609 635	до 13,5 миллиарда долларов
+T39	ORGANIZATION 39 52	Правительство
+R7	OWNERSHIP Arg1:T3 Arg2:T39	
+T45	CARDINAL 571 591	более чем в два раза

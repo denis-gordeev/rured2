@@ -1,0 +1,26 @@
+T1	DATE 96 107	16 сентября
+T2	CITY 182 188	Москве
+T3	ORGANIZATION 299 328	Следственным комитетом России
+T4	ORGANIZATION 330 335	СК РФ
+T5	PERSON 387 408	Владимиру Евтушенкову
+T6	PERSON 573 584	Евтушенкова
+T7	ORGANIZATION 595 606	РИА Новости
+T8	ORGANIZATION 625 630	СК РФ
+T9	PERSON 641 652	Евтушенкову
+T10	REGION 839 863	республики Башкорстостан
+T11	PERSON 865 884	Владимир Евтушенков
+T12	ORGANIZATION 360 377	совета директоров
+T13	COUNTRY 680 682	РФ
+T14	ORGANIZATION 202 211	ИТАР-ТАСС
+T15	PROFESSION 347 359	председателю
+R1	WORKPLACE Arg1:T5 Arg2:T12
+R2	WORKS_AS Arg1:T5 Arg2:T15	
+T16	ORGANIZATION 2 15	АФК «Система»
+T17	ORGANIZATION 162 179	ОАО АФК «Система»
+T18	FAC 144 161	центральном офисе
+R3	OWNERSHIP Arg1:T17 Arg2:T18	
+R4	HEADQUARTERED_IN Arg1:T18 Arg2:T2	
+R5	ABBREVIATION Arg1:T3 Arg2:T4	
+T19	ORGANIZATION 412 429	ОАО АФК «Система»
+T20	LAW 666 725	статье 174 УК РФ «Легализация (отмывание) денежных средств»
+T21	LAW 677 682	УК РФ

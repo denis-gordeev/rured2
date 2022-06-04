@@ -1,0 +1,32 @@
+T1	ORGANIZATION 0 16	Россельхознадзор
+T3	ORGANIZATION 60 76	Россельхознадзор
+T5	COUNTRY 171 181	Белоруссия
+T6	ORGANIZATION 240 256	Россельхознадзор
+T8	CARDINAL 365 374	в четырех
+T9	CARDINAL 375 382	из пяти
+T10	REGION 439 457	Мурманскую область
+T11	COUNTRY 717 723	России
+T12	PERSON 724 742	Евгений Непоклонов
+T13	COUNTRY 770 781	белорусским
+T14	PERSON 791 809	Юрием Пивоварчиком
+T15	ORGANIZATION 834 851	Россельхознадзора
+T16	COUNTRY 853 863	Российское
+T17	COUNTRY 889 900	белорусской
+T18	COUNTRY 975 986	белорусской
+T19	COUNTRY 1020 1030	российский
+T20	ORDINAL 1046 1052	второй
+T22	COUNTRY 1122 1133	белорусской
+T23	ORGANIZATION 1158 1174	Россельхознадзор
+T25	PROFESSION 686 716	Главный ветеринарный инспектор
+T26	ORGANIZATION 615 660	Российской академии сельскохозяйственных наук
+R1	WORKS_AS Arg1:T12 Arg2:T25	
+R2	WORKPLACE Arg1:T12 Arg2:T11	
+R3	WORKPLACE Arg1:T14 Arg2:T13	
+R4	WORKS_AS Arg1:T14 Arg2:T25	
+T27	ORGANIZATION 525 614	Всероссийском научно-исследовательском институте ветеринарной вирусологии и микробиологии
+T24	FAC 1198 1222	Оршанского мясокомбината
+T2	FAC 36 58	Минского мясокомбината
+T4	FAC 147 169	Минского мясокомбината
+R5	HEADQUARTERED_IN Arg1:T4 Arg2:T5	
+R6	OWNERSHIP Arg1:T26 Arg2:T27	
+T7	DATE 1053 1071	за последнее время

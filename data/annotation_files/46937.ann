@@ -1,0 +1,58 @@
+T1	ORGANIZATION 91 163	Федеральной корпорации по развитию малого и среднего предпринимательства
+T2	ORGANIZATION 165 179	Корпорация МСП
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T2
+T3	REGION 45 51	Тюмени
+T4	REGION 213 230	Тюменскую область
+T5	PROFESSION 431 442	губернатора
+T6	REGION 443 460	Тюменской области
+T7	PERSON 461 478	Владимира Якушева
+T8	PROFESSION 480 502	генерального директора
+T9	REGION 883 900	Тюменской области
+T10	PROFESSION 1379 1389	губернатор
+T11	REGION 1390 1407	Тюменской области
+T12	PERSON 1408 1423	Владимир Якушев
+T13	REGION 1608 1625	Тюменской области
+T14	PROFESSION 1734 1754	генеральный директор
+T15	PERSON 1770 1789	Александр Браверман
+T16	DATE 1799 1812	нынешнем году
+T17	PERSON 2187 2206	Александр Браверман
+T18	REGION 2320 2337	Тюменской области
+T19	REGION 2731 2748	Тюменской области
+T20	ORGANIZATION 28 42	Корпорации МСП
+R2	HEADQUARTERED_IN Arg1:T20 Arg2:T3	
+T21	MONEY 61 79	2 миллиарда рублей
+T22	DATE 184 202	вторник, 21 ноября
+R3	WORKPLACE Arg1:T7 Arg2:T6	
+R4	WORKS_AS Arg1:T7 Arg2:T5	
+T23	ORGANIZATION 503 517	Корпорации МСП
+T24	PERSON 518 539	Александра Бравермана
+R5	WORKPLACE Arg1:T24 Arg2:T23	
+R6	WORKS_AS Arg1:T24 Arg2:T8	
+T25	ORGANIZATION 812 826	Корпорации МСП
+T26	CARDINAL 857 858	7
+T27	LAW 981 984	НГС
+T28	LAW 987 1038	Программы стимулирования кредитования субъектов МСП
+T29	MONEY 1116 1141	около 2 миллиардов рублей
+T30	MONEY 1219 1245	более 2,6 миллиарда рублей
+R7	WORKPLACE Arg1:T12 Arg2:T11	
+R8	WORKS_AS Arg1:T12 Arg2:T10	
+T31	ORGANIZATION 1458 1472	Корпорация МСП
+T32	PROFESSION 1555 1565	губернатор
+R9	WORKS_AS Arg1:T15 Arg2:T14	
+T33	ORGANIZATION 1755 1769	Корпорации МСП
+R10	WORKPLACE Arg1:T15 Arg2:T33	
+T34	CARDINAL 2391 2393	91
+T35	MONEY 2429 2450	816,3 миллиона рублей
+T36	CARDINAL 2466 2468	54
+T37	MONEY 2521 2542	922,8 миллиона рублей
+T38	CARDINAL 2768 2770	45
+T39	MONEY 2813 2835	712,72 миллиона рублей
+T40	LAW 2677 2728	программы стимулирования кредитования субъектов МСП
+T41	PERCENT 2849 2862	10,6 процента
+T42	ORGANIZATION 2963 2984	Бизнес-навигатора МСП
+T43	DATE 3089 3098	2017 году
+T44	ORGANIZATION 3110 3131	Бизнес-навигатора МСП
+T45	PRODUCT 3164 3179	система «Поток»
+T46	PRODUCT 3301 3329	система «Жизненные ситуации»
+R11	PRODUCES Arg1:T44 Arg2:T45	
+R12	PRODUCES Arg1:T44 Arg2:T46	

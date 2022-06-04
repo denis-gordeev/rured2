@@ -1,0 +1,33 @@
+T1	DATE 408 416	в ноябре
+T2	DATE 456 483	в течение ближайшего месяца
+T3	ORGANIZATION 572 575	ГАЗ
+T4	ORGANIZATION 588 607	PSA Peugeot Citroen
+T5	ORGANIZATION 610 622	Ford Sollers
+T6	COUNTRY 747 749	РФ
+T7	PERSON 750 768	Денисом Мантуровым
+T8	ORGANIZATION 1151 1162	Минпромторг
+T9	DATE 1453 1466	конце августа
+T10	COUNTRY 1483 1489	России
+T11	PERSON 1490 1506	Дмитрий Медведев
+T12	DATE 1572 1581	в декабре
+T13	PERSON 1617 1631	Денис Мантуров
+T14	PROFESSION 722 746	министром промышленности
+T15	PROFESSION 1467 1482	премьер-министр
+T16	PROFESSION 1583 1616	Министр промышленности и торговли
+T17	ORGANIZATION 271 280	Ведомости
+T18	ORGANIZATION 553 560	АвтоВАЗ
+T19	ORGANIZATION 564 569	Камаз
+T20	ORGANIZATION 578 585	Соллерс
+T21	ORGANIZATION 932 942	Ведомостей
+R1	WORKS_AS Arg1:T7 Arg2:T14	
+R2	WORKPLACE Arg1:T7 Arg2:T6	
+R3	WORKPLACE Arg1:T11 Arg2:T10	
+R4	WORKS_AS Arg1:T13 Arg2:T16	
+R5	WORKS_AS Arg1:T11 Arg2:T15	
+T23	DATE 1548 1558	1 сентября
+T24	MONEY 1673 1693	10 миллиардов рублей
+T25	DATE 246 268	во вторник, 9 сентября
+T26	DATE 121 131	1 сентября
+T27	MONEY 869 894	от 50 до 350 тысяч рублей
+T28	DATE 804 822	в сентябре-декабре
+T22	DATE 1141 1150	4 августа

@@ -1,0 +1,26 @@
+T1	COUNTRY 10 16	России
+T2	ORGANIZATION 151 184	Центра конъюнктурных исследований
+T4	ORGANIZATION 909 942	Центра конъюнктурных исследований
+T5	PERSON 943 962	Георгия Остапковича
+T6	PERSON 1430 1441	Остапковича
+T3	ORGANIZATION 208 213	(ВШЭ)
+T7	ORGANIZATION 185 207	Высшей школы экономики
+R1	ABBREVIATION Arg1:T7 Arg2:T3	
+R2	OWNERSHIP Arg1:T7 Arg2:T2	
+T8	PROFESSION 899 908	директора
+R3	WORKPLACE Arg1:T5 Arg2:T4	
+R4	WORKS_AS Arg1:T5 Arg2:T8	
+T9	COUNTRY 47 57	Российская
+T10	DATE 514 542	Во втором квартале 2018 года
+T11	DATE 560 583	после двух с лишним лет
+T12	ORGANIZATION 642 645	ВШЭ
+T13	COUNTRY 664 674	российская
+T15	COUNTRY 1670 1680	российской
+T16	DATE 1791 1836	в третьем и четвертом кварталах текущего года
+T17	ORGANIZATION 1932 1935	ИЭН
+T18	DATE 1946 1955	2018 года
+T19	ORGANIZATION 247 255	Ленты.ру
+T20	QUANTITY 600 613	на 0,9 пункта
+T21	QUANTITY 616 623	до 99,2
+T14	DATE 771 788	в первом квартале
+T22	QUANTITY 874 887	в сто пунктов

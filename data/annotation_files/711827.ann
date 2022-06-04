@@ -1,0 +1,92 @@
+T1	COUNTRY 0 6	Россия
+T2	COUNTRY 22 30	Испанией
+T3	COUNTRY 107 113	России
+T4	COUNTRY 120 128	Испанией
+T5	MONEY 156 182	около 1 миллиарда долларов
+T6	COUNTRY 219 221	РФ
+T7	DATE 304 310	22 мая
+T8	PERSON 321 335	Владимир Путин
+T9	FAC 348 354	Кремле
+T10	COUNTRY 386 393	Испании
+T11	PERSON 394 412	Хосе Мария Аснаром
+T13	COUNTRY 544 550	России
+T14	MONEY 631 661	с 40 до 250 миллионов долларов
+T15	COUNTRY 694 703	испанских
+T16	COUNTRY 728 734	России
+T17	GPE 753 759	Москва
+T18	GPE 771 778	Мадриду
+T19	CARDINAL 795 797	23
+T20	FAC 896 899	ТЭЦ
+T21	CITY 902 914	Новосибирске
+T22	CITY 941 948	Охотске
+T23	PRODUCT 1013 1018	Камов
+T24	COUNTRY 1072 1078	России
+T25	COUNTRY 1081 1088	Испании
+T26	COUNTRY 1161 1163	РФ
+T27	COUNTRY 1204 1210	России
+T28	PERSON 1211 1227	Сергей Колотухин
+T29	COUNTRY 1301 1308	Испании
+T30	PERSON 1309 1319	Хуан Коста
+T31	COUNTRY 1345 1351	России
+T32	PERSON 1352 1368	Владимира Путина
+T33	COUNTRY 1388 1395	Испании
+T34	PERSON 1396 1413	Хосе Мария Аснара
+T35	PERSON 1415 1431	Сергей Колотухин
+T36	PERSON 1434 1444	Хуан Коста
+T38	COUNTRY 1534 1540	России
+T39	COUNTRY 1543 1550	Испании
+T40	COUNTRY 1606 1616	российских
+T41	COUNTRY 1627 1634	Испанию
+T42	COUNTRY 1668 1674	России
+T43	PERSON 1675 1687	Сергей Франк
+T45	ORGANIZATION 1737 1765	министерства иностранных дел
+T46	PERSON 1774 1789	Рамон де Мигель
+T47	LAW 1800 1883	Соглашение между Российской Федерацией и Королевством Испании о морском судоходстве
+T48	LAW 1893 1976	Соглашение между правительствами двух стран о международном автомобильном сообщении
+T50	PROFESSION 311 320	президент
+T51	PROFESSION 368 385	премьер-министром
+T52	PROFESSION 1174 1203	заместитель министра финансов
+T53	PROFESSION 1230 1277	государственный секретарь по торговле и туризму
+T54	PROFESSION 1334 1344	президента
+T55	PROFESSION 1371 1387	премьер-министра
+T56	PROFESSION 1649 1667	министр транспорта
+T57	GPE 970 985	Золотого кольца
+T58	ORGANIZATION 205 218	правительства
+T59	ORGANIZATION 449 516	государственная комиссия Испании по страхованию экспортных кредитов
+R1	WORKS_AS Arg1:T8 Arg2:T50	
+R2	WORKS_AS Arg1:T11 Arg2:T51	
+R3	WORKPLACE Arg1:T11 Arg2:T10	
+R4	WORKS_AS Arg1:T28 Arg2:T52	
+R5	WORKPLACE Arg1:T28 Arg2:T27	
+T60	ORGANIZATION 1278 1300	министерства экономики
+R6	WORKS_AS Arg1:T30 Arg2:T53	
+R7	WORKPLACE Arg1:T30 Arg2:T60	
+R8	OWNERSHIP Arg1:T29 Arg2:T60	
+R9	WORKS_AS Arg1:T32 Arg2:T54	
+R10	WORKPLACE Arg1:T32 Arg2:T31	
+R11	WORKS_AS Arg1:T34 Arg2:T55	
+R12	WORKPLACE Arg1:T34 Arg2:T33	
+R13	WORKS_AS Arg1:T43 Arg2:T56	
+R14	WORKPLACE Arg1:T43 Arg2:T42	
+T44	PROFESSION 1690 1736	государственный секретарь по европейским делам
+R15	WORKS_AS Arg1:T46 Arg2:T44	
+T61	COUNTRY 1766 1773	Испании
+R16	WORKPLACE Arg1:T46 Arg2:T45	
+R17	OWNERSHIP Arg1:T61 Arg2:T45	
+R18	OWNERSHIP Arg1:T6 Arg2:T58	
+T62	ORGANIZATION 274 287	РИА "Новости"
+T63	EVENT 355 365	переговоры
+R19	DATE_TAKES_PLACE_ON Arg1:T63 Arg2:T7	
+R20	TAKES_PLACE_IN Arg1:T63 Arg2:T9	
+R21	EVENT_TAKES_PART_IN Arg1:T11 Arg2:T63	
+R22	HEADQUARTERED_IN Arg1:T20 Arg2:T21	
+T12	FAC 916 938	рыбоконсервного завода
+R23	HEADQUARTERED_IN Arg1:T12 Arg2:T22	
+T64	FAC 950 958	гостиниц
+R24	HEADQUARTERED_IN Arg1:T64 Arg2:T57	
+T37	ORGANIZATION 1519 1533	правительством
+R25	OWNERSHIP Arg1:T38 Arg2:T37	
+R26	OWNERSHIP Arg1:T39 Arg2:T37	
+R27	SELLS_TO Arg1:T40 Arg2:T41	
+T49	LOCATION 1150 1160	территории
+R28	OWNERSHIP Arg1:T26 Arg2:T49	

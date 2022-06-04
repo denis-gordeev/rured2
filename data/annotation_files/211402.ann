@@ -1,0 +1,57 @@
+T1	EVENT 3 22	Гайдаровском форуме
+T2	COUNTRY 56 62	России
+T3	DATE 64 81	C 14 по 16 января
+T4	ORGANIZATION 84 148	Российской академии народного хозяйства и государственной службы
+T5	ORGANIZATION 150 157	РАНХиГС
+T6	ORDINAL 169 171	VI
+T7	DATE 274 283	15 января
+T8	ORGANIZATION 397 408	Центробанка
+T9	PERSON 409 427	Эльвира Набиуллина
+T10	COUNTRY 451 457	России
+T11	PERSON 458 473	Алексей Моисеев
+T12	PERSON 548 562	Яаков Френкель
+T13	ORGANIZATION 574 593	Национального банка
+T14	PERSON 601 612	Марек Белка
+T15	ORGANIZATION 627 635	Нацбанка
+T16	PERSON 647 664	Кайрат Келимбетов
+T18	ORGANIZATION 688 700	Газпромбанка
+T19	PERSON 701 720	Екатерина Трофимова
+T20	PERSON 807 822	Рубен Аганбегян
+T21	COUNTRY 878 888	российской
+T22	EVENT 1076 1094	Гайдаровский форум
+T23	ORGANIZATION 1113 1120	РАНХиГС
+T24	ORGANIZATION 1123 1171	Институт экономической политики им. Е.Т. Гайдара
+T25	PROFESSION 384 396	председатель
+T26	PROFESSION 430 450	замминистра финансов
+T27	PROFESSION 504 516	председатель
+T28	PROFESSION 564 573	президент
+T29	PROFESSION 614 626	председатель
+T30	PROFESSION 666 687	первый вице-президент
+T31	PROFESSION 743 773	председатель совета директоров
+T32	ORGANIZATION 797 805	Открытие
+R1	WORKS_AS Arg1:T9 Arg2:T25	
+R2	WORKS_AS Arg1:T11 Arg2:T26	
+R3	WORKS_AS Arg1:T20 Arg2:T31	
+T34	ORGANIZATION 517 547	J.P.Morgan Chase International
+R4	WORKPLACE Arg1:T9 Arg2:T8	
+R5	WORKPLACE Arg1:T11 Arg2:T10	
+R6	WORKPLACE Arg1:T20 Arg2:T32	
+R7	WORKPLACE Arg1:T12 Arg2:T34	
+R8	WORKS_AS Arg1:T12 Arg2:T27	
+R9	WORKPLACE Arg1:T14 Arg2:T13	
+R10	WORKS_AS Arg1:T14 Arg2:T28	
+R11	WORKPLACE Arg1:T16 Arg2:T15	
+R12	WORKS_AS Arg1:T16 Arg2:T29	
+R13	WORKPLACE Arg1:T19 Arg2:T18	
+R14	WORKS_AS Arg1:T19 Arg2:T30	
+T17	COUNTRY 594 600	Польши
+R15	OWNERSHIP Arg1:T17 Arg2:T13	
+T33	COUNTRY 636 646	Казахстана
+R16	OWNERSHIP Arg1:T33 Arg2:T15	
+R17	ABBREVIATION Arg1:T4 Arg2:T5	
+T35	EVENT 169 219	VI Гайдаровский форум «Россия и мир: новый вектор»
+T36	ORGANIZATION 230 238	Ленте.ру
+T37	EVENT 331 365	Новые вызовы для банковских систем
+R18	ORGANIZES Arg1:T23 Arg2:T22	
+R19	ORGANIZES Arg1:T24 Arg2:T22	
+R20	TAKES_PLACE_IN Arg1:T35 Arg2:T4	

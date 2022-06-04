@@ -1,0 +1,48 @@
+T1	FAC 24 40	Басманного рынка
+T2	FAC 113 129	Басманного рынка
+T3	CITY 234 240	Москвы
+T4	PERSON 241 253	Петр Аксенов
+T5	PERSON 521 533	Петр Аксенов
+T6	ORGANIZATION 650 689	Департамента международной деятельности
+T7	PERSON 697 711	Юрий Бражников
+T8	CITY 751 757	Москве
+T9	DATE 917 926	за 30 лет
+T10	CITY 1012 1018	Москвы
+T11	PERSON 1019 1031	Юрия Лужкова
+T12	FAC 1098 1113	Басманный рынок
+T13	PERSON 1229 1244	Нодаром Канчели
+T14	FAC 1292 1308	Басманному рынку
+T15	FAC 1367 1383	Басманного рынка
+T16	STREET 1403 1419	Бауманской улице
+T17	DATE 1432 1442	23 февраля
+T18	TIME 1443 1465	около шести часов утра
+T20	QUANTITY 1535 1537	33
+T22	PROFESSION 190 202	руководитель
+T23	PROFESSION 641 649	директор
+T24	PROFESSION 969 982	представитель
+T25	PROFESSION 1007 1011	мэра
+T26	ORGANIZATION 265 274	Интерфакс
+T27	FAC 732 748	Басманного рынка
+T28	FAC 89 104	Трасвааль-парке
+T29	FAC 1117 1132	Трансвааль-парк
+T30	FAC 1192 1208	Трансвааль-парка
+T31	ORGANIZATION 203 233	комплекса городского хозяйства
+R1	WORKS_AS Arg1:T4 Arg2:T22	
+R2	WORKPLACE Arg1:T4 Arg2:T31	
+R4	WORKS_AS Arg1:T7 Arg2:T23	
+R5	WORKPLACE Arg1:T7 Arg2:T6	
+R6	WORKS_AS Arg1:T11 Arg2:T25	
+R7	WORKPLACE Arg1:T11 Arg2:T10	
+R3	OWNERSHIP Arg1:T3 Arg2:T31	
+R8	HEADQUARTERED_IN Arg1:T27 Arg2:T8	
+T32	PROFESSION 489 497	чиновник
+T33	ORGANIZATION 690 693	МЧС
+T34	COUNTRY 694 696	РФ
+R9	OWNERSHIP Arg1:T33 Arg2:T6	
+R10	OWNERSHIP Arg1:T34 Arg2:T33	
+R11	HEADQUARTERED_IN Arg1:T15 Arg2:T16	
+T19	QUANTITY 1519 1529	66 человек
+T35	EVENT 1501 1510	инцидента
+T36	FAC 1674 1692	подземной стоянкой
+T37	FAC 1615 1643	многофункциональный комплекс
+T38	FAC 1646 1671	"трехзвездной" гостиницей

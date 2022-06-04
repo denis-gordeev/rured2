@@ -1,0 +1,43 @@
+T1	COUNTRY 0 14	Великобритания
+T2	COUNTRY 62 76	Великобритании
+T3	EVENT 161 181	Первой мировой войны
+T4	DATE 191 212	в субботу, 27 декабря
+T5	ORGANIZATION 220 238	The New York Times
+T6	GPE 245 251	Лондон
+T7	DATE 312 323	в 1720 году
+T8	ORGANIZATION 388 417	торговая Компания Южных морей
+T9	CARDINAL 421 427	тысячи
+T10	NORP 428 437	британцев
+T11	COUNTRY 551 565	Великобритании
+T12	PERSON 622 635	Джордж Осборн
+T13	PERSON 637 651	George Osborne
+T14	DATE 666 677	в 2015 году
+T15	EVENT 721 741	Первой мировой войны
+T16	DATE 802 821	в XIX и XVIII веках
+T17	COUNTRY 954 968	Великобритании
+T18	ORGANIZATION 1022 1036	Deutsche Welle
+T19	COUNTRY 1126 1140	Великобритании
+T20	DATE 1209 1218	1927 году
+T21	PERSON 1219 1238	Уинстоном Черчиллем
+T22	COUNTRY 1284 1298	Великобритании
+T23	EVENT 1347 1361	Первой мировой
+T24	EVENT 1371 1385	Крымской войны
+T25	PERSON 1404 1413	Наполеона
+T26	ORGANIZATION 1415 1421	Минфин
+T27	DATE 1435 1454	1 февраля 2015 года
+T28	MONEY 1471 1502	218 миллионов фунтов стерлингов
+T29	PROFESSION 605 621	Министр финансов
+T30	PROFESSION 1266 1283	министра финансов
+T31	ORGANIZATION 48 61	Правительство
+T32	MONEY 980 1011	2,5 миллиарда фунтов стерлингов
+R1	WORKS_AS Arg1:T12 Arg2:T29
+R2	WORKS_AS Arg1:T21 Arg2:T30
+R3	WORKPLACE Arg1:T21 Arg2:T22
+R4	ALTERNATIVE_NAME Arg1:T12 Arg2:T13
+R5	OWNERSHIP Arg1:T2 Arg2:T31
+T33	DATE 130 142	в XVIII веке
+T34	MONEY 1073 1104	1,4 триллиона фунтов стерлингов
+T35	DATE 36 46	XVIII века
+T36	ORGANIZATION 537 550	правительство
+R6	OWNERSHIP Arg1:T11 Arg2:T36	
+T37	ORGANIZATION 678 691	правительство

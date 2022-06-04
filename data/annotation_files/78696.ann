@@ -1,0 +1,23 @@
+T1	ORGANIZATION 72 75	ICE
+T2	CITY 55 65	лондонской
+R1	HEADQUARTERED_IN Arg1:T1 Arg2:T2
+T3	COUNTRY 326 329	США
+T4	ORGANIZATION 341 376	Агентства энергетической информации
+T5	COUNTRY 630 648	Соединенных Штатах
+T6	ORGANIZATION 760 764	ОПЕК
+T7	PRODUCT 98 103	Brent
+T8	MONEY 112 125	до 51 доллара
+T9	DATE 161 168	с 3 мая
+T10	PERCENT 249 264	на 1,3 процента
+T11	DATE 399 408	за неделю
+T12	CARDINAL 576 580	двух
+T13	PRODUCT 827 832	Brent
+T14	QUANTITY 126 136	за баррель
+T15	QUANTITY 419 443	на 5,3 миллиона баррелей
+T16	QUANTITY 444 461	до 522,5 миллиона
+T17	DATE 524 536	С начала мая
+T18	QUANTITY 498 522	на 1,8 миллиона баррелей
+T19	MONEY 23 36	до 51 доллара
+T20	PRODUCT 6 11	Brent
+T21	MONEY 855 870	в 46,70 доллара
+T22	DATE 871 881	за баррель

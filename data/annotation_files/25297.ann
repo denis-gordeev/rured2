@@ -1,0 +1,50 @@
+T1	PERSON 1377 1393	Михаэлем Хармсом
+T2	ORGANIZATION 1418 1458	Восточного комитета германской экономики
+R1	WORKPLACE Arg1:T1 Arg2:T2
+T3	PROFESSION 817 822	глава
+T4	PROFESSION 1395 1417	управляющим директором
+T5	ORGANIZATION 0 3	РЭЦ
+T6	ORGANIZATION 27 67	Восточным комитетом германской экономики
+T7	ORGANIZATION 144 184	Восточным комитетом германской экономики
+T8	COUNTRY 595 601	России
+T9	ORGANIZATION 830 833	РЭЦ
+T10	PERSON 834 848	Андрей Слепнев
+T11	ORGANIZATION 1153 1193	Восточным комитетом германской экономики
+T12	COUNTRY 1257 1263	Россию
+T13	PERSON 1345 1359	Андрей Слепнев
+T16	COUNTRY 1551 1557	России
+T17	GPE 1560 1576	Центральной Азии
+T18	COUNTRY 1628 1636	Германии
+R2	WORKS_AS Arg1:T10 Arg2:T3	
+R3	WORKS_AS Arg1:T1 Arg2:T4	
+R4	WORKPLACE Arg1:T10 Arg2:T9	
+T19	ORGANIZATION 69 96	Российский экспортный центр
+T20	ORGANIZATION 98 101	РЭЦ
+T21	DATE 850 875	В ближайшие четыре месяца
+T23	COUNTRY 740 750	российские
+T24	COUNTRY 994 1004	российских
+T25	ORGANIZATION 1460 1467	Комитет
+T26	CARDINAL 1639 1641	21
+T27	EVENT 112 121	ПМЭФ-2018
+T28	ORGANIZATION 186 229	Российско-Германской внешнеторговой палатой
+T29	ORGANIZATION 232 306	Федеральным союзом материально-технического снабжения, закупок и логистики
+T30	PROFESSION 317 330	корреспондент
+T31	ORGANIZATION 332 340	Ленты.ру
+R5	ABBREVIATION Arg1:T19 Arg2:T20	
+R6	EVENT_TAKES_PART_IN Arg1:T19 Arg2:T27	
+R7	EVENT_TAKES_PART_IN Arg1:T7 Arg2:T27	
+R8	EVENT_TAKES_PART_IN Arg1:T28 Arg2:T27	
+R9	EVENT_TAKES_PART_IN Arg1:T29 Arg2:T27	
+R10	WORKPLACE Arg1:T30 Arg2:T31	
+T32	COUNTRY 490 498	немецких
+T33	PRODUCT 379 424	Инициатива по закупкам в Российской Федерации
+T22	COUNTRY 1028 1036	немецких
+T34	ORGANIZATION 1068 1140	Федеральный союз материально-технического снабжения, закупок и логистики
+T35	GROUP 1037 1045	компаний
+T36	COUNTRY 1227 1235	немецких
+T37	COUNTRY 1505 1513	немецких
+T14	GPE 1525 1549	Восточной и Южной Европе
+T15	GROUP 1642 1657	страны-партнера
+T38	GROUP 1588 1599	предприятия
+T39	GROUP 1602 1627	государственные структуры
+T40	GROUP 1514 1522	компаний

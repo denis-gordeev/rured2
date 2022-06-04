@@ -1,0 +1,29 @@
+T1	ORGANIZATION 559 573	Корпорации МСП
+T2	PERSON 597 616	Александр Браверман
+R1	WORKPLACE Arg1:T2 Arg2:T1
+T3	ORGANIZATION 72 144	Федеральная корпорация по развитию малого и среднего предпринимательства
+T4	PROFESSION 504 516	председатель
+T5	PROFESSION 576 596	генеральный директор
+T6	COUNTRY 1438 1458	Российской Федерации
+T7	ORGANIZATION 0 14	Корпорация МСП
+T8	PERSON 533 546	Игорь Дроздов
+T9	ORGANIZATION 993 1007	Корпорация МСП
+T10	DATE 2037 2057	С сентября 2018 года
+T11	ORGANIZATION 2064 2079	Корпорацией МСП
+T12	ORGANIZATION 17 32	Фонд «Сколково»
+T13	ORGANIZATION 146 160	Корпорация МСП
+R2	ALTERNATIVE_NAME Arg1:T3 Arg2:T13	
+T14	ORGANIZATION 164 231	Фонд развития Центра разработки и коммерциализации новых технологий
+T15	ORGANIZATION 233 248	Фонд «Сколково»
+R3	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+T16	DATE 427 456	в среду, 17 октября 2017 года
+T17	ORGANIZATION 469 485	Фонда «Сколково»
+T18	ORGANIZATION 517 526	Правления
+T19	ORGANIZATION 527 532	Фонда
+R4	OWNERSHIP Arg1:T19 Arg2:T18	
+R5	WORKPLACE Arg1:T8 Arg2:T18	
+R6	WORKS_AS Arg1:T8 Arg2:T4	
+R7	WORKS_AS Arg1:T2 Arg2:T5	
+T21	ORGANIZATION 1010 1025	Фонд «Сколково»
+T20	ORGANIZATION 2082 2099	Фондом «Сколково»
+T22	ORGANIZATION 2208 2222	Корпорации МСП

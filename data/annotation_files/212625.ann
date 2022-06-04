@@ -1,0 +1,64 @@
+T1	ORGANIZATION 0 6	Минфин
+T2	ORGANIZATION 67 73	Минфин
+T3	DATE 92 103	в 2015 году
+T4	MONEY 128 156	больше 500 миллиардов рублей
+T5	ORGANIZATION 160 176	Резервного фонда
+T6	ORGANIZATION 200 204	ТАСС
+T7	PERSON 292 306	Максим Орешкин
+T8	DATE 331 345	следующем году
+T9	ORGANIZATION 378 394	Резервного фонда
+T10	PERSON 448 455	Орешкин
+T11	ORGANIZATION 526 543	Советом Федерации
+T12	DATE 544 561	на прошлой неделе
+T13	ORGANIZATION 605 621	Резервного фонда
+T14	MONEY 631 655	до 500 миллиардов рублей
+T15	ORGANIZATION 775 796	Министерства финансов
+T16	PERSON 797 811	Антон Силуанов
+T17	ORGANIZATION 813 819	Минфин
+T18	DATE 930 944	следующем году
+T19	COUNTRY 998 1000	РФ
+T20	PERSON 1001 1019	Татьяна Нестеренко
+T21	DATE 1182 1193	за три года
+T22	CARDINAL 1214 1228	почти половина
+T23	ORGANIZATION 1229 1245	Резервного фонда
+T24	ORGANIZATION 1269 1275	Минфин
+T25	DATE 1298 1309	в 2015 году
+T26	COUNTRY 1376 1378	РФ
+T27	MONEY 1409 1424	триллион рублей
+T28	DATE 1426 1435	26 ноября
+T29	ORGANIZATION 1436 1452	Совета Федерации
+T30	DATE 1493 1501	2015 год
+T31	DATE 1523 1540	2016 и 2017 годов
+T32	DATE 1686 1697	на 2016 год
+T33	PERCENT 1791 1801	4 процента
+T34	ORGANIZATION 2023 2039	Резервного фонда
+T35	MONEY 2049 2073	до 500 миллиардов рублей
+T36	DATE 2185 2203	в течение трех лет
+T37	PROFESSION 214 222	директор
+T38	PROFESSION 769 774	глава
+T39	PROFESSION 961 979	первый заместитель
+T40	ORGANIZATION 27 43	Резервного фонда
+T41	ORGANIZATION 348 362	Резервный фонд
+R1	WORKS_AS Arg1:T7 Arg2:T37	
+R2	WORKS_AS Arg1:T20 Arg2:T39	
+R3	WORKS_AS Arg1:T16 Arg2:T38	
+R4	WORKPLACE Arg1:T16 Arg2:T15	
+R5	WORKPLACE Arg1:T20 Arg2:T19	
+R6	ABBREVIATION Arg1:T15 Arg2:T17	
+T42	MONEY 44 65	500 миллиардов рублей
+T43	DATE 494 511	на 2015-2017 годы
+T44	MONEY 1155 1181	около 1,5 триллиона рублей
+T45	PERCENT 1672 1684	5,5 процента
+T46	PERCENT 1725 1737	4,5 процента
+T47	ORGANIZATION 223 278	департамента долгосрочного стратегического планирования
+R7	WORKPLACE Arg1:T7 Arg2:T47	
+T48	CURRENCY 910 915	рубля
+T49	PROFESSION 980 997	министра финансов
+R8	SUBORDINATE_OF Arg1:T39 Arg2:T49	
+T50	LAW 1468 1540	О федеральном бюджете на 2015 год и на плановый период 2016 и 2017 годов
+T51	DATE 1571 1580	на 2015-й
+T52	MONEY 1632 1653	77,5 триллиона рублей
+T53	MONEY 1700 1722	83,21 триллиона рублей
+T54	DATE 1754 1763	на 2017-й
+T55	MONEY 1766 1788	90,06 триллиона рублей
+T56	PERCENT 2231 2243	0,6 процента

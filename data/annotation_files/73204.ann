@@ -1,0 +1,40 @@
+T1	ORGANIZATION 310 339	Федеральной таможенной службы
+T2	ORGANIZATION 341 344	ФТС
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T2
+T3	COUNTRY 0 6	Россия
+T4	COUNTRY 67 73	Россия
+T5	ORGANIZATION 251 271	Rambler News Service
+T6	COUNTRY 827 830	КНР
+T7	COUNTRY 864 871	Россией
+T8	COUNTRY 874 880	Китаем
+T9	COUNTRY 984 990	Россию
+T10	DATE 789 795	8 июня
+T11	PERCENT 24 39	на 26 процентов
+T13	DATE 356 361	в мае
+T14	PERCENT 908 923	на 20 процентов
+T15	PERCENT 1048 1062	на 23 процента
+T17	MONEY 189 213	71,99 миллиарда долларов
+T18	PERCENT 491 506	на 8,5 процента
+T19	DATE 881 896	в мае 2017 года
+T20	DATE 937 973	с аналогичным периодом прошлого года
+T21	DATE 1030 1037	годовом
+T22	MONEY 1074 1097	55,3 миллиарда долларов
+T12	DATE 41 66	С января по май 2017 года
+T16	PERCENT 127 143	на 25,9 процента
+T23	DATE 223 240	в пятницу, 9 июня
+T24	MONEY 399 423	16,56 миллиарда долларов
+T25	MONEY 509 535	до 8,67 миллиарда долларов
+T26	PERCENT 560 575	на 5,4 процента
+T27	MONEY 577 594	до 3,07 миллиарда
+T28	MONEY 679 705	до 1,91 миллиарда долларов
+T29	PERCENT 737 752	на 7,5 процента
+T30	MONEY 754 780	до 739,7 миллиона долларов
+T31	DATE 991 1016	в январе-апреле 2017 года
+T32	ORGANIZATION 797 826	главное таможенное управление
+R2	OWNERSHIP Arg1:T6 Arg2:T32	
+T33	GPE 108 126	дальнего зарубежья
+T34	GROUP 102 107	стран
+R3	MEMBER Arg1:T34 Arg2:T33	
+R4	SELLS_TO Arg1:T34 Arg2:T4	
+R5	SELLS_TO Arg1:T7 Arg2:T8	
+R6	SELLS_TO Arg1:T8 Arg2:T7	

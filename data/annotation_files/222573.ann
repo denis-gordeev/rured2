@@ -1,0 +1,35 @@
+T1	GPE 11 27	Дальнего Востока
+T2	GPE 117 132	Дальнем Востоке
+T3	MONEY 150 171	600 миллиардов рублей
+T4	ORGANIZATION 206 223	Минвостокразвития
+T5	PERSON 224 241	Александр Галушка
+T6	GPE 328 343	Дальнем Востоке
+T7	DATE 353 374	с 15 января 2015 года
+T8	CARDINAL 395 397	14
+T10	CARDINAL 416 424	37 тысяч
+T11	DATE 462 473	10 сентября
+T12	COUNTRY 484 490	России
+T13	PERSON 491 505	Владимир Путин
+T14	GPE 615 630	Дальнем Востоке
+T15	DATE 632 645	До 15 октября
+T16	ORGANIZATION 676 683	Госдуму
+T17	DATE 835 855	К 15 марта 2015 года
+T18	LOCATION 928 935	Русский
+T19	ORGANIZATION 952 991	Дальневосточный федеральный университет
+T20	MONEY 1043 1070	почти 240 миллиардов рублей
+T21	DATE 1085 1096	к 2025 году
+T22	GPE 1123 1137	Дальний Восток
+T23	MONEY 1155 1175	три триллиона рублей
+T24	PROFESSION 200 205	глава
+T25	PROFESSION 474 483	президент
+R1	WORKS_AS Arg1:T5 Arg2:T24	
+R2	WORKPLACE Arg1:T5 Arg2:T4	
+T26	ORGANIZATION 252 261	ИТАР-ТАСС
+R3	WORKPLACE Arg1:T13 Arg2:T12	
+R4	WORKS_AS Arg1:T13 Arg2:T25	
+T27	MONEY 40 61	600 миллиардов рублей
+T9	ORGANIZATION 646 659	правительство
+T28	ORGANIZATION 741 759	кабинету министров
+T29	DATE 816 833	на 2015-2017 годы
+T30	ORGANIZATION 856 869	правительство
+R5	HEADQUARTERED_IN Arg1:T19 Arg2:T18	

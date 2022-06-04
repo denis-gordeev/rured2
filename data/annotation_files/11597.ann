@@ -1,0 +1,12 @@
+T1	ORGANIZATION 171 175	ТАСС
+T2	PERSON 210 222	Ильи Трунина
+T3	COUNTRY 203 209	России
+T4	PERSON 366 372	Трунин
+T5	PROFESSION 182 202	замминистра финансов
+T6	MONEY 27 43	миллиарды рублей
+T7	MONEY 110 134	на 230 миллиардов рублей
+T8	MONEY 146 160	630 миллиардов
+R2	WORKPLACE Arg1:T2 Arg2:T3	
+R3	WORKS_AS Arg1:T2 Arg2:T5	
+T9	LAW 858 876	Налоговым кодексом
+T10	PROFESSION 908 919	замминистра

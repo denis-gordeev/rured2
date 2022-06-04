@@ -1,0 +1,41 @@
+T1	COUNTRY 88 94	России
+T2	DATE 95 106	в 2015 году
+T3	PROFESSION 172 199	первый замминистра финансов
+T4	PERSON 200 218	Татьяна Нестеренко
+T5	ORGANIZATION 229 240	РИА Новости
+T6	PERSON 242 252	Нестеренко
+T7	DATE 301 309	ежегодно
+T8	DATE 341 357	предыдущего года
+T9	MONEY 497 521	до 100 миллиардов рублей
+T10	PERSON 631 641	Нестеренко
+T11	DATE 662 673	в 2015 году
+T12	DATE 924 935	В 2014 году
+T13	MONEY 954 975	200 миллиардов рублей
+T14	DATE 983 994	15 сентября
+T15	ORGANIZATION 1001 1008	Минфина
+T16	PERSON 1009 1023	Антон Силуанов
+T17	DATE 1069 1080	в 2015 году
+T18	MONEY 1101 1122	309 миллиардов рублей
+T19	MONEY 1216 1246	не менее 100 миллиардов рублей
+T20	DATE 1248 1257	19 ноября
+T21	ORGANIZATION 1258 1268	Центробанк
+T23	DATE 1388 1423	до конца первого квартала 2015 года
+T24	ORGANIZATION 1441 1443	ЦБ
+T26	PERCENT 1492 1505	в 9 процентов
+T27	PERCENT 1518 1532	в 10 процентов
+T28	DATE 1533 1568	до конца первого квартала 2015 года
+T29	ORGANIZATION 1599 1616	Минэкономразвития
+T30	PERSON 1617 1632	Алексей Улюкаев
+T32	PROFESSION 612 623	замминистра
+T33	PROFESSION 995 1000	глава
+T34	PROFESSION 1593 1598	глава
+R1	WORKS_AS Arg1:T30 Arg2:T34	
+R2	WORKPLACE Arg1:T30 Arg2:T29	
+R3	WORKS_AS Arg1:T16 Arg2:T33	
+T35	PERCENT 425 447	от 8,5 до 10 процентов
+R4	WORKPLACE Arg1:T16 Arg2:T15	
+T22	PERCENT 1337 1349	8,4 процента
+T25	ORGANIZATION 74 87	правительства
+R6	OWNERSHIP Arg1:T1 Arg2:T25	
+T31	MONEY 711 734	50-60 миллиардов рублей
+R5	WORKS_AS Arg1:T4 Arg2:T3	

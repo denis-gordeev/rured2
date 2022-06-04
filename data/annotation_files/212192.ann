@@ -1,0 +1,12 @@
+T1	PERSON 0 5	Путин
+T2	COUNTRY 76 82	России
+T3	DATE 103 112	на 4 года
+T4	COUNTRY 139 145	России
+T5	PERSON 146 160	Владимир Путин
+T6	ORGANIZATION 189 210	Федеральному собранию
+T7	DATE 248 258	двухлетние
+T8	DATE 323 347	на ближайшие четыре года
+T9	PROFESSION 129 138	президент
+R1	WORKS_AS Arg1:T5 Arg2:T9	
+R2	WORKPLACE Arg1:T5 Arg2:T4	
+T10	DATE 27 36	на 4 года

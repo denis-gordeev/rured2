@@ -1,0 +1,49 @@
+T1	GPE 0 4	Киев
+T2	QUANTITY 11 30	миллиард кубометров
+T3	GPE 66 70	Киев
+T4	QUANTITY 79 98	миллиард кубометров
+T5	DATE 116 136	до конца этой недели
+T8	PERSON 181 197	Джеффри Пайеттом
+T9	PERSON 261 278	Владимир Демчишин
+T10	COUNTRY 327 338	украинского
+T11	PERSON 366 374	Демчишин
+T12	COUNTRY 427 434	Украины
+T13	DATE 631 640	3 декабря
+T14	COUNTRY 687 694	Украины
+T15	DATE 747 762	конца 2014 года
+T16	DATE 821 831	31 октября
+T17	COUNTRY 832 839	Украина
+T18	COUNTRY 841 847	Россия
+T19	ORGANIZATION 850 862	Еврокомиссия
+T20	CITY 873 881	Брюсселе
+T21	GPE 944 949	Киеву
+T22	COUNTRY 950 961	российского
+T23	DATE 971 989	До конца 2014 года
+T24	COUNTRY 990 997	Украина
+T25	DATE 1155 1197	с 1 ноября 2014 года по 31 марта 2015 года
+T26	GPE 1198 1204	Москва
+T27	GPE 1217 1222	Киеву
+T28	MONEY 1230 1244	в 100 долларов
+T29	QUANTITY 1245 1265	за тысячу кубометров
+T30	DATE 1350 1362	от 2009 года
+T31	PROFESSION 159 180	послом США на Украине
+T32	PROFESSION 205 210	глава
+T33	PROFESSION 642 686	министр энергетики и угольной промышленности
+T34	ORGANIZATION 719 728	Газпромом
+T35	ORGANIZATION 765 773	Нафтогаз
+T36	ORGANIZATION 1068 1076	Газпрома
+T37	ORGANIZATION 1324 1333	Газпромом
+T38	ORGANIZATION 1338 1348	Нафтогазом
+T39	DATE 48 63	до конца недели
+R1	WORKS_AS Arg1:T9 Arg2:T32	
+T40	COUNTRY 31 42	российского
+T41	COUNTRY 99 110	российского
+R2	WORKS_AS Arg1:T8 Arg2:T31	
+T6	ORGANIZATION 211 260	министерства энергетики и угольной промышленности
+R3	WORKPLACE Arg1:T9 Arg2:T6	
+R4	WORKPLACE Arg1:T33 Arg2:T14	
+T7	MONEY 792 819	еще 1,65 миллиарда долларов
+R5	SELLS_TO Arg1:T22 Arg2:T21	
+R6	ALTERNATIVE_NAME Arg1:T21 Arg2:T17	
+T42	MONEY 1019 1051	в размере 3,1 миллиарда долларов
+R7	SELLS_TO Arg1:T36 Arg2:T24	

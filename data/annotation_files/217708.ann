@@ -1,0 +1,32 @@
+T1	PERSON 0 5	Путин
+T2	COUNTRY 79 81	РФ
+T3	PERSON 82 96	Владимир Путин
+T4	LAW 117 133	Бюджетный кодекс
+T5	ORGANIZATION 292 298	Кремля
+T6	DATE 534 545	В 2014 году
+T7	ORGANIZATION 655 670	Россельхозбанка
+T8	ORGANIZATION 672 675	РЖД
+T9	ORGANIZATION 693 708	Внешэкономбанка
+T10	ORGANIZATION 815 830	Внешэкономбанку
+T11	DATE 1012 1026	в текущем году
+T12	DATE 1228 1244	В начале октября
+T13	PERSON 1245 1250	Путин
+T14	ORGANIZATION 1378 1394	Резервного фонда
+T15	PERSON 1662 1676	Андрей Макаров
+T16	ORGANIZATION 1755 1771	Резервного фонда
+T17	PROFESSION 69 78	Президент
+T18	PROFESSION 1612 1617	глава
+T19	ORGANIZATION 927 943	Резервного фонда
+R1	WORKS_AS Arg1:T3 Arg2:T17	
+R2	WORKS_AS Arg1:T15 Arg2:T18	
+T20	ORGANIZATION 1618 1661	комитета нижней палаты по бюджету и налогам
+T21	ORGANIZATION 546 559	правительство
+T22	MONEY 955 979	до 200 миллиардов рублей
+T23	DATE 1279 1299	с 1 января 2015 года
+T24	DATE 1776 1787	в 2015 году
+R3	WORKPLACE Arg1:T3 Arg2:T2	
+T25	ORGANIZATION 148 161	правительству
+T26	LAW 234 262	закону о федеральном бюджете
+T27	MONEY 597 623	более 70 миллиардов рублей
+R4	WORKPLACE Arg1:T15 Arg2:T20	
+T28	MONEY 1728 1751	примерно 500 миллиардов

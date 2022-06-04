@@ -1,0 +1,48 @@
+T1	COUNTRY 42 49	Украины
+T2	COUNTRY 89 96	Украины
+T3	MONEY 115 137	378 миллионов долларов
+T4	PERSON 190 206	Сергей Куприянов
+T5	ORGANIZATION 217 221	ТАСС
+T6	DATE 280 291	декабрьские
+T7	COUNTRY 301 312	российского
+T8	COUNTRY 363 370	Россией
+T9	COUNTRY 373 381	Украиной
+T10	DATE 384 391	октябре
+T11	COUNTRY 401 411	украинский
+T12	DATE 418 446	четвертом квартале 2014 года
+T13	MONEY 456 468	378 долларов
+T14	QUANTITY 472 489	тысячу кубометров
+T15	QUANTITY 536 555	миллиард кубометров
+T16	DATE 590 608	до конца 2014 года
+T17	COUNTRY 609 616	Украина
+T18	GPE 772 778	Москва
+T19	GPE 791 796	Киеву
+T20	MONEY 804 818	в 100 долларов
+T21	QUANTITY 819 839	за тысячу кубометров
+T22	DATE 841 849	4 ноября
+T23	ORDINAL 915 922	первого
+T24	DATE 967 976	3 декабря
+T25	COUNTRY 1022 1029	Украины
+T26	PERSON 1030 1041	Юрий Продан
+T27	DATE 1091 1109	до конца 2014 года
+T28	PROFESSION 167 180	представитель
+T29	PROFESSION 977 1021	министр энергетики и угольной промышленности
+T30	ORGANIZATION 1 8	Газпром
+T31	ORGANIZATION 52 59	Газпром
+T32	ORGANIZATION 230 246	Нафтогаз Украины
+T33	ORGANIZATION 507 515	Нафтогаз
+T34	ORGANIZATION 851 859	Нафтогаз
+T35	ORGANIZATION 870 878	Газпрому
+T36	ORGANIZATION 1066 1075	Газпромом
+T37	ORGANIZATION 1112 1120	Нафтогаз
+R1	WORKS_AS Arg1:T4 Arg2:T28	
+T38	MONEY 880 903	1,45 миллиарда долларов
+R2	WORKS_AS Arg1:T26 Arg2:T29	
+T39	MONEY 648 670	3,1 миллиарда долларов
+T40	DATE 731 771	С 1 ноября 2014 года по 31 марта 2015-го
+R3	WORKPLACE Arg1:T26 Arg2:T25	
+R4	SELLS_TO Arg1:T7 Arg2:T32	
+R5	SELLS_TO Arg1:T8 Arg2:T9	
+T41	MONEY 1139 1166	еще 1,65 миллиарда долларов
+R6	SELLS_TO Arg1:T35 Arg2:T34	
+R7	SELLS_TO Arg1:T18 Arg2:T19	

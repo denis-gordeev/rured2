@@ -1,0 +1,41 @@
+T1	COUNTRY 197 203	России
+T2	COUNTRY 206 211	Китай
+T3	DATE 231 239	два года
+T4	PERSON 320 339	Константин Степовой
+T5	DATE 396 413	к концу 2018 года
+T7	PERSON 562 581	Константин Степовой
+T9	PERSON 689 703	Виктора Селина
+T10	PERSON 711 716	Селин
+T11	DATE 731 740	2018 году
+T12	DATE 863 871	2020 год
+T13	REGION 1019 1028	Якутского
+T15	CITY 1108 1118	Иркутского
+T17	REGION 1219 1233	Дальний Восток
+T18	COUNTRY 1245 1250	Китай
+T19	QUANTITY 1288 1303	3968 километров
+T20	PROFESSION 269 289	генеральный директор
+T21	PROFESSION 511 531	генеральный директор
+T22	PROFESSION 625 638	замначальника
+T23	ORGANIZATION 290 319	ООО «Газпром добыча Ноябрьск»
+T24	ORGANIZATION 532 561	ООО «Газпром добыча Ноябрьск»
+T25	ORGANIZATION 1 8	Газпром
+T26	FAC 49 60	Силы Сибири
+T27	ORGANIZATION 64 71	Газпром
+T28	FAC 487 498	Силу Сибири
+T29	FAC 942 953	Сила Сибири
+T30	ORGANIZATION 664 687	Газпром добыча Ноябрьск
+T8	ORGANIZATION 639 662	Чаяндинского управления
+R1	OWNERSHIP Arg1:T30 Arg2:T8
+R2	WORKS_AS Arg1:T9 Arg2:T22
+R3	WORKPLACE Arg1:T9 Arg2:T8
+R4	WORKPLACE Arg1:T4 Arg2:T23
+R5	WORKS_AS Arg1:T4 Arg2:T20
+T31	FAC 148 159	Сила Сибири
+R6	WORKS_AS Arg1:T7 Arg2:T21
+T32	COUNTRY 1234 1240	России
+R7	OWNERSHIP Arg1:T32 Arg2:T17	
+R8	WORKPLACE Arg1:T7 Arg2:T24	
+T6	FAC 436 461	Чаяндинском месторождении
+T14	FAC 1038 1064	Чаяндинского месторождения
+T16	FAC 1128 1155	Ковыктинского месторождения
+T33	QUANTITY 1171 1195	1,5 триллиона кубометров

@@ -1,0 +1,39 @@
+T1	PERSON 997 1008	Пенья Ньето
+T2	GPE 971 989	латиноамериканской
+T3	PROFESSION 723 733	президента
+T4	PROFESSION 961 970	Президент
+T5	COUNTRY 0 3	США
+T6	COUNTRY 47 50	США
+T7	ORGANIZATION 236 247	Белого дома
+T8	GPE 261 270	Вашингтон
+T9	COUNTRY 422 425	США
+T10	COUNTRY 586 593	Америка
+T11	PERSON 689 702	Дональд Трамп
+T12	COUNTRY 734 737	США
+T13	COUNTRY 877 880	США
+T14	COUNTRY 920 928	Мексикой
+T15	PERSON 1053 1058	Трамп
+T16	COUNTRY 1116 1124	Мексикой
+T17	COUNTRY 1127 1134	Канадой
+T18	ORGANIZATION 1136 1141	NAFTA
+T20	QUANTITY 821 850	примерно 11 миллионов человек
+R2	WORKS_AS Arg1:T11 Arg2:T3	
+T21	ORGANIZATION 14 45	Транстихоокеанского партнерства
+R3	MEMBER Arg1:T5 Arg2:T21	
+T19	ORGANIZATION 61 92	Транстихоокеанского партнерства
+T22	GROUP 125 133	странами
+T23	CARDINAL 122 124	12
+T24	GPE 134 165	Азиатско-Тихоокеанского региона
+R4	MEMBER Arg1:T6 Arg2:T19	
+T25	ORGANIZATION 305 347	Североамериканской зоне свободной торговли
+T26	PROFESSION 675 688	Республиканец
+R5	WORKS_AS Arg1:T11 Arg2:T26	
+R6	WORKPLACE Arg1:T11 Arg2:T12	
+T27	DATE 738 747	20 января
+R1	WORKS_AS Arg1:T1 Arg2:T4	
+T28	ORGANIZATION 1143 1185	Североамериканская зона свободной торговли
+R7	ALTERNATIVE_NAME Arg1:T18 Arg2:T28	
+R8	MEMBER Arg1:T17 Arg2:T18	
+R9	MEMBER Arg1:T16 Arg2:T18	
+T29	PROFESSION 1201 1214	республиканца
+T30	CURRENCY 1215 1232	мексиканский песо

@@ -1,0 +1,27 @@
+T1	ORGANIZATION 253 329	комитета Госдумы по природным ресурсам, собственности и земельным отношениям
+T2	PERSON 330 346	Николай Николаев
+R1	WORKPLACE Arg1:T2 Arg2:T1
+T3	COUNTRY 74 80	России
+T4	PROFESSION 247 252	глава
+T5	ORGANIZATION 446 453	Госдумы
+T6	PERSON 667 675	Николаев
+T7	PERSON 846 854	Николаев
+T8	PROFESSION 1008 1017	президент
+T9	COUNTRY 1018 1024	России
+T10	PERSON 1025 1039	Владимир Путин
+T11	COUNTRY 1152 1162	российский
+T12	ORGANIZATION 1163 1173	Минсельхоз
+T13	COUNTRY 1216 1222	России
+T14	PERSON 1389 1405	Александр Ткачев
+R2	WORKS_AS Arg1:T10 Arg2:T8	
+R3	WORKPLACE Arg1:T10 Arg2:T9	
+T15	ORGANIZATION 355 375	Парламентская газета
+R4	WORKS_AS Arg1:T2 Arg2:T4	
+T16	DATE 454 464	в сентябре
+T17	CARDINAL 715 730	на три четверти
+T18	PROFESSION 990 997	депутат
+T19	DATE 999 1007	В апреле
+T20	DATE 1140 1151	В 2017 году
+R5	OWNERSHIP Arg1:T11 Arg2:T12	
+T21	PROFESSION 1414 1443	министром сельского хозяйства
+R6	WORKS_AS Arg1:T14 Arg2:T21	

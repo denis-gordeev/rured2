@@ -1,0 +1,19 @@
+T1	COUNTRY 61 63	РФ
+T2	DATE 71 92	с 1 февраля 2015 года
+T3	PERCENT 142 154	15 процентов
+T4	MONEY 173 189	не менее 35 евро
+T5	QUANTITY 190 203	за одну тонну
+T6	PERSON 635 652	Аркадий Дворкович
+T7	QUANTITY 667 685	104 миллионов тонн
+T8	QUANTITY 780 797	28 миллионов тонн
+T9	QUANTITY 829 844	21 миллион тонн
+T10	PROFESSION 622 634	вице-премьер
+R1	WORKS_AS Arg1:T6 Arg2:T10	
+T11	ORGANIZATION 47 60	Правительство
+T12	DATE 34 45	с 1 февраля
+R2	OWNERSHIP Arg1:T1 Arg2:T11	
+T13	MONEY 155 168	плюс 7,5 евро
+T14	DATE 248 269	в четверг, 25 декабря
+T15	ORGANIZATION 280 287	кабмина
+T16	ORGANIZATION 478 491	правительство
+T17	DATE 582 608	в понедельник,  22 декабря

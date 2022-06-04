@@ -1,0 +1,38 @@
+T1	REGION 0 8	Башкирия
+T2	REGION 11 30	Челябинская область
+T3	REGION 62 70	Башкирии
+T4	REGION 73 92	Челябинской области
+T5	CARDINAL 128 134	десять
+T6	ORGANIZATION 219 222	РБК
+T7	REGION 283 291	Башкирии
+T8	ORGANIZATION 295 329	Карабашский медеплавительный завод
+T9	REGION 332 351	Челябинской области
+T10	QUANTITY 352 366	27 тысячи тонн
+T11	DATE 488 501	до конца года
+T13	QUANTITY 555 586	около 110 тысячи тонн цинкового
+T14	REGION 643 662	Челябинская область
+T15	REGION 740 748	Башкирии
+T16	ORGANIZATION 432 466	Башкирского медносерного комбината
+T17	ORGANIZATION 735 739	ГОКи
+T18	FAC 181 184	ГОК
+T19	ORGANIZATION 389 409	ОАО "Учалинский ГОК"
+T20	ORGANIZATION 101 115	медный холдинг
+R2	OWNERSHIP Arg1:T3 Arg2:T20	
+R3	OWNERSHIP Arg1:T4 Arg2:T20	
+T21	FAC 188 208	медные месторождения
+R4	OWNERSHIP Arg1:T20 Arg2:T21	
+R5	SELLS_TO Arg1:T19 Arg2:T8	
+R6	SELLS_TO Arg1:T16 Arg2:T8	
+T12	ORGANIZATION 514 554	Челябинский электролитный цинковый завод
+R7	SELLS_TO Arg1:T19 Arg2:T12	
+R8	SELLS_TO Arg1:T16 Arg2:T12	
+R9	SELLS_TO Arg1:T14 Arg2:T17	
+R10	HEADQUARTERED_IN Arg1:T17 Arg2:T15	
+R11	HEADQUARTERED_IN Arg1:T8 Arg2:T9	
+T22	FAC 135 179	добывающих и горнообогатительных предприятий
+R12	ABBREVIATION Arg1:T22 Arg2:T18	
+T23	GROUP 55 61	Власти
+R13	WORKPLACE Arg1:T23 Arg2:T3	
+R15	WORKPLACE Arg1:T23 Arg2:T4	
+R1	OWNERSHIP Arg1:T20 Arg2:T22	
+T24	QUANTITY 412 428	5,48 тысячи тонн

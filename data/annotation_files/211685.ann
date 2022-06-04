@@ -1,0 +1,26 @@
+T1	ORGANIZATION 0 3	ФАС
+T2	NORP 27 36	россиянам
+T3	ORGANIZATION 130 165	Федеральной антимонопольной службой
+T4	ORGANIZATION 338 341	ФАС
+T5	PERSON 342 360	Сергей Пузыревский
+T6	PERCENT 398 418	от 1 до 15 процентов
+T7	ORGANIZATION 506 540	Федеральная антимонопольная служба
+T8	ORGANIZATION 873 876	ФАС
+T9	ORGANIZATION 934 954	Государственной Думы
+T10	DATE 980 1002	весной следующего года
+T11	PERSON 1164 1176	Пузыревского
+T12	ORGANIZATION 1445 1448	ФАС
+T13	ORGANIZATION 1661 1664	ФАС
+T14	ORGANIZATION 1704 1737	Общество защиты прав потребителей
+T15	PERCENT 1968 1977	1 процент
+T16	PERCENT 1982 1994	15 процентов
+T17	PERCENT 2121 2139	более 35 процентов
+T18	CARDINAL 2147 2153	одного
+T19	COUNTRY 2184 2190	России
+T20	PROFESSION 307 316	начальник
+T21	ORGANIZATION 278 286	Известия
+R1	WORKPLACE Arg1:T5 Arg2:T22	
+T22	ORGANIZATION 317 337	правового управления
+R2	OWNERSHIP Arg1:T4 Arg2:T22	
+T23	LAW 99 112	О конкуренции
+T24	LAW 903 916	О конкуренции

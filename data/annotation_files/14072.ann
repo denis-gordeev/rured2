@@ -1,0 +1,26 @@
+T1	PERSON 12 18	Путина
+T2	ORGANIZATION 163 166	РБК
+T3	ORGANIZATION 236 247	Центр стиля
+T4	PERSON 609 622	Юрий Черненко
+T5	PERSON 932 948	Владимира Путина
+T7	PRODUCT 1111 1116	Aurus
+T6	PRODUCT 984 997	Сенат-лимузин
+T8	PROFESSION 921 931	президента
+R1	WORKS_AS Arg1:T5 Arg2:T8	
+T9	ORGANIZATION 248 252	НАМИ
+T10	ORGANIZATION 254 333	Центрального научно-исследовательского автомобильного и автомоторного института
+R2	ABBREVIATION Arg1:T10 Arg2:T9	
+R3	OWNERSHIP Arg1:T9 Arg2:T3	
+T11	PRODUCT 42 57	Проект «Кортеж»
+T12	COUNTRY 72 82	российские
+T13	CARDINAL 769 780	пятиместный
+T14	CARDINAL 815 826	семиместный
+T15	DATE 894 899	7 мая
+T16	PROFESSION 596 601	глава
+R4	WORKS_AS Arg1:T4 Arg2:T16	
+T17	PRODUCT 3 10	Кортеже
+T18	PRODUCT 864 870	Кортеж
+T19	EVENT 909 920	инаугурации
+R5	EVENT_TAKES_PART_IN Arg1:T5 Arg2:T19	
+T20	PRODUCT 1040 1053	седан «Сенат»
+T21	PRODUCT 1056 1073	минивэн «Арсенал»

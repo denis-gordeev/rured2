@@ -1,0 +1,37 @@
+T1	ORGANIZATION 0 2	ЕС
+T2	COUNTRY 11 18	Украине
+T3	ORGANIZATION 47 55	Евросоюз
+T4	COUNTRY 79 86	Украине
+T5	MONEY 109 128	на 2 миллиарда евро
+T6	ORGANIZATION 151 163	Еврокомиссии
+T7	PERSON 164 183	Жозе Мануэл Баррозу
+T8	ORGANIZATION 194 198	ТАСС
+T9	DATE 419 433	В начале марта
+T10	ORGANIZATION 434 446	Еврокомиссия
+T11	GPE 467 478	европейской
+T12	COUNTRY 500 507	Украине
+T13	MONEY 522 548	порядка 11 миллиардов евро
+T14	ORGANIZATION 659 671	Еврокомиссия
+T15	ORGANIZATION 708 710	ЕС
+T16	DATE 711 733	на период до 2020 года
+T17	MONEY 775 792	8 миллиардов евро
+T18	ORGANIZATION 862 878	Европейский банк
+T19	MONEY 905 917	5 миллиардов
+T20	ORGANIZATION 921 952	Европейский инвестиционный банк
+T21	MONEY 954 965	3 миллиарда
+T22	COUNTRY 1059 1069	украинской
+T23	ORDINAL 1138 1144	Первый
+T24	MONEY 1176 1189	100 миллионов
+T25	DATE 1209 1215	20 мая
+T26	DATE 1217 1224	10 июня
+T27	ORGANIZATION 1225 1237	Еврокомиссия
+T28	COUNTRY 1256 1263	Украине
+T29	MONEY 1264 1282	500 миллионов евро
+T30	DATE 1286 1293	17 июня
+T31	CARDINAL 1296 1313	еще 500 миллионов
+T32	PROFESSION 145 150	глава
+R1	WORKS_AS Arg1:T7 Arg2:T32	
+R2	WORKPLACE Arg1:T7 Arg2:T6	
+T33	MONEY 19 38	в 2 миллиардах евро
+T34	MONEY 633 658	около 1,5 миллиардов евро
+T35	MONEY 608 627	1,61 миллиарда евро

@@ -1,0 +1,31 @@
+T1	GPE 2 8	Москве
+T2	EVENT 18 46	Национальный платежный форум
+T3	ORGANIZATION 67 76	Swissotel
+T4	GPE 79 85	Москве
+T5	DATE 86 94	6 ноября
+T6	DATE 104 115	двухдневный
+T7	EVENT 116 144	Национальный платежный форум
+T8	DATE 182 193	первый день
+T9	ORDINAL 248 254	второй
+T10	COUNTRY 558 568	российские
+T11	ORGANIZATION 611 648	Ассоциации региональных банков России
+T12	PERSON 649 665	Анатолий Аксаков
+T13	PERSON 670 683	Лилия Беляева
+T14	ORGANIZATION 687 721	Федеральной антимонопольной службы
+T15	DATE 768 779	первый день
+T16	ORGANIZATION 825 851	Ассоциации шведских банков
+T17	PERSON 852 864	Ларс Рутберг
+T18	PROFESSION 601 610	президент
+T19	PROFESSION 796 824	старший юридический советник
+R1	WORKPLACE Arg1:T12 Arg2:T11	
+R2	WORKS_AS Arg1:T12 Arg2:T18	
+R3	ORIGINS_FROM Arg1:T12 Arg2:T10	
+R4	WORKPLACE Arg1:T13 Arg2:T14	
+R5	ORIGINS_FROM Arg1:T13 Arg2:T10	
+R6	WORKS_AS Arg1:T17 Arg2:T19	
+R7	TAKES_PLACE_IN Arg1:T2 Arg2:T1	
+R8	HEADQUARTERED_IN Arg1:T3 Arg2:T4	
+R9	TAKES_PLACE_IN Arg1:T7 Arg2:T4	
+R10	DATE_TAKES_PLACE_ON Arg1:T7 Arg2:T5	
+T20	EVENT 529 535	форуме
+T21	ORGANIZATION 867 875	Лента.ру

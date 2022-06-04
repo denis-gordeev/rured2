@@ -1,0 +1,25 @@
+T1	COUNTRY 0 10	Белоруссия
+T2	COUNTRY 140 150	Белоруссии
+T3	ORGANIZATION 585 588	ФАС
+T4	COUNTRY 589 595	России
+T5	ORGANIZATION 598 602	МАРТ
+T6	ORGANIZATION 718 729	Коммерсантъ
+T7	COUNTRY 745 751	Россия
+T8	COUNTRY 788 798	Белоруссию
+R1	OWNERSHIP Arg1:T4 Arg2:T3	
+T9	ORGANIZATION 78 132	Министерство антимонопольного регулирования и торговли
+T10	ORGANIZATION 134 138	МАРТ
+R2	ABBREVIATION Arg1:T9 Arg2:T10	
+R3	OWNERSHIP Arg1:T2 Arg2:T9	
+T11	DATE 337 347	30 декабря
+T12	DATE 537 553	31 марта 2017-го
+T13	DATE 576 584	9 января
+T14	DATE 698 709	тот же день
+T15	DATE 830 845	первом квартале
+T16	COUNTRY 60 70	российской
+T17	PRODUCT 71 76	нефти
+T18	PERCENT 412 430	7,7-11,76 процента
+T19	DATE 473 506	с 1 февраля по 31 марта 2017 года
+T20	DATE 685 694	2017 году
+R4	SELLS_TO Arg1:T7 Arg2:T8	
+T21	QUANTITY 801 827	4,5 до до 4 миллионов тонн

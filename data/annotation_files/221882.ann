@@ -1,0 +1,29 @@
+T1	DATE 41 58	на ближайшие годы
+T2	DATE 131 145	ближайшие годы
+T3	COUNTRY 178 184	России
+T4	PERSON 185 201	Дмитрий Медведев
+T5	DATE 413 424	в 2013 году
+T6	DATE 478 499	за последние пять лет
+T7	DATE 603 609	на год
+T8	PERCENT 726 741	на один процент
+T9	DATE 747 765	В начале 2014 года
+T10	ORGANIZATION 766 783	Минэкономразвития
+T12	DATE 940 945	в мае
+T13	COUNTRY 975 981	России
+T14	PERSON 982 998	Владимира Путина
+T15	PERSON 999 1014	Андрей Белоусов
+T16	PROFESSION 162 177	премьер-министр
+T17	PROFESSION 955 963	помощник
+T18	ORGANIZATION 213 222	Интерфакс
+R1	WORKS_AS Arg1:T4 Arg2:T16	
+R2	WORKPLACE Arg1:T4 Arg2:T3	
+R3	WORKS_AS Arg1:T14 Arg2:T23	
+T19	ORGANIZATION 0 13	Правительство
+R4	WORKPLACE Arg1:T14 Arg2:T13	
+T22	DATE 447 457	каждый год
+T20	ORGANIZATION 60 73	Правительство
+T11	PERCENT 891 899	с одного
+T21	PERCENT 900 916	до 1,75 процента
+T23	PROFESSION 964 974	президента
+R5	SUBORDINATE_OF Arg1:T17 Arg2:T23	
+R7	WORKS_AS Arg1:T15 Arg2:T17	

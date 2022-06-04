@@ -1,0 +1,57 @@
+T1	GPE 0 4	Киев
+T2	COUNTRY 31 37	России
+T3	COUNTRY 40 47	Украина
+T4	COUNTRY 75 81	России
+T5	COUNTRY 362 369	Украину
+T6	PERSON 416 432	Сергей Куприянов
+T7	ORGANIZATION 443 447	ТАСС
+T8	DATE 449 458	6 декабря
+T9	MONEY 500 522	378 миллионов долларов
+T10	QUANTITY 546 566	миллиарда кубометров
+T11	COUNTRY 567 578	российского
+T12	DATE 585 599	В конце ноября
+T13	DATE 647 660	до конца года
+T14	QUANTITY 668 687	миллиард кубометров
+T15	COUNTRY 688 699	российского
+T16	COUNTRY 751 758	Украины
+T17	PERSON 759 770	Юрий Продан
+T18	COUNTRY 796 803	Украина
+T19	DATE 831 843	до 1 декабря
+T20	COUNTRY 873 880	Украина
+T21	COUNTRY 882 888	Россия
+T22	ORGANIZATION 891 903	Еврокомиссия
+T23	DATE 904 914	31 октября
+T24	CITY 925 933	Брюсселе
+T25	DATE 949 955	зимний
+T26	GPE 1011 1016	Киеву
+T27	DATE 1038 1056	До конца 2014 года
+T28	COUNTRY 1057 1064	Украина
+T29	GPE 1246 1252	Москва
+T30	GPE 1265 1270	Киеву
+T31	MONEY 1278 1292	в 100 долларов
+T32	QUANTITY 1293 1313	за тысячу кубометров
+T33	DATE 1315 1323	4 ноября
+T34	ORDINAL 1389 1396	первого
+T35	PROFESSION 393 406	представитель
+T36	PROFESSION 706 750	Министр энергетики и угольной промышленности
+T37	ORGANIZATION 143 154	Укртрансгаз
+T38	ORGANIZATION 254 261	Газпром
+T39	ORGANIZATION 329 336	Газпром
+T40	ORGANIZATION 460 476	Нафтогаз Украины
+T41	ORGANIZATION 490 498	Газпрому
+T42	ORGANIZATION 613 622	Нафтогаза
+T43	ORGANIZATION 819 827	Газпрома
+T44	ORGANIZATION 1325 1333	Нафтогаз
+T45	ORGANIZATION 1344 1352	Газпрому
+R1	WORKS_AS Arg1:T6 Arg2:T35	
+T47	MONEY 1354 1377	1,45 миллиарда долларов
+T46	TIME 297 327	С 10:00 по московскому времени
+R2	SELLS_TO Arg1:T39 Arg2:T5	
+R3	WORKS_AS Arg1:T17 Arg2:T36	
+T48	QUANTITY 219 243	43,5 миллиона кубометров
+R4	SELLS_TO Arg1:T11 Arg2:T40	
+R5	SELLS_TO Arg1:T15 Arg2:T42	
+R6	WORKPLACE Arg1:T17 Arg2:T16	
+T49	COUNTRY 1017 1028	российского
+T50	MONEY 1086 1118	в размере 3,1 миллиарда долларов
+T51	DATE 1205 1245	с 1 ноября 2014 года по 31 марта 2015-го

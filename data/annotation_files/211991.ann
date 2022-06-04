@@ -1,0 +1,42 @@
+T1	COUNTRY 0 6	Россия
+T2	COUNTRY 37 45	Словакии
+T3	COUNTRY 60 66	Россия
+T4	COUNTRY 83 92	Словакией
+T5	ORGANIZATION 174 185	РИА Новости
+T6	DATE 215 224	на 15 лет
+T7	DATE 307 318	на пять лет
+T8	COUNTRY 380 388	Словакия
+T9	QUANTITY 438 464	около шести миллионов тонн
+T10	CARDINAL 472 491	еще шесть миллионов
+T11	GPE 541 556	Западной Европы
+T12	COUNTRY 582 593	российского
+T13	ORGANIZATION 594 603	Минэнерго
+T14	PERSON 604 619	Александр Новак
+T15	COUNTRY 645 653	Словакии
+T16	PERSON 654 666	Павол Павлис
+T17	COUNTRY 709 719	российской
+T18	QUANTITY 851 874	до шести миллионов тонн
+T19	GPE 1172 1188	Восточной Европы
+T20	PROFESSION 576 581	глава
+T21	PROFESSION 622 644	министр промышленности
+T22	FAC 834 840	Дружбе
+T23	FAC 999 1005	Дружба
+R1	WORKS_AS Arg1:T16 Arg2:T21	
+T24	DATE 1069 1082	в 1960-е годы
+T25	REGION 1121 1136	Волго-Уральской
+R2	WORKPLACE Arg1:T16 Arg2:T15	
+R3	WORKS_AS Arg1:T14 Arg2:T20	
+R4	WORKPLACE Arg1:T14 Arg2:T13	
+R5	OWNERSHIP Arg1:T12 Arg2:T13	
+T26	GPE 1207 1225	дальнего зарубежья
+T27	DATE 46 58	до 2029 года
+R6	SELLS_TO Arg1:T1 Arg2:T2	
+R7	SELLS_TO Arg1:T3 Arg2:T4	
+T28	GPE 137 148	европейские
+T29	DATE 226 263	с января 2015 года до конца 2029 года
+T30	FAC 406 412	Дружба
+T31	DATE 741 752	в 1999 году
+T32	DATE 764 784	31 декабря 2014 года
+T33	DATE 930 941	в 2000 году
+T34	DATE 975 996	31 декабря этого года
+T35	QUANTITY 1250 1268	66,5 миллиона тонн
