@@ -1,3 +1,3 @@
 # rured2
 
-[[Colab]](https://colab.research.google.com/drive/1h6fHEJZNJsn7WZaxgHJHn972hDi8JTqX?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12YRRzhl5cHER_U2F-buQxif8GlhMPWq3?usp=sharing)
