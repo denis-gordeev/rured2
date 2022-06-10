@@ -58,3 +58,12 @@ T40	ORGANIZATION 1141 1154	правительство
 R18	OWNERSHIP Arg1:T33 Arg2:T40	
 T41	GROUP 1199 1211	телекомпаний
 T42	GROUP 1214 1219	газет
+T43	EVENT 314 320	форума
+T44	GROUP 348 354	гостей
+T45	NEWS_SOURCE 359 380	публичных выступлений
+T46	FAMILY 406 409	сын
+T47	TRADE_AGREEMENT 789 818	сделала предложение о покупке
+T48	ORGANIZATION 938 950	телекомпания
+T49	WORK_OF_ART 1004 1021	фильм-блокбастеры
+T50	NEWS_SOURCE 1043 1064	новостным телеканалом
+T51	TRADE_AGREEMENT 1087 1121	регуляторы дали согласие на сделку

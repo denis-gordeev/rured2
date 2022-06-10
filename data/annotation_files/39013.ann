@@ -45,3 +45,10 @@ T34	PROFESSION 1107 1115	чиновник
 T35	MONEY 1167 1187	3 миллиарда долларов
 T36	DATE 1256 1273	в декабре 2017-го
 T37	DATE 1326 1349	весной-осенью 2018 года
+T38	GROUP 367 396	высокопоставленных чиновников
+T39	GROUP 413 424	бизнесменов
+R11	WORKPLACE Arg1:T38 Arg2:T25	
+R12	WORKPLACE Arg1:T39 Arg2:T25	
+T40	NEWS_SOURCE 327 345	кремлевский доклад
+R13	WORKPLACE Arg1:T18 Arg2:T33	
+T41	GROUP 1513 1523	инвесторам
