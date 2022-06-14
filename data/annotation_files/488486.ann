@@ -54,5 +54,19 @@ T37	PROFESSION 1064 1101	дизайнер одежды и ювелирных у�
 T38	PROFESSION 1170 1186	эстрадной певицы
 R17	WORKS_AS Arg1:T21 Arg2:T38	
 T39	PERSON 1210 1219	GooGoosha
-R18	ALTERNATIVE_NAME Arg1:T21 Arg2:T39	
 R19	WORKS_AS Arg1:T39 Arg2:T38	
+T40	FAMILY 0 4	Дочь
+T41	PRODUCT 31 50	ювелирную коллекцию
+T42	ORGANIZATION 67 75	компании
+R20	HEADQUARTERED_IN Arg1:T42 Arg2:T24	
+T43	FAMILY 77 81	Дочь
+T44	PRODUCT 156 175	ювелирной коллекции
+T45	NEWS_SOURCE 215 263	Как передает региональное агентство "Фергана.ру"
+T46	ORGANIZATION 361 369	компании
+R21	HEADQUARTERED_IN Arg1:T46 Arg2:T25	
+T47	PRODUCT 397 406	коллекции
+T48	NEWS_SOURCE 491 514	По словам Груози-Шойфел
+R22	OWNERSHIP Arg1:T13 Arg2:T34	
+T49	FAMILY 643 655	Старшая дочь
+T50	PROFESSION 743 760	главы государства
+R18	ALTERNATIVE_NAME Arg1:T21 Arg2:T39	

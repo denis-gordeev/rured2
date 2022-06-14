@@ -41,3 +41,12 @@ R7	OWNERSHIP Arg1:T33 Arg2:T16
 R8	WORKPLACE Arg1:T17 Arg2:T16	
 T34	ORGANIZATION 1390 1395	Сisco
 T35	ORGANIZATION 1397 1416	Sсhnеider Eletctric
+T36	INVESTMENT_PROGRAM 97 118	соглашение о создании
+T37	NEWS_SOURCE 247 259	пресс-релизе
+T38	ECONOMIC_SECTOR 377 421	добывающей и перерабатывающей промышленности
+T39	PROFESSION 433 449	горного инженера
+T40	PROFESSION 490 501	профессоров
+T41	GROUP 871 885	рабочие группы
+T42	ORGANIZATION 318 321	Вуз
+T43	GROUP 649 658	экспертов
+T44	GROUP 1107 1129	учебных заведений мира

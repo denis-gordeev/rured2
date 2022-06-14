@@ -39,3 +39,15 @@ T37	QUANTITY 935 948	16,1 миллиона
 T29	QUANTITY 1036 1044	половину
 T38	QUANTITY 1085 1097	7,4 миллиона
 T39	ORGANIZATION 1445 1453	Telegram
+T40	ECONOMIC_SECTOR 15 37	добычу сланцевой нефти
+T41	ECONOMIC_SECTOR 39 61	Добыча сланцевой нефти
+T42	NEWS_SOURCE 228 242	передает CNBC.
+T43	ECONOMIC_SECTOR 466 477	нефтедобычи
+T44	GROUP 682 690	эксперты
+R3	WORKPLACE Arg1:T44 Arg2:T10	
+T45	NEWS_SOURCE 825 847	По оценкам организации
+T46	ECONOMIC_SECTOR 889 914	добычу нефти и конденсата
+T47	ECONOMIC_SECTOR 999 1015	сланцевая добыча
+T48	ECONOMIC_SECTOR 1051 1076	добычи нефти и конденсата
+T49	GROUP 1206 1229	страны-экспортеры нефти
+T50	ECONOMIC_SECTOR 1302 1314	добычи нефти

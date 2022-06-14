@@ -43,3 +43,30 @@ R9	NUMBER_OF_EMPLOYEES_FIRED Arg1:T34 Arg2:T4
 T12	PERCENT 661 676	четыре процента
 T35	ORGANIZATION 916 963	пенсионного фонда телекоммуникационной компании
 T36	CARDINAL 1831 1843	4,6 миллиона
+T37	GROUP 141 152	сотрудников
+R10	WORKPLACE Arg1:T37 Arg2:T34	
+T38	NEWS_SOURCE 176 204	пишет газета The Independent
+T39	ORGANIZATION 215 223	компании
+R11	NUMBER_OF_EMPLOYEES_FIRED Arg1:T39 Arg2:T6	
+T40	PROFESSION 492 505	консультантов
+T41	PROFESSION 508 535	работников договора подряда
+T42	GROUP 561 572	сотрудников
+T43	ORGANIZATION 642 650	компании
+T44	GROUP 716 727	сотрудников
+R12	WORKPLACE Arg1:T44 Arg2:T13	
+T45	GROUP 858 869	сотрудников
+R13	WORKPLACE Arg1:T45 Arg2:T14	
+T46	GROUP 878 886	служащие
+R14	WORKPLACE Arg1:T46 Arg2:T30	
+T47	GROUP 1119 1130	сотрудников
+T48	NEWS_SOURCE 1132 1143	BT объявила
+T49	NEWS_SOURCE 1198 1221	обнародованы результаты
+T50	ORGANIZATION 1299 1307	компании
+T51	FAC 1531 1557	проводной телефонной связи
+T52	FAC 1559 1593	широкополосного доступа в интернет
+T53	FAC 1596 1618	кабельного телевидения
+T54	ORGANIZATION 1620 1633	Подразделения
+T55	ORGANIZATION 1634 1642	компании
+R15	OWNERSHIP Arg1:T55 Arg2:T54	
+T56	GROUP 1686 1697	сотрудников
+T57	FAC 1800 1819	интернет-провайдера

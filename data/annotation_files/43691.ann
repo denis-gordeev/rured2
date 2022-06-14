@@ -12,9 +12,41 @@ T10	PERSON 1493 1507	Владимир Путин
 T11	ORGANIZATION 1531 1533	ЦБ
 T12	ORGANIZATION 1536 1540	АИЖК
 T13	ORGANIZATION 1674 1682	Минстроя
-T14	GROUP 305 310	семье
+T14	FAMILY 305 310	семье
 T15	COUNTRY 3 13	российском
 T15	COUNTRY 3 13	российском
 T16	CARDINAL 1022 1026	один
 T17	CARDINAL 1420 1422	19
-T18	DATE 376 392	1 июля 2019 года
+T19	COUNTRY 182 189	россиян
+T20	ECONOMIC_SECTOR 194 213	строительстве жилья
+T21	ECONOMIC_SECTOR 228 252	банковским кредитованием
+T22	DATE 262 271	в пятницу
+T23	DATE 273 283	15 декабря
+T24	NEWS_SOURCE 330 348	газета «Ведомости»
+R2	MEMBER Arg1:T6 Arg2:T14	
+T25	DATE 374 392	C 1 июля 2019 года
+T18	GROUP 393 405	застройщикам
+T26	GROUP 482 492	покупатели
+T27	NEWS_SOURCE 646 662	прим. «Ленты.ру»
+T28	ORGANIZATION 681 687	банках
+T31	TRADE_AGREEMENT 744 783	договор участия в долевом строительстве
+T32	ORGANIZATION 867 871	банк
+T33	ORDINAL 820 827	Третьей
+T29	FAC 20 25	жилья
+T30	GROUP 1030 1050	собеседников издания
+T34	ORGANIZATION 1274 1279	банка
+T35	MONEY 1338 1360	до 10 миллионов рублей
+T36	NEWS_SOURCE 1364 1396	ЦБ в целом подтвердили эту схему
+T37	ORGANIZATION 1432 1438	банков
+T38	ECONOMIC_SECTOR 1452 1472	строительную отрасль
+T39	DATE 1474 1482	В ноябре
+T40	GROUP 1516 1529	правительству
+T41	DATE 1551 1561	трехлетний
+R3	WORKS_AS Arg1:T10 Arg2:T3	
+R4	SUBORDINATE_OF Arg1:T40 Arg2:T3	
+T42	ECONOMIC_SECTOR 1599 1662	финансирования жилищного строительства банковским кредитованием
+T43	NEWS_SOURCE 1664 1682	По данным Минстроя
+T44	GROUP 1695 1714	обманутых дольщиков
+T45	QUANTITY 1733 1751	36,6 тысяч человек
+T46	DATE 1715 1721	сейчас
+T47	NEWS_SOURCE 1012 1050	объясняет один из собеседников издания

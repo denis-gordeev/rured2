@@ -41,3 +41,21 @@ R3	WORKPLACE Arg1:T8 Arg2:T7
 R4	SELLS_TO Arg1:T18 Arg2:T17	
 R5	SELLS_TO Arg1:T28 Arg2:T29	
 R6	SELLS_TO Arg1:T36 Arg2:T33	
+T38	PRODUCT 39 47	курятины
+T39	TRADE_AGREEMENT 13 38	договорились по поставкам
+T40	TRADE_AGREEMENT 62 108	достигли договоренностей относительно поставок
+T41	PRODUCT 122 130	курятины
+T42	NEWS_SOURCE 183 192	заявление
+T43	PRODUCT 357 370	куриного мяса
+R7	PRODUCES Arg1:T10 Arg2:T43	
+T44	PRODUCT 670 680	мяса птицы
+T45	PRODUCT 842 855	куриного мяса
+T46	PRODUCT 901 909	курятины
+T47	GROUP 874 900	Большинство производителей
+T48	GROUP 968 981	представители
+T49	GROUP 1077 1092	представителями
+R8	WORKPLACE Arg1:T49 Arg2:T25	
+R9	WORKPLACE Arg1:T48 Arg2:T23	
+R10	WORKPLACE Arg1:T48 Arg2:T24	
+T50	PRODUCT 1241 1251	мяса птицы
+T51	PRODUCT 1300 1313	куриного мяса

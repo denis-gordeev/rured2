@@ -41,3 +41,32 @@ R7	MEMBER Arg1:T4 Arg2:T33
 T35	DATE 631 650	1 февраля 2017 года
 T36	ORGANIZATION 1033 1047	правительством
 T19	FAC 1976 2001	газопроводу «Сила Сибири»
+T37	ORGANIZATION 45 53	компании
+T38	ECONOMIC_SECTOR 115 136	экспорт газа по трубе
+T39	ORGANIZATION 210 218	компании
+T40	NEWS_SOURCE 250 274	пишет газета «Ведомости»
+T41	ORGANIZATION 327 334	Издание
+T42	NEWS_SOURCE 327 345	Издание утверждает
+T43	ECONOMIC_SECTOR 462 491	экспорт газа по трубопроводам
+T44	FAC 478 491	трубопроводам
+T45	ORGANIZATION 554 562	компании
+T46	ECONOMIC_SECTOR 689 729	экспорт трубопроводного российского газа
+T47	COMMODITY 725 729	газа
+R8	PRODUCES Arg1:T21 Arg2:T47	
+T48	ORGANIZATION 780 788	компании
+T49	DATE 789 798	в будущем
+T50	NEWS_SOURCE 917 944	приводят «Ведомости» цитату
+T51	NEWS_SOURCE 1049 1072	В публикации отмечается
+T52	ECONOMIC_SECTOR 1109 1121	экспорт газа
+T53	COMMODITY 1117 1121	газа
+T54	NEWS_SOURCE 1255 1289	Источники в федеральных структурах
+T55	PROFESSION 1387 1397	чиновников
+T56	NEWS_SOURCE 1507 1516	заявил он
+T57	NEWS_SOURCE 1540 1558	«Ведомости» писали
+T58	FAC 1624 1636	газопроводам
+T59	ECONOMIC_SECTOR 1644 1666	экспортировать топливо
+T60	ORGANIZATION 1715 1723	компании
+T61	ECONOMIC_SECTOR 1736 1763	экспортировать газ в Европу
+T62	ORGANIZATION 2022 2030	компания
+T63	TRADE_AGREEMENT 2046 2078	меморандум о возможных поставках
+T64	COMMODITY 2114 2118	газа

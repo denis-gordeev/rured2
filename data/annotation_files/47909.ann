@@ -31,5 +31,29 @@ T28	EVENT 1208 1216	интервью
 R3	ORGANIZES Arg1:T9 Arg2:T28	
 R4	EVENT_TAKES_PART_IN Arg1:T8 Arg2:T28	
 T29	MONEY 1356 1377	1,34 триллиона рублей
-T30	NORP 1491 1499	россияне
+T30	COUNTRY 1491 1499	россияне
 T31	ORGANIZATION 1753 1765	министерство
+T32	PROFESSION 0 17	Глава предприятия
+T33	ORGANIZATION 18 21	ЖКХ
+T34	GROUP 31 41	кредиторам
+T35	PROFESSION 76 88	Руководитель
+T36	ORGANIZATION 109 124	предприятия ЖКХ
+T37	PRODUCT 166 185	лотерейных билетов.
+T38	GROUP 209 219	кредиторов
+T39	NEWS_SOURCE 368 388	сообщает «Интерфакс»
+T40	QUANTITY 454 459	одной
+T41	NEWS_SOURCE 497 539	федеральном реестре сведений о банкротстве
+T42	ORGANIZATION 926 953	градообразующее предприятие
+T43	EVENT 914 953	остановлено градообразующее предприятие
+R5	TAKES_PLACE_IN Arg1:T43 Arg2:T17	
+T44	ORGANIZATION 1011 1026	предприятия ЖКХ
+T45	ORGANIZATION 1304 1335	жилищно-коммунального хозяйства
+R6	HEADQUARTERED_IN Arg1:T45 Arg2:T10	
+T46	NEWS_SOURCE 1474 1485	Мень указал
+T47	ORGANIZATION 1547 1550	ЖКХ
+T48	NEWS_SOURCE 1638 1656	По словам министра
+T49	ORGANIZATION 1712 1732	управляющие компании
+T50	NEWS_SOURCE 1734 1747	Он подчеркнул
+T51	GROUP 1852 1884	потребителями коммунальных услуг
+T52	ORGANIZATION 1887 1916	ресурсоснабжающими компаниями
+T53	PRODUCT 1814 1821	ресурсы

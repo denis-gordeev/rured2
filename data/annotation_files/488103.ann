@@ -57,3 +57,20 @@ T14	DATE 588 613	до конца ноября 2008 года
 R17	DATE_TAKES_PLACE_ON Arg1:T39 Arg2:T14	
 R18	WORKPLACE Arg1:T17 Arg2:T16	
 T41	EVENT 865 872	саммита
+T42	NEWS_SOURCE 70 88	Джордж Буш объявил
+T43	NEWS_SOURCE 184 195	сообщает AP
+R19	WORKPLACE Arg1:T28 Arg2:T10	
+T44	GROUP 477 487	участников
+R20	EVENT_TAKES_PART_IN Arg1:T44 Arg2:T38	
+T45	NEWS_SOURCE 524 542	Саркози дал понять
+T46	GROUP 650 696	лидеры как развитых, так и развивающихся стран
+R21	EVENT_TAKES_PART_IN Arg1:T46 Arg2:T39	
+T47	GROUP 748 763	мировых лидеров
+T48	NEWS_SOURCE 808 826	объявил генсек ООН
+T49	NEWS_SOURCE 839 852	По его словам
+T50	DATE 988 995	субботу
+T51	NEWS_SOURCE 1168 1182	подчеркнул Буш
+T52	ECONOMIC_SECTOR 1312 1320	торговли
+R22	WORKPLACE Arg1:T30 Arg2:T23	
+T53	NEWS_SOURCE 1465 1489	президент Франции заявил
+T54	NEWS_SOURCE 1573 1608	Баррозу, в свою очередь, подчеркнул

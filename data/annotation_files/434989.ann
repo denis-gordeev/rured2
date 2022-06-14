@@ -18,5 +18,13 @@ T17	PROFESSION 41 50	Президент
 T18	PROFESSION 379 388	Президент
 R1	WORKS_AS Arg1:T3 Arg2:T17	
 R2	WORKPLACE Arg1:T3 Arg2:T2	
-T19	ORGANIZATION 1264 1277	правительства
+T19	GROUP 1264 1277	правительства
 R3	OWNERSHIP Arg1:T16 Arg2:T19	
+T20	ECONOMIC_SECTOR 188 219	поставками воды и электричества
+T21	NEWS_SOURCE 229 245	сообщает Reuters
+T22	TIME 270 280	по полчаса
+T23	GROUP 549 562	правительства
+T24	ECONOMIC_SECTOR 651 673	энергетическая отрасль
+T25	FAC 822 836	водохранилищах
+T26	FAC 873 900	гидроэнергетические станции
+T27	FAC 1084 1095	резервуарах
