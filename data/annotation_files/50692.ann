@@ -48,3 +48,4 @@ T41	COMMODITY 718 723	нефть
 R7	COSTS Arg1:T41 Arg2:T14	
 T42	NEWS_SOURCE 777 798	Всемирный банк заявил
 T43	ORGANIZATION 916 941	международной организации
+T44	CURRENCY 731 739	долларов

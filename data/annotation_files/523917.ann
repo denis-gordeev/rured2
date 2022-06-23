@@ -67,3 +67,4 @@ R23	BUYS Arg1:T43 Arg2:T17
 T44	ORDINAL 1005 1011	первым
 T45	ORGANIZATION 1037 1045	компании
 T46	INVESTMENT_PROGRAM 987 1036	Завод может стать первым самостоятельным проектом
+T47	CURRENCY 910 918	долларов

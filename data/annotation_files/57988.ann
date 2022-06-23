@@ -73,6 +73,6 @@ T51	INVESTMENT_PROGRAM 481 487	проект
 T52	ORGANIZATION 526 535	агентство
 T53	NEWS_SOURCE 517 545	приводит агентство его слова
 T54	ORGANIZATION 560 569	агентство
-T55	INVESTMENT_PROGRAM 547 569	Как сообщает агентство
+T55	NEWS_SOURCE 547 569	Как сообщает агентство
 T56	INVESTMENT_PROGRAM 769 806	объем инвестиций в реализацию проекта
 T57	FAC 935 977	строительстве завода минеральных удобрений

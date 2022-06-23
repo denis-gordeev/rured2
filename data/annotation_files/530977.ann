@@ -62,3 +62,5 @@ R17	SELLS Arg1:T24 Arg2:T44
 T45	FAC 777 803	построить новый газопровод
 T46	INVESTMENT_PROGRAM 825 851	проектов по его возведению
 T47	COMMODITY 923 927	газа
+T48	CURRENCY 503 511	долларов
+T49	CURRENCY 569 577	долларов

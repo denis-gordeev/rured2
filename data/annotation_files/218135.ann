@@ -50,3 +50,4 @@ T44	MONEY 609 635	до 13,5 миллиарда долларов
 T39	ORGANIZATION 39 52	Правительство
 R7	OWNERSHIP Arg1:T3 Arg2:T39	
 T45	CARDINAL 571 591	более чем в два раза
+T46	CURRENCY 1515 1523	долларов

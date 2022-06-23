@@ -15,7 +15,6 @@ T15	MONEY 506 533	до 80,95 миллиарда долларов
 T16	DATE 577 600	за 11 месяцев 2017 года
 T17	QUANTITY 788 814	158,3 миллиарда кубометров
 T18	COUNTRY 848 858	российской
-T19	PRODUCT 871 876	Urals
 T20	DATE 1016 1039	В декабре прошлого года
 T21	DATE 1125 1136	годом ранее
 T10	PERCENT 118 133	на 29 процентов
@@ -33,7 +32,6 @@ T31	DATE 877 888	в 2017 году
 T32	PERCENT 897 912	на 27 процентов
 T33	MONEY 914 930	до 53,03 доллара
 T34	QUANTITY 931 941	за баррель
-T35	PRODUCT 974 979	Urals
 T36	MONEY 991 1003	41,9 доллара
 T37	QUANTITY 1004 1014	за баррель
 T38	MONEY 1074 1087	63,61 доллара
@@ -43,10 +41,10 @@ T41	COMMODITY 100 105	нефти
 T42	NEWS_SOURCE 215 237	свидетельствуют данные
 T43	ECONOMIC_SECTOR 552 576	экспорта природного газа
 T44	ECONOMIC_SECTOR 91 105	экспорта нефти
-T45	COMMODITY 561 576	природного газа
 T46	NEWS_SOURCE 652 675	отмечается в материалах
 T47	COMMODITY 696 703	топлива
 T48	COMMODITY 740 744	газа
 T49	NEWS_SOURCE 816 825	По данным
-T50	COMMODITY 859 864	нефти
-T51	COMMODITY 968 973	нефти
+T50	COMMODITY 859 876	нефти марки Urals
+T51	COMMODITY 968 979	нефти Urals
+T52	COMMODITY 561 576	природного газа

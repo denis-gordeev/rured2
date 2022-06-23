@@ -70,3 +70,4 @@ R19	SELLS Arg1:T16 Arg2:T50
 T51	NEWS_SOURCE 916 941	сообщил глава государства
 T52	NEWS_SOURCE 1112 1125	по его словам
 T53	ECONOMIC_SECTOR 1194 1217	экспорту энергоресурсов
+T54	COMMODITY 1084 1088	газа

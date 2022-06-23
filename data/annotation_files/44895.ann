@@ -64,3 +64,4 @@ T56	ORGANIZATION 1527 1537	корпорации
 T57	GROUP 1513 1537	международные корпорации
 T58	NEWS_SOURCE 171 192	пишет Financial Times
 R8	WORKPLACE Arg1:T46 Arg2:T37	
+T59	CURRENCY 97 105	долларов
