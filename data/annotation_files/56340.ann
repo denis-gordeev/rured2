@@ -26,3 +26,14 @@ R6	WORKPLACE Arg1:T12 Arg2:T11
 R7	WORKPLACE Arg1:T15 Arg2:T14	
 R8	WORKS_AS Arg1:T15 Arg2:T7	
 T20	CURRENCY 1350 1357	биткоин
+T22	FAC 30 36	казино
+T24	FAC 209 215	казино
+T25	NEWS_SOURCE 249 278	сообщает Rambler News Service
+T27	CRIME 412 431	финансовой пирамиды
+T28	NEWS_SOURCE 627 652	полагает глава совета ЦСР
+T29	NEWS_SOURCE 654 667	По его словам
+T30	DATE 671 686	настоящее время
+T31	PROFESSION 770 777	фермеры
+T34	CRIME 1089 1111	финансовыми пирамидами
+T35	CRIME 1358 1372	мошенничеством
+T36	GROUP 1394 1405	сотрудников

@@ -49,3 +49,9 @@ R11	ALTERNATIVE_NAME Arg1:T34 Arg2:T37
 T38	GROUP 1102 1109	россиян
 T39	GROUP 763 770	россиян
 T40	GROUP 13 20	россиян
+T41	CARDINAL 376 380	один
+T42	NEWS_SOURCE 510 526	прим. «Ленты.ру»
+T43	NEWS_SOURCE 656 665	сказал он
+T44	NEWS_SOURCE 667 723	По данным Центра мониторинга Института общественных наук
+R12	FOUNDED_BY Arg1:T30 Arg2:T39	
+T45	NEWS_SOURCE 970 1000	(ВЦИОМ) опубликовал результаты

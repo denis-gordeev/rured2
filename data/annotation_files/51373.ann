@@ -32,3 +32,31 @@ T25	CARDINAL 1039 1043	один
 T26	CARDINAL 1013 1018	тремя
 T27	ORGANIZATION 1378 1384	Jaguar
 T28	ORGANIZATION 1387 1394	Bentley
+T30	NEWS_SOURCE 121 144	опубликовала видеотизер
+T29	NEWS_SOURCE 0 29	Nissan опубликовал видеотизер
+T31	ORGANIZATION 401 409	Компания
+R7	PRODUCES Arg1:T31 Arg2:T14	
+T32	NEWS_SOURCE 600 620	В августе сообщалось
+T33	ORGANIZATION 626 634	компания
+T34	PRODUCT 673 698	электрического кроссовера
+R8	PRODUCES Arg1:T33 Arg2:T34	
+T35	ORGANIZATION 787 799	автоконцерна
+T36	PRODUCT 831 856	кроссовера на электротяге
+T37	PRODUCT 897 914	электрокроссовера
+T38	PRODUCT 973 983	Автомобиль
+T39	PRODUCT 1113 1172	автомобили с электрической или гибридной силовой установкой
+T40	NEWS_SOURCE 1173 1199	объявили Ford и Volkswagen
+R9	PRODUCES Arg1:T1 Arg2:T39	
+R10	PRODUCES Arg1:T3 Arg2:T39	
+R11	PRODUCES Arg1:T2 Arg2:T39	
+T41	PRODUCT 30 58	кроссовера с электроприводом
+R12	PRODUCES Arg1:T4 Arg2:T41	
+T42	NEWS_SOURCE 90 120	официальной странице в Twitter
+T43	WEBSITE 113 120	Twitter
+R13	EVENT_TAKES_PART_IN Arg1:T9 Arg2:T24	
+T44	PRODUCT 1019 1037	электродвигателями
+T45	PRODUCT 1048 1062	передних колес
+T46	PRODUCT 1079 1085	задних
+T47	PRODUCT 1259 1299	машин с двигателями внутреннего сгорания
+R14	PRODUCES Arg1:T11 Arg2:T47	
+T48	PRODUCT 145 175	кроссовера с электродвигателем

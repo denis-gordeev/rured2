@@ -116,3 +116,43 @@ R29	MEMBER Arg1:T24 Arg2:T89
 R30	HEADQUARTERED_IN Arg1:T60 Arg2:T29	
 T75	ORGANIZATION 3099 3108	РАО "ЕЭС"
 T30	PERCENT 3193 3215	от 16 до 100 процентов
+T76	ECONOMIC_SECTOR 17 34	электроэнергетики
+T90	NEWS_SOURCE 108 141	стало известно газете "Ведомости"
+T91	FAC 173 198	региональных энергосистем
+T92	ORGANIZATION 305 318	энергохолдинг
+T93	DATE 320 337	В настоящее время
+T94	FAC 405 430	региональных энергосистем
+T95	NEWS_SOURCE 564 589	По сведениям "Ведомостей"
+T96	ORGANIZATION 591 599	компания
+T97	FAC 643 655	энергосистем
+T98	FAC 663 700	территориальную генерирующую компанию
+T99	FAC 816 840	территориальную компанию
+T100	FAC 865 890	станции соседних регионов
+T101	ORGANIZATION 958 967	компаниях
+T102	GROUP 969 982	совладельцами
+T103	NEWS_SOURCE 1116 1132	отмечает издание
+T104	ECONOMIC_SECTOR 1104 1114	энергетике
+T105	TRADE_AGREEMENT 1159 1165	сделки
+T106	EVENT 1301 1317	ведем переговоры
+T107	NEWS_SOURCE 1341 1363	заявил он "Ведомостям"
+T108	TRADE_AGREEMENT 1453 1459	сделка
+T109	FAC 1866 1879	энергосистемы
+R31	HEADQUARTERED_IN Arg1:T109 Arg2:T73	
+T110	ORGANIZATION 1896 1904	компании
+T111	NEWS_SOURCE 1906 1922	Источник сообщил
+T112	TRADE_AGREEMENT 1953 1959	сделки
+R32	EXPENDITURE Arg1:T70 Arg2:T85	
+T113	NEWS_SOURCE 2126 2187	по информациииз другого источника "Ведомостям" стало известно
+T114	TRADE_AGREEMENT 2199 2205	сделки
+T115	ORGANIZATION 2327 2335	холдинга
+T116	ORGANIZATION 2561 2567	Группе
+T117	FAC 2625 2658	энергораспределительных компаниях
+R33	HEADQUARTERED_IN Arg1:T117 Arg2:T22	
+T118	FAC 2705 2739	областных энергетических компаниях
+R34	HEADQUARTERED_IN Arg1:T118 Arg2:T22	
+T119	ORGANIZATION 2919 2933	энергохолдинга
+R35	OWNERSHIP Arg1:T89 Arg2:T119	
+T120	ORGANIZATION 2977 2985	холдинга
+T121	GROUP 3159 3167	партнеры
+T122	FAC 3237 3269	энергораспределительных компаний
+R36	HEADQUARTERED_IN Arg1:T122 Arg2:T33	

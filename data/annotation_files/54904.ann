@@ -25,3 +25,17 @@ T21	ORGANIZATION 578 586	комитета
 R4	WORKPLACE Arg1:T4 Arg2:T21	
 T22	MONEY 851 876	почти 2,5 миллиона рублей
 R5	WORKPLACE Arg1:T14 Arg2:T13	
+T23	CURRENCY 65 77	криптовалюты
+T24	NEWS_SOURCE 0 18	В Госдуме сообщили
+T25	CURRENCY 171 183	криптовалюты
+T26	NEWS_SOURCE 221 288	заявил глава комитета Госдумы по финансовому рынку Анатолий Аксаков
+T27	NEWS_SOURCE 290 319	сообщает Rambler News Service
+T28	NEWS_SOURCE 321 334	По его словам
+T29	PROFESSION 336 348	законодатели
+T30	NEWS_SOURCE 561 586	подчеркнул глава комитета
+T31	LAW 636 685	законопроект о регулировании криптовалют в России
+T32	NEWS_SOURCE 697 712	сообщил Аксаков
+T33	CURRENCY 665 676	криптовалют
+T34	CURRENCY 774 785	криптовалют
+T35	CURRENCY 1022 1033	криптовалют
+T36	NEWS_SOURCE 1044 1055	Она считает

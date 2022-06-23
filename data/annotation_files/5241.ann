@@ -19,7 +19,7 @@ T17	ORGANIZATION 1476 1487	Банк России
 T18	PERSON 1535 1542	Делягин
 T19	ORGANIZATION 1604 1608	Югра
 T20	DATE 1107 1122	в конце октября
-T21	ORGANIZATION 62 66	Югры
+T21	ORGANIZATION 61 67	«Югры»
 T22	DATE 759 777	с середины октября
 T23	PROFESSION 0 9	Экономист
 T24	ORGANIZATION 110 114	Югра
@@ -36,3 +36,25 @@ R4	WORKPLACE Arg1:T12 Arg2:T11
 R5	WORKS_AS Arg1:T12 Arg2:T10	
 T32	COUNTRY 1137 1143	России
 R6	OWNERSHIP Arg1:T32 Arg2:T11	
+T33	WORK_OF_ART 223 228	эфире
+T34	NEWS_SOURCE 217 244	дал в эфире своей программы
+T35	NEWS_SOURCE 264 272	радио КП
+T36	GROUP 434 444	вкладчиков
+T37	ORGANIZATION 447 452	банка
+T38	ORGANIZATION 467 471	банк
+T39	GROUP 503 512	вкладчики
+R7	USES Arg1:T36 Arg2:T37	
+T40	NEWS_SOURCE 597 623	На своем сайте в интернете
+T41	NEWS_SOURCE 685 697	рассказал он
+T42	NEWS_SOURCE 699 714	Эксперт отметил
+T43	DATE 786 804	за прошедшее время
+T44	CRIME 852 890	подал в суд за клевету и фальсификацию
+T45	NEWS_SOURCE 946 968	считает Михаил Делягин
+T46	CRIME 1008 1082	прямо противоречащими действующим законам, в особо наглой и циничной форме
+T47	NEWS_SOURCE 1085 1101	Эксперт напомнил
+T48	GROUP 1191 1205	рабочей группы
+T49	GROUP 1226 1249	пострадавших вкладчиков
+T50	PROFESSION 1277 1285	депутаты
+T51	PROFESSION 1356 1364	депутаты
+T52	ORGANIZATION 1466 1472	банков
+T53	NEWS_SOURCE 1513 1527	резюмировал он

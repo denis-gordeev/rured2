@@ -40,3 +40,25 @@ T30	COUNTRY 376 387	туркменский
 T31	EVENT 230 241	переговоров
 R10	SELLS_TO Arg1:T30 Arg2:T19	
 T32	QUANTITY 898 922	2,1 триллиона кубометров
+T33	COMMODITY 38 41	газ
+R11	SELLS Arg1:T11 Arg2:T33	
+T34	COMMODITY 100 104	газа
+R12	SELLS Arg1:T1 Arg2:T34	
+T35	NEWS_SOURCE 153 204	сообщил глава российской газовой монополии"Газпром"
+T36	ECONOMIC_SECTOR 295 308	газовой сфере
+R13	EVENT_TAKES_PART_IN Arg1:T4 Arg2:T31	
+R14	WORKPLACE Arg1:T4 Arg2:T16	
+T37	NEWS_SOURCE 310 340	Его слова передает РИА Новости
+T38	DATE 342 348	Сейчас
+T39	COMMODITY 388 391	газ
+T40	ECONOMIC_SECTOR 388 410	газ, идущий на экспорт
+T41	QUANTITY 412 417	Часть
+T42	COMMODITY 492 495	газ
+R15	COSTS Arg1:T42 Arg2:T20	
+R16	COSTS Arg1:T42 Arg2:T22	
+T43	NEWS_SOURCE 639 680	Андрис Пиебалгс (Andris Piebalgs) сообщил
+T44	COMMODITY 728 731	газ
+R17	SELLS Arg1:T24 Arg2:T44	
+T45	FAC 777 803	построить новый газопровод
+T46	INVESTMENT_PROGRAM 825 851	проектов по его возведению
+T47	COMMODITY 923 927	газа

@@ -22,3 +22,25 @@ T20	CARDINAL 719 721	20
 T21	CARDINAL 1080 1103	от пяти до 6,5 миллиона
 T22	NORP 1104 1111	россиян
 T23	PROFESSION 1162 1171	охранники
+T24	ORGANIZATION 45 48	ЖКХ
+T25	NEWS_SOURCE 288 332	сообщает Национальное бюро кредитных историй
+T26	ORGANIZATION 375 378	ЖКХ
+T27	ORGANIZATION 363 374	предприятий
+R2	OWNERSHIP Arg1:T26 Arg2:T27	
+T28	GROUP 504 529	злостными неплательщиками
+T29	ORGANIZATION 561 564	ЖКХ
+T30	NEWS_SOURCE 606 628	отмечается в сообщении
+T31	GROUP 692 715	злостных неплательщиках
+T32	GROUP 748 771	злостных неплательщиков
+T33	CARDINAL 828 841	десятидневный
+T34	ORGANIZATION 900 903	ЖКХ
+T35	LAW 847 903	постановления суда об уплате задолженности за услуги ЖКХ
+T36	GROUP 920 929	должниках
+T37	ORGANIZATION 943 965	бюро кредитных историй
+T38	ORGANIZATION 1011 1016	банке
+T39	GROUP 1120 1143	закредитованными людьми
+R3	WORKS_AS Arg1:T39 Arg2:T23	
+R4	WORKPLACE Arg1:T23 Arg2:T7	
+T40	CURRENCY 254 260	рублей
+T41	CURRENCY 180 186	рублей
+T42	CURRENCY 67 73	рублей

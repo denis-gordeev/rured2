@@ -50,3 +50,12 @@ T40	ORGANIZATION 1177 1190	правительства
 R11	OWNERSHIP Arg1:T19 Arg2:T40	
 R12	ALTERNATIVE_NAME Arg1:T22 Arg2:T19	
 T41	DATE 1583 1596	четырехлетней
+T42	NEWS_SOURCE 170 209	заявил первый замглавы МВФ Дэвид Липтон
+T43	FAC 348 363	газовой системы
+T44	ECONOMIC_SECTOR 381 400	банковского сектора
+T45	NEWS_SOURCE 411 428	по мнению Липтона
+T46	NEWS_SOURCE 964 988	Александр Данилюк заявил
+T47	CARDINAL 1023 1026	два
+T48	GROUP 1137 1155	внешних кредиторов
+T49	NEWS_SOURCE 1199 1224	Владимир Гройсман сообщил
+R8	EXPENDITURE Arg1:T21 Arg2:T38	

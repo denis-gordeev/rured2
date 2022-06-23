@@ -13,7 +13,7 @@ T12	ORGANIZATION 826 839	Salmatec GmbH
 T13	COUNTRY 915 925	российской
 T14	DATE 1118 1127	2004 году
 T15	PERCENT 1145 1157	20 процентов
-T16	GPE 1179 1185	Москве
+T16	CITY 1179 1185	Москве
 T17	CARDINAL 1227 1229	24
 T18	PROFESSION 138 149	гендиректор
 T19	ORGANIZATION 195 204	Ведомости
@@ -29,3 +29,40 @@ T25	ORGANIZATION 1023 1029	СУ-155
 T26	ORGANIZATION 1207 1213	СУ-155
 T27	DATE 461 464	год
 R4	WORKS_AS Arg1:T2 Arg2:T18	
+T28	FAC 20 26	завода
+R5	BUYS Arg1:T22 Arg2:T28	
+T29	FAC 63 85	асфальтобетонный завод
+T30	FAC 88 121	предприятие по переработке дерева
+R6	BUYS Arg1:T23 Arg2:T29	
+R7	BUYS Arg1:T23 Arg2:T30	
+T31	NEWS_SOURCE 131 176	заявил гендиректор группы Александр Мещеряков
+T32	NEWS_SOURCE 178 205	сообщает газета "Ведомости"
+T33	NEWS_SOURCE 207 220	По его словам
+T34	FAC 229 234	завод
+T35	ORGANIZATION 284 292	компании
+R8	HEADQUARTERED_IN Arg1:T34 Arg2:T4	
+T36	FAC 408 413	завод
+T37	PRODUCT 449 457	асфальта
+R9	PRODUCES Arg1:T36 Arg2:T37	
+T38	NEWS_SOURCE 546 574	объяснил Александр Мещеряков
+T39	FAC 576 600	асфальтобетонных заводов
+T40	PRODUCT 690 698	асфальта
+T41	FAC 702 709	стройки
+R10	PRODUCES Arg1:T39 Arg2:T40	
+T42	FAC 743 777	завода по выпуску топливных гранул
+T43	ECONOMIC_SECTOR 789 810	лесной промышленности
+T44	PRODUCT 726 738	оборудование
+R11	SELLS Arg1:T12 Arg2:T44	
+T45	ECONOMIC_SECTOR 869 886	лесопромышленного
+T46	FAC 970 975	жилью
+R12	HEADQUARTERED_IN Arg1:T46 Arg2:T13	
+T47	ECONOMIC_SECTOR 1042 1056	строительством
+T48	ECONOMIC_SECTOR 1059 1088	производством стройматериалов
+T49	NEWS_SOURCE 1090 1114	По ее собственным данным
+T50	ORGANIZATION 1128 1134	группа
+T51	FAC 1158 1176	жилой недвижимости
+R13	HEADQUARTERED_IN Arg1:T51 Arg2:T16	
+T52	DATE 1187 1205	В настоящий момент
+T53	FAC 1230 1254	промышленных предприятия
+T54	ECONOMIC_SECTOR 1310 1323	строительства
+R14	OWNERSHIP Arg1:T26 Arg2:T53	

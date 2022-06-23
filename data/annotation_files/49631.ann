@@ -45,3 +45,27 @@ T27	ORGANIZATION 727 730	НТВ
 T28	ORGANIZATION 732 741	ТВ-Центру
 T29	ORGANIZATION 744 752	«Звезде»
 T30	MONEY 762 778	11-12 миллиардов
+T31	NEWS_SOURCE 16 27	телеканалов
+T32	APPLICATION 50 57	рекламы
+T33	NEWS_SOURCE 59 69	Телеканалы
+T34	NEWS_SOURCE 72 84	радиостанции
+T35	PROFESSION 172 181	депутатов
+R18	WORKPLACE Arg1:T35 Arg2:T4	
+T36	APPLICATION 200 207	рекламы
+T37	NEWS_SOURCE 233 280	сообщил директор по маркетинговым исследованиям
+T38	NEWS_SOURCE 359 388	передает Rambler News Service
+T39	NEWS_SOURCE 390 400	Он добавил
+T40	PROFESSION 424 433	вещателей
+T41	NEWS_SOURCE 484 494	Госканалам
+T42	NEWS_SOURCE 624 630	каналы
+T43	NEWS_SOURCE 658 682	телеканалы с госучастием
+T44	NEWS_SOURCE 811 818	каналам
+T45	LAW 951 1024	законопроект,  запрещающий рекламу на телевидении и радио по воскресеньям
+T46	DATE 1046 1063	В настоящее время
+T47	COUNTRY 1203 1214	российскими
+T48	ORGANIZATION 1215 1230	медиакомпаниями
+R19	HEADQUARTERED_IN Arg1:T48 Arg2:T47	
+T49	APPLICATION 1242 1249	рекламы
+T50	ORGANIZATION 1253 1276	федеральном телевидении
+R20	SELLS Arg1:T48 Arg2:T49	
+R21	SELLS_TO Arg1:T48 Arg2:T50	

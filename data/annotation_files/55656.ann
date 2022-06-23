@@ -44,3 +44,25 @@ R4	MEMBER Arg1:T14 Arg2:T13
 R5	MEMBER Arg1:T15 Arg2:T13	
 R6	MEMBER Arg1:T16 Arg2:T13	
 T40	NORP 1201 1209	россияне
+T41	GROUP 0 14	Жители Кавказа
+T42	ECONOMIC_SECTOR 26 38	микрокредиты
+T43	ECONOMIC_SECTOR 124 136	микрокредиты
+T44	NEWS_SOURCE 185 247	сообщается в исследовании Национального бюро кредитных историй
+T45	GROUP 256 264	Лидерами
+T46	ECONOMIC_SECTOR 288 299	микрозаймов
+T47	ECONOMIC_SECTOR 331 342	микрозаймов
+T48	ECONOMIC_SECTOR 471 482	микрозаймов
+T49	NEWS_SOURCE 601 648	По словам гендиректора НБКИ Александра Викулина
+T50	ECONOMIC_SECTOR 650 671	микрофинансовые займы
+T51	ECONOMIC_SECTOR 710 733	розничного кредитования
+T52	GROUP 798 808	кредиторам
+T53	GROUP 875 884	заемщиков
+R7	SELLS_TO Arg1:T52 Arg2:T53	
+T54	ECONOMIC_SECTOR 966 977	микрозаймов
+T55	NEWS_SOURCE 1053 1066	НБКИ сообщило
+T56	GROUP 1148 1157	заемщиков
+T57	ECONOMIC_SECTOR 1180 1192	микрокредиты
+T58	GROUP 1193 1209	молодые россияне
+T59	NEWS_SOURCE 1211 1223	По данным ЦБ
+T60	ECONOMIC_SECTOR 1243 1254	микрозаймам
+R8	HEADQUARTERED_IN Arg1:T21 Arg2:T22	

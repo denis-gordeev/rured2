@@ -3,7 +3,7 @@ T2	DATE 73 86	до конца года
 T3	MONEY 109 118	30 рублей
 T4	PERSON 221 236	Александр Жуков
 T5	PERSON 238 243	Жуков
-T6	DATE 263 272	этом году
+T6	DATE 261 272	в этом году
 T7	PERSON 326 331	Жуков
 T8	COUNTRY 396 402	России
 T9	ORGANIZATION 549 560	Центробанка
@@ -17,3 +17,21 @@ R2	WORKS_AS Arg1:T10 Arg2:T14
 R3	WORKPLACE Arg1:T10 Arg2:T9
 T15	ORGANIZATION 167 177	Эхо Москвы
 T16	ORGANIZATION 670 680	Эхо Москвы
+T17	CURRENCY 19 26	доллара
+T20	CURRENCY 65 72	доллара
+T18	MONEY 49 58	30 рублей
+T19	DATE 130 137	вторник
+T21	NEWS_SOURCE 138 178	в прямом эфире радиостанции "Эхо Москвы"
+T22	NEWS_SOURCE 238 255	Жуков предположил
+T23	CURRENCY 278 283	рубля
+R4	WORKPLACE Arg1:T7 Arg2:T8	
+T24	ECONOMIC_SECTOR 496 525	налоговой и пенсионной систем
+T25	NEWS_SOURCE 561 586	Виктор Геращенко заверяет
+T26	NEWS_SOURCE 660 681	передает "Эхо Москвы"
+R5	WORKPLACE Arg1:T10 Arg2:T11	
+T27	NEWS_SOURCE 683 696	По его словам
+T28	GROUP 746 764	коммерческихбанков
+R6	BUYS Arg1:T12 Arg2:T28	
+T29	CURRENCY 52 58	рублей
+T30	CURRENCY 112 118	рублей
+T31	EVENT 140 152	прямом эфире

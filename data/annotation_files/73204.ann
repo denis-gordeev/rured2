@@ -38,3 +38,13 @@ R3	MEMBER Arg1:T34 Arg2:T33
 R4	SELLS_TO Arg1:T34 Arg2:T4	
 R5	SELLS_TO Arg1:T7 Arg2:T8	
 R6	SELLS_TO Arg1:T8 Arg2:T7	
+T35	CURRENCY 205 213	долларов
+T36	CURRENCY 415 423	долларов
+T37	CURRENCY 527 535	долларов
+T38	CURRENCY 697 705	долларов
+T39	CURRENCY 772 780	долларов
+T40	CURRENCY 1089 1097	долларов
+T41	PRODUCT 537 557	химической продукции
+T42	PRODUCT 432 460	машиностроительной продукции
+T43	PRODUCT 382 389	товаров
+T44	PRODUCT 707 734	текстильных изделий и обуви

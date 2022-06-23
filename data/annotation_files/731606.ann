@@ -9,11 +9,10 @@ T8	ORGANIZATION 295 329	Карабашский медеплавительный 
 T9	REGION 332 351	Челябинской области
 T10	QUANTITY 352 366	27 тысячи тонн
 T11	DATE 488 501	до конца года
-T13	QUANTITY 555 586	около 110 тысячи тонн цинкового
 T14	REGION 643 662	Челябинская область
 T15	REGION 740 748	Башкирии
 T16	ORGANIZATION 432 466	Башкирского медносерного комбината
-T17	ORGANIZATION 735 739	ГОКи
+T17	FAC 735 739	ГОКи
 T18	FAC 181 184	ГОК
 T19	ORGANIZATION 389 409	ОАО "Учалинский ГОК"
 T20	ORGANIZATION 101 115	медный холдинг
@@ -26,7 +25,6 @@ R6	SELLS_TO Arg1:T16 Arg2:T8
 T12	ORGANIZATION 514 554	Челябинский электролитный цинковый завод
 R7	SELLS_TO Arg1:T19 Arg2:T12	
 R8	SELLS_TO Arg1:T16 Arg2:T12	
-R9	SELLS_TO Arg1:T14 Arg2:T17	
 R10	HEADQUARTERED_IN Arg1:T17 Arg2:T15	
 R11	HEADQUARTERED_IN Arg1:T8 Arg2:T9	
 T22	FAC 135 179	добывающих и горнообогатительных предприятий
@@ -36,3 +34,21 @@ R13	WORKPLACE Arg1:T23 Arg2:T3
 R15	WORKPLACE Arg1:T23 Arg2:T4	
 R1	OWNERSHIP Arg1:T20 Arg2:T22	
 T24	QUANTITY 412 428	5,48 тысячи тонн
+T25	ORGANIZATION 39 53	медный холдинг
+R14	OWNERSHIP Arg1:T1 Arg2:T25	
+R16	OWNERSHIP Arg1:T2 Arg2:T25	
+T26	NEWS_SOURCE 210 222	сообщает РБК
+T27	ORGANIZATION 233 241	холдинга
+T28	COMMODITY 367 386	медного концентрата
+T29	ORGANIZATION 476 487	предприятия
+T13	COMMODITY 577 598	цинкового концентрата
+T30	QUANTITY 555 576	около 110 тысячи тонн
+R17	PRODUCES Arg1:T29 Arg2:T13	
+T31	ORGANIZATION 633 641	холдинга
+T32	COMMODITY 684 716	медно-цинковые колчедановые руды
+R9	SELLS Arg1:T14 Arg2:T32	
+R18	PRODUCES Arg1:T19 Arg2:T28	
+R19	SELLS Arg1:T19 Arg2:T28	
+R20	BUYS Arg1:T8 Arg2:T28	
+R21	HEADQUARTERED_IN Arg1:T19 Arg2:T7	
+R22	HEADQUARTERED_IN Arg1:T16 Arg2:T7	

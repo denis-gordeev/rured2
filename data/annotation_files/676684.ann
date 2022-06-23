@@ -42,3 +42,18 @@ T29	GPE 831 848	Латинской Америки
 R13	SELLS_TO Arg1:T8 Arg2:T29	
 R14	HEADQUARTERED_IN Arg1:T9 Arg2:T25	
 R15	SELLS_TO Arg1:T9 Arg2:T24	
+R16	EXPENDITURE Arg1:T3 Arg2:T13	
+T30	NEWS_SOURCE 182 198	сообщает Reuters
+R17	SELLS_TO Arg1:T15 Arg2:T18	
+T31	PRODUCT 417 443	(капли и леденцы от кашля)
+T32	PRODUCT 245 264	жевательные резинки
+T33	DATE 445 466	До настоящего момента
+T34	FAC 495 522	фармацевтической корпорации
+T35	PRODUCT 648 668	кондитерских изделий
+R18	PRODUCES Arg1:T7 Arg2:T35	
+T36	PRODUCT 704 723	жевательной резинки
+R19	PRODUCES Arg1:T7 Arg2:T36	
+T37	GROUP 725 747	Большинство аналитиков
+T38	NEWS_SOURCE 725 755	Большинство аналитиков считает
+T39	EVENT 889 900	на аукционе
+R20	ORGANIZES Arg1:T9 Arg2:T39	

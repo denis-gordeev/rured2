@@ -68,3 +68,29 @@ R15	WORKPLACE Arg1:T52 Arg2:T36
 T53	GPE 817 833	среднеазиатского
 R16	SELLS_TO Arg1:T16 Arg2:T17	
 R17	HEADQUARTERED_IN Arg1:T27 Arg2:T29	
+T54	TRADE_AGREEMENT 11 29	газовых контрактов
+T55	TRADE_AGREEMENT 67 77	контрактов
+T56	NEWS_SOURCE 200 262	сообщила пресс-секретарь министра топлива и энергетики Украины
+T57	NEWS_SOURCE 277 289	По ее словам
+T58	NEWS_SOURCE 339 369	передает агентство "Интерфакс"
+R18	SELLS_TO Arg1:T36 Arg2:T7	
+T59	NEWS_SOURCE 423 444	Юрий Ехануров сообщил
+T60	NEWS_SOURCE 503 531	передает агентство ИТАР-ТАСС
+T61	COMMODITY 603 607	газа
+R19	SELLS Arg1:T12 Arg2:T61	
+T62	TRADE_AGREEMENT 568 607	соглашение о поставках российского газа
+T63	COMMODITY 653 657	газа
+T64	ORGANIZATION 767 789	совместное предприятие
+T65	COMMODITY 834 838	газа
+R20	SELLS Arg1:T16 Arg2:T65	
+T66	NEWS_SOURCE 922 943	Анатолий Кинах заявил
+T67	TRADE_AGREEMENT 949 958	контракты
+R21	PLACE_RESIDES_IN Arg1:T26 Arg2:T50	
+T68	ECONOMIC_SECTOR 1228 1241	поставок газа
+T69	COMMODITY 1237 1241	газа
+T70	GROUP 1260 1271	владельцами
+T71	ORGANIZATION 1277 1285	компании
+T72	ORGANIZATION 1345 1362	дочерние компании
+R22	OWNERSHIP Arg1:T40 Arg2:T72	
+R23	OWNERSHIP Arg1:T30 Arg2:T72	
+T73	NEWS_SOURCE 1511 1544	По информации газеты "Коммерсант"

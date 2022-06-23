@@ -65,3 +65,14 @@ R20	EVENT_TAKES_PART_IN Arg1:T20 Arg2:T44
 R21	EVENT_TAKES_PART_IN Arg1:T24 Arg2:T44	
 T45	MONEY 392 413	1,16 триллиона рублей
 T46	CARDINAL 352 354	11
+T47	NEWS_SOURCE 225 307	заявил полпред президента России в Дальневосточном федеральном округе Юрий Трутнев
+T48	NEWS_SOURCE 309 329	передает РИА Новости
+T49	DATE 335 342	сегодня
+T50	INVESTMENT_PROGRAM 381 391	инвестиций
+T51	INVESTMENT_PROGRAM 481 487	проект
+T52	ORGANIZATION 526 535	агентство
+T53	NEWS_SOURCE 517 545	приводит агентство его слова
+T54	ORGANIZATION 560 569	агентство
+T55	INVESTMENT_PROGRAM 547 569	Как сообщает агентство
+T56	INVESTMENT_PROGRAM 769 806	объем инвестиций в реализацию проекта
+T57	FAC 935 977	строительстве завода минеральных удобрений

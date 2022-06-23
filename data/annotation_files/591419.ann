@@ -50,3 +50,23 @@ R12	HEADQUARTERED_IN Arg1:T37 Arg2:T5
 R13	SELLS_TO Arg1:T16 Arg2:T17	
 T38	LOCATION 851 873	восточному направлению
 T39	QUANTITY 1056 1083	60-80 миллиардов кубометров
+T40	COMMODITY 63 67	газа
+R14	SELLS Arg1:T31 Arg2:T40	
+T41	CARDINAL 157 166	ежегодных
+T42	COMMODITY 205 209	газа
+T43	NEWS_SOURCE 211 225	сообщает "РБК"
+T44	ORGANIZATION 253 270	газового холдинга
+R15	OWNERSHIP Arg1:T44 Arg2:T36	
+R16	SELLS Arg1:T33 Arg2:T42	
+T45	FAC 311 321	газопровод
+T46	NEWS_SOURCE 355 397	По словам главы "Газпрома" Алексея Миллера
+T47	FAC 434 456	трубопроводная система
+T48	ECONOMIC_SECTOR 542 555	строительство
+T49	EVENT 661 683	завершения переговоров
+R17	EVENT_TAKES_PART_IN Arg1:T13 Arg2:T49	
+R18	EVENT_TAKES_PART_IN Arg1:T15 Arg2:T49	
+T50	COMMODITY 773 777	газа
+R19	SELLS Arg1:T16 Arg2:T50	
+T51	NEWS_SOURCE 916 941	сообщил глава государства
+T52	NEWS_SOURCE 1112 1125	по его словам
+T53	ECONOMIC_SECTOR 1194 1217	экспорту энергоресурсов

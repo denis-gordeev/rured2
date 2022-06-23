@@ -43,3 +43,33 @@ R7	SUBORDINATE_OF Arg1:T26 Arg2:T35
 R8	WORKPLACE Arg1:T35 Arg2:T11	
 T36	MONEY 1428 1448	1,8 миллиарда рублей
 T37	MONEY 1569 1593	2,7-3,5 миллиарда рублей
+T38	GROUP 40 51	Руководство
+R9	WORKPLACE Arg1:T38 Arg2:T3	
+T39	NEWS_SOURCE 84 115	опубликованными РАО ЕЭС данными
+T40	PROFESSION 125 142	железнодорожников
+T41	ECONOMIC_SECTOR 146 169	поставки электроэнергии
+T42	NEWS_SOURCE 267 280	По его словам
+T43	COMMODITY 299 313	электроэнергию
+T45	COMMODITY 462 476	электроэнергии
+T46	FAC 480 496	железных дорогах
+T47	NEWS_SOURCE 498 520	передает РИА "Новости"
+T48	NEWS_SOURCE 522 540	По словам Мишарина
+T49	FAC 672 698	федеральных электростанций
+T50	COMMODITY 730 734	угля
+T51	FAC 742 756	электростанции
+T52	ECONOMIC_SECTOR 719 734	поставками угля
+T53	NEWS_SOURCE 770 800	по словам заместителя министра
+T54	NEWS_SOURCE 932 946	Мишарин заявил
+T55	FAC 1062 1076	железных дорог
+T56	COMMODITY 1077 1091	электроэнергии
+T57	PROFESSION 1282 1299	железнодорожников
+T58	PROFESSION 1306 1318	энергетиками
+T59	COMMODITY 1480 1494	электроэнергию
+T60	NEWS_SOURCE 1512 1539	по данным разных источников
+T61	PROFESSION 1554 1566	энергетиками
+T62	CURRENCY 347 353	рублей
+T63	CURRENCY 593 599	рублей
+T64	CURRENCY 1442 1448	рублей
+T65	CURRENCY 1587 1593	рублей
+T66	GROUP 399 410	энергетикам
+T67	ORGANIZATION 399 410	энергетикам
