@@ -36,3 +36,4 @@ T33	FAC 717 732	Университетская
 T34	LOCATION 307 326	арктического шельфа
 R3	OWNERSHIP Arg1:T8 Arg2:T34	
 T35	COMMODITY 1165 1170	нефти
+T36	CURRENCY 791 799	долларов
