@@ -45,3 +45,10 @@ R11	WORKPLACE Arg1:T23 Arg2:T20
 T34	EVENT 1451 1462	референдума
 R12	TAKES_PLACE_IN Arg1:T34 Arg2:T27	
 T35	CURRENCY 1099 1107	долларов
+T36	NEWS_SOURCE 264 293	сообщает Rambler News Service
+T37	NEWS_SOURCE 355 368	сказал Крайан
+T38	ECONOMIC_SECTOR 556 573	банковский бизнес
+T39	NEWS_SOURCE 949 975	сказал глава Deutsche Bank
+T40	NEWS_SOURCE 977 990	По его словам
+T41	GROUP 1159 1169	менеджмент
+T42	NEWS_SOURCE 1227 1244	подчеркнул Крайан

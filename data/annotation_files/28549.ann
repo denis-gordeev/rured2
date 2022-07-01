@@ -3,7 +3,7 @@ T2	PERSON 1250 1268	Аркадия Ротенберга
 T3	PERSON 1217 1232	Игорь Ротенберг
 R1	PARENT_OF Arg1:T2 Arg2:T3	
 T4	ORGANIZATION 1446 1476	РТ-Инвест Транспортные системы
-T5	PROFESSION 1235 1238	сын
+T5	FAMILY 1235 1238	сын
 T6	ORGANIZATION 93 99	Forbes
 T7	ORGANIZATION 168 183	TPS Real Estate
 T8	PERSON 197 212	Лилии Ротенберг
@@ -58,3 +58,39 @@ R8	SIBLING Arg1:T8 Arg2:T1
 R9	SIBLING Arg1:T1 Arg2:T8	
 T50	APPLICATION 86 99	список Forbes
 T51	CURRENCY 1410 1418	долларов
+T52	PROFESSION 11 18	олигарх
+T53	FAMILY 37 43	сестру
+T54	ORGANIZATION 145 167	девелоперской компании
+T55	FAMILY 190 196	сестре
+R10	WORKS_AS Arg1:T1 Arg2:T29	
+T56	DATE 213 222	за неделю
+T57	DATE 277 298	во вторник, 24 апреля
+T58	NEWS_SOURCE 300 312	сообщает РБК
+T59	ORGANIZATION 341 349	компании
+T60	TRADE_AGREEMENT 351 357	Сделка
+T61	PROFESSION 460 468	владелец
+T62	NEWS_SOURCE 600 615	пишет агентство
+T63	NEWS_SOURCE 617 650	По данным Capital Global Partners
+R11	COSTS Arg1:T14 Arg2:T33	
+T64	DATE 832 850	в настоящий момент
+T65	FAC 1043 1063	транспортные системы
+T66	FAC 1065 1094	системы спутниковой навигации
+T67	FAC 1096 1124	радиочастотной идентификации
+T68	NEWS_SOURCE 1161 1188	передал Игорь Ротенберг РБК
+T69	INVESTMENT_PROGRAM 934 1002	проекты, связанные с разработкой опережающих технологических решений
+T70	PROFESSION 1239 1249	бизнесмена
+T71	PERSON 1270 1287	Ротенберг-младший
+T72	NEWS_SOURCE 1310 1325	рейтинге Forbes
+T73	PROFESSION 1342 1353	бизнесменов
+T74	CARDINAL 1327 1330	200
+T75	CARDINAL 1361 1365	2018
+R12	WORKPLACE Arg1:T73 Arg2:T34	
+T76	GROUP 1327 1365	200 богатейших бизнесменов России 2018
+R13	MEMBER Arg1:T71 Arg2:T76	
+T77	MONEY 1396 1418	1,1 миллиарда долларов
+T78	PROFESSION 1629 1639	бизнесмены
+T79	PROFESSION 1642 1654	оп-менеджеры
+T80	PROFESSION 1657 1666	чиновники
+R14	WORKPLACE Arg1:T78 Arg2:T40	
+R15	WORKPLACE Arg1:T79 Arg2:T40	
+R16	WORKPLACE Arg1:T80 Arg2:T40	

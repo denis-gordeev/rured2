@@ -57,7 +57,7 @@ R6	WORKS_AS Arg1:T9 Arg2:T46
 T51	FAC 45 58	Южного потока
 T52	FAC 109 120	«Южный пото
 T53	FAC 840 853	Южного потока
-T54	FAC 1011 1024	Южного потока
+T54	FAC 1010 1025	«Южного потока»
 T55	ORGANIZATION 557 570	правительства
 R7	OWNERSHIP Arg1:T11 Arg2:T55	
 R8	WORKPLACE Arg1:T47 Arg2:T55	

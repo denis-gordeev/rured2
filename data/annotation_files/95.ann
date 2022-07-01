@@ -23,3 +23,20 @@ T22	ORGANIZATION 618 622	АПИВ
 T14	ORGANIZATION 714 726	министерстве
 T23	MONEY 1046 1056	511 рублям
 T24	CURRENCY 962 968	рублей
+T25	PRODUCT 0 10	Шампанское
+T26	PRODUCT 71 82	шампанского
+T27	NEWS_SOURCE 125 141	пишут «Известия»
+T28	NEWS_SOURCE 211 232	По данным организации
+T29	PRODUCT 261 280	бутылки шампанского
+R2	COSTS Arg1:T29 Arg2:T18	
+T30	DATE 344 360	На данный момент
+R3	COSTS Arg1:T29 Arg2:T19	
+T31	GROUP 589 598	продавцов
+T32	NEWS_SOURCE 706 743	В самом министерстве при этом говорят
+T33	GROUP 799 813	производителей
+T34	PRODUCT 815 825	шампанское
+R4	COSTS Arg1:T34 Arg2:T15	
+T35	DATE 970 976	Сейчас
+T36	NEWS_SOURCE 978 992	по данным АПИВ
+T37	PRODUCT 1007 1026	бутылки шампанского
+R5	COSTS Arg1:T37 Arg2:T23	

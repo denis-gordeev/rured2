@@ -41,3 +41,35 @@ T35	PERCENT 1841 1853	20 процентов
 R6	WORKPLACE Arg1:T24 Arg2:T23	
 R7	WORKPLACE Arg1:T24 Arg2:T22	
 R8	WORKS_AS Arg1:T24 Arg2:T5	
+T36	CRIME 25 40	опасные игрушки
+T37	CRIME 151 199	опасные для жизни и здоровья потребителей товары
+R9	TAKES_PLACE_IN Arg1:T37 Arg2:T28	
+T38	NEWS_SOURCE 266 292	пишет газета «Коммерсантъ»
+T39	EVENT 489 498	совещания
+T40	EVENT 316 325	совещания
+T41	GROUP 328 354	представителями госорганов
+R10	EVENT_TAKES_PART_IN Arg1:T41 Arg2:T40	
+T42	GROUP 357 374	интернет-компаний
+R11	EVENT_TAKES_PART_IN Arg1:T42 Arg2:T40	
+T43	ECONOMIC_SECTOR 396 412	интернет-отрасли
+R12	SUBORDINATE_OF Arg1:T3 Arg2:T9	
+T44	NEWS_SOURCE 500 513	По его словам
+T45	DATE 546 551	месяц
+T46	NEWS_SOURCE 597 621	уточнил источник издания
+T47	EVENT 626 635	совещании
+T48	PRODUCT 660 675	детских товарах
+T49	FAC 679 709	иностранных интернет-магазинов
+R13	SELLS Arg1:T49 Arg2:T48	
+T50	DATE 772 789	в настоящее время
+T51	PRODUCT 800 816	товары для детей
+R14	BUYS Arg1:T12 Arg2:T51	
+T52	ECONOMIC_SECTOR 935 958	трансграничной торговли
+T53	NEWS_SOURCE 1068 1105	По словам главы АКИТ Алексея Федорова
+T54	PROFESSION 1393 1401	продавца
+T55	PRODUCT 1481 1497	товары для детей
+T56	NEWS_SOURCE 1597 1618	По оценке организации
+T57	ECONOMIC_SECTOR 1729 1744	онлайн-торговли
+T58	NEWS_SOURCE 1703 1718	В АКИТ отмечают
+T59	FAC 1865 1894	зарубежных интернет-магазинов
+T60	PRODUCT 1810 1829	продукцию для детей
+R15	SELLS Arg1:T59 Arg2:T60	

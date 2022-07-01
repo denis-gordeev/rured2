@@ -40,3 +40,16 @@ T30	PROFESSION 1182 1196	главы компании
 T31	ORGANIZATION 1135 1152	совета директоров
 R10	OWNERSHIP Arg1:T18 Arg2:T31	
 T32	CURRENCY 954 962	долларов
+T33	NEWS_SOURCE 199 223	сообщает Financial Times
+T34	NEWS_SOURCE 249 269	По информации газеты
+T35	DATE 369 387	В настоящий момент
+R11	WORKPLACE Arg1:T29 Arg2:T9	
+T36	GROUP 313 333	несколько кандидатур
+T37	NEWS_SOURCE 455 483	Маск написал в своем Twitter
+T38	NEWS_SOURCE 489 506	информация газеты
+T40	ORGANIZATION 910 918	компанию
+T41	NEWS_SOURCE 872 877	твита
+T42	CRIME 1073 1088	в мошенничестве
+T39	CRIME 714 729	в мошенничестве
+T43	GROUP 1121 1134	Представители
+R12	WORKPLACE Arg1:T43 Arg2:T31	

@@ -58,3 +58,37 @@ T54	ORGANIZATION 1443 1499	Санкт-Петербургской междуна�
 T55	COMMODITY 1202 1207	нефть
 T56	COMMODITY 1544 1549	нефть
 T57	COMMODITY 345 350	Нефть
+T58	NEWS_SOURCE 124 137	сообщает ТАСС
+T59	TRADE_AGREEMENT 258 267	контракта
+R4	SELLS Arg1:T6 Arg2:T57	
+R5	SELLS Arg1:T7 Arg2:T57	
+R6	SELLS Arg1:T8 Arg2:T57	
+R7	SELLS Arg1:T9 Arg2:T57	
+R8	SELLS Arg1:T10 Arg2:T57	
+T60	COMMODITY 503 508	нефти
+R9	COSTS Arg1:T60 Arg2:T36	
+R10	COSTS Arg1:T60 Arg2:T37	
+T61	GROUP 554 574	иностранных клиентов
+T62	EVENT 57 62	торги
+R11	TAKES_PLACE_IN Arg1:T62 Arg2:T4	
+T63	EVENT 139 144	Торги
+R12	TAKES_PLACE_IN Arg1:T63 Arg2:T29	
+T64	EVENT 422 427	Торги
+R13	EVENT_TAKES_PART_IN Arg1:T40 Arg2:T64	
+R14	EVENT_TAKES_PART_IN Arg1:T61 Arg2:T64	
+T65	NEWS_SOURCE 576 602	Bloomberg в феврале писало
+T66	GROUP 608 629	иностранные инвесторы
+T67	ECONOMIC_SECTOR 768 785	нефтяной торговле
+T68	COMMODITY 835 840	нефти
+R15	BUYS Arg1:T14 Arg2:T68	
+T69	COMMODITY 911 924	углеводороды.
+R16	BUYS Arg1:T14 Arg2:T69	
+T70	TRADE_AGREEMENT 965 986	нефтяными контрактами
+T71	COMMODITY 1106 1111	нефти
+R17	BUYS Arg1:T17 Arg2:T71	
+T72	COMMODITY 1163 1168	нефти
+R18	BUYS Arg1:T18 Arg2:T72	
+R19	COSTS Arg1:T25 Arg2:T48	
+R20	COSTS Arg1:T26 Arg2:T52	
+T73	EVENT 1514 1519	торги
+R21	DATE_TAKES_PLACE_ON Arg1:T73 Arg2:T27	

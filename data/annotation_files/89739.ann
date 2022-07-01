@@ -60,3 +60,26 @@ T45	MONEY 1458 1469	132 доллара
 T46	COMMODITY 1315 1318	газ
 T47	CURRENCY 534 542	долларов
 T48	CURRENCY 1443 1451	долларов
+T49	NEWS_SOURCE 272 285	сообщает ТАСС
+T50	ECONOMIC_SECTOR 357 388	торгово-экономические отношения
+T51	GROUP 488 497	партнерам
+R15	WORKPLACE Arg1:T51 Arg2:T33	
+T52	NEWS_SOURCE 544 562	напомнила Тимакова
+T53	GROUP 578 589	руководству
+R16	WORKPLACE Arg1:T53 Arg2:T16	
+T54	NEWS_SOURCE 621 645	заметила пресс-секретарь
+T55	NEWS_SOURCE 674 700	Александр Лукашенко заявил
+T56	CRIME 872 880	шантажом
+T57	GROUP 891 900	партнеров
+T58	COMMODITY 949 952	газ
+R17	SELLS Arg1:T29 Arg2:T58	
+T59	GROUP 829 835	членов
+R18	MEMBER Arg1:T59 Arg2:T2	
+T60	CRIME 975 982	шантажу
+T61	NEWS_SOURCE 1066 1092	пояснил российский премьер
+T62	NEWS_SOURCE 1094 1138	По словам президента России Владимира Путина
+T63	GROUP 1177 1194	странами-соседями
+R19	BUYS Arg1:T24 Arg2:T46	
+T64	NEWS_SOURCE 1354 1402	премьер-министр Белоруссии Андрей Кобяков заявил
+R20	COSTS Arg1:T46 Arg2:T31	
+R21	COSTS Arg1:T46 Arg2:T45	

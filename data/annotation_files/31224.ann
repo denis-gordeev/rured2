@@ -31,5 +31,35 @@ T27	ORGANIZATION 1468 1479	Flyer Award
 R4	HEADQUARTERED_IN Arg1:T13 Arg2:T14	
 T28	CARDINAL 1594 1596	43
 T29	DATE 1701 1710	2017 году
-T30	ORGANIZATION 1749 1766	ТОП-10 от eDreams
-R5	MEMBER Arg1:T15 Arg2:T30	
+T31	ORDINAL 19 25	первую
+T32	CARDINAL 26 33	десятку
+T33	CARDINAL 71 78	десятку
+T34	GROUP 98 114	авиаперевозчиков
+T35	ORGANIZATION 238 250	авиакомпании
+T36	NEWS_SOURCE 212 250	сообщается в пресс-релизе авиакомпании
+T37	GROUP 331 341	пассажиров
+T38	GROUP 410 444	иностранной пассажирской аудитории
+T39	ORGANIZATION 669 681	авиакомпании
+R6	HEADQUARTERED_IN Arg1:T39 Arg2:T17	
+T40	GROUP 711 723	перевозчиков
+T41	NEWS_SOURCE 727 775	заявил генедиректор «Аэрофлота» Виталий Савельев
+T42	GROUP 854 864	пассажиров
+T43	AWARD 991 1031	международных премий за качество сервиса
+T44	ORGANIZATION 1046 1054	компания
+T45	AWARD 1086 1142	рейтинг «четыре звезды» от британского агентства Skytrax
+T46	AWARD 1168 1225	«пять звезд» от американской пассажирской ассоциации APEX
+T47	NEWS_SOURCE 1245 1276	сайт о путешествиях TripAdvisor
+T48	ORGANIZATION 1392 1402	перевозчик
+R7	HEADQUARTERED_IN Arg1:T48 Arg2:T18	
+T49	ORGANIZATION 1438 1450	авиакомпании
+T50	AWARD 1375 1479	Китае российский перевозчик получил звание любимой иностранной авиакомпании по версии премии Flyer Award
+T51	ORGANIZATION 1523 1537	штаб-квартирой
+R8	OWNERSHIP Arg1:T13 Arg2:T51	
+T52	ECONOMIC_SECTOR 1565 1572	туризма
+T53	ORGANIZATION 1611 1620	Агентство
+T54	CARDINAL 1621 1629	ежегодно
+T55	ORGANIZATION 1656 1668	авиакомпаний
+T56	AWARD 1749 1766	ТОП-10 от eDreams
+T30	ORGANIZATION 1759 1766	eDreams
+T57	EVENT 1680 1698	масштабного опроса
+R5	DATE_TAKES_PLACE_ON Arg1:T57 Arg2:T29	

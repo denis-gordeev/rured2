@@ -50,3 +50,16 @@ T37	GROUP 1206 1221	топ-менеджмента
 R13	WORKPLACE Arg1:T17 Arg2:T18	
 R14	WORKPLACE Arg1:T17 Arg2:T19	
 T38	CURRENCY 757 761	евро
+T39	CRIME 44 57	мошенничество
+R15	CONVICTED_OF Arg1:T3 Arg2:T39	
+T40	CRIME 202 215	мошенничестве
+T41	CRIME 218 234	отмывании денег.
+R16	CONVICTED_OF Arg1:T2 Arg2:T40	
+R17	CONVICTED_OF Arg1:T2 Arg2:T41	
+T42	NEWS_SOURCE 266 283	сообщает El Paìs.
+T43	CRIME 620 761	пользовались кредитными «черными картами» финансовой организации, с помощью которых без ведома налоговых служб вывели более 12 миллионов евро
+R18	CONVICTED_OF Arg1:T13 Arg2:T43	
+R19	CONVICTED_OF Arg1:T14 Arg2:T43	
+T44	ORGANIZATION 1118 1121	Суд
+T45	ORGANIZATION 1140 1145	банка
+R20	WORKPLACE Arg1:T37 Arg2:T45	

@@ -49,3 +49,16 @@ T40	CURRENCY 499 507	долларов
 T41	CURRENCY 47 51	евро
 T42	CURRENCY 118 122	евро
 T43	CURRENCY 1305 1309	евро
+R9	EXPENDITURE Arg1:T7 Arg2:T28	
+R10	EXPENDITURE Arg1:T8 Arg2:T25	
+T44	NEWS_SOURCE 178 217	заявил президент Украины Петр Порошенко
+T45	NEWS_SOURCE 292 312	сообщает «Интерфакс»
+T46	NEWS_SOURCE 326 340	по его словам,
+R11	EXPENDITURE Arg1:T2 Arg2:T33	
+T47	ORDINAL 578 586	третьего
+T48	DATE 767 785	за последнее время
+T49	ORGANIZATION 1118 1129	предприятий
+T50	GROUP 1148 1159	госслужащих
+T51	GROUP 1162 1173	бюджетников
+T52	LAW 1504 1544	законом, запрещающим вывоз леса-кругляка
+T53	COMMODITY 1531 1544	леса-кругляка

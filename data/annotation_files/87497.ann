@@ -35,3 +35,32 @@ T34	CARDINAL 671 673	17
 T35	MONEY 711 739	почти 740 миллионов долларов
 T17	QUANTITY 899 919	не менее 500 человек
 T36	CURRENCY 731 739	долларов
+T18	NEWS_SOURCE 24 33	сообщения
+T37	ORGANIZATION 69 74	банки
+R3	HEADQUARTERED_IN Arg1:T37 Arg2:T31	
+T38	ORGANIZATION 76 81	Банки
+R4	HEADQUARTERED_IN Arg1:T38 Arg2:T5	
+T39	CRIME 124 161	капиталов криминального происхождения
+T40	GROUP 241 247	коллег
+R5	WORKPLACE Arg1:T40 Arg2:T33	
+T41	NEWS_SOURCE 322 340	заявил РИА Новости
+T42	ORGANIZATION 406 411	банки
+R6	HEADQUARTERED_IN Arg1:T42 Arg2:T32	
+T43	GROUP 360 363	СМИ
+T44	NEWS_SOURCE 348 363	сообщения в СМИ
+T45	GROUP 508 526	западных партнеров
+T46	NEWS_SOURCE 597 610	считает Зубов
+T47	DATE 618 631	в тот же день
+T48	ORGANIZATION 682 688	банков
+R7	HEADQUARTERED_IN Arg1:T48 Arg2:T15	
+T49	CRIME 749 800	международной операции по отмыванию денег из России
+T50	CRIME 817 838	«Всемирной прачечной»
+T51	NEWS_SOURCE 866 883	по данным газеты,
+T52	ORGANIZATION 974 979	банки
+R8	HEADQUARTERED_IN Arg1:T52 Arg2:T20	
+R9	HEADQUARTERED_IN Arg1:T52 Arg2:T21	
+T53	NEWS_SOURCE 1033 1055	По данным The Guardian
+T54	PROFESSION 1152 1163	Следователи
+T55	ORGANIZATION 1181 1201	кредитные учреждения
+T56	CRIME 1181 1236	кредитные учреждения не остановили сомнительные платежи
+T57	CRIME 1255 1294	деньги имеют криминальное происхождение

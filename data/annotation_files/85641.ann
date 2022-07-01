@@ -41,3 +41,41 @@ R8	OWNERSHIP Arg1:T1 Arg2:T32
 R9	WORKPLACE Arg1:T30 Arg2:T32	
 R10	WORKS_AS Arg1:T30 Arg2:T3	
 R11	OWNERSHIP Arg1:T16 Arg2:T15	
+T33	ORDINAL 10 16	первым
+T34	COMMODITY 53 57	руды
+T35	ECONOMIC_SECTOR 46 57	добычу руды
+T36	COMMODITY 133 137	руды
+T37	ECONOMIC_SECTOR 126 137	добычу руды
+T38	FAC 182 203	запасов питьевой воды
+R12	HEADQUARTERED_IN Arg1:T38 Arg2:T6	
+T39	NEWS_SOURCE 234 266	пишет газета The Financial Times
+T40	COMMODITY 285 291	золота
+T41	FAC 271 291	месторождения золота
+R13	HEADQUARTERED_IN Arg1:T41 Arg2:T8	
+T42	ORGANIZATION 356 384	западные добывающие компании
+T43	NEWS_SOURCE 448 464	отмечает издание
+T44	ORGANIZATION 469 494	законодательная ассамблея
+T45	LAW 503 583	закон, превративший введенный ранее мораторий на разработку в полноценный запрет
+T46	COMMODITY 610 614	угля
+T47	PRODUCT 616 620	соли
+T48	ECONOMIC_SECTOR 603 614	добычу угля
+T49	FAC 623 641	работу каменоломен
+T50	NEWS_SOURCE 643 656	По данным ООН
+T52	GROUP 718 731	стран региона
+T51	FAC 744 757	питьевой воды
+R14	HEADQUARTERED_IN Arg1:T51 Arg2:T11	
+T53	DATE 794 806	Одновременно
+T54	NEWS_SOURCE 863 882	отмечают экономисты
+T55	DATE 965 971	Сейчас
+T56	GROUP 972 989	власти республики
+T57	EVENT 996 1006	переговоры
+R15	ORGANIZES Arg1:T56 Arg2:T57	
+R16	EVENT_TAKES_PART_IN Arg1:T12 Arg2:T57	
+T58	DATE 1072 1091	в ближайшем времени
+T59	GROUP 1058 1071	другие страны
+T60	NEWS_SOURCE 1122 1146	пишет The New York Times
+T61	GROUP 1189 1202	малых народов
+T62	GROUP 1205 1236	регионов с проблемной экологией
+T63	ECONOMIC_SECTOR 1280 1299	горнорудная отрасль
+T64	COMMODITY 1567 1573	золота
+T65	ECONOMIC_SECTOR 1556 1573	извлечения золота

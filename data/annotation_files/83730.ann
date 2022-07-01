@@ -54,3 +54,21 @@ T41	ORGANIZATION 1277 1294	совета директоров
 R13	OWNERSHIP Arg1:T23 Arg2:T41	
 T42	PROFESSION 1263 1276	председателем
 R14	WORKPLACE Arg1:T42 Arg2:T41	
+T43	NEWS_SOURCE 82 107	Валерия Гонтарева заявила
+T44	NEWS_SOURCE 162 182	сообщает РИА Новости
+T45	NEWS_SOURCE 314 334	По словам Гонтаревой
+T46	GROUP 374 394	состав его правления
+T47	EVENT 468 482	акция протеста
+R15	DATE_TAKES_PLACE_ON Arg1:T47 Arg2:T33	
+R16	HEADQUARTERED_IN Arg1:T36 Arg2:T12	
+R17	TAKES_PLACE_IN Arg1:T47 Arg2:T12	
+T48	GROUP 484 495	Митингующие
+T49	GROUP 643 659	участникам акции
+T50	EVENT 654 659	акции
+T51	PROFESSION 720 730	президенту
+T52	NEWS_SOURCE 801 821	Артем Сытник сообщил
+T53	CRIME 867 898	причастность к растрате средств
+T54	NEWS_SOURCE 1032 1078	По информации журналиста Александра Дубинского
+T55	ORGANIZATION 947 966	коммерческих банков
+R18	WORKPLACE Arg1:T21 Arg2:T22	
+R19	PLACE_RESIDES_IN Arg1:T21 Arg2:T30	

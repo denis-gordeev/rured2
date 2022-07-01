@@ -38,7 +38,7 @@ T35	PERCENT 213 226	150 процентов
 T37	PROFESSION 525 533	депутаты
 T36	PROFESSION 630 635	глава
 T39	WORK_OF_ART 709 733	Преступление и наказание
-T38	PERSON 663 684	старухой-процентщицей
+T38	CHARACTER 663 684	старухой-процентщицей
 T14	DATE 957 990	конец третьего квартала 2016 года
 T16	CARDINAL 798 813	полуторакратном
 T17	GROUP 1266 1269	МФО
@@ -53,3 +53,23 @@ R8	SUBORDINATE_OF Arg1:T5 Arg2:T44
 R9	WORKS_AS Arg1:T21 Arg2:T5	
 R10	WORKPLACE Arg1:T21 Arg2:T20	
 R11	WORKPLACE Arg1:T44 Arg2:T20	
+T45	NEWS_SOURCE 236 255	пишет «Коммерсантъ»
+T46	NEWS_SOURCE 397 409	по данным ЦБ
+T47	ORGANIZATION 831 834	МФО
+T48	LAW 754 821	требования о предельном размере переплаты в полуторакратном размере
+T49	ORDINAL 837 843	первую
+T50	GROUP 863 869	игроки
+T51	NEWS_SOURCE 923 939	отмечает издание
+T52	ECONOMIC_SECTOR 893 921	выдачах краткосрочных займов
+T53	NEWS_SOURCE 941 953	По данным ЦБ
+T54	ORGANIZATION 1035 1038	МФО
+T55	ORGANIZATION 1323 1328	банки
+T56	GROUP 1357 1365	клиентов
+T57	GROUP 1620 1628	клиентов
+T58	ORDINAL 1720 1726	первое
+T59	NEWS_SOURCE 1914 1970	сказал банкир в комментарии Национальной службе новостей
+T60	NEWS_SOURCE 2031 2054	Дмитрий Тулин признался
+T61	CRIME 2151 2177	подпольные конторы игорные
+T62	FAC 2190 2196	казино
+T63	ORGANIZATION 2285 2291	банках
+T64	CURRENCY 1083 1089	рублей

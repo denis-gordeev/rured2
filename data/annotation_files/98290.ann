@@ -34,3 +34,14 @@ R6	WORKPLACE Arg1:T6 Arg2:T16
 R7	WORKPLACE Arg1:T18 Arg2:T17	
 T28	PERCENT 1507 1525	около 30 процентов
 T29	NORP 1526 1533	россиян
+T30	NEWS_SOURCE 271 300	сообщает Rambler News Service
+T31	NEWS_SOURCE 399 409	сказал Мау
+T32	NEWS_SOURCE 411 424	По его словам
+T33	GROUP 434 450	развитых странах
+T34	GROUP 738 751	правительство
+T35	NEWS_SOURCE 956 972	указал экономист
+T36	NEWS_SOURCE 974 985	Мау считает
+T37	GROUP 1177 1192	среднего класса
+R8	WORKPLACE Arg1:T37 Arg2:T27	
+T38	ORGANIZATION 1419 1422	суд
+T39	NEWS_SOURCE 1444 1488	РАНХиГС опубликовала результаты исследования

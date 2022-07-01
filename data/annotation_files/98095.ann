@@ -45,3 +45,19 @@ T36	DATE 1559 1568	19 января
 T37	GROUP 1658 1669	бюджетников
 T38	GROUP 85 96	бюджетников
 T39	PRODUCT 1912 1915	Мир
+T40	ORGANIZATION 44 50	банкам
+T41	NEWS_SOURCE 205 248	заявил автор соответствующего законопроекта
+T42	ORGANIZATION 336 342	банков
+T43	ORGANIZATION 635 640	банки
+T44	ORGANIZATION 786 791	банки
+T45	NEWS_SOURCE 926 941	отметил Аксаков
+T46	LAW 760 844	законопроект, по которому банки должны перейти на новую систему с 1 января 2018 года
+T47	LAW 958 992	перевод бюджетников на карту «Мир»
+T48	PROFESSION 1253 1260	депутат
+T49	NEWS_SOURCE 1246 1260	сказал депутат
+T50	PERSON 1279 1287	критиков
+T51	ORGANIZATION 1331 1337	банкам
+T52	NEWS_SOURCE 1339 1354	Аксаков ответил
+T53	ORGANIZATION 1472 1477	банки
+T54	ORGANIZATION 1607 1612	банки
+R9	HEADQUARTERED_IN Arg1:T54 Arg2:T26	

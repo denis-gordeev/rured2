@@ -27,3 +27,13 @@ T19	GPE 516 524	западных
 T20	DATE 534 553	В середине сентября
 T21	CURRENCY 599 604	рубли
 T22	CURRENCY 684 692	долларах
+T23	NEWS_SOURCE 69 89	Андрей Костин заявил
+T24	NEWS_SOURCE 151 189	передает радиостанция «Говорит Москва»
+T25	NEWS_SOURCE 191 204	По его словам
+T26	GROUP 264 271	клиенты
+T27	ORGANIZATION 272 278	банков
+T28	ECONOMIC_SECTOR 373 391	банковском секторе
+T29	NEWS_SOURCE 396 410	сообщил Костин
+T30	PROFESSION 483 492	чиновники
+T31	ORGANIZATION 667 673	банкам
+R8	HEADQUARTERED_IN Arg1:T31 Arg2:T17	

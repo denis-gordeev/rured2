@@ -49,3 +49,10 @@ T45	CURRENCY 1132 1137	рубля
 T46	CURRENCY 1053 1059	рублей
 T47	COMMODITY 141 146	нефть
 T48	COMMODITY 1139 1150	Нефть Brent
+R5	COSTS Arg1:T47 Arg2:T23	
+T37	NEWS_SOURCE 244 272	приводит агентство Bloomberg
+T49	NEWS_SOURCE 358 374	полагает эксперт
+T50	EVENT 991 1026	открытии торгов на Московской бирже
+R6	DATE_TAKES_PLACE_ON Arg1:T50 Arg2:T25	
+R7	COSTS Arg1:T48 Arg2:T18	
+T51	NEWS_SOURCE 1260 1281	Максим Орешкин заявил

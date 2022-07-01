@@ -37,3 +37,8 @@ T30	COMMODITY 869 872	газ
 T31	CURRENCY 382 388	гривен
 T32	CURRENCY 719 727	долларов
 T33	CURRENCY 304 310	гривен
+T34	NEWS_SOURCE 128 179	заявил украинский премьер-министр Владимир Гройсман
+T35	NEWS_SOURCE 180 203	в эфире телеканала ICTV
+T36	NEWS_SOURCE 205 224	По словам чиновника
+T37	ORGANIZATION 444 449	фонда
+T38	NEWS_SOURCE 1106 1125	подчеркнул Гройсман

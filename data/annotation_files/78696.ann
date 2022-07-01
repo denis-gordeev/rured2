@@ -24,3 +24,14 @@ T22	DATE 871 881	за баррель
 T23	COMMODITY 86 91	нефти
 T24	COMMODITY 547 552	нефти
 T25	COMMODITY 622 627	нефти
+T26	CURRENCY 29 36	доллара
+R2	COSTS Arg1:T20 Arg2:T19	
+T27	CURRENCY 118 125	доллара
+R3	COSTS Arg1:T7 Arg2:T8	
+T28	NEWS_SOURCE 296 329	публикации данных о запасах в США
+T29	NEWS_SOURCE 331 376	По данным Агентства энергетической информации
+T30	GROUP 472 481	инвесторы
+R4	PRODUCES Arg1:T5 Arg2:T25	
+T31	GROUP 767 801	независимыми производителями сырья
+R5	COSTS Arg1:T13 Arg2:T21	
+T32	CURRENCY 863 870	доллара

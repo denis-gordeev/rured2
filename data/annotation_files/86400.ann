@@ -26,3 +26,13 @@ T20	DATE 435 443	27 марта
 T21	CITY 73 83	Московский
 R6	HEADQUARTERED_IN Arg1:T8 Arg2:T21	
 T22	DATE 188 211	в понедельник, 27 марта
+T23	NEWS_SOURCE 213 242	сообщает Rambler News Service
+T24	ORGANIZATION 267 288	кредитной организации
+T25	ORGANIZATION 371 376	банка
+R7	WORKPLACE Arg1:T4 Arg2:T25	
+T26	GROUP 403 411	клиентов
+T27	NEWS_SOURCE 354 376	сказал сотрудник банка
+T28	NEWS_SOURCE 444 487	РИА Новости со ссылкой на источник сообщило
+T29	ORGANIZATION 744 769	финансовыми организациями
+T30	ECONOMIC_SECTOR 819 838	банковского сектора
+T31	NEWS_SOURCE 871 913	считает зампред Банка России Дмитрий Тулин

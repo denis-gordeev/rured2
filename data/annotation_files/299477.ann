@@ -116,3 +116,46 @@ R32	EVENT_TAKES_PART_IN Arg1:T56 Arg2:T83
 T84	COMMODITY 27 32	нефти
 T85	COMMODITY 263 268	нефти
 T86	CURRENCY 2208 2216	долларов
+T87	PROFESSION 8 16	продавец
+R33	WORKPLACE Arg1:T87 Arg2:T2	
+R34	WORKPLACE Arg1:T3 Arg2:T4	
+T88	NEWS_SOURCE 152 176	пишет газета "Ведомости"
+T89	PROFESSION 200 210	бизнесмена
+T90	GROUP 191 199	знакомых
+R35	SELLS Arg1:T7 Arg2:T85	
+T91	DATE 282 299	В настоящее время
+T92	NEWS_SOURCE 343 356	по данным СМИ
+T93	NEWS_SOURCE 473 506	Александр Рязанов сообщил изданию
+T94	INVESTMENT_PROGRAM 550 590	вкладывать деньги в местное производство
+R36	INVESTS Arg1:T16 Arg2:T94	
+T95	NEWS_SOURCE 592 629	Неназванный собеседник газеты отметил
+T96	PROFESSION 635 650	предприниматель
+T97	INVESTMENT_PROGRAM 651 704	начал вкладывать больше денег в реальное производство
+R37	WORKPLACE Arg1:T96 Arg2:T18	
+T98	PROFESSION 790 796	банкир
+T99	NEWS_SOURCE 790 814	банкир рассказал изданию
+T100	ECONOMIC_SECTOR 845 857	производству
+T101	PROFESSION 859 869	бизнесмена
+T102	NEWS_SOURCE 971 983	СМИ сообщали
+T103	FAC 1223 1239	хоккейного клуба
+R38	HEADQUARTERED_IN Arg1:T103 Arg2:T73	
+T104	FAC 1490 1531	строит объекты для газовой промышленности
+T105	PRODUCT 1636 1644	напитков
+R39	PRODUCES Arg1:T70 Arg2:T105	
+T106	ORGANIZATION 1810 1823	Головной офис
+R40	OWNERSHIP Arg1:T46 Arg2:T106	
+T107	ORGANIZATION 1928 1936	компанию
+T108	NEWS_SOURCE 1889 1916	По неофициальной информации
+T109	COMMODITY 1990 1995	нефти
+R41	SELLS Arg1:T50 Arg2:T109	
+T110	NEWS_SOURCE 2036 2059	деловая пресса сообщила
+R43	COSTS Arg1:T82 Arg2:T54	
+R44	HEADQUARTERED_IN Arg1:T82 Arg2:T53	
+T111	PROFESSION 2228 2238	бизнесмена
+T112	FAC 2280 2306	строительству электросетей
+T113	ECONOMIC_SECTOR 2318 2336	торговлей металлом
+R42	HEADQUARTERED_IN Arg1:T112 Arg2:T53	
+T114	NEWS_SOURCE 2350 2390	в интервью Forbes сам Тимченко рассказал
+T115	ORGANIZATION 2412 2431	строительную группу
+T116	ORDINAL 2448 2453	одним
+R45	OWNERSHIP Arg1:T56 Arg2:T115	
