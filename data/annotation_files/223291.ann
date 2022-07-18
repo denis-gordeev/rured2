@@ -43,3 +43,50 @@ T36	GROUP 883 889	власти
 R7	WORKPLACE Arg1:T36 Arg2:T20	
 T37	ORGANIZATION 1101 1114	правительство
 R8	OWNERSHIP Arg1:T25 Arg2:T37	
+T38	FAC 35 40	судам
+R9	HEADQUARTERED_IN Arg1:T38 Arg2:T1	
+T39	PRODUCT 52 59	мальков
+R10	BUYS Arg1:T2 Arg2:T39	
+T40	FAC 93 98	судам
+R11	HEADQUARTERED_IN Arg1:T40 Arg2:T4	
+T41	PRODUCT 182 193	мальков рыб
+R12	BUYS Arg1:T5 Arg2:T41	
+T42	LOCATION 146 161	внутренние воды
+R13	OWNERSHIP Arg1:T5 Arg2:T42	
+T43	NEWS_SOURCE 276 340	опубликовано на официальном интернет-портале правовой информации
+T44	LAW 82 168	норвежским судам разрешено до 1 октября многократно заходить во внутренние воды России
+T45	FAC 532 537	судов
+T46	PRODUCT 587 603	мясной продукции
+T47	PRODUCT 605 611	овощей
+T48	PRODUCT 614 621	фруктов
+T49	PRODUCT 623 636	морепродуктов
+T50	PRODUCT 639 655	охлажденной рыбы
+T51	PRODUCT 657 663	молока
+T52	PRODUCT 666 684	молочных продуктов
+R14	HEADQUARTERED_IN Arg1:T45 Arg2:T11	
+T53	PRODUCT 915 922	мальков
+T54	FAC 927 952	производства аквакультуры
+R15	HEADQUARTERED_IN Arg1:T54 Arg2:T20	
+T55	NEWS_SOURCE 982 1013	Константин Леонов тогда заявлял
+T56	ORGANIZATION 1030 1038	компании
+R16	HEADQUARTERED_IN Arg1:T56 Arg2:T23	
+T57	PRODUCT 1060 1066	лосося
+T58	PRODUCT 1071 1078	мальков
+T59	PRODUCT 1244 1255	живой рыбой
+T60	DATE 1257 1270	В то же время
+T61	PRODUCT 1286 1309	мальков лосося и форели
+T62	PRODUCT 1311 1330	безлактозное молоко
+T63	PRODUCT 1333 1351	молочную продукцию
+T64	PRODUCT 1353 1371	семенной картофель
+T65	PRODUCT 1373 1390	сахарную кукурузу
+T66	PRODUCT 1392 1397	горох
+T67	PRODUCT 1399 1403	БАДы
+T68	PRODUCT 1406 1414	витамины
+R17	BUYS Arg1:T25 Arg2:T61	
+R18	BUYS Arg1:T25 Arg2:T62	
+R19	BUYS Arg1:T25 Arg2:T63	
+R20	BUYS Arg1:T25 Arg2:T64	
+R21	BUYS Arg1:T25 Arg2:T65	
+R22	BUYS Arg1:T25 Arg2:T66	
+R23	BUYS Arg1:T25 Arg2:T67	
+R24	BUYS Arg1:T25 Arg2:T68	

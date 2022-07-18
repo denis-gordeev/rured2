@@ -42,3 +42,18 @@ T38	CURRENCY 958 965	доллару
 T39	CURRENCY 902 906	риал
 T19	GROUP 1529 1535	Страны
 T40	CURRENCY 1519 1527	долларов
+T41	PRODUCT 21 27	золота
+T42	PRODUCT 89 95	золота
+T43	NEWS_SOURCE 167 183	сообщает Reuters
+T44	NEWS_SOURCE 185 243	По словам представителя министерства финансов Дэвида Коэна
+T45	ORGANIZATION 252 265	администрация
+T46	PRODUCT 305 325	драгоценного металла
+T47	GROUP 451 462	покупателей
+T48	PRODUCT 579 585	золото
+T49	PRODUCT 686 693	золотом
+R5	SELLS Arg1:T13 Arg2:T49	
+T50	PRODUCT 785 791	золото
+R6	BUYS Arg1:T14 Arg2:T50	
+T51	PRODUCT 1117 1123	золото
+T52	PRODUCT 1144 1154	Драгметалл
+T53	COMMODITY 1382 1387	нефти

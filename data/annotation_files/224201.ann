@@ -62,3 +62,14 @@ R20	WORKPLACE Arg1:T41 Arg2:T1
 T42	PROFESSION 71 83	гендиректора
 R22	SUBORDINATE_OF Arg1:T23 Arg2:T42	
 R23	WORKPLACE Arg1:T29 Arg2:T17	
+T43	NEWS_SOURCE 210 241	сообщает 27 августа РИА Новости
+T44	ECONOMIC_SECTOR 444 508	производства электронного оборудования для космических аппаратов
+T45	ORGANIZATION 708 721	РКК «Энергия»
+T46	ORGANIZATION 740 751	предприятия
+T47	PRODUCT 1259 1300	бортовую аппаратуру космических аппаратов
+R21	PRODUCES Arg1:T31 Arg2:T47	
+T48	PRODUCT 1324 1361	наземных систем управления спутниками
+R24	PRODUCES Arg1:T31 Arg2:T48	
+T49	PRODUCT 1364 1383	ракетами-носителями
+R25	PRODUCES Arg1:T31 Arg2:T49	
+R26	PRODUCES Arg1:T20 Arg2:T21	

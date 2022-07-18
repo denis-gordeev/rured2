@@ -26,3 +26,19 @@ T23	PERCENT 942 965	с 59,4 до 58,2 процента
 T24	CARDINAL 996 1011	с двумя и более
 T25	NORP 43 50	россиян
 T26	CURRENCY 1284 1290	рублей
+T27	ORGANIZATION 0 5	Банки
+T28	NEWS_SOURCE 164 186	сообщает «Коммерсантъ»
+T29	ORGANIZATION 208 230	бюро кредитных историй
+T30	ORGANIZATION 232 235	БКИ
+R3	ABBREVIATION Arg1:T29 Arg2:T30	
+T31	ORGANIZATION 303 317	торговых сетях
+T32	ORGANIZATION 582 585	БКИ
+T33	NEWS_SOURCE 564 585	следует из данных БКИ
+T34	GROUP 669 677	клиентов
+T35	ORGANIZATION 740 746	банков
+T36	NEWS_SOURCE 824 878	прокомментировал гендиректор «Эквифакса» Олег Лагуткин
+T37	GROUP 885 893	клиентов
+T38	ORGANIZATION 917 923	банках
+T39	DATE 967 980	В то же время
+T40	GROUP 986 995	заемщиков
+T41	ECONOMIC_SECTOR 1320 1343	розничного кредитования

@@ -29,7 +29,20 @@ R2	WORKPLACE Arg1:T4 Arg2:T3
 T28	EVENT 192 205	Россия зовет!
 R3	WORKS_AS Arg1:T9 Arg2:T25	
 T29	DATE 1443 1465	в течение 2000-х годов
-T30	ORGANIZATION 1472 1485	правительство
+T30	GROUP 1472 1485	правительство
 R4	EVENT_TAKES_PART_IN Arg1:T4 Arg2:T28	
 R5	WORKPLACE Arg1:T9 Arg2:T8	
 T31	CURRENCY 1668 1674	рублей
+T26	NEWS_SOURCE 136 170	заявил президент РФ Владимир Путин
+T32	NEWS_SOURCE 208 221	передает ТАСС
+T33	NEWS_SOURCE 343 355	сказал Путин
+T34	GROUP 468 479	руководстве
+T35	GROUP 532 543	руководстве
+T36	GROUP 554 567	правительстве
+T37	NEWS_SOURCE 761 806	глава Банка России Эльвира Набиуллина заявила
+T38	NEWS_SOURCE 1163 1181	Банк России заявил
+T39	GROUP 1330 1333	СМИ
+T40	NEWS_SOURCE 1320 1333	сообщения СМИ
+T41	PROFESSION 1812 1822	чиновников
+R6	WORKPLACE Arg1:T41 Arg2:T22	
+T42	NEWS_SOURCE 1749 1833	агентство Bloomberg со ссылкой на не назвавших себя российских чиновников рассказало

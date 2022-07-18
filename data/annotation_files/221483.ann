@@ -58,3 +58,44 @@ T45	QUANTITY 1500 1531	около 50 тысяч пассажиров в год
 T46	COUNTRY 1550 1557	Украины
 R14	OWNERSHIP Arg1:T46 Arg2:T19	
 T28	QUANTITY 1969 1995	более 100 пассажиров в час
+R15	HEADQUARTERED_IN Arg1:T3 Arg2:T4	
+T47	NEWS_SOURCE 209 227	передает ИТАР-ТАСС
+T48	NEWS_SOURCE 138 207	заявил исполняющий обязанности губернатора Севастополя Сергей Меняйло
+T49	FAC 245 254	аэропорта
+T50	ORGANIZATION 330 354	министерством транспорта
+T51	FAC 229 244	Взлетная полоса
+R16	OWNERSHIP Arg1:T49 Arg2:T51	
+R17	USES Arg1:T7 Arg2:T51	
+R18	USES Arg1:T50 Arg2:T51	
+T52	NEWS_SOURCE 415 428	По его словам
+T53	FAC 440 450	аэропортом
+T54	FAC 561 584	воздушного пространства
+R19	USES Arg1:T32 Arg2:T54	
+T55	NEWS_SOURCE 644 668	по словам Сергея Меняйло
+T56	NEWS_SOURCE 680 710	И.о. губернатора также сообщил
+T57	FAC 716 733	стоянки самолетов
+R20	OWNERSHIP Arg1:T10 Arg2:T57	
+T58	ECONOMIC_SECTOR 813 832	гражданской авиации
+T59	PROFESSION 964 974	бизнесмена
+R21	WORKPLACE Arg1:T59 Arg2:T11	
+T60	FAC 1018 1034	новый аэровокзал
+T61	NEWS_SOURCE 1036 1051	Меняйло отметил
+T62	DATE 1153 1178	Во второй половине 1980-х
+T63	FAC 1179 1204	взлетно-посадочная полоса
+T64	FAC 1221 1229	аэропорт
+T65	FAC 1261 1288	правительственных самолетов
+R22	OWNERSHIP Arg1:T64 Arg2:T63	
+T66	DATE 1290 1310	До недавнего времени
+R23	HEADQUARTERED_IN Arg1:T60 Arg2:T11	
+T67	FAC 1404 1412	аэропорт
+T68	ECONOMIC_SECTOR 1433 1460	международные авиаперевозки
+T69	FAC 1613 1622	аэродрома
+R24	HEADQUARTERED_IN Arg1:T69 Arg2:T46	
+T70	FAC 1835 1844	аэропорта
+T71	ECONOMIC_SECTOR 1864 1878	бизнес-авиации
+T72	FAC 1880 1888	Аэропорт
+T73	FAC 1907 1918	терминалами
+T74	FAC 1921 1935	залом ожидания
+R25	OWNERSHIP Arg1:T72 Arg2:T73	
+R26	OWNERSHIP Arg1:T72 Arg2:T74	
+T75	GROUP 2132 2147	властями города

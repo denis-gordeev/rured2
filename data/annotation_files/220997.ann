@@ -24,7 +24,6 @@ T25	ORDINAL 1714 1720	второй
 T26	COUNTRY 1744 1750	России
 T27	GPE 1763 1769	Запада
 T28	PROFESSION 166 171	глава
-T29	PROFESSION 436 441	глава
 T30	PROFESSION 1090 1095	Глава
 T31	PROFESSION 1659 1667	помощник
 T32	ORGANIZATION 223 232	Интерфакс
@@ -41,3 +40,43 @@ T20	ORGANIZATION 1140 1153	правительство
 T36	PROFESSION 1668 1678	президента
 R6	SUBORDINATE_OF Arg1:T31 Arg2:T36	
 T37	CURRENCY 1202 1208	рублей
+T38	PRODUCT 71 82	автомобилей
+R7	SELLS Arg1:T1 Arg2:T38	
+T39	PRODUCT 128 139	автомобилей
+R8	PRODUCES Arg1:T3 Arg2:T39	
+T40	NEWS_SOURCE 159 211	заявил глава кремлевской администрации Сергей Иванов
+T41	NEWS_SOURCE 213 233	передает «Интерфакс»
+T42	NEWS_SOURCE 235 249	Иванов заметил
+T43	DATE 255 265	каждый год
+T44	PROFESSION 385 393	торговки
+T45	DATE 422 435	В то же время
+T29	PROFESSION 436 469	глава президентской администрации
+T46	NEWS_SOURCE 436 477	глава президентской администрации отметил
+T47	GROUP 497 503	жители
+R9	ORIGINS_FROM Arg1:T47 Arg2:T8	
+T48	PRODUCT 556 567	автомобилям
+R10	SELLS Arg1:T9 Arg2:T48	
+T49	PRODUCT 673 698	автомобилей с левым рулем
+T50	ECONOMIC_SECTOR 654 666	производства
+T51	PRODUCT 743 749	машины
+T52	GROUP 858 864	жители
+R11	WORKPLACE Arg1:T52 Arg2:T12	
+T53	PRODUCT 911 921	автомобили
+R12	PRODUCES Arg1:T13 Arg2:T53	
+T54	NEWS_SOURCE 1090 1134	Глава администрации президента также сообщил
+R13	EXPENDITURE Arg1:T20 Arg2:T35	
+T55	PRODUCT 1234 1258	автомобильных двигателей
+T56	ECONOMIC_SECTOR 1221 1233	производства
+T57	GROUP 1354 1364	резидентов
+T58	NEWS_SOURCE 1382 1399	Иванов подчеркнул
+T59	ECONOMIC_SECTOR 1412 1424	производства
+T60	NEWS_SOURCE 1458 1471	По его словам
+T61	PRODUCT 1604 1615	автомобилей
+R14	PRODUCES Arg1:T21 Arg2:T61	
+T62	PRODUCT 1549 1558	двигатели
+R15	PRODUCES Arg1:T21 Arg2:T62	
+T63	NEWS_SOURCE 1686 1708	Андрей Белоусов заявил
+T64	PRODUCT 1794 1805	автомобилей
+T65	PRODUCT 1813 1842	товаров легкой промышленности
+T66	ECONOMIC_SECTOR 1821 1842	легкой промышленности
+T67	ORGANIZATION 442 469	президентской администрации

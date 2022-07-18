@@ -64,3 +64,41 @@ T50	MONEY 1971 1993	529,2 миллиарда рублей
 T51	PERCENT 1999 2022	на 11,7 процента больше
 T52	CURRENCY 975 983	долларов
 T53	CURRENCY 1987 1993	рублей
+R14	HEADQUARTERED_IN Arg1:T11 Arg2:T1	
+T54	ECONOMIC_SECTOR 117 135	атомной энергетике
+T55	FAC 193 205	энергоблоков
+R15	OWNERSHIP Arg1:T5 Arg2:T55	
+R16	HEADQUARTERED_IN Arg1:T5 Arg2:T3	
+T56	NEWS_SOURCE 219 239	сообщает «Интерфакс»
+T57	FAC 403 429	строительства энергоблоков
+T58	ECONOMIC_SECTOR 489 511	атомной промышленности
+T59	FAC 521 559	сооружение исследовательского реактора
+T60	PROFESSION 611 623	специалистов
+R17	WORKPLACE Arg1:T60 Arg2:T14	
+R18	HEADQUARTERED_IN Arg1:T59 Arg2:T14	
+T61	NEWS_SOURCE 625 641	Кириенко отметил
+T62	ECONOMIC_SECTOR 706 731	производства оборудования
+T63	ORDINAL 810 817	третьих
+T64	FAC 897 909	рабочих мест
+T65	ORGANIZATION 931 948	местным компаниям
+T66	QUANTITY 958 983	до 10 миллиардов долларов
+T67	ECONOMIC_SECTOR 1036 1049	строительство
+R19	HEADQUARTERED_IN Arg1:T18 Arg2:T17	
+T68	FAC 1080 1090	реакторами
+R20	SELLS Arg1:T19 Arg2:T68	
+T69	DATE 1283 1299	На данный момент
+R21	HEADQUARTERED_IN Arg1:T47 Arg2:T22	
+T70	ORGANIZATION 1583 1596	госкорпорация
+R22	HEADQUARTERED_IN Arg1:T70 Arg2:T24	
+T71	ECONOMIC_SECTOR 1609 1628	атомной энергетикой
+T72	ORGANIZATION 1651 1662	предприятий
+R23	OWNERSHIP Arg1:T34 Arg2:T72	
+T73	ECONOMIC_SECTOR 1727 1742	атомной отрасли
+T74	ORGANIZATION 1706 1726	гражданские компании
+T75	FAC 1744 1785	предприятия ядерного оружейного комплекса
+T76	CARDINAL 1788 1800	единственный
+T77	FAC 1808 1832	атомный ледокольный флот
+T78	COMMODITY 1853 1867	электроэнергии
+R24	PRODUCES Arg1:T35 Arg2:T78	
+T79	ORGANIZATION 1951 1961	корпорации
+R25	INCOME Arg1:T79 Arg2:T50	

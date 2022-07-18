@@ -1,4 +1,3 @@
-T1	DATE 96 107	16 сентября
 T2	CITY 182 188	Москве
 T3	ORGANIZATION 299 328	Следственным комитетом России
 T4	ORGANIZATION 330 335	СК РФ
@@ -17,10 +16,23 @@ R1	WORKPLACE Arg1:T5 Arg2:T12
 R2	WORKS_AS Arg1:T5 Arg2:T15	
 T16	ORGANIZATION 2 15	АФК «Система»
 T17	ORGANIZATION 162 179	ОАО АФК «Система»
-T18	FAC 144 161	центральном офисе
+T18	ORGANIZATION 144 161	центральном офисе
 R3	OWNERSHIP Arg1:T17 Arg2:T18	
 R4	HEADQUARTERED_IN Arg1:T18 Arg2:T2	
 R5	ABBREVIATION Arg1:T3 Arg2:T4	
 T19	ORGANIZATION 412 429	ОАО АФК «Система»
 T20	LAW 666 725	статье 174 УК РФ «Легализация (отмывание) денежных средств»
 T21	LAW 677 682	УК РФ
+T1	DATE 84 107	во вторник, 16 сентября
+T22	PROFESSION 46 83	Сотрудники правоохранительных органов
+T23	EVENT 117 141	следственные мероприятия
+T24	NEWS_SOURCE 194 211	сообщил ИТАР-ТАСС
+T25	ORGANIZATION 232 240	компании
+T26	PROFESSION 251 263	следователей
+T27	NEWS_SOURCE 586 606	передает РИА Новости
+T28	DATE 614 624	во вторник
+T29	PROFESSION 727 738	Следователи
+T30	NEWS_SOURCE 727 747	Следователи полагают
+T31	CRIME 768 793	хищению акций предприятий
+T32	FAC 806 838	топливно-энергетический комплекс
+R6	HEADQUARTERED_IN Arg1:T32 Arg2:T10	

@@ -78,3 +78,31 @@ R17	PLACE_RESIDES_IN Arg1:T45 Arg2:T46
 T61	COMMODITY 1960 1965	нефти
 T62	CURRENCY 926 932	рублей
 T63	CURRENCY 1225 1233	долларов
+T64	NEWS_SOURCE 250 286	В интервью немецкому изданию Spiegel
+T65	NEWS_SOURCE 310 328	приводит ИТАР-ТАСС
+T66	GROUP 362 368	коллег
+T67	GROUP 444 452	товарищи
+T68	GROUP 561 587	правоохранительных органов
+T69	NEWS_SOURCE 707 724	подозревает Сечин
+T70	CRIME 773 801	обвинения в неуплате налогов
+R18	CONVICTED_OF Arg1:T19 Arg2:T70	
+T71	ORGANIZATION 1158 1176	иностранных банков
+T72	ORGANIZATION 1186 1194	компания
+T73	ORGANIZATION 1304 1312	компании
+T74	PROFESSION 1410 1424	топ-менеджеров
+R19	WORKS_AS Arg1:T31 Arg2:T74	
+T75	CRIME 1649 1676	хищениях и неуплате налогов
+R20	CONVICTED_OF Arg1:T33 Arg2:T75	
+R21	CONVICTED_OF Arg1:T32 Arg2:T75	
+T76	ORGANIZATION 1711 1714	суд
+T77	CRIME 1738 1751	мошенничестве
+T78	ORGANIZATION 1803 1810	колонии
+T79	CRIME 1814 1857	мошенничество и уклонение от уплаты налогов
+R22	CONVICTED_OF Arg1:T32 Arg2:T79	
+R23	CONVICTED_OF Arg1:T33 Arg2:T79	
+T80	CARDINAL 1893 1898	обоих
+T81	GROUP 1899 1909	фигурантов
+T82	ORGANIZATION 1968 1976	компании
+T83	CRIME 1952 1976	хищение нефти у компании
+T84	CRIME 2184 2232	организацию заказных убийств и хищение имущества
+R24	CONVICTED_OF Arg1:T45 Arg2:T84	

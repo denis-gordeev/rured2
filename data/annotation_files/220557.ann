@@ -45,3 +45,23 @@ T36	COMMODITY 837 841	газа
 T37	COMMODITY 1014 1018	газа
 T38	COMMODITY 1073 1077	газа
 T39	COMMODITY 1164 1168	газа
+R9	BUYS Arg1:T2 Arg2:T34	
+R10	HEADQUARTERED_IN Arg1:T31 Arg2:T1	
+T40	PROFESSION 257 268	журналистам
+T41	ECONOMIC_SECTOR 421 432	добычу газа
+R11	PRODUCES Arg1:T6 Arg2:T35	
+T42	NEWS_SOURCE 504 581	заявил генеральный директор ООО «Газпром добыча Ноябрьск» Константин Степовой
+T43	PROFESSION 599 609	журналисты
+T44	NEWS_SOURCE 711 723	Селин заявил
+T45	FAC 766 778	трубопровода
+T46	ECONOMIC_SECTOR 821 841	транспортировка газа
+T47	DATE 873 879	Сейчас
+T48	FAC 883 896	месторождении
+T49	FAC 933 940	скважин
+R12	OWNERSHIP Arg1:T29 Arg2:T49	
+T50	FAC 957 981	газотранспортная система
+T51	ECONOMIC_SECTOR 998 1018	транспортировку газа
+T52	FAC 1266 1278	трубопровода
+R13	OWNERSHIP Arg1:T32 Arg2:T52	
+T53	QUANTITY 1080 1104	1,2 триллиона кубометров
+R14	HEADQUARTERED_IN Arg1:T16 Arg2:T15	

@@ -25,7 +25,7 @@ T24	ORGANIZATION 728 736	Уралхима
 T25	ORGANIZATION 756 764	Новатэка
 R1	WORKS_AS Arg1:T7 Arg2:T18	
 R2	WORKS_AS Arg1:T15 Arg2:T21	
-T26	ORGANIZATION 0 13	Правительство
+T26	GROUP 0 13	Правительство
 T27	ORGANIZATION 184 187	ФАС
 T28	ORGANIZATION 342 351	ИТАР-ТАСС
 R3	WORKS_AS Arg1:T5 Arg2:T17	
@@ -39,3 +39,26 @@ R10	WORKPLACE Arg1:T15 Arg2:T14
 R11	ABBREVIATION Arg1:T3 Arg2:T27	
 T29	DATE 1853 1859	весной
 T30	CURRENCY 1400 1406	рублей
+T31	GROUP 71 84	Правительство
+R12	WORKPLACE Arg1:T31 Arg2:T1	
+T32	NEWS_SOURCE 225 280	сообщил глава антимонопольного ведомства Игорь Артемьев
+T33	EVENT 281 292	на брифинге
+T34	EVENT 303 312	заседания
+R13	SUBEVENT_OF Arg1:T34 Arg2:T33	
+T35	GROUP 313 331	кабинета министров
+T36	NEWS_SOURCE 333 351	передает ИТАР-ТАСС
+R14	EVENT_TAKES_PART_IN Arg1:T5 Arg2:T33	
+R15	EVENT_TAKES_PART_IN Arg1:T5 Arg2:T34	
+T37	ORGANIZATION 433 455	естественных монополий
+T38	ORGANIZATION 464 472	компании
+T39	GROUP 513 526	представители
+T40	GROUP 560 573	правительству
+T41	LAW 981 1002	антимонопольный пакет
+T42	ORGANIZATION 1172 1184	госмонополии
+T43	ORGANIZATION 1298 1309	предприятия
+T44	ORGANIZATION 1344 1366	совместных предприятий
+R16	COSTS Arg1:T44 Arg2:T13	
+T45	LAW 1436 1479	поправки в антимонопольное законодательство
+T46	GROUP 1576 1592	участников рынка
+T47	PROFESSION 1691 1699	депутаты
+T48	NEWS_SOURCE 1663 1685	Игорь Артемьев считает

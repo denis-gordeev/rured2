@@ -28,3 +28,7 @@ T23	PROFESSION 964 974	президента
 R5	SUBORDINATE_OF Arg1:T17 Arg2:T23	
 R7	WORKS_AS Arg1:T15 Arg2:T17	
 T24	COMMODITY 533 538	нефти
+T25	NEWS_SOURCE 155 201	заявил премьер-министр России Дмитрий Медведев
+T26	NEWS_SOURCE 203 223	передает «Интерфакс»
+T27	NEWS_SOURCE 225 238	По его словам
+T28	COMMODITY 371 376	нефть

@@ -24,3 +24,23 @@ T21	ORGANIZATION 263 271	Ленты.ру
 T6	ORGANIZATION 874 886	Почту России
 R5	WORKPLACE Arg1:T2 Arg2:T3	
 R6	ALTERNATIVE_NAME Arg1:T3 Arg2:T14	
+T16	NEWS_SOURCE 204 226	сообщении пресс-службы
+T22	ORGANIZATION 227 238	предприятия
+T23	NEWS_SOURCE 253 272	редакцию «Ленты.ру»
+T24	NEWS_SOURCE 274 309	«"Почта России" официально заявляет
+T25	NEWS_SOURCE 315 362	в сообщении информационного агентства ИТАР-ТАСС
+T26	ORGANIZATION 469 477	компании
+T27	PROFESSION 511 519	менеджер
+R7	WORKS_AS Arg1:T4 Arg2:T27	
+T28	NEWS_SOURCE 630 653	В пресс-службе отмечают
+T29	ORGANIZATION 700 710	агентством
+T30	ORGANIZATION 920 932	предприятием
+T31	NEWS_SOURCE 1101 1155	приводится в сообщении мнение самого Дмитрия Страшнова
+T32	NEWS_SOURCE 1175 1203	агентство ИТАР-ТАСС сообщило
+T33	ORGANIZATION 1271 1286	почтового банка
+T34	DATE 1306 1313	Сегодня
+T35	ORGANIZATION 1344 1349	банку
+T36	PROFESSION 1472 1480	менеджер
+R8	WORKPLACE Arg1:T12 Arg2:T15	
+T37	ORGANIZATION 1590 1599	агентство
+T38	NEWS_SOURCE 1576 1626	процитировало агентство слова главы «Почты России»

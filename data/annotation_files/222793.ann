@@ -49,3 +49,17 @@ T40	CURRENCY 814 820	рублей
 T41	CURRENCY 507 515	долларов
 T42	CURRENCY 752 760	долларов
 T43	CURRENCY 981 989	долларов
+R9	SELLS Arg1:T21 Arg2:T1	
+T44	ORGANIZATION 156 167	предприятий
+T45	NEWS_SOURCE 239 301	газете «Ведомости» сообщил гендиректор предприятия Олег Коржов
+T46	ORGANIZATION 355 364	комбинате
+T47	NEWS_SOURCE 401 415	Коржов отметил
+T48	PROFESSION 645 660	Предприниматели
+R10	WORKS_AS Arg1:T6 Arg2:T48	
+R11	WORKS_AS Arg1:T7 Arg2:T48	
+T49	ORGANIZATION 777 786	комбината
+T50	DATE 822 839	В настоящее время
+T51	GROUP 1006 1016	кредиторов
+T52	GROUP 1175 1185	кредиторов
+R12	COSTS Arg1:T25 Arg2:T29	
+R13	EXPENDITURE Arg1:T48 Arg2:T10	

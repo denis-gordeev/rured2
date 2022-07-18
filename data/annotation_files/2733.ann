@@ -76,3 +76,32 @@ R18	OWNERSHIP Arg1:T11 Arg2:T56
 T58	EVENT 1032 1041	заседании
 R19	ORGANIZES Arg1:T16 Arg2:T58	
 T59	EVENT 1693 1702	заседания
+T60	ORGANIZATION 235 247	авиакомпании
+T61	NEWS_SOURCE 224 247	сообщили в авиакомпании
+T62	EVENT 264 273	заседания
+T63	ORGANIZATION 388 405	дочерние компании
+R20	OWNERSHIP Arg1:T7 Arg2:T63	
+T64	ORGANIZATION 463 474	перевозчика
+R21	HEADQUARTERED_IN Arg1:T64 Arg2:T8	
+T65	ECONOMIC_SECTOR 651 671	транзитных перевозок
+T66	ORGANIZATION 739 749	перевозчик
+T67	FAC 779 800	воздушного транспорта
+T68	ORGANIZATION 1083 1091	компания
+T69	ECONOMIC_SECTOR 1134 1146	авиастроения
+T70	FAC 1212 1226	парк самолетов
+R22	HEADQUARTERED_IN Arg1:T70 Arg2:T41	
+R23	USES Arg1:T17 Arg2:T43	
+R24	USES Arg1:T17 Arg2:T49	
+T71	NEWS_SOURCE 1595 1651	заявил генеральный директор «Аэрофлота» Виталий Савельев
+T72	FAC 1813 1835	авиатранспортной связи
+R25	HEADQUARTERED_IN Arg1:T72 Arg2:T21	
+R26	HEADQUARTERED_IN Arg1:T72 Arg2:T22	
+R27	HEADQUARTERED_IN Arg1:T72 Arg2:T23	
+T73	GROUP 1880 1886	Членов
+R28	WORKPLACE Arg1:T73 Arg2:T24	
+T74	ORGANIZATION 2090 2102	авиакомпании
+T75	GROUP 2064 2089	Представители руководства
+R29	WORKPLACE Arg1:T75 Arg2:T74	
+T76	GROUP 2064 2140	Представители руководства авиакомпании в ответ на возникшие вопросы отметили
+T77	ECONOMIC_SECTOR 2300 2313	авиаперевозки
+T78	REGION 2574 2589	дальневосточных

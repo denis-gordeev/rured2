@@ -46,3 +46,17 @@ T39	COMMODITY 1224 1229	нефть
 T40	CURRENCY 1729 1735	рублей
 T41	CURRENCY 1640 1646	рублей
 T42	CURRENCY 1805 1811	рублей
+T43	LAW 118 161	закон о долгосрочном бюджетном планировании
+T44	NEWS_SOURCE 341 361	сообщают РИА Новости
+T45	NEWS_SOURCE 699 771	отмечал глава комитета нижней палаты по бюджету и налогам Андрей Макаров
+R7	COSTS Arg1:T8 Arg2:T22	
+T46	GROUP 1044 1051	властям
+R8	WORKPLACE Arg1:T46 Arg2:T11	
+R9	SELLS Arg1:T11 Arg2:T39	
+T47	NEWS_SOURCE 1292 1337	министр финансов России Антон Силуанов заявил
+T48	ECONOMIC_SECTOR 1501 1522	нефтегазового сектора
+T49	NEWS_SOURCE 1849 1868	В Минэнерго считают
+R10	PRODUCES Arg1:T18 Arg2:T37	
+T50	ECONOMIC_SECTOR 1883 1895	добычи нефти
+T51	ECONOMIC_SECTOR 1935 1946	добычи газа
+R11	PRODUCES Arg1:T18 Arg2:T38	

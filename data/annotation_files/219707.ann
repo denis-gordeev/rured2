@@ -58,3 +58,20 @@ T50	CURRENCY 2163 2171	долларов
 T51	CURRENCY 2310 2318	долларов
 T52	CURRENCY 2404 2412	долларов
 T53	CURRENCY 1224 1230	рублей
+R8	SELLS Arg1:T3 Arg2:T45	
+R9	SELLS Arg1:T3 Arg2:T46	
+T54	NEWS_SOURCE 214 266	заявила глава Счетной палаты России Татьяна Голикова
+T55	ORGANIZATION 290 312	контрольного ведомства
+T56	NEWS_SOURCE 268 313	сообщает пресс-служба контрольного ведомства.
+T57	NEWS_SOURCE 314 331	Голикова добавила
+T58	CARDINAL 341 346	одним
+T59	NEWS_SOURCE 462 492	по словам главы Счетной палаты
+T60	ORGANIZATION 1126 1148	контрольного ведомства
+R10	WORKPLACE Arg1:T30 Arg2:T60	
+T61	NEWS_SOURCE 1113 1156	Председатель контрольного ведомства сказала
+T62	NEWS_SOURCE 1861 1878	отметила Голикова
+T63	COMMODITY 2053 2058	нефть
+T64	NEWS_SOURCE 2060 2110	По мнению главы Минэкономразвития Алексея Улюкаева
+R11	COSTS Arg1:T47 Arg2:T23	
+R12	COSTS Arg1:T48 Arg2:T25	
+R13	COSTS Arg1:T26 Arg2:T27	

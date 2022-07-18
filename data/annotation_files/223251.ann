@@ -52,3 +52,36 @@ T46	CURRENCY 34 40	рублей
 T47	CURRENCY 130 136	рублей
 T48	CURRENCY 823 829	рублей
 T49	CURRENCY 793 799	рублей
+T50	GROUP 58 68	пассажиров
+T51	GROUP 166 176	пассажиров
+T52	NEWS_SOURCE 228 276	сообщил замминистра транспорта РФ Валерий Окулов
+T53	NEWS_SOURCE 310 328	передает ИТАР-ТАСС
+T54	ECONOMIC_SECTOR 410 436	пассажирских авиаперевозок
+T55	ORGANIZATION 546 558	авиакомпании
+T56	FAC 583 591	самолеты
+R6	HEADQUARTERED_IN Arg1:T56 Arg2:T12	
+T57	PROFESSION 631 642	замминистра
+T58	NEWS_SOURCE 621 642	По словам замминистра
+T59	ORGANIZATION 675 687	авиакомпании
+T60	GROUP 733 745	перевозчиков
+T61	DATE 748 754	Сейчас
+T62	NEWS_SOURCE 877 890	сказал Окулов
+T63	FAC 1091 1101	самолетами
+R7	OWNERSHIP Arg1:T24 Arg2:T63	
+T64	ORGANIZATION 1255 1266	предприятия
+T65	GROUP 1281 1291	пассажиров
+T66	FAC 1355 1364	авиапарке
+T67	NEWS_SOURCE 1367 1388	По словам замминистра
+T68	DATE 1390 1396	сейчас
+T69	FAC 1431 1436	парка
+R8	OWNERSHIP Arg1:T28 Arg2:T69	
+T70	FAC 1447 1457	самолетами
+R9	OWNERSHIP Arg1:T28 Arg2:T70	
+T71	FAC 1520 1530	самолетами
+R10	USES Arg1:T28 Arg2:T42	
+R11	USES Arg1:T28 Arg2:T40	
+T72	NEWS_SOURCE 1541 1555	Окулов добавил
+T73	FAC 1575 1584	самолетов
+T74	FAC 1688 1696	самолеты
+T75	GROUP 1764 1777	правительства
+T76	ECONOMIC_SECTOR 1790 1803	авиаперевозок

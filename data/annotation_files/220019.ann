@@ -35,3 +35,15 @@ R4	WORKPLACE Arg1:T30 Arg2:T19
 R5	WORKPLACE Arg1:T30 Arg2:T20	
 R6	WORKPLACE Arg1:T30 Arg2:T25	
 T31	ORGANIZATION 2087 2104	кабинет министров
+T32	NEWS_SOURCE 92 116	Аркадий Ротенберг заявил
+T33	GROUP 190 204	западных стран
+T34	NEWS_SOURCE 243 263	сообщает «Интерфакс»
+T35	ORGANIZATION 464 473	агентству
+T36	NEWS_SOURCE 447 473	заявил Ротенберг агентству
+T37	PROFESSION 586 595	бизнесмен
+T38	ORGANIZATION 775 782	изданий
+T39	NEWS_SOURCE 878 914	Ротенберг в очередной раз подчеркнул
+T40	GROUP 949 956	властей
+R7	WORKPLACE Arg1:T40 Arg2:T6	
+T41	ORGANIZATION 1882 1899	кабинет министров
+T42	ORGANIZATION 1999 2012	правительство

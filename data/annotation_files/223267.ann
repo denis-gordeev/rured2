@@ -71,3 +71,28 @@ T61	COUNTRY 1383 1385	РФ
 R10	OWNERSHIP Arg1:T61 Arg2:T30	
 T62	CURRENCY 951 959	долларов
 T63	CURRENCY 1471 1479	долларов
+T64	PRODUCT 41 46	овощи
+T65	PRODUCT 49 55	фрукты
+R11	BUYS Arg1:T4 Arg2:T52	
+R12	BUYS Arg1:T4 Arg2:T53	
+T66	NEWS_SOURCE 198 218	передает РИА Новости
+T67	EVENT 324 331	встречи
+R13	EVENT_TAKES_PART_IN Arg1:T9 Arg2:T67	
+R14	EVENT_TAKES_PART_IN Arg1:T11 Arg2:T67	
+T68	NEWS_SOURCE 369 388	По словам Степашина
+T69	PRODUCT 563 587	плодоововощной продукции
+R15	BUYS Arg1:T15 Arg2:T69	
+T70	NEWS_SOURCE 667 683	отметил Степашин
+R16	BUYS Arg1:T18 Arg2:T59	
+R17	BUYS Arg1:T18 Arg2:T60	
+T71	DATE 759 776	в ближайшее время
+T72	ECONOMIC_SECTOR 882 900	аграрного экспорта
+T73	NEWS_SOURCE 997 1015	Дачан Чолош заявил
+T74	LAW 1128 1259	Эмбарго России на поставки продовольствия из ЕС, а также ряда других стран, включая США, Австралию и Канаду, было введено 7 августа
+T75	PRODUCT 1309 1341	готовой продукции из мяса и рыбы
+R18	BUYS Arg1:T25 Arg2:T75	
+T76	NEWS_SOURCE 1343 1385	По данным Федеральной таможенной службы РФ
+T77	PRODUCT 1420 1434	продовольствия
+R19	COSTS Arg1:T77 Arg2:T57	
+T78	ORGANIZATION 1862 1871	госбанков
+R20	HEADQUARTERED_IN Arg1:T78 Arg2:T43	

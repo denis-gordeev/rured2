@@ -64,3 +64,11 @@ T52	COUNTRY 1547 1554	Украины
 R12	OWNERSHIP Arg1:T52 Arg2:T37	
 T53	DATE 1609 1632	во вторник, 16 сентября
 R13	WORKPLACE Arg1:T41 Arg2:T40	
+T54	NEWS_SOURCE 154 218	рассказал министр экономического развития России Алексей Улюкаев
+T55	NEWS_SOURCE 356 374	передает ИТАР-ТАСС
+T56	NEWS_SOURCE 732 749	рассказал Улюкаев
+T57	NEWS_SOURCE 900 914	Улюкаев заявил
+T58	GROUP 1285 1291	Власти
+R14	WORKPLACE Arg1:T58 Arg2:T31	
+T59	NEWS_SOURCE 1634 1654	передает РИА Новости
+T60	NEWS_SOURCE 1674 1695	Петр Порошенко заявил

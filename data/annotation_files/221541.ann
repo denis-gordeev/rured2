@@ -12,7 +12,6 @@ T11	COUNTRY 427 437	российская
 T12	COUNTRY 589 601	аргентинской
 T13	REGION 612 618	Неукен
 T14	ORDINAL 636 642	второе
-T15	FAC 705 716	Вака Муэрта
 T16	PERSON 718 724	Куиспе
 T17	COUNTRY 813 824	российскими
 T18	COUNTRY 917 926	Аргентина
@@ -46,5 +45,36 @@ R11	OWNERSHIP Arg1:T12 Arg2:T13
 T35	MONEY 1045 1069	в 1,8 миллиарда долларов
 T36	QUANTITY 1243 1267	в 16 миллиардов баррелей
 T37	QUANTITY 1286 1310	8,7 триллиона кубометров
-T38	COMMODITY 1278 1283	нефти
 T39	CURRENCY 1061 1069	долларов
+T40	ORGANIZATION 91 99	компании
+R12	HEADQUARTERED_IN Arg1:T40 Arg2:T5	
+T41	NEWS_SOURCE 214 242	сообщает агентство ИТАР-ТАСС
+T42	NEWS_SOURCE 328 341	По его словам
+T43	CARDINAL 352 364	двусторонних
+T44	GROUP 438 447	делегация
+R13	ORIGINS_FROM Arg1:T44 Arg2:T11	
+T45	GROUP 466 485	члены правительства
+T46	GROUP 488 516	представители деловых кругов
+T47	ECONOMIC_SECTOR 517 544	нефтяной и газовой отраслей
+R14	MEMBER Arg1:T45 Arg2:T44	
+R15	MEMBER Arg1:T46 Arg2:T44	
+T48	EVENT 553 564	мероприятия
+R16	EVENT_TAKES_PART_IN Arg1:T45 Arg2:T48	
+R17	EVENT_TAKES_PART_IN Arg1:T46 Arg2:T48	
+T49	EVENT 579 588	посещение
+R18	SUBEVENT_OF Arg1:T48 Arg2:T49	
+T15	FAC 662 716	месторождение нетрадиционных углеводородов Вака Муэрта
+T50	COMMODITY 676 704	нетрадиционных углеводородов
+R19	HEADQUARTERED_IN Arg1:T15 Arg2:T13	
+T51	NEWS_SOURCE 718 732	Куиспе добавил
+T52	NEWS_SOURCE 895 911	Он также сообщил
+T53	FAC 1010 1029	гидроэлектростанции
+T54	INVESTMENT_PROGRAM 944 1069	привлечение «Интер РАО» и Газпромбанка к проекту по строительству гидроэлектростанции с инвестициями в 1,8 миллиарда долларов
+R20	INVESTS Arg1:T29 Arg2:T54	
+R21	INVESTS Arg1:T19 Arg2:T54	
+T55	COMMODITY 1099 1127	нетрадиционных углеводородов
+R22	PRODUCES Arg1:T20 Arg2:T55	
+T38	COMMODITY 1268 1283	сланцевой нефти
+R23	PRODUCES Arg1:T23 Arg2:T38	
+T56	COMMODITY 1311 1326	сланцевого газа
+R24	PRODUCES Arg1:T23 Arg2:T56	

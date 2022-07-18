@@ -16,3 +16,15 @@ T15	PROFESSION 287 309	генерального секретаря
 R1	WORKS_AS Arg1:T8 Arg2:T15	
 R2	WORKPLACE Arg1:T8 Arg2:T7	
 T16	CURRENCY 807 815	долларов
+T17	ECONOMIC_SECTOR 17 30	строительстве
+T18	PRODUCT 100 132	высокотехнологичное оборудование
+R3	USES Arg1:T3 Arg2:T18	
+T19	FAC 165 199	строительства межокеанского канала
+R4	HEADQUARTERED_IN Arg1:T19 Arg2:T4	
+T20	LOCATION 206 228	территорию этой страны
+T21	NEWS_SOURCE 230 272	сообщает в среду, 10 сентября, РИА Новости
+T22	FAC 378 398	Строительство канала
+T23	FAC 650 670	строительство канала
+R5	HEADQUARTERED_IN Arg1:T23 Arg2:T9	
+R6	COSTS Arg1:T23 Arg2:T12	
+T24	FAC 822 833	водный путь

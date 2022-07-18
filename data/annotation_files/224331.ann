@@ -51,3 +51,23 @@ T47	CURRENCY 43 51	долларов
 T48	CURRENCY 116 124	долларов
 T49	CURRENCY 1213 1219	рублей
 T50	CURRENCY 1863 1869	рублей
+T51	GROUP 161 179	западными странами
+T52	NEWS_SOURCE 328 344	по данным НАИРИТ
+T53	GROUP 387 397	инвесторов
+T54	ORGANIZATION 774 784	компаниями
+R4	HEADQUARTERED_IN Arg1:T54 Arg2:T9	
+R5	HEADQUARTERED_IN Arg1:T54 Arg2:T8	
+T55	ECONOMIC_SECTOR 897 899	IT
+T56	ECONOMIC_SECTOR 901 909	медицина
+T57	ECONOMIC_SECTOR 911 924	биотехнологии
+T58	ECONOMIC_SECTOR 926 935	транспорт
+T59	NEWS_SOURCE 949 986	считает президент НАИРИТ Ольга Ускова
+T60	DATE 2057 2067	В мае-июне
+T61	ECONOMIC_SECTOR 2185 2199	биотехнологиях
+T62	ECONOMIC_SECTOR 2216 2228	фармацевтике
+T63	ECONOMIC_SECTOR 2245 2263	сельском хозяйстве
+T64	ECONOMIC_SECTOR 2280 2296	микроэлектронике
+T65	ECONOMIC_SECTOR 2352 2396	создания беспилотных средств и робототехники
+T66	ECONOMIC_SECTOR 2478 2523	информационно-телекоммуникационные технологии
+T67	ECONOMIC_SECTOR 2570 2594	биотехнологии и медицины
+T68	ECONOMIC_SECTOR 2684 2713	энергетики и энергосбережения

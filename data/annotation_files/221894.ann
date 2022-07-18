@@ -27,7 +27,6 @@ T26	DATE 1391 1402	12 сентября
 T27	ORGANIZATION 1432 1442	Центробанк
 T28	DATE 1482 1486	года
 T31	PROFESSION 155 170	премьер-министр
-T32	PROFESSION 413 418	глава
 T33	PROFESSION 645 676	Министр экономического развития
 R1	WORKS_AS Arg1:T4 Arg2:T31	
 R2	WORKPLACE Arg1:T4 Arg2:T3	
@@ -37,7 +36,6 @@ T35	PERCENT 1221 1236	на 0,5 процента
 T36	PERCENT 631 643	0,5 процента
 T37	PERCENT 282 297	до 1,2 процента
 T38	PERCENT 350 365	до 2,3 процента
-T39	ORGANIZATION 419 437	кабинета министров
 T40	ORGANIZATION 133 146	правительства
 T41	EVENT 123 132	заседании
 R4	ORGANIZES Arg1:T40 Arg2:T41	
@@ -51,3 +49,14 @@ T48	PERCENT 1372 1376	до 7
 T30	PERCENT 1542 1554	6,5 процента
 T49	PERCENT 1540 1541	6
 T29	PERCENT 1505 1516	7 процентов
+T50	NEWS_SOURCE 0 15	Медведев заявил
+T51	NEWS_SOURCE 147 194	сообщил премьер-министр России Дмитрий Медведев
+R5	EVENT_TAKES_PART_IN Arg1:T4 Arg2:T41	
+T52	NEWS_SOURCE 196 214	передает ИТАР-ТАСС
+T32	PROFESSION 413 437	глава кабинета министров
+T39	ORGANIZATION 419 437	кабинета министров
+T53	NEWS_SOURCE 406 437	сказал глава кабинета министров
+T54	NEWS_SOURCE 565 581	отметил Медведев
+T55	NEWS_SOURCE 583 596	По его словам
+T56	NEWS_SOURCE 677 717	Алексей Улюкаев, в свою очередь, сообщил
+T57	ORGANIZATION 1444 1453	Регулятор

@@ -24,3 +24,12 @@ R5	MEMBER Arg1:T13 Arg2:T5
 R6	MEMBER Arg1:T14 Arg2:T5	
 R7	MEMBER Arg1:T14 Arg2:T5	
 R8	MEMBER Arg1:T8 Arg2:T5	
+T19	NEWS_SOURCE 231 249	сообщает ИТАР-ТАСС
+T20	ORGANIZATION 299 312	торговые сети
+T21	GROUP 314 334	поставщики продуктов
+T22	GROUP 584 597	потребителями
+R9	ORIGINS_FROM Arg1:T22 Arg2:T4	
+T23	ORGANIZATION 1225 1251	антимонопольного ведомства
+T24	NEWS_SOURCE 1215 1251	По мнению антимонопольного ведомства
+T25	ORGANIZATION 1296 1310	торговым сетям
+T26	GROUP 1313 1324	поставщикам

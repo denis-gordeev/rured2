@@ -33,3 +33,24 @@ R5	EVENT_TAKES_PART_IN Arg1:T5 Arg2:T27
 R6	WORKPLACE Arg1:T21 Arg2:T24	
 T28	CURRENCY 1004 1010	рублей
 T29	CURRENCY 1520 1526	рублей
+T30	FAC 21 32	автомобилей
+T31	FAC 115 126	автомобилей
+T32	NEWS_SOURCE 163 209	заявил премьер-министр России Дмитрий Медведев
+T33	FAC 293 310	парка автомобилей
+T34	GROUP 448 461	автовладельцы
+T35	FAC 368 374	машины
+T36	FAC 417 427	автомобиля
+T37	GROUP 484 498	производителей
+R7	OWNERSHIP Arg1:T34 Arg2:T36	
+T38	GROUP 503 510	дилеров
+T39	FAC 536 547	автомобилей
+T40	ECONOMIC_SECTOR 596 625	продажи автомобильной техники
+T41	NEWS_SOURCE 630 656	заявил глава правительства
+T42	NEWS_SOURCE 658 674	Медведев отметил
+T43	FAC 1229 1240	автомобилей
+T44	ECONOMIC_SECTOR 1264 1291	транспортное машиностроение
+T45	ECONOMIC_SECTOR 1293 1300	авиацию
+T46	ECONOMIC_SECTOR 1303 1315	судостроение
+T47	FAC 1345 1356	автомобилей
+R8	HEADQUARTERED_IN Arg1:T47 Arg2:T16	
+T48	FAC 1455 1466	автомобилей

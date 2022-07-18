@@ -44,3 +44,13 @@ R12	MEMBER Arg1:T21 Arg2:T30
 T32	ORGANIZATION 1476 1489	правительства
 R13	WORKPLACE Arg1:T21 Arg2:T32	
 T33	CURRENCY 1108 1114	рублей
+T34	NEWS_SOURCE 203 216	передает ТАСС
+T35	NEWS_SOURCE 429 447	сказала Набиуллина
+T36	EVENT 472 498	общероссийской конференции
+T37	NEWS_SOURCE 585 607	Николай Козлов сообщил
+T38	ORGANIZATION 713 736	негосударственные фонды
+T39	NEWS_SOURCE 796 810	считает Козлов
+T40	ORGANIZATION 959 972	правительства
+T41	GROUP 939 958	экономическом блоке
+R14	MEMBER Arg1:T41 Arg2:T40	
+T42	NEWS_SOURCE 1034 1056	Алексей Улюкаев заявил

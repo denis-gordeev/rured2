@@ -25,7 +25,6 @@ T25	PERSON 1205 1224	Дмитрием Медведевым
 T26	ORGANIZATION 188 197	ИТАР-ТАСС
 T27	PROFESSION 132 155	бывший министр финансов
 T28	PROFESSION 597 620	бывший министр финансов
-T29	PROFESSION 878 883	глава
 T30	PROFESSION 1093 1111	министром финансов
 T31	PROFESSION 1183 1204	тогдашним президентом
 R1	WORKS_AS Arg1:T5 Arg2:T27	
@@ -34,7 +33,6 @@ T32	DATE 72 94	ближайшие два-три года
 R3	WORKS_AS Arg1:T21 Arg2:T30	
 R4	WORKS_AS Arg1:T25 Arg2:T31	
 R5	WORKPLACE Arg1:T21 Arg2:T22	
-R6	WORKS_AS Arg1:T18 Arg2:T29	
 T20	PERCENT 1047 1061	до 2 процентов
 T33	PERCENT 857 869	0,5 процента
 T34	CURRENCY 706 712	доллар
@@ -45,3 +43,15 @@ T38	MONEY 466 491	в 110 миллиардов долларов
 T39	CARDINAL 111 115	нулю
 T40	CARDINAL 36 43	нулевой
 T41	CURRENCY 483 491	долларов
+T42	NEWS_SOURCE 179 197	передает ИТАР-ТАСС
+T43	NEWS_SOURCE 125 177	заявил бывший министр финансов России Алексей Кудрин
+R7	WORKPLACE Arg1:T7 Arg2:T9	
+T44	CURRENCY 534 539	рубля
+T45	DATE 583 596	В то же время
+T46	NEWS_SOURCE 597 629	бывший министр финансов отмечает
+T47	DATE 653 670	в ближайшее время
+T29	PROFESSION 878 896	глава министерства
+R6	WORKS_AS Arg1:T18 Arg2:T29	
+T48	ORGANIZATION 884 896	министерства
+T49	NEWS_SOURCE 897 919	Алексей Улюкаев заявил
+T50	ORGANIZATION 998 1007	ведомство

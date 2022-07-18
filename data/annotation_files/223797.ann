@@ -94,3 +94,34 @@ R24	DATE_DEFUNCT_IN Arg1:T37 Arg2:T36
 T70	COMMODITY 2099 2104	нефти
 T71	CURRENCY 1065 1071	рублей
 T72	CURRENCY 1364 1372	долларов
+T73	NEWS_SOURCE 183 215	Невзлин рассказал в интервью РБК
+T74	ORGANIZATION 325 333	компании
+T75	NEWS_SOURCE 301 333	сказал главный акционер компании
+T76	DATE 541 559	В настоящий момент
+T77	CRIME 602 621	организацию убийств
+R25	CONVICTED_OF Arg1:T17 Arg2:T77	
+T78	NEWS_SOURCE 667 727	Игорь Сечин  в интервью журналу Der Spiegel выразил опасение
+T79	CRIME 924 940	неуплате налогов
+R26	CONVICTED_OF Arg1:T26 Arg2:T79	
+T80	DATE 1132 1138	сейчас
+T81	ORGANIZATION 1309 1315	банков
+T82	ORGANIZATION 1325 1333	компания
+T83	ORGANIZATION 1443 1451	компании
+T84	PROFESSION 1549 1563	топ-менеджеров
+R27	WORKS_AS Arg1:T38 Arg2:T84	
+T85	CRIME 1788 1815	хищениях и неуплате налогов
+R28	CONVICTED_OF Arg1:T39 Arg2:T85	
+R29	CONVICTED_OF Arg1:T40 Arg2:T85	
+T86	ORGANIZATION 1850 1853	суд
+T87	CRIME 1877 1890	мошенничестве
+T88	CRIME 1953 1996	мошенничество и уклонение от уплаты налогов
+R30	CONVICTED_OF Arg1:T39 Arg2:T88	
+R31	CONVICTED_OF Arg1:T40 Arg2:T88	
+T89	CARDINAL 2032 2037	обоих
+T90	GROUP 2038 2048	фигурантов
+T91	ORGANIZATION 2107 2115	компании
+T92	CRIME 2091 2115	хищение нефти у компании
+R32	CONVICTED_OF Arg1:T39 Arg2:T92	
+R33	CONVICTED_OF Arg1:T40 Arg2:T92	
+T93	CRIME 2323 2371	организацию заказных убийств и хищение имущества
+R34	CONVICTED_OF Arg1:T52 Arg2:T93	

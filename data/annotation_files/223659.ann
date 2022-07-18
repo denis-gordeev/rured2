@@ -40,7 +40,7 @@ T39	ORGANIZATION 1998 2003	SWIFT
 T40	COUNTRY 2016 2023	Бельгии
 T41	ORGANIZATION 2121 2123	ЕС
 T42	PROFESSION 1333 1362	Заместитель министра финансов
-T43	ORGANIZATION 1520 1523	СМИ
+T43	GROUP 1520 1523	СМИ
 R1	WORKS_AS Arg1:T27 Arg2:T42	
 R2	WORKPLACE Arg1:T27 Arg2:T26	
 T44	DATE 1390 1400	27 августа
@@ -49,4 +49,24 @@ T46	DATE 1785 1799	июле 2014 года
 R3	SELLS_TO Arg1:T4 Arg2:T5	
 R4	ABBREVIATION Arg1:T34 Arg2:T33	
 R5	HEADQUARTERED_IN Arg1:T39 Arg2:T40	
-R6	HEADQUARTERED_IN Arg1:T43 Arg2:T31	
+R6	WORKPLACE Arg1:T43 Arg2:T31	
+T47	NEWS_SOURCE 205 223	сообщает ИТАР-ТАСС
+T48	GROUP 272 284	руководством
+R7	WORKPLACE Arg1:T48 Arg2:T8	
+T49	ECONOMIC_SECTOR 403 424	энергетический сектор
+T50	NEWS_SOURCE 441 495	информация об ограничительных мерах будет опубликована
+T51	ECONOMIC_SECTOR 597 645	высокотехнологичной продукции в сфере энергетики
+T52	GROUP 768 778	импортеров
+T53	FAC 796 817	оборонных предприятий
+T54	GROUP 858 867	инвесторы
+R8	WORKPLACE Arg1:T54 Arg2:T13	
+R9	HEADQUARTERED_IN Arg1:T53 Arg2:T14	
+T55	ORGANIZATION 1044 1055	госкомпании
+R10	HEADQUARTERED_IN Arg1:T55 Arg2:T17	
+T56	ORGANIZATION 1072 1080	госбанки
+T57	NEWS_SOURCE 1366 1389	Алексей Моисеев сообщал
+T58	ORGANIZATION 1425 1434	ведомства
+T59	LAW 1447 1493	законопроект о создании в России аналога SWIFT
+T60	NEWS_SOURCE 1509 1532	российские СМИ сообщали
+T61	NEWS_SOURCE 1754 1781	по данным самой организации
+T62	ORGANIZATION 1927 1961	финансовых учреждений и корпораций

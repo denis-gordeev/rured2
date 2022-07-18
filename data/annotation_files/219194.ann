@@ -36,3 +36,17 @@ T27	ORGANIZATION 944 957	правительства
 R9	OWNERSHIP Arg1:T19 Arg2:T27	
 T28	ORGANIZATION 932 943	пресс-центр
 R10	OWNERSHIP Arg1:T27 Arg2:T28	
+T29	NEWS_SOURCE 166 213	заявил премьер-министр ДНР Александр Захарченко
+T30	NEWS_SOURCE 215 235	передает РИА Новости
+T31	NEWS_SOURCE 331 348	сказал Захарченко
+T32	DATE 350 366	На данный момент
+R11	OWNERSHIP Arg1:T12 Arg2:T10	
+T33	NEWS_SOURCE 542 588	министр образования ДНР Игорь Костенок сообщил
+T34	PROFESSION 709 717	учителей
+T35	ORGANIZATION 750 756	банках
+R12	HEADQUARTERED_IN Arg1:T35 Arg2:T15	
+T36	DATE 761 767	сейчас
+T37	NEWS_SOURCE 823 852	цитирует министра «Интерфакс»
+T38	NEWS_SOURCE 919 961	рассказали в пресс-центр правительства ДНР
+T39	NEWS_SOURCE 1052 1084	сказано в сообщении пресс-службы
+R13	OWNERSHIP Arg1:T19 Arg2:T21	

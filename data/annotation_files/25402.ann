@@ -1,6 +1,5 @@
 T1	ORGANIZATION 213 251	Ассоциации компаний розничной торговли
 T2	ORGANIZATION 253 258	АКОРТ
-R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T2
 T3	PROFESSION 409 422	Представитель
 T4	ORGANIZATION 423 428	АКОРТ
 T5	PERSON 429 447	Ольга Фабрикантова
@@ -23,3 +22,32 @@ T19	PERCENT 785 799	пять процентов
 T20	PRODUCT 880 888	Меркурий
 T21	PRODUCT 947 955	Меркурий
 T22	PRODUCT 1172 1180	Меркурий
+T23	PRODUCT 69 102	продуктов животного происхождения
+T24	NEWS_SOURCE 166 191	пишет «Российская газета»
+R4	ABBREVIATION Arg1:T1 Arg2:T2	
+T25	FAC 309 318	магазинов
+T26	ORGANIZATION 361 374	торговые сети
+T27	NEWS_SOURCE 429 456	Ольга Фабрикантова уточнила
+T28	GROUP 489 505	члены ассоциации
+T29	NEWS_SOURCE 640 652	По ее словам
+T30	ORGANIZATION 677 691	торговых сетей
+R1	HEADQUARTERED_IN Arg1:T30 Arg2:T7	
+T31	ORGANIZATION 737 745	компаний
+T32	GROUP 800 810	ретейлеров
+T33	GROUP 828 847	региональные власти
+T34	ORGANIZATION 855 864	компаниям
+T35	FAC 1068 1073	фермы
+T36	ECONOMIC_SECTOR 1019 1062	производство товара животного происхождения
+T37	PRODUCT 1110 1136	молочные и мясные продукты
+T38	PRODUCT 1138 1142	яйца
+T39	PRODUCT 1144 1147	мед
+T40	PRODUCT 1149 1153	рыба
+T41	PRODUCT 1155 1159	сыры
+T42	PRODUCT 1161 1168	колбасы
+T43	CRIME 1207 1240	фальсификатом на российском рынке
+T44	GROUP 1261 1274	представители
+R5	WORKPLACE Arg1:T44 Arg2:T9	
+T45	PRODUCT 1302 1320	молочную продукцию
+T46	CRIME 1302 1366	молочную продукцию, доля подделок которой достигает 25 процентов
+T47	COUNTRY 0 9	Россиянам
+T48	DATE 31 35	лето

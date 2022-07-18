@@ -87,3 +87,22 @@ T67	DATE 2303 2318	марте 2012 года
 R20	SELLS_TO Arg1:T51 Arg2:T52	
 R21	SELLS_TO Arg1:T50 Arg2:T52	
 T68	CURRENCY 1968 1976	долларов
+T69	PROFESSION 11 21	бизнесмены
+T70	PROFESSION 24 31	банкиры
+R22	WORKPLACE Arg1:T69 Arg2:T1	
+R23	WORKPLACE Arg1:T70 Arg2:T1	
+T71	NEWS_SOURCE 284 302	передает ИТАР-ТАСС
+T72	NEWS_SOURCE 364 424	сообщил исполнительный вице-президент РСПП Александр Мурычев
+T73	PROFESSION 590 602	учредителями
+T74	NEWS_SOURCE 716 730	заявил Мурычев
+T75	NEWS_SOURCE 732 745	По его словам
+T76	NEWS_SOURCE 1406 1426	Еврокомиссия заявила
+T77	NEWS_SOURCE 1551 1574	Алексей Моисеев сообщал
+T78	ORGANIZATION 1610 1619	ведомства
+T79	LAW 1632 1678	законопроект о создании в России аналога SWIFT
+T80	DATE 1680 1693	В то же время
+T81	DATE 1894 1901	за день
+T82	GROUP 2108 2114	членов
+T83	GROUP 2124 2137	пользователей
+T84	ORGANIZATION 2463 2468	банки
+R24	OWNERSHIP Arg1:T52 Arg2:T84	

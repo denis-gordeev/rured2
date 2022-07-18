@@ -67,3 +67,15 @@ R16	HEADQUARTERED_IN Arg1:T24 Arg2:T23
 R17	OWNERSHIP Arg1:T44 Arg2:T24	
 T26	ORGANIZATION 1824 1840	Московской бирже
 T52	CURRENCY 1489 1497	долларов
+T53	ORGANIZATION 129 140	госкомпании
+T54	NEWS_SOURCE 235 255	сообщает РИА Новости
+T55	ORGANIZATION 356 364	компании
+T56	ECONOMIC_SECTOR 517 533	нефтяной отрасли
+T57	NEWS_SOURCE 735 750	сказал Леонтьев
+T58	NEWS_SOURCE 952 1007	газета «Ведомости» опубликовала интервью с Ходорковским
+T59	ORGANIZATION 1105 1113	компанию
+R18	OWNERSHIP Arg1:T14 Arg2:T59	
+T60	NEWS_SOURCE 1132 1155	по словам Ходорковского
+T61	CRIME 1328 1352	хищении акций «Башнефти»
+T62	NEWS_SOURCE 1401 1420	По версии следствия
+T63	CRIME 1616 1707	легализации преступных доходов при приватизации и продаже «Системе» активов башкирского ТЭК

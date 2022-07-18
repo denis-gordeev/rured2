@@ -43,3 +43,17 @@ R7	OWNERSHIP Arg1:T35 Arg2:T26
 T36	COUNTRY 1606 1608	РФ
 R8	OWNERSHIP Arg1:T36 Arg2:T25	
 T37	CURRENCY 1725 1735	биткоинами
+T38	NEWS_SOURCE 145 188	заявил замминистра финансов Алексей Моисеев
+T39	NEWS_SOURCE 190 208	передает ИТАР-ТАСС
+T40	DATE 225 231	сейчас
+T41	NEWS_SOURCE 603 622	в прессе сообщалось
+T42	CURRENCY 812 821	биткоинах
+T43	GROUP 897 910	правительство
+T44	CURRENCY 954 964	биткоинами
+T45	LAW 1265 1323	выпуск «денежных суррогатов» на территории России запрещен
+T46	ORGANIZATION 885 894	регулятор
+T47	CURRENCY 1459 1468	биткоинов
+T48	ORGANIZATION 1683 1692	регулятор
+R9	HEADQUARTERED_IN Arg1:T48 Arg2:T27	
+T49	ORGANIZATION 1549 1560	регуляторов
+T50	ORGANIZATION 1760 1765	банки

@@ -68,3 +68,19 @@ T52	COMMODITY 403 407	газа
 T53	COMMODITY 1145 1149	газа
 T54	COMMODITY 1280 1284	газа
 T55	COMMODITY 1448 1452	газа
+T56	NEWS_SOURCE 59 120	Польская государственная нефтегазовая компания PGNiG сообщила
+R16	SELLS Arg1:T32 Arg2:T51	
+T57	NEWS_SOURCE 260 284	Об этом передает Reuters
+R17	SELLS Arg1:T8 Arg2:T52	
+T58	LOCATION 452 459	востока
+R18	SELLS Arg1:T12 Arg2:T49	
+T59	DATE 772 785	В то же время
+T60	NEWS_SOURCE 976 1032	отметил представитель газовой монополии Сергей Куприянов
+T61	NEWS_SOURCE 1045 1084	британская The Financial Times сообщила
+T62	GROUP 1162 1170	клиентам
+R19	ORIGINS_FROM Arg1:T62 Arg2:T22	
+T63	COMMODITY 1210 1217	топлива
+R20	SELLS Arg1:T24 Arg2:T54	
+T64	COMMODITY 1352 1359	топлива
+T65	COMMODITY 1533 1540	топливо
+R21	SELLS Arg1:T37 Arg2:T50	

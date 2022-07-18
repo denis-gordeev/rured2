@@ -56,3 +56,41 @@ T46	COUNTRY 767 769	РФ
 R10	OWNERSHIP Arg1:T46 Arg2:T17	
 R11	MEMBER Arg1:T14 Arg2:T15	
 T47	CURRENCY 1147 1155	долларов
+T48	ECONOMIC_SECTOR 37 55	свободной торговли
+T49	ECONOMIC_SECTOR 91 109	свободной торговли
+T50	NEWS_SOURCE 154 167	передает ТАСС
+T51	EVENT 242 248	совета
+T52	NEWS_SOURCE 169 211	сообщил министр энергетики Александр Новак
+R12	EVENT_TAKES_PART_IN Arg1:T41 Arg2:T51	
+R13	EVENT_TAKES_PART_IN Arg1:T42 Arg2:T51	
+T53	ECONOMIC_SECTOR 367 385	свободной торговли
+T54	PRODUCT 398 404	сахара
+T55	PRODUCT 415 423	алкоголя
+T56	PRODUCT 406 413	сигарет
+T57	PRODUCT 425 435	мяса птицы
+T58	PRODUCT 438 449	автомобилей
+T59	NEWS_SOURCE 451 501	уточнил министр иностранных дел Сербии Ивица Дачич
+T60	ECONOMIC_SECTOR 532 540	торговлю
+T61	NEWS_SOURCE 620 648	Новак в свою очередь отметил
+T62	ORGANIZATION 725 737	министерства
+T63	GROUP 743 748	стран
+R14	MEMBER Arg1:T63 Arg2:T15	
+T64	NEWS_SOURCE 756 777	Минсельхоз РФ отмечал
+T65	GROUP 875 889	производителей
+R15	WORKPLACE Arg1:T65 Arg2:T19	
+T66	NEWS_SOURCE 918 939	Министерство заявляло
+T67	PRODUCT 984 988	мяса
+R16	SELLS Arg1:T21 Arg2:T67	
+T68	PRODUCT 990 1023	молочной и плодоовощной продукции
+R17	SELLS Arg1:T21 Arg2:T68	
+T69	PRODUCT 1085 1101	сельхозпродукции
+T70	DATE 1174 1199	короткого периода времени
+T71	NEWS_SOURCE 1323 1360	Снежана Богосавлевич-Бошкович заявила
+T72	PRODUCT 1502 1516	продовольствия
+R18	SELLS Arg1:T31 Arg2:T72	
+T73	GROUP 1544 1549	стран
+R19	SELLS_TO Arg1:T32 Arg2:T73	
+R20	SELLS_TO Arg1:T33 Arg2:T73	
+R21	SELLS_TO Arg1:T34 Arg2:T73	
+T74	ORGANIZATION 1656 1688	готовой продукции из мяса и рыбы
+R22	BUYS Arg1:T30 Arg2:T74	

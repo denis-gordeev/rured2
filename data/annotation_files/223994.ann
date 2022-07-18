@@ -63,3 +63,23 @@ T53	CURRENCY 1069 1077	долларов
 T54	CURRENCY 1299 1307	долларов
 T55	CURRENCY 201 209	долларов
 T56	CURRENCY 860 868	долларов
+T57	COMMODITY 47 50	газ
+T58	COMMODITY 105 108	газ
+R10	COSTS Arg1:T58 Arg2:T4	
+T59	NEWS_SOURCE 291 323	сообщается на сайте министерства
+T60	NEWS_SOURCE 219 289	заявил министр энергетики и угольной промышленности страны Юрий Продан
+T61	NEWS_SOURCE 325 342	По словам Продана
+R11	WORKPLACE Arg1:T7 Arg2:T8	
+T62	NEWS_SOURCE 400 410	Он отметил
+T63	FAC 594 607	газовых хабах
+R12	HEADQUARTERED_IN Arg1:T63 Arg2:T45	
+T64	ECONOMIC_SECTOR 625 645	транспортировку газа
+R13	SELLS Arg1:T11 Arg2:T48	
+R14	BUYS Arg1:T12 Arg2:T48	
+T65	NEWS_SOURCE 712 734	Александр Новак заявил
+R15	SELLS Arg1:T16 Arg2:T49	
+R16	BUYS Arg1:T17 Arg2:T49	
+R17	COSTS Arg1:T47 Arg2:T46	
+T66	COMMODITY 1099 1103	газа
+T67	NEWS_SOURCE 1183 1208	Арсений Яценюк подчеркнул
+T68	ECONOMIC_SECTOR 1400 1413	поставки газа

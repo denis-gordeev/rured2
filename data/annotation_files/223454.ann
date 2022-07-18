@@ -18,3 +18,12 @@ R2	WORKPLACE Arg1:T5 Arg2:T17
 R3	WORKPLACE Arg1:T5 Arg2:T4	
 T2	PERCENT 652 664	18 процентов
 T12	PERCENT 668 672	нуля
+T13	PROFESSION 223 230	Депутат
+T19	NEWS_SOURCE 276 313	пишут в среду, 3 сентября, «Известия»
+T20	LAW 54 135	Обнулить ставку НДС на перевозки по России и поднять ставку на перевозки за рубеж
+T21	ECONOMIC_SECTOR 428 482	международным воздушным перевозкам пассажиров и багажа
+T22	GROUP 463 473	пассажиров
+R4	ORIGINS_FROM Arg1:T22 Arg2:T8	
+T23	ECONOMIC_SECTOR 567 597	внутренних воздушных перевозок
+T24	ECONOMIC_SECTOR 743 762	внутреннего туризма
+T25	NEWS_SOURCE 974 986	заявил Нилов

@@ -39,3 +39,12 @@ T29	PROFESSION 655 664	президент
 T30	EVENT 672 681	совещание
 T31	ORGANIZATION 466 480	правительством
 R10	DATE_TAKES_PLACE_ON Arg1:T30 Arg2:T10	
+T32	GROUP 132 135	СМИ
+T33	NEWS_SOURCE 122 135	сообщения СМИ
+R11	WORKS_AS Arg1:T5 Arg2:T28	
+T34	NEWS_SOURCE 206 224	сообщает ИТАР-ТАСС
+T35	PROFESSION 248 265	глава государства
+T36	NEWS_SOURCE 338 383	сказал пресс-секретарь российского президента
+T37	NEWS_SOURCE 485 499	добавил Песков
+T38	NEWS_SOURCE 591 618	написала газета «Ведомости»
+T39	NEWS_SOURCE 620 641	По информации издания

@@ -43,3 +43,13 @@ T38	CURRENCY 275 281	рублей
 T39	CURRENCY 905 911	рублей
 T40	CURRENCY 951 957	рублей
 T41	CURRENCY 1483 1489	рублей
+T42	EVENT 291 318	на расширенной коллегии ФНС
+T43	NEWS_SOURCE 319 358	сообщил глава ведомства Михаил Мишустин
+R5	EVENT_TAKES_PART_IN Arg1:T7 Arg2:T42	
+T44	NEWS_SOURCE 773 794	Мишустин также заявил
+R6	WORKPLACE Arg1:T13 Arg2:T14	
+T45	GROUP 1343 1348	юрлиц
+T46	PROFESSION 1375 1406	индивидуальных предпринимателей
+T47	GROUP 1356 1363	физлица
+T48	ORGANIZATION 1428 1437	ведомство
+T49	ECONOMIC_SECTOR 0 12	Сбор налогов

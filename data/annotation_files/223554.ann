@@ -73,3 +73,22 @@ T62	CURRENCY 506 514	долларов
 T63	CURRENCY 637 645	долларов
 T64	CURRENCY 937 945	долларов
 T65	CURRENCY 995 1003	долларов
+R11	SELLS Arg1:T8 Arg2:T60	
+T66	NEWS_SOURCE 251 296	сообщается на сайте российского правительства
+T67	NEWS_SOURCE 298 317	По словам Медведева
+T68	DATE 608 615	по году
+T69	COMMODITY 729 741	углеводороды
+R12	COSTS Arg1:T69 Arg2:T15	
+T70	COMMODITY 882 897	голубое топливо
+R13	COSTS Arg1:T70 Arg2:T22	
+T71	DATE 969 988	«теплое» время года
+R14	COSTS Arg1:T70 Arg2:T24	
+R15	BUYS Arg1:T26 Arg2:T53	
+T72	NEWS_SOURCE 1222 1241	Яценюк также заявил
+T73	GROUP 1364 1386	европейских государств
+T74	NEWS_SOURCE 1320 1333	По его словам
+T75	NEWS_SOURCE 1471 1502	По данным российского Минэнерго
+T76	DATE 1517 1524	в сутки
+T77	DATE 1651 1668	в настоящее время
+T78	FAC 1752 1755	ПХГ
+R16	HEADQUARTERED_IN Arg1:T78 Arg2:T39	

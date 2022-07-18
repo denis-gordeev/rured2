@@ -29,3 +29,12 @@ T22	PROFESSION 561 569	эксперты
 T23	ORGANIZATION 573 585	«О.К. Банке»
 R7	HEADQUARTERED_IN Arg1:T20 Arg2:T16	
 R8	HEADQUARTERED_IN Arg1:T21 Arg2:T16	
+T24	ORGANIZATION 10 15	банка
+T25	NEWS_SOURCE 185 209	сообщила пресс-служба ЦБ
+T26	ORGANIZATION 392 400	«Уссури»
+T27	ORGANIZATION 708 713	банка
+T28	ORGANIZATION 868 872	банк
+T29	GROUP 1006 1016	кредиторов
+T30	GROUP 1019 1029	вкладчиков
+T31	CRIME 939 1029	вывод значительной части ликвидных активов с ущербом для интересов кредиторов и вкладчиков
+T32	ECONOMIC_SECTOR 1145 1163	банковской системе

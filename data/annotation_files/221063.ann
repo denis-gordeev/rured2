@@ -25,3 +25,9 @@ T22	PERCENT 844 857	95,6 процента
 R2	OWNERSHIP Arg1:T18 Arg2:T17	
 T9	COUNTRY 701 708	Украины
 R6	OWNERSHIP Arg1:T9 Arg2:T12	
+T10	LAW 105 156	создании свободной экономической зоны (СЭЗ) в Крыму
+T23	EVENT 222 233	референдума
+R7	TAKES_PLACE_IN Arg1:T23 Arg2:T7	
+T24	NEWS_SOURCE 243 263	сообщает РИА Новости
+T25	EVENT 774 785	референдума
+R8	TAKES_PLACE_IN Arg1:T25 Arg2:T15	

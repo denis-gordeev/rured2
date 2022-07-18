@@ -58,3 +58,25 @@ T48	PERCENT 1950 1965	на 20 процентов
 T49	ORGANIZATION 1992 2005	АФК «Система»
 T27	PERCENT 2017 2032	на 26 процентов
 T50	CURRENCY 1575 1583	долларов
+T51	PROFESSION 17 27	президенту
+R11	ABBREVIATION Arg1:T3 Arg2:T1	
+T52	PROFESSION 146 155	владельца
+R12	WORKS_AS Arg1:T5 Arg2:T52	
+T53	NEWS_SOURCE 225 258	заявил глава РСПП Александр Шохин
+T54	NEWS_SOURCE 260 278	передает ИТАР-ТАСС
+T55	PROFESSION 318 329	президентом
+T56	NEWS_SOURCE 413 426	Шохин отметил
+T57	DATE 437 443	сейчас
+T58	PROFESSION 464 481	главе государства
+T59	PROFESSION 515 525	бизнесмена
+T60	NEWS_SOURCE 687 705	глава РСПП отметил
+T61	NEWS_SOURCE 784 804	передает «Интерфакс»
+T62	GROUP 865 890	незаконных приобретателей
+T63	NEWS_SOURCE 1074 1086	заявил Шохин
+T64	CRIME 1457 1492	обвинили в хищении акций «Башнефти»
+T65	ORGANIZATION 1515 1523	компания
+T66	NEWS_SOURCE 1494 1513	По версии следствия
+T67	FAC 1790 1793	ТЭК
+R13	HEADQUARTERED_IN Arg1:T67 Arg2:T23	
+T68	CRIME 1702 1793	легализации преступных доходов при приватизации и продаже «Системе» активов башкирского ТЭК
+R14	OWNERSHIP Arg1:T45 Arg2:T65	

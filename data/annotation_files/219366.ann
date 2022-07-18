@@ -32,3 +32,26 @@ T29	PERCENT 1183 1199	на 14,2 процента
 T30	QUANTITY 1202 1229	до 15,3 миллиона декалитров
 T31	QUANTITY 1238 1262	15,1 миллиона декалитров
 T32	CURRENCY 196 202	гривен
+T33	ECONOMIC_SECTOR 37 53	водочной отрасли
+T34	PRODUCT 175 189	этиловый спирт
+R3	SELLS Arg1:T15 Arg2:T34	
+T35	GROUP 229 243	производителей
+T36	NEWS_SOURCE 261 293	сообщает агентство «Лига.Бизнес»
+T37	PRODUCT 396 412	этилового спирта
+R4	COSTS Arg1:T19 Arg2:T22	
+R5	COSTS Arg1:T19 Arg2:T24	
+T38	ORGANIZATION 506 520	госпредприятия
+T39	NEWS_SOURCE 494 531	В сообщении госпредприятия отмечается
+T40	ECONOMIC_SECTOR 585 597	производства
+T41	ORGANIZATION 612 623	производств
+T42	NEWS_SOURCE 794 829	говорится в сообщении ГП «Укрспирт»
+T43	ORGANIZATION 831 840	Агентство
+T44	NEWS_SOURCE 831 856	Агентство также напомнило
+T45	PRODUCT 933 938	спирт
+T46	PRODUCT 1042 1048	спирта
+T47	ECONOMIC_SECTOR 1029 1048	производство спирта
+R6	PRODUCES Arg1:T17 Arg2:T46	
+T48	PRODUCT 1139 1155	этилового спирта
+T49	PRODUCT 1347 1372	ликеро-водочной продукции
+T50	GROUP 1332 1372	производителям ликеро-водочной продукции
+R7	BUYS Arg1:T50 Arg2:T48	

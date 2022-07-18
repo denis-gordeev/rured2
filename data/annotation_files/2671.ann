@@ -24,3 +24,26 @@ T19	MONEY 947 958	42,77 рубля
 T20	PRODUCT 960 966	дизеля
 T21	MONEY 969 980	43,11 рубля
 T22	FAC 1273 1276	АЗС
+T23	PRODUCT 52 58	бензин
+T24	NEWS_SOURCE 96 117	Алексей Кудрин заявил
+T25	COMMODITY 162 169	топливо
+T26	NEWS_SOURCE 195 217	сообщает «Коммерсантъ»
+T27	PRODUCT 295 301	бензин
+T28	NEWS_SOURCE 393 406	заявил Кудрин
+T29	PRODUCT 533 539	бензин
+T30	PRODUCT 602 608	бензин
+T31	NEWS_SOURCE 643 674	подчеркнул глава Счетной палаты
+T32	PRODUCT 704 710	бензин
+T33	ORGANIZATION 757 778	топливными компаниями
+T34	COMMODITY 798 805	топливо
+R5	SELLS Arg1:T33 Arg2:T34	
+R6	COSTS Arg1:T16 Arg2:T17	
+R7	COSTS Arg1:T18 Arg2:T19	
+R8	COSTS Arg1:T20 Arg2:T21	
+T35	GROUP 1009 1022	представители
+T36	ECONOMIC_SECTOR 1023 1039	топливного рынка
+T37	PRODUCT 1072 1079	бензина
+T38	ORGANIZATION 1128 1136	компании
+T39	EVENT 1163 1172	совещании
+T40	NEWS_SOURCE 1116 1199	Независимые компании, которые не участвовали в совещании с правительством, сообщили
+R9	EVENT_TAKES_PART_IN Arg1:T14 Arg2:T39	

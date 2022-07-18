@@ -42,3 +42,22 @@ T38	PROFESSION 763 786	министр иностранных дел
 R4	WORKS_AS Arg1:T16 Arg2:T38
 R5	WORKPLACE Arg1:T16 Arg2:T15
 R6	ALTERNATIVE_NAME Arg1:T15 Arg2:T17	
+T39	PRODUCT 170 192	растительной продукции
+T40	NEWS_SOURCE 238 251	сообщает ТАСС
+T41	ORGANIZATION 448 468	надзорного ведомства
+R7	WORKPLACE Arg1:T37 Arg2:T41	
+T42	GROUP 540 554	других странах
+T43	PROFESSION 636 651	Пресс-секретарь
+T44	NEWS_SOURCE 636 660	Пресс-секретарь отметила
+T45	PRODUCT 698 720	растительной продукции
+T46	PRODUCT 734 751	семенной материал
+T47	NEWS_SOURCE 763 815	министр иностранных дел Польши Гжегож Схетина заявил
+T48	PRODUCT 976 998	плодоовощной продукции
+T49	PRODUCT 1238 1256	семенной картофель
+T50	PRODUCT 1258 1267	лук-севок
+T51	PRODUCT 1269 1296	сахарную гибридную кукурузу
+T52	PRODUCT 1299 1315	горох для посева
+R8	BUYS Arg1:T34 Arg2:T49	
+R9	BUYS Arg1:T34 Arg2:T50	
+R10	BUYS Arg1:T34 Arg2:T51	
+R11	BUYS Arg1:T34 Arg2:T52	

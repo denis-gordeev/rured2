@@ -60,3 +60,22 @@ R12	SUBORDINATE_OF Arg1:T45 Arg2:T6
 R13	OWNERSHIP Arg1:T26 Arg2:T48	
 T9	ORGANIZATION 993 1002	Евросоюза
 R14	OWNERSHIP Arg1:T9 Arg2:T38	
+T49	ECONOMIC_SECTOR 31 45	газовый сектор
+T50	ECONOMIC_SECTOR 83 97	газовый сектор
+T51	NEWS_SOURCE 250 270	передают РИА Новости
+T52	COMMODITY 273 276	Газ
+T53	NEWS_SOURCE 392 407	сказал Эттингер
+T54	GROUP 730 744	представителей
+T55	ORGANIZATION 816 824	компаний
+R15	HEADQUARTERED_IN Arg1:T55 Arg2:T27	
+T56	PROFESSION 838 847	политиков
+R16	WORKPLACE Arg1:T56 Arg2:T28	
+T57	LAW 987 1085	Совет Евросоюза принял законодательное постановление о введении секторальных санкций против России
+T58	ECONOMIC_SECTOR 1125 1148	нефтяной промышленности
+T59	ORGANIZATION 1170 1176	банкам
+R17	HEADQUARTERED_IN Arg1:T59 Arg2:T41	
+T60	LAW 1261 1403	был наложен запрет на заключение новых контрактов на поставку оружия, станков и оборудования, электроники и других товаров двойного назначения
+T61	PRODUCT 1323 1329	оружия
+T62	PRODUCT 1331 1338	станков
+T63	PRODUCT 1341 1353	оборудования
+T64	PRODUCT 1355 1366	электроники

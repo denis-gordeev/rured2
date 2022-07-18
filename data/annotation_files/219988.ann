@@ -95,3 +95,31 @@ T72	ORGANIZATION 2135 2148	АФК «Система»
 R23	WORKPLACE Arg1:T43 Arg2:T72	
 T73	CURRENCY 2435 2443	долларов
 T74	CURRENCY 1301 1307	рублей
+T75	PROFESSION 38 49	налоговиков
+T76	PROFESSION 149 160	налоговиков
+T77	ORGANIZATION 196 215	надзорное ведомство
+T78	NEWS_SOURCE 248 286	пишут в пятницу, 3 октября, «Известия»
+T79	NEWS_SOURCE 296 317	по информации издания
+T80	ORGANIZATION 328 339	прокуратуру
+T81	GROUP 369 379	сотрудники
+R24	WORKPLACE Arg1:T81 Arg2:T45	
+T82	ORGANIZATION 491 502	предприятий
+T83	FAC 515 549	топливно-энергетического комплекса
+R25	HEADQUARTERED_IN Arg1:T83 Arg2:T58	
+T84	PROFESSION 652 659	депутат
+T85	NEWS_SOURCE 644 659	пояснил депутат
+T86	ORGANIZATION 801 812	предприятий
+T87	FAC 825 829	ТЭКа
+R26	ABBREVIATION Arg1:T83 Arg2:T87	
+T88	ORGANIZATION 925 943	компании-владельца
+T89	FAMILY 991 994	сын
+T90	ORGANIZATION 1040 1043	Суд
+T91	NEWS_SOURCE 1049 1062	пишет издание
+T92	CRIME 1363 1399	способом уклонения от уплаты налогов
+T93	ORGANIZATION 1719 1743	благотворительным фондам
+T94	ORGANIZATION 1974 1993	надзорное ведомство
+T95	FAC 2044 2059	предприятий ТЭК
+R27	HEADQUARTERED_IN Arg1:T95 Arg2:T41	
+T96	CRIME 2184 2244	в организации легализации денег при продаже акций «Башнефти»
+T97	CRIME 2301 2361	в хищении денег при этой сделке и их последующей легализации
+T98	NEWS_SOURCE 2363 2381	Следствие полагает

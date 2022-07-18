@@ -34,11 +34,9 @@ T31	ORGANIZATION 487 494	Shenhua
 R3	WORKPLACE Arg1:T8 Arg2:T32	
 T32	ORGANIZATION 469 486	совета директоров
 R4	OWNERSHIP Arg1:T31 Arg2:T32	
-T33	FAC 647 656	Порт Вера
 R5	HEADQUARTERED_IN Arg1:T30 Arg2:T12	
 R13	HEADQUARTERED_IN Arg1:T4 Arg2:T3	
 T34	ORGANIZATION 297 305	Ленте.ру
-R6	HEADQUARTERED_IN Arg1:T33 Arg2:T10	
 T35	MONEY 1095 1116	1,04 триллиона рублей
 R7	HEADQUARTERED_IN Arg1:T18 Arg2:T19	
 R8	OWNERSHIP Arg1:T19 Arg2:T18	
@@ -50,3 +48,26 @@ T39	CURRENCY 278 286	долларов
 T40	CURRENCY 1273 1281	долларов
 T41	CURRENCY 1354 1362	долларов
 T42	CURRENCY 1110 1116	рублей
+R10	PRODUCES Arg1:T4 Arg2:T37	
+T43	INVESTMENT_PROGRAM 174 230	договорились о проектах в электроэнергетике и угледобыче
+T44	ECONOMIC_SECTOR 220 230	угледобыче
+T45	ECONOMIC_SECTOR 200 217	электроэнергетике
+R11	EXPENDITURE Arg1:T4 Arg2:T5	
+T46	NEWS_SOURCE 296 340	«Ленте.ру» сообщили в пресс-службе «Ростеха»
+T47	FAC 558 581	угольного месторождения
+R12	HEADQUARTERED_IN Arg1:T47 Arg2:T9	
+T33	FAC 617 657	угольного морского терминала «Порт Вера»
+R6	HEADQUARTERED_IN Arg1:T33 Arg2:T10	
+T48	FAC 738 781	генерирующих мощностей и высоковольтных ЛЭП
+T49	ECONOMIC_SECTOR 786 809	экспорта электроэнергии
+R14	OWNERSHIP Arg1:T29 Arg2:T48	
+T50	ORGANIZATION 839 852	госкорпорация
+R15	HEADQUARTERED_IN Arg1:T50 Arg2:T12	
+T51	ORGANIZATION 929 949	холдинговых компаний
+T52	ECONOMIC_SECTOR 952 983	оборонно-промышленном комплексе
+T53	ECONOMIC_SECTOR 995 1030	гражданских отраслях промышленности
+T54	ORGANIZATION 1060 1084	государственной компании
+R16	INCOME Arg1:T54 Arg2:T17	
+T55	ORGANIZATION 1235 1246	предприятия
+R17	COSTS Arg1:T55 Arg2:T20	
+R18	INCOME Arg1:T21 Arg2:T23	

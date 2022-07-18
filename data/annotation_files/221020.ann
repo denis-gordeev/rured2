@@ -72,3 +72,14 @@ R22	HEADQUARTERED_IN Arg1:T49 Arg2:T41
 R23	OWNERSHIP Arg1:T19 Arg2:T41	
 R24	ORIGINS_FROM Arg1:T24 Arg2:T25	
 T50	CURRENCY 1511 1519	долларов
+T51	NEWS_SOURCE 308 326	передает ИТАР-ТАСС
+T52	NEWS_SOURCE 229 306	сообщил временно исполняющий обязанности главы республики Крым Сергей Аксенов
+T53	LOCATION 815 826	полуострове
+T54	NEWS_SOURCE 828 848	Аксенов тогда заявил
+T55	PROFESSION 865 880	предприниматель
+R25	WORKPLACE Arg1:T55 Arg2:T16	
+T56	NEWS_SOURCE 1030 1058	сказал врио главы республики
+T57	ORGANIZATION 1401 1405	банк
+R26	OWNERSHIP Arg1:T32 Arg2:T57	
+T58	CARDINAL 1429 1434	одним
+R27	COSTS Arg1:T32 Arg2:T43	

@@ -40,11 +40,29 @@ T32	COUNTRY 490 498	немецких
 T33	PRODUCT 379 424	Инициатива по закупкам в Российской Федерации
 T22	COUNTRY 1028 1036	немецких
 T34	ORGANIZATION 1068 1140	Федеральный союз материально-технического снабжения, закупок и логистики
-T35	GROUP 1037 1045	компаний
+T35	ORGANIZATION 1037 1045	компаний
 T36	COUNTRY 1227 1235	немецких
 T37	COUNTRY 1505 1513	немецких
 T14	GPE 1525 1549	Восточной и Южной Европе
 T15	GROUP 1642 1657	страны-партнера
-T38	GROUP 1588 1599	предприятия
+T38	ORGANIZATION 1588 1599	предприятия
 T39	GROUP 1602 1627	государственные структуры
-T40	GROUP 1514 1522	компаний
+T40	ORGANIZATION 1514 1522	компаний
+T41	NEWS_SOURCE 308 341	передает корреспондент «Ленты.ру»
+T42	GROUP 443 470	поставщиков товаров и услуг
+T43	ORGANIZATION 501 523	международных компаний
+T44	GROUP 751 761	экспортеры
+R11	WORKPLACE Arg1:T44 Arg2:T23	
+T45	NEWS_SOURCE 807 848	рассказал глава группы РЭЦ Андрей Слепнев
+T46	GROUP 1005 1016	поставщиков
+R12	WORKPLACE Arg1:T46 Arg2:T24	
+R13	HEADQUARTERED_IN Arg1:T35 Arg2:T22	
+R14	MEMBER Arg1:T35 Arg2:T34	
+R15	MEMBER Arg1:T35 Arg2:T11	
+T47	GROUP 1236 1254	байеров-закупщиков
+R16	WORKPLACE Arg1:T47 Arg2:T36	
+T48	EVENT 1367 1374	встречу
+R17	EVENT_TAKES_PART_IN Arg1:T13 Arg2:T48	
+R18	EVENT_TAKES_PART_IN Arg1:T1 Arg2:T48	
+R19	HEADQUARTERED_IN Arg1:T40 Arg2:T37	
+T49	ORGANIZATION 1748 1756	комитета

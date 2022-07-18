@@ -66,3 +66,28 @@ T53	COMMODITY 1373 1377	газа
 T54	COMMODITY 1126 1131	нефти
 T55	CURRENCY 415 423	долларов
 T56	CURRENCY 351 359	долларов
+T57	FAC 48 59	газопровода
+T58	ECONOMIC_SECTOR 22 35	строительстве
+T59	FAC 156 167	газопровода
+T60	NEWS_SOURCE 169 193	передает Times of Israel
+T61	ECONOMIC_SECTOR 119 132	строительстве
+R13	OWNERSHIP Arg1:T1 Arg2:T57	
+R14	OWNERSHIP Arg1:T2 Arg2:T59	
+T62	FAC 221 246	Строительство газопровода
+R15	COSTS Arg1:T62 Arg2:T27	
+R16	EXPENDITURE Arg1:T9 Arg2:T28	
+T63	INVESTMENT_PROGRAM 367 467	Евросоюз согласился инвестировать 100 миллионов долларов в технико-экономическое обоснование проекта
+T64	ECONOMIC_SECTOR 538 550	экспорт газа
+T65	ECONOMIC_SECTOR 770 783	строительству
+T66	FAC 882 893	газопровода
+T67	NEWS_SOURCE 943 987	Глава Минэнерго Израиля Юваль Штайниц заявил
+T68	CARDINAL 1061 1072	десятилетий
+T69	COMMODITY 1134 1138	газу
+R17	BUYS Arg1:T19 Arg2:T54	
+R18	BUYS Arg1:T19 Arg2:T69	
+T70	ECONOMIC_SECTOR 1140 1152	Экспорт газа
+R19	BUYS Arg1:T20 Arg2:T52	
+T71	NEWS_SOURCE 1226 1269	министр энергетики США Эрнест Мониз заявлял
+R20	SELLS Arg1:T36 Arg2:T49	
+T72	FAC 1359 1372	месторождения
+R21	HEADQUARTERED_IN Arg1:T72 Arg2:T38	
