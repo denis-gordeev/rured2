@@ -14,3 +14,26 @@ R1	WORKS_AS Arg1:T3 Arg2:T11
 R2	WORKS_AS Arg1:T6 Arg2:T12	
 R3	WORKPLACE Arg1:T3 Arg2:T2	
 T13	CARDINAL 1040 1054	почти на треть
+T14	NEWS_SOURCE 62 109	Премьер-министр России Дмитрий Медведев считает
+T15	EVENT 241 277	совещании по развитию животноводства
+R4	EVENT_TAKES_PART_IN Arg1:T3 Arg2:T15	
+T16	NEWS_SOURCE 279 292	сообщает ТАСС
+T17	GROUP 349 361	потребителей
+T18	NEWS_SOURCE 377 393	Медведев добавил
+T19	PRODUCT 465 471	молоко
+T20	PRODUCT 474 492	молочную продукцию
+T21	EVENT 561 570	совещания
+R5	EVENT_TAKES_PART_IN Arg1:T6 Arg2:T21	
+T22	PRODUCT 590 594	мясо
+T23	PRODUCT 597 613	мясную продукцию
+T24	ECONOMIC_SECTOR 644 662	розничной торговле
+T25	PRODUCT 714 728	импортное мясо
+R6	BUYS Arg1:T7 Arg2:T25	
+T26	NEWS_SOURCE 850 875	Медведев также подчеркнул
+T27	PRODUCT 933 960	мясной и молочной продукции
+T28	PROFESSION 962 969	Премьер
+T29	NEWS_SOURCE 962 977	Премьер отметил
+T30	PRODUCT 1018 1022	мяса
+T31	PRODUCT 1025 1030	птицы
+R7	PRODUCES Arg1:T7 Arg2:T30	
+R8	PRODUCES Arg1:T7 Arg2:T31	

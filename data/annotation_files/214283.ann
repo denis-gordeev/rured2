@@ -31,3 +31,42 @@ T30	ORGANIZATION 296 305	Евросоюза
 R1	WORKS_AS Arg1:T7 Arg2:T28	
 R2	WORKS_AS Arg1:T17 Arg2:T29	
 R3	WORKPLACE Arg1:T17 Arg2:T16	
+T31	PRODUCT 31 35	мяса
+T32	PRODUCT 76 92	мясной продукции
+T33	NEWS_SOURCE 153 218	ТАСС рассказал помощник руководителя ведомства Алексей Алексеенко
+T34	PRODUCT 270 286	мясной продукции
+T35	PRODUCT 344 348	мяса
+T36	DATE 363 380	в последнее время
+T37	NEWS_SOURCE 456 474	Алексеенко отметил
+T38	PRODUCT 522 529	свинину
+R4	SELLS Arg1:T10 Arg2:T38	
+R5	SELLS_TO Arg1:T10 Arg2:T11	
+T39	PRODUCT 608 624	мясной продукции
+T40	CRIME 796 839	мошенничества с ветеринарными сертификатами
+T41	ORGANIZATION 849 858	агентству
+T42	NEWS_SOURCE 849 912	агентству заявил руководитель Россельхознадзора Сергей Данкверт
+T43	PRODUCT 1067 1083	мясной продукции
+T44	PRODUCT 1085 1091	овощей
+T45	PRODUCT 1094 1101	фруктов
+T46	PRODUCT 1103 1116	морепродуктов
+T47	PRODUCT 1119 1135	охлажденной рыбы
+T48	PRODUCT 1137 1143	молока
+T49	PRODUCT 1146 1164	молочных продуктов
+T50	LOCATION 1301 1311	на востоке
+T51	PRODUCT 1350 1361	живой рыбой
+T52	PRODUCT 1392 1415	мальков лосося и форели
+T53	PRODUCT 1417 1436	безлактозное молоко
+T54	PRODUCT 1439 1457	молочную продукцию
+T55	PRODUCT 1459 1477	семенной картофель
+T56	PRODUCT 1479 1496	сахарную кукурузу
+T57	PRODUCT 1498 1503	горох
+T58	PRODUCT 1505 1509	БАДы
+T59	PRODUCT 1512 1520	витамины
+R6	BUYS Arg1:T25 Arg2:T52	
+R7	BUYS Arg1:T25 Arg2:T53	
+R8	BUYS Arg1:T25 Arg2:T54	
+R9	BUYS Arg1:T25 Arg2:T55	
+R10	BUYS Arg1:T25 Arg2:T56	
+R11	BUYS Arg1:T25 Arg2:T57	
+R12	BUYS Arg1:T25 Arg2:T58	
+R13	BUYS Arg1:T25 Arg2:T59	

@@ -105,3 +105,21 @@ T91	CURRENCY 1380 1386	рублей
 T92	CURRENCY 2053 2059	рублей
 T93	CURRENCY 2197 2203	рублей
 T94	CURRENCY 1314 1320	рублей
+T95	NEWS_SOURCE 167 206	сообщил министр финансов Антон Силуанов
+T96	NEWS_SOURCE 208 221	передает ТАСС
+T97	NEWS_SOURCE 223 246	По словам главы Минфина
+T98	ORGANIZATION 358 362	банк
+T99	ORGANIZATION 682 688	банкам
+T100	ORGANIZATION 829 834	банки
+T101	NEWS_SOURCE 881 897	отметил Силуанов
+T102	ORGANIZATION 980 985	банки
+R14	INCOME Arg1:T28 Arg2:T31	
+R15	INCOME Arg1:T28 Arg2:T33	
+R16	INCOME Arg1:T28 Arg2:T69	
+T103	NEWS_SOURCE 1455 1544	сообщил в ходе телефонной конференции заместитель председателя правления ВТБ Герберт Моос
+T104	NEWS_SOURCE 1675 1713	глава группы ВТБ Андрей Костин сообщал
+T105	DATE 2061 2074	В то же время
+T106	NEWS_SOURCE 2510 2552	сообщается на официальном сайте группы ВТБ
+T107	ORGANIZATION 2583 2589	банков
+T108	ORGANIZATION 2592 2611	финансовых компаний
+T109	ECONOMIC_SECTOR 2655 2671	банковском рынке

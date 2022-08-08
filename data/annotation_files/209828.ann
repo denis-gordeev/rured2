@@ -48,3 +48,18 @@ T43	CURRENCY 1142 1150	долларов
 T44	CURRENCY 1242 1250	долларов
 T45	CURRENCY 1320 1328	долларов
 T46	CURRENCY 1513 1521	долларов
+T47	MONEY 122 140	120-130 миллиардов
+T48	EVENT 201 211	на встрече
+T49	GROUP 214 229	представителями
+R5	WORKPLACE Arg1:T49 Arg2:T7	
+R6	EVENT_TAKES_PART_IN Arg1:T49 Arg2:T48	
+T50	NEWS_SOURCE 253 266	передает ТАСС
+T51	ORGANIZATION 562 571	агентство
+T52	PROFESSION 578 595	главы государства
+R7	WORKPLACE Arg1:T52 Arg2:T12	
+T53	NEWS_SOURCE 553 595	приводит агентство слова главы государства
+T54	NEWS_SOURCE 749 774	подчеркнул Владимир Путин
+T55	NEWS_SOURCE 836 854	напомнил президент
+T56	ORGANIZATION 938 946	компании
+R8	EXPENDITURE Arg1:T56 Arg2:T40	
+T57	NEWS_SOURCE 1347 1414	советник Международного валютного фонда Антонио Спилимберго заявлял

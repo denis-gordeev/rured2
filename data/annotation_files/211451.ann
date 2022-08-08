@@ -43,7 +43,6 @@ T42	PROFESSION 1300 1318	Министр энергетики
 T43	PROFESSION 1584 1593	президент
 T44	PROFESSION 1775 1793	министр энергетики
 T45	PROFESSION 1815 1820	глава
-T46	PROFESSION 1894 1899	глава
 T47	ORGANIZATION 766 774	Газпрома
 T48	ORGANIZATION 1123 1131	Газпрома
 T49	ORGANIZATION 1822 1830	Газпрома
@@ -80,3 +79,38 @@ T60	COMMODITY 961 964	газ
 T61	COMMODITY 1396 1399	газ
 T62	COMMODITY 1532 1535	газ
 T63	COMMODITY 2210 2214	газа
+T64	FAC 32 43	газопровода
+T65	FAC 124 135	газопровода
+T66	NEWS_SOURCE 220 287	сообщил министр энергетики и природных ресурсов Турции Танер Йылдыз
+T67	NEWS_SOURCE 289 309	передает РИА Новости
+T68	FAC 361 366	трубы
+R20	HEADQUARTERED_IN Arg1:T68 Arg2:T7	
+T69	FAC 485 504	морской части трубы
+T70	NEWS_SOURCE 574 589	Министр отметил
+T71	EVENT 610 620	переговоры
+T72	ORGANIZATION 654 673	совместной компании
+R21	EVENT_TAKES_PART_IN Arg1:T10 Arg2:T71	
+R22	EVENT_TAKES_PART_IN Arg1:T8 Arg2:T71	
+T73	NEWS_SOURCE 716 730	министр заявил
+T74	COMMODITY 874 877	газ
+R23	SELLS Arg1:T13 Arg2:T74	
+R24	SELLS Arg1:T14 Arg2:T60	
+R25	BUYS Arg1:T15 Arg2:T60	
+T75	GROUP 1111 1121	делегацией
+T76	DATE 1103 1110	в среду
+R26	WORKPLACE Arg1:T75 Arg2:T48	
+T77	EVENT 1148 1155	встречи
+R27	EVENT_TAKES_PART_IN Arg1:T48 Arg2:T77	
+R28	TAKES_PLACE_IN Arg1:T77 Arg2:T17	
+T78	ORGANIZATION 1168 1175	концерн
+R29	HEADQUARTERED_IN Arg1:T78 Arg2:T18	
+T79	NEWS_SOURCE 1284 1298	заявил министр
+T80	NEWS_SOURCE 1300 1351	Министр энергетики РФ Александр Новак ранее заявлял
+R30	SELLS Arg1:T21 Arg2:T61	
+R31	BUYS Arg1:T24 Arg2:T62	
+R32	SELLS Arg1:T25 Arg2:T62	
+T81	NEWS_SOURCE 1594 1654	Владимир Путин в ходе своего визита в Турцию публично заявил
+T82	NEWS_SOURCE 1756 1846	официально заявили министр энергетики РФ Александр Новак и глава «Газпрома» Алексей Миллер
+T46	PROFESSION 1894 1911	глава государства
+T83	FAC 1974 1985	газопровода
+R33	HEADQUARTERED_IN Arg1:T83 Arg2:T36	

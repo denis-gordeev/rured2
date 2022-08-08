@@ -48,3 +48,25 @@ T37	COMMODITY 45 50	нефти
 T38	COMMODITY 114 119	нефти
 T39	COMMODITY 1288 1293	нефти
 T40	CURRENCY 1137 1145	долларов
+R11	BUYS Arg1:T2 Arg2:T37	
+R12	BUYS Arg1:T4 Arg2:T38	
+T41	NEWS_SOURCE 142 184	сообщили в Минэнерго, передает РИА Новости
+T42	PRODUCT 270 284	нефтепродуктов
+R13	SELLS Arg1:T7 Arg2:T42	
+T43	ORGANIZATION 308 317	ведомстве
+T44	PRODUCT 353 360	бензина
+R14	BUYS Arg1:T8 Arg2:T44	
+T45	PRODUCT 464 478	нефтепродуктов
+T46	NEWS_SOURCE 489 537	Вице-премьер Белоруссии Владимир Семашко пояснил
+T47	PRODUCT 584 598	нефтепродуктов
+R15	BUYS Arg1:T13 Arg2:T47	
+T48	PRODUCT 655 669	нефтепродуктов
+T49	NEWS_SOURCE 855 872	заключил чиновник
+T50	PRODUCT 942 956	нефтепродуктов
+R16	SELLS Arg1:T15 Arg2:T50	
+T51	NEWS_SOURCE 984 1005	Семашко тогда говорил
+R17	EXPENDITURE Arg1:T26 Arg2:T31	
+T52	PRODUCT 1170 1177	бензина
+T53	PRODUCT 1332 1339	бензина
+R18	SELLS Arg1:T21 Arg2:T39	
+R19	SELLS Arg1:T20 Arg2:T53	

@@ -21,3 +21,16 @@ R1	WORKS_AS Arg1:T11 Arg2:T19
 R2	WORKS_AS Arg1:T5 Arg2:T17	
 R3	WORKS_AS Arg1:T10 Arg2:T18	
 T20	CURRENCY 1268 1274	рублей
+T21	NEWS_SOURCE 201 233	заявил заммминистра Олег Фомичев
+T22	NEWS_SOURCE 235 248	передает ТАСС
+T23	ORGANIZATION 270 282	министерство
+T24	GROUP 297 305	коллегам
+T25	NEWS_SOURCE 320 338	По словам Фомичева
+T26	ORGANIZATION 506 514	компаний
+T27	PROFESSION 516 527	Замминистра
+T28	NEWS_SOURCE 516 534	Замминистра заявил
+T29	PROFESSION 831 839	чиновник
+T30	NEWS_SOURCE 823 839	отметил чиновник
+T31	LOCATION 878 883	софта
+T32	NEWS_SOURCE 1067 1110	по словам министра связи Николая Никифорова
+T33	PROFESSION 1166 1189	инженеров-программистов

@@ -74,3 +74,17 @@ R9	DATE_TAKES_PLACE_ON Arg1:T41 Arg2:T42
 R10	EVENT_TAKES_PART_IN Arg1:T43 Arg2:T41	
 T44	ORDINAL 2094 2098	92-е
 T45	ORDINAL 2119 2125	124-го
+T67	EVENT 39 53	Doing Business
+T68	NEWS_SOURCE 175 220	сообщили в Агентстве стратегических инициатив
+T69	ECONOMIC_SECTOR 789 801	Кредитование
+T70	ECONOMIC_SECTOR 867 880	строительство
+T71	ORGANIZATION 736 747	предприятий
+T72	NEWS_SOURCE 923 953	В Минстрое «Ленте.ру» сообщили
+T73	ECONOMIC_SECTOR 1002 1015	строительство
+T74	DATE 1113 1126	В то же время
+T75	NEWS_SOURCE 1412 1456	Андрей Никитин в беседе с «Лентой.ру» сказал
+T76	GROUP 1462 1471	инвесторы
+T77	GROUP 1576 1581	стран
+R11	MEMBER Arg1:T77 Arg2:T30	
+T78	NEWS_SOURCE 1950 1967	отметил глава АСИ
+T79	NEWS_SOURCE 1969 1997	По мнению господина Никитина

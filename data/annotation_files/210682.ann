@@ -44,9 +44,22 @@ T37	QUANTITY 1260 1270	за баррель
 T38	COMMODITY 315 320	нефть
 T39	COMMODITY 1232 1237	нефть
 T40	COMMODITY 238 243	нефти
-T41	COMMODITY 627 632	нефти
 T42	COMMODITY 740 745	нефти
 T43	COMMODITY 1004 1021	нефти марки Brent
-T44	PRICE 1053 1069	ниже 60 долларов
 T13	QUANTITY 996 1003	барреля
-R8	COSTS Arg1:T43 Arg2:T44	
+T45	EVENT 21 41	внеочередной встречи
+T46	EVENT 99 119	внеочередную встречу
+T47	NEWS_SOURCE 181 197	сообщает Reuters
+T48	NEWS_SOURCE 199 271	заявил во вторник, 16 декабря, министр нефти Кувейта Али Салех аль-Омайр
+T49	PROFESSION 273 280	Министр
+T50	COMMODITY 492 497	нефть
+T51	NEWS_SOURCE 502 519	пояснил аль-Омайр
+T52	COMMODITY 596 603	топлива
+T41	COMMODITY 617 632	сланцевой нефти
+R9	PRODUCES Arg1:T8 Arg2:T41	
+R10	COSTS Arg1:T41 Arg2:T32	
+T53	NEWS_SOURCE 867 913	сообщил генсек картеля Абдалла Салем аль-Бадри
+T44	CURRENCY 1061 1069	долларов
+R8	COSTS Arg1:T43 Arg2:T30	
+T54	NEWS_SOURCE 1082 1157	министр энергетики Объединенных Арабских Эмиратов Сухейль аль-Мазури заявил
+R11	COSTS Arg1:T39 Arg2:T36	

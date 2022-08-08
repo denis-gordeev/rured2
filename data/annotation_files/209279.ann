@@ -31,3 +31,26 @@ T26	DATE 184 193	за 3 года
 T29	PRODUCT 938 943	Ми-26
 T30	PRODUCT 1036 1041	Д-436
 R3	ALTERNATIVE_NAME Arg1:T22 Arg2:T21	
+T31	NEWS_SOURCE 203 280	заявил министр промышленности и торговли России Денис Мантуров, сообщает ТАСС
+T32	ORGANIZATION 297 309	министерство
+T33	ORGANIZATION 376 387	предприятия
+R4	HEADQUARTERED_IN Arg1:T33 Arg2:T9	
+T34	ECONOMIC_SECTOR 433 463	военно-промышленного комплекса
+T35	ECONOMIC_SECTOR 466 487	гражданской индустрии
+T36	PRODUCT 508 529	вертолетные двигатели
+T37	PRODUCT 532 547	газовые турбины
+R5	SELLS Arg1:T9 Arg2:T36	
+R6	SELLS Arg1:T9 Arg2:T37	
+T38	NEWS_SOURCE 549 565	Мантуров отметил
+T39	ORGANIZATION 623 635	предприятиям
+R7	HEADQUARTERED_IN Arg1:T39 Arg2:T13	
+T40	DATE 779 785	годами
+T41	FAC 959 969	вертолетах
+T42	FAC 978 998	гражданские самолеты
+R8	PRODUCES Arg1:T24 Arg2:T28	
+R9	PRODUCES Arg1:T24 Arg2:T29	
+R10	PRODUCES Arg1:T24 Arg2:T30	
+T43	PROFESSION 1091 1099	министра
+T44	NEWS_SOURCE 1081 1099	По словам министра
+T45	FAC 1363 1370	заводам
+R11	HEADQUARTERED_IN Arg1:T45 Arg2:T19	

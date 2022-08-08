@@ -35,3 +35,20 @@ T29	ORGANIZATION 1377 1385	Ленты.ру
 R6	WORKPLACE Arg1:T21 Arg2:T24	
 T30	COMMODITY 451 456	нефти
 T31	COMMODITY 589 594	нефти
+T32	PROFESSION 0 7	Премьер
+R7	WORKPLACE Arg1:T32 Arg2:T1	
+T33	NEWS_SOURCE 134 249	заявил премьер-министр РФ Дмитрий Медведев в интервью российским телеканалам, трансляцию которого ведет «Россия 24»
+T34	COMMODITY 597 601	газа
+T35	NEWS_SOURCE 663 678	сказал Медведев
+T36	ECONOMIC_SECTOR 747 780	высокотехнологичных производствах
+T37	LOCATION 931 939	Западный
+T38	DATE 967 984	в настоящее время
+T39	PROFESSION 1022 1030	премьера
+T40	NEWS_SOURCE 1012 1030	по словам премьера
+T41	ORGANIZATION 1069 1076	банками
+R8	HEADQUARTERED_IN Arg1:T41 Arg2:T13	
+T42	LOCATION 1088 1097	восточный
+T43	DATE 1142 1155	В то же время
+T44	DATE 1199 1206	сегодня
+T45	ORDINAL 1232 1238	первую
+T46	NEWS_SOURCE 1431 1458	отметил глава правительства

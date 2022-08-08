@@ -47,3 +47,41 @@ R7	OWNERSHIP Arg1:T15 Arg2:T39
 R8	WORKPLACE Arg1:T17 Arg2:T16	
 R9	OWNERSHIP Arg1:T31 Arg2:T32	
 R10	OWNERSHIP Arg1:T36 Arg2:T37	
+T40	GROUP 21 37	авиаперевозчикам
+T41	ORGANIZATION 163 175	авиакомпаний
+T42	GROUP 214 226	перевозчиков
+T43	NEWS_SOURCE 236 258	сообщает «Коммерсантъ»
+T44	ECONOMIC_SECTOR 278 289	авиаотрасли
+T45	NEWS_SOURCE 260 297	Источник газеты в авиаотрасли говорит
+T46	PROFESSION 381 391	чиновников
+T47	ORGANIZATION 394 407	правительстве
+R11	WORKPLACE Arg1:T46 Arg2:T47	
+T48	ORGANIZATION 439 451	авиакомпании
+T49	NEWS_SOURCE 454 486	Глава ФАС Игорь Артемьев сообщал
+T50	ORGANIZATION 492 517	антимонопольное ведомство
+T51	GROUP 535 547	перевозчикам
+T52	GROUP 705 715	авиаторами
+R12	WORKPLACE Arg1:T7 Arg2:T50	
+T53	NEWS_SOURCE 819 878	По словам заместителя руководителя ФАС Анатолия Голомолзина
+T54	GROUP 897 908	перевозчики
+T55	ORGANIZATION 1026 1030	суде
+T56	GROUP 1068 1076	авиаторы
+T57	ORGANIZATION 1099 1125	антимонопольному ведомству
+T58	ORGANIZATION 1246 1255	ведомства
+T59	ORGANIZATION 1329 1341	авиакомпании
+T60	NEWS_SOURCE 1424 1459	утверждает глава ФАС Игорь Артемьев
+T61	GROUP 1476 1485	авиаторам
+T62	ORGANIZATION 1561 1567	служба
+T63	ORGANIZATION 1716 1724	компании
+T64	NEWS_SOURCE 1726 1739	по мнению ФАС
+T65	GROUP 1814 1824	пассажирам
+T66	ECONOMIC_SECTOR 2034 2052	продаж авиабилетов
+T67	ORGANIZATION 2159 2171	авиакомпании
+T68	GROUP 2219 2236	совете директоров
+T69	ORGANIZATION 2237 2245	компании
+R13	WORKPLACE Arg1:T68 Arg2:T69	
+T70	NEWS_SOURCE 2208 2253	Источник в совете директоров компании уверяет
+T71	ORGANIZATION 2441 2453	авиакомпаний
+T72	FAC 2548 2556	самолета
+R14	USES Arg1:T71 Arg2:T72	
+T73	ORGANIZATION 2761 2773	авиакомпаний

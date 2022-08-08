@@ -39,3 +39,12 @@ T36	CARDINAL 1114 1121	нулевым
 T37	COMMODITY 653 658	нефть
 T38	CURRENCY 694 702	долларов
 T39	CURRENCY 804 810	рублей
+T40	NEWS_SOURCE 145 185	сообщил замглавы ведомства Алексей Ведев
+T41	NEWS_SOURCE 187 200	передает ТАСС
+T42	NEWS_SOURCE 424 448	по словам Алексея Ведева
+T43	ORGANIZATION 516 525	ведомства
+R3	COSTS Arg1:T37 Arg2:T29	
+T44	NEWS_SOURCE 1012 1035	рассказал Алексей Ведев
+T45	ORGANIZATION 1163 1172	ведомстве
+T46	NEWS_SOURCE 1236 1291	министр экономического развития Алексей Улюкаев сообщил
+T47	ORGANIZATION 1297 1306	ведомство

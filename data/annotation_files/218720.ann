@@ -41,3 +41,18 @@ R5	OWNERSHIP Arg1:T35 Arg2:T29
 T36	CURRENCY 1083 1087	евро
 T37	APPLICATION 207 219	исследование
 R6	PRODUCES Arg1:T7 Arg2:T37	
+T38	GROUP 70 80	инвесторов
+T39	NEWS_SOURCE 162 180	сообщает Bloomberg
+T40	GROUP 268 278	аналитиков
+T41	NEWS_SOURCE 258 278	По данным аналитиков
+T42	NEWS_SOURCE 384 420	Президент центра Клемент Фюст заявил
+T43	ORGANIZATION 394 400	центра
+R7	WORKPLACE Arg1:T30 Arg2:T43	
+R8	MEMBER Arg1:T12 Arg2:T13	
+T44	DATE 631 649	Во втором квартале
+T45	ECONOMIC_SECTOR 699 715	промпроизводства
+T46	DATE 802 808	сейчас
+T47	DATE 1089 1102	В то же время
+T48	GROUP 1165 1177	стран Европы
+T49	DATE 1233 1246	В то же время
+T50	GROUP 1247 1256	аналитики

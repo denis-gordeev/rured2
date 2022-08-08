@@ -27,3 +27,18 @@ R5	WORKPLACE Arg1:T6 Arg2:T19
 R6	ALTERNATIVE_NAME Arg1:T20 Arg2:T7	
 T22	CURRENCY 1366 1372	рублей
 T23	CURRENCY 1249 1255	рублей
+T24	FAC 44 60	платных туалетов
+T25	NEWS_SOURCE 228 241	передает ТАСС
+T26	PROFESSION 293 302	депутатов
+R7	WORKPLACE Arg1:T26 Arg2:T4	
+T27	FAC 426 442	платных туалетов
+T28	PROFESSION 679 687	чиновник
+T29	NEWS_SOURCE 672 687	заявил чиновник
+T30	GROUP 816 846	представителями общественности
+T31	GROUP 849 883	предпринимательскими объединениями
+T32	NEWS_SOURCE 891 911	«Ведомости» сообщили
+T33	FAC 1161 1180	торгового помещения
+T34	ECONOMIC_SECTOR 1328 1344	перевозки грузов
+T35	GROUP 1463 1473	пассажиров
+T36	ECONOMIC_SECTOR 1453 1473	перевозки пассажиров
+T37	ORGANIZATION 1519 1533	Муниципалитеты

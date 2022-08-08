@@ -15,7 +15,6 @@ T14	ORGANIZATION 659 671	Еврокомиссия
 T15	ORGANIZATION 708 710	ЕС
 T16	DATE 711 733	на период до 2020 года
 T17	MONEY 775 792	8 миллиардов евро
-T18	ORGANIZATION 862 878	Европейский банк
 T19	MONEY 905 917	5 миллиардов
 T20	ORGANIZATION 921 952	Европейский инвестиционный банк
 T21	MONEY 954 965	3 миллиарда
@@ -42,3 +41,8 @@ T39	CURRENCY 623 627	евро
 T40	CURRENCY 654 658	евро
 T41	CURRENCY 788 792	евро
 T42	CURRENCY 1278 1282	евро
+T43	NEWS_SOURCE 138 183	заявил глава Еврокомиссии Жозе Мануэл Баррозу
+T44	NEWS_SOURCE 185 198	передает ТАСС
+T18	ORGANIZATION 862 903	Европейский банк реконструкции и развития
+R3	EXPENDITURE Arg1:T18 Arg2:T19	
+R4	EXPENDITURE Arg1:T20 Arg2:T21	

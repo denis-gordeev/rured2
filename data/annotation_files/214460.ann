@@ -25,3 +25,33 @@ T22	PROFESSION 436 448	Вице-премьер
 T23	CURRENCY 486 491	рубля
 T24	PROFESSION 682 690	чиновник
 R3	OWNERSHIP Arg1:T16 Arg2:T21	
+T25	GROUP 0 6	Власти
+T26	NEWS_SOURCE 212 249	заявил вице-премьер Аркадий Дворкович
+T27	NEWS_SOURCE 251 264	передает ТАСС
+T28	NEWS_SOURCE 418 434	сказал Дворкович
+T29	NEWS_SOURCE 436 456	Вице-премьер отметил
+T30	NEWS_SOURCE 673 690	полагает чиновник
+T31	PRODUCT 854 870	мясной продукции
+T32	PRODUCT 872 878	овощей
+T33	PRODUCT 881 888	фруктов
+T34	PRODUCT 890 903	морепродуктов
+T35	PRODUCT 906 922	охлажденной рыбы
+T36	PRODUCT 924 930	молока
+T37	PRODUCT 933 951	молочных продуктов
+T38	PRODUCT 1137 1148	живой рыбой
+T39	PRODUCT 1179 1202	мальков лосося и форели
+T40	PRODUCT 1204 1223	безлактозное молоко
+T41	PRODUCT 1226 1244	молочную продукцию
+T42	PRODUCT 1246 1264	семенной картофель
+T43	PRODUCT 1266 1283	сахарную кукурузу
+T44	PRODUCT 1285 1290	горох
+T45	PRODUCT 1292 1296	БАДы
+T46	PRODUCT 1299 1307	витамины
+R4	BUYS Arg1:T15 Arg2:T39	
+R5	BUYS Arg1:T15 Arg2:T40	
+R6	BUYS Arg1:T15 Arg2:T41	
+R7	BUYS Arg1:T15 Arg2:T42	
+R8	BUYS Arg1:T15 Arg2:T43	
+R9	BUYS Arg1:T15 Arg2:T44	
+R10	BUYS Arg1:T15 Arg2:T45	
+R11	BUYS Arg1:T15 Arg2:T46	

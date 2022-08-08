@@ -25,3 +25,21 @@ T20	CARDINAL 41 49	на треть
 T21	CURRENCY 729 735	рублей
 T22	CURRENCY 655 661	рублей
 T23	CURRENCY 704 710	рублей
+T24	PROFESSION 35 40	судей
+T25	PROFESSION 173 178	судей
+T26	ORGANIZATION 249 262	правительства
+T27	ORGANIZATION 236 248	пресс-служба
+R5	OWNERSHIP Arg1:T26 Arg2:T27	
+T28	DATE 213 234	в пятницу, 26 декабря
+T29	NEWS_SOURCE 204 262	сообщает в пятницу, 26 декабря, пресс-служба правительства
+T30	PROFESSION 367 372	судей
+T31	ORGANIZATION 373 378	судов
+T32	PROFESSION 424 429	судьи
+R6	WORKPLACE Arg1:T30 Arg2:T31	
+T33	NEWS_SOURCE 503 549	говорится в пояснительной записке к документу.
+T34	ORGANIZATION 578 600	судебному департаменту
+R7	OWNERSHIP Arg1:T9 Arg2:T34	
+R8	INCOME Arg1:T10 Arg2:T18	
+R9	INCOME Arg1:T12 Arg2:T11	
+T35	ORGANIZATION 895 907	пресс-службе
+T36	NEWS_SOURCE 884 907	отметили в пресс-службе

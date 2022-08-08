@@ -44,3 +44,60 @@ T41	GROUP 462 470	эксперты
 R3	WORKPLACE Arg1:T41 Arg2:T12	
 T42	LAW 516 588	О федеральном бюджете на 2015 год и на плановый период 2016 и 2017 годов
 T43	LOCATION 1706 1713	востоке
+T44	DATE 21 30	ежегодную
+T45	PRODUCT 58 65	фруктов
+R4	PRODUCES Arg1:T3 Arg2:T45	
+T46	DATE 76 84	ежегодно
+T47	PRODUCT 137 143	овощей
+R5	PRODUCES Arg1:T4 Arg2:T47	
+T48	PRODUCT 159 166	фруктов
+R6	PRODUCES Arg1:T4 Arg2:T48	
+T49	PRODUCT 169 173	ягод
+R7	PRODUCES Arg1:T4 Arg2:T49	
+T50	NEWS_SOURCE 274 287	передает ТАСС
+T51	NEWS_SOURCE 289 353	заявил заместитель министра сельского хозяйства РФ Дмитрий Юрьев
+T52	PRODUCT 391 397	овощей
+T53	GROUP 802 813	Специалисты
+T54	ORGANIZATION 814 823	ведомства
+R8	WORKPLACE Arg1:T53 Arg2:T54	
+T55	NEWS_SOURCE 802 831	Специалисты ведомства считают
+T56	PRODUCT 931 961	сельскохозяйственной продукции
+T57	FAC 964 983	центров переработки
+T58	FAC 985 1019	хранения и доставки продовольствия
+R9	OWNERSHIP Arg1:T16 Arg2:T57	
+T59	PRODUCT 1093 1099	овощей
+T60	PRODUCT 1102 1109	фруктов
+R10	BUYS Arg1:T16 Arg2:T59	
+R11	BUYS Arg1:T16 Arg2:T60	
+T61	PRODUCT 1188 1195	огурцов
+T62	PRODUCT 1228 1233	яблок
+T63	PRODUCT 1258 1262	груш
+T64	ORGANIZATION 1285 1294	Ведомство
+R12	BUYS Arg1:T31 Arg2:T62	
+R13	BUYS Arg1:T31 Arg2:T61	
+R14	BUYS Arg1:T31 Arg2:T63	
+T65	PRODUCT 1472 1488	мясной продукции
+T66	PRODUCT 1490 1496	овощей
+T67	PRODUCT 1499 1506	фруктов
+T68	PRODUCT 1508 1521	морепродуктов
+T69	PRODUCT 1524 1540	охлажденной рыбы
+T70	PRODUCT 1542 1548	молока
+T71	PRODUCT 1551 1569	молочных продуктов
+T72	PRODUCT 1752 1763	живой рыбой
+T73	DATE 1765 1778	В то же время
+T74	PRODUCT 1794 1817	мальков лосося и форели
+T75	PRODUCT 1819 1838	безлактозное молоко
+T76	PRODUCT 1841 1859	молочную продукцию
+T77	PRODUCT 1861 1879	семенной картофель
+T78	PRODUCT 1881 1898	сахарную кукурузу
+T79	PRODUCT 1900 1905	горох
+T80	PRODUCT 1907 1911	БАДы
+T81	PRODUCT 1914 1922	витамины
+R15	BUYS Arg1:T37 Arg2:T74	
+R16	BUYS Arg1:T37 Arg2:T75	
+R17	BUYS Arg1:T37 Arg2:T76	
+R18	BUYS Arg1:T37 Arg2:T77	
+R19	BUYS Arg1:T37 Arg2:T78	
+R20	BUYS Arg1:T37 Arg2:T79	
+R21	BUYS Arg1:T37 Arg2:T80	
+R22	BUYS Arg1:T37 Arg2:T81	

@@ -39,3 +39,18 @@ T34	COMMODITY 982 987	нефть
 T35	COMMODITY 1232 1237	нефти
 T36	COMMODITY 1320 1325	нефти
 T37	CURRENCY 1397 1405	долларов
+T38	COMMODITY 56 61	нефти
+R5	SELLS Arg1:T2 Arg2:T38	
+T39	GROUP 178 201	нефтедобывающих странах
+T40	NEWS_SOURCE 216 248	сообщает The Wall Street Journal
+T41	NEWS_SOURCE 250 358	заявила в понедельник, 1 декабря, директор-распорядитель Международного валютного фонда (МВФ) Кристин Лагард
+T42	COMMODITY 454 459	нефти
+T43	GROUP 435 452	страны-экспортеры
+T44	NEWS_SOURCE 488 503	отметила Лагард
+T45	NEWS_SOURCE 699 715	по словам Лагард
+R6	SELLS Arg1:T12 Arg2:T33	
+T46	NEWS_SOURCE 787 805	глава МВФ отметила
+T47	CURRENCY 904 909	рубля
+T48	DATE 1176 1193	на прошлой неделе
+R7	SELLS Arg1:T30 Arg2:T35	
+R8	COSTS Arg1:T21 Arg2:T22	

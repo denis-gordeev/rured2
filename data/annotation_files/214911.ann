@@ -34,3 +34,10 @@ R5	SUBORDINATE_OF Arg1:T19 Arg2:T28
 T29	CURRENCY 744 749	рубля
 T30	GPE 837 845	западных
 T31	GROUP 846 851	стран
+T32	NEWS_SOURCE 98 157	заявила заместитель председателя Банка России Ксения Юдаева
+T33	NEWS_SOURCE 159 172	сообщает ТАСС
+T34	DATE 386 399	В то же время
+T35	GROUP 793 814	сельхозпроизводителей
+R6	WORKPLACE Arg1:T35 Arg2:T16	
+R7	WORKPLACE Arg1:T35 Arg2:T17	
+R8	WORKPLACE Arg1:T35 Arg2:T30	

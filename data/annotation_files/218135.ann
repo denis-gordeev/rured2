@@ -3,7 +3,6 @@ T2	LOCATION 24 37	Суэцкий канал
 T3	COUNTRY 53 59	Египта
 T4	DATE 70 91	в субботу, 18 октября
 T5	CARDINAL 105 111	шестью
-T6	FAC 168 183	Суэцкого канала
 T7	ORGANIZATION 194 201	Reuters
 T8	DATE 378 391	последних лет
 T9	COUNTRY 449 452	ОАЭ
@@ -52,3 +51,32 @@ R7	OWNERSHIP Arg1:T3 Arg2:T39
 T45	CARDINAL 571 591	более чем в два раза
 T46	CURRENCY 1515 1523	долларов
 T47	CURRENCY 627 635	долларов
+T48	TRADE_AGREEMENT 93 102	контракты
+T49	ORGANIZATION 112 137	международными компаниями
+T6	FAC 160 183	дублера Суэцкого канала
+T50	NEWS_SOURCE 185 201	сообщает Reuters
+R8	OWNERSHIP Arg1:T3 Arg2:T6	
+T52	GROUP 482 488	Власти
+R9	WORKPLACE Arg1:T52 Arg2:T13	
+T51	FAC 405 418	нового канала
+T53	FAC 516 527	новый канал
+R10	HEADQUARTERED_IN Arg1:T53 Arg2:T13	
+T54	FAC 546 558	водного пути
+T55	FAC 663 707	международный транспортно-логистический узел
+T56	FAC 785 793	кораблей
+T57	NEWS_SOURCE 849 867	Мохаб Мемиш заявил
+T58	ORGANIZATION 873 881	компании
+T59	DATE 900 914	на этой неделе
+T60	PROFESSION 982 998	военные инженеры
+R11	WORKPLACE Arg1:T60 Arg2:T20	
+T61	GROUP 1073 1098	иностранными подрядчиками
+R12	WORKPLACE Arg1:T61 Arg2:T20	
+T62	FAC 1100 1111	Новый канал
+T63	FAC 1140 1164	старому судоходному пути
+T64	FAC 1228 1244	водным маршрутом
+T65	ECONOMIC_SECTOR 1394 1401	туризма
+R13	INCOME Arg1:T28 Arg2:T32	
+R14	EXPENDITURE Arg1:T29 Arg2:T32	
+R15	EXPENDITURE Arg1:T30 Arg2:T32	
+T66	EVENT 1588 1605	военный переворот
+R16	EVENT_TAKES_PART_IN Arg1:T33 Arg2:T66	

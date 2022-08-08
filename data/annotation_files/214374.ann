@@ -31,3 +31,36 @@ R3	OWNERSHIP Arg1:T19 Arg2:T25
 T28	CURRENCY 1272 1279	доллара
 T29	CURRENCY 1282 1286	евро
 T30	PERCENT 1393 1417	на 2-3 процентных пункта
+R4	WORKPLACE Arg1:T1 Arg2:T26	
+T31	NEWS_SOURCE 170 201	заявил президент Владимир Путин
+T32	NEWS_SOURCE 246 259	сообщает ТАСС
+T33	GROUP 324 333	партнеров
+T34	ECONOMIC_SECTOR 377 405	сельскохозяйственной отрасли
+T35	NEWS_SOURCE 407 420	Путин добавил
+T36	GROUP 489 510	сельхозпроизводителям
+R5	WORKPLACE Arg1:T36 Arg2:T10	
+T37	PRODUCT 621 637	мясной продукции
+T38	PRODUCT 639 645	овощей
+T39	PRODUCT 648 655	фруктов
+T40	PRODUCT 657 670	морепродуктов
+T41	PRODUCT 673 689	охлажденной рыбы
+T42	PRODUCT 691 697	молока
+T43	PRODUCT 700 718	молочных продуктов
+T44	PRODUCT 904 915	живой рыбой
+T45	PRODUCT 946 969	мальков лосося и форели
+T46	PRODUCT 971 990	безлактозное молоко
+T47	PRODUCT 993 1011	молочную продукцию
+T48	PRODUCT 1013 1031	семенной картофель
+T49	PRODUCT 1033 1050	сахарную кукурузу
+T50	PRODUCT 1052 1057	горох
+T51	PRODUCT 1059 1063	БАДы
+T52	PRODUCT 1066 1074	витамины
+T53	ECONOMIC_SECTOR 1203 1215	производства
+R6	BUYS Arg1:T18 Arg2:T45	
+R7	BUYS Arg1:T18 Arg2:T46	
+R8	BUYS Arg1:T18 Arg2:T47	
+R9	BUYS Arg1:T18 Arg2:T48	
+R10	BUYS Arg1:T18 Arg2:T49	
+R11	BUYS Arg1:T18 Arg2:T50	
+R12	BUYS Arg1:T18 Arg2:T51	
+R13	BUYS Arg1:T18 Arg2:T52	

@@ -54,3 +54,21 @@ T46	CURRENCY 810 818	долларов
 T47	CURRENCY 895 903	долларов
 T48	CURRENCY 129 137	долларов
 T49	CURRENCY 1158 1166	долларов
+R8	EXPENDITURE Arg1:T2 Arg2:T3	
+T50	NEWS_SOURCE 147 206	сообщил официальный представитель компании Сергей Куприянов
+T51	NEWS_SOURCE 208 221	передает ТАСС
+T52	NEWS_SOURCE 229 255	«Нафтогаз Украины» заявлял
+T53	COMMODITY 313 317	газа
+R9	SELLS Arg1:T7 Arg2:T53	
+R10	BUYS Arg1:T11 Arg2:T42	
+R11	COSTS Arg1:T42 Arg2:T13	
+T54	COMMODITY 556 560	газа
+R12	BUYS Arg1:T33 Arg2:T54	
+T55	DATE 566 573	зимнему
+R13	EXPENDITURE Arg1:T17 Arg2:T39	
+R14	BUYS Arg1:T17 Arg2:T43	
+R15	EXPENDITURE Arg1:T34 Arg2:T38	
+T56	COMMODITY 962 965	газ
+R16	BUYS Arg1:T34 Arg2:T56	
+T57	NEWS_SOURCE 977 1048	министр энергетики и угольной промышленности Украины Юрий Продан заявил
+R17	EXPENDITURE Arg1:T37 Arg2:T41	

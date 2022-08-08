@@ -58,3 +58,23 @@ T46	FAC 784 808	Южного газового коридора
 T49	FAC 951 962	Южный поток
 T50	DATE 996 1009	18-19 декабря
 T51	FAC 1257 1268	Южный поток
+T52	NEWS_SOURCE 165 178	передает ТАСС
+T53	EVENT 220 227	встречи
+R10	EVENT_TAKES_PART_IN Arg1:T5 Arg2:T53	
+T54	PROFESSION 248 268	министров энергетики
+T55	ORDINAL 437 445	третьими
+T56	NEWS_SOURCE 521 537	отметил источник
+T57	EVENT 986 992	саммит
+R11	ORGANIZES Arg1:T15 Arg2:T57	
+T58	ECONOMIC_SECTOR 1271 1284	Строительство
+T59	EVENT 1347 1353	визита
+R12	TAKES_PLACE_IN Arg1:T59 Arg2:T25	
+T60	PROFESSION 1409 1426	главы государства
+T61	NEWS_SOURCE 1399 1426	По словам главы государства
+T62	NEWS_SOURCE 1490 1503	Путин уточнил
+T63	FAC 1541 1563	трубопроводные системы
+R13	OWNERSHIP Arg1:T27 Arg2:T63	
+R14	HEADQUARTERED_IN Arg1:T63 Arg2:T28	
+T64	NEWS_SOURCE 1663 1747	говорили глава «Газпрома» Алексей Миллер и министр энергетики России Александр Новак
+T65	PROFESSION 1835 1842	премьер
+R15	WORKPLACE Arg1:T65 Arg2:T35	

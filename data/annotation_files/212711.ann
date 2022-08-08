@@ -40,3 +40,23 @@ T38	CURRENCY 1388 1394	рублей
 T39	CURRENCY 209 215	рублей
 T40	CURRENCY 283 289	рублей
 T41	CURRENCY 1544 1550	рублей
+T27	ORGANIZATION 0 3	НПФ
+R3	COSTS Arg1:T27 Arg2:T1	
+T42	ORGANIZATION 99 133	негосударственные пенсионные фонды
+T43	ORGANIZATION 135 138	НПФ
+R4	ABBREVIATION Arg1:T42 Arg2:T43	
+T44	NEWS_SOURCE 307 349	информация содержится на сайте Центробанка
+T45	ORGANIZATION 627 630	НПФ
+T46	ORGANIZATION 783 786	НПФ
+T47	NEWS_SOURCE 860 902	заявила председатель ЦБ Эльвира Набиуллина
+T48	DATE 904 921	в настоящее время
+T49	ORGANIZATION 972 978	фондов
+T50	ORGANIZATION 1056 1064	компании
+T51	ORGANIZATION 1246 1280	негосударственные пенсионные фонды
+T52	LAW 1182 1292	закон о продлении моратория на передачу пенсионных накоплений в негосударственные пенсионные фонды на 2015 год
+T53	ORGANIZATION 1472 1475	НПФ
+T54	GROUP 1491 1499	клиентов
+T55	ORGANIZATION 1500 1517	пенсионных фондов
+R5	MEMBER Arg1:T54 Arg2:T55	
+T56	ORGANIZATION 1552 1565	Правительство
+T57	ORGANIZATION 1596 1620	негосударственным фондам

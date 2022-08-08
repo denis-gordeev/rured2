@@ -50,3 +50,12 @@ T46	CURRENCY 342 348	рублей
 T47	CURRENCY 526 532	рублей
 T48	CURRENCY 608 614	рублей
 T49	CURRENCY 910 916	рублей
+T50	NEWS_SOURCE 142 155	сообщает ТАСС
+T51	ECONOMIC_SECTOR 257 273	нефтяной отрасли
+T52	ORGANIZATION 438 447	Агентство
+T53	NEWS_SOURCE 438 456	Агентство сообщает
+T54	NEWS_SOURCE 1215 1277	заявил председатель бюджетного комитета Госдумы Андрей Макаров
+T55	ORGANIZATION 1449 1458	Ведомство
+R4	COSTS Arg1:T43 Arg2:T22	
+T56	COMMODITY 1782 1787	нефть
+R5	SELLS Arg1:T24 Arg2:T56	

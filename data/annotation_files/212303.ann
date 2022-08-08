@@ -53,3 +53,28 @@ T45	COMMODITY 1100 1104	газа
 T46	CURRENCY 1043 1051	долларов
 T47	CURRENCY 1236 1244	долларов
 T48	CURRENCY 811 819	долларов
+R8	BUYS Arg1:T1 Arg2:T43	
+R9	SELLS Arg1:T40 Arg2:T43	
+R10	SELLS Arg1:T41 Arg2:T44	
+R11	BUYS Arg1:T3 Arg2:T44	
+T49	EVENT 146 156	на встрече
+R12	EVENT_TAKES_PART_IN Arg1:T8 Arg2:T49	
+R13	EVENT_TAKES_PART_IN Arg1:T9 Arg2:T49	
+T50	NEWS_SOURCE 198 278	сказал глава министерства энергетики и угольной промышленности Владимир Демчишин
+T51	ORGANIZATION 339 364	энергетического ведомства
+R14	HEADQUARTERED_IN Arg1:T51 Arg2:T10	
+T52	NEWS_SOURCE 296 364	информация содержится на сайте украинского энергетического ведомства
+T53	FAC 413 426	энергосистемы
+R15	HEADQUARTERED_IN Arg1:T53 Arg2:T12	
+T54	COMMODITY 475 488	электричества
+T55	ECONOMIC_SECTOR 557 578	энергетический сектор
+T56	NEWS_SOURCE 642 701	министр энергетики и угольной промышленности Украины заявил
+R16	EXPENDITURE Arg1:T35 Arg2:T7	
+T57	DATE 882 888	зимний
+T58	COMMODITY 962 969	топлива
+R17	SELLS Arg1:T22 Arg2:T58	
+R18	EXPENDITURE Arg1:T24 Arg2:T42	
+R19	SELLS Arg1:T36 Arg2:T45	
+T59	COMMODITY 1276 1279	газ
+R20	BUYS Arg1:T27 Arg2:T59	
+T60	TRADE_AGREEMENT 1307 1316	контракте

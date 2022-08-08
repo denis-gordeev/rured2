@@ -25,3 +25,11 @@ T22	CURRENCY 500 508	рублевой
 T23	CURRENCY 1796 1804	рублевой
 T24	CURRENCY 1587 1595	рублевой
 T25	CURRENCY 339 347	долларов
+T26	NEWS_SOURCE 220 240	сообщает «Интерфакс»
+T27	ORGANIZATION 262 272	регулятора
+T28	ORGANIZATION 385 395	регулятора
+T29	ORGANIZATION 370 384	В пресс-службе
+R3	OWNERSHIP Arg1:T28 Arg2:T29	
+T30	NEWS_SOURCE 370 404	В пресс-службе регулятора пояснили
+T31	ORGANIZATION 766 776	регулятора
+T32	NEWS_SOURCE 1499 1534	Глава ЦБ Эльвира Набиуллина заявила

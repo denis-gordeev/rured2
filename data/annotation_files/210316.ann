@@ -63,3 +63,22 @@ T51	FAC 1693 1704	предприятий
 T52	DATE 1708 1715	с 26-го
 R12	HEADQUARTERED_IN Arg1:T51 Arg2:T32	
 T53	CURRENCY 1037 1045	долларов
+T54	ORGANIZATION 215 237	контрольного ведомства
+T55	NEWS_SOURCE 181 237	информация содержится в сообщении контрольного ведомства
+T56	ORGANIZATION 288 296	компаний
+T57	ORGANIZATION 377 386	ведомство
+T58	FAC 581 598	лабораторной базы
+T59	GROUP 627 639	специалистов
+R13	WORKPLACE Arg1:T59 Arg2:T10	
+R14	HEADQUARTERED_IN Arg1:T58 Arg2:T10	
+T60	ORGANIZATION 719 730	предприятий
+T61	ORGANIZATION 816 825	ветслужбы
+R15	HEADQUARTERED_IN Arg1:T61 Arg2:T12	
+T62	NEWS_SOURCE 910 961	премьер-министр Белоруссии Михаил Мясникович заявил
+T63	NEWS_SOURCE 1053 1107	российский посол в Белоруссии Александр Суриков заявил
+T64	COMMODITY 1230 1235	нефть
+T65	COMMODITY 1580 1594	энергоносители
+T66	NEWS_SOURCE 1599 1619	подчеркнул Лукашенко
+T67	ORGANIZATION 1730 1739	Ведомство
+T68	NEWS_SOURCE 1730 1750	Ведомство утверждает
+T69	ORDINAL 1983 1990	третьих

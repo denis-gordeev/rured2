@@ -43,3 +43,19 @@ T38	CURRENCY 1642 1648	рублей
 T39	CURRENCY 435 443	долларов
 T40	CURRENCY 750 756	рублей
 T41	CURRENCY 580 586	рублей
+T42	NEWS_SOURCE 219 263	пишут в понедельник, 27 октября, «Ведомости»
+T43	ORGANIZATION 348 355	издание
+T44	NEWS_SOURCE 339 355	выяснило издание
+R5	COSTS Arg1:T37 Arg2:T32	
+T45	QUANTITY 444 454	за баррель
+T46	DATE 620 629	ежегодное
+T47	ORGANIZATION 817 830	правительстве
+T48	NEWS_SOURCE 795 830	по словам источника в правительстве
+T49	DATE 872 885	В то же время
+T50	DATE 1219 1225	сейчас
+T51	DATE 1369 1376	сегодня
+T52	NEWS_SOURCE 1493 1507	заявил министр
+T53	NEWS_SOURCE 1509 1525	Силуанов сообщил
+R6	EXPENDITURE Arg1:T19 Arg2:T18	
+T54	DATE 1670 1683	В то же время
+T55	NEWS_SOURCE 1684 1705	глава Минфина отметил

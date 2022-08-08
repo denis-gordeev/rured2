@@ -24,3 +24,23 @@ T22	ORGANIZATION 317 337	правового управления
 R2	OWNERSHIP Arg1:T4 Arg2:T22	
 T23	LAW 99 112	О конкуренции
 T24	LAW 903 916	О конкуренции
+T25	GROUP 174 193	участников картелей
+T26	NEWS_SOURCE 261 287	сообщает газета «Известия»
+T27	NEWS_SOURCE 297 360	рассказал начальник правового управления ФАС Сергей Пузыревский
+T28	PROFESSION 579 589	продавцами
+T29	GROUP 599 627	поставщиками товаров и услуг
+T30	GROUP 665 677	потребителям
+T31	ORGANIZATION 719 728	компанией
+R3	BUYS Arg1:T30 Arg2:T31	
+T32	NEWS_SOURCE 862 876	пояснили в ФАС
+T33	ORGANIZATION 955 968	правительство
+T34	PROFESSION 1084 1093	чиновники
+T35	PRODUCT 1112 1120	бензином
+T36	ORGANIZATION 1149 1152	ЖКХ
+T37	NEWS_SOURCE 1154 1176	По словам Пузыревского
+T38	GROUP 1472 1483	поставщиков
+T39	ORGANIZATION 1492 1496	суде
+T40	ORGANIZATION 1585 1588	суд
+T41	ORGANIZATION 1883 1887	суда
+T42	ORGANIZATION 2010 2013	суд
+T43	ORGANIZATION 2089 2097	компании

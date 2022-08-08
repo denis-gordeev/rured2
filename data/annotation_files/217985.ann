@@ -36,8 +36,6 @@ T37	PROFESSION 844 853	президент
 T38	ORGANIZATION 617 645	Банком Внешней торговли КНДР
 T39	ORGANIZATION 650 686	Корейским Банком соединения развития
 T40	ORGANIZATION 1499 1521	Банке внешней торговли
-T41	ORGANIZATION 578 585	ОАО АКБ
-T42	ORGANIZATION 587 613	Региональный банк развития
 R1	WORKPLACE Arg1:T19 Arg2:T18
 R2	WORKS_AS Arg1:T19 Arg2:T37	
 T43	COUNTRY 253 255	РФ
@@ -57,3 +55,14 @@ T52	PERCENT 1462 1475	беспроцентный
 R5	OWNERSHIP Arg1:T36 Arg2:T40	
 T53	CURRENCY 818 826	долларов
 T54	CURRENCY 1192 1200	долларов
+T55	ORDINAL 106 112	Первые
+T56	NEWS_SOURCE 189 209	сообщает РИА Новости
+T57	ORGANIZATION 269 278	ведомства
+T58	NEWS_SOURCE 257 289	В сообщении ведомства отмечается
+T59	EVENT 538 547	заседания
+T41	ORGANIZATION 578 614	ОАО АКБ «Региональный банк развития»
+R6	EVENT_TAKES_PART_IN Arg1:T41 Arg2:T59	
+R7	EVENT_TAKES_PART_IN Arg1:T38 Arg2:T59	
+R8	EVENT_TAKES_PART_IN Arg1:T39 Arg2:T59	
+T42	ECONOMIC_SECTOR 789 797	торговли
+T60	LAW 887 1000	о ратификации соглашения об урегулировании задолженности КНДР перед РФ по кредитам, предоставленным в период СССР

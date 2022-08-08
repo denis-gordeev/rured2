@@ -40,7 +40,6 @@ T39	PROFESSION 1131 1143	Вице-премьер
 T40	PROFESSION 2854 2863	директора
 T41	ORGANIZATION 47 71	Росалкогольрегулирование
 T42	ORGANIZATION 2165 2189	Росалкогольрегулирования
-T43	ORGANIZATION 683 686	МРЦ
 T44	ORGANIZATION 3172 3181	Регулятор
 R1	WORKPLACE Arg1:T33 Arg2:T32
 R2	WORKS_AS Arg1:T33 Arg2:T40
@@ -63,3 +62,60 @@ T58	CURRENCY 725 731	рублей
 T59	CURRENCY 2083 2089	рублей
 T60	CURRENCY 2240 2246	рублей
 T61	CURRENCY 2940 2946	рублей
+T62	PRODUCT 40 45	водку
+T63	PRODUCT 127 132	водку
+T64	NEWS_SOURCE 159 168	пишет РБК
+T65	NEWS_SOURCE 170 210	заявил руководитель ведомства Игорь Чуян
+T66	EVENT 217 253	заседания правительственной комиссии
+R5	EVENT_TAKES_PART_IN Arg1:T3 Arg2:T66	
+T67	ORGANIZATION 320 333	правительства
+T68	PRODUCT 388 402	чистого спирта
+R6	COSTS Arg1:T68 Arg2:T4	
+T69	PRODUCT 427 440	бутылки водки
+T70	GROUP 533 545	потребителей
+R7	BUYS Arg1:T70 Arg2:T69	
+T71	PRODUCT 645 650	водки
+T43	PRODUCT 690 695	водку
+R8	COSTS Arg1:T43 Arg2:T8	
+T72	GROUP 743 755	потребителей
+R9	BUYS Arg1:T72 Arg2:T43	
+T73	GROUP 810 822	потребителей
+R10	BUYS Arg1:T73 Arg2:T43	
+T74	PRODUCT 944 949	водки
+T75	EVENT 1186 1240	заседание комиссии по регулированию алкогольного рынка
+R11	EVENT_TAKES_PART_IN Arg1:T14 Arg2:T75	
+T76	DATE 1254 1262	ежегодно
+T77	PRODUCT 1369 1374	водки
+T78	PRODUCT 1561 1568	бутылок
+T79	NEWS_SOURCE 1570 1582	Чуян сообщил
+T80	DATE 1588 1596	ежегодно
+T81	PRODUCT 1656 1661	водку
+T82	PRODUCT 1663 1682	настойки боярышника
+T83	FAC 1725 1731	аптеки
+R12	SELLS Arg1:T83 Arg2:T82	
+T84	NEWS_SOURCE 1796 1834	по данным журнала Drinks International
+T85	GROUP 1911 1946	производители алкогольной продукции
+T86	NEWS_SOURCE 1911 1954	производители алкогольной продукции считают
+T87	QUANTITY 383 387	литр
+T88	ECONOMIC_SECTOR 1344 1374	производством и продажей водки
+R13	COSTS Arg1:T81 Arg2:T27	
+R14	COSTS Arg1:T81 Arg2:T28	
+T89	GROUP 2281 2307	региональные производители
+T90	PRODUCT 2356 2361	водку
+R15	COSTS Arg1:T90 Arg2:T29	
+T91	PRODUCT 2426 2431	водка
+T92	FAC 2456 2464	магазине
+T93	FAC 2479 2489	при заводе
+T94	NEWS_SOURCE 2544 2557	отмечает Чуян
+T95	ORGANIZATION 2567 2582	розничных сетей
+T96	GROUP 2697 2721	легальным производителям
+T97	PRODUCT 2732 2737	водку
+R16	SELLS Arg1:T95 Arg2:T97	
+T98	NEWS_SOURCE 2844 2907	По мнению директора отраслевого агентства ЦИФРРА Вадима Дробиза
+R17	COSTS Arg1:T97 Arg2:T34	
+T99	GROUP 2986 2999	производители
+T100	PRODUCT 3052 3057	водку
+R18	COSTS Arg1:T100 Arg2:T35	
+T101	NEWS_SOURCE 3099 3113	считает Дробиз
+R19	COSTS Arg1:T100 Arg2:T37	
+T102	GROUP 3229 3245	участников рынка

@@ -72,3 +72,23 @@ T57	FAC 1937 1940	ТЭК
 R16	HEADQUARTERED_IN Arg1:T57 Arg2:T19	
 T25	PERSON 2274 2291	Рахимова-младшего
 T58	CURRENCY 1840 1848	долларов
+T59	NEWS_SOURCE 279 299	приводит «Интерфакс»
+T60	ORGANIZATION 315 318	суд
+T61	ORGANIZATION 790 794	суда
+R17	HEADQUARTERED_IN Arg1:T61 Arg2:T6	
+R18	HEADQUARTERED_IN Arg1:T7 Arg2:T6	
+T62	ORGANIZATION 883 887	суда
+T63	PROFESSION 982 994	собственнику
+R19	WORKPLACE Arg1:T63 Arg2:T34	
+T64	EVENT 996 1015	Заседание арбитража
+T65	CRIME 1130 1176	дела по незаконной приватизации акций компании
+T66	ORGANIZATION 1168 1176	компании
+T67	ORGANIZATION 1444 1461	нефтяной компании
+R20	TAKES_PLACE_IN Arg1:T64 Arg2:T52	
+T68	PROFESSION 1543 1553	Бизнесмена
+T69	NEWS_SOURCE 1612 1654	«Интерфакс» со ссылкой на источник сообщил
+T70	ORGANIZATION 1852 1860	компании
+T71	NEWS_SOURCE 1850 1873	В компании подчеркивают
+T72	ORGANIZATION 1913 1924	предприятий
+R21	HEADQUARTERED_IN Arg1:T72 Arg2:T19	
+T73	CRIME 2025 2087	по факту незаконной продажи акций нефтяной компании «Башнефть»

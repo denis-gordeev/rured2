@@ -10,3 +10,10 @@ T9	PROFESSION 129 138	президент
 R1	WORKS_AS Arg1:T5 Arg2:T9	
 R2	WORKPLACE Arg1:T5 Arg2:T4	
 T10	DATE 27 36	на 4 года
+T11	NEWS_SOURCE 122 160	заявил президент России Владимир Путин
+T12	CARDINAL 304 310	с нуля
+T13	PROFESSION 460 477	Глава государства
+T14	NEWS_SOURCE 460 486	Глава государства напомнил
+T15	PROFESSION 492 507	предприниматели
+R3	WORKPLACE Arg1:T13 Arg2:T4	
+R4	WORKPLACE Arg1:T15 Arg2:T4	

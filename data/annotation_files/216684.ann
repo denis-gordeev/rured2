@@ -43,3 +43,17 @@ T38	CURRENCY 61 67	рублей
 T39	CURRENCY 208 214	рублей
 T40	CURRENCY 482 488	рублей
 T41	CURRENCY 882 888	рублей
+T42	NEWS_SOURCE 224 244	сообщает РИА Новости
+T43	ORGANIZATION 319 327	компания
+T44	ORGANIZATION 399 408	агентства
+T45	NEWS_SOURCE 388 424	Собеседник агентства также рассказал
+T46	GROUP 691 707	совет директоров
+R5	WORKPLACE Arg1:T46 Arg2:T13	
+T47	ORGANIZATION 743 756	правительства
+T48	NEWS_SOURCE 957 990	глава РЖД Владимир Якунин заявлял
+T49	ORGANIZATION 1119 1127	компании
+T50	ORGANIZATION 1188 1196	компании
+T51	ORGANIZATION 1304 1313	Агентство
+T52	NEWS_SOURCE 1304 1322	Агентство сообщает
+T53	NEWS_SOURCE 1339 1389	старший вице-президент РЖД Вадим Михайлов допускал
+T54	NEWS_SOURCE 1461 1477	Михайлов отметил

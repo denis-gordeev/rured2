@@ -57,3 +57,33 @@ T51	PERCENT 1869 1876	на 0,02
 T52	PERCENT 1879 1892	0,03 процента
 T53	COMMODITY 891 896	нефть
 T54	COMMODITY 1282 1287	нефть
+T55	PRODUCT 50 56	бензин
+T56	PRODUCT 66 72	бензин
+R6	PRODUCES Arg1:T2 Arg2:T56	
+T57	NEWS_SOURCE 133 153	сообщает РИА Новости
+T58	NEWS_SOURCE 163 211	заявил министр энергетики страны Александр Новак
+T59	NEWS_SOURCE 476 488	сказал Новак
+T60	PROFESSION 490 497	Министр
+T61	NEWS_SOURCE 490 511	Министр также сообщил
+T62	PRODUCT 582 599	дизельное топливо
+T63	PRODUCT 814 820	бензин
+T64	COMMODITY 839 844	нефть
+T65	PRODUCT 879 885	бензин
+T66	NEWS_SOURCE 984 1022	вице-премьер Аркадий Дворкович заявлял
+T67	PRODUCT 1036 1042	бензин
+T68	PRODUCT 1045 1062	дизельное топливо
+R7	PRODUCES Arg1:T14 Arg2:T67	
+R8	PRODUCES Arg1:T14 Arg2:T68	
+T69	PRODUCT 1232 1238	бензин
+R9	PRODUCES Arg1:T20 Arg2:T69	
+T70	NEWS_SOURCE 1325 1374	Федеральная антимонопольная служба (ФАС) сообщила
+T71	ORGANIZATION 1400 1418	нефтяным компаниям
+T72	PRODUCT 1450 1457	топливо
+R10	SELLS Arg1:T42 Arg2:T72	
+R11	HEADQUARTERED_IN Arg1:T42 Arg2:T24	
+T73	NEWS_SOURCE 1489 1507	По данным Росстата
+T74	PRODUCT 1509 1529	автомобильный бензин
+T75	NEWS_SOURCE 1682 1722	Московская топливная ассоциация сообщает
+R12	COSTS Arg1:T46 Arg2:T47	
+R13	COSTS Arg1:T49 Arg2:T50	
+T76	PRODUCT 1853 1860	топлива

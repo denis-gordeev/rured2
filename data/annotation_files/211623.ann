@@ -17,7 +17,34 @@ R2	WORKPLACE Arg1:T3 Arg2:T2
 T15	PERCENT 359 387	не менее чем на 2-3 процента
 T16	PERCENT 671 683	25 процентов
 T17	PROFESSION 1740 1749	президент
-T18	PROFESSION 229 234	Глава
-T19	EVENT 263 271	послании
-R3	ORGANIZES Arg1:T5 Arg2:T19	
 T20	CARDINAL 827 847	чуть больше половины
+T21	GROUP 22 33	руководства
+T22	ORGANIZATION 34 45	госкомпаний
+R4	WORKPLACE Arg1:T21 Arg2:T22	
+T23	PROFESSION 113 126	руководителей
+T24	ORGANIZATION 127 138	госкомпаний
+R5	WORKPLACE Arg1:T23 Arg2:T24	
+T25	NEWS_SOURCE 214 227	сообщает ТАСС
+T18	PROFESSION 229 246	Глава государства
+T26	NEWS_SOURCE 229 255	Глава государства напомнил
+T19	ORGANIZATION 347 358	госкомпаний
+T27	ORDINAL 435 440	одним
+T28	GROUP 486 497	руководства
+T29	ORGANIZATION 498 506	компаний
+R3	WORKPLACE Arg1:T28 Arg2:T29	
+T30	NEWS_SOURCE 572 592	президент подчеркнул
+T31	ORGANIZATION 602 613	госкомпании
+T32	ORGANIZATION 848 856	компаний
+T33	LAW 598 691	все госкомпании обязаны выполнять решение о выплате дивидендов в размере 25 процентов прибыли
+T34	ORGANIZATION 912 925	правительства
+T35	ORGANIZATION 1289 1300	предприятий
+T36	NEWS_SOURCE 1344 1361	добавил президент
+T37	PROFESSION 1375 1384	президент
+T38	ORGANIZATION 1399 1410	госкомпаний
+T39	ORGANIZATION 1496 1502	фирмам
+T40	PRODUCT 1630 1642	оборудование
+T42	NEWS_SOURCE 1733 1749	указал президент
+R6	BUYS Arg1:T10 Arg2:T40	
+T41	PRODUCT 1645 1655	технологии
+R7	BUYS Arg1:T10 Arg2:T41	
+T43	ECONOMIC_SECTOR 1831 1852	легкой промышленности

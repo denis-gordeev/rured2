@@ -22,7 +22,6 @@ T22	PERSON 2095 2100	Путин
 T23	COUNTRY 2186 2196	российских
 T24	PROFESSION 1101 1106	глава
 T25	PROFESSION 1681 1690	президент
-T26	PROFESSION 2076 2081	глава
 T27	PROFESSION 2369 2378	президент
 T28	ORGANIZATION 272 283	Коммерсантъ
 T29	ORGANIZATION 484 489	Лента
@@ -38,3 +37,50 @@ R6	ABBREVIATION Arg1:T5 Arg2:T6
 T32	PERCENT 1576 1588	0,3 процента
 T33	PERCENT 1606 1618	8,9 процента
 T34	PERCENT 1654 1669	на 0,7 процента
+T35	GROUP 0 10	Ритейлеров
+T36	PRODUCT 36 40	хлеб
+T37	PRODUCT 42 46	Хлеб
+T38	FAC 71 80	магазинов
+R7	HEADQUARTERED_IN Arg1:T38 Arg2:T2	
+T39	DATE 81 98	в ближайшее время
+T40	GROUP 230 240	ритейлеров
+T41	NEWS_SOURCE 242 284	пишет в четверг, 11 декабря, «Коммерсантъ»
+T42	PRODUCT 337 341	муку
+T43	PRODUCT 343 348	зерно
+T44	PRODUCT 350 355	сахар
+T45	PRODUCT 357 373	зарубежное сырье
+T46	PRODUCT 375 396	упаковочные материалы
+T47	ORGANIZATION 463 477	торговых сетях
+T48	ORGANIZATION 578 585	изданию
+T49	NEWS_SOURCE 527 585	В Федеральной антимонопольной службе (ФАС) заявили изданию
+T50	PRODUCT 641 645	хлеб
+T51	ORGANIZATION 693 702	ведомстве
+T52	PRODUCT 729 734	зерна
+T53	CURRENCY 773 778	рубля
+T54	PROFESSION 814 822	эксперты
+T55	PRODUCT 836 870	хлебобулочные и макаронные изделия
+T56	PRODUCT 910 914	муку
+T57	PRODUCT 991 996	зерна
+T58	PRODUCT 1019 1026	пшеницу
+T59	CURRENCY 1052 1060	рублевом
+T60	NEWS_SOURCE 1093 1159	пояснил глава Российского зернового союза (РЗС) Аркадий Злочевский
+T61	PRODUCT 1171 1176	зерна
+T62	CURRENCY 1236 1246	долларовом
+T63	PRODUCT 1285 1290	зерна
+T64	GROUP 1311 1325	производителей
+T65	GROUP 1362 1370	Продавцы
+T66	GROUP 1453 1463	покупатели
+T67	NEWS_SOURCE 1510 1528	По данным Росстата
+T68	PRODUCT 1629 1633	хлеб
+T69	NEWS_SOURCE 1681 1715	президент РФ Владимир Путин заявил
+T70	COMMODITY 1945 1958	энергоресурсы
+T26	PROFESSION 2076 2093	глава государства
+T71	NEWS_SOURCE 2069 2093	сказал глава государства
+T72	NEWS_SOURCE 2095 2115	Путин выразил мнение
+T73	DATE 2121 2132	сегодняшняя
+T74	ORGANIZATION 2197 2205	компаний
+R8	HEADQUARTERED_IN Arg1:T74 Arg2:T23	
+T75	ECONOMIC_SECTOR 2234 2246	производство
+T76	GROUP 2289 2310	сельхозпроизводителям
+T77	NEWS_SOURCE 2361 2378	отметил президент
+R9	WORKPLACE Arg1:T76 Arg2:T23	

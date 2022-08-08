@@ -41,3 +41,13 @@ T37	PERCENT 1641 1654	7,75 процента
 T38	COMMODITY 838 843	нефти
 T39	CURRENCY 1485 1491	рублей
 T40	CURRENCY 852 860	долларов
+T41	ORGANIZATION 145 155	регулятора
+T42	NEWS_SOURCE 123 155	говорится в сообщении регулятора
+T43	NEWS_SOURCE 405 426	говорится в сообщении
+T44	ECONOMIC_SECTOR 772 798	добычу полезных ископаемых
+R4	COSTS Arg1:T38 Arg2:T21	
+T45	ORGANIZATION 1014 1023	регулятор
+T46	NEWS_SOURCE 1169 1207	По словам главы ЦБ Эльвиры Набиуллиной
+T47	DATE 1274 1287	В то же время
+T48	ORGANIZATION 1357 1367	регулятора
+T49	ORGANIZATION 1561 1570	регулятор

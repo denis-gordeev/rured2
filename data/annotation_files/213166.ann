@@ -44,3 +44,26 @@ R6	ALTERNATIVE_NAME Arg1:T20 Arg2:T21
 R7	OWNERSHIP Arg1:T23 Arg2:T24	
 T38	COUNTRY 1268 1274	России
 R8	OWNERSHIP Arg1:T38 Arg2:T26	
+T39	NEWS_SOURCE 65 114	Премьер-министр Литвы Альгирдас Буткявичюс заявил
+T40	FAC 174 195	предприятий логистики
+T41	NEWS_SOURCE 247 261	сообщает Delfi
+R9	OWNERSHIP Arg1:T3 Arg2:T40	
+T42	NEWS_SOURCE 312 336	Буткявичюс также отметил
+T43	DATE 363 369	сейчас
+T44	GROUP 565 577	руководством
+R10	WORKPLACE Arg1:T44 Arg2:T14	
+T45	DATE 635 641	сейчас
+R11	WORKPLACE Arg1:T35 Arg2:T17	
+T46	DATE 847 866	С минувших выходных
+T47	PROFESSION 878 890	пограничники
+R12	WORKPLACE Arg1:T47 Arg2:T18	
+T48	FAC 902 912	автомобили
+R13	HEADQUARTERED_IN Arg1:T48 Arg2:T19	
+T49	NEWS_SOURCE 945 1018	Национальная ассоциация автоперевозчиков Литвы Linava получила информацию
+T50	PROFESSION 1035 1046	таможенники
+R14	WORKPLACE Arg1:T50 Arg2:T22	
+T51	GROUP 1084 1098	автомобилистов
+T52	COUNTRY 986 991	Литвы
+R15	ORIGINS_FROM Arg1:T51 Arg2:T52	
+T53	PROFESSION 1546 1553	военным
+R16	WORKPLACE Arg1:T53 Arg2:T31	

@@ -58,7 +58,6 @@ T12	ORGANIZATION 765 778	правительства
 T51	CURRENCY 826 830	евро
 T52	CURRENCY 951 958	доллары
 T53	CURRENCY 929 934	рубли
-T54	PROFESSION 1029 1034	глава
 T55	ORGANIZATION 1062 1076	правительством
 R8	OWNERSHIP Arg1:T23 Arg2:T55	
 T56	DATE 1450 1455	ранее
@@ -66,3 +65,19 @@ T57	DATE 1544 1551	с 26-го
 T58	GROUP 1819 1832	третьих стран
 T59	CURRENCY 34 42	долларов
 T60	CURRENCY 204 212	долларов
+T61	ECONOMIC_SECTOR 46 54	торговле
+T62	NEWS_SOURCE 222 288	заявил премьер-министр Белоруссии Михаил Мясникович, передает ТАСС
+T63	NEWS_SOURCE 290 308	Мясникович отметил
+T64	NEWS_SOURCE 457 507	российский посол в Минске Александр Суриков заявил
+T65	COMMODITY 630 635	нефть
+T66	COMMODITY 977 991	энергоносители
+T67	NEWS_SOURCE 996 1016	подчеркнул Лукашенко
+T54	PROFESSION 1029 1046	глава государства
+T68	PRODUCT 1120 1129	продукции
+R9	PRODUCES Arg1:T23 Arg2:T68	
+T69	CARDINAL 1180 1184	одну
+T70	NEWS_SOURCE 1298 1322	заявил белорусский лидер
+T71	ORGANIZATION 1529 1540	предприятий
+R10	HEADQUARTERED_IN Arg1:T71 Arg2:T33	
+T72	ORGANIZATION 1566 1575	Ведомство
+T73	ORDINAL 1819 1826	третьих

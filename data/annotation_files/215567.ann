@@ -9,7 +9,7 @@ T9	DATE 991 1002	в 2019 году
 T10	PROFESSION 201 206	глава
 T11	PROFESSION 591 596	глава
 T12	ORGANIZATION 1 8	Газпром
-T13	ORGANIZATION 53 64	Силы Сибири
+T13	FAC 53 64	Силы Сибири
 T14	ORGANIZATION 68 75	Газпром
 T15	ORGANIZATION 179 188	Ведомости
 T16	ORGANIZATION 598 606	Газпрома
@@ -18,6 +18,19 @@ R1	WORKS_AS Arg1:T3 Arg2:T10
 T6	ORGANIZATION 760 806	Китайской национальной нефтегазовой корпорации
 R2	ABBREVIATION Arg1:T6 Arg2:T7	
 T18	FAC 910 921	Сила Сибири
-T19	FAC 145 156	Сила Сибири
 R3	WORKPLACE Arg1:T11 Arg2:T16	
 T20	COMMODITY 970 974	газа
+T21	ECONOMIC_SECTOR 38 51	строительство
+T22	ECONOMIC_SECTOR 118 131	строительство
+R4	OWNERSHIP Arg1:T12 Arg2:T13	
+T19	FAC 132 157	газопровода «Сила Сибири»
+R5	OWNERSHIP Arg1:T14 Arg2:T19	
+T23	NEWS_SOURCE 172 189	пишут «Ведомости»
+T24	NEWS_SOURCE 191 242	рассказал глава российского концерна Алексей Миллер
+T25	NEWS_SOURCE 408 422	Миллер добавил
+T26	ECONOMIC_SECTOR 437 450	строительства
+T27	NEWS_SOURCE 583 607	добавил глава «Газпрома»
+T28	ORGANIZATION 627 635	компании
+T29	ORGANIZATION 871 881	компаниями
+T30	ECONOMIC_SECTOR 883 896	Строительство
+T31	ORDINAL 954 960	Первые

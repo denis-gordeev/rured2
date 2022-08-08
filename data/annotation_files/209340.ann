@@ -58,3 +58,27 @@ R8	WORKPLACE Arg1:T27 Arg2:T26
 T21	PROFESSION 1708 1718	президента
 R9	SUBORDINATE_OF Arg1:T33 Arg2:T21	
 T51	CURRENCY 1457 1463	рублей
+T52	NEWS_SOURCE 226 318	в интервью телеканалу «Россия 24» заявил вице-премьер правительства России Аркадий Дворкович
+T53	NEWS_SOURCE 415 430	заявил чиновник
+T54	NEWS_SOURCE 577 617	глава Минпромторга Денис Мантуров заявил
+T55	GROUP 634 640	власти
+R10	WORKPLACE Arg1:T55 Arg2:T13	
+T56	GROUP 694 713	товаропроизводители
+T57	ORGANIZATION 716 737	товаропроводящие сети
+T58	DATE 785 792	сегодня
+T59	NEWS_SOURCE 929 943	сказал министр
+T60	PRODUCT 1022 1027	сахар
+T61	PRODUCT 1055 1059	яйца
+T62	PRODUCT 1079 1087	говядина
+T63	PRODUCT 1107 1115	макароны
+T64	PRODUCT 1118 1121	чай
+T65	PRODUCT 1139 1145	гречка
+T66	PRODUCT 1209 1216	капусту
+T67	PRODUCT 1218 1226	Помидоры
+T68	PRODUCT 1263 1269	огурцы
+T69	PRODUCT 1295 1301	бензин
+T70	PRODUCT 1427 1440	салата оливье
+R11	COSTS Arg1:T70 Arg2:T18	
+R12	COSTS Arg1:T70 Arg2:T20	
+T71	PERSON 1543 1549	Оливье
+T72	NEWS_SOURCE 1688 1742	По мнению помощника президента России Андрея Белоусова

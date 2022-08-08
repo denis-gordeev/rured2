@@ -34,3 +34,10 @@ T29	CURRENCY 12 17	рубль
 T30	DATE 39 51	к концу года
 T31	CURRENCY 124 129	рубль
 T32	CURRENCY 1040 1048	долларов
+T33	NEWS_SOURCE 181 219	заявил первый зампред ЦБ Сергей Швецов
+R5	EVENT_TAKES_PART_IN Arg1:T4 Arg2:T23	
+T34	NEWS_SOURCE 262 275	сообщает ТАСС
+T35	ORGANIZATION 402 408	банков
+T36	DATE 523 529	сейчас
+T37	DATE 550 566	на данный момент
+T38	ORGANIZATION 602 611	регулятор

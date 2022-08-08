@@ -58,7 +58,6 @@ R2	WORKPLACE Arg1:T4 Arg2:T3
 R3	WORKS_AS Arg1:T23 Arg2:T58	
 R4	WORKPLACE Arg1:T23 Arg2:T22	
 R5	OWNERSHIP Arg1:T61 Arg2:T60	
-T64	PROFESSION 576 581	главу
 R6	OWNERSHIP Arg1:T3 Arg2:T6	
 R7	OWNERSHIP Arg1:T3 Arg2:T7	
 R8	SELLS_TO Arg1:T11 Arg2:T12	
@@ -83,3 +82,16 @@ T70	FAC 2254 2273	Каховская — Джанкой
 T46	FAC 2411 2431	Мелитополь — Джанкой
 T71	FAC 2434 2451	Каховская — Титан
 T54	ORGANIZATION 2635 2669	меджлиса крымско-татарского народа
+T55	COMMODITY 60 74	электроэнергии
+T63	TRADE_AGREEMENT 27 36	контракты
+T72	TRADE_AGREEMENT 130 139	контракты
+T73	COMMODITY 152 166	электроэнергии
+R17	SELLS Arg1:T5 Arg2:T73	
+T74	NEWS_SOURCE 296 316	сообщает РИА Новости
+T75	TRADE_AGREEMENT 479 488	контракты
+T76	COMMODITY 501 515	электроэнергии
+T64	PROFESSION 576 593	главу государства
+R18	PRODUCES Arg1:T13 Arg2:T76	
+R19	SELLS_TO Arg1:T13 Arg2:T14	
+T77	NEWS_SOURCE 567 598	цитирует главу государства ТАСС
+T78	NEWS_SOURCE 600 647	Путин, ссылаясь на данные правительства, заявил

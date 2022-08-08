@@ -48,3 +48,67 @@ T36	ORGANIZATION 2412 2428	АО «Газпромбанк»
 R12	OWNERSHIP Arg1:T34 Arg2:T16	
 R13	OWNERSHIP Arg1:T35 Arg2:T16	
 R14	OWNERSHIP Arg1:T36 Arg2:T16	
+T37	PROFESSION 0 8	Эксперты
+T38	ECONOMIC_SECTOR 26 39	строительства
+T39	PROFESSION 71 79	Эксперты
+T40	ECONOMIC_SECTOR 104 117	строительства
+T41	ECONOMIC_SECTOR 173 191	добывающей отрасли
+T42	ECONOMIC_SECTOR 263 276	Строительство
+T43	NEWS_SOURCE 352 414	отметил генеральный директор «ИнфоТЭК-Терминал» Рустам Танкаев
+T44	PRODUCT 455 467	оборудования
+T45	LOCATION 481 500	арктического шельфа
+T46	DATE 501 508	сегодня
+T47	NEWS_SOURCE 602 726	По словам директора Инженерной школы Дальневосточного федерального университета, доктора технических наук Александра Беккера
+T48	FAC 937 962	судостроительный комплекс
+R15	HEADQUARTERED_IN Arg1:T48 Arg2:T13	
+T49	LOCATION 1042 1101	континентального шельфа арктических и дальневосточных морей
+T50	DATE 1152 1162	Днем ранее
+T51	FAC 1284 1321	транспортно-передаточный плавучий док
+R16	HEADQUARTERED_IN Arg1:T51 Arg2:T14	
+T52	FAC 1421 1443	крупногабаритных судов
+R17	HEADQUARTERED_IN Arg1:T52 Arg2:T14	
+T53	FAC 1534 1558	объектов морской техники
+T54	FAC 1573 1604	буровых платформ и их элементов
+R18	SELLS Arg1:T53 Arg2:T54	
+R19	HEADQUARTERED_IN Arg1:T54 Arg2:T14	
+R20	HEADQUARTERED_IN Arg1:T53 Arg2:T14	
+T55	FAC 1643 1650	плавдок
+T56	FAC 1713 1719	причал
+T57	FAC 1736 1758	ремонтируемых объектов
+T58	FAC 1771 1776	судна
+T59	FAC 1791 1808	буровой платформы
+R21	HEADQUARTERED_IN Arg1:T55 Arg2:T14	
+R22	HEADQUARTERED_IN Arg1:T56 Arg2:T14	
+R23	HEADQUARTERED_IN Arg1:T57 Arg2:T14	
+R24	HEADQUARTERED_IN Arg1:T58 Arg2:T14	
+R25	HEADQUARTERED_IN Arg1:T59 Arg2:T14	
+T60	FAC 1865 1877	оборудование
+T61	PRODUCT 1933 1938	судов
+R26	PRODUCES Arg1:T33 Arg2:T61	
+T62	ORGANIZATION 1980 1988	компании
+R27	HEADQUARTERED_IN Arg1:T62 Arg2:T24	
+T63	FAC 2024 2041	зарубежных верфях
+T64	PRODUCT 2131 2136	судов
+T65	FAC 2151 2156	верфи
+R28	HEADQUARTERED_IN Arg1:T65 Arg2:T25	
+R29	PRODUCES Arg1:T65 Arg2:T64	
+T66	ORGANIZATION 2166 2175	компаниям
+T67	ECONOMIC_SECTOR 2460 2473	строительство
+T68	FAC 2474 2503	тяжелого достроечного стапеля
+T69	FAC 2505 2516	сухого дока
+T70	FAC 2518 2554	производственных цехов полного цикла
+T71	FAC 2564 2612	цехов для строительства офшорной морской техники
+R30	HEADQUARTERED_IN Arg1:T68 Arg2:T25	
+R31	HEADQUARTERED_IN Arg1:T69 Arg2:T25	
+R32	HEADQUARTERED_IN Arg1:T70 Arg2:T25	
+R33	HEADQUARTERED_IN Arg1:T71 Arg2:T25	
+T72	PRODUCT 2665 2685	крупнотоннажные суда
+T73	PRODUCT 2687 2712	элементы морских платформ
+T74	PRODUCT 2714 2734	суда ледового класса
+T75	PRODUCT 2736 2752	специальные суда
+T76	PRODUCT 2755 2782	другие виды морской техники
+R34	PRODUCES Arg1:T20 Arg2:T72	
+R35	PRODUCES Arg1:T20 Arg2:T73	
+R36	PRODUCES Arg1:T20 Arg2:T74	
+R37	PRODUCES Arg1:T20 Arg2:T75	
+R38	PRODUCES Arg1:T20 Arg2:T76	

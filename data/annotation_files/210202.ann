@@ -13,3 +13,4 @@ R2	WORKPLACE Arg1:T7 Arg2:T6
 T11	EVENT 167 184	пресс-конференции
 R3	ORGANIZES Arg1:T10 Arg2:T11	
 R4	EVENT_TAKES_PART_IN Arg1:T7 Arg2:T11	
+T12	NEWS_SOURCE 121 236	заявил президент России Владимир Путин в ходе пресс-конференции, трансляция которой ведется телеканалом «Россия 24»

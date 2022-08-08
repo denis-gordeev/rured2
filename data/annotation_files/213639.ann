@@ -51,3 +51,13 @@ T48	GROUP 191 204	третьих стран
 T11	GROUP 448 461	третьи страны
 R4	MEMBER Arg1:T15 Arg2:T16	
 T49	GROUP 924 937	третьи страны
+T50	ORGANIZATION 305 314	ведомства
+T51	NEWS_SOURCE 285 314	сообщается на сайте ведомства
+T52	ORGANIZATION 487 496	ведомства
+R5	HEADQUARTERED_IN Arg1:T52 Arg2:T12	
+T53	NEWS_SOURCE 463 506	В сообщении российского ведомства говорится
+T54	GROUP 1198 1217	компетентные службы
+R6	WORKPLACE Arg1:T54 Arg2:T28	
+R7	WORKPLACE Arg1:T54 Arg2:T29	
+T55	ORGANIZATION 1837 1846	ведомства
+R8	HEADQUARTERED_IN Arg1:T55 Arg2:T45	

@@ -43,3 +43,36 @@ T38	PERCENT 1722 1737	на 8,5 процента
 T39	PERCENT 1761 1776	на 8,7 процента
 T40	PERCENT 1798 1813	на 7,8 процента
 T41	PERCENT 1849 1864	на 0,2 процента
+T42	NEWS_SOURCE 162 182	сообщает «Интерфакс»
+T43	EVENT 184 196	На совещании
+T44	GROUP 199 220	членами правительства
+R5	EVENT_TAKES_PART_IN Arg1:T44 Arg2:T43	
+T45	PROFESSION 231 248	глава государства
+T46	COMMODITY 455 468	энергоресурсы
+R6	WORKPLACE Arg1:T45 Arg2:T4	
+T47	NEWS_SOURCE 614 630	сказал президент
+T48	NEWS_SOURCE 632 648	По словам Путина
+T49	DATE 650 661	сегодняшняя
+T50	ORGANIZATION 726 734	компаний
+R7	HEADQUARTERED_IN Arg1:T50 Arg2:T8	
+T51	ECONOMIC_SECTOR 763 775	производство
+T52	GROUP 818 839	сельхозпроизводителям
+T53	NEWS_SOURCE 890 907	отметил президент
+R8	WORKPLACE Arg1:T28 Arg2:T8	
+R9	WORKPLACE Arg1:T52 Arg2:T8	
+T54	NEWS_SOURCE 925 971	глава Минэкономразвития Алексей Улюкаев заявил
+T55	NEWS_SOURCE 1048 1061	сообщает ТАСС
+T56	NEWS_SOURCE 1063 1124	Путин в своем послании Федеральному собранию 4 декабря заявил
+T57	PRODUCT 1178 1189	медикаменты
+T58	NEWS_SOURCE 1235 1255	По словам президента
+T59	ORGANIZATION 1358 1371	правительство
+T60	NEWS_SOURCE 1418 1433	сообщал Росстат
+R10	HEADQUARTERED_IN Arg1:T59 Arg2:T19	
+T61	PRODUCT 1674 1679	крупа
+T62	PRODUCT 1682 1689	бобовые
+T63	PRODUCT 1754 1759	сахар
+T64	PRODUCT 1782 1787	овощи
+T65	PRODUCT 1790 1796	фрукты
+T66	PRODUCT 1819 1823	яйца
+T67	PRODUCT 1825 1829	Мясо
+T68	PRODUCT 1832 1837	птица

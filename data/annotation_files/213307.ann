@@ -47,3 +47,18 @@ T38	COMMODITY 1647 1652	нефть
 T39	CURRENCY 1527 1533	рублей
 T40	CURRENCY 427 435	долларов
 T41	CURRENCY 1677 1685	долларов
+T42	NEWS_SOURCE 209 257	заявила глава Банка России РФ Эльвира Набиуллина
+T43	NEWS_SOURCE 259 279	передает РИА Новости
+R9	COSTS Arg1:T37 Arg2:T6	
+T44	NEWS_SOURCE 576 593	отметила глава ЦБ
+T45	NEWS_SOURCE 607 634	Эльвира Набиуллина сообщила
+T46	ECONOMIC_SECTOR 677 696	банковского сектора
+T47	GROUP 700 727	недобросовестных участников
+T48	ECONOMIC_SECTOR 759 778	банковского сектора
+T49	GROUP 877 887	вкладчиков
+T50	NEWS_SOURCE 979 1016	приводит ТАСС слова главы Центробанка
+T51	NEWS_SOURCE 1547 1593	министр финансов России Антон Силуанов заявлял
+R10	SELLS Arg1:T25 Arg2:T38	
+T52	GROUP 1697 1706	экспертов
+T53	ORGANIZATION 1880 1889	компаниям
+R11	HEADQUARTERED_IN Arg1:T53 Arg2:T29	

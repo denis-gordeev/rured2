@@ -41,3 +41,7 @@ R14	WORKPLACE Arg1:T12 Arg2:T13
 T27	DATE 433 444	в 2012 году
 T28	DATE 628 639	в 1922 году
 R15	DATE_FOUNDED_IN Arg1:T17 Arg2:T28	
+T29	ORGANIZATION 216 224	компании
+R16	HEADQUARTERED_IN Arg1:T29 Arg2:T7	
+T30	NEWS_SOURCE 185 224	сообщается на сайте российской компании
+T31	FAC 685 713	железнодорожными перевозками

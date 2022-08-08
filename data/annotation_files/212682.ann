@@ -43,3 +43,16 @@ T29	DATE 1115 1124	30 ноября
 T38	PERCENT 1502 1515	19,5 процента
 T39	DATE 1541 1559	до конца 2014 года
 T40	CURRENCY 926 932	рублей
+T41	ORGANIZATION 240 247	кабмина
+T42	NEWS_SOURCE 220 247	сообщается на сайте кабмина
+T43	PROFESSION 498 506	оценщика
+T44	DATE 612 618	Сейчас
+T45	ORGANIZATION 1046 1059	правительство
+T46	ORGANIZATION 1177 1184	кабмина
+T47	ORGANIZATION 1147 1176	финансово-экономическом блоке
+R5	OWNERSHIP Arg1:T46 Arg2:T47	
+T48	NEWS_SOURCE 1135 1193	источники в финансово-экономическом блоке кабмина отметили
+T49	NEWS_SOURCE 1346 1403	министр экономического развития Алексей Улюкаев рассказал
+T50	GROUP 1462 1471	инвесторы
+R7	ORIGINS_FROM Arg1:T50 Arg2:T12	
+R8	ORIGINS_FROM Arg1:T50 Arg2:T13	

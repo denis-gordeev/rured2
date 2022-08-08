@@ -39,3 +39,30 @@ T36	PROFESSION 1501 1511	президента
 R5	SUBORDINATE_OF Arg1:T23 Arg2:T36	
 T37	PERCENT 1065 1077	7,4 процента
 T38	CURRENCY 1250 1256	рублей
+T13	GROUP 65 71	власти
+R6	WORKPLACE Arg1:T13 Arg2:T1	
+T24	NEWS_SOURCE 127 183	в интервью ТАСС заявил глава Минпромторга Денис Мантуров
+T39	GROUP 191 210	товаропроизводители
+T40	ORGANIZATION 213 234	товаропроводящие сети
+T41	DATE 282 289	сегодня
+T42	ORGANIZATION 435 444	агентство
+T43	NEWS_SOURCE 426 460	приводит агентство слова чиновника
+T44	GROUP 496 502	власти
+T45	NEWS_SOURCE 716 736	предупредил Мантуров
+T46	PRODUCT 815 820	сахар
+T47	PRODUCT 848 852	яйца
+T48	PRODUCT 872 880	говядина
+T49	PRODUCT 900 908	макароны
+T50	PRODUCT 911 914	чай
+T51	PRODUCT 932 938	гречка
+T52	PRODUCT 1002 1009	капусту
+T53	PRODUCT 1011 1019	Помидоры
+T54	PRODUCT 1056 1062	огурцы
+T55	PRODUCT 1088 1094	бензин
+T56	PRODUCT 1220 1233	салата оливье
+T57	PERSON 1227 1233	оливье
+R7	COSTS Arg1:T56 Arg2:T10	
+R8	COSTS Arg1:T56 Arg2:T12	
+T58	CURRENCY 1306 1312	рубля.
+T59	PERSON 1336 1342	Оливье
+T60	NEWS_SOURCE 1481 1535	По мнению помощника президента России Андрея Белоусова

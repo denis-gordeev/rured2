@@ -46,3 +46,27 @@ T35	FAC 1064 1078	морского порта
 T36	FAC 1113 1145	железнодорожных подъездных путей
 T37	FAC 985 1005	автомобильного моста
 T38	FAC 916 938	транспортного перехода
+R11	HEADQUARTERED_IN Arg1:T32 Arg2:T2	
+T39	ECONOMIC_SECTOR 105 149	строительству железнодорожной инфраструктуры
+T40	NEWS_SOURCE 274 319	сообщается на официальном сайте правительства
+T41	FAC 363 385	транспортного перехода
+R12	HEADQUARTERED_IN Arg1:T41 Arg2:T5	
+T42	ECONOMIC_SECTOR 349 362	строительства
+T43	FAC 448 473	железнодорожного перехода
+R13	HEADQUARTERED_IN Arg1:T43 Arg2:T6	
+R14	HEADQUARTERED_IN Arg1:T43 Arg2:T7	
+T44	ECONOMIC_SECTOR 523 536	строительство
+T45	ECONOMIC_SECTOR 728 741	строительства
+T46	FAC 857 879	транспортного перехода
+R15	HEADQUARTERED_IN Arg1:T46 Arg2:T10	
+T47	ECONOMIC_SECTOR 843 856	строительство
+R16	HEADQUARTERED_IN Arg1:T38 Arg2:T13	
+T48	ECONOMIC_SECTOR 971 984	строительства
+T49	ECONOMIC_SECTOR 1050 1063	строительство
+R17	HEADQUARTERED_IN Arg1:T35 Arg2:T15	
+R18	HEADQUARTERED_IN Arg1:T36 Arg2:T15	
+T50	ECONOMIC_SECTOR 1152 1165	строительства
+T51	FAC 1173 1181	перехода
+T52	EVENT 1513 1523	переговоры
+R19	EVENT_TAKES_PART_IN Arg1:T23 Arg2:T52	
+R20	EVENT_TAKES_PART_IN Arg1:T22 Arg2:T52	

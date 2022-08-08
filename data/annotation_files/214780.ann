@@ -49,3 +49,20 @@ T45	PERCENT 1426 1444	минус 0,4 процента
 T46	PERCENT 1481 1496	на 1,9 процента
 T47	PERCENT 1507 1522	на 0,9 процента
 T48	PERCENT 1550 1565	на 0,7 процента
+T49	ORGANIZATION 170 206	государственное статистического бюро
+T50	NEWS_SOURCE 161 206	сообщает государственное статистического бюро
+T51	PROFESSION 208 217	Аналитики
+T52	PROFESSION 355 364	экспертов
+T53	PROFESSION 372 380	эксперты
+R4	WORKPLACE Arg1:T53 Arg2:T7	
+T54	NEWS_SOURCE 453 531	глава экономического исследовательского института Ifo Ханс-Вернер Зинн отмечал
+T55	GROUP 622 640	торговых партнеров
+T56	DATE 832 845	В то же время
+T57	NEWS_SOURCE 851 905	сообщило европейское статистическое агентство Eurostat
+T58	PROFESSION 1057 1066	Аналитики
+R5	MEMBER Arg1:T26 Arg2:T21	
+R6	MEMBER Arg1:T27 Arg2:T21	
+R7	MEMBER Arg1:T28 Arg2:T21	
+R8	MEMBER Arg1:T29 Arg2:T21	
+R9	MEMBER Arg1:T30 Arg2:T21	
+R10	MEMBER Arg1:T31 Arg2:T21	

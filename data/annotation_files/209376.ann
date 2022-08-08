@@ -57,3 +57,34 @@ R9	EVENT_TAKES_PART_IN Arg1:T21 Arg2:T48
 R10	ORGANIZES Arg1:T19 Arg2:T48	
 T49	CURRENCY 2076 2082	доллар
 T30	CURRENCY 2068 2074	рублей
+T50	GROUP 16 36	валютных спекулянтов
+T51	ORGANIZATION 39 45	банках
+T52	PROFESSION 50 78	Уполномоченные представители
+R11	WORKPLACE Arg1:T52 Arg2:T2	
+T53	ORGANIZATION 106 112	банках
+T54	NEWS_SOURCE 162 179	пишут «Ведомости»
+T55	ORGANIZATION 261 271	регулятору
+T56	ORGANIZATION 297 302	банке
+T57	ORGANIZATION 424 429	банка
+T58	ORGANIZATION 386 393	изданию
+T59	NEWS_SOURCE 376 429	рассказал изданию представитель одного крупного банка
+T60	NEWS_SOURCE 431 485	Сотрудник другой частной кредитной организации сообщил
+T61	ORGANIZATION 647 652	банке
+T62	NEWS_SOURCE 622 660	Представитель ЦБ в нашем банке сообщил
+T63	ORGANIZATION 805 810	банка
+R12	WORKPLACE Arg1:T34 Arg2:T63	
+T64	PROFESSION 826 833	куратор
+T65	ORGANIZATION 815 820	банке
+R13	WORKPLACE Arg1:T64 Arg2:T65	
+T66	NEWS_SOURCE 896 968	подтвердил газете председатель совета директоров «МДМ банка» Олег Вьюгин
+T67	ORGANIZATION 1202 1211	регулятор
+T68	DATE 1301 1310	ежедневно
+T69	GROUP 1339 1349	вкладчиков
+T70	ORGANIZATION 1537 1544	изданию
+T71	NEWS_SOURCE 1511 1544	представитель ВТБ сообщил изданию
+T72	ORGANIZATION 1586 1591	банка
+T73	NEWS_SOURCE 1696 1717	Владимир Путин заявил
+T74	GROUP 1723 1729	власти
+T75	GROUP 1754 1776	валютными спекулянтами
+T76	GROUP 1878 1889	спекулянтов
+T77	ORGANIZATION 2187 2196	регулятор

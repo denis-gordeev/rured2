@@ -41,3 +41,14 @@ T35	DATE 36 46	XVIII века
 T36	ORGANIZATION 537 550	правительство
 R6	OWNERSHIP Arg1:T11 Arg2:T36	
 T37	ORGANIZATION 678 691	правительство
+T38	NEWS_SOURCE 214 238	пишет The New York Times
+T39	GROUP 451 462	инвесторами
+T40	GROUP 579 603	международным кредиторам
+T41	NEWS_SOURCE 605 660	Министр финансов Джордж Осборн (George Osborne) уточнил
+T42	GROUP 838 844	власти
+T43	NEWS_SOURCE 1013 1036	отмечает Deutsche Welle
+T44	ORGANIZATION 1112 1125	правительство
+R7	HEADQUARTERED_IN Arg1:T44 Arg2:T19	
+T45	NEWS_SOURCE 1112 1149	правительство Великобритании сообщило
+T46	NEWS_SOURCE 1415 1429	Минфин объявил
+R8	EXPENDITURE Arg1:T19 Arg2:T28	

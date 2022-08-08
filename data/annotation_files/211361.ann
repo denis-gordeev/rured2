@@ -49,3 +49,68 @@ R5	WORKPLACE Arg1:T42 Arg2:T43
 T44	PERCENT 1304 1322	на 80-85 процентов
 R6	ALTERNATIVE_NAME Arg1:T27 Arg2:T26	
 T45	CURRENCY 1790 1796	рублей
+T46	NEWS_SOURCE 56 102	Премьер-министр России Дмитрий Медведев заявил
+T47	NEWS_SOURCE 198 263	глава правительства сказал в ходе интервью российским телеканалам
+T48	NEWS_SOURCE 346 361	отметил премьер
+T49	GROUP 372 393	представителей власти
+T50	GROUP 412 433	отечественные аграрии
+T51	DATE 506 513	полгода
+T52	NEWS_SOURCE 538 557	подчеркнул Медведев
+T53	FAC 611 620	магазинов
+R7	HEADQUARTERED_IN Arg1:T53 Arg2:T8	
+T54	NEWS_SOURCE 658 673	добавил премьер
+R8	WORKPLACE Arg1:T49 Arg2:T8	
+R9	WORKPLACE Arg1:T50 Arg2:T8	
+T55	NEWS_SOURCE 675 692	Медведев напомнил
+T56	FAC 745 762	сетевых магазинов
+R10	HEADQUARTERED_IN Arg1:T56 Arg2:T11	
+T57	PRODUCT 857 862	мясом
+T58	PRODUCT 864 869	рыбой
+T59	PRODUCT 871 878	овощами
+T60	PRODUCT 880 888	фруктами
+R11	BUYS Arg1:T11 Arg2:T57	
+R12	BUYS Arg1:T11 Arg2:T58	
+R13	BUYS Arg1:T11 Arg2:T59	
+R14	BUYS Arg1:T11 Arg2:T60	
+R15	WORKPLACE Arg1:T41 Arg2:T12	
+R16	HEADQUARTERED_IN Arg1:T40 Arg2:T12	
+T61	FAC 1015 1023	магазины
+R17	HEADQUARTERED_IN Arg1:T61 Arg2:T12	
+T62	GROUP 1039 1053	производителей
+R18	WORKPLACE Arg1:T62 Arg2:T12	
+T63	NEWS_SOURCE 1055 1071	добавил Медведев
+T64	PROFESSION 1164 1171	премьер
+R19	WORKPLACE Arg1:T64 Arg2:T15	
+T65	NEWS_SOURCE 1150 1171	констатировал премьер
+T66	NEWS_SOURCE 1173 1249	Согласно данным за последние несколько лет, приведенных главой правительства
+T67	PRODUCT 1291 1302	мясом птицы
+R20	PRODUCES Arg1:T15 Arg2:T67	
+T68	PRODUCT 1325 1333	свининой
+R21	PRODUCES Arg1:T15 Arg2:T68	
+T69	PRODUCT 1357 1366	говядиной
+R22	PRODUCES Arg1:T15 Arg2:T69	
+T70	GROUP 1390 1397	аграрии
+R23	WORKPLACE Arg1:T70 Arg2:T15	
+T71	NEWS_SOURCE 1433 1449	отметил Медведев
+T72	PRODUCT 1530 1553	крупного рогатого скота
+T73	ECONOMIC_SECTOR 1517 1553	производства крупного рогатого скота
+T74	GROUP 1646 1669	аграрных производителей
+T75	NEWS_SOURCE 1713 1727	сказал премьер
+T76	NEWS_SOURCE 1810 1851	Председатель правительства также напомнил
+T77	GROUP 1857 1863	власти
+R24	WORKPLACE Arg1:T77 Arg2:T21	
+T78	GROUP 1945 1960	стран-партнеров
+T79	PRODUCT 1996 2002	яблоки
+R25	PRODUCES Arg1:T23 Arg2:T79	
+T80	DATE 2012 2018	сейчас
+T81	FAC 2031 2040	магазинах
+R26	HEADQUARTERED_IN Arg1:T81 Arg2:T21	
+T82	NEWS_SOURCE 2073 2089	отметил Медведев
+T83	CRIME 2117 2128	контрабанде
+T84	PRODUCT 2184 2190	овощей
+T85	PRODUCT 2193 2200	фруктов
+T86	LOCATION 2219 2228	западными
+T87	GROUP 2219 2237	западными странами
+T88	GROUP 2307 2313	власти
+R27	WORKPLACE Arg1:T88 Arg2:T27	
+T89	GROUP 2569 2589	торговыми партнерами

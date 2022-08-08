@@ -37,3 +37,25 @@ R5	HEADQUARTERED_IN Arg1:T31 Arg2:T13
 R6	OWNERSHIP Arg1:T15 Arg2:T14	
 R7	HEADQUARTERED_IN Arg1:T16 Arg2:T17	
 T32	CITY 1032 1039	Неренги
+T33	NEWS_SOURCE 71 112	Президент Литвы Даля Грибаускайте считает
+T34	ORGANIZATION 184 192	компании
+T35	FAC 230 255	стратегическими объектами
+R8	OWNERSHIP Arg1:T2 Arg2:T35	
+T36	NEWS_SOURCE 295 309	сообщает Delfi
+T37	NEWS_SOURCE 406 428	По словам Грибаускайте
+T38	ECONOMIC_SECTOR 491 501	энергетика
+T39	FAC 503 530	транспортная инфраструктура
+T40	FAC 532 548	телекоммуникации
+T41	ECONOMIC_SECTOR 550 568	высокие технологии
+T42	ECONOMIC_SECTOR 571 578	финансы
+T43	GROUP 769 780	акционерами
+R9	ORIGINS_FROM Arg1:T43 Arg2:T15	
+T44	ORGANIZATION 869 877	компании
+T45	LOCATION 899 928	участки земли у базы ВВС НАТО
+T46	GROUP 950 956	власти
+R10	WORKPLACE Arg1:T46 Arg2:T18	
+T47	GROUP 984 990	Власти
+R11	WORKPLACE Arg1:T47 Arg2:T32	
+T48	FAC 1120 1137	воздушные гондолы
+R12	OWNERSHIP Arg1:T32 Arg2:T48	
+T49	INVESTMENT_PROGRAM 1372 1429	направляется в обрабатывающую промышленность и энергетику

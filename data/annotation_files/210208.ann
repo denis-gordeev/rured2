@@ -16,3 +16,24 @@ T13	PROFESSION 865 874	Президент
 T14	CURRENCY 959 964	рубль
 T15	ORGANIZATION 1184 1192	Лента.ру
 T16	EVENT 1207 1224	пресс-конференции
+T17	PRODUCT 55 61	бензин
+T18	PRODUCT 87 93	бензин
+T19	PRODUCT 96 112	продукты питания
+T20	GROUP 202 217	производителями
+T21	NEWS_SOURCE 227 343	президент России Владимир Путин заявил в ходе ежегодной пресс-конференции, которую транслирует телеканал «Россия 24»
+T22	PRODUCT 364 370	бензин
+T23	PRODUCT 372 388	продукты питания
+T24	DATE 450 459	ежедневно
+T25	DATE 461 472	еженедельно
+T26	GROUP 488 503	производителями
+T27	GROUP 507 524	участниками рынка
+T28	ORGANIZATION 528 544	торговыми сетями
+T29	ORGANIZATION 559 579	нефтяными компаниями
+T30	NEWS_SOURCE 675 687	сказал Путин
+R3	WORKPLACE Arg1:T26 Arg2:T1	
+R4	WORKPLACE Arg1:T27 Arg2:T1	
+R5	HEADQUARTERED_IN Arg1:T28 Arg2:T1	
+R6	HEADQUARTERED_IN Arg1:T29 Arg2:T1	
+T31	NEWS_SOURCE 689 715	По мнению Владимира Путина
+T32	ORDINAL 1066 1072	первую
+T33	NEWS_SOURCE 1183 1224	«Лента.ру» ведет онлайн пресс-конференции

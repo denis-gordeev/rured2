@@ -47,3 +47,17 @@ R11	HEADQUARTERED_IN Arg1:T35 Arg2:T23
 T36	FAC 963 970	Русская
 T37	COMMODITY 364 368	газа
 T38	COMMODITY 868 872	газа
+T39	FAC 32 43	газопровода
+T41	NEWS_SOURCE 178 222	заявил президент Турции Реджеп Тайип Эрдоган
+T42	NEWS_SOURCE 244 264	сообщает РИА Новости
+T43	NEWS_SOURCE 266 281	Эрдоган отметил
+R13	BUYS Arg1:T13 Arg2:T37	
+R14	BUYS Arg1:T12 Arg2:T37	
+T45	NEWS_SOURCE 470 484	заявил Эрдоган
+T40	FAC 46 62	Новый газопровод
+R12	HEADQUARTERED_IN Arg1:T40 Arg2:T2	
+T44	FAC 799 819	морского газопровода
+T46	ECONOMIC_SECTOR 785 798	строительстве
+T47	FAC 884 902	нового газопровода
+R15	HEADQUARTERED_IN Arg1:T47 Arg2:T27	
+R16	USES Arg1:T24 Arg2:T36	

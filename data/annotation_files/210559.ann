@@ -52,3 +52,17 @@ T41	PERCENT 731 754	с 10,5 до 17,0 процента
 R11	WORKPLACE Arg1:T22 Arg2:T21	
 R12	WORKPLACE Arg1:T28 Arg2:T27	
 T42	COMMODITY 413 418	нефть
+T43	ORGANIZATION 144 163	коммерческих банках
+T44	NEWS_SOURCE 165 200	заявила глава ЦБ Эльвира Набиуллина
+T45	NEWS_SOURCE 292 305	сообщает ТАСС
+T46	NEWS_SOURCE 307 326	Набиуллина добавила
+T47	ECONOMIC_SECTOR 590 602	производства
+T48	NEWS_SOURCE 607 636	сказала также руководитель ЦБ
+T49	ORGANIZATION 779 789	регулятора
+T50	ORGANIZATION 766 778	пресс-службе
+R13	OWNERSHIP Arg1:T49 Arg2:T50	
+T51	NEWS_SOURCE 764 798	В пресс-службе регулятора отметили
+T52	NEWS_SOURCE 974 1052	Глава комитета нижней палаты по экономической политике Михаил Емельянов заявил
+T53	PROFESSION 1407 1423	предпринимателям
+T54	ECONOMIC_SECTOR 1465 1477	производства
+T55	NEWS_SOURCE 1479 1498	Жириновский считает
