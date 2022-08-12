@@ -153,3 +153,50 @@ R28	HEADQUARTERED_IN Arg1:T42 Arg2:T94
 R29	HEADQUARTERED_IN Arg1:T41 Arg2:T92	
 T126	EVENT 4016 4039	WorldTravel Awards 2017
 T127	CURRENCY 3471 3479	долларов
+T97	ORGANIZATION 369 381	авиакомпании
+T128	NEWS_SOURCE 347 381	говорится в сообщении авиакомпании
+T129	DATE 453 466	на тот момент
+T130	ORGANIZATION 490 499	компанией
+T131	ORGANIZATION 576 593	дочерних компаний
+R30	OWNERSHIP Arg1:T8 Arg2:T131	
+T132	ORGANIZATION 676 685	«дочками»
+R31	OWNERSHIP Arg1:T9 Arg2:T132	
+T133	ORGANIZATION 821 842	авиационного холдинга
+R32	HEADQUARTERED_IN Arg1:T133 Arg2:T12	
+T134	ORGANIZATION 896 921	региональных авиакомпаний
+R33	OWNERSHIP Arg1:T13 Arg2:T134	
+T135	NEWS_SOURCE 1353 1375	В сообщении отмечается
+T136	ORGANIZATION 1454 1464	лоукостера
+R34	HEADQUARTERED_IN Arg1:T136 Arg2:T22	
+T137	PROFESSION 1679 1686	пилотов
+T138	GROUP 1754 1768	авиапассажиров
+T139	FAC 2176 2184	самолете
+T140	ORGANIZATION 2214 2223	лоукостер
+R35	HEADQUARTERED_IN Arg1:T140 Arg2:T71	
+T141	ORGANIZATION 2440 2452	авиакомпаний
+T142	ECONOMIC_SECTOR 2475 2494	гражданской авиации
+T143	ORGANIZATION 2581 2594	авиахолдингов
+T144	ORGANIZATION 2810 2822	авиахолдинга
+R36	HEADQUARTERED_IN Arg1:T144 Arg2:T83	
+T145	ORGANIZATION 3069 3090	дочерних авиакомпаний
+R37	OWNERSHIP Arg1:T36 Arg2:T145	
+T146	DATE 3203 3210	Сегодня
+T147	ORGANIZATION 3281 3293	авиакомпаний
+T148	ORGANIZATION 3319 3343	международного агентства
+R38	COSTS Arg1:T39 Arg2:T90	
+T149	AWARD 3672 3728	является лауреатом самых престижных международных премий
+T150	AWARD 3733 3811	семь раз признавался «Лучшей авиакомпанией Восточной Европы» по версии Skytrax
+T151	AWARD 3813 3886	дважды — «Любимой иностранной авиакомпанией в Китае» по версии Flyer Awar
+T152	AWARD 3919 4039	был назван «Лидирующим авиационным брендом мира» по результатам вручения «туристического Оскара» WorldTravel Awards 2017
+T153	PRODUCT 4127 4138	авиатехники
+R39	PRODUCES Arg1:T98 Arg2:T153	
+T154	ORGANIZATION 4148 4156	компании
+T155	FAC 4162 4171	самолетов
+R40	OWNERSHIP Arg1:T154 Arg2:T155	
+T156	FAC 4356 4394	самолетами отечественного производства
+R41	OWNERSHIP Arg1:T50 Arg2:T156	
+T157	GROUP 4487 4497	менеджмент
+T158	ORGANIZATION 4498 4506	компании
+R42	WORKPLACE Arg1:T157 Arg2:T158	
+R43	WORKPLACE Arg1:T52 Arg2:T158	
+T159	DATE 4596 4613	в ближайшее время

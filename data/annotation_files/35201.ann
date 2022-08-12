@@ -60,3 +60,6 @@ T49	PROFESSION 967 973	банкир
 T50	ORGANIZATION 1691 1712	кредитная организация
 T51	ORGANIZATION 1400 1404	банк
 T52	CURRENCY 1828 1834	рублей
+T53	GROUP 147 170	временной администрации
+R11	WORKPLACE Arg1:T53 Arg2:T44	
+T54	NEWS_SOURCE 666 692	подчеркнул Алексей Ананьев

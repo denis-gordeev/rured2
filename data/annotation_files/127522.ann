@@ -1,10 +1,10 @@
 T1	ORGANIZATION 0 9	Bloomberg
 T2	ORGANIZATION 36 38	ЦБ
-T3	ORGANIZATION 41 54	Таганской ОПГ
+T3	GROUP 41 54	Таганской ОПГ
 T4	ORGANIZATION 56 75	Гражданская гвардия
 T5	PERSON 139 155	Александр Торшин
 T6	ORGANIZATION 187 199	Банка России
-T7	ORGANIZATION 213 226	Таганской ОПГ
+T7	GROUP 213 226	Таганской ОПГ
 T8	DATE 249 270	во вторник, 9 августа
 T9	ORGANIZATION 292 301	Bloomberg
 T10	COUNTRY 496 503	Испании
@@ -14,7 +14,7 @@ T13	PERSON 630 651	Александром Романовым
 T14	DATE 663 690	в период с 2012 по 2013 год
 T15	REGION 762 769	Майорке
 T16	PERSON 786 794	Романову
-T17	ORGANIZATION 836 849	Таганской ОПГ
+T17	GROUP 836 849	Таганской ОПГ
 T18	NATIONALITY 851 858	русский
 T19	PERSON 867 895	Александр Порфирьевич Торшин
 T20	PERSON 907 915	Романова
@@ -51,7 +51,6 @@ R1	WORKS_AS Arg1:T5 Arg2:T47
 R2	WORKPLACE Arg1:T5 Arg2:T6
 R3	ORIGINS_FROM Arg1:T19 Arg2:T18
 R4	WORKS_AS Arg1:T19 Arg2:T48
-R5	WORKPLACE Arg1:T19 Arg2:T17	
 T51	PROFESSION 611 617	главой
 T52	PROFESSION 1894 1907	вице-спикером
 T53	PROFESSION 1910 1930	первым вице-спикером
@@ -66,7 +65,6 @@ R8	WORKS_AS Arg1:T13 Arg2:T51
 T59	FAC 753 758	вилле
 R9	HEADQUARTERED_IN Arg1:T59 Arg2:T15	
 R10	OWNERSHIP Arg1:T16 Arg2:T59	
-R11	WORKPLACE Arg1:T20 Arg2:T17	
 R12	WORKPLACE Arg1:T49 Arg2:T28	
 T60	GROUP 1499 1524	правоохранительные органы
 T61	MONEY 1788 1806	1,65 миллиона евро
@@ -81,3 +79,30 @@ R19	OWNERSHIP Arg1:T42 Arg2:T56
 R20	WORKPLACE Arg1:T50 Arg2:T45	
 T62	CURRENCY 1802 1806	евро
 T63	CURRENCY 1818 1826	долларов
+T64	CRIME 200 226	имел связи с Таганской ОПГ
+T65	ORGANIZATION 333 339	службы
+T66	NEWS_SOURCE 272 339	выступило агентство Bloomberg со ссылкой на секретный доклад службы
+T67	NEWS_SOURCE 341 359	В отчете говорится
+T68	GROUP 383 411	членам преступного синдиката
+T69	ORGANIZATION 460 465	банки
+T70	CRIME 417 465	отмывать незаконно полученные деньги через банки
+T71	FAC 481 493	недвижимости
+R21	HEADQUARTERED_IN Arg1:T71 Arg2:T10	
+T72	EVENT 572 593	телефонных разговоров
+R22	EVENT_TAKES_PART_IN Arg1:T12 Arg2:T72	
+R23	EVENT_TAKES_PART_IN Arg1:T13 Arg2:T72	
+R24	WORKPLACE Arg1:T58 Arg2:T11	
+T73	ORGANIZATION 1059 1066	гвардии
+T74	NEWS_SOURCE 1022 1066	цитирует Bloomberg содержание отчета гвардии
+R5	SUBORDINATE_OF Arg1:T20 Arg2:T19	
+T75	GROUP 1121 1143	преступной группировки
+T76	NEWS_SOURCE 1145 1168	По информации Bloomberg
+T77	NEWS_SOURCE 1220 1240	Торшин также отметил
+T78	NEWS_SOURCE 1361 1382	подчеркнул зампред ЦБ
+T79	NEWS_SOURCE 1384 1402	Bloomberg отмечает
+R11	WORKPLACE Arg1:T60 Arg2:T32	
+T80	GROUP 1589 1594	мафии
+T81	DATE 1673 1688	к четырем годам
+T82	CRIME 1724 1778	признал себя виновным в совершении незаконных операций
+R25	CONVICTED_OF Arg1:T35 Arg2:T82	
+R26	TAKES_PLACE_IN Arg1:T82 Arg2:T36	

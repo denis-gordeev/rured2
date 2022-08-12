@@ -32,3 +32,10 @@ T20	ORGANIZATION 806 815	конгрессе
 R8	OWNERSHIP Arg1:T5 Arg2:T20	
 R9	HEADQUARTERED_IN Arg1:T7 Arg2:T6	
 T25	CURRENCY 308 314	рублей
+T26	ORGANIZATION 213 222	ведомства
+T27	NEWS_SOURCE 193 222	сообщается на сайте ведомства
+T28	GROUP 662 688	участников долгового рынка
+T29	ORGANIZATION 767 776	ведомства
+T30	NEWS_SOURCE 732 776	говорилось в официальном сообщении ведомства
+T31	ORGANIZATION 960 966	банков
+R10	HEADQUARTERED_IN Arg1:T31 Arg2:T6	

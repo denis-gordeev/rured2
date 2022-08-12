@@ -102,3 +102,30 @@ R32	TAKES_PLACE_IN Arg1:T34 Arg2:T56
 T70	EVENT 1922 1930	Выставка
 R33	DATE_TAKES_PLACE_ON Arg1:T70 Arg2:T46	
 R34	DATE_TAKES_PLACE_ON Arg1:T70 Arg2:T47	
+T71	FAC 7 12	музеи
+T72	FAC 75 95	художественные музеи
+R35	HEADQUARTERED_IN Arg1:T72 Arg2:T2	
+T73	NEWS_SOURCE 219 306	сообщает корреспондент «Ленты.ру» с пресс-конференции, посвященной предстоящему событию
+T74	FAC 395 402	музеями
+T75	GROUP 533 544	посетителей
+R36	USES Arg1:T75 Arg2:T74	
+T76	FAC 550 555	музеи
+T77	GROUP 688 706	многодетным семьям
+T78	NEWS_SOURCE 711 748	рассказал глава Сбербанка Герман Греф
+T79	FAC 790 796	музеев
+T80	FAC 886 891	музеи
+T81	ORGANIZATION 1079 1089	учреждение
+T82	ORGANIZATION 1218 1224	музеев
+T83	NEWS_SOURCE 1196 1245	на сайтах Сбербанка и музеев, участвующих в акции
+T84	WORK_OF_ART 1144 1154	экспозиций
+T85	WORK_OF_ART 1260 1266	картин
+T86	WORK_OF_ART 1621 1627	картин
+T87	GROUP 1661 1672	Посетителям
+T88	WORK_OF_ART 1684 1700	тактильные копии
+T89	NEWS_SOURCE 1786 1834	По словам директора ГМИИ им.Пушкина Марины Лошак
+T90	GROUP 1902 1920	слабовидящим людям
+R37	EVENT_TAKES_PART_IN Arg1:T90 Arg2:T70	
+T91	WORK_OF_ART 2039 2046	картины
+T92	FAC 2032 2037	музея
+T93	NEWS_SOURCE 2014 2037	отметила директор музея
+R38	HEADQUARTERED_IN Arg1:T92 Arg2:T48	

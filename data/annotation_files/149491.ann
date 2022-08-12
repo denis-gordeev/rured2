@@ -38,3 +38,10 @@ T36	CURRENCY 427 433	гривны
 T37	CURRENCY 482 488	доллар
 T38	CURRENCY 376 384	долларов
 T39	CURRENCY 237 245	долларов
+T40	NEWS_SOURCE 278 294	сообщает Reuters
+T41	DATE 491 507	На данный момент
+T42	ORGANIZATION 583 603	компаний-экспортеров
+T43	ORGANIZATION 820 830	регулятора
+T44	GROUP 806 819	Представители
+R2	WORKPLACE Arg1:T44 Arg2:T43	
+T45	NEWS_SOURCE 806 839	Представители регулятора сообщили

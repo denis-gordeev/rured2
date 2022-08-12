@@ -55,7 +55,33 @@ R12	EVENT_TAKES_PART_IN Arg1:T18 Arg2:T42
 R13	WORKPLACE Arg1:T24 Arg2:T23	
 R14	SELLS_TO Arg1:T29 Arg2:T26	
 R15	SELLS_TO Arg1:T27 Arg2:T26	
-T43	CARDINAL 1278 1290	более низкой
 T44	COMMODITY 45 48	газ
 T45	COMMODITY 1201 1204	газ
 T46	COMMODITY 299 303	газа
+T47	COMMODITY 120 124	газа
+R16	PRODUCES Arg1:T6 Arg2:T47	
+T48	NEWS_SOURCE 155 224	заявил премьер-министр страны Владимир Гройсман, передает «Интерфакс»
+T49	ECONOMIC_SECTOR 113 124	добычу газа
+T50	ECONOMIC_SECTOR 292 303	добычу газа
+T51	COMMODITY 314 317	газ
+T52	ORGANIZATION 428 437	агентство
+T53	NEWS_SOURCE 419 447	приводит агентство его слова
+R17	WORKPLACE Arg1:T35 Arg2:T6	
+T54	COMMODITY 478 492	энергоресурсов
+T55	NEWS_SOURCE 594 667	министр энергетики и угольной промышленности Украины Игорь Насалик сказал
+T56	COMMODITY 712 716	газа
+R18	SELLS Arg1:T14 Arg2:T56	
+T57	COMMODITY 852 856	газу
+T58	NEWS_SOURCE 858 907	Министр энергетики России Александр Новак сообщил
+T59	EVENT 913 920	встреча
+T60	COMMODITY 980 987	топлива
+R19	EVENT_TAKES_PART_IN Arg1:T24 Arg2:T59	
+T61	NEWS_SOURCE 1005 1059	Глава «Нафтогаза» Андрей Коболев в свою очередь заявил
+R20	EVENT_TAKES_PART_IN Arg1:T2 Arg2:T59	
+R21	SELLS Arg1:T27 Arg2:T45	
+T43	NEWS_SOURCE 1305 1320	Коболев признал
+T62	GROUP 1410 1420	поставщики
+R22	WORKPLACE Arg1:T62 Arg2:T33	
+T63	COMMODITY 1352 1359	топливо
+R23	SELLS Arg1:T40 Arg2:T63	
+T64	DATE 1422 1435	В то же время

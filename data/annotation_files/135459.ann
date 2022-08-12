@@ -66,3 +66,18 @@ R9	HEADQUARTERED_IN Arg1:T19 Arg2:T57
 T58	GROUP 1667 1683	ведущих компаний
 T59	COMMODITY 571 576	нефть
 T60	COMMODITY 1383 1394	нефть Brent
+T52	GROUP 113 123	инвесторов
+T61	NEWS_SOURCE 170 272	считает зампред Внешэкономбанка, бывший замглавы Минэкономразвития Андрей Клепач, сообщает РИА Новости
+T62	NEWS_SOURCE 442 457	сказал эксперт.
+T63	DATE 589 605	в следующем году
+T64	PROFESSION 744 755	журналистам
+T65	NEWS_SOURCE 730 755	сказал Клепач журналистам
+T66	GROUP 1043 1064	участников плебисцита
+T67	EVENT 1212 1225	в референдуме
+R10	EVENT_TAKES_PART_IN Arg1:T66 Arg2:T67	
+R11	TAKES_PLACE_IN Arg1:T49 Arg2:T18	
+R12	TAKES_PLACE_IN Arg1:T67 Arg2:T18	
+T68	PRODUCT 1422 1428	золото
+T69	ORGANIZATION 1557 1580	мировых фондовых биржах
+R13	WORKPLACE Arg1:T58 Arg2:T20	
+T70	QUANTITY 1701 1715	тысячи пунктов

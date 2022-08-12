@@ -35,3 +35,25 @@ R7	HEADQUARTERED_IN Arg1:T27 Arg2:T13
 T28	ORGANIZATION 151 157	школах
 R8	HEADQUARTERED_IN Arg1:T28 Arg2:T6	
 R9	WORKPLACE Arg1:T24 Arg2:T16	
+T29	GROUP 18 26	ученикам
+T30	ORGANIZATION 31 35	школ
+T31	ORGANIZATION 256 261	банка
+R10	WORKPLACE Arg1:T23 Arg2:T31	
+T32	NEWS_SOURCE 198 307	сообщил старший управляющий директор платежей и переводов банка Игорь Мамонтов, передает Rambler News Service
+T33	DATE 309 326	В настоящее время
+T34	GROUP 451 458	ученики
+T35	FAC 487 504	школьных столовых
+R11	USES Arg1:T34 Arg2:T35	
+T36	NEWS_SOURCE 536 555	подчеркнул Мамонтов
+T37	GROUP 696 705	родителей
+T38	NEWS_SOURCE 734 765	отметил представитель Сбербанка
+T39	GROUP 790 798	родители
+T40	NEWS_SOURCE 854 900	информация [об этом] попадает в личный кабинет
+T41	GROUP 999 1006	ученики
+T42	FAC 1025 1035	библиотеке
+T43	NEWS_SOURCE 1067 1083	отметил Мамонтов
+T44	GROUP 1227 1236	студентов
+T45	PROFESSION 1239 1253	преподавателей
+T46	ORGANIZATION 1268 1280	университета
+R12	WORKPLACE Arg1:T45 Arg2:T46	
+T47	ORGANIZATION 1309 1313	вуза

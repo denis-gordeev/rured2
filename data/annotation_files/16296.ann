@@ -37,3 +37,15 @@ T31	PERCENT 1001 1015	25-процентными
 R6	ALTERNATIVE_NAME Arg1:T24 Arg2:T12	
 T32	CURRENCY 286 294	долларов
 T33	CURRENCY 1065 1073	долларов
+T34	GROUP 62 68	власти
+R7	WORKPLACE Arg1:T34 Arg2:T15	
+T35	NEWS_SOURCE 177 234	сообщает Reuters со ссылкой на министерство коммерции КНР
+T36	ORGANIZATION 343 352	ведомстве
+T37	NEWS_SOURCE 332 352	пояснили в ведомстве
+T38	NEWS_SOURCE 659 685	заявили в Минкоммерции КНР
+T39	ECONOMIC_SECTOR 862 904	химической и энергетической промышленности
+T40	PRODUCT 914 938	медицинское оборудование
+R8	BUYS Arg1:T22 Arg2:T40	
+T41	PRODUCT 1128 1155	сельскохозяйственные товары
+T42	PRODUCT 1157 1167	автомобили
+T43	PRODUCT 1170 1182	морепродукты

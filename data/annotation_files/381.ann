@@ -61,3 +61,5 @@ T53	CURRENCY 1011 1019	долларов
 T54	CURRENCY 1518 1526	долларов
 T55	CURRENCY 780 788	долларов
 T56	CURRENCY 1229 1237	долларов
+R8	COSTS Arg1:T40 Arg2:T11	
+T57	NEWS_SOURCE 31 66	Аналитики Райффайзен банка полагают

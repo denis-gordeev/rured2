@@ -55,3 +55,21 @@ R7	HEADQUARTERED_IN Arg1:T47 Arg2:T18
 R8	HEADQUARTERED_IN Arg1:T47 Arg2:T19	
 T48	FAC 1660 1686	моста Благовещенск — Хэйхэ
 T49	QUANTITY 1702 1716	19,9 километра
+T50	NEWS_SOURCE 175 197	выяснили в РИА Новости
+T51	ORGANIZATION 484 496	предприятиям
+R9	HEADQUARTERED_IN Arg1:T51 Arg2:T37	
+T52	DATE 545 562	В последнее время
+T53	ORGANIZATION 632 640	компаний
+R10	HEADQUARTERED_IN Arg1:T53 Arg2:T30	
+T54	NEWS_SOURCE 806 845	заявил в интервью агентству Хэ Джэньвэй
+T55	DATE 1322 1338	На данный момент
+T56	FAC 1353 1358	моста
+T57	DATE 1392 1398	Сейчас
+T58	ECONOMIC_SECTOR 1458 1471	строительство
+T59	FAC 1477 1483	мостов
+T60	DATE 1545 1551	Сейчас
+T61	NEWS_SOURCE 1608 1627	пояснил Хэ Джэньвэй
+T62	ECONOMIC_SECTOR 1646 1659	строительство
+T64	NEWS_SOURCE 1718 1749	Руководители проекта утверждают
+T63	GROUP 1718 1738	Руководители проекта
+T65	FAC 1895 1935	пассажирской пограничной канатной дороги

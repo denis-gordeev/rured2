@@ -1,7 +1,6 @@
 T1	COUNTRY 62 73	российского
 T2	COUNTRY 80 87	Украина
 T3	COUNTRY 153 164	российского
-T4	DATE 197 206	16 января
 T5	PERSON 272 285	Юрий Витренко
 T6	QUANTITY 324 343	ни одного кубометра
 T7	COUNTRY 483 490	Украины
@@ -82,3 +81,38 @@ T69	COMMODITY 1877 1881	газа
 T70	CURRENCY 1744 1752	долларов
 T71	CURRENCY 1898 1906	долларов
 T72	CURRENCY 1205 1213	долларов
+T73	COMMODITY 74 78	газа
+R13	SELLS Arg1:T1 Arg2:T73	
+T74	COMMODITY 165 169	газа
+R14	SELLS Arg1:T3 Arg2:T74	
+T4	DATE 186 206	в субботу, 16 января
+T75	NEWS_SOURCE 179 285	заявил в субботу, 16 января, в эфире телеканала «Громадьске ТВ» замглавы «Нафтогаза Украины» Юрий Витренко
+R15	SELLS Arg1:T55 Arg2:T64	
+T76	GROUP 470 482	потребителей
+R16	WORKPLACE Arg1:T76 Arg2:T7	
+R17	PRODUCES Arg1:T8 Arg2:T65	
+T77	NEWS_SOURCE 533 568	приводит слова Витренко РИА Новости
+R18	WORKPLACE Arg1:T48 Arg2:T52	
+T78	NEWS_SOURCE 570 603	Замглавы «Нафтогаза» также заявил
+R19	BUYS Arg1:T11 Arg2:T66	
+T79	COMMODITY 726 733	топлива
+R20	BUYS Arg1:T15 Arg2:T79	
+T80	DATE 735 748	В то же время
+T81	COMMODITY 1035 1039	газа
+T82	NEWS_SOURCE 1080 1126	премьер-министр Украины Арсений Яценюк сообщил
+R21	SELLS Arg1:T24 Arg2:T61	
+R22	COSTS Arg1:T61 Arg2:T26	
+T83	COMMODITY 1237 1244	топливо
+T84	FAC 1287 1307	подземных хранилищах
+T85	COMMODITY 1361 1368	топлива
+R23	HEADQUARTERED_IN Arg1:T84 Arg2:T21	
+T86	NEWS_SOURCE 1434 1497	Глава Минэнерго России Александр Новак 14 января выразил мнение
+R24	SELLS Arg1:T34 Arg2:T62	
+T87	COMMODITY 1605 1612	топлива
+T88	FAC 1615 1625	хранилищах
+R25	HEADQUARTERED_IN Arg1:T88 Arg2:T33	
+R26	COSTS Arg1:T63 Arg2:T39	
+R27	SELLS Arg1:T56 Arg2:T69	
+R28	COSTS Arg1:T69 Arg2:T44	
+T89	COMMODITY 1931 1938	топлива
+R29	BUYS Arg1:T45 Arg2:T89	

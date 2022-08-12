@@ -45,3 +45,18 @@ R4	PRODUCES Arg1:T10 Arg2:T22
 R5	PRODUCES Arg1:T9 Arg2:T40	
 T41	PRODUCT 1192 1199	Sandero
 R6	PRODUCES Arg1:T10 Arg2:T41	
+T42	PRODUCT 24 34	автомобиль
+T43	PRODUCT 80 87	машиной
+T44	DATE 88 98	этого лета
+R7	SELLS Arg1:T4 Arg2:T12	
+T45	NEWS_SOURCE 109 156	По данным Ассоциации европейского бизнеса (АЕБ)
+R9	SELLS Arg1:T3 Arg2:T42	
+T46	PRODUCT 186 197	автомобилей
+T47	PRODUCT 260 265	машин
+T48	PRODUCT 348 359	автомобилей
+T49	DATE 471 476	сезон
+T50	PRODUCT 541 546	машин
+T51	NEWS_SOURCE 548 564	По подсчетам РБК
+T52	PRODUCT 737 742	машин
+T53	PRODUCT 799 810	автомобилей
+T54	NEWS_SOURCE 877 902	Представитель Kia сообщил

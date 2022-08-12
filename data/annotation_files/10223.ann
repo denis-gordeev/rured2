@@ -40,3 +40,24 @@ R9	SELLS_TO Arg1:T12 Arg2:T14
 R10	SELLS_TO Arg1:T13 Arg2:T14	
 T31	CURRENCY 106 114	долларов
 T32	CURRENCY 647 655	долларов
+T33	ECONOMIC_SECTOR 40 49	автопрому
+R11	WORKPLACE Arg1:T1 Arg2:T27	
+T34	PRODUCT 150 155	стали
+T35	PRODUCT 158 166	алюминия
+T36	NEWS_SOURCE 192 283	сообщает Reuters, выступил главный исполнительный директор Ford Motor Company Джеймс Хакетт
+T37	ORGANIZATION 315 323	компания
+T38	ECONOMIC_SECTOR 389 401	производство
+T39	NEWS_SOURCE 500 515	отметил Хаккетт
+T40	GROUP 557 570	производители
+R12	WORKPLACE Arg1:T40 Arg2:T18	
+T41	PRODUCT 588 593	сталь
+T42	PRODUCT 692 697	стали
+T43	ECONOMIC_SECTOR 718 730	производства
+T44	NEWS_SOURCE 732 799	заявил исполнительный вице-президент Honda North America Рик Шостек
+T45	PRODUCT 825 830	сталь
+T46	PRODUCT 850 858	алюминий
+R13	PRODUCES Arg1:T11 Arg2:T46	
+R14	PRODUCES Arg1:T11 Arg2:T45	
+R15	PRODUCES Arg1:T12 Arg2:T45	
+R16	PRODUCES Arg1:T12 Arg2:T46	
+R17	BUYS Arg1:T13 Arg2:T45	

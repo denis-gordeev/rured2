@@ -71,3 +71,17 @@ T49	COMMODITY 715 720	нефть
 T50	COMMODITY 1249 1254	нефти
 T51	COMMODITY 1296 1301	нефти
 T52	CURRENCY 1189 1197	долларов
+T53	ORGANIZATION 35 55	нефтяной госкомпании
+T54	FAMILY 61 65	дочь
+R22	WORKPLACE Arg1:T37 Arg2:T1	
+T55	NEWS_SOURCE 239 292	сообщает Bloomberg со ссылкой на заявление президента
+T56	GROUP 316 330	топ-менеджмент
+R24	WORKPLACE Arg1:T56 Arg2:T6	
+T57	PROFESSION 515 523	эксперты
+T58	FAMILY 606 610	сына
+R25	ORIGINS_FROM Arg1:T58 Arg2:T9	
+R26	WORKPLACE Arg1:T46 Arg2:T9	
+T59	NEWS_SOURCE 761 831	сказал Гэри ван Стаден, аналитик по африканской экономике из NKC (ЮАР)
+T60	PROFESSION 954 962	аналитик
+T61	FAMILY 1062 1066	жены
+T62	NEWS_SOURCE 1326 1369	Reuters опубликовал результаты исследования

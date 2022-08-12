@@ -13,3 +13,16 @@ T10	PROFESSION 908 919	замминистра
 T11	CURRENCY 128 134	рублей
 T12	CURRENCY 37 43	рублей
 T13	PRODUCT 86 92	бензин
+T14	COMMODITY 11 17	бензин
+T15	PROFESSION 53 63	нефтяникам
+R1	INCOME Arg1:T15 Arg2:T8	
+T16	NEWS_SOURCE 162 222	передает ТАСС слова замминистра финансов России Ильи Трунина
+T17	ORGANIZATION 346 363	нефтяных компаний
+T18	NEWS_SOURCE 366 383	Трунин оговорился
+T19	PROFESSION 493 502	нефтяники
+T20	PERCENT 573 594	два процентных пункта
+T21	ORGANIZATION 667 685	нефтяным компаниям
+T22	NEWS_SOURCE 900 919	считает замминистра
+T23	ORGANIZATION 948 961	правительства
+T24	COMMODITY 1068 1075	топливо
+T25	PROFESSION 1168 1179	нефтяниками

@@ -21,3 +21,17 @@ R2	HEADQUARTERED_IN Arg1:T18 Arg2:T11
 T10	CURRENCY 801 807	рублей
 T20	CURRENCY 50 56	рублей
 T21	CURRENCY 176 182	рублей
+T22	MONEY 36 56	35 миллиардов рублей
+T23	MONEY 159 182	35,082 миллиарда рублей
+T24	NEWS_SOURCE 200 259	информация содержится на сайте Единого федерального реестра
+T25	ORGANIZATION 325 339	АКБ "Пересвет"
+T26	DATE 353 366	на 01.12.2016
+T27	CURRENCY 394 400	рублей
+T28	MONEY 379 400	35 082 179 068 рублей
+T29	NEWS_SOURCE 405 433	сказано в материалах реестра
+T30	GROUP 509 532	временную администрацию
+R3	WORKPLACE Arg1:T30 Arg2:T17	
+T31	ORGANIZATION 568 578	регулятора
+T32	NEWS_SOURCE 558 578	По данным регулятора
+T33	ORGANIZATION 751 755	банк
+T34	ECONOMIC_SECTOR 842 860	банковской системе
