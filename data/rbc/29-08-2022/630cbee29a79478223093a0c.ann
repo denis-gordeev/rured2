@@ -1,0 +1,27 @@
+T0	CITY 2 8	Москве
+T1	PERSON 19 34	Леонида Гозмана
+T2	PROFESSION 51 59	политика
+T8	PERSON 95 110	Леонида Гозмана
+T11	CITY 156 162	Москве
+T12	ORGANIZATION 172 175	РБК
+T13	PROFESSION 180 187	адвокат
+T14	NEWS_SOURCE 164 202	сообщил РБК его адвокат Михаил Бирюков
+T15	PERSON 188 202	Михаил Бирюков
+T17	ORGANIZATION 231 257	правоохранительных органах
+T18	PERSON 259 266	Гозмана
+T19	COUNTRY 306 310	СССР
+T20	GPE 313 323	нацистской
+T21	COUNTRY 324 333	Германией
+T22	ORGANIZATION 350 362	Тверском ОВД
+T23	DATE 365 377	В конце июля
+T24	PERSON 378 385	Гозмана
+T5	GROUP 128 142	СМИ-иноагентов
+T3	PROFESSION 61 75	бывшего лидера
+T4	ORGANIZATION 76 94	«Союза правых сил»
+R1	WORKPLACE Arg1:T3 Arg2:T4	
+R2	WORKS_AS Arg1:T8 Arg2:T2	
+R3	WORKS_AS Arg1:T15 Arg2:T13	
+T6	ORGANIZATION 226 228	RT
+T7	NEWS_SOURCE 208 228	сообщает источник RT
+T9	CRIME 279 333	в публичном отождествлении СССР с нацистской Германией
+T10	ORDINAL 412 419	двойном

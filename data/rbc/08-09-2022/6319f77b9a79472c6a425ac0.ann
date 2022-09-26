@@ -1,0 +1,52 @@
+T0	FAC 2 21	Букингемском дворце
+T3	CITY 80 87	Лондоне
+T15	FAC 231 237	дворца
+T16	GROUP 267 275	туристов
+T18	PROFESSION 321 329	королевы
+T22	DATE 375 381	сейчас
+T24	FAMILY 445 468	члены королевской семьи
+T33	PROFESSION 594 602	королева
+T34	PERSON 603 615	Елизавета II
+T35	DATE 627 637	6 сентября
+T38	PROFESSION 665 674	премьером
+T39	COUNTRY 675 689	Великобритании
+T44	EVENT 22 54	отменили церемонию смены караула
+T1	FAC 58 77	Букингемском дворце
+T2	PROFESSION 140 148	королевы
+T4	PERSON 149 161	Елизаветы II
+T5	EVENT 162 208	отменена традиционная церемония смены караулов
+R2	TAKES_PLACE_IN Arg1:T5 Arg2:T1	
+R1	TAKES_PLACE_IN Arg1:T44 Arg2:T0	
+T6	ORGANIZATION 219 227	Би-би-си
+T7	NEWS_SOURCE 210 227	передает Би-би-си
+T8	EVENT 279 295	отмене церемонии
+R3	TAKES_PLACE_IN Arg1:T8 Arg2:T15	
+T9	DATE 335 345	8 сентября
+T10	TIME 330 334	днем
+T11	GPE 354 373	Букингемский дворец
+T12	REGION 398 409	шотландском
+T13	FAC 410 424	замке Балморал
+R4	HEADQUARTERED_IN Arg1:T13 Arg2:T12	
+T14	PROFESSION 505 510	принц
+T17	PERSON 511 517	Чарльз
+R5	WORKS_AS Arg1:T17 Arg2:T14	
+T19	FAMILY 520 539	часть родственников
+T20	EVENT 560 583	официальном мероприятии
+T21	AGE 584 593	96-летняя
+R6	DATE_TAKES_PLACE_ON Arg1:T20 Arg2:T35	
+R7	WORKS_AS Arg1:T34 Arg2:T33	
+R8	WORKPLACE Arg1:T38 Arg2:T39	
+T23	PERSON 690 699	Лиз Трасс
+R9	WORKS_AS Arg1:T23 Arg2:T38	
+R10	EVENT_TAKES_PART_IN Arg1:T23 Arg2:T20	
+R11	EVENT_TAKES_PART_IN Arg1:T34 Arg2:T20	
+R12	HEADQUARTERED_IN Arg1:T1 Arg2:T3	
+R13	WORKS_AS Arg1:T4 Arg2:T2	
+T26	GROUP 445 468	члены королевской семьи
+T27	PERSON 445 468	члены королевской семьи
+R14	MEMBER Arg1:T17 Arg2:T24	
+T25	PROFESSION 486 504	наследник престола
+R15	WORKS_AS Arg1:T17 Arg2:T25	
+T28	GROUP 520 539	часть родственников
+T29	DATE 767 783	Thu, 08 Sep 2022
+T30	TIME 784 792	17:25:09

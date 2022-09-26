@@ -1,0 +1,51 @@
+T0	ORGANIZATION 46 49	МСП
+T2	CITY 59 65	Москвы
+T20	PERSON 466 481	Владимир Ефимов
+T23	CARDINAL 511 516	одним
+T25	GROUP 564 589	малого и среднего бизнеса
+T26	NEWS_SOURCE 752 766	добавил Ефимов
+T27	ORGANIZATION 779 814	департамента экономической политики
+T29	CITY 815 821	Москвы
+T31	DATE 903 928	за семь месяцев 2022 года
+T32	MONEY 964 974	5 млрд руб
+T33	CURRENCY 971 974	руб
+T34	PERCENT 981 992	на 62% выше
+T35	DATE 1004 1035	за аналогичный период 2021 года
+T36	DATE 1037 1056	На начало 2022 года
+T41	PROFESSION 1091 1122	индивидуальных предпринимателей
+T45	ECONOMIC_SECTOR 1241 1249	торговле
+T47	CITY 1301 1307	Москве
+T49	PERCENT 1343 1352	почти 47%
+T52	DATE 1501 1515	до одного года
+T53	GROUP 1562 1568	физлиц
+T54	PROFESSION 1614 1630	предпринимателей
+T55	CITY 1650 1656	Москве
+T57	GROUP 1657 1676	обладатели патентов
+T58	ECONOMIC_SECTOR 1723 1731	торговли
+T60	ECONOMIC_SECTOR 1757 1766	перевозок
+T61	GROUP 1797 1810	арендодателей
+T68	PERSON 0 6	Ефимов
+T69	NEWS_SOURCE 0 14	Ефимов сообщил
+T1	DATE 67 113	За первые семь месяцев (январь—июль) 2022 года
+T3	PROFESSION 128 158	индивидуальные предприниматели
+T6	DATE 297 325	аналогичный период 2021 года
+T7	EVENT 340 371	VI Московском финансовом форуме
+T8	PROFESSION 372 465	заместитель мэра Москвы по вопросам экономической политики и имущественно-земельных отношений
+T9	CITY 389 395	Москвы
+R1	WORKS_AS Arg1:T20 Arg2:T8	
+R2	EVENT_TAKES_PART_IN Arg1:T20 Arg2:T7	
+T10	PERSON 760 766	Ефимов
+T11	NEWS_SOURCE 769 821	По данным департамента экономической политики Москвы
+R3	HEADQUARTERED_IN Arg1:T27 Arg2:T29	
+R4	WORKPLACE Arg1:T25 Arg2:T9	
+T5	PERCENT 275 288	на 21% больше
+T4	MONEY 245 260	132,1 млрд руб.
+T12	CURRENCY 256 259	руб
+T13	QUANTITY 1071 1079	62,7 тыс
+T14	CARDINAL 1159 1168	103,7 тыс
+T15	CARDINAL 1273 1284	более трети
+T16	PROFESSION 1429 1431	ИП
+R5	WORKPLACE Arg1:T54 Arg2:T55	
+R6	WORKPLACE Arg1:T57 Arg2:T55	
+T17	ECONOMIC_SECTOR 1768 1781	бытовых услуг
+R7	WORKPLACE Arg1:T61 Arg2:T55	

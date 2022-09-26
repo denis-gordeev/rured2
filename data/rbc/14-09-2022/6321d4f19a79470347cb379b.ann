@@ -1,0 +1,30 @@
+T0	PROFESSION 0 7	Пашинян
+T3	ORGANIZATION 47 51	ОДКБ
+T4	COUNTRY 79 86	Армении
+T5	COUNTRY 105 118	Азербайджаном
+T6	QUANTITY 129 140	105 человек
+T7	PROFESSION 149 156	премьер
+T8	NEWS_SOURCE 142 177	заявил премьер страны Никол Пашинян
+T9	PERSON 164 177	Никол Пашинян
+T10	ORGANIZATION 190 200	парламенте
+T11	ORGANIZATION 220 235	Новости Армении
+T12	NEWS_SOURCE 202 236	передает издание «Новости Армении»
+T13	ORGANIZATION 261 274	правительство
+T15	ORGANIZATION 338 342	ОДКБ
+T17	CARDINAL 428 432	одну
+T19	GROUP 458 467	участники
+T21	COUNTRY 673 680	Армении
+T24	COUNTRY 747 754	Армении
+T25	NEWS_SOURCE 759 773	сказал Пашинян
+T27	ORGANIZATION 785 790	Aysor
+T1	QUANTITY 17 29	105 погибших
+T2	EVENT 35 70	обращении к ОДКБ за военной помощью
+R1	WORKS_AS Arg1:T9 Arg2:T7	
+T14	ORGANIZATION 288 336	Организации Договора о коллективной безопасности
+R2	ABBREVIATION Arg1:T14 Arg2:T15	
+T16	LAW 357 362	ст. 4
+T18	GROUP 436 450	стран договора
+T20	COUNTRY 702 717	азербайджанских
+T22	ORGANIZATION 718 733	вооруженных сил
+R3	OWNERSHIP Arg1:T20 Arg2:T22	
+T23	PERSON 766 773	Пашинян

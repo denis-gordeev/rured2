@@ -1,0 +1,40 @@
+T0	PERSON 0 5	Путин
+T1	PROFESSION 28 39	бизнесменов
+T2	COUNTRY 42 48	Россию
+T3	EVENT 49 63	словом welcome
+T4	COUNTRY 65 71	Россия
+T5	PROFESSION 112 122	бизнесмены
+T6	PROFESSION 155 164	президент
+T7	NEWS_SOURCE 148 179	заявил президент Владимир Путин
+T8	PERSON 165 179	Владимир Путин
+T9	EVENT 183 213	Восточном экономическом форуме
+T10	EVENT 215 218	ВЭФ
+T11	GROUP 253 265	молодые люди
+T12	GROUP 437 448	бизнесменов
+T13	COUNTRY 464 470	Россию
+T14	NEWS_SOURCE 592 604	сказал Путин
+T15	PERSON 599 604	Путин
+T16	DATE 607 622	С конца февраля
+T17	ORGANIZATION 623 631	западные
+T18	GROUP 632 652	иностранные компании
+T19	COUNTRY 716 722	России
+T20	NEWS_SOURCE 724 743	По данным Йельского
+T21	PERSON 734 743	Йельского
+T22	PROFESSION 744 753	института
+T23	PROFESSION 764 777	руководителей
+T24	GROUP 744 791	института лидерства руководителей высшего звена
+T25	ORDINAL 800 806	вторая
+T26	CARDINAL 810 814	1345
+T27	ORGANIZATION 815 834	зарубежных компаний
+T28	COUNTRY 865 875	российском
+T29	ORGANIZATION 935 948	правительство
+T30	COUNTRY 949 955	России
+T31	ECONOMIC_SECTOR 1041 1043	ИП
+T32	GROUP 1044 1052	и малого
+T33	ECONOMIC_SECTOR 1053 1060	бизнеса
+T34	DATE 1061 1074	до конца года
+T35	GROUP 1148 1159	сотрудников
+T36	ORGANIZATION 1160 1162	ИТ
+T37	ORGANIZATION 1163 1171	компаний
+T38	DATE 1243 1250	2022 14
+T39	ORGANIZATION 1257 1258	+

@@ -1,0 +1,89 @@
+T1	NEWS_SOURCE 0 21	«Коммерсантъ» сообщил
+T6	ORGANIZATION 66 69	ФСБ
+T8	ORGANIZATION 99 102	ФСБ
+T10	REGION 106 123	Самарской области
+T11	PROFESSION 124 136	подполковник
+T12	PERSON 137 150	Дмитрий Демин
+T13	CRIME 172 179	хищении
+T14	CURRENCY 180 189	биткоинов
+T15	CRIME 209 215	хакера
+T19	PERSON 279 284	Демин
+T21	GROUP 341 353	соучастников
+T24	DATE 419 425	Сейчас
+T25	PERSON 426 431	Демин
+T26	DATE 519 531	до 1 декабря
+T27	NEWS_SOURCE 533 548	уточняет газета
+T28	ORGANIZATION 578 582	СИЗО
+T29	PERSON 584 589	Демин
+T30	ORGANIZATION 610 638	правоохранительными органами
+T31	ORGANIZATION 673 676	ФСБ
+T32	DATE 677 688	с 2006 года
+T34	ORGANIZATION 782 785	ФСБ
+T35	DATE 786 794	с апреля
+T37	CARDINAL 833 837	трех
+T39	REGION 870 887	Самарской области
+T40	NEWS_SOURCE 905 918	пишет издание
+T41	DATE 930 936	в июне
+T42	ORGANIZATION 937 941	ТАСС
+T43	ORGANIZATION 967 993	правоохранительных органах
+T44	DATE 995 1006	в 2021 году
+T46	GROUP 1049 1056	хакеров
+T47	BOROUGH 1059 1069	Сызранском
+T49	REGION 1077 1094	Самарской области
+T58	GROUP 1319 1330	сотрудникам
+T59	ORGANIZATION 1331 1334	ФСБ
+T62	PROFESSION 1415 1421	офицер
+T66	CURRENCY 1495 1498	руб
+T67	DATE 1509 1522	на тот момент
+T68	PERSON 1542 1548	Демина
+T71	DATE 1607 1625	в начале 2022 года
+T75	CRIME 1643 1680	мошенничество в особо крупном размере
+T76	CRIME 1691 1698	хакером
+T80	DATE 1806 1814	один год
+T2	CRIME 47 53	хакера
+T3	CRIME 35 40	кражу
+T4	ORGANIZATION 0 13	«Коммерсантъ»
+T5	PROFESSION 58 65	офицере
+R1	WORKPLACE Arg1:T5 Arg2:T6	
+T7	ORGANIZATION 88 98	управления
+R2	OWNERSHIP Arg1:T8 Arg2:T7	
+R3	PLACE_RESIDES_IN Arg1:T12 Arg2:T10	
+R4	WORKPLACE Arg1:T12 Arg2:T8	
+T9	ORGANIZATION 240 253	«Коммерсантъ»
+T16	NEWS_SOURCE 231 277	сообщает «Коммерсантъ» со ссылкой на источники
+T17	ORGANIZATION 295 322	Главной военной прокуратуре
+T18	CRIME 354 361	хищения
+T20	EVENT 364 417	заключил с ней досудебное соглашение о сотрудничестве
+R5	EVENT_TAKES_PART_IN Arg1:T19 Arg2:T20	
+R6	EVENT_TAKES_PART_IN Arg1:T21 Arg2:T18	
+R7	EVENT_TAKES_PART_IN Arg1:T19 Arg2:T18	
+T22	ORGANIZATION 550 553	Суд
+T23	CRIME 709 735	скрыть похищенные средства
+R8	ORGANIZES Arg1:T29 Arg2:T23	
+T33	NEWS_SOURCE 738 762	Обвиняемый на это заявил
+T36	FAMILY 844 849	детей
+T38	PERSON 1007 1012	Демин
+T45	NEWS_SOURCE 924 993	писал в июне ТАСС со ссылкой на источник в правоохранительных органах
+R9	OWNERSHIP Arg1:T49 Arg2:T47	
+R10	WORKPLACE Arg1:T46 Arg2:T49	
+T48	PERSON 1125 1136	Мочалов А.О
+T50	PRODUCT 1229 1240	компьютеров
+T51	CRIME 1174 1282	с помощью специальной программы взламывал защиту чужих компьютеров и похищал пароли от электронных кошельков
+R11	ORGANIZES Arg1:T48 Arg2:T51	
+T52	CRIME 1301 1306	хакер
+R12	WORKPLACE Arg1:T58 Arg2:T59	
+T53	NEWS_SOURCE 1385 1400	уточняет газета
+T54	GROUP 1424 1435	сообщниками
+T55	CURRENCY 1462 1471	биткоинов
+T56	MONEY 1450 1498	68,5 единиц биткоинов — не менее 187 383 318 руб
+T57	CRIME 1441 1449	похитить
+R13	EVENT_TAKES_PART_IN Arg1:T54 Arg2:T57	
+T60	GROUP 1558 1584	неустановленных участников
+T61	CRIME 1585 1592	хищения
+T63	LAW 1629 1641	ч. 4 ст. 159
+R14	ORGANIZES Arg1:T68 Arg2:T75	
+R15	EVENT_TAKES_PART_IN Arg1:T60 Arg2:T75	
+R16	ORGANIZES Arg1:T68 Arg2:T61	
+R17	EVENT_TAKES_PART_IN Arg1:T60 Arg2:T61	
+T64	CRIME 1740 1798	создании и использовании вредоносных компьютерных программ
+R18	CONVICTED_OF Arg1:T48 Arg2:T64	

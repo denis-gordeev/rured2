@@ -1,0 +1,62 @@
+T2	CITY 26 33	Ижевске
+T6	CITY 74 81	Ижевске
+T8	STREET 109 120	Салютовская
+T9	CARDINAL 122 124	31
+T14	REGION 166 174	Удмуртии
+T18	ORDINAL 293 299	первых
+T19	FAC 300 334	пожарно-спасательных подразделений
+T22	NEWS_SOURCE 424 462	сообщили в региональном управлении МЧС
+T25	ORDINAL 496 502	второй
+T30	QUANTITY 604 621	около 100 человек
+T32	CARDINAL 624 633	30 единиц
+T33	ORGANIZATION 653 656	МЧС
+T34	PROFESSION 736 745	Спасатели
+T35	ORGANIZATION 807 811	ТАСС
+T37	ORGANIZATION 814 817	МЧС
+T38	DATE 820 845	Неделю назад, 12 сентября
+T40	REGION 901 913	подмосковном
+T41	CITY 914 926	Волоколамске
+T42	FAC 939 958	складское помещение
+T45	CITY 979 991	Волоколамске
+T1	FAC 3 23	лакокрасочном заводе
+T3	QUANTITY 58 70	5 тыс. кв. м
+T4	EVENT 34 46	возник пожар
+R1	TAKES_PLACE_IN Arg1:T4 Arg2:T1	
+R2	HEADQUARTERED_IN Arg1:T1 Arg2:T2	
+T5	FAC 93 99	здание
+T7	ORGANIZATION 159 162	МЧС
+R3	HEADQUARTERED_IN Arg1:T7 Arg2:T14	
+T10	ORGANIZATION 148 158	управления
+R4	OWNERSHIP Arg1:T7 Arg2:T10	
+T11	ORGANIZATION 135 147	пресс-служба
+R5	OWNERSHIP Arg1:T10 Arg2:T11	
+R6	HEADQUARTERED_IN Arg1:T5 Arg2:T6	
+T12	ORGANIZATION 204 263	предприятие по производству лакокрасочных материалов Palizh
+T13	PRODUCT 232 263	лакокрасочных материалов Palizh
+R7	HEADQUARTERED_IN Arg1:T12 Arg2:T6	
+T15	FAC 369 419	производственного корпуса лакокрасочных материалов
+T16	PRODUCT 395 419	лакокрасочных материалов
+T17	ORGANIZATION 459 462	МЧС
+T20	ORGANIZATION 435 458	региональном управлении
+R8	OWNERSHIP Arg1:T17 Arg2:T20	
+T21	NEWS_SOURCE 470 484	там рассказали
+T23	FAC 508 514	здания
+T24	EVENT 552 558	пожара
+T26	QUANTITY 569 581	5 тыс. кв. м
+T27	PRODUCT 634 641	техники
+T28	NEWS_SOURCE 643 656	указали в МЧС
+T29	EVENT 667 673	пожара
+T31	NEWS_SOURCE 736 753	Спасатели уверены
+T36	NEWS_SOURCE 799 817	заявили ТАСС в МЧС
+T59	EVENT 847 857	возгорание
+T39	FAC 870 898	складе с пластиковой крошкой
+T60	PRODUCT 879 898	пластиковой крошкой
+R9	OWNERSHIP Arg1:T40 Arg2:T41	
+R10	TAKES_PLACE_IN Arg1:T59 Arg2:T39	
+R11	DATE_TAKES_PLACE_ON Arg1:T59 Arg2:T38	
+R12	TAKES_PLACE_IN Arg1:T59 Arg2:T41	
+T43	STREET 962 976	Северном шоссе
+R13	HEADQUARTERED_IN Arg1:T42 Arg2:T45	
+T44	ORGANIZATION 1042 1058	региональном МЧС
+T46	NEWS_SOURCE 1031 1058	уточнили в региональном МЧС
+T47	QUANTITY 1095 1106	2,5 кв. км.

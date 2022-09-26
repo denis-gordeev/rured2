@@ -1,0 +1,41 @@
+T0	ORGANIZATION 0 2	ЦБ
+T1	MONEY 29 36	3 рубля
+T2	CURRENCY 31 36	рубля
+T6	REGION 55 60	Чечни
+T7	ORGANIZATION 62 73	Банк России
+T8	DATE 74 84	31 августа
+T11	CURRENCY 145 148	руб
+T14	REGION 174 194	Чеченской Республики
+T15	NEWS_SOURCE 196 226	говорится на сайте Центробанка
+T16	ORGANIZATION 215 226	Центробанка
+T20	PRODUCT 251 258	серебра
+T26	REGION 359 364	Чечни
+T31	CITY 475 483	Грозного
+T32	ORGANIZATION 485 495	Центробанк
+T33	NEWS_SOURCE 485 504	Центробанк отмечает
+T36	DATE 593 612	30 ноября 1922 года
+T42	DATE 698 709	В 1934 году
+T43	REGION 710 719	Чеченская
+T49	DATE 800 811	в 1936 году
+T52	DATE 873 884	С 1992 года
+T53	REGION 887 907	Чеченская Республика
+T54	DATE 909 931	спустя одиннадцать лет
+T55	COUNTRY 951 957	России
+T3	QUANTITY 45 54	100-летия
+T4	EVENT 45 60	100-летия Чечни
+T5	PRODUCT 115 132	серебряную монету
+R1	PRODUCES Arg1:T7 Arg2:T5	
+T9	MONEY 143 148	3 руб
+T10	QUANTITY 152 161	100-летию
+T12	QUANTITY 244 250	31,1 г
+T13	ORDINAL 259 264	925-й
+T17	QUANTITY 291 297	3 тыс.
+R2	OWNERSHIP Arg1:T26 Arg2:T31	
+T18	REGION 548 576	Чеченская автономная область
+T19	REGION 616 660	Чеченского национального округа Горской АССР
+T21	CITY 689 696	Грозный
+R3	OWNERSHIP Arg1:T18 Arg2:T21	
+T22	REGION 722 741	Ингушская автономии
+T23	REGION 755 790	Чечено-Ингушскую автономную область
+T24	REGION 850 871	Чечено-Ингушскую АССР
+R4	OWNERSHIP Arg1:T55 Arg2:T53	

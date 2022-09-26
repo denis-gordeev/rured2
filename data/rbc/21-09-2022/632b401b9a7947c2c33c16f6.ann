@@ -1,0 +1,45 @@
+T0	CITY 2 9	Херсоне
+T1	CITY 41 48	Херсоне
+T2	CARDINAL 60 66	четыре
+T3	EVENT 67 73	взрыва
+T5	ORGANIZATION 85 97	РИА Новости»
+T7	PROFESSION 112 126	корреспондента
+T8	ORGANIZATION 128 132	ТАСС
+T10	CARDINAL 141 145	двух
+T11	EVENT 146 153	взрывах
+T12	FAC 211 214	ПВО
+T17	FAC 273 278	моста
+T20	BOROUGH 300 311	Таврический
+T21	BOROUGH 314 317	ХБК
+T25	ORGANIZATION 392 401	агентства
+T26	NEWS_SOURCE 392 410	агентства сообщили
+T27	CARDINAL 417 421	пяти
+T28	EVENT 422 429	взрывах
+T29	CITY 432 439	Херсоне
+T30	ORGANIZATION 441 445	ТАСС
+T31	ORGANIZATION 491 494	ВСУ
+T33	LOCATION 561 566	Днепр
+T36	FAC 603 608	Баржа
+T38	NEWS_SOURCE 660 687	сказал собеседник агентства
+T49	EVENT 30 37	взрывов
+R1	TAKES_PLACE_IN Arg1:T49 Arg2:T0	
+R2	TAKES_PLACE_IN Arg1:T3 Arg2:T1	
+T4	NEWS_SOURCE 75 126	передает «РИА Новости» со ссылкой на корреспондента
+T6	NEWS_SOURCE 128 138	ТАСС пишет
+T9	CARDINAL 155 158	оба
+T48	ORGANIZATION 159 168	агентства
+T50	NEWS_SOURCE 155 177	оба агентства сообщают
+T13	ORGANIZATION 216 229	«РИА новости»
+T14	NEWS_SOURCE 216 249	«РИА новости», в частности, пишет
+T15	EVENT 252 258	взрыве
+R3	TAKES_PLACE_IN Arg1:T15 Arg2:T17	
+T16	ORGANIZATION 319 355	Херсонский хлопчатобумажный комбинат
+R4	TAKES_PLACE_IN Arg1:T28 Arg2:T29	
+T18	ORGANIZATION 460 477	экстренные службы
+T19	NEWS_SOURCE 441 485	ТАСС со ссылкой на экстренные службы сообщил
+T22	FAC 511 516	барже
+R5	HEADQUARTERED_IN Arg1:T22 Arg2:T33	
+T23	FAC 580 601	гражданской переправе
+T24	GROUP 638 655	мирным населением
+R6	USES Arg1:T24 Arg2:T36	
+T32	ORGANIZATION 678 687	агентства

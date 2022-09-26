@@ -1,0 +1,91 @@
+T0	ORGANIZATION 0 10	Росгвардия
+T1	REGION 20 30	Херсонщине
+T2	COUNTRY 48 58	украинских
+T3	GROUP 59 79	диверсантов
+
+Спецназ
+T4	ORGANIZATION 80 90	Росгвардии
+T5	REGION 103 121	Херсонской области
+T7	PRODUCT 148 158	вооружения
+T8	COUNTRY 159 169	украинских
+T10	GROUP 206 209	ДРГ
+T16	REGION 297 315	Херсонской области
+T17	NEWS_SOURCE 369 390	говорится в сообщении
+T18	ORGANIZATION 393 402	Ведомство
+T22	PRODUCT 539 556	металлодетекторов
+T29	GPE 816 824	Донбассе
+T30	DATE 825 843	с 2014 по 2017 год
+T33	PROFESSION 1009 1018	сотрудник
+T34	NEWS_SOURCE 992 1029	сообщил на видео сотрудник Росгвардии
+T35	ORGANIZATION 1019 1029	Росгвардии
+T36	ORGANIZATION 1044 1048	ТАСС
+T43	CARDINAL 1146 1149	280
+T47	CARDINAL 1210 1213	два
+T52	PRODUCT 1251 1262	боеприпасов
+T65	CARDINAL 1392 1395	два
+T67	ORGANIZATION 1453 1463	Росгвардии
+T68	COUNTRY 1483 1490	Украине
+T69	DATE 1491 1506	в конце августа
+T70	PROFESSION 1507 1517	президенту
+T71	COUNTRY 1518 1524	России
+T72	PROFESSION 1533 1538	глава
+T73	ORGANIZATION 1539 1548	ведомства
+T74	PERSON 1549 1563	Виктор Золотов
+T75	NEWS_SOURCE 1565 1578	По его словам
+T76	GROUP 1580 1592	росгвардейцы
+T81	PROFESSION 1864 1875	командующий
+T87	GROUP 59 70	диверсантов
+R1	ORIGINS_FROM Arg1:T87 Arg2:T2	
+R2	HEADQUARTERED_IN Arg1:T0 Arg2:T1	
+T88	ORGANIZATION 72 79	Спецназ
+R3	OWNERSHIP Arg1:T4 Arg2:T88	
+T6	GROUP 170 204	диверсионно-разведывательных групп
+R4	ORIGINS_FROM Arg1:T6 Arg2:T8	
+R5	USES Arg1:T6 Arg2:T7	
+T9	ORGANIZATION 242 251	ведомства
+T11	ORGANIZATION 229 241	пресс-служба
+R6	OWNERSHIP Arg1:T9 Arg2:T11	
+T12	NEWS_SOURCE 220 275	сообщает пресс-служба ведомства в своем Telegram-канале
+T13	NEWS_SOURCE 393 427	Ведомство опубликовало видеозапись
+T14	ORGANIZATION 446 454	спецназа
+T15	PROFESSION 440 445	бойцы
+R7	WORKPLACE Arg1:T15 Arg2:T14	
+T19	VEHICLE 467 492	бронированных автомобилях
+R8	USES Arg1:T14 Arg2:T19	
+R9	USES Arg1:T14 Arg2:T22	
+T20	PRODUCT 605 616	вооружением
+T21	GROUP 682 697	местных жителей
+T23	NEWS_SOURCE 655 697	информации, поступившей от местных жителей
+T24	ORGANIZATION 716 726	Росгвардии
+T25	NEWS_SOURCE 703 726	утверждают в Росгвардии
+T26	ORGANIZATION 769 772	ВСУ
+T27	PROFESSION 747 768	бывший военнослужащий
+R10	WORKPLACE Arg1:T27 Arg2:T26	
+R11	WORKPLACE Arg1:T33 Arg2:T35	
+T28	ORGANIZATION 1076 1085	ведомства
+T31	ORGANIZATION 1099 1109	Росгвардии
+T32	PROFESSION 1087 1098	спецназовцы
+R12	WORKPLACE Arg1:T32 Arg2:T31	
+T37	ORGANIZATION 1063 1075	пресс-службу
+R13	OWNERSHIP Arg1:T28 Arg2:T37	
+T38	NEWS_SOURCE 1035 1085	передает ТАСС со ссылкой на пресс-службу ведомства
+T39	PRODUCT 1117 1144	ручной штурмовой гранатомет
+T40	PRODUCT 1150 1161	боеприпасов
+T41	PRODUCT 1184 1208	крупнокалиберному оружию
+T42	PRODUCT 1220 1228	патронов
+T44	QUANTITY 1229 1236	7,62 мм
+T45	CARDINAL 1238 1250	восемнадцать
+T46	PRODUCT 1293 1313	снайперской винтовки
+T48	PRODUCT 1315 1332	охотничьи патроны
+T49	PRODUCT 1334 1360	ручные гранаты Ф-1 и РГД-5
+T50	PRODUCT 1362 1373	запал УЗРГМ
+T51	PRODUCT 1375 1390	сотовый телефон
+T53	PRODUCT 1396 1407	бронежилета
+T54	PRODUCT 1410 1432	комплект военной формы
+T55	ORGANIZATION 1433 1436	ВСУ
+R14	USES Arg1:T55 Arg2:T54	
+R15	WORKPLACE Arg1:T70 Arg2:T71	
+R16	WORKPLACE Arg1:T72 Arg2:T73	
+R17	WORKS_AS Arg1:T74 Arg2:T72	
+T56	FAC 1664 1687	государственные объекты
+T57	NEWS_SOURCE 1854 1875	рассказал командующий

@@ -1,0 +1,76 @@
+T1	NEWS_SOURCE 0 32	Администрация Запорожья сообщила
+T2	EVENT 36 45	обстрелах
+T3	CITY 46 56	Энергодара
+T4	VILLAGE 59 69	Васильевки
+T6	CITY 77 86	Энергодар
+T9	FAC 124 139	Запорожская АЭС
+T11	COUNTRY 176 186	украинских
+T12	ORGANIZATION 187 190	сил
+T22	PERSON 285 299	Владимир Рогов
+T23	FAC 332 335	КПП
+T24	LOCATION 367 376	к востоку
+T25	CITY 380 390	Энергодара
+T26	LOCATION 393 398	к югу
+T27	CITY 402 411	Запорожья
+T29	FAC 433 436	КПП
+T30	CARDINAL 442 450	более 50
+T31	CARDINAL 522 525	два
+T32	NEWS_SOURCE 533 552	сказано в сообщении
+T33	COUNTRY 554 560	Россия
+T34	LOCATION 574 579	южную
+T35	LOCATION 582 599	центральную части
+T36	REGION 600 619	Запорожской области
+T37	CITY 639 648	Энергодар
+T38	DATE 658 668	8 сентября
+T39	ORGANIZATION 670 683	администрация
+T42	FAC 716 722	здание
+T46	GROUP 805 812	властей
+T50	ORGANIZATION 1022 1025	ВГА
+T53	COUNTRY 1190 1197	Россией
+T54	CITY 1201 1211	Энергодаре
+T55	CARDINAL 1331 1360	6319ea619a7947267d6c3eb8
+
+Thu
+T61	ORGANIZATION 0 23	Администрация Запорожья
+R1	TAKES_PLACE_IN Arg1:T2 Arg2:T3	
+R2	TAKES_PLACE_IN Arg1:T2 Arg2:T4	
+T5	REGION 87 106	Запорожской области
+R3	HEADQUARTERED_IN Arg1:T9 Arg2:T6	
+R4	OWNERSHIP Arg1:T11 Arg2:T12	
+T7	PROFESSION 211 231	член главного совета
+T8	ORGANIZATION 232 264	военно-гражданской администрации
+T10	REGION 265 284	Запорожской области
+R5	WORKPLACE Arg1:T22 Arg2:T8	
+R6	WORKS_AS Arg1:T22 Arg2:T7	
+T13	VILLAGE 338 348	Васильевке
+R7	HEADQUARTERED_IN Arg1:T23 Arg2:T13	
+T14	FAC 350 355	Пункт
+T15	PERSON 413 418	Рогов
+T16	NEWS_SOURCE 413 424	Рогов пишет
+T17	GROUP 451 465	мирных жителей
+T18	FAC 467 472	Пункт
+R8	OWNERSHIP Arg1:T33 Arg2:T37	
+T19	CITY 684 694	Энергодара
+T20	NEWS_SOURCE 670 703	администрация Энергодара сообщила
+T21	ORGANIZATION 723 736	администрации
+T28	CITY 737 747	Энергодара
+T40	CRIME 749 780	обстрел произвел дрон-камикадзе
+R9	HEADQUARTERED_IN Arg1:T21 Arg2:T28	
+R10	TAKES_PLACE_IN Arg1:T40 Arg2:T28	
+R11	WORKPLACE Arg1:T46 Arg2:T28	
+T41	NEWS_SOURCE 795 812	по данным властей
+T43	CRIME 814 858	был оснащен самодельным взрывным устройством
+T44	TIME 860 876	Примерно в 13:00
+T45	CRIME 962 993	произошел взрыв и начался пожар
+R12	TAKES_PLACE_IN Arg1:T45 Arg2:T28	
+T47	NEWS_SOURCE 1020 1034	В ВГА полагают
+T48	DATE 1101 1111	5 сентября
+T49	CARDINAL 1112 1115	два
+T51	CRIME 1112 1144	два дрона-камикадзе нанесли удар
+T52	ORGANIZATION 1148 1198	гуманитарному штабу движения «Мы вместе с Россией»
+R13	HEADQUARTERED_IN Arg1:T52 Arg2:T54	
+T56	DATE 1357 1373	Thu, 08 Sep 2022
+T57	TIME 1374 1382	16:43:39
+R14	USES Arg1:T17 Arg2:T29	
+R15	HEADQUARTERED_IN Arg1:T42 Arg2:T28	
+R16	USES Arg1:T21 Arg2:T42	

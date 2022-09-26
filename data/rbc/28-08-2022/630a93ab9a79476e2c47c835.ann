@@ -1,0 +1,59 @@
+T0	PERSON 0 5	Путин
+T2	PROFESSION 44 65	праздником
+
+Президент
+T3	COUNTRY 66 72	России
+T4	PERSON 73 87	Владимир Путин
+T5	GROUP 98 108	работников
+T10	PROFESSION 165 182	главы государства
+T19	GROUP 301 317	предшественников
+T20	GROUP 319 352	знаменитыми горняцкими династиями
+T22	PROFESSION 476 485	президент
+T23	PERSON 488 493	Путин
+T24	NEWS_SOURCE 488 501	Путин добавил
+T27	NEWS_SOURCE 683 708	считает глава государства
+T28	PROFESSION 691 708	глава государства
+T29	GROUP 710 719	работники
+T31	PERSON 804 809	Путин
+T36	DATE 891 899	ежегодно
+T37	COUNTRY 911 917	России
+T38	DATE 918 949	в последнее воскресенье августа
+T39	DATE 951 965	В прошлом году
+T40	EVENT 966 974	праздник
+T43	COUNTRY 1027 1031	СССР
+T44	DATE 1034 1043	1947 году
+T45	PERSON 1052 1069	Алексея Стаханова
+T46	TIME 1079 1088	в ночь на
+T47	DATE 1089 1109	31 августа 1935 года
+T48	COMMODITY 1137 1141	угля
+T1	PROFESSION 16 24	шахтеров
+T57	EVENT 27 54	профессиональным праздником
+T58	PROFESSION 56 65	Президент
+R1	WORKPLACE Arg1:T58 Arg2:T3	
+R2	WORKS_AS Arg1:T4 Arg2:T58	
+T6	GROUP 111 120	ветеранов
+T7	ECONOMIC_SECTOR 121 137	угольной отрасли
+T8	EVENT 140 152	Днем шахтера
+R3	EVENT_TAKES_PART_IN Arg1:T5 Arg2:T8	
+R4	EVENT_TAKES_PART_IN Arg1:T6 Arg2:T8	
+T12	EVENT 193 202	праздника
+T9	GPE 229 235	Кремля
+T11	ORGANIZATION 216 228	пресс-служба
+R5	OWNERSHIP Arg1:T9 Arg2:T11	
+T13	NEWS_SOURCE 154 235	телеграмму главы государства по случаю праздника опубликовала пресс-служба Кремля
+T14	NEWS_SOURCE 468 485	написал президент
+T15	ECONOMIC_SECTOR 540 569	угледобывающей промышленности
+T16	GROUP 529 569	работников угледобывающей промышленности
+T17	ECONOMIC_SECTOR 829 851	угледобывающей отрасли
+T18	GROUP 818 851	трудящимся угледобывающей отрасли
+T21	EVENT 878 890	День шахтера
+R6	DATE_TAKES_PLACE_ON Arg1:T21 Arg2:T38	
+R7	TAKES_PLACE_IN Arg1:T21 Arg2:T37	
+T25	DATE 984 1005	29 числа этого месяца
+R8	DATE_TAKES_PLACE_ON Arg1:T40 Arg2:T25	
+T26	EVENT 1007 1015	Праздник
+R9	TAKES_PLACE_IN Arg1:T26 Arg2:T43	
+R10	ORIGINS_FROM Arg1:T45 Arg2:T43	
+T30	ECONOMIC_SECTOR 1130 1141	добыче угля
+T32	EVENT 1165 1187	стахановского движения
+R11	TAKES_PLACE_IN Arg1:T32 Arg2:T43	

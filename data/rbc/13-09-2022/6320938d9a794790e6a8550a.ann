@@ -1,0 +1,48 @@
+T0	LOCATION 0 6	На юге
+T1	CITY 7 13	Москвы
+T3	FAC 32 49	многоэтажном доме
+T4	CITY 53 59	Москве
+T7	ORGANIZATION 118 130	пресс-служба
+T8	NEWS_SOURCE 109 156	сообщила пресс-служба столичного управления МЧС
+T21	CARDINAL 281 286	одной
+T23	CARDINAL 301 302	7
+T25	NEWS_SOURCE 347 381	говорится в сообщении пресс-службы
+T32	DATE 504 515	12 сентября
+T34	CITY 532 544	Волоколамске
+T38	ORGANIZATION 649 655	ГУ МЧС
+R1	OWNERSHIP Arg1:T1 Arg2:T0	
+T2	EVENT 14 29	произошел пожар
+R2	TAKES_PLACE_IN Arg1:T2 Arg2:T1	
+R3	TAKES_PLACE_IN Arg1:T2 Arg2:T3	
+R4	HEADQUARTERED_IN Arg1:T3 Arg2:T1	
+T5	EVENT 60 75	произошел пожар
+R5	TAKES_PLACE_IN Arg1:T5 Arg2:T4	
+T6	STREET 85 99	Красного Маяка
+R6	TAKES_PLACE_IN Arg1:T5 Arg2:T6	
+T9	ORGANIZATION 153 156	МЧС
+T45	ORGANIZATION 142 152	управления
+R7	OWNERSHIP Arg1:T9 Arg2:T7	
+T46	NEWS_SOURCE 109 156	сообщила пресс-служба столичного управления МЧС
+T10	TIME 159 166	В 16:19
+T11	NEWS_SOURCE 167 195	поступило сообщение о пожаре
+T13	HOUSE 229 233	д. 2
+T12	STREET 207 227	улица Красного Маяка
+T14	FAC 290 297	квартир
+T15	EVENT 257 278	происходило загорание
+R8	TAKES_PLACE_IN Arg1:T15 Arg2:T14	
+T16	QUANTITY 328 342	около 30 кв. м
+T17	ORGANIZATION 369 381	пресс-службы
+T18	TIME 383 390	В 16:58
+T19	TIME 414 421	в 17:01
+T20	EVENT 391 412	пожар был локализован
+T22	CARDINAL 438 442	Один
+T24	PROFESSION 468 475	медикам
+T26	REGION 519 531	подмосковном
+R9	OWNERSHIP Arg1:T26 Arg2:T34	
+T27	FAC 555 560	склад
+T28	PRODUCT 563 582	пластиковой крошкой
+R10	HEADQUARTERED_IN Arg1:T27 Arg2:T34	
+T29	QUANTITY 613 624	2500 кв. м.
+T30	NEWS_SOURCE 625 655	По данным регионального ГУ МЧС
+T31	FAC 664 683	складское помещение
+R11	HEADQUARTERED_IN Arg1:T31 Arg2:T34	

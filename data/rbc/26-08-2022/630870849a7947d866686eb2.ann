@@ -1,0 +1,46 @@
+T0	FAC 2 8	машине
+T1	COUNTRY 9 19	россиянина
+T3	COUNTRY 32 42	Белоруссию
+T5	CITY 108 114	Бресте
+T6	COUNTRY 118 125	польско
+T7	COUNTRY 126 137	белорусской
+T9	PROFESSION 146 158	пограничники
+T13	COUNTRY 243 253	Белоруссии
+T14	CARDINAL 275 276	5
+T15	CARDINAL 280 281	9
+T17	FAC 318 328	автомобиля
+T18	PRODUCT 335 338	Kia
+T21	NEWS_SOURCE 404 423	сказано в сообщении
+T23	ORGANIZATION 439 448	ведомстве
+T24	COUNTRY 483 493	российские
+T26	COUNTRY 541 547	России
+T27	FAC 551 561	Автомобиль
+T29	ORGANIZATION 665 668	МЧС
+T30	PROFESSION 671 679	саперная
+T32	COUNTRY 704 715	белорусском
+T33	ORGANIZATION 716 730	погранкомитете
+T34	DATE 733 750	В мае 2019 года в
+T35	COUNTRY 751 759	польском
+T37	EVENT 819 839	Второй мировой войны
+T38	CARDINAL 852 857	обоих
+T40	DATE 892 909	В прошлом октябре
+T41	COUNTRY 910 918	польские
+T42	PROFESSION 919 931	пограничники
+R1	OWNERSHIP Arg1:T1 Arg2:T0	
+T2	FAC 75 105	В автодорожном пункте пропуска
+T4	ORGANIZATION 229 242	погранкомитет
+R2	OWNERSHIP Arg1:T13 Arg2:T4	
+T8	NEWS_SOURCE 210 253	сообщил в Telegram погранкомитет Белоруссии
+R3	HEADQUARTERED_IN Arg1:T2 Arg2:T5	
+T10	COUNTRY 427 438	белорусском
+R4	HEADQUARTERED_IN Arg1:T23 Arg2:T10	
+T11	NEWS_SOURCE 425 462	В белорусском ведомстве также указали
+T12	FAC 471 477	машине
+T16	FAC 600 620	транспортных средств
+T19	GROUP 654 668	сотрудники МЧС
+T20	GROUP 671 686	саперная группа
+R5	HEADQUARTERED_IN Arg1:T33 Arg2:T32	
+T22	NEWS_SOURCE 691 730	рассказали в белорусском погранкомитете
+T25	FAC 760 785	пункте пропуска «Кузница»
+R6	HEADQUARTERED_IN Arg1:T25 Arg2:T35	
+R7	WORKPLACE Arg1:T42 Arg2:T41	

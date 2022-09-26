@@ -1,0 +1,42 @@
+T0	PERSON 0 5	Путин
+T1	FAC 16 23	полигон
+T2	EVENT 24 25	в
+T3	REGION 26 34	Приморье
+T4	EVENT 52 61	совещание
+T5	NEWS_SOURCE 64 69	Шойгу
+T6	PROFESSION 71 80	Президент
+T7	COUNTRY 81 87	России
+T8	NEWS_SOURCE 88 96	Владимир
+T9	PERSON 88 102	Владимир Путин
+T10	FAC 113 120	полигон
+T11	CITY 121 132	Сергеевский
+T12	REGION 135 150	Приморском крае
+T13	FAC 165 180	финальная часть
+T14	REGION 189 195	Восток
+T15	DATE 196 200	2022
+T16	NEWS_SOURCE 200 201	»
+T17	PROFESSION 211 216	пресс
+T18	PROFESSION 217 244	секретарь главы государства
+T19	NEWS_SOURCE 203 259	сообщил пресс-секретарь главы государства Дмитрий Песков
+T20	PERSON 245 259	Дмитрий Песков
+T21	ORGANIZATION 271 280	Интерфакс
+T22	NEWS_SOURCE 261 281	передает «Интерфакс»
+T23	PROFESSION 308 323	министр обороны
+T24	PERSON 324 336	Сергей Шойгу
+T25	PROFESSION 337 353	и глава Генштаба
+T26	ORGANIZATION 345 369	Генштаба Вооруженных сил
+T27	PERSON 370 387	Валерий Герасимов
+T28	DATE 390 396	Сейчас
+T29	EVENT 411 420	совещание
+T30	EVENT 445 465	завершения совещания
+T31	NEWS_SOURCE 466 475	президент
+T32	PROFESSION 466 475	президент
+T33	PROFESSION 487 504	главнокомандующий
+T34	EVENT 543 549	учений
+T35	NEWS_SOURCE 554 570	рассказал Песков
+T36	PERSON 564 570	Песков
+T37	DATE 628 632	2022
+T38	CARDINAL 633 657	6316d9f09a79478bf0f1ddab
+T39	CARDINAL 667 670	Sep
+T40	DATE 671 675	2022
+T41	CARDINAL 679 681	35

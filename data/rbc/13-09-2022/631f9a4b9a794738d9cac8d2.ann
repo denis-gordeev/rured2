@@ -1,0 +1,20 @@
+T0	GROUP 34 41	бумеров
+T1	CARDINAL 56 59	149
+T6	ORGANIZATION 147 150	РАН
+T7	PROFESSION 202 210	редактор
+T8	PERSON 211 224	Полина Шубина
+T28	DATE 728 732	2022
+T29	DATE 736 754	В ноябре 2021 года
+T30	CITY 767 779	Оксфордского
+T31	DATE 803 807	года
+T33	ORGANIZATION 895 911	Oxford Languages
+T35	DATE 940 954	в прошлом году
+T37	DATE 988 997	в прошлом
+T46	LANGUAGE 10 18	русского
+T47	PROFESSION 43 49	решалу
+T2	ORGANIZATION 98 146	Института русского языка имени В. В. Виноградова
+T3	CARDINAL 160 163	151
+R1	WORKS_AS Arg1:T8 Arg2:T7	
+T4	NEWS_SOURCE 642 701	на сайте орфографического академического ресурса «Академос»
+T5	NEWS_SOURCE 886 924	На сайте Oxford Languages было указано
+T9	CARDINAL 970 972	72

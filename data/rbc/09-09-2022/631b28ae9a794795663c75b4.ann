@@ -1,0 +1,70 @@
+T0	CITY 2 8	Москве
+T1	PERSON 26 33	Кобзону
+T4	CITY 58 64	Москве
+T7	COUNTRY 100 104	СССР
+T8	PERSON 105 119	Иосифу Кобзону
+T9	NEWS_SOURCE 121 147	передает корреспондент РБК
+T10	ORGANIZATION 144 147	РБК
+T11	STREET 171 180	Оружейном
+T12	BOROUGH 193 207	Садовом кольце
+T18	PROFESSION 266 271	певца
+T20	DATE 296 307	11 сентября
+T22	DATE 327 347	30 августа 2018 года
+T23	AGE 359 365	80 лет
+T24	CITY 405 411	Москвы
+T26	AWARD 413 430	народным артистом
+T27	COUNTRY 431 435	СССР
+T28	PROFESSION 438 447	депутатом
+T29	ORGANIZATION 448 455	Госдумы
+T30	PROFESSION 538 551	президентским
+T32	PROFESSION 572 593	председатель комиссии
+T33	ORGANIZATION 594 604	Мосгордумы
+T35	PERSON 643 662	Игорь Воскресенский
+T36	FAC 678 687	памятника
+T37	CARDINAL 702 704	11
+T44	ORGANIZATION 823 833	Мосгордумы
+T46	PERSON 871 888	Евгений Герасимов
+T47	ORGANIZATION 900 903	РБК
+T48	NEWS_SOURCE 871 911	Евгений Герасимов в беседе с РБК говорил
+T50	PROFESSION 947 952	певцу
+T52	DATE 997 1014	В марте 2021 года
+T55	ORGANIZATION 1039 1049	Мосгордуме
+T57	ORGANIZATION 1143 1153	Мосгордуме
+T58	PERSON 1171 1178	Кобзону
+T61	CITY 1210 1216	Москвы
+T2	STREET 37 46	Оружейном
+T3	PROFESSION 92 99	артисту
+T5	AWARD 82 91	народному
+R1	WORKS_AS Arg1:T8 Arg2:T3	
+R2	PLACE_OF_DEATH Arg1:T8 Arg2:T4	
+T6	FAC 17 25	памятник
+R3	HEADQUARTERED_IN Arg1:T6 Arg2:T0	
+T69	FAC 73 81	памятник
+R4	HEADQUARTERED_IN Arg1:T69 Arg2:T4	
+R5	HEADQUARTERED_IN Arg1:T69 Arg2:T2	
+T70	FAC 149 157	Памятник
+R6	HEADQUARTERED_IN Arg1:T70 Arg2:T11	
+T13	EVENT 209 227	Открытие монумента
+T14	DATE 239 265	к 85-летию со дня рождения
+T15	FAC 218 227	монумента
+R7	DATE_TAKES_PLACE_ON Arg1:T13 Arg2:T14	
+T16	PERSON 309 321	Иосиф Кобзон
+R8	DATE_OF_DEATH Arg1:T16 Arg2:T22	
+T17	AWARD 384 404	почетным гражданином
+R9	WORKPLACE Arg1:T28 Arg2:T29	
+T19	FAC 457 465	Памятник
+T21	LAW 538 558	президентским указом
+R10	WORKPLACE Arg1:T32 Arg2:T33	
+R11	WORKS_AS Arg1:T35 Arg2:T32	
+T25	PROFESSION 711 732	Муниципальный депутат
+T31	BOROUGH 733 742	Тверского
+T34	PERSON 750 766	Кетеван Хараидзе
+R12	WORKS_AS Arg1:T34 Arg2:T25	
+T38	NEWS_SOURCE 711 775	Муниципальный депутат Тверского района Кетеван Хараидзе уточняла
+T39	PROFESSION 808 870	Глава комиссии Мосгордумы по культуре и массовым коммуникациям
+T40	FAC 937 946	памятника
+T41	ORGANIZATION 1015 1034	профильная комиссия
+R13	OWNERSHIP Arg1:T55 Arg2:T41	
+T42	FAC 1079 1088	памятника
+T43	FAC 1187 1209	Востряковском кладбище
+R14	HEADQUARTERED_IN Arg1:T43 Arg2:T61	

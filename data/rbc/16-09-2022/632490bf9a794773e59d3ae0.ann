@@ -1,0 +1,38 @@
+T2	PROFESSION 45 116	главного редактора
+
+Временно исполняющим обязанности главного редактора
+T7	PERSON 171 183	Олеся Носова
+T8	NEWS_SOURCE 185 221	сообщается в телеграм-канале издания
+T9	ORDINAL 241 247	первым
+T10	PROFESSION 248 279	заместителем главного редактора
+T15	DATE 338 349	с 1994 года
+T19	PROFESSION 413 429	Главный редактор
+T21	PERSON 453 471	Владимир Сунгоркин
+T22	DATE 477 488	14 сентября
+T23	AGE 500 506	68 лет
+T24	PROFESSION 559 568	журналист
+T26	PROFESSION 623 636	первопроходце
+T27	REGION 637 653	Дальнего Востока
+T36	ORGANIZATION 0 22	«Комсомольская правда»
+T1	PROFESSION 33 63	врио нового главного редактора
+R1	WORKPLACE Arg1:T1 Arg2:T36	
+T3	PROFESSION 65 141	Временно исполняющим обязанности главного редактора и генерального директора
+T4	ORGANIZATION 142 164	«Комсомольской правды»
+R2	WORKPLACE Arg1:T7 Arg2:T4	
+R3	WORKS_AS Arg1:T7 Arg2:T3	
+T5	ORGANIZATION 214 221	издания
+T6	PERSON 229 235	Носова
+T11	PROFESSION 281 313	шеф-редактором и издателем сайта
+R4	WORKS_AS Arg1:T6 Arg2:T10	
+R5	WORKS_AS Arg1:T6 Arg2:T11	
+T12	ORGANIZATION 330 337	издании
+T13	AWARD 361 410	лауреатом премий «Золотое перо» и «Медиаменеджер»
+T14	ORGANIZATION 430 452	«Комсомольской правды»
+R6	WORKPLACE Arg1:T19 Arg2:T14	
+R7	DATE_OF_DEATH Arg1:T21 Arg2:T22	
+R8	AGE_DIED_AT Arg1:T21 Arg2:T23	
+T16	EVENT 569 610	находился в экспедиции по сбору материала
+R9	EVENT_TAKES_PART_IN Arg1:T21 Arg2:T16	
+T17	PERSON 654 673	Владимире Арсеньеве
+R10	WORKS_AS Arg1:T17 Arg2:T26	
+R11	WORKPLACE Arg1:T17 Arg2:T27	

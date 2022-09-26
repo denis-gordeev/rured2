@@ -1,0 +1,49 @@
+T0	ECONOMIC_SECTOR 24 44	подачу электричества
+T5	COUNTRY 171 178	Украины
+T6	PROFESSION 188 198	губернатор
+T8	PERSON 199 215	Вячеслав Гладков
+T14	EVENT 402 413	мероприятия
+T15	NEWS_SOURCE 431 444	По его словам
+T17	PERSON 525 532	Гладков
+T19	FAC 574 579	домов
+T20	VEHICLE 582 593	автомобилей
+T22	PROFESSION 601 611	губернатор
+T23	NEWS_SOURCE 601 619	губернатор сообщил
+T24	CITY 645 652	Валуйки
+T25	QUANTITY 653 665	один человек
+T26	CARDINAL 677 681	двое
+T28	CARDINAL 855 861	восемь
+T31	CARDINAL 878 881	три
+T33	VEHICLE 882 892	автомобиля
+T41	CITY 2 10	Валуйках
+T42	COMMODITY 31 44	электричества
+T43	EVENT 51 59	обстрела
+R1	TAKES_PLACE_IN Arg1:T43 Arg2:T41	
+T1	CITY 70 77	Валуйки
+T44	REGION 78 98	Белгородской области
+T2	EVENT 115 159	восстановили электроснабжение после обстрела
+R2	TAKES_PLACE_IN Arg1:T2 Arg2:T1	
+R3	WORKS_AS Arg1:T8 Arg2:T6	
+T3	NEWS_SOURCE 180 239	сообщил губернатор Вячеслав Гладков в своем телеграм-канале
+R4	WORKPLACE Arg1:T8 Arg2:T44	
+T4	CITY 244 252	Валуйках
+T7	EVENT 263 297	восстановлена подача электричества
+R5	TAKES_PLACE_IN Arg1:T7 Arg2:T4	
+T9	ORGANIZATION 300 321	социальные учреждения
+T10	FAC 324 334	жилые дома
+T11	STREET 348 356	Школьной
+R6	TAKES_PLACE_IN Arg1:T7 Arg2:T9	
+R7	TAKES_PLACE_IN Arg1:T7 Arg2:T10	
+T12	TIME 446 451	утром
+T13	GROUP 452 458	власти
+R8	WORKPLACE Arg1:T13 Arg2:T4	
+T16	NEWS_SOURCE 525 541	Гладков пообещал
+T45	GROUP 542 549	жителям
+T18	EVENT 625 637	при обстреле
+R9	TAKES_PLACE_IN Arg1:T18 Arg2:T24	
+T21	DISEASE 682 698	получили ранения
+T46	FAC 714 725	система ПВО
+R10	HEADQUARTERED_IN Arg1:T46 Arg2:T24	
+T47	FAC 791 801	подстанция
+R11	HEADQUARTERED_IN Arg1:T47 Arg2:T24	
+T27	FAC 862 875	частных домов

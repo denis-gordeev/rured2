@@ -1,0 +1,90 @@
+T4	CITY 52 61	Бердянске
+T6	CITY 65 74	Бердянске
+T9	PERSON 226 240	Владимир Рогов
+T10	CRIME 242 247	Взрыв
+T11	ORGANIZATION 269 282	администрации
+T13	CITY 360 369	Бердянске
+T14	VEHICLE 379 389	автомобиль
+T19	CARDINAL 524 528	один
+T20	PROFESSION 549 558	Комендант
+T21	CITY 559 568	Бердянска
+T22	PERSON 569 581	Артем Бардин
+T24	GROUP 725 731	власти
+T28	CITY 799 808	Бердянска
+T29	VEHICLE 821 831	автомобиль
+T31	PROFESSION 832 842	коменданта
+T32	CITY 891 900	Бердянске
+T33	CRIME 925 947	террористических актов
+T35	PROFESSION 983 993	чиновников
+T36	DATE 1003 1013	30 августа
+T40	COUNTRY 1095 1102	Россией
+T42	CITY 1106 1115	Бердянске
+T43	DATE 1117 1127	26 августа
+T44	CITY 1130 1139	Бердянске
+T45	CARDINAL 1148 1152	один
+T47	CITY 1231 1240	Мариуполя
+T48	PROFESSION 1259 1281	заместитель начальника
+T50	PERSON 1297 1317	Александр Колесников
+T1	ORGANIZATION 0 21	Военная администрация
+T2	CITY 22 31	Запорожья
+R1	HEADQUARTERED_IN Arg1:T1 Arg2:T2	
+T3	NEWS_SOURCE 0 40	Военная администрация Запорожья сообщила
+T5	REGION 92 111	Запорожской области
+T58	CRIME 123 154	в центре города произошел взрыв
+R2	TAKES_PLACE_IN Arg1:T58 Arg2:T6	
+R3	OWNERSHIP Arg1:T5 Arg2:T6	
+T7	ORGANIZATION 185 217	Военно-гражданской администрации
+R4	WORKPLACE Arg1:T9 Arg2:T7	
+T8	PROFESSION 164 184	член главного совета
+R5	WORKS_AS Arg1:T9 Arg2:T8	
+T59	NEWS_SOURCE 156 240	сообщил член главного совета Военно-гражданской администрации области Владимир Рогов
+R6	USES Arg1:T13 Arg2:T14	
+T12	PROFESSION 405 422	коменданту города
+R7	WORKPLACE Arg1:T12 Arg2:T13	
+T15	GROUP 469 475	власти
+R8	WORKPLACE Arg1:T15 Arg2:T13	
+T16	ORGANIZATION 433 446	«РИА Новости»
+T17	NEWS_SOURCE 424 475	сообщает «РИА Новости» со ссылкой на местные власти
+T18	EVENT 499 510	перестрелка
+R9	TAKES_PLACE_IN Arg1:T18 Arg2:T13	
+R10	WORKPLACE Arg1:T20 Arg2:T21	
+R11	WORKS_AS Arg1:T22 Arg2:T20	
+T60	FAC 646 654	больницу
+R12	HEADQUARTERED_IN Arg1:T60 Arg2:T21	
+T61	PROFESSION 656 661	Врачи
+R13	WORKPLACE Arg1:T24 Arg2:T21	
+T23	NEWS_SOURCE 708 738	сообщили позднее власти города
+T25	ORGANIZATION 785 798	администрации
+T26	ORGANIZATION 771 784	пресс-службой
+R14	OWNERSHIP Arg1:T25 Arg2:T26	
+R15	OWNERSHIP Arg1:T28 Arg2:T25	
+T27	NEWS_SOURCE 740 808	На фотографиях, опубликованных пресс-службой администрации Бердянска
+R16	TAKES_PLACE_IN Arg1:T33 Arg2:T32	
+R17	WORKPLACE Arg1:T35 Arg2:T32	
+T30	TIME 995 1002	Вечером
+T34	CRIME 1014 1019	взрыв
+T37	ORGANIZATION 1059 1103	общественного движения «Мы вместе с Россией»
+T38	ORGANIZATION 1039 1058	волонтерского штаба
+R18	OWNERSHIP Arg1:T37 Arg2:T38	
+T39	FAC 1032 1038	здания
+R19	TAKES_PLACE_IN Arg1:T34 Arg2:T42	
+R20	DATE_TAKES_PLACE_ON Arg1:T34 Arg2:T36	
+T41	CRIME 1153 1158	взрыв
+T62	GROUP 1220 1227	беженцы
+R21	ORIGINS_FROM Arg1:T62 Arg2:T47	
+T46	ORGANIZATION 1163 1209	оздоровительного центра «Криворожский горняк»,
+R22	TAKES_PLACE_IN Arg1:T41 Arg2:T44	
+R23	DATE_TAKES_PLACE_ON Arg1:T41 Arg2:T43	
+R24	HEADQUARTERED_IN Arg1:T46 Arg2:T44	
+T63	CRIME 41 49	о взрыве
+R25	TAKES_PLACE_IN Arg1:T63 Arg2:T4	
+R26	TAKES_PLACE_IN Arg1:T10 Arg2:T11	
+T64	CRIME 370 389	взорвали автомобиль
+R27	TAKES_PLACE_IN Arg1:T64 Arg2:T13	
+T65	CRIME 588 594	взрыва
+R28	TAKES_PLACE_IN Arg1:T65 Arg2:T21	
+T66	CRIME 821 886	автомобиль коменданта почти полностью уничтожен и целиком выгорел
+R29	TAKES_PLACE_IN Arg1:T66 Arg2:T28	
+T49	ORGANIZATION 1293 1296	ГАИ
+R30	WORKPLACE Arg1:T48 Arg2:T49	
+R31	WORKPLACE Arg1:T50 Arg2:T49	

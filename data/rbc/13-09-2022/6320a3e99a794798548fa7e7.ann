@@ -1,0 +1,61 @@
+T1	ORGANIZATION 34 37	ФАС
+T5	ORGANIZATION 99 115	Арбитражном суде
+T6	CITY 116 122	Москвы
+T8	CURRENCY 156 159	руб
+T10	ORGANIZATION 222 225	ФАС
+T13	ORGANIZATION 276 280	суда
+T14	DATE 372 378	8 июля
+T15	ORGANIZATION 379 382	ФАС
+T19	NEWS_SOURCE 479 498	По мнению ведомства
+T22	COMMODITY 548 562	электроэнергии
+T26	DATE 655 666	в 2021 году
+T27	DATE 668 697	С февраля по апрель 2019 года
+T28	NEWS_SOURCE 699 712	по данным ФАС
+T29	ORGANIZATION 709 712	ФАС
+T31	ECONOMIC_SECTOR 771 798	производство электроэнергии
+T32	COMMODITY 784 798	электроэнергии
+T33	PERCENT 809 818	на 70–90%
+T34	COMMODITY 897 911	электроэнергию
+T37	ORDINAL 947 953	первой
+T39	COUNTRY 986 992	России
+T40	REGION 995 999	Урал
+T41	COMMODITY 1092 1105	электричества
+T42	GROUP 1174 1186	потребителей
+T47	DATE 1204 1211	в месяц
+T48	ORGANIZATION 1220 1232	ПАО «Т Плюс»
+T53	COMMODITY 1354 1368	электроэнергии
+T54	ORGANIZATION 1371 1379	Компания
+T55	ORGANIZATION 1393 1396	суд
+T64	ORGANIZATION 0 3	Суд
+T2	ORGANIZATION 41 49	«Т Плюс»
+T3	CURRENCY 65 66	₽
+T65	MONEY 65 73	₽900 млн
+T4	ORGANIZATION 75 87	ПАО «Т Плюс»
+R1	HEADQUARTERED_IN Arg1:T5 Arg2:T6	
+T7	MONEY 148 160	900 млн руб.
+T9	ORGANIZATION 176 184	компанию
+T66	ORGANIZATION 185 220	Федеральной антимонопольной службой
+R2	ABBREVIATION Arg1:T66 Arg2:T10	
+T11	NEWS_SOURCE 256 280	следует из карточки суда
+T12	NEWS_SOURCE 351 370	следует из карточки
+T67	ORGANIZATION 395 403	компанию
+T18	CURRENCY 417 421	руб.
+T16	MONEY 407 421	846,5 млн руб.
+T17	CRIME 434 477	нарушившей антимонопольное законодательство
+R3	TAKES_PLACE_IN Arg1:T17 Arg2:T67	
+T68	ORGANIZATION 489 498	ведомства
+T20	ORGANIZATION 500 508	«Т Плюс»
+T21	LAW 586 612	закон о защите конкуренции
+T23	CRIME 509 562	манипулировала ценами на оптовом рынке электроэнергии
+R4	EVENT_TAKES_PART_IN Arg1:T20 Arg2:T23	
+T24	GROUP 624 646	антимонопольные власти
+T25	ORGANIZATION 729 737	«Т Плюс»
+T30	ORGANIZATION 863 871	Компания
+T35	FAC 919 946	свободного перетока «Вятка»
+T36	LOCATION 968 985	европейская часть
+R5	OWNERSHIP Arg1:T39 Arg2:T36	
+T38	CURRENCY 1199 1203	руб.
+T43	MONEY 1190 1203	66,8 млн руб.
+T44	LAW 1249 1293	административное дело по ч. 2 ст. 14.31 КоАП
+T45	CRIME 1295 1368	манипулирование ценами на оптовом и (или) розничном рынках электроэнергии
+R6	ORGANIZES Arg1:T48 Arg2:T45	

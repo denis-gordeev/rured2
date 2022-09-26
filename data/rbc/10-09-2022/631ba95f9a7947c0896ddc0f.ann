@@ -1,0 +1,76 @@
+T0	ORGANIZATION 1 13	РИА Новости»
+T1	NEWS_SOURCE 0 22	«РИА Новости» сообщило
+T3	REGION 52 71	Харьковскую область
+T4	COUNTRY 73 83	Российские
+T5	PROFESSION 84 91	военные
+T6	REGION 109 120	Харьковское
+T12	NEWS_SOURCE 180 215	передает госагентство «РИА Новости»
+T16	PRODUCT 264 271	техники
+T17	FAC 274 301	фортификационных сооружений
+T19	PRODUCT 312 347	термобарических боеприпасов калибра
+T20	QUANTITY 348 363	220 миллиметров
+T22	ORGANIZATION 463 483	Министерство обороны
+T25	PRODUCT 549 556	техники
+T31	VEHICLE 620 646	армейских грузовиков КамАЗ
+T36	COUNTRY 714 724	Российское
+T37	ORGANIZATION 725 735	Минобороны
+T38	DATE 736 751	с конца августа
+T40	COUNTRY 789 799	украинских
+T41	PROFESSION 800 807	военных
+T42	REGION 810 829	Харьковской области
+T43	DATE 831 841	8 сентября
+T44	PROFESSION 842 847	глава
+T45	COUNTRY 878 884	России
+T50	PERSON 932 946	Виталий Ганчев
+T51	NEWS_SOURCE 932 954	Виталий Ганчев сообщил
+T53	COUNTRY 965 975	украинских
+T55	CITY 993 1001	Балаклею
+T56	DATE 1011 1024	в тот же день
+T57	ORGANIZATION 1025 1028	ВГА
+T59	DATE 1087 1097	9 сентября
+T61	PERSON 1098 1104	Ганчев
+T63	COUNTRY 1178 1185	Украины
+T2	PRODUCT 36 49	«Солнцепеков»
+R1	WORKPLACE Arg1:T5 Arg2:T4	
+T7	PRODUCT 133 178	тяжелые огнеметные системы ТОС-1А «Солнцепек»
+T8	ORGANIZATION 202 215	«РИА Новости»
+R2	USES Arg1:T4 Arg2:T7	
+T9	PRODUCT 217 223	ТОС-1А
+R3	PRODUCES Arg1:T4 Arg2:T9	
+R4	PRODUCES Arg1:T4 Arg2:T19	
+T10	PRODUCT 365 388	Термобарические снаряды
+R5	USES Arg1:T4 Arg2:T10	
+T11	REGION 517 528	Харьковское
+T13	LOCATION 517 540	Харьковское направление
+T14	LOCATION 109 132	Харьковское направление
+T15	GROUP 541 546	войск
+T18	PRODUCT 570 602	реактивных систем залпового огня
+T21	PRODUCT 604 608	РСЗО
+R6	ALTERNATIVE_NAME Arg1:T18 Arg2:T21	
+T23	PRODUCT 648 689	тягачей с артиллерийскими орудиями «Мста»
+T24	PRODUCT 691 711	боевых машины пехоты
+T26	NEWS_SOURCE 463 502	Министерство обороны опубликовало кадры
+R7	USES Arg1:T22 Arg2:T15	
+R8	USES Arg1:T22 Arg2:T25	
+R9	USES Arg1:T22 Arg2:T18	
+R10	USES Arg1:T22 Arg2:T31	
+R11	USES Arg1:T22 Arg2:T23	
+R12	USES Arg1:T22 Arg2:T24	
+R13	OWNERSHIP Arg1:T36 Arg2:T37	
+T27	NEWS_SOURCE 714 760	Российское Минобороны с конца августа сообщает
+T28	EVENT 763 788	попытках контрнаступления
+R14	WORKPLACE Arg1:T41 Arg2:T40	
+R15	TAKES_PLACE_IN Arg1:T28 Arg2:T42	
+T29	ORGANIZATION 899 931	военно-гражданской администрации
+R16	WORKPLACE Arg1:T50 Arg2:T29	
+T30	PROFESSION 976 983	военных
+R17	WORKPLACE Arg1:T30 Arg2:T53	
+R18	OWNERSHIP Arg1:T45 Arg2:T55	
+R19	ABBREVIATION Arg1:T29 Arg2:T57	
+T32	EVENT 1060 1084	продолжении тяжелых боев
+R20	TAKES_PLACE_IN Arg1:T32 Arg2:T55	
+T33	NEWS_SOURCE 1098 1114	Ганчев рассказал
+T34	FAC 1130 1148	населенных пунктов
+R21	OWNERSHIP Arg1:T63 Arg2:T34	
+T35	FAC 1200 1218	населенных пунктов
+T39	GROUP 1247 1254	жителей

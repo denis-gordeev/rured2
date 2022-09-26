@@ -1,0 +1,75 @@
+T2	ORGANIZATION 51 96	ООН по правам человека
+
+Генеральная ассамблея
+T3	ORGANIZATION 98 100	ГА
+T4	ORGANIZATION 102 105	ООН
+T12	PROFESSION 313 334	генеральный секретарь
+T13	PERSON 335 351	Антониу Гутерриш
+T15	PERSON 375 380	Тюрка
+T16	PROFESSION 416 436	верховного комиссара
+T19	COUNTRY 460 464	Чили
+T20	PERSON 465 479	Мишель Бачелет
+T21	DATE 506 516	31 августа
+T22	DATE 543 563	1 сентября 2018 года
+T23	PERSON 588 593	Тюрка
+T24	PROFESSION 606 615	комиссара
+T26	PROFESSION 642 674	заместитель верховного комиссара
+T27	PERSON 676 680	Тюрк
+T28	COUNTRY 690 697	Австрии
+T29	ORGANIZATION 701 704	ООН
+T30	DATE 714 726	более 20 лет
+T31	DATE 728 750	С 2000-го по 2019 годы
+T36	GROUP 930 938	беженцах
+T37	ORGANIZATION 940 952	Генассамблея
+T39	GROUP 1037 1045	беженцев
+T40	GROUP 1078 1086	беженцев
+T42	PERSON 1170 1174	Тюрк
+T49	PROFESSION 1305 1312	генсеку
+T50	ORGANIZATION 1313 1316	ООН
+T55	PROFESSION 1440 1447	генсека
+T57	ORGANIZATION 1469 1472	ООН
+T62	PROFESSION 1561 1568	генсека
+T66	DATE 1632 1643	четыре года
+T75	ORGANIZATION 0 12	Генассамблея
+T1	ORGANIZATION 51 54	ООН
+T76	PROFESSION 30 73	верховного комиссара ООН по правам человека
+T77	ORGANIZATION 75 96	Генеральная ассамблея
+R1	ABBREVIATION Arg1:T77 Arg2:T3	
+R2	OWNERSHIP Arg1:T4 Arg2:T77	
+T5	PROFESSION 128 174	заместителя генерального секретаря по политике
+T6	PERSON 175 189	Фолькера Тюрка
+T8	ORGANIZATION 219 222	ООН
+T7	PROFESSION 198 241	верховного комиссара ООН по правам человека
+R3	WORKS_AS Arg1:T6 Arg2:T7	
+R4	WORKPLACE Arg1:T6 Arg2:T4	
+T9	ORGANIZATION 275 277	ГА
+R5	ABBREVIATION Arg1:T77 Arg2:T9	
+T10	NEWS_SOURCE 243 277	следует из трансляции заседания ГА
+R6	WORKS_AS Arg1:T13 Arg2:T12	
+T11	PROFESSION 446 459	экс-президент
+R7	WORKS_AS Arg1:T20 Arg2:T11	
+R8	WORKS_AS Arg1:T20 Arg2:T16	
+T14	PERSON 626 640	Нада Аль-Нашиф
+R9	WORKS_AS Arg1:T14 Arg2:T24	
+R10	WORKS_AS Arg1:T14 Arg2:T26	
+R11	SUBORDINATE_OF Arg1:T26 Arg2:T24	
+R12	ORIGINS_FROM Arg1:T27 Arg2:T28	
+R13	WORKPLACE Arg1:T27 Arg2:T29	
+T17	ORGANIZATION 784 833	Управлении верховного комиссара по делам беженцев
+R14	WORKPLACE Arg1:T27 Arg2:T17	
+T18	PROFESSION 851 882	помощником верховного комиссара
+R15	WORKS_AS Arg1:T27 Arg2:T18	
+T25	DATE 967 973	2018-м
+T32	LAW 907 938	Глобального договора о беженцах
+T33	DATE 1161 1169	В 2019-м
+T34	PROFESSION 1196 1252	помощника генсека по вопросам стратегической координации
+R16	WORKS_AS Arg1:T42 Arg2:T34	
+T35	PROFESSION 1255 1292	Верховный комиссар по правам человека
+R17	SUBORDINATE_OF Arg1:T35 Arg2:T49	
+R18	WORKPLACE Arg1:T49 Arg2:T50	
+T38	ORGANIZATION 1344 1394	Управления верховного комиссара по правам человека
+R19	WORKPLACE Arg1:T35 Arg2:T38	
+T41	PROFESSION 1415 1424	комиссара
+R20	WORKPLACE Arg1:T55 Arg2:T57	
+T43	PROFESSION 1620 1629	комиссара
+T44	DATE 1667 1680	еще один срок

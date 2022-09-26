@@ -1,0 +1,49 @@
+T0	GROUP 0 9	Чеченские
+T1	PRODUCT 49 60	минировании
+T2	CARDINAL 62 70	Более 50
+T3	ORGANIZATION 71 93	медицинских учреждений
+T4	NEWS_SOURCE 83 93	учреждений
+T5	REGION 94 99	Чечни
+T6	ORGANIZATION 125 136	минировании
+T7	PRODUCT 125 136	минировании
+T8	ORGANIZATION 152 180	-служба Минздрава республики
+T9	NEWS_SOURCE 138 191	сообщила пресс-служба Минздрава республики в Telegram
+T10	PRODUCT 214 225	минировании
+T11	CARDINAL 235 243	свыше 50
+T12	ORGANIZATION 244 267	медицинских организаций
+T13	REGION 268 288	Чеченской Республики
+T14	ORGANIZATION 307 335	министерству здравоохранения
+T15	NEWS_SOURCE 340 359	сказано в сообщении
+T16	DATE 361 374	В то же время
+T17	NEWS_SOURCE 375 378	СМИ
+T18	GROUP 375 378	СМИ
+T19	NEWS_SOURCE 381 389	телеграм
+T20	NEWS_SOURCE 390 405	каналы сообщили
+T21	INVESTMENT_PROGRAM 406 407	о
+T22	PRODUCT 408 419	минировании
+T23	LAW 420 428	больницы
+T24	ORGANIZATION 431 437	Аргуне
+T25	GROUP 441 461	медицинский персонал
+T26	NEWS_SOURCE 488 504	отметил Минздрав
+T27	ORGANIZATION 496 504	Минздрав
+T28	PROFESSION 535 543	кинологи
+T29	PRODUCT 579 597	взрывчатых веществ
+T30	NEWS_SOURCE 599 629	указало региональное ведомство
+T31	ORGANIZATION 620 629	ведомство
+T32	PERSON 632 638	Ложные
+T33	NEWS_SOURCE 639 648	сообщения
+T34	EVENT 649 650	о
+T35	PRODUCT 651 662	минировании
+T36	COUNTRY 702 709	Украине
+T37	DATE 711 726	За семь месяцев
+T38	ORGANIZATION 743 753	учреждения
+T39	CITY 754 760	Москвы
+T40	CITY 762 772	Хабаровска
+T41	CITY 774 786	Новосибирска
+T42	CITY 788 794	Томска
+T43	CITY 796 809	Екатеринбурга
+T44	CITY 811 819	Камчатки
+T45	REGION 811 819	Камчатки
+T46	REGION 822 842	Белгородской области
+T47	ORGANIZATION 902 905	Sun
+T48	DATE 907 918	25 Sep 2022

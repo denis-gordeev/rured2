@@ -1,0 +1,41 @@
+T7	DATE 180 199	12 апреля 2023 года
+T12	PROFESSION 243 263	генеральный директор
+T17	CARDINAL 282 286	один
+T18	PROFESSION 290 300	продюсеров
+T23	DATE 328 353	12 апреля следующего года
+T25	NEWS_SOURCE 388 400	сказал Эрнст
+T27	ORGANIZATION 412 416	ТАСС
+T31	ORGANIZATION 540 550	Роскосмоса
+T36	PROFESSION 604 614	Режиссером
+T41	PERSON 695 708	Юлия Персильд
+T53	PROFESSION 0 5	Эрнст
+T54	WORK_OF_ART 45 59	фильма «Вызов»
+T1	WORK_OF_ART 61 89	Художественный фильм «Вызов»
+T2	FAC 129 162	Международной космической станции
+T3	EVENT 164 179	выйдет в прокат
+R1	DATE_TAKES_PLACE_ON Arg1:T3 Arg2:T7	
+T4	ORGANIZATION 225 242	общества «Знание»
+T5	EVENT 216 224	марафона
+R2	ORGANIZES Arg1:T4 Arg2:T5	
+T6	WORK_OF_ART 301 308	картины
+T8	ORGANIZATION 264 280	«Первого канала»
+R3	WORKPLACE Arg1:T12 Arg2:T8	
+T9	PERSON 309 325	Константин Эрнст
+R4	WORKS_AS Arg1:T9 Arg2:T18	
+R5	WORKS_AS Arg1:T9 Arg2:T12	
+T10	WORK_OF_ART 354 367	фильм «Вызов»
+T11	EVENT 368 383	выйдет в прокат
+R6	DATE_TAKES_PLACE_ON Arg1:T11 Arg2:T23	
+T13	NEWS_SOURCE 388 417	сказал Эрнст (цитата по ТАСС)
+T14	FAC 490 509	космодроме Байконур
+T15	WORK_OF_ART 511 518	«Вызов»
+T16	ORGANIZATION 553 569	«Первого канала»
+T19	ORGANIZATION 572 602	студии Yellow, Black and White
+T20	WORK_OF_ART 615 622	картины
+T21	PERSON 633 645	Клим Шипенко
+T22	WORK_OF_ART 647 654	«Холоп»
+T24	WORK_OF_ART 656 663	«Текст»
+T26	WORK_OF_ART 681 687	фильме
+T28	CHARACTER 724 736	героиня Женя
+T29	FAC 753 756	МКС
+T30	PROFESSION 792 802	космонавту

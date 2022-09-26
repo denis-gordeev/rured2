@@ -1,0 +1,34 @@
+T0	GPE 37 43	Европе
+T1	GPE 66 72	Балтии
+T2	GPE 89 99	Прибалтики
+T3	GPE 139 145	Европе
+T7	ORGANIZATION 210 217	Совфеда
+T8	PERSON 218 231	Андрей Климов
+T12	GPE 252 265	Прибалтийские
+T13	GROUP 266 272	соседи
+T14	GPE 363 376	прибалтийские
+T16	PERSON 438 447	Наполеона
+T17	GPE 476 482	Европе
+T18	NEWS_SOURCE 487 501	заявил сенатор
+T19	PROFESSION 494 501	сенатор
+T20	PERSON 513 520	Климова
+T21	COUNTRY 528 534	России
+T23	EVENT 576 579	СВО
+T25	DATE 727 740	спустя 77 лет
+T27	COUNTRY 813 820	Россией
+T36	ORGANIZATION 2 9	Совфеде
+T37	GROUP 60 65	стран
+R1	MEMBER Arg1:T37 Arg2:T1	
+T38	GROUP 83 88	стран
+R2	MEMBER Arg1:T38 Arg2:T2	
+T4	PROFESSION 155 209	заместитель председателя комитета по иностранным делам
+R3	WORKPLACE Arg1:T4 Arg2:T7	
+R4	WORKPLACE Arg1:T8 Arg2:T7	
+R5	WORKS_AS Arg1:T8 Arg2:T4	
+T5	NEWS_SOURCE 147 249	написал заместитель председателя комитета по иностранным делам Совфеда Андрей Климов в Telegram-канале
+R6	MEMBER Arg1:T13 Arg2:T12	
+T6	ORDINAL 424 433	четвертую
+T9	PERSON 451 458	Гитлера
+T10	NEWS_SOURCE 503 520	По мнению Климова
+T11	PERSON 834 840	Климов
+T15	NEWS_SOURCE 826 840	отметил Климов

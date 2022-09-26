@@ -1,0 +1,68 @@
+T0	COUNTRY 0 9	Румынский
+T1	FAC 10 25	военный корабль
+T3	LOCATION 47 58	Черном море
+T4	COUNTRY 60 69	Румынский
+T6	FAC 70 85	военный корабль
+T9	LOCATION 118 129	Черном море
+T15	ORGANIZATION 181 189	Facebook
+T18	COUNTRY 237 243	России
+T19	NEWS_SOURCE 246 265	По данным ведомства
+T24	DATE 338 348	8 сентября
+T34	NEWS_SOURCE 522 539	пишет издание RFI
+T35	ORGANIZATION 536 539	RFI
+T41	FAC 674 681	корабль
+T44	FAC 720 725	судна
+T45	FAC 762 769	корабле
+T48	NEWS_SOURCE 809 826	По данным Reuters
+T49	ORGANIZATION 819 826	Reuters
+T50	DATE 856 869	В конце марта
+T51	COUNTRY 870 879	румынские
+T52	PROFESSION 880 887	военные
+T59	LOCATION 986 995	побережья
+T60	COUNTRY 996 1003	Румынии
+T67	PERSON 1133 1151	Константин Бэлеску
+T68	PROFESSION 1163 1172	водолазов
+T70	COUNTRY 1257 1264	Румынии
+T71	LOCATION 1273 1284	Черном море
+T72	PROFESSION 1303 1310	военные
+T73	COUNTRY 1311 1317	Турции
+T74	COUNTRY 1320 1328	Болгарии
+R1	OWNERSHIP Arg1:T0 Arg2:T1	
+R2	OWNERSHIP Arg1:T4 Arg2:T6	
+R3	HEADQUARTERED_IN Arg1:T6 Arg2:T9	
+R4	HEADQUARTERED_IN Arg1:T1 Arg2:T3	
+T2	ORGANIZATION 153 171	Военно-морских сил
+T5	ORGANIZATION 140 152	пресс-служба
+R5	OWNERSHIP Arg1:T2 Arg2:T5	
+T7	CRIME 208 222	экстремистской
+R6	TAKES_PLACE_IN Arg1:T7 Arg2:T18	
+T8	NEWS_SOURCE 131 244	передает пресс-служба Военно-морских сил страны в Facebook (соцсеть признана экстремистской и запрещена в России)
+T10	LAW 225 243	запрещена в России
+T11	FAC 267 337	корабль «Лейтенант Димитрие Николеску» (Locotenent Dimitrie Nicolescu)
+T12	FAC 358 373	порта Констанца
+R7	OWNERSHIP Arg1:T4 Arg2:T12	
+R8	OWNERSHIP Arg1:T4 Arg2:T11	
+T13	FAC 433 453	корабль GSP «Falcon»
+T14	FAC 501 516	порта Констанца
+T16	QUANTITY 468 489	около 25 морских миль
+T17	QUANTITY 491 496	46 км
+T20	PROFESSION 613 630	военным водолазам
+T21	TIME 668 673	ночью
+T22	EVENT 726 757	образовалась небольшая пробоина
+R9	TAKES_PLACE_IN Arg1:T22 Arg2:T41	
+T23	GROUP 780 786	экипаж
+T25	PROFESSION 793 807	военнослужащих
+T26	CARDINAL 790 792	75
+R10	WORKPLACE Arg1:T52 Arg2:T51	
+T27	FAC 944 974	рыболовецкое судно «Олимпус-1»
+R11	OWNERSHIP Arg1:T60 Arg2:T59	
+T28	CARDINAL 977 979	70
+T29	ORGANIZATION 1029 1032	ВМС
+T30	ORGANIZATION 1023 1028	штаба
+T31	PROFESSION 1018 1022	лава
+R12	WORKPLACE Arg1:T31 Arg2:T30	
+R13	OWNERSHIP Arg1:T29 Arg2:T30	
+T32	FAC 1100 1152	Минный заградитель «Вице-адмирал Константин Бэлеску»
+R14	WORKPLACE Arg1:T72 Arg2:T73	
+R15	WORKPLACE Arg1:T72 Arg2:T74	
+R16	WORKPLACE Arg1:T72 Arg2:T70	

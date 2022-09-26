@@ -1,0 +1,62 @@
+T1	DATE 56 69	больше месяца
+T2	EVENT 137 149	спецоперации
+T3	COUNTRY 153 160	Украине
+T4	DATE 171 184	больше месяца
+T7	PROFESSION 235 240	глава
+T13	PERSON 293 308	Виктор Бондарев
+T14	DATE 311 319	За месяц
+T16	PROFESSION 463 470	сенатор
+T17	DATE 505 511	месяца
+T18	NEWS_SOURCE 569 582	По его словам
+T19	ORGANIZATION 586 597	военкоматов
+T22	ORGANIZATION 834 847	подразделений
+T23	GROUP 874 882	комиссия
+T25	NEWS_SOURCE 1068 1087	подчеркнул Бондарев
+T26	PERSON 1079 1087	Бондарев
+T27	PROFESSION 1090 1099	Президент
+T28	PERSON 1100 1114	Владимир Путин
+T30	PROFESSION 1252 1269	глава государства
+T31	PROFESSION 1299 1314	министр обороны
+T32	PERSON 1315 1327	Сергей Шойгу
+T33	NEWS_SOURCE 1315 1334	Сергей Шойгу заявил
+T34	GROUP 1340 1346	власти
+T36	NEWS_SOURCE 1432 1450	По словам министра
+T37	PROFESSION 1442 1450	министра
+T38	QUANTITY 1491 1507	300 тыс. человек
+T41	ORGANIZATION 1597 1602	армии
+T42	DATE 1633 1639	сейчас
+T43	NEWS_SOURCE 1711 1727	подчеркнул Шойгу
+T44	PERSON 1722 1727	Шойгу
+T45	PROFESSION 1744 1754	президента
+T47	PROFESSION 1819 1833	военнослужащих
+T57	NEWS_SOURCE 0 17	В Совфеде заявили
+T58	ORGANIZATION 2 9	Совфеде
+T59	EVENT 93 114	частичной мобилизации
+R1	SUBEVENT_OF Arg1:T2 Arg2:T59	
+R2	TAKES_PLACE_IN Arg1:T2 Arg2:T3	
+T5	ORGANIZATION 205 227	телеканалу «Вместе-РФ»
+T6	ORGANIZATION 250 266	Совета Федерации
+T8	ORGANIZATION 241 292	комитета Совета Федерации по обороне и безопасности
+R3	OWNERSHIP Arg1:T6 Arg2:T8	
+R4	WORKS_AS Arg1:T13 Arg2:T7	
+R5	WORKPLACE Arg1:T13 Arg2:T8	
+T9	NEWS_SOURCE 194 308	в интервью телеканалу «Вместе-РФ» заявил глава комитета Совета Федерации по обороне и безопасности Виктор Бондарев
+T10	NEWS_SOURCE 456 470	сказал сенатор
+T11	EVENT 545 566	частичной мобилизации
+T12	ORGANIZATION 600 608	Генштаба
+T15	ORGANIZATION 925 938	подразделение
+T20	ORGANIZATION 944 958	воинская часть
+T21	LOCATION 1051 1063	линии фронта
+R6	WORKS_AS Arg1:T28 Arg2:T27	
+T24	EVENT 1123 1144	частичную мобилизацию
+T29	TIME 1145 1150	утром
+T60	DATE 1151 1162	21 сентября
+R7	DATE_TAKES_PLACE_ON Arg1:T24 Arg2:T60	
+R8	WORKS_AS Arg1:T32 Arg2:T31	
+T35	PERCENT 1513 1521	около 1%
+T39	ORGANIZATION 1640 1645	армии
+T40	GROUP 1661 1669	Студенты
+T61	GROUP 1672 1680	срочники
+T62	EVENT 1685 1696	мобилизацию
+T46	EVENT 1788 1799	мобилизации
+T63	NEWS_SOURCE 1729 1754	Согласно указу президента

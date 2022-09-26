@@ -1,0 +1,38 @@
+T2	PROFESSION 74 79	главы
+T6	ORGANIZATION 114 117	ВГА
+T7	REGION 119 137	Херсонской области
+T10	ORGANIZATION 218 222	ТАСС
+T11	PROFESSION 223 231	замглавы
+T12	ORGANIZATION 232 235	ВГА
+T17	PERSON 270 276	Сальдо
+T18	COUNTRY 309 319	украинский
+T21	NEWS_SOURCE 332 358	По словам его собеседников
+T22	GROUP 346 358	собеседников
+T24	NEWS_SOURCE 360 377	в Telegram-канале
+T30	COUNTRY 542 552	украинских
+T31	GROUP 553 556	СМИ
+T33	PERSON 594 600	Сальдо
+T34	DATE 601 608	на днях
+T42	REGION 2 12	Херсонской
+T43	ORGANIZATION 13 16	ВГА
+R1	HEADQUARTERED_IN Arg1:T43 Arg2:T42	
+T44	PERSON 47 53	Сальдо
+R2	WORKPLACE Arg1:T44 Arg2:T43	
+T1	ORGANIZATION 80 112	военно-гражданской администрации
+R3	ABBREVIATION Arg1:T1 Arg2:T6	
+T3	PERSON 138 154	Владимира Сальдо
+R4	WORKPLACE Arg1:T2 Arg2:T1	
+R5	WORKPLACE Arg1:T3 Arg2:T7	
+R6	WORKS_AS Arg1:T3 Arg2:T2	
+T4	NEWS_SOURCE 55 154	Сообщения о смерти главы военно-гражданской администрации (ВГА) Херсонской области Владимира Сальдо
+T5	PERSON 236 253	Кирилл Стремоусов
+T8	NEWS_SOURCE 211 253	заявил ТАСС замглавы ВГА Кирилл Стремоусов
+T9	ORGANIZATION 320 330	«24 Канал»
+R7	OWNERSHIP Arg1:T18 Arg2:T9	
+T13	NEWS_SOURCE 261 330	о смерти Сальдо со ссылкой на источники сообщил украинский «24 Канал»
+T14	PERSON 378 389	Стремоусова
+T15	NEWS_SOURCE 458 473	Telegram-канале
+R8	WORKPLACE Arg1:T31 Arg2:T30	
+T16	NEWS_SOURCE 524 556	очередной фейк, у украинских СМИ
+T19	PERSON 641 651	Стремоусов
+T20	NEWS_SOURCE 634 651	заявил Стремоусов

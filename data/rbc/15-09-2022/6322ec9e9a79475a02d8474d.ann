@@ -1,0 +1,30 @@
+T0	ORGANIZATION 0 2	FT
+T1	COUNTRY 15 18	США
+T2	ECONOMIC_SECTOR 31 55	поставки сланцевого газа
+T3	COMMODITY 40 55	сланцевого газа
+T4	ORGANIZATION 58 60	ЕС
+T5	COUNTRY 64 67	США
+T6	GROUP 68 81	производители
+T8	COMMODITY 82 97	сланцевых нефти
+T10	COMMODITY 100 104	газа
+T12	ECONOMIC_SECTOR 143 149	добычу
+T14	GPE 164 170	Европе
+T16	DATE 213 218	зимой
+T17	NEWS_SOURCE 228 263	сообщает газета The Financial Times
+T18	ORGANIZATION 244 263	The Financial Times
+T19	COUNTRY 266 269	США
+T20	ECONOMIC_SECTOR 310 322	производства
+T23	PROFESSION 389 394	глава
+R1	SELLS Arg1:T1 Arg2:T3	
+R2	BUYS Arg1:T4 Arg2:T3	
+R3	PRODUCES Arg1:T5 Arg2:T8	
+R4	PRODUCES Arg1:T5 Arg2:T10	
+T7	ECONOMIC_SECTOR 296 302	добычу
+T9	ECONOMIC_SECTOR 455 471	сланцевый сектор
+T11	PERSON 473 482	Уил Ванло
+T13	DATE 337 356	на сегодняшний день
+T15	ORGANIZATION 395 442	фонда прямых инвестиций Quantum Energy Partners
+R5	WORKPLACE Arg1:T23 Arg2:T15	
+R6	WORKS_AS Arg1:T11 Arg2:T23	
+T21	PROFESSION 444 452	инвестор
+T22	NEWS_SOURCE 381 482	говорит глава фонда прямых инвестиций Quantum Energy Partners (инвестор в сланцевый сектор) Уил Ванло

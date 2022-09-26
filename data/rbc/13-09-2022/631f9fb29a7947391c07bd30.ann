@@ -1,0 +1,64 @@
+T0	COUNTRY 0 7	Армения
+T1	COUNTRY 17 28	Азербайджан
+T4	COUNTRY 62 77	Азербайджанские
+T5	COUNTRY 125 134	армянских
+T8	VILLAGE 161 166	Горис
+T9	VILLAGE 169 176	Джермук
+T16	PRODUCT 226 250	крупнокалиберного оружия
+T21	COUNTRY 286 293	Армении
+T24	ORGANIZATION 309 317	Facebook
+T26	PROFESSION 334 342	владелец
+T27	COUNTRY 390 396	России
+T28	ORGANIZATION 399 403	Силы
+T29	COUNTRY 404 416	Азербайджана
+T30	PRODUCT 433 437	БПЛА
+T31	ORGANIZATION 452 464	министерстве
+T32	COUNTRY 468 483	азербайджанском
+T33	ORGANIZATION 484 494	Минобороны
+T35	CARDINAL 563 567	двух
+T36	GROUP 568 573	стран
+T37	GPE 587 594	Еревана
+T38	NEWS_SOURCE 636 658	По данным министерства
+T39	ORGANIZATION 646 658	министерства
+T40	COUNTRY 660 669	армянские
+T42	ORGANIZATION 670 676	войска
+T43	TIME 677 686	в ночь на
+T47	COUNTRY 752 767	азербайджанской
+T48	ORGANIZATION 768 773	армии
+T49	NEWS_SOURCE 823 857	говорится в сообщении министерства
+T50	ORGANIZATION 845 857	министерства
+T2	CRIME 31 60	обстреле приграничных городов
+R1	ORGANIZES Arg1:T1 Arg2:T2	
+T3	ORGANIZATION 78 84	войска
+R2	OWNERSHIP Arg1:T4 Arg2:T3	
+T6	FAC 135 153	населенных пунктов
+R3	HEADQUARTERED_IN Arg1:T6 Arg2:T5	
+T7	VILLAGE 154 159	Сотка
+T10	LOCATION 177 191	на юго-востоке
+T11	PRODUCT 202 223	артиллерийский орудий
+R4	USES Arg1:T4 Arg2:T11	
+R5	USES Arg1:T4 Arg2:T16	
+T12	CRIME 361 375	экстремистской
+T13	PROFESSION 259 274	пресс-секретарь
+T14	ORGANIZATION 275 285	Минобороны
+R6	OWNERSHIP Arg1:T21 Arg2:T14	
+T15	PERSON 294 306	Арам Торосян
+R7	WORKS_AS Arg1:T15 Arg2:T13	
+R8	WORKPLACE Arg1:T15 Arg2:T21	
+T17	ORGANIZATION 319 332	компания Meta
+T18	NEWS_SOURCE 252 317	заявил пресс-секретарь Минобороны Армении Арам Торосян в Facebook
+T19	NEWS_SOURCE 439 464	утверждают в министерстве
+R9	OWNERSHIP Arg1:T29 Arg2:T28	
+R10	USES Arg1:T29 Arg2:T30	
+R11	OWNERSHIP Arg1:T32 Arg2:T33	
+T20	COUNTRY 538 547	армянских
+T22	ORGANIZATION 548 551	сил
+R12	OWNERSHIP Arg1:T20 Arg2:T22	
+T23	CRIME 598 633	широкомасштабной военной провокации
+R13	ORGANIZES Arg1:T37 Arg2:T23	
+T25	NEWS_SOURCE 466 502	В азербайджанском Минобороны заявили
+T34	CRIME 506 525	масштабной диверсии
+R14	OWNERSHIP Arg1:T40 Arg2:T42	
+T41	DATE 684 698	на 12 сентября
+T44	LOCATION 736 751	между позициями
+R15	HEADQUARTERED_IN Arg1:T48 Arg2:T47	

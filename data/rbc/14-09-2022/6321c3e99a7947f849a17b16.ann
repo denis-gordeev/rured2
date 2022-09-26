@@ -1,0 +1,95 @@
+T1	CITY 2 10	Советске
+T2	GROUP 24 32	земляков
+T3	COUNTRY 36 43	Украине
+T7	REGION 90 113	Калининградская область
+T11	NEWS_SOURCE 157 209	сообщил глава городского округа Григорий Соколовский
+T12	PERSON 189 209	Григорий Соколовский
+T13	GROUP 281 289	земляков
+T15	PERSON 348 359	Соколовский
+T17	COUNTRY 442 449	Украине
+T18	GROUP 559 572	родственникам
+T19	NEWS_SOURCE 575 597	По словам Соколовского
+T20	PERSON 585 597	Соколовского
+T21	PROFESSION 675 684	депутатов
+T22	PROFESSION 686 696	чиновников
+T23	GROUP 698 727	представителей общественности
+T25	CITY 769 776	Советск
+T26	DATE 777 788	в этом году
+T30	DATE 813 825	до 1946 года
+T31	DATE 872 883	в XIII веке
+T34	DATE 932 946	16–18 сентября
+T38	CITY 1060 1069	Нестерове
+T41	PROFESSION 1123 1128	Глава
+T43	NEWS_SOURCE 1129 1156	администрации Нестеровского
+T44	CITY 1143 1156	Нестеровского
+T47	PERSON 1179 1193	Эдуард Старков
+T48	NEWS_SOURCE 1179 1201	Эдуард Старков сообщил
+T49	DATE 1207 1217	во вторник
+T50	CARDINAL 1240 1245	одним
+T52	GROUP 1258 1268	участников
+T53	NEWS_SOURCE 1283 1301	По мнению Старкова
+T54	PERSON 1293 1301	Старкова
+T55	DATE 1322 1333	в этом году
+T56	GROUP 1374 1380	солдат
+T57	COUNTRY 1405 1412	Украины
+T58	DATE 1421 1436	В конце августа
+T62	CITY 1494 1501	Россоши
+T63	REGION 1502 1521	Воронежской области
+T64	DATE 1553 1564	17 сентября
+T70	NEWS_SOURCE 1688 1722	пояснили в городской администрации
+T71	ORGANIZATION 1699 1722	городской администрации
+T80	EVENT 53 64	День города
+R1	ORIGINS_FROM Arg1:T2 Arg2:T1	
+T4	CITY 80 88	Советска
+T5	ORGANIZATION 66 79	Администрация
+R2	HEADQUARTERED_IN Arg1:T5 Arg2:T4	
+R3	HEADQUARTERED_IN Arg1:T5 Arg2:T7	
+T6	EVENT 137 147	Дня города
+T8	EVENT 115 136	отменила празднование
+R4	SUBEVENT_OF Arg1:T6 Arg2:T8	
+R5	EVENT_TAKES_PART_IN Arg1:T5 Arg2:T8	
+T9	PROFESSION 165 188	глава городского округа
+R6	WORKS_AS Arg1:T12 Arg2:T9	
+T10	NEWS_SOURCE 321 346	написал он во «ВКонтакте»
+T14	LOCATION 245 265	зоне боевых действий
+T81	EVENT 268 289	гибель наших земляков
+T82	NEWS_SOURCE 348 367	Соколовский пояснил
+T16	DATE 373 382	в четверг
+T83	EVENT 422 438	военной операции
+R7	TAKES_PLACE_IN Arg1:T83 Arg2:T17	
+T24	PROFESSION 729 740	журналистов
+T84	PROFESSION 743 760	деятелей культуры
+R8	WORKPLACE Arg1:T21 Arg2:T25	
+R9	WORKPLACE Arg1:T22 Arg2:T25	
+R10	WORKPLACE Arg1:T23 Arg2:T25	
+R11	WORKPLACE Arg1:T24 Arg2:T25	
+R12	WORKPLACE Arg1:T84 Arg2:T25	
+T27	CARDINAL 803 811	76-летие
+T28	CITY 836 843	Тильзит
+R13	DATE_FOUNDED_IN Arg1:T28 Arg2:T31	
+R14	DATE_FOUNDED_IN Arg1:T25 Arg2:T30	
+T29	EVENT 886 909	Праздничные мероприятия
+R15	DATE_TAKES_PLACE_ON Arg1:T29 Arg2:T34	
+T32	EVENT 956 965	праздника
+T33	EVENT 985 1013	концерты и праздничный салют
+R16	SUBEVENT_OF Arg1:T32 Arg2:T33	
+T35	REGION 1035 1058	Калининградской области
+T36	DATE 1080 1089	ежегодный
+T37	DATE 1109 1120	в сентябре!
+T39	EVENT 1090 1121	праздник «Нестеров в сентябре!»
+T40	ORGANIZATION 1129 1178	администрации Нестеровского муниципального округа
+R17	WORKPLACE Arg1:T47 Arg2:T40	
+R18	WORKS_AS Arg1:T47 Arg2:T41	
+T42	EVENT 1269 1281	спецоперации
+R19	EVENT_TAKES_PART_IN Arg1:T52 Arg2:T42	
+T45	EVENT 1440 1467	отмене массовых мероприятий
+T46	EVENT 1471 1482	День города
+R20	SUBEVENT_OF Arg1:T45 Arg2:T46	
+T51	NEWS_SOURCE 1483 1521	сообщили в Россоши Воронежской области
+T59	EVENT 1523 1531	Праздник
+R21	DATE_TAKES_PLACE_ON Arg1:T59 Arg2:T64	
+T60	ORGANIZATION 1569 1586	силовые структуры
+T61	EVENT 1601 1626	отказаться от мероприятий
+R22	SUBEVENT_OF Arg1:T61 Arg2:T59	
+R23	EVENT_TAKES_PART_IN Arg1:T60 Arg2:T61	
+T65	LOCATION 1663 1683	приграничного района

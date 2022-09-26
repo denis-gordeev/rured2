@@ -1,0 +1,43 @@
+T0	PROFESSION 0 19	Глава правительства
+T1	PERSON 20 29	Дагестана
+T2	PROFESSION 72 84	Председатель
+T3	ORGANIZATION 85 98	правительства
+T4	GPE 99 108	Дагестана
+T5	PERSON 109 134	Абдулмуслим Абдулмуслимов
+T6	REGION 156 169	Дагестанского
+T7	FAC 201 204	ДГУ
+T8	PRODUCT 229 234	живую
+T9	FAC 235 243	стерлядь
+T10	PRODUCT 244 250	голыми
+T11	NEWS_SOURCE 259 307	Кадры опубликовала пресс-служба республиканского
+T12	ORGANIZATION 278 332	пресс-служба республиканского правительства в Telegram
+T13	NEWS_SOURCE 324 332	Telegram
+T14	PERSON 349 374	Абдулмуслим Абдулмуслимов
+T15	FAC 418 421	АПК
+T16	FAC 423 448	агропромышленный комплекс
+T17	ORGANIZATION 452 455	РБК
+T18	ECONOMIC_SECTOR 459 470	рыбоводстве
+T19	ORGANIZATION 504 509	пресс
+T20	NEWS_SOURCE 510 516	службе
+T21	ORGANIZATION 510 516	службе
+T22	PRODUCT 545 549	рыбу
+T23	GROUP 608 611	рук
+T24	ORGANIZATION 615 628	правительстве
+T25	NEWS_SOURCE 613 636	В правительстве заявили
+T26	PROFESSION 656 668	председатель
+T27	PERSON 692 700	стерляди
+T28	DATE 719 734	В мае 2022 года
+T29	PERSON 735 748	Абдулмуслимов
+T30	CITY 758 770	Тляратинский
+T31	FAC 771 776	район
+T32	EVENT 788 805	с рабочим визитом
+T33	PERSON 838 855	Ахмеда Рамазанова
+T34	PERSON 882 890	Чиновник
+T35	NEWS_SOURCE 882 898	Чиновник подошел
+T36	ORGANIZATION 995 998	Fri
+T37	DATE 1000 1002	09
+T38	CARDINAL 1003 1006	Sep
+T39	DATE 1007 1011	2022
+T40	CARDINAL 1012 1014	22
+T41	CARDINAL 1015 1017	38
+T42	CARDINAL 1018 1022	29 +

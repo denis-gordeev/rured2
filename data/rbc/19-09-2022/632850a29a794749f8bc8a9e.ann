@@ -1,0 +1,58 @@
+T0	PROFESSION 0 8	Командир
+T1	VEHICLE 9 15	Boeing
+T2	CITY 40 52	Новокузнецка
+T3	ORGANIZATION 55 81	Петербург
+
+Командир Boeing
+T4	CITY 102 114	Новокузнецка
+T7	ORDINAL 161 167	второй
+T10	ORGANIZATION 235 238	РБК
+T17	FAC 340 348	аэропорт
+T18	TIME 352 360	10 минут
+T20	PROFESSION 403 409	пилота
+T21	NEWS_SOURCE 445 478	пояснили в пресс-службе ведомства
+T23	DATE 500 511	18 сентября
+T26	VEHICLE 531 538	самолет
+T30	PROFESSION 622 630	капитана
+T47	CITY 55 64	Петербург
+T48	EVENT 16 36	умер во время полета
+T49	PROFESSION 66 74	Командир
+T50	VEHICLE 75 81	Boeing
+T5	CITY 117 132	Санкт-Петербург
+T6	PROFESSION 168 173	пилот
+T51	VEHICLE 199 205	лайнер
+T8	CITY 208 214	омском
+T9	FAC 215 224	аэропорту
+R1	HEADQUARTERED_IN Arg1:T9 Arg2:T8	
+T11	ORGANIZATION 254 263	минздрава
+T12	ORGANIZATION 241 253	пресс-службе
+T13	REGION 264 278	Омской области
+R2	OWNERSHIP Arg1:T11 Arg2:T12	
+R3	HEADQUARTERED_IN Arg1:T11 Arg2:T13	
+T52	NEWS_SOURCE 226 278	сообщили РБК в пресс-службе минздрава Омской области
+T14	FAC 304 329	скорой медицинской помощи
+T15	GROUP 281 303	Реанимационная бригада
+T16	DISEASE 634 664	тромбоэмболии легочной артерии
+T19	AGE 611 621	51-летнего
+T29	GROUP 373 380	Бригада
+T22	ORGANIZATION 469 478	ведомства
+T53	ORGANIZATION 456 468	пресс-службе
+R4	OWNERSHIP Arg1:T22 Arg2:T53	
+T54	EVENT 481 489	Инцидент
+T55	EVENT 381 402	констатировала смерть
+R5	DATE_TAKES_PLACE_ON Arg1:T54 Arg2:T23	
+R6	DATE_TAKES_PLACE_ON Arg1:T55 Arg2:T23	
+T24	ORGANIZATION 523 529	РЕН ТВ
+T25	FAC 553 562	аэропорту
+T56	CITY 563 568	Омска
+T27	TIME 571 576	20:15
+T28	PROFESSION 582 588	медики
+T57	EVENT 589 610	констатировали смерть
+T58	NEWS_SOURCE 513 529	По данным РЕН ТВ
+R7	HEADQUARTERED_IN Arg1:T25 Arg2:T56	
+T31	NEWS_SOURCE 666 708	По информации телеграм-канала Aviaincident
+T32	PROFESSION 710 715	пилот
+T33	FAC 740 760	машине скорой помощи
+T34	PERSON 716 727	А.В. Киреев
+R8	AGE_DIED_AT Arg1:T34 Arg2:T19	
+T35	CITY 786 802	Санкт-Петербурга

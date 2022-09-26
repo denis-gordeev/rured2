@@ -1,0 +1,53 @@
+T0	NEWS_SOURCE 0 1	В
+T1	CITY 2 9	Херсоне
+T2	NEWS_SOURCE 10 17	заявили
+T3	ECONOMIC_SECTOR 31 39	ракетной
+T4	FAC 40 45	атаки
+T5	COUNTRY 57 64	Украины
+T6	ORGANIZATION 66 98	Система противовоздушной обороны
+T7	COUNTRY 137 147	украинских
+T8	EVENT 148 156	войск на
+T9	CITY 157 163	Херсон
+T10	PROFESSION 173 190	заместитель главы
+T11	ORGANIZATION 191 204	администрации
+T12	EVENT 216 223	области
+T13	NEWS_SOURCE 165 241	сообщил заместитель главы администрации Херсонской области Кирилл Стремоусов
+T14	PERSON 224 241	Кирилл Стремоусов
+T15	NEWS_SOURCE 243 265	передает «РИА Новости»
+T16	ORGANIZATION 253 265	РИА Новости»
+T17	EVENT 366 376	Стремоусов
+T18	NEWS_SOURCE 379 392	По его словам
+T19	ECONOMIC_SECTOR 394 404	разрушений
+T20	REGION 407 425	Херсонской области
+T21	ECONOMIC_SECTOR 439 447	обстрела
+T22	LOCATION 457 467	Территория
+T23	REGION 468 486	Херсонской области
+T24	DATE 487 494	с марта
+T25	COUNTRY 519 529	российских
+T26	EVENT 530 535	войск
+T27	DATE 537 538	С
+T28	DATE 545 552	момента
+T29	GROUP 553 559	власти
+T30	FAC 618 631	Каховской ГЭС
+T31	DATE 633 643	25 августа
+T32	ORGANIZATION 644 654	Минобороны
+T33	NEWS_SOURCE 655 663	сообщало
+T34	COUNTRY 669 680	российскими
+T35	FAC 692 716	противовоздушной обороны
+T36	DATE 717 725	за сутки
+T37	CARDINAL 737 741	пять
+T38	COUNTRY 742 752	украинских
+T39	ECONOMIC_SECTOR 753 764	беспилотных
+T40	PRODUCT 765 776	летательных
+T41	FAC 777 786	аппаратов
+T42	FAC 788 792	БПЛА
+T43	DATE 815 817	19
+T44	ECONOMIC_SECTOR 818 826	снарядов
+T45	FAC 838 855	системы залпового
+T46	NEWS_SOURCE 862 866	РСЗО
+T47	ORGANIZATION 862 866	РСЗО
+T48	NEWS_SOURCE 868 874	HIMARS
+T49	CARDINAL 908 932	6308c9bd9a7947046c66950d
+T50	DATE 939 950	26 Aug 2022
+T51	CARDINAL 951 953	17
+T52	CARDINAL 954 956	13

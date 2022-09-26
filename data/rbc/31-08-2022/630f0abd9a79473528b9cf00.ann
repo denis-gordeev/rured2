@@ -1,0 +1,61 @@
+T0	GROUP 16 21	штаба
+T1	NEWS_SOURCE 24 33	Бердянске
+T2	FAC 53 59	здания
+T3	ORGANIZATION 80 93	общественного
+T4	FAC 80 93	общественного
+T5	COUNTRY 116 123	Россией
+T6	CITY 127 136	Бердянске
+T7	NEWS_SOURCE 164 172	Telegram
+T8	PROFESSION 164 186	Telegram член главного
+T9	ORGANIZATION 187 193	совета
+T10	ECONOMIC_SECTOR 194 200	военно
+T11	EVENT 201 212	гражданской
+T12	ORGANIZATION 213 226	администрации
+T13	FAC 227 246	Запорожской области
+T14	PERSON 247 261	Владимир Рогов
+T15	DATE 271 289	вечером 30 августа
+T16	FAC 292 298	здания
+T17	CARDINAL 299 305	одного
+T18	ORGANIZATION 309 315	штабов
+T19	COUNTRY 329 336	Россией
+T20	CITY 340 349	Бердянске
+T21	GROUP 378 383	жертв
+T22	GROUP 386 398	пострадавших
+T23	GROUP 409 425	волонтеров штаба
+T24	PERSON 467 472	Рогов
+T25	COUNTRY 520 530	украинские
+T26	PROFESSION 531 538	военные
+T27	PERSON 541 549	Бердянск
+T28	COUNTRY 570 581	российскими
+T29	PROFESSION 582 590	военными
+T30	REGION 591 616	части Запорожской области
+T31	COUNTRY 645 651	России
+T32	DATE 654 667	конце февраля
+T33	PROFESSION 707 735	исполняющим обязанности мэра
+T34	PERSON 746 765	Александра Сауленко
+T35	DATE 767 777	26 августа
+T36	PERSON 780 789	Бердянске
+T37	CARDINAL 804 808	один
+T38	ORGANIZATION 844 863	Криворожский горняк
+T39	CITY 887 896	Мариуполя
+T40	NEWS_SOURCE 921 932	заместитель
+T41	PROFESSION 921 943	заместитель начальника
+T42	ORGANIZATION 944 954	городского
+T43	NEWS_SOURCE 944 979	городского ГАИ Александр Колесников
+T44	PERSON 959 979	Александр Колесников
+T45	GROUP 987 1001	местные власти
+T46	NEWS_SOURCE 1002 1010	сообщили
+T47	NEWS_SOURCE 1025 1050	По данным мэрии Бердянска
+T48	PERSON 1041 1050	Бердянска
+T49	CARDINAL 1137 1149	высоте около
+T50	DATE 1150 1153	3 м
+T51	NEWS_SOURCE 1156 1158	По
+T52	ORGANIZATION 1170 1187	Роскомнадзора РБК
+T53	NEWS_SOURCE 1170 1203	Роскомнадзора РБК приводит данные
+T54	COUNTRY 1234 1241	Украине
+T55	COUNTRY 1266 1276	российских
+T56	NEWS_SOURCE 1266 1299	российских официальных источников
+T57	CARDINAL 1333 1357	630f0abd9a79473528b9cf00
+T58	CARDINAL 1364 1366	31
+T59	DATE 1364 1375	31 Aug 2022
+T60	CARDINAL 1376 1378	11

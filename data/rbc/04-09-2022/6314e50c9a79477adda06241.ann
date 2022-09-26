@@ -1,0 +1,59 @@
+T0	CITY 54 65	Запорожской
+T1	REGION 66 73	области
+T2	NEWS_SOURCE 75 109	Журналисты телеканала Russia Today
+T3	ORGANIZATION 97 109	Russia Today
+T4	PERSON 145 155	Васильевка
+T5	CITY 158 169	Запорожской
+T6	REGION 170 177	области
+T7	ORGANIZATION 219 227	Telegram
+T8	EVENT 228 234	канале
+T9	NEWS_SOURCE 206 237	сообщается в Telegram-канале RT
+T10	FAC 261 266	огонь
+T11	FAC 270 282	гранатометов
+T12	PROFESSION 307 317	журналисты
+T13	FAC 333 363	казачьего штурмового батальона
+T14	FAC 365 372	Таврида
+T15	FAC 411 415	дрон
+T16	NEWS_SOURCE 420 441	говорится в сообщении
+T17	EVENT 465 472	военный
+T18	PROFESSION 465 472	военный
+T19	NEWS_SOURCE 473 486	корреспондент
+T20	PERSON 487 500	Алексей Репин
+T21	PERSON 512 525	Руслан Бабкин
+T22	FAC 551 576	подвале разрушенного дома
+T23	FAC 601 616	соприкосновения
+T24	ORDINAL 626 632	первый
+T25	PROFESSION 647 657	журналисты
+T26	EVENT 702 714	спецоперации
+T27	DATE 716 727	Месяц назад
+T28	PROFESSION 735 742	военкор
+T29	PERSON 747 761	Андрей Филатов
+T30	FAC 799 807	Авдеевки
+T31	COUNTRY 810 813	ДНР
+T32	GROUP 815 835	Представители других
+T33	COUNTRY 836 846	российских
+T34	GROUP 847 863	и зарубежных СМИ
+T35	DATE 890 903	В начале июля
+T36	NEWS_SOURCE 924 934	телеканала
+T37	ORGANIZATION 936 945	ТВ Центр»
+T38	NEWS_SOURCE 944 945	»
+T39	PERSON 946 961	Андрей Алексеев
+T40	FAC 1018 1042	железнодорожного вокзала
+T41	CITY 1045 1052	Донецке
+T42	DATE 1054 1077	Во второй половине июля
+T43	COUNTRY 1097 1100	ЛНР
+T44	PROFESSION 1121 1131	журналисты
+T45	COUNTRY 1132 1140	немецкой
+T46	NEWS_SOURCE 1141 1152	газеты Bild
+T47	PERSON 1163 1168	Пауль
+T48	PROFESSION 1169 1179	Ронцхаймер
+T49	GROUP 1197 1207	фотографом
+T50	PRODUCT 1260 1270	автомобиль
+T51	FAC 1260 1270	автомобиль
+T52	GROUP 1286 1296	Журналисты
+T53	CARDINAL 1344 1368	6314e50c9a79477adda06241
+T54	DATE 1378 1389	Sep 2022 21
+T55	CARDINAL 1387 1389	21
+T56	PERCENT 1390 1392	49
+T57	CARDINAL 1390 1392	49
+T58	CARDINAL 1393 1397	34 +

@@ -1,0 +1,68 @@
+T0	CITY 2 13	Севастополе
+T1	GROUP 55 72	опасности
+
+Власти
+T2	CITY 73 84	Севастополя
+T3	DATE 145 159	до 13 сентября
+T6	PROFESSION 180 190	губернатор
+T10	CITY 290 301	Севастополе
+T14	CITY 434 445	Севастополе
+T15	DATE 448 455	31 июля
+T19	COUNTRY 493 499	России
+T32	DATE 793 804	в последний
+T33	DATE 820 830	14 августа
+T34	LOCATION 868 873	южных
+T35	COUNTRY 883 889	России
+T36	COUNTRY 916 924	Украиной
+T37	REGION 930 934	Крым
+T38	REGION 936 948	Белгородская
+T39	REGION 960 976	Брянская области
+T40	ORGANIZATION 1174 1218	Национального антитеррористического комитета
+T41	ORGANIZATION 1220 1223	НАК
+T42	DATE 1227 1242	В конце августа
+T45	COUNTRY 1273 1283	российская
+T50	LOCATION 1337 1349	окрестностях
+T54	NEWS_SOURCE 1400 1421	По словам губернатора
+T55	PROFESSION 1410 1421	губернатора
+T65	DATE 1533 1543	21 августа
+T72	GROUP 66 72	Власти
+R1	WORKPLACE Arg1:T72 Arg2:T2	
+T71	EVENT 14 64	продлили желтый уровень террористической опасности
+T73	EVENT 85 144	продлили действие желтого уровня террористической опасности
+R2	TAKES_PLACE_IN Arg1:T73 Arg2:T2	
+T4	PERSON 198 214	Михаил Развожаев
+R3	WORKPLACE Arg1:T6 Arg2:T2	
+T5	NEWS_SOURCE 161 214	сообщил в Telegram губернатор города Михаил Развожаев
+R4	WORKS_AS Arg1:T4 Arg2:T6	
+T7	EVENT 224 287	решение о продлении «желтого» уровня террористической опасности
+R5	TAKES_PLACE_IN Arg1:T7 Arg2:T10	
+T8	TIME 322 329	с 18:00
+T9	DATE 330 352	29 августа на 15 суток
+T11	EVENT 466 492	день Военно-морского флота
+R6	TAKES_PLACE_IN Arg1:T11 Arg2:T19	
+T12	TIME 501 511	около 6:00
+T13	ORGANIZATION 532 551	Черноморского флота
+T16	ORGANIZATION 526 531	штаба
+R7	OWNERSHIP Arg1:T13 Arg2:T16	
+T17	EVENT 552 592	после удара беспилотника произошел взрыв
+R8	TAKES_PLACE_IN Arg1:T17 Arg2:T14	
+T18	QUANTITY 618 631	шесть человек
+T20	ORGANIZATION 648 667	Черноморского флота
+T21	ORGANIZATION 635 647	пресс-службе
+R9	OWNERSHIP Arg1:T20 Arg2:T21	
+T22	NEWS_SOURCE 633 680	В пресс-службе Черноморского флота рассказывали
+T23	REGION 950 957	Курская
+T24	CRIME 1092 1125	совершения террористического акта
+R10	ABBREVIATION Arg1:T40 Arg2:T41	
+T25	PERSON 1243 1252	Развожаев
+T26	NEWS_SOURCE 1243 1267	Развожаев не раз сообщал
+T27	FAC 1284 1295	система ПВО
+R11	OWNERSHIP Arg1:T45 Arg2:T27	
+T28	DATE 1383 1398	23 и 28 августа
+T29	CITY 1471 1482	Севастополя
+T30	CARDINAL 1455 1457	15
+T31	LOCATION 1464 1470	центра
+T43	FAC 1484 1495	Системы ПВО
+T44	LOCATION 1437 1452	у мыса Херсонес
+T46	LOCATION 1508 1530	в районе мыса Херсонес
+R12	HEADQUARTERED_IN Arg1:T43 Arg2:T46	

@@ -1,0 +1,37 @@
+T0	PERSON 0 7	Гозмана
+T1	DATE 32 40	15 суток
+T2	PERSON 58 73	Леонида Гозмана
+T3	GROUP 83 86	СМИ
+T4	ORGANIZATION 157 160	РБК
+T5	PROFESSION 165 172	адвокат
+T6	NEWS_SOURCE 149 187	сообщил РБК его адвокат Михаил Бирюков
+T7	PERSON 173 187	Михаил Бирюков
+T8	NEWS_SOURCE 189 202	По его словам
+T9	DATE 204 222	в настоящий момент
+T10	PERSON 223 229	Гозман
+T12	ORGANIZATION 256 259	РБК
+T15	PERSON 323 329	Гозман
+T16	DATE 346 354	15 суток
+T19	COUNTRY 408 412	СССР
+T21	COUNTRY 426 434	Германии
+T22	DATE 435 445	30 августа
+T30	EVENT 32 47	15 суток ареста
+R1	EVENT_TAKES_PART_IN Arg1:T0 Arg2:T30	
+T31	PROFESSION 49 57	Политика
+R2	WORKS_AS Arg1:T2 Arg2:T31	
+T32	PROFESSION 83 97	СМИ-иноагентом
+R3	WORKS_AS Arg1:T2 Arg2:T32	
+T33	ORGANIZATION 122 135	спецприемника
+T34	BOROUGH 138 147	Мневниках
+R4	WORKS_AS Arg1:T7 Arg2:T5	
+T11	ORGANIZATION 242 254	ОВД Тверское
+T13	NEWS_SOURCE 256 286	РБК обратился за комментариями
+T14	ORGANIZATION 313 319	ГУ МВД
+T35	ORGANIZATION 289 301	пресс-службу
+R5	OWNERSHIP Arg1:T14 Arg2:T35	
+T17	ORGANIZATION 364 376	Тверской суд
+T18	BOROUGH 364 372	Тверской
+T20	CRIME 415 425	нацистской
+T36	CRIME 393 434	отождествление СССР и нацистской Германии
+T37	EVENT 330 343	отбывал арест
+R6	EVENT_TAKES_PART_IN Arg1:T15 Arg2:T37	

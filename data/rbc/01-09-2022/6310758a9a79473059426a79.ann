@@ -1,0 +1,56 @@
+T0	PROFESSION 0 8	Эксперты
+T1	ORGANIZATION 9 15	МАГАТЭ
+T2	FAC 31 40	блокпосту
+T4	ORGANIZATION 52 56	ЗАЭС
+T5	PROFESSION 58 63	Глава
+T6	ORGANIZATION 64 70	МАГАТЭ
+T7	PERSON 71 85	Рафаэль Гросси
+T8	EVENT 102 112	переговоры
+T9	COUNTRY 115 126	украинскими
+T10	PROFESSION 127 135	военными
+T11	GROUP 155 164	делегации
+T12	FAC 168 183	Запорожскую АЭС
+T13	NEWS_SOURCE 185 201	передает Reuters
+T14	ORGANIZATION 194 201	Reuters
+T15	NEWS_SOURCE 243 256	По его словам
+T16	PROFESSION 258 266	эксперты
+T18	TIME 291 302	на три часа
+T19	COUNTRY 334 341	Украине
+T20	ORGANIZATION 354 371	Минобороны России
+T21	NEWS_SOURCE 354 380	Минобороны России сообщило
+T22	COUNTRY 386 396	российская
+T24	ORGANIZATION 444 450	МАГАТЭ
+T25	COUNTRY 523 532	киевского
+T26	GROUP 562 571	экспертов
+T27	ORGANIZATION 576 585	ведомстве
+T28	FAC 620 623	АЭС
+T29	ORGANIZATION 670 687	Интерфакс-Украина
+T30	NEWS_SOURCE 660 702	Источник «Интерфакс-Украина» ранее сообщил
+T32	GROUP 708 716	эксперты
+T37	NEWS_SOURCE 787 800	По его словам
+T38	VEHICLE 811 818	колонны
+T40	PROFESSION 895 915	член главного совета
+T45	COUNTRY 964 971	Россией
+T46	REGION 978 997	Запорожской области
+T48	PERSON 998 1012	Владимир Рогов
+R1	WORKPLACE Arg1:T0 Arg2:T1	
+R3	WORKPLACE Arg1:T7 Arg2:T6	
+R4	WORKS_AS Arg1:T7 Arg2:T5	
+R2	WORKPLACE Arg1:T10 Arg2:T9	
+R5	EVENT_TAKES_PART_IN Arg1:T7 Arg2:T8	
+R6	EVENT_TAKES_PART_IN Arg1:T9 Arg2:T8	
+T3	ORGANIZATION 267 276	агентства
+T17	FAC 306 315	блокпосту
+R7	HEADQUARTERED_IN Arg1:T17 Arg2:T19	
+R8	WORKPLACE Arg1:T26 Arg2:T24	
+T23	NEWS_SOURCE 574 594	В ведомстве добавили
+T31	FAC 742 763	КПП Новоалександровка
+T33	REGION 766 785	Запорожской области
+R9	HEADQUARTERED_IN Arg1:T31 Arg2:T33	
+T34	NEWS_SOURCE 887 948	сообщил член главного совета военно-гражданской администрации
+T35	ORGANIZATION 916 948	военно-гражданской администрации
+R10	WORKPLACE Arg1:T40 Arg2:T35	
+R11	OWNERSHIP Arg1:T45 Arg2:T35	
+R12	WORKPLACE Arg1:T48 Arg2:T46	
+R13	WORKPLACE Arg1:T48 Arg2:T35	
+R14	WORKS_AS Arg1:T48 Arg2:T40	

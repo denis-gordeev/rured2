@@ -1,0 +1,47 @@
+T0	PERSON 0 5	Путин
+T1	ORGANIZATION 44 59	парламентаризма
+T2	PROFESSION 62 71	Президент
+T3	PERSON 72 86	Владимир Путин
+T4	PROFESSION 96 104	сенатора
+T5	PERSON 105 119	Андрея Клишаса
+T6	ORGANIZATION 146 156	Отечеством
+T7	NEWS_SOURCE 207 214	портале
+T8	NEWS_SOURCE 224 234	информации
+T9	GROUP 248 253	вклад
+T10	ECONOMIC_SECTOR 256 264	развитие
+T11	ORGANIZATION 265 280	парламентаризма
+T12	PERSON 368 397	Клишаса Андрея Александровича
+T13	NEWS_SOURCE 383 397	Александровича
+T14	NEWS_SOURCE 402 423	говорится в документе
+T15	PERSON 425 431	Клишас
+T16	PROFESSION 441 454	председателем
+T17	ORGANIZATION 455 536	комитета Совета Федерации по конституционному законодательству и государственному
+T18	INVESTMENT_PROGRAM 537 550	строительству
+T19	GROUP 560 574	представителем
+T20	GROUP 578 600	исполнительного органа
+T21	ORGANIZATION 601 616	государственной
+T22	GROUP 617 623	власти
+T23	REGION 624 642	Красноярского края
+T24	NEWS_SOURCE 645 681	Согласно информации на сайте Совфеда
+T25	ORGANIZATION 674 681	Совфеда
+T26	DATE 712 738	в сентябре следующего года
+T27	DATE 754 765	в 2012 году
+T28	PROFESSION 773 784	президентом
+T29	ORGANIZATION 786 796	Норникеля»
+T30	ORGANIZATION 809 838	Норильского городского совета
+T31	PROFESSION 839 848	депутатов
+T32	ORGANIZATION 849 867	Красноярского края
+T33	PERSON 898 904	Клишас
+T34	PROFESSION 919 927	орденами
+T35	FAC 928 934	Дружбы
+T36	PERSON 936 955	Александра Невского
+T37	PERSON 988 990	II
+T38	DATE 1002 1008	в 2013
+T39	PERSON 1009 1010	м
+T40	PROFESSION 1032 1049	Заслуженный юрист
+T41	COUNTRY 1050 1060	Российской
+T42	ORGANIZATION 1061 1070	Федерации
+T43	CITY 1139 1142	Sep
+T44	DATE 1143 1147	2022
+T45	CARDINAL 1148 1150	18
+T46	CARDINAL 1157 1158	+

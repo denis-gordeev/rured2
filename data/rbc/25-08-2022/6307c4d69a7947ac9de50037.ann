@@ -1,0 +1,54 @@
+T0	CITY 2 10	Феодосии
+T1	FAC 11 18	автобус
+T3	QUANTITY 39 51	пять человек
+T5	FAC 119 130	автостанции
+T7	ORGANIZATION 162 173	прокуратуры
+T8	NEWS_SOURCE 140 179	сообщила пресс-служба прокуратуры Крыма
+T9	REGION 174 179	Крыма
+T10	FAC 181 188	Автобус
+T11	CITY 197 207	Краснодара
+T12	CITY 210 219	Евпаторию
+T15	QUANTITY 304 316	пять человек
+T16	ORGANIZATION 328 340	РИА Новости»
+T17	NEWS_SOURCE 318 376	передает «РИА Новости» со ссылкой на региональный минздрав
+T18	ORGANIZATION 368 376	минздрав
+T22	CARDINAL 460 464	трое
+T23	ORDINAL 502 508	пятого
+T24	NEWS_SOURCE 546 569	сообщили в министерстве
+T25	ORGANIZATION 557 569	министерстве
+T26	PROFESSION 589 597	водителя
+T32	FAC 867 874	автобус
+T37	ORGANIZATION 1033 1036	РБК
+T39	NEWS_SOURCE 1023 1070	рассказал РБК житель Феодосии Александр Туренко
+T41	ORGANIZATION 1073 1076	РБК
+T45	REGION 1220 1225	Крыма
+T56	FAC 28 37	остановку
+T2	CITY 66 74	Феодосии
+T4	FAC 89 96	автобус
+T57	FAC 106 115	остановку
+R1	HEADQUARTERED_IN Arg1:T7 Arg2:T9	
+T6	ORGANIZATION 149 161	пресс-служба
+R2	OWNERSHIP Arg1:T7 Arg2:T6	
+T13	TIME 238 249	около 20:00
+T14	FAC 251 257	машина
+T58	FAC 268 277	остановку
+T59	CRIME 251 291	машина въехала в остановку и сбила людей
+T19	FAC 393 423	Феодосийский медицинский центр
+T20	QUANTITY 426 438	Один человек
+T21	TIME 645 657	за 30 секунд
+T27	FAC 720 729	остановки
+T28	FAC 757 767	остановкой
+T29	ORDINAL 841 847	первая
+T30	QUANTITY 978 997	с десятью мужчинами
+T31	FAC 1009 1018	остановку
+T33	PERSON 1053 1070	Александр Туренко
+T34	CITY 1044 1052	Феодосии
+R3	PLACE_RESIDES_IN Arg1:T33 Arg2:T34	
+T35	ORGANIZATION 1118 1139	правительства региона
+T36	ORGANIZATION 1103 1117	в пресс-службу
+R4	OWNERSHIP Arg1:T35 Arg2:T36	
+T38	ORGANIZATION 1141 1152	Прокуратура
+T40	PROFESSION 1211 1219	прокурор
+T42	PERSON 1226 1239	Олег Камшилов
+R5	WORKPLACE Arg1:T42 Arg2:T45	
+R6	WORKS_AS Arg1:T42 Arg2:T40	

@@ -1,0 +1,60 @@
+T0	NORP 5 12	россиян
+T1	LOCATION 23 32	акватории
+T2	CITY 33 38	Гагры
+T3	COUNTRY 41 48	Абхазии
+T4	CARDINAL 50 54	Двое
+T5	COUNTRY 55 65	российских
+T6	GROUP 66 74	туристов
+T7	LOCATION 85 89	море
+T11	COUNTRY 135 142	Абхазии
+T14	REGION 156 173	Тюменской области
+T15	PERSON 174 201	Корнейчук Виктор Викторович
+T18	DATE 258 276	1985 года рождения
+T19	NORP 293 300	россиян
+T20	NEWS_SOURCE 321 342	говорится в сообщении
+T21	ORGANIZATION 346 355	ведомстве
+T22	NEWS_SOURCE 344 370	В ведомстве также сообщили
+T24	GROUP 391 401	сотрудники
+T25	ORGANIZATION 402 405	МЧС
+T26	CARDINAL 417 423	одного
+T27	NORP 424 434	россиянина
+T29	CITY 444 447	Уфы
+T32	DATE 526 533	12 июня
+T33	REGION 536 541	Крыму
+T34	BOROUGH 544 551	Сакском
+T35	CARDINAL 559 563	двух
+T36	LOCATION 588 592	море
+T39	AGE 642 652	пятилетнюю
+T41	AGE 663 677	четырехлетнего
+T44	CARDINAL 713 718	одном
+T45	LOCATION 722 728	пляжей
+T49	ORGANIZATION 810 841	Следственный комитет по региону
+T50	GROUP 854 858	дети
+T54	CARDINAL 950 954	двум
+T61	CARDINAL 0 4	Двое
+R1	OWNERSHIP Arg1:T3 Arg2:T2	
+R2	ORIGINS_FROM Arg1:T6 Arg2:T5	
+T8	LOCATION 90 101	в акватории
+T62	CITY 102 107	Гагры
+T10	ORGANIZATION 131 134	МЧС
+T9	ORGANIZATION 118 130	пресс-служба
+R3	OWNERSHIP Arg1:T10 Arg2:T9	
+R4	OWNERSHIP Arg1:T11 Arg2:T10	
+T63	NEWS_SOURCE 109 142	передает пресс-служба МЧС Абхазии
+R5	PLACE_RESIDES_IN Arg1:T15 Arg2:T14	
+T12	PERSON 233 256	Бабич Владислав Юрьевич
+T13	CITY 225 232	москвич
+R6	PLACE_RESIDES_IN Arg1:T12 Arg2:T13	
+T16	DATE 203 221	1992 года рождения
+R7	WORKPLACE Arg1:T24 Arg2:T25	
+T17	PERSON 448 460	А. Банникова
+R8	PLACE_RESIDES_IN Arg1:T17 Arg2:T29	
+T23	DISEASE 488 523	в состоянии средней степени тяжести
+T28	GROUP 564 569	детей
+T30	ORGANIZATION 614 627	В прокуратуре
+T31	NEWS_SOURCE 614 636	В прокуратуре сообщили
+T37	VILLAGE 743 775	Штормовского сельского поселения
+T38	EVENT 687 709	унесло в открытое море
+R9	TAKES_PLACE_IN Arg1:T38 Arg2:T37	
+T40	NEWS_SOURCE 810 848	Следственный комитет по региону заявил
+T42	LAW 879 969	уголовное дело по ч. 3 ст. 109 УК (причинение смерти по неосторожности двум и более лицам)

@@ -1,0 +1,90 @@
+T0	CITY 2 11	Бердянске
+T1	PRODUCT 65 71	ракеты
+T4	LOCATION 127 136	побережье
+T5	CITY 139 148	Бердянске
+T12	INVESTMENT_PROGRAM 255 274	Запорожской области
+T13	PERSON 275 289	Владимир Рогов
+T14	CITY 294 303	Бердянске
+T15	PROFESSION 304 315	полицейские
+T16	PRODUCT 375 381	ракеты
+T17	NEWS_SOURCE 451 472	говорится в сообщении
+T21	PERSON 507 513	Рогова
+T22	CARDINAL 525 528	два
+T26	LOCATION 621 626	пляже
+T27	LOCATION 629 633	моря
+T28	CITY 636 644	Бердянск
+T31	COUNTRY 688 695	Украины
+T34	CITY 738 748	Мелитополя
+T35	CARDINAL 753 755	70
+T38	CITY 771 780	Мариуполя
+T39	DATE 799 813	в прошлом году
+T42	COUNTRY 843 853	Российское
+T44	DATE 890 900	27 февраля
+T47	ORGANIZATION 960 963	ВГА
+T48	REGION 965 984	Запорожской области
+T50	CARDINAL 996 1000	двух
+T51	CITY 1011 1021	Мелитополе
+T52	DATE 1175 1192	в ближайшее время
+T54	NEWS_SOURCE 1203 1229	Минобороны России сообщало
+T55	ORGANIZATION 1243 1246	ВСУ
+T56	REGION 1249 1260	Харьковской
+T58	REGION 1292 1311	Запорожской области
+T59	VILLAGE 1358 1369	Новоселовки
+T60	VILLAGE 1371 1381	Камышевахе
+T61	VILLAGE 1384 1394	Доброполье
+T62	CARDINAL 1408 1413	до 70
+T63	COUNTRY 1414 1424	украинских
+T64	PROFESSION 1425 1439	военнослужащих
+T66	PRODUCT 1454 1469	военной техники
+T71	CARDINAL 1542 1571	6323224c9a79477695498fe5
+
+Thu
+T2	PRODUCT 96 112	ракету «Точка-У»
+T3	ORGANIZATION 165 173	полицией
+T77	PROFESSION 176 191	взрывотехниками
+T8	ORGANIZATION 222 254	военно-гражданской администрации
+T6	ORGANIZATION 206 221	главного совета
+R1	OWNERSHIP Arg1:T8 Arg2:T6	
+R2	WORKPLACE Arg1:T13 Arg2:T6	
+T7	NEWS_SOURCE 193 289	сообщил член главного совета военно-гражданской администрации Запорожской области Владимир Рогов
+R3	OWNERSHIP Arg1:T5 Arg2:T4	
+R4	HEADQUARTERED_IN Arg1:T3 Arg2:T5	
+R5	WORKPLACE Arg1:T77 Arg2:T5	
+R6	WORKPLACE Arg1:T15 Arg2:T14	
+T9	PROFESSION 400 414	взрывотехников
+R7	WORKPLACE Arg1:T9 Arg2:T14	
+T10	NEWS_SOURCE 474 518	На размещенных в телеграм-канале Рогова фото
+T11	PRODUCT 590 606	ракеты «Точка-У»
+T18	REGION 668 687	Запорожской области
+T19	LOCATION 653 667	на юго-востоке
+T20	CARDINAL 718 721	110
+T23	LOCATION 725 734	к востоку
+T24	LOCATION 759 767	к западу
+T25	QUANTITY 825 841	110 тыс. человек
+T29	ORGANIZATION 854 864	Минобороны
+R8	OWNERSHIP Arg1:T42 Arg2:T29	
+T30	NEWS_SOURCE 843 873	Российское Минобороны сообщило
+T32	EVENT 876 889	взятии города
+R9	DATE_TAKES_PLACE_ON Arg1:T32 Arg2:T44	
+T33	ORGANIZATION 926 958	военно-гражданской администрации
+R10	ABBREVIATION Arg1:T33 Arg2:T47	
+T36	NEWS_SOURCE 910 993	в пророссийской военно-гражданской администрации (ВГА) Запорожской области сообщили
+T37	EVENT 1001 1008	взрывах
+R11	TAKES_PLACE_IN Arg1:T37 Arg2:T51	
+T40	GROUP 1029 1035	власти
+T41	PROFESSION 1054 1060	саперы
+T43	DATE 1194 1202	Накануне
+T45	ORGANIZATION 1203 1213	Минобороны
+T46	COUNTRY 1214 1220	России
+R12	OWNERSHIP Arg1:T46 Arg2:T45	
+T49	REGION 1263 1283	Запорожской областях
+T53	ORGANIZATION 1344 1347	ВСУ
+T57	EVENT 1312 1331	удары были нанесены
+R13	TAKES_PLACE_IN Arg1:T57 Arg2:T59	
+R14	TAKES_PLACE_IN Arg1:T57 Arg2:T60	
+R15	TAKES_PLACE_IN Arg1:T57 Arg2:T61	
+R16	WORKPLACE Arg1:T64 Arg2:T63	
+T65	CARDINAL 1442 1446	пять
+R17	USES Arg1:T63 Arg2:T66	
+T67	ORGANIZATION 1483 1500	военное ведомство
+T68	NEWS_SOURCE 1474 1500	сообщило военное ведомство

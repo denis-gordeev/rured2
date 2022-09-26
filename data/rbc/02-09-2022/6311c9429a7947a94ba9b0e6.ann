@@ -1,0 +1,43 @@
+T0	NEWS_SOURCE 0 12	Шойгу заявил
+T1	COUNTRY 23 30	Украины
+T2	COUNTRY 82 93	украинского
+T5	PROFESSION 199 214	министр обороны
+T6	NEWS_SOURCE 192 227	заявил министр обороны Сергей Шойгу
+T7	PERSON 215 227	Сергей Шойгу
+T8	EVENT 231 252	селекторном совещании
+T9	NEWS_SOURCE 254 266	Шойгу заявил
+T10	PERSON 312 322	Зеленского
+T11	GPE 357 365	западных
+T12	PROFESSION 366 375	кураторов
+T13	COUNTRY 397 407	украинских
+T14	PROFESSION 408 415	военных
+T15	NEWS_SOURCE 435 450	По словам Шойгу
+T16	PERSON 445 450	Шойгу
+T17	DATE 452 461	в августе
+T19	COUNTRY 462 472	российские
+T20	ORGANIZATION 473 477	силы
+T26	PRODUCT 571 590	тяжелого вооружения
+T28	PRODUCT 593 614	артиллерийских систем
+T30	GPE 627 636	западного
+T39	PERSON 0 5	Шойгу
+T40	EVENT 35 59	попытке контрнаступления
+R1	TAKES_PLACE_IN Arg1:T40 Arg2:T1	
+T41	EVENT 74 105	попытка украинского наступления
+T3	LOCATION 109 131	николаево-криворожском
+R2	WORKS_AS Arg1:T7 Arg2:T5	
+R3	EVENT_TAKES_PART_IN Arg1:T7 Arg2:T8	
+T4	PERSON 254 259	Шойгу
+T42	ORGANIZATION 305 311	офисом
+T43	EVENT 272 291	попытки наступления
+R4	WORKPLACE Arg1:T12 Arg2:T11	
+R5	WORKPLACE Arg1:T14 Arg2:T13	
+R6	ORGANIZES Arg1:T13 Arg2:T43	
+R7	ORGANIZES Arg1:T10 Arg2:T43	
+R8	OWNERSHIP Arg1:T19 Arg2:T20	
+T18	CARDINAL 487 490	174
+T21	ORGANIZATION 509 512	ВСУ
+T22	FAC 491 508	пункта управления
+R9	OWNERSHIP Arg1:T21 Arg2:T22	
+T23	CARDINAL 559 562	601
+R10	USES Arg1:T21 Arg2:T26	
+R11	USES Arg1:T21 Arg2:T28	

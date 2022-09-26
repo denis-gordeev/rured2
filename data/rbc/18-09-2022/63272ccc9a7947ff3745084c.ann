@@ -1,0 +1,74 @@
+T0	LOCATION 9 23	северо-востоке
+T1	CITY 24 30	Москвы
+T2	CARDINAL 42 47	шесть
+T3	GROUP 48 53	детей
+T4	CARDINAL 56 60	один
+T7	CITY 99 105	Москве
+T13	CARDINAL 181 185	семь
+T14	CARDINAL 195 202	шестеро
+T15	ORGANIZATION 225 228	РБК
+T19	DATE 268 275	Сегодня
+T20	TIME 276 287	около 12:35
+T25	CARDINAL 328 329	9
+T28	PROFESSION 351 359	водитель
+T30	VEHICLE 360 377	автомобиля BMW X5
+T34	CARDINAL 517 521	один
+T35	CARDINAL 533 540	шестеро
+T37	NEWS_SOURCE 654 675	говорится в сообщении
+T38	PROFESSION 677 687	Сотрудники
+T39	ORGANIZATION 688 693	ГИБДД
+T40	ORGANIZATION 788 791	МВД
+T41	PROFESSION 803 816	представителя
+T43	REGION 935 949	Алтайском крае
+T50	QUANTITY 1061 1073	пять человек
+T51	BOROUGH 1091 1098	Бийском
+T55	EVENT 1145 1151	аварии
+T59	PROFESSION 1170 1178	водитель
+T62	VEHICLE 1179 1199	легкового автомобиля
+T63	CARDINAL 1202 1209	четверо
+T64	GROUP 1210 1215	детей
+T65	AGE 1216 1220	трех
+T66	AGE 1222 1226	семи
+T67	AGE 1228 1230	15
+T68	AGE 1233 1239	16 лет
+T79	EVENT 2 5	ДТП
+R1	TAKES_PLACE_IN Arg1:T79 Arg2:T1	
+T5	LOCATION 71 96	На Северо-Восточной хорде
+T6	VEHICLE 106 123	автомобиль BMW X5
+T8	VEHICLE 137 150	Ford Explorer
+T9	GROUP 210 214	дети
+T10	ORGANIZATION 262 265	МВД
+T11	ORGANIZATION 244 261	столичного главка
+T12	ORGANIZATION 231 243	пресс-службе
+R3	OWNERSHIP Arg1:T11 Arg2:T12	
+R4	OWNERSHIP Arg1:T10 Arg2:T11	
+T16	NEWS_SOURCE 216 265	сообщили РБК в пресс-службе столичного главка МВД
+T17	LOCATION 288 313	на Северо-Восточной хорде
+R2	OWNERSHIP Arg1:T7 Arg2:T5	
+T18	STREET 337 350	Яузская аллея
+T21	VEHICLE 429 464	транспортное средство Ford Explorer
+T22	EVENT 378 392	совершил наезд
+T23	NEWS_SOURCE 466 495	По предварительной информации
+T24	EVENT 510 516	аварии
+T26	GROUP 541 567	несовершеннолетних граждан
+T27	DISEASE 568 604	с травмами различной степени тяжести
+T29	FAC 613 626	скорой помощи
+R5	WORKPLACE Arg1:T38 Arg2:T39	
+T31	EVENT 761 764	ДТП
+T32	NEWS_SOURCE 777 791	добавили в МВД
+T33	ORGANIZATION 817 823	главка
+R6	WORKPLACE Arg1:T41 Arg2:T33	
+T36	NEWS_SOURCE 793 823	По словам представителя главка
+T80	GROUP 825 829	дети
+T81	DISEASE 830 852	получили легкие травмы
+T42	TIME 914 921	Вечером
+T82	DATE 922 932	5 сентября
+T44	VEHICLE 962 995	легковой автомобиль Honda Stepwgn
+T45	VEHICLE 998 1033	бензовоз DAF с прицепом «Озгул Т22»
+T46	EVENT 1075 1078	ДТП
+T47	LOCATION 1119 1141	трассы «Чуйский тракт»
+T48	ORDINAL 1107 1115	на 377-м
+R7	TAKES_PLACE_IN Arg1:T46 Arg2:T51	
+T49	AGE 1160 1169	35-летняя
+T52	PROFESSION 1241 1249	водитель
+T53	VEHICLE 1250 1259	бензовоза

@@ -1,0 +1,41 @@
+T0	GROUP 0 13	Страны Балтии
+T2	NORP 29 38	россиянам
+T3	DATE 39 52	с 19 сентября
+T4	COUNTRY 54 61	Эстония
+T5	DATE 62 75	с 19 сентября
+T6	NORP 104 111	россиян
+T10	PROFESSION 170 193	министр иностранных дел
+T14	COUNTRY 227 234	Эстонии
+T19	COUNTRY 360 367	Эстонию
+T20	COUNTRY 413 433	Российской Федерации
+T22	NEWS_SOURCE 495 510	сказал Рейнсалу
+T23	PERSON 502 510	Рейнсалу
+T24	NEWS_SOURCE 512 522	Он уточнил
+T25	COUNTRY 594 601	Эстонию
+T27	PROFESSION 633 638	глава
+T28	ORGANIZATION 639 643	МИДа
+T1	GPE 7 13	Балтии
+T34	EVENT 14 38	запретят въезд россиянам
+R1	DATE_TAKES_PLACE_ON Arg1:T34 Arg2:T3	
+R2	ORGANIZES Arg1:T0 Arg2:T34	
+T35	EVENT 76 99	запретит въезд в страну
+R3	ORGANIZES Arg1:T4 Arg2:T35	
+R4	DATE_TAKES_PLACE_ON Arg1:T35 Arg2:T5	
+T7	PERSON 194 208	Урмас Рейнсалу
+R5	WORKS_AS Arg1:T7 Arg2:T10	
+R6	PLACE_RESIDES_IN Arg1:T7 Arg2:T4	
+T8	NEWS_SOURCE 163 222	заявил министр иностранных дел Урмас Рейнсалу, сообщает ERR
+T9	TIME 297 302	Ночью
+T11	DATE 303 322	с 18 на 19 сентября
+T12	EVENT 342 357	запрет на въезд
+R7	DATE_TAKES_PLACE_ON Arg1:T12 Arg2:T11	
+T13	GROUP 405 412	граждан
+R8	ORIGINS_FROM Arg1:T13 Arg2:T20	
+R9	TAKES_PLACE_IN Arg1:T12 Arg2:T19	
+T15	GROUP 528 549	другие страны региона
+R10	ORGANIZES Arg1:T15 Arg2:T12	
+R11	WORKPLACE Arg1:T27 Arg2:T28	
+T16	NEWS_SOURCE 625 643	добавил глава МИДа
+R12	WORKPLACE Arg1:T23 Arg2:T25	
+T17	DATE 733 749	Thu, 08 Sep 2022
+T18	TIME 750 758	13:33:09

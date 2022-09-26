@@ -1,0 +1,41 @@
+T2	PROFESSION 42 51	премьером
+T3	COUNTRY 52 58	Сербии
+T4	PROFESSION 60 69	Президент
+T5	COUNTRY 70 76	Сербии
+T6	PERSON 77 92	Александр Вучич
+T15	PERSON 249 252	Ана
+T20	DATE 280 291	четыре года
+T21	DATE 317 328	в 2024 году
+T22	ORGANIZATION 331 344	правительстве
+T23	NEWS_SOURCE 370 382	сказал Вучич
+T24	PROFESSION 384 393	Кандидаты
+T25	PROFESSION 402 428	председателя правительства
+T29	PERSON 468 479	Ивица Дачич
+T33	PROFESSION 530 545	вице-премьерами
+T36	PROFESSION 621 634	координатором
+T37	ORGANIZATION 635 654	службы безопасности
+T38	NEWS_SOURCE 659 671	сказал Вучич
+T48	PERSON 0 5	Вучич
+T1	PERSON 30 41	Ану Брнабич
+R1	WORKPLACE Arg1:T2 Arg2:T3	
+R2	WORKS_AS Arg1:T6 Arg2:T4	
+R3	WORKPLACE Arg1:T6 Arg2:T5	
+T49	ORGANIZATION 103 113	парламенту
+T7	PERSON 141 152	Аны Брнабич
+T8	PROFESSION 162 178	премьер-министра
+R4	WORKS_AS Arg1:T7 Arg2:T8	
+R5	WORKPLACE Arg1:T7 Arg2:T5	
+T9	NEWS_SOURCE 191 246	заявил в ходе телеобращения, передает газета «Политика»
+T10	PROFESSION 262 279	премьер-министром
+R6	WORKS_AS Arg1:T15 Arg2:T10	
+T11	PERSON 429 442	Милош Вучевич
+T12	ORGANIZATION 444 464	Прогрессивная партия
+T13	ORGANIZATION 481 504	Социалистическая партия
+T14	ORGANIZATION 521 529	кабинете
+R7	WORKPLACE Arg1:T33 Arg2:T14	
+T16	PERSON 548 553	Дачич
+T17	PROFESSION 569 581	министерской
+T18	PROFESSION 594 607	вице-премьера
+R8	WORKPLACE Arg1:T36 Arg2:T37	
+R9	WORKS_AS Arg1:T16 Arg2:T18	
+R10	WORKS_AS Arg1:T16 Arg2:T36	

@@ -1,0 +1,73 @@
+T0	PROFESSION 0 11	Телеведущая
+T1	PERSON 12 23	Барановская
+T2	CITY 45 52	Донецке
+T3	PERSON 54 70	Юлия Барановская
+T4	CITY 92 99	Донецке
+T7	GPE 146 154	Донбасса
+T8	ORGANIZATION 165 168	РБК
+T11	NEWS_SOURCE 157 206	сообщил РБК PR-директор телеведущей Петро Шекшеев
+T14	FAC 234 252	гостиницу Park Inn
+T15	PERSON 269 280	Барановская
+T19	CARDINAL 322 325	два
+T20	FAC 345 357	с гостиницей
+T21	CARDINAL 360 363	два
+T22	TIME 428 443	больше 40 минут
+T23	PROFESSION 467 474	военные
+T25	FAC 556 562	машины
+T27	NEWS_SOURCE 584 598	сказал Шекшеев
+T28	PERSON 591 598	Шекшеев
+T30	PROFESSION 613 624	телеведущая
+T31	FAC 645 654	гостиницы
+T33	FAC 686 694	Park Inn
+T35	FAC 773 793	зданий администраций
+T36	FAC 802 811	гостинице
+T37	COUNTRY 839 849	российские
+T38	PROFESSION 850 860	журналисты
+T39	PROFESSION 863 871	депутаты
+T40	NEWS_SOURCE 915 935	написала Барановская
+T41	PERSON 924 935	Барановская
+T46	GPE 987 995	Донбасса
+T47	PERSON 997 1013	Юлия Барановская
+T48	CARDINAL 1031 1033	30
+T49	GROUP 1034 1040	женщин
+T50	GPE 1056 1064	Донбассе
+T51	ORDINAL 1066 1072	Первое
+T52	NEWS_SOURCE 1073 1078	видео
+T53	NEWS_SOURCE 1084 1118	опубликовано на сайте и в соцсетях
+T55	DATE 1127 1136	4 августа
+T56	CARDINAL 1161 1166	шесть
+T58	GROUP 1182 1194	жительницами
+T59	CITY 1195 1202	Донецка
+T60	CITY 1204 1215	Докучаевска
+T61	CITY 1217 1225	Макеевки
+T71	EVENT 24 42	попала под обстрел
+R1	WORKS_AS Arg1:T1 Arg2:T0	
+R2	TAKES_PLACE_IN Arg1:T71 Arg2:T2	
+T72	EVENT 71 89	попала под обстрел
+R3	TAKES_PLACE_IN Arg1:T72 Arg2:T4	
+R4	WORKPLACE Arg1:T3 Arg2:T4	
+T5	EVENT 109 156	участвует в съемках проекта «Женщины Донбасса»,
+T6	GROUP 138 145	Женщины
+R5	ORIGINS_FROM Arg1:T6 Arg2:T7	
+T10	PROFESSION 169 180	PR-директор
+T73	PROFESSION 181 192	телеведущей
+T9	PERSON 193 206	Петро Шекшеев
+R6	WORKS_AS Arg1:T9 Arg2:T10	
+T12	DATE 209 222	Сегодня ночью
+R7	USES Arg1:T15 Arg2:T14	
+T13	TIME 299 316	в районе 4–5 утра
+T16	PERSON 510 513	Юля
+T17	GROUP 634 644	постояльцы
+R8	USES Arg1:T17 Arg2:T31	
+R9	WORKS_AS Arg1:T16 Arg2:T30	
+R10	WORKPLACE Arg1:T38 Arg2:T37	
+R11	WORKPLACE Arg1:T39 Arg2:T37	
+T18	NEWS_SOURCE 915 959	написала Барановская в своем Telegram-канале
+T24	GROUP 979 986	Женщины
+R12	ORIGINS_FROM Arg1:T24 Arg2:T46	
+T26	NEWS_SOURCE 997 1028	Юлия Барановская берет интервью
+T29	NEWS_SOURCE 1144 1179	опубликованы уже шесть видеороликов
+R13	ORIGINS_FROM Arg1:T58 Arg2:T59	
+R14	ORIGINS_FROM Arg1:T58 Arg2:T60	
+R15	ORIGINS_FROM Arg1:T58 Arg2:T61	
+T32	NEWS_SOURCE 1233 1249	на сайте проекта

@@ -1,0 +1,59 @@
+T2	ORGANIZATION 18 21	ВГА
+T3	PERSON 31 37	Путина
+T4	EVENT 60 71	референдума
+T5	PROFESSION 73 78	Глава
+T8	REGION 112 131	Запорожской области
+T9	PERSON 132 148	Евгений Балицкий
+T10	PROFESSION 158 168	президента
+T11	PERSON 169 185	Владимира Путина
+T13	COUNTRY 257 263	России
+T14	NEWS_SOURCE 276 307	сообщил в своем Telegram-канале
+T15	PROFESSION 322 332	президенту
+T18	PERSON 354 384	Владимиру Владимировичу Путину
+T19	REGION 418 437	Запорожской области
+T20	EVENT 475 486	референдуме
+T24	COUNTRY 617 623	России
+T27	PERSON 690 699	Балицкого
+T28	DATE 701 712	20 сентября
+T29	COUNTRY 748 755	Россией
+T30	PERSON 767 776	Балицкого
+T31	EVENT 803 813	референдум
+T33	COUNTRY 871 882	российскими
+T34	PROFESSION 883 891	войсками
+T35	COUNTRY 902 908	России
+T36	DATE 910 927	На следующий день
+T37	PERSON 928 933	Путин
+T38	NEWS_SOURCE 928 940	Путин заявил
+T39	COUNTRY 946 952	Россия
+T40	GPE 979 987	Донбасса
+T41	REGION 997 1007	Херсонской
+T42	REGION 1010 1030	Запорожской областей
+T43	NEWS_SOURCE 1133 1149	сказал президент
+T44	PROFESSION 1140 1149	президент
+T1	PROFESSION 0 5	Глава
+T52	REGION 6 17	Запорожской
+R1	HEADQUARTERED_IN Arg1:T2 Arg2:T52	
+R2	WORKPLACE Arg1:T1 Arg2:T2	
+T6	ORGANIZATION 79 111	военно-гражданской администрации
+R3	WORKPLACE Arg1:T9 Arg2:T6	
+R4	WORKS_AS Arg1:T9 Arg2:T5	
+R5	WORKS_AS Arg1:T11 Arg2:T10	
+T7	GROUP 205 220	жителей региона
+T12	EVENT 224 235	референдуме
+R6	EVENT_TAKES_PART_IN Arg1:T7 Arg2:T12	
+T16	COUNTRY 333 353	Российской Федерации
+R7	WORKPLACE Arg1:T18 Arg2:T16	
+R8	WORKS_AS Arg1:T18 Arg2:T15	
+T17	GROUP 411 417	жители
+R9	WORKPLACE Arg1:T17 Arg2:T19	
+R10	TAKES_PLACE_IN Arg1:T20 Arg2:T19	
+T21	REGION 519 538	Запорожской области
+T22	REGION 588 607	Запорожской области
+T23	COUNTRY 643 663	Российской Федерации
+T25	NEWS_SOURCE 668 699	говорится в заявлении Балицкого
+T26	ORGANIZATION 713 756	общественное движение «Мы вместе с Россией»
+T32	REGION 826 845	Запорожской области
+R11	WORKPLACE Arg1:T34 Arg2:T33	
+R12	TAKES_PLACE_IN Arg1:T31 Arg2:T32	
+T53	GROUP 971 978	жителей
+R13	ORIGINS_FROM Arg1:T53 Arg2:T40	

@@ -1,0 +1,60 @@
+T0	PROFESSION 0 5	Главы
+T3	COUNTRY 55 62	Украине
+T4	DATE 63 72	в октябре
+T5	PROFESSION 74 98	Министры иностранных дел
+T6	GROUP 99 104	стран
+T7	ORGANIZATION 105 114	Евросоюза
+T8	COUNTRY 167 174	Украине
+T10	PROFESSION 184 189	глава
+T12	GPE 190 201	европейской
+T13	PROFESSION 202 212	дипломатии
+T15	PERSON 213 226	Жозеп Боррель
+T16	EVENT 230 238	брифинге
+T20	ORGANIZATION 324 333	Евросоюзе
+T24	DATE 397 406	в октябре
+T25	GPE 455 466	европейских
+T26	NEWS_SOURCE 482 496	сказал Боррель
+T27	NORP 555 563	украинцы
+T28	ORGANIZATION 662 664	ЕС
+T29	DATE 667 682	В конце августа
+T30	PERSON 683 690	Боррель
+T31	NEWS_SOURCE 683 697	Боррель сказал
+T33	COUNTRY 803 813	украинских
+T36	COUNTRY 887 894	Украины
+T38	ORGANIZATION 974 976	ЕС
+T42	COUNTRY 1019 1029	украинские
+T44	COUNTRY 1075 1082	Франция
+T45	COUNTRY 1084 1089	Чехия
+T46	COUNTRY 1091 1097	Польша
+T47	COUNTRY 1100 1114	Великобритания
+T49	GPE 1124 1129	Киеву
+T1	ORGANIZATION 6 9	МИД
+T57	ORGANIZATION 10 12	ЕС
+R1	WORKPLACE Arg1:T0 Arg2:T1	
+T2	EVENT 40 54	военной помощи
+R2	TAKES_PLACE_IN Arg1:T2 Arg2:T3	
+R3	MEMBER Arg1:T6 Arg2:T7	
+T58	EVENT 124 174	создание миссии по оказанию военной помощи Украине
+R4	TAKES_PLACE_IN Arg1:T58 Arg2:T7	
+R5	WORKS_AS Arg1:T15 Arg2:T10	
+R6	WORKS_AS Arg1:T15 Arg2:T13	
+T9	NEWS_SOURCE 176 264	сообщил глава европейской дипломатии Жозеп Боррель на брифинге, трансляция шла в Twitter
+T11	EVENT 334 358	миссии по военной помощи
+R7	ORGANIZES Arg1:T20 Arg2:T11	
+T14	EVENT 379 396	следующей встрече
+R8	DATE_TAKES_PLACE_ON Arg1:T14 Arg2:T24	
+T17	PERSON 489 496	Боррель
+T18	EVENT 514 520	миссию
+T19	EVENT 636 650	военной помощи
+R9	ORGANIZES Arg1:T28 Arg2:T19	
+T21	ORGANIZATION 703 726	Совет министров обороны
+T22	ORGANIZATION 727 736	Евросоюза
+R10	FOUNDED_BY Arg1:T21 Arg2:T22	
+T23	ORGANIZATION 814 829	вооруженных сил
+R11	HEADQUARTERED_IN Arg1:T23 Arg2:T33	
+T32	PROFESSION 1030 1037	солдаты
+R12	WORKPLACE Arg1:T32 Arg2:T42	
+T34	PROFESSION 951 997	верховный председатель ЕС по иностранным делам
+T35	NEWS_SOURCE 951 1006	верховный председатель ЕС по иностранным делам напомнил
+T37	PRODUCT 1130 1148	сложное вооружение
+R13	USES Arg1:T49 Arg2:T37	

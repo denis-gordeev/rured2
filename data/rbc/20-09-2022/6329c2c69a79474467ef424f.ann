@@ -1,0 +1,29 @@
+T0	PROFESSION 0 5	Глава
+T1	REGION 6 17	Запорожской
+T3	ORGANIZATION 18 21	ВГА
+T4	EVENT 34 45	референдума
+T5	COUNTRY 64 70	России
+T6	EVENT 72 82	Референдум
+T7	REGION 110 129	Запорожской области
+T8	COUNTRY 132 138	России
+T11	PROFESSION 176 181	глава
+T16	PERSON 223 239	Евгений Балицкий
+T19	EVENT 334 347	референдумами
+T21	COUNTRY 378 381	ДНР
+R1	HEADQUARTERED_IN Arg1:T3 Arg2:T1	
+R2	WORKPLACE Arg1:T0 Arg2:T3	
+R3	TAKES_PLACE_IN Arg1:T4 Arg2:T1	
+R4	TAKES_PLACE_IN Arg1:T6 Arg2:T7	
+T2	DATE 147 166	с 23 по 27 сентября
+R5	DATE_TAKES_PLACE_ON Arg1:T6 Arg2:T2	
+T9	ORGANIZATION 182 214	военно-гражданской администрации
+T10	NEWS_SOURCE 168 250	сообщил глава военно-гражданской администрации региона Евгений Балицкий в Telegram
+R6	WORKS_AS Arg1:T16 Arg2:T11	
+R7	QUOTES Arg1:T16 Arg2:T9	
+T12	COUNTRY 366 372	России
+T13	COUNTRY 373 376	ЛНР
+T14	REGION 384 402	Херсонской области
+R8	OWNERSHIP Arg1:T12 Arg2:T14	
+R9	TAKES_PLACE_IN Arg1:T19 Arg2:T13	
+R10	TAKES_PLACE_IN Arg1:T19 Arg2:T21	
+R11	TAKES_PLACE_IN Arg1:T19 Arg2:T14	

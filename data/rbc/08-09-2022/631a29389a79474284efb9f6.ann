@@ -1,0 +1,38 @@
+T0	CITY 0 10	Мелитополь
+T1	ORGANIZATION 13 22	Энергодар
+T2	CARDINAL 33 43	обесточены
+T3	FAC 67 80	электричества
+T4	FAC 83 93	Мелитополе
+T5	CITY 83 93	Мелитополе
+T6	ORGANIZATION 96 106	Энергодаре
+T7	NEWS_SOURCE 119 141	сообщает «РИА Новости»
+T8	ORGANIZATION 129 141	РИА Новости»
+T9	FAC 156 165	городские
+T10	GROUP 166 172	власти
+T11	ORGANIZATION 176 200	администрации Энергодара
+T12	NEWS_SOURCE 174 209	В администрации Энергодара сообщили
+T13	ECONOMIC_SECTOR 215 221	подача
+T14	DATE 265 270	назад
+T15	NEWS_SOURCE 314 328	опубликовано в
+T16	LAW 327 344	в Telegram-канале
+T17	ORGANIZATION 345 358	администрации
+T18	ORGANIZATION 367 380	Корреспондент
+T19	ORGANIZATION 382 393	РИА Новости
+T20	NEWS_SOURCE 367 403	Корреспондент «РИА Новости» передает
+T21	CITY 411 421	Мелитополе
+T22	FAC 466 480	водоснабжением
+T23	ORGANIZATION 484 494	Энергодаре
+T24	CITY 496 506	Мелитополе
+T25	ORGANIZATION 509 518	Бердянске
+T26	FAC 584 598	водоснабжением
+T27	PROFESSION 618 622	член
+T28	ORGANIZATION 623 636	ВГА Запорожья
+T29	PERSON 637 651	Владимир Рогов
+T30	DATE 688 692	2022
+T31	CURRENCY 724 726	08
+T32	MONEY 724 726	08
+T33	DATE 727 735	Sep 2022
+T34	MONEY 736 738	22
+T35	MONEY 739 741	35
+T36	MONEY 742 744	48
+T37	CARDINAL 745 746	+

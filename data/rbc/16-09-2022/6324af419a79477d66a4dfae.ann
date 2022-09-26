@@ -1,0 +1,29 @@
+T0	ORGANIZATION 0 11	Минпромторг
+T1	PRODUCT 30 38	алкоголь
+T2	PRODUCT 52 81	импортом
+
+Алкогольные напитки
+T4	ORGANIZATION 163 174	Минпромторг
+T5	ORGANIZATION 187 196	ведомства
+T18	PRODUCT 402 410	Jim Beam
+T19	PRODUCT 412 420	Hennessy
+T20	PRODUCT 422 436	Johhnie Walker
+T21	PRODUCT 438 444	Chivas
+T27	DATE 511 516	В мае
+T28	ORGANIZATION 517 528	Минпромторг
+T30	ORGANIZATION 615 625	Минсельхоз
+T31	CRIME 672 683	контрафакта
+T33	CRIME 825 836	контрафакта
+T34	NEWS_SOURCE 841 876	говорилось в сообщении министерства
+T35	ORGANIZATION 864 876	министерства
+T43	PRODUCT 62 81	Алкогольные напитки
+T3	NEWS_SOURCE 153 174	предложил Минпромторг
+T44	NEWS_SOURCE 176 238	Инициатива ведомства опубликована на портале нормативных актов
+T6	PRODUCT 323 348	шампанское Veuve Clicquot
+T7	PRODUCT 350 365	вермуты Martini
+T8	PRODUCT 368 375	Cinzano
+T9	PRODUCT 377 400	виски Jack Daniel&#39;s
+T10	PRODUCT 446 464	ром Captain Morgan
+T11	PRODUCT 466 477	Havana Club
+T12	PRODUCT 479 492	текилу Olmeca
+T13	PRODUCT 549 568	алкогольные напитки

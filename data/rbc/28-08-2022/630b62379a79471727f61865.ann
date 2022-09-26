@@ -1,0 +1,61 @@
+T0	ORGANIZATION 2 9	Совфеде
+T2	COUNTRY 62 69	Украину
+T5	CITY 112 118	Москвы
+T7	DATE 119 129	28 августа
+T8	COUNTRY 185 192	Украине
+T12	PERSON 259 276	Владимир Джабаров
+T14	ORGANIZATION 288 300	РИА Новости»
+T16	NEWS_SOURCE 495 510	заявил Джабаров
+T17	PERSON 502 510	Джабаров
+T19	PROFESSION 523 531	сенатора
+T22	GROUP 605 623	Организаторы гонок
+T23	DATE 624 634	28 августа
+T25	FAC 677 688	автомобилях
+T26	GROUP 752 760	властями
+T27	PRODUCT 789 807	автомобили Ferrari
+T28	PRODUCT 810 820	Lamborgini
+T29	GROUP 821 831	участников
+T31	GROUP 856 868	организаторы
+T32	NEWS_SOURCE 919 929	пишет ТАСС
+T33	ORGANIZATION 925 929	ТАСС
+T36	ORGANIZATION 956 982	правоохранительных органах
+T44	CURRENCY 1148 1151	руб
+T45	GROUP 1176 1186	участников
+T46	CARDINAL 1262 1270	более 20
+T1	GROUP 31 58	организаторов уличных гонок
+T3	GROUP 71 102	Организаторов нелегальных гонок
+T4	LOCATION 103 111	в центре
+R1	OWNERSHIP Arg1:T5 Arg2:T4	
+T6	LOCATION 146 181	в зону специальной военной операции
+T11	ORGANIZATION 242 258	Совета Федерации
+T9	PROFESSION 202 217	первый замглавы
+R3	WORKS_AS Arg1:T12 Arg2:T9	
+T10	NEWS_SOURCE 194 300	считает первый замглавы международного комитета Совета Федерации Владимир Джабаров, передает «РИА Новости»
+T13	ORGANIZATION 332 337	армии
+T15	PROFESSION 440 450	санитарами
+T54	FAC 453 471	военных госпиталях
+T18	NEWS_SOURCE 513 531	По словам сенатора
+T20	EVENT 572 584	спецоперации
+T21	EVENT 533 562	организация нелегальных гонок
+T24	ORGANIZATION 762 769	полиция
+R4	USES Arg1:T29 Arg2:T28	
+R5	USES Arg1:T29 Arg2:T27	
+T30	FAC 835 847	штрафстоянку
+T55	ORGANIZATION 879 886	полицию
+T34	NEWS_SOURCE 919 982	пишет ТАСС со ссылкой на источники в правоохранительных органах
+T35	CITY 1040 1056	Санкт-Петербурга
+T37	NEWS_SOURCE 984 1013	По данным Telegram-канала 112
+T38	EVENT 1015 1020	гонку
+T39	ORGANIZATION 1085 1092	полиции
+T40	PRICE 1130 1152	от 35 до 270 тыс. руб.
+T41	ORGANIZATION 1228 1235	Полиция
+T42	FAC 1249 1261	штрафстоянку
+T43	PRODUCT 1271 1281	спорткаров
+T47	GROUP 1282 1292	участников
+R6	USES Arg1:T47 Arg2:T43	
+T48	EVENT 153 181	специальной военной операции
+R7	TAKES_PLACE_IN Arg1:T48 Arg2:T8	
+T49	ORGANIZATION 218 241	международного комитета
+R8	WORKPLACE Arg1:T9 Arg2:T49	
+R2	OWNERSHIP Arg1:T11 Arg2:T49	
+R9	WORKPLACE Arg1:T12 Arg2:T49	

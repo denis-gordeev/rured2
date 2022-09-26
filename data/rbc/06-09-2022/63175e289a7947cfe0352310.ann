@@ -1,0 +1,45 @@
+T0	PERSON 0 13	Андрей Костин
+T1	EVENT 22 42	экономическом форуме
+T6	PROFESSION 63 75	Видео
+
+Глава
+T7	ORGANIZATION 76 79	ВТБ
+T8	PERSON 80 93	Андрей Костин
+T9	EVENT 97 127	Восточном экономическом форуме
+T10	PERSON 146 166	Вячеславом Бутусовым
+T15	COUNTRY 225 232	Америка
+T18	DATE 331 342	С 2018 года
+T19	PERSON 343 356	Андрей Костин
+T20	COUNTRY 381 384	США
+T21	EVENT 452 469	интервью Business
+T22	PROFESSION 473 478	глава
+T23	ORGANIZATION 479 482	ВТБ
+T24	NEWS_SOURCE 450 490	В интервью Business FM глава ВТБ говорил
+T25	DATE 699 705	В июне
+T26	PERSON 706 712	Костин
+T28	ORGANIZATION 726 729	РБК
+T33	DATE 896 900	2022
+T34	DATE 910 927	с 5 по 8 сентября
+T35	CITY 931 943	Владивостоке
+T41	CITY 1036 1048	Владивостоке
+T2	WORK_OF_ART 43 62	«Гудбай, Америка!».
+T3	COUNTRY 52 59	Америка
+R1	EVENT_TAKES_PART_IN Arg1:T0 Arg2:T1	
+T4	PROFESSION 70 75	Глава
+T5	PROFESSION 135 145	музыкантом
+T11	WORK_OF_ART 167 235	песню «Наутилуса Помпилиуса» «Последнее письмо» («Гудбай, Америка!»)
+R2	WORKS_AS Arg1:T10 Arg2:T5	
+R3	WORKS_AS Arg1:T8 Arg2:T4	
+R4	WORKPLACE Arg1:T4 Arg2:T7	
+R5	EVENT_TAKES_PART_IN Arg1:T8 Arg2:T9	
+R6	WORKPLACE Arg1:T22 Arg2:T23	
+T12	NEWS_SOURCE 706 735	Костин в статье для РБК писал
+T14	ORDINAL 860 863	VII
+T13	EVENT 860 900	VII Восточный экономический форум — 2022
+R7	TAKES_PLACE_IN Arg1:T13 Arg2:T35	
+R8	DATE_TAKES_PLACE_ON Arg1:T13 Arg2:T34	
+T16	ORGANIZATION 971 1013	Дальневосточного федерального университета
+T17	LOCATION 1014 1032	на острове Русский
+R9	HEADQUARTERED_IN Arg1:T16 Arg2:T41	
+R10	TAKES_PLACE_IN Arg1:T13 Arg2:T16	
+R11	TAKES_PLACE_IN Arg1:T13 Arg2:T41	

@@ -1,0 +1,75 @@
+T2	CITY 60 70	Мелитополе
+T3	CITY 74 84	Мелитополе
+T8	COMMODITY 195 209	электроэнергии
+T14	PROFESSION 237 257	член главного совета
+T18	ORGANIZATION 292 295	ВГА
+T20	PERSON 305 319	Владимир Рогов
+T22	DATE 365 382	В настоящее время
+T23	CITY 424 434	Мелитополе
+T24	COMMODITY 455 469	электроэнергии
+T31	CITY 614 624	Мелитополя
+T34	BOROUGH 626 641	Мелитопольского
+T35	BOROUGH 643 654	Акимовского
+T36	BOROUGH 656 667	Приморского
+T37	BOROUGH 669 680	Бердянского
+T38	BOROUGH 682 695	Куйбышевского
+T39	BOROUGH 698 710	Пологовского
+T44	CITY 758 768	Энергодаре
+T45	FAC 784 799	Запорожская АЭС
+T47	PERSON 856 861	Рогов
+T48	NEWS_SOURCE 856 868	Рогов указал
+T50	REGION 944 962	Херсонской области
+T53	ORGANIZATION 986 999	«РИА Новости»
+T55	NEWS_SOURCE 1018 1034	По их информации
+T57	CITY 1066 1073	Херсоне
+T59	REGION 1103 1113	Херсонская
+T61	ORGANIZATION 1114 1117	ВГА
+T64	DATE 1239 1262	За последние две недели
+T1	ORGANIZATION 12 15	ВГА
+T75	REGION 0 11	Запорожская
+R1	HEADQUARTERED_IN Arg1:T1 Arg2:T75	
+T4	COMMODITY 106 119	электричества
+T76	ECONOMIC_SECTOR 99 119	подача электричества
+R2	USES Arg1:T3 Arg2:T4	
+T5	REGION 138 157	Запорожской области
+T6	ECONOMIC_SECTOR 188 209	подачи электроэнергии
+R3	USES Arg1:T5 Arg2:T8	
+T7	ORGANIZATION 258 290	военно-гражданской администрации
+R4	ABBREVIATION Arg1:T7 Arg2:T18	
+R5	WORKPLACE Arg1:T20 Arg2:T7	
+R6	WORKS_AS Arg1:T20 Arg2:T14	
+T9	NEWS_SOURCE 211 319	сообщил в Telegram-канале член главного совета военно-гражданской администрации (ВГА) региона Владимир Рогов
+R7	USES Arg1:T23 Arg2:T24	
+T10	PERSON 516 521	Рогов
+T11	NEWS_SOURCE 516 529	Рогов сообщил
+T12	TIME 530 552	около двух часов назад
+T13	TIME 554 570	примерно в 18:00
+T15	NEWS_SOURCE 572 585	По его данным
+T16	EVENT 587 603	отключение света
+T17	LOCATION 719 725	на юге
+T19	REGION 726 745	Запорожской области
+R8	TAKES_PLACE_IN Arg1:T16 Arg2:T31	
+R9	TAKES_PLACE_IN Arg1:T16 Arg2:T34	
+R10	TAKES_PLACE_IN Arg1:T16 Arg2:T35	
+R11	TAKES_PLACE_IN Arg1:T16 Arg2:T36	
+R12	TAKES_PLACE_IN Arg1:T16 Arg2:T37	
+R13	TAKES_PLACE_IN Arg1:T16 Arg2:T38	
+R14	TAKES_PLACE_IN Arg1:T16 Arg2:T39	
+R15	TAKES_PLACE_IN Arg1:T16 Arg2:T19	
+R16	OWNERSHIP Arg1:T19 Arg2:T17	
+R17	HEADQUARTERED_IN Arg1:T45 Arg2:T44	
+T21	EVENT 903 932	проблемах с электроснабжением
+R18	TAKES_PLACE_IN Arg1:T21 Arg2:T50	
+T25	PROFESSION 964 978	Корреспонденты
+T26	ORGANIZATION 979 983	ТАСС
+R19	WORKPLACE Arg1:T25 Arg2:T26	
+T27	NEWS_SOURCE 986 1016	«РИА Новости» сообщали об этом
+T28	LOCATION 1076 1101	некоторых районах области
+R20	HEADQUARTERED_IN Arg1:T61 Arg2:T59	
+T29	NEWS_SOURCE 1103 1137	Херсонская ВГА в Telegram сообщила
+T30	REGION 1266 1284	Херсонской области
+T32	DATE 1373 1392	25, 29 и 30 августа
+T33	NEWS_SOURCE 1291 1310	поступали сообщения
+T40	EVENT 1313 1338	перебоях с электричеством
+R21	TAKES_PLACE_IN Arg1:T40 Arg2:T30	
+R22	DATE_TAKES_PLACE_ON Arg1:T40 Arg2:T32	

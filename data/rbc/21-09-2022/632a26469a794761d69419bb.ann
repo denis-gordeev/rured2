@@ -1,0 +1,59 @@
+T1	ORGANIZATION 2 15	администрации
+T2	CITY 16 26	Мелитополя
+T4	PRODUCT 64 69	дроне
+T6	CITY 84 94	Мелитополю
+T7	COUNTRY 100 110	украинский
+T15	GROUP 222 228	власти
+T25	PERSON 360 374	Владимир Рогов
+T26	FAC 392 424	системы противовоздушной обороны
+T27	ORGANIZATION 433 436	ВГА
+T28	NEWS_SOURCE 433 456	ВГА Мелитополя уточнила
+T29	PRODUCT 471 489	зенитная установка
+T30	ORGANIZATION 490 500	Росгвардии
+T32	COUNTRY 544 554	украинский
+T33	PRODUCT 555 559	дрон
+T34	CITY 562 572	Мелитополь
+T35	COUNTRY 600 606	России
+T41	GROUP 721 730	участники
+T42	ORGANIZATION 757 760	ВГА
+T43	EVENT 786 808	проведении референдума
+T44	GROUP 881 887	власти
+T45	COUNTRY 947 953	России
+T46	COUNTRY 963 966	ДНР
+T47	COUNTRY 968 971	ЛНР
+T48	REGION 974 993	Херсонской областью
+R1	HEADQUARTERED_IN Arg1:T1 Arg2:T2	
+T3	PRODUCT 111 146	разведывательно-ударный беспилотник
+R2	USES Arg1:T7 Arg2:T3	
+T5	ORGANIZATION 157 189	военно-гражданская администрация
+T8	NEWS_SOURCE 148 214	сообщает военно-гражданская администрация города в телеграм-канале
+T9	NEWS_SOURCE 222 244	власти города сообщали
+T10	PRODUCT 265 283	зенитной установки
+T11	PROFESSION 286 306	Член главного совета
+T12	ORGANIZATION 307 339	военно-гражданской администрации
+T13	REGION 340 359	Запорожской области
+R4	WORKS_AS Arg1:T25 Arg2:T11	
+R5	WORKPLACE Arg1:T25 Arg2:T12	
+T14	NEWS_SOURCE 360 382	Владимир Рогов говорил
+T16	CITY 437 447	Мелитополя
+R6	HEADQUARTERED_IN Arg1:T27 Arg2:T16	
+R3	USES Arg1:T30 Arg2:T29	
+R7	USES Arg1:T32 Arg2:T33	
+T17	REGION 613 632	Запорожской области
+R8	OWNERSHIP Arg1:T35 Arg2:T34	
+T18	TIME 634 638	Днем
+T19	TIME 639 650	20 сентября
+T20	REGION 695 714	Запорожской области
+T21	EVENT 668 714	общенародный съезд граждан Запорожской области
+R9	DATE_TAKES_PLACE_ON Arg1:T21 Arg2:T19	
+R10	TAKES_PLACE_IN Arg1:T21 Arg2:T20	
+R11	EVENT_TAKES_PART_IN Arg1:T41 Arg2:T43	
+T22	REGION 869 880	запорожские
+R12	WORKPLACE Arg1:T44 Arg2:T22	
+T23	EVENT 918 928	референдум
+R13	TAKES_PLACE_IN Arg1:T23 Arg2:T22	
+T24	DATE 994 1008	23–27 сентября
+R14	TAKES_PLACE_IN Arg1:T23 Arg2:T46	
+R15	TAKES_PLACE_IN Arg1:T23 Arg2:T47	
+R16	TAKES_PLACE_IN Arg1:T23 Arg2:T48	
+R17	DATE_TAKES_PLACE_ON Arg1:T23 Arg2:T24	

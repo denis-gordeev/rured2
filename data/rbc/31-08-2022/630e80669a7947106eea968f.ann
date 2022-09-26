@@ -1,0 +1,59 @@
+T0	PERSON 0 5	Путин
+T1	PERSON 48 73	Горбачева
+
+Владимир Путин
+T3	PERSON 125 142	Михаила Горбачева
+T4	TIME 144 149	утром
+T6	ORGANIZATION 203 206	РБК
+T8	PROFESSION 207 233	пресс-секретарь президента
+T10	PERSON 234 248	Дмитрий Песков
+T11	PROFESSION 251 260	Президент
+T12	PERSON 261 266	Путин
+T14	PERSON 306 323	Михаила Горбачева
+T15	TIME 325 330	Утром
+T16	PROFESSION 397 410	представитель
+T17	NEWS_SOURCE 390 417	сказал представитель Кремля
+T18	GPE 411 417	Кремля
+T23	ORGANIZATION 579 591	РИА Новости»
+T24	NEWS_SOURCE 569 599	Источник «РИА Новости» сообщил
+T25	PROFESSION 605 612	политик
+T27	DATE 624 639	последнее время
+T29	ORGANIZATION 660 668	больнице
+T30	DATE 710 723	В начале лета
+T33	DATE 802 815	несколько лет
+T37	PERSON 871 880	Горбачева
+T38	PROFESSION 896 901	глава
+T39	ORGANIZATION 902 914	Еврокомиссии
+T45	GPE 1085 1091	Европе
+T55	PERSON 48 57	Горбачева
+T56	EVENT 40 57	смертью Горбачева
+T2	PERSON 59 73	Владимир Путин
+T57	EVENT 117 142	смертью Михаила Горбачева
+T5	GROUP 170 186	родным и близким
+T7	NEWS_SOURCE 196 248	заявил РБК пресс-секретарь президента Дмитрий Песков
+R1	WORKS_AS Arg1:T12 Arg2:T11	
+T9	EVENT 297 323	кончиной Михаила Горбачева
+T13	GROUP 369 385	родным и близким
+T58	EVENT 150 169	направит телеграмму
+R2	EVENT_TAKES_PART_IN Arg1:T2 Arg2:T58	
+T59	EVENT 334 368	направит телеграмму соболезнования
+R3	EVENT_TAKES_PART_IN Arg1:T12 Arg2:T59	
+R4	WORKPLACE Arg1:T16 Arg2:T18	
+T60	PERSON 420 428	Горбачев
+T19	DATE 434 444	30 августа
+T61	ORDINAL 445 457	на 92-м году
+R5	DATE_OF_DEATH Arg1:T60 Arg2:T19	
+T20	ORGANIZATION 479 511	Центральной клинической больнице
+T21	NEWS_SOURCE 469 511	указали в Центральной клинической больнице
+T22	ORGANIZATION 726 742	«Горбачев-фонде»
+T26	NEWS_SOURCE 724 751	в «Горбачев-фонде» отмечали
+T28	PERSON 757 768	у Горбачева
+T31	PERSON 915 935	Урсула фон дер Ляйен
+T32	EVENT 837 880	Соболезнования в связи с кончиной Горбачева
+R6	WORKPLACE Arg1:T38 Arg2:T39	
+R7	WORKS_AS Arg1:T31 Arg2:T38	
+R8	EVENT_TAKES_PART_IN Arg1:T31 Arg2:T32	
+T34	DISEASE 774 792	проблемы с почками
+T35	NEWS_SOURCE 945 952	Twitter
+T36	PERSON 1135 1148	фон дер Ляйен
+T40	NEWS_SOURCE 1126 1148	написала фон дер Ляйен

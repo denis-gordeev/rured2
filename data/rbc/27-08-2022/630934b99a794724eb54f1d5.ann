@@ -1,0 +1,73 @@
+T0	COUNTRY 21 31	российской
+T1	COUNTRY 42 48	Сербии
+T2	GPE 62 68	Косово
+T3	COUNTRY 62 76	Косово
+
+Россия
+T4	GPE 101 107	Косово
+T5	COUNTRY 120 126	Сербии
+T6	PROFESSION 136 149	представитель
+T7	ORGANIZATION 150 153	МИД
+T13	COUNTRY 242 248	России
+T14	COUNTRY 251 257	Сербии
+T15	PERSON 263 271	Захарова
+T17	COUNTRY 330 333	США
+T19	GPE 343 349	Европы
+T20	GPE 352 359	Евразии
+T23	GPE 412 418	Косово
+T24	COUNTRY 425 431	Сербия
+T25	EVENT 457 468	переговоров
+T27	ORGANIZATION 491 500	Евросоюза
+T32	CITY 544 552	Белграде
+T33	COUNTRY 592 598	Косово
+T34	COUNTRY 605 611	Сербия
+T36	GPE 640 646	Косово
+T37	COUNTRY 649 655	Сербия
+T38	GPE 662 668	Европа
+T39	PROFESSION 680 688	дипломат
+T40	NEWS_SOURCE 673 709	заявил дипломат в интервью каналу N1
+T41	ORGANIZATION 700 709	каналу N1
+T42	GPE 759 765	Косово
+T43	COUNTRY 768 775	Сербией
+T45	DATE 898 909	в 2008 году
+T46	CARDINAL 931 933	92
+T48	ORGANIZATION 954 957	ООН
+T49	COUNTRY 967 970	США
+T50	ORGANIZATION 991 1000	Евросоюза
+T51	CARDINAL 1015 1017	16
+T52	GROUP 1018 1028	государств
+T53	COUNTRY 1054 1060	Сербия
+T54	COUNTRY 1087 1093	Косово
+T55	GPE 1183 1194	европейских
+T56	COUNTRY 1212 1218	Сербии
+T57	GPE 1220 1226	Косово
+T58	COUNTRY 1239 1245	Греция
+T59	COUNTRY 1247 1251	Кипр
+T60	COUNTRY 1253 1261	Словакия
+T61	COUNTRY 1263 1270	Румыния
+T62	COUNTRY 1273 1280	Испания
+T64	GPE 1288 1294	Косово
+T65	COUNTRY 1307 1313	Россия
+T66	COUNTRY 1315 1320	Китай
+T67	COUNTRY 1323 1327	Иран
+T69	GPE 1348 1354	Косово
+T70	NATIONALITY 1357 1364	албанцы
+T72	COUNTRY 1414 1419	сербы
+T81	PERSON 0 8	Захарова
+T82	COUNTRY 70 76	Россия
+T8	PERSON 154 168	Мария Захарова
+R1	WORKPLACE Arg1:T6 Arg2:T7	
+T9	NEWS_SOURCE 128 179	заявила представитель МИД Мария Захарова в Telegram
+T10	PROFESSION 295 359	заместителя помощника госсекретаря США по делам Европы и Евразии
+R2	WORKPLACE Arg1:T10 Arg2:T17	
+T11	PERSON 360 377	Габриэля Эскобара
+T12	PROFESSION 472 521	спецпредставителем Евросоюза по Западным Балканам
+T16	PERSON 522 541	Мирославом Лайчаком
+R3	TAKES_PLACE_IN Arg1:T25 Arg2:T32	
+T18	GPE 504 521	Западным Балканам
+R4	WORKS_AS Arg1:T16 Arg2:T12	
+T21	GPE 792 810	евроатлантического
+T22	GPE 863 869	Косово
+T26	EVENT 870 897	провозгласило независимость
+T28	GROUP 948 957	члена ООН
+T29	GPE 1375 1390	Северном Косово

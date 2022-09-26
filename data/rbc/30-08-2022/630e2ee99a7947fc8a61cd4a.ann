@@ -1,0 +1,53 @@
+T1	PROFESSION 0 10	Губернатор
+T2	REGION 11 26	Курской области
+T5	CARDINAL 57 61	двух
+T6	CARDINAL 67 70	Два
+T10	VILLAGE 115 125	Алексеевка
+T11	VILLAGE 128 140	Елизаветовка
+T14	COUNTRY 184 191	Украины
+T17	PROFESSION 243 253	губернатор
+T21	VILLAGE 301 311	Алексеевке
+T27	FAC 462 467	ферме
+T28	VILLAGE 471 483	Елизаветовке
+T29	CARDINAL 495 500	шесть
+T31	VILLAGE 577 589	Елизаветовке
+T34	COUNTRY 673 684	голландской
+T36	CARDINAL 693 701	Более 20
+T41	COUNTRY 812 819	Украины
+T42	DATE 825 837	с 24 февраля
+T43	COUNTRY 838 844	Россия
+T44	GROUP 938 944	власти
+T48	DATE 1079 1094	в последний раз
+T49	DATE 1108 1121	до 7 сентября
+T50	DATE 1123 1133	11 августа
+T53	CARDINAL 1186 1194	более 25
+T3	NEWS_SOURCE 0 34	Губернатор Курской области сообщил
+R1	WORKPLACE Arg1:T1 Arg2:T2	
+T4	BOROUGH 78 89	Глушковском
+T7	REGION 97 112	Курской области
+R2	OWNERSHIP Arg1:T7 Arg2:T10	
+R3	OWNERSHIP Arg1:T7 Arg2:T11	
+T8	PERSON 262 277	Роман Старовойт
+T9	NEWS_SOURCE 235 277	сообщил губернатор региона Роман Старовойт
+R4	WORKS_AS Arg1:T8 Arg2:T17	
+R5	WORKPLACE Arg1:T8 Arg2:T7	
+T12	FAC 338 357	вышку сотовой связи
+R6	HEADQUARTERED_IN Arg1:T12 Arg2:T21	
+R7	HEADQUARTERED_IN Arg1:T27 Arg2:T21	
+T13	FAC 501 514	частных домов
+T15	FAC 596 621	животноводческий комплекс
+R8	HEADQUARTERED_IN Arg1:T15 Arg2:T31	
+T16	NEWS_SOURCE 737 765	написал Старовойт в Telegram
+T18	REGION 768 783	Курская область
+T19	REGION 795 811	Сумской областью
+R9	OWNERSHIP Arg1:T41 Arg2:T19	
+T20	EVENT 845 870	проводит военную операцию
+R10	TAKES_PLACE_IN Arg1:T20 Arg2:T41	
+T22	EVENT 915 937	начала боевых действий
+T23	REGION 1063 1078	Курской области
+T24	PERSON 1134 1143	Старовойт
+T25	NEWS_SOURCE 1134 1151	Старовойт сообщал
+T26	FAC 1218 1237	гражданские объекты
+T30	FAC 1240 1268	сельскохозяйственная техника
+R11	HEADQUARTERED_IN Arg1:T26 Arg2:T23	
+R12	HEADQUARTERED_IN Arg1:T30 Arg2:T23	

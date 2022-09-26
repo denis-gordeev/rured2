@@ -1,0 +1,41 @@
+T0	PERSON 0 10	Берлускони
+T1	ORGANIZATION 27 29	ЕС
+T3	GPE 66 77	Европейские
+T4	COUNTRY 143 148	Китая
+T8	COUNTRY 258 264	Италия
+T11	COUNTRY 274 285	итальянский
+T13	PROFESSION 286 293	премьер
+T14	PERSON 294 312	Сильвио Берлускони
+T20	GPE 375 381	Европа
+T22	ORGANIZATION 508 521	правительство
+T23	GPE 540 548	Брюсселе
+T24	NEWS_SOURCE 585 599	сказал политик
+T25	PROFESSION 592 599	политик
+T26	PERSON 601 611	Берлускони
+T33	COUNTRY 714 717	КНР
+T34	COUNTRY 752 761	китайской
+T35	GPE 869 877	западных
+T39	DATE 932 939	Сегодня
+T40	QUANTITY 940 960	почти 2 млрд человек
+T42	GROUP 1090 1103	оппозиционеры
+T44	PROFESSION 1183 1197	бывший премьер
+T45	COUNTRY 1198 1204	Италии
+T2	GROUP 78 84	страны
+R1	MEMBER Arg1:T2 Arg2:T3	
+T5	ORGANIZATION 242 265	партии «Вперед, Италия»
+T6	PROFESSION 236 241	лидер
+R2	PLACE_RESIDES_IN Arg1:T14 Arg2:T11	
+R3	WORKPLACE Arg1:T14 Arg2:T5	
+R4	WORKS_AS Arg1:T14 Arg2:T6	
+T7	NEWS_SOURCE 229 343	заявил лидер партии «Вперед, Италия», бывший итальянский премьер Сильвио Берлускони во время своего видеообращения
+T9	ORGANIZATION 354 372	L&#39;Unione Sarda
+T10	NEWS_SOURCE 345 372	передает L&#39;Unione Sarda
+R5	HEADQUARTERED_IN Arg1:T22 Arg2:T23	
+R6	WORKS_AS Arg1:T26 Arg2:T25	
+T12	DATE 703 713	В наши дни
+T15	GROUP 878 883	стран
+R7	MEMBER Arg1:T15 Arg2:T35	
+T16	CRIME 1110 1167	выбирать лишь между изгнанием, тюрьмой или даже кладбищем
+T17	NEWS_SOURCE 1172 1204	подчеркнул бывший премьер Италии
+R8	WORKPLACE Arg1:T26 Arg2:T45	
+R9	WORKS_AS Arg1:T26 Arg2:T44	

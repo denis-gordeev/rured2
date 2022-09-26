@@ -1,0 +1,62 @@
+T0	CITY 2 12	Мелитополе
+T1	CARDINAL 23 27	пять
+T2	ECONOMIC_SECTOR 28 35	взрывов
+T3	CITY 39 49	Мелитополе
+T4	FAC 52 63	Запорожской
+T5	REGION 64 71	области
+T6	CARDINAL 83 87	пять
+T7	FAC 128 160	системы противовоздушной обороны
+T8	ORGANIZATION 153 160	обороны
+T9	NEWS_SOURCE 162 180	сообщил в Telegram
+T10	LAW 180 181	-
+T11	NEWS_SOURCE 181 187	канале
+T12	PROFESSION 188 192	член
+T13	ORGANIZATION 202 208	совета
+T14	EVENT 193 208	главного совета
+T15	ECONOMIC_SECTOR 209 215	военно
+T16	LAW 215 216	-
+T17	ORGANIZATION 216 241	гражданской администрации
+T18	NEWS_SOURCE 250 264	Владимир Рогов
+T19	PERSON 250 264	Владимир Рогов
+T20	NEWS_SOURCE 266 283	В Telegram-канале
+T21	ORGANIZATION 284 304	администрации города
+T22	NEWS_SOURCE 305 314	говорится
+T23	FAC 336 344	северной
+T24	FAC 373 376	ПВО
+T25	CARDINAL 390 392	18
+T26	DATE 393 406	00 4 сентября
+T27	PERSON 407 412	Рогов
+T28	CITY 459 469	Мелитополе
+T29	CITY 495 506	Запорожской
+T30	REGION 507 514	области
+T31	TIME 537 545	два часа
+T32	ECONOMIC_SECTOR 546 567	подачу электроэнергии
+T33	COMMODITY 553 567	электроэнергии
+T34	DATE 582 599	На следующий день
+T35	NEWS_SOURCE 600 613	администрация
+T36	ORGANIZATION 600 620	администрация города
+T37	NEWS_SOURCE 621 629	сообщила
+T38	ORGANIZATION 700 710	Энергодара
+T39	ORGANIZATION 737 740	ВСУ
+T40	PROFESSION 778 789	специалисты
+T41	GROUP 778 789	специалисты
+T42	GROUP 801 808	местные
+T43	FAC 801 819	местные подстанции
+T44	FAC 822 834	электросетям
+T45	REGION 844 862	Херсонской области
+T46	EVENT 864 870	Взрывы
+T47	DATE 898 918	также 2 и 3 сентября
+T48	PERSON 948 961	корреспондент
+T49	NEWS_SOURCE 939 966	указывал корреспондент ТАСС
+T50	ORGANIZATION 962 966	ТАСС
+T51	CARDINAL 982 992	менее пяти
+T52	ECONOMIC_SECTOR 993 1000	взрывов
+T53	FAC 1021 1024	ПВО
+T54	ORDINAL 1028 1036	третьего
+T55	NEWS_SOURCE 1038 1051	сообщал Рогов
+T56	PERSON 1046 1051	Рогов
+T57	FAC 1056 1065	аэродроме
+T58	FAC 1084 1097	взрывоопасные
+T59	FAC 1127 1151	инженерные подразделения
+T60	DATE 1223 1227	2022
+T61	CARDINAL 1231 1233	53

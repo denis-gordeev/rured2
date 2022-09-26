@@ -1,0 +1,25 @@
+T2	DATE 71 80	С октября
+T3	COUNTRY 107 117	российским
+T7	GPE 210 215	Киева
+T8	PROFESSION 278 283	глава
+T16	PERSON 337 353	Евгений Балицкий
+T19	DATE 419 425	сейчас
+T22	ORGANIZATION 483 496	администрация
+T24	GROUP 643 652	прибывших
+T30	REGION 0 11	Запорожская
+T31	ORGANIZATION 12 15	ВГА
+T1	LOCATION 48 69	линии соприкосновения
+T32	ORGANIZATION 118 125	войскам
+T4	REGION 132 151	Запорожской области
+R1	OWNERSHIP Arg1:T3 Arg2:T32	
+T5	ORGANIZATION 284 316	военно-гражданской администрации
+T6	REGION 317 336	Запорожской области
+R2	WORKS_AS Arg1:T16 Arg2:T8	
+R3	WORKPLACE Arg1:T16 Arg2:T5	
+T9	NEWS_SOURCE 270 377	сообщил глава военно-гражданской администрации Запорожской области Евгений Балицкий в своем Telegram-канале
+T10	LOCATION 397 418	линию соприкосновения
+T11	FAC 448 462	КПП Васильевка
+R4	HEADQUARTERED_IN Arg1:T11 Arg2:T6	
+R5	HEADQUARTERED_IN Arg1:T31 Arg2:T30	
+T12	LOCATION 172 182	территории
+R6	OWNERSHIP Arg1:T7 Arg2:T12	

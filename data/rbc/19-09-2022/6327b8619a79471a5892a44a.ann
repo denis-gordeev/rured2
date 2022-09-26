@@ -1,0 +1,35 @@
+T0	CARDINAL 53 57	двух
+T1	ORDINAL 64 71	второго
+T2	NEWS_SOURCE 137 182	сообщила пресс-служба областной администрации
+T3	ORGANIZATION 151 182	-служба областной администрации
+T4	CARDINAL 219 223	один
+T5	NEWS_SOURCE 271 292	говорится в сообщении
+T6	ORGANIZATION 313 315	СК
+T7	NEWS_SOURCE 300 324	региональное СК сообщило
+T8	DATE 344 353	2004 года
+T9	ECONOMIC_SECTOR 407 427	урагана кусок дерева
+T10	ORGANIZATION 498 507	ведомстве
+T11	PERSON 510 515	Гроза
+T12	PERCENT 534 542	около 20
+T13	CARDINAL 534 542	около 20
+T14	DATE 542 557	:00 18 сентября
+T15	ECONOMIC_SECTOR 595 603	молниями
+T16	DATE 614 623	Через час
+T17	DATE 641 662	В первой половине дня
+T18	DATE 672 681	в течение
+T19	TIME 682 698	нескольких часов
+T20	FAC 733 739	дороги
+T21	LAW 751 752	-
+T22	ORGANIZATION 759 780	администрации области
+T23	NEWS_SOURCE 741 789	В телеграм-канале администрации области сообщили
+T24	QUANTITY 837 858	87 населенных пунктов
+T25	REGION 867 874	области
+T26	QUANTITY 896 908	больше 5 тыс
+T27	CARDINAL 896 908	больше 5 тыс
+T28	QUANTITY 910 917	человек
+T29	PERCENT 947 949	19
+T30	CARDINAL 947 949	19
+T31	PERCENT 989 991	19
+T32	CARDINAL 989 995	19 Sep
+T33	DATE 996 1000	2022
+T34	CARDINAL 1004 1006	41

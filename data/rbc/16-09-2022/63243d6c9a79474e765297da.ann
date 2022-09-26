@@ -1,0 +1,52 @@
+T0	COUNTRY 24 27	ЛНР
+T1	ORGANIZATION 54 77	Генеральной прокуратуры
+T2	COUNTRY 78 81	ЛНР
+T3	CITY 84 92	Луганске
+T7	PROFESSION 141 151	Сотрудники
+T8	ORGANIZATION 152 161	ведомства
+T9	GROUP 194 200	медики
+T11	COUNTRY 253 256	ЛНР
+T12	PERSON 257 271	Андрей Марочко
+T16	EVENT 346 351	Взрыв
+T17	ORGANIZATION 354 368	Генпрокуратуре
+T18	COUNTRY 369 372	ЛНР
+T21	ORGANIZATION 417 421	ТАСС
+T22	ORGANIZATION 447 456	ведомстве
+T23	PROFESSION 550 561	генпрокурор
+T27	ORDINAL 732 742	на третьем
+T29	FAC 749 755	здания
+T38	PROFESSION 11 23	генпрокурора
+T30	EVENT 28 43	произошел взрыв
+R1	TAKES_PLACE_IN Arg1:T30 Arg2:T0	
+R2	WORKPLACE Arg1:T38 Arg2:T0	
+T31	FAC 45 53	В здании
+R3	HEADQUARTERED_IN Arg1:T31 Arg2:T2	
+R4	HEADQUARTERED_IN Arg1:T31 Arg2:T3	
+T32	EVENT 93 108	произошел взрыв
+R5	TAKES_PLACE_IN Arg1:T32 Arg2:T3	
+T5	ORGANIZATION 119 139	«Луганскинформцентр»
+T4	NEWS_SOURCE 110 139	сообщает «Луганскинформцентр»
+R6	WORKPLACE Arg1:T7 Arg2:T8	
+T6	GROUP 203 221	экстренные службы.
+T10	PROFESSION 222 235	Представитель
+T33	ORGANIZATION 236 252	народной милиции
+R7	HEADQUARTERED_IN Arg1:T33 Arg2:T11	
+R8	WORKS_AS Arg1:T12 Arg2:T10	
+R9	WORKPLACE Arg1:T12 Arg2:T11	
+T13	GROUP 336 344	погибшие
+T14	EVENT 324 330	взрыва
+T15	NEWS_SOURCE 285 344	по предварительным данным в результате взрыва есть погибшие
+R10	TAKES_PLACE_IN Arg1:T14 Arg2:T11	
+R11	ORIGINS_FROM Arg1:T13 Arg2:T11	
+T19	PROFESSION 394 406	генпрокурора
+R12	WORKPLACE Arg1:T19 Arg2:T18	
+R13	TAKES_PLACE_IN Arg1:T16 Arg2:T17	
+T20	ORGANIZATION 519 521	RT
+T34	NEWS_SOURCE 408 521	сообщает ТАСС со ссылкой на источник в ведомстве, информацию об этом со ссылкой на источник также подтверждает RT
+T25	ORGANIZATION 633 654	«Луганскинформцентра»
+R14	WORKPLACE Arg1:T23 Arg2:T18	
+T35	NEWS_SOURCE 257 279	Андрей Марочко сообщил
+T24	NEWS_SOURCE 614 654	появилось в канале «Луганскинформцентра»
+T26	NEWS_SOURCE 656 694	На кадрах, опубликованных после взрыва
+T36	EVENT 688 694	взрыва
+R15	TAKES_PLACE_IN Arg1:T36 Arg2:T29	

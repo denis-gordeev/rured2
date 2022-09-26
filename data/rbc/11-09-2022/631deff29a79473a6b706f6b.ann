@@ -1,0 +1,83 @@
+T1	PROFESSION 0 7	Актриса
+T2	PERSON 8 27	Джина Лоллобриджида
+T3	COUNTRY 65 76	Итальянская
+T5	PROFESSION 87 94	актриса
+T6	PERSON 95 114	Джина Лоллобриджида
+T7	CITY 138 142	Риме
+T8	DISEASE 176 200	перелому бедренной кости
+T11	PROFESSION 223 230	адвокат
+T13	PERSON 231 246	Антонио Ингройя
+T14	DATE 287 292	вчера
+T15	TIME 293 300	вечером
+T17	PERSON 335 342	Ингройя
+T18	DATE 344 357	В понедельник
+T19	PROFESSION 425 430	Врачи
+T20	PERSON 482 495	Лоллобриджиды
+T21	PERSON 542 561	Джине Лоллобриджиде
+T24	CARDINAL 612 616	1952
+T26	DATE 650 654	1956
+T27	DATE 657 668	С 1953 года
+T29	ORDINAL 715 721	первой
+T30	COUNTRY 732 744	американском
+T33	PERSON 811 824	Лоллобриджида
+T34	CARDINAL 832 836	одну
+T36	PROFESSION 906 916	режиссеров
+T37	PERSON 922 937	Марио Моничелли
+T38	PERSON 939 952	Карло Лиццани
+T39	PERSON 954 966	Жан Деланнуа
+T48	COUNTRY 1114 1121	Франции
+T49	DATE 1123 1134	В 1961 году
+T50	PERSON 1135 1148	Лоллобриджида
+T53	DATE 1189 1208	в феврале 2018 года
+T56	DATE 1249 1260	В 1973 году
+T57	PROFESSION 1261 1268	актриса
+T58	PROFESSION 1274 1285	членом жюри
+T62	DATE 1320 1331	в 1997 году
+T71	FAC 37 45	больницу
+T72	DISEASE 46 63	с переломом бедра
+R1	WORKS_AS Arg1:T2 Arg2:T1	
+T4	AGE 77 86	95-летняя
+R2	AGE_IS Arg1:T6 Arg2:T4	
+R3	PLACE_RESIDES_IN Arg1:T6 Arg2:T3	
+T73	FAC 127 135	больнице
+R4	HEADQUARTERED_IN Arg1:T73 Arg2:T7	
+R5	PLACE_RESIDES_IN Arg1:T6 Arg2:T7	
+T9	ORGANIZATION 210 219	La Presse
+R6	WORKS_AS Arg1:T13 Arg2:T11	
+T10	NEWS_SOURCE 202 246	сообщил La Presse ее адвокат Антонио Ингройя
+T12	WORK_OF_ART 317 322	фильм
+T16	NEWS_SOURCE 327 342	заверил Ингройя
+T74	PROFESSION 358 365	актрисе
+T75	DISEASE 414 423	переломов
+T76	DISEASE 501 519	проблемы с сердцем
+T22	WORK_OF_ART 586 610	фильмах «Фанфан-Тюльпан»
+T23	WORK_OF_ART 620 648	«Собор Парижской Богоматери»
+T25	WORK_OF_ART 692 709	голливудском кино
+T28	ORGANIZATION 745 758	кинематографе
+R7	HEADQUARTERED_IN Arg1:T28 Arg2:T30	
+R8	WORKPLACE Arg1:T21 Arg2:T28	
+T31	PERSON 773 787	Джона Хьюстона
+T32	WORK_OF_ART 788 805	«Посрами дьявола»
+T77	WORK_OF_ART 765 772	картина
+T35	PERSON 863 878	Хамфри Богартом
+R9	WORKPLACE Arg1:T35 Arg2:T28	
+T78	PROFESSION 880 887	Актриса
+R10	WORKS_AS Arg1:T37 Arg2:T36	
+R11	WORKS_AS Arg1:T38 Arg2:T36	
+R12	WORKS_AS Arg1:T39 Arg2:T36	
+T40	PERSON 969 986	Ежи Сколимовского
+R13	WORKS_AS Arg1:T40 Arg2:T36	
+T41	AWARD 1007 1031	ордена Почетного легиона
+T42	COUNTRY 1058 1081	Итальянской Республикой
+T43	AWARD 1033 1082	ордена «За заслуги перед Итальянской Республикой»
+T44	AWARD 1085 1121	ордена Искусств и литературы Франции
+T45	AWARD 1158 1185	кинопремию «Золотой глобус»
+T46	AWARD 1211 1247	звезду на голливудской «Аллее славы»
+T47	EVENT 1286 1316	VIII Московского кинофестиваля
+R14	EVENT_TAKES_PART_IN Arg1:T50 Arg2:T47	
+R15	DATE_TAKES_PLACE_ON Arg1:T47 Arg2:T56	
+R16	WORKS_AS Arg1:T50 Arg2:T58	
+T51	EVENT 1335 1362	XX Московском кинофестивале
+R17	DATE_TAKES_PLACE_ON Arg1:T51 Arg2:T62	
+T52	AWARD 1374 1403	приз за вклад в киноискусство
+R18	EVENT_TAKES_PART_IN Arg1:T50 Arg2:T51	
