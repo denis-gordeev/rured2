@@ -1,0 +1,57 @@
+T0	PROFESSION 8 18	губернатор
+T3	VILLAGE 65 72	Теткино
+T4	VILLAGE 104 111	Теткино
+T5	REGION 114 129	Курской области
+T8	QUANTITY 154 158	один
+T10	PROFESSION 185 195	губернатор
+T15	VILLAGE 293 300	Теткино
+T17	REGION 352 368	Сумской областью
+T18	COUNTRY 369 376	Украины
+T19	COUNTRY 400 410	украинской
+T20	NEWS_SOURCE 419 436	Старовойт сообщил
+T24	NEWS_SOURCE 449 470	По словам губернатора
+T25	PROFESSION 459 470	губернатора
+T27	CARDINAL 493 497	пять
+T30	CARDINAL 547 550	три
+T31	FAC 551 563	домовладения
+T34	REGION 724 740	Брянской области
+T35	DATE 742 749	2 марта
+T36	PROFESSION 750 760	губернатор
+T37	PERSON 761 778	Александр Богомаз
+T38	NEWS_SOURCE 750 786	губернатор Александр Богомаз сообщил
+T39	COUNTRY 872 879	Украины
+T40	ORGANIZATION 883 886	ФСБ
+T42	EVENT 932 943	мероприятия
+T44	COUNTRY 1006 1016	украинских
+T53	REGION 0 7	Курский
+R1	WORKPLACE Arg1:T0 Arg2:T53	
+T1	NEWS_SOURCE 0 26	Курский губернатор сообщил
+T54	EVENT 29 64	гибели мужчины при обстреле поселка
+R2	TAKES_PLACE_IN Arg1:T54 Arg2:T3	
+T2	QUANTITY 141 145	двое
+T6	EVENT 154 175	один из них скончался
+T7	PERSON 204 219	Роман Старовойт
+R3	WORKS_AS Arg1:T7 Arg2:T10	
+T9	NEWS_SOURCE 177 236	сообщил губернатор региона Роман Старовойт в своем Telegram
+T11	ORDINAL 238 245	Второго
+T12	DISEASE 266 291	ранениями средней тяжести
+R4	OWNERSHIP Arg1:T18 Arg2:T17	
+T13	BOROUGH 313 331	Глушковском районе
+T14	TIME 437 446	час назад
+T16	PERSON 419 428	Старовойт
+T21	EVENT 381 418	обстреле поселка с украинской стороны
+R5	TAKES_PLACE_IN Arg1:T21 Arg2:T15	
+T22	FAC 606 622	электроснабжение
+T23	REGION 626 641	Курской области
+T26	EVENT 663 704	желтый уровень террористической опасности
+R6	TAKES_PLACE_IN Arg1:T26 Arg2:T23	
+R7	TAKES_PLACE_IN Arg1:T26 Arg2:T34	
+T28	GROUP 824 859	диверсионно-разведывательная группа
+R8	USES Arg1:T39 Arg2:T28	
+T29	NEWS_SOURCE 881 894	В ФСБ заявили
+T32	REGION 902 919	Климовском районе
+T33	GROUP 1017 1030	националистов
+R9	USES Arg1:T44 Arg2:T33	
+T41	CRIME 959 993	нарушивших государственную границу
+R10	EVENT_TAKES_PART_IN Arg1:T33 Arg2:T41	
+R11	ORGANIZES Arg1:T44 Arg2:T41	

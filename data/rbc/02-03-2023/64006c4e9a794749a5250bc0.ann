@@ -1,0 +1,67 @@
+T0	NEWS_SOURCE 0 1	В
+T1	REGION 2 18	Брянской области
+T2	NEWS_SOURCE 19 27	сообщили
+T3	GROUP 33 43	диверсанты
+T4	ORGANIZATION 59 64	школу
+T5	NORP 66 76	Украинским
+T6	COUNTRY 66 76	Украинским
+T7	GROUP 77 88	диверсантам
+T8	ORGANIZATION 113 118	школы
+T9	REGION 121 137	Брянской области
+T10	ORGANIZATION 139 165	образовательные учреждения
+T11	ORGANIZATION 198 209	РИА Новости
+T12	NEWS_SOURCE 188 210	сообщает «РИА Новости»
+T13	NEWS_SOURCE 214 244	ссылкой на врио замгубернатора
+T14	PROFESSION 225 244	врио замгубернатора
+T15	REGION 245 252	области
+T16	ORGANIZATION 257 270	администрации
+T17	FAC 324 340	школьный автобус
+T18	GROUP 344 351	ученики
+T19	FAC 433 440	автобус
+T20	NEWS_SOURCE 442 449	сообщал
+T21	FAC 450 458	телеграм
+T22	FAC 459 464	канал
+T23	NEWS_SOURCE 465 469	Shot
+T24	NEWS_SOURCE 472 482	Губернатор
+T25	PROFESSION 472 482	Губернатор
+T26	PERSON 491 508	Александр Богомаз
+T27	NEWS_SOURCE 491 516	Александр Богомаз сообщил
+T28	PERSON 529 537	Любечане
+T29	COUNTRY 594 601	Украины
+T30	CARDINAL 603 607	Один
+T31	GROUP 608 614	житель
+T32	NEWS_SOURCE 642 667	По данным источников ТАСС
+T33	ORGANIZATION 663 667	ТАСС
+T34	REGION 685 701	Брянской области
+T35	GROUP 702 712	диверсанты
+T36	CARDINAL 723 728	шесть
+T37	GPE 773 794	Черниговской областью
+T38	COUNTRY 795 802	Украины
+T39	REGION 838 854	Брянской области
+T40	ORGANIZATION 855 858	ФСБ
+T41	COUNTRY 859 865	России
+T42	ORGANIZATION 886 927	Министерства обороны Российской Федерации
+T43	EVENT 939 950	мероприятия
+T44	COUNTRY 1013 1023	украинских
+T45	ORGANIZATION 1024 1037	националистов
+T46	NEWS_SOURCE 1042 1069	сообщили в региональном ФСБ
+T47	ORGANIZATION 1053 1069	региональном ФСБ
+T48	GROUP 1071 1076	Бойцы
+T49	ORGANIZATION 1077 1087	Росгвардии
+T50	COUNTRY 1117 1128	украинскими
+T51	GROUP 1129 1141	диверсантами
+T52	NEWS_SOURCE 1190 1203	уточняет ТАСС
+T53	ORGANIZATION 1199 1203	ТАСС
+T54	NEWS_SOURCE 1207 1228	ссылкой на источник в
+T55	ORGANIZATION 1229 1247	силовых структурах
+T56	NEWS_SOURCE 1237 1247	структурах
+T57	NEWS_SOURCE 1249 1270	В сообщении говорится
+T58	COUNTRY 1283 1293	украинских
+T59	GROUP 1294 1305	диверсантов
+T60	CARDINAL 1317 1320	два
+T61	EVENT 1321 1325	села
+T62	ORGANIZATION 1430 1433	Mar
+T63	DATE 1434 1438	2023
+T64	CARDINAL 1439 1441	13
+T65	CARDINAL 1442 1444	53
+T66	CARDINAL 1448 1449	+

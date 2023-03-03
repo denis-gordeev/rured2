@@ -1,0 +1,26 @@
+T1	CITY 23 28	Киеве
+T3	CITY 48 53	Киеве
+T12	GROUP 212 224	пострадавших
+T15	NEWS_SOURCE 277 301	По данным телеканала ТСН
+T16	EVENT 303 308	пожар
+T19	FAC 444 447	СТО
+T20	FAC 464 470	машины
+T27	NEWS_SOURCE 530 545	сообщили в ГСЧС
+T28	ORGANIZATION 541 545	ГСЧС
+T2	STREET 3 20	проспекте Бандеры
+T33	EVENT 29 44	произошел пожар
+R1	TAKES_PLACE_IN Arg1:T33 Arg2:T1	
+R2	TAKES_PLACE_IN Arg1:T33 Arg2:T2	
+T34	STREET 58 75	проспекте Бандеры
+T4	FAC 83 102	супермаркета «Ашан»
+T5	EVENT 103 116	начался пожар
+R3	TAKES_PLACE_IN Arg1:T5 Arg2:T3	
+R4	HEADQUARTERED_IN Arg1:T4 Arg2:T34	
+T6	FAC 152 171	складские помещения
+R5	TAKES_PLACE_IN Arg1:T5 Arg2:T6	
+T7	NEWS_SOURCE 181 201	сообщает «Страна.ua»
+T8	NEWS_SOURCE 225 232	издание
+T9	FAC 322 355	станции технического обслуживания
+R6	TAKES_PLACE_IN Arg1:T16 Arg2:T9	
+T10	PROFESSION 357 366	Спасатели
+T11	TIME 492 508	9:19 (10:19 мск)

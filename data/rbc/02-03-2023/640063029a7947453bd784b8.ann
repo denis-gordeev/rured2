@@ -1,0 +1,93 @@
+T0	CITY 2 11	Запорожье
+T3	CARDINAL 34 45	пятиэтажный
+T8	COUNTRY 111 118	Украине
+T9	WEAPON 136 142	ракета
+T10	FAC 152 173	жилой пятиэтажный дом
+T13	PROFESSION 188 198	президента
+T14	COUNTRY 199 206	Украины
+T19	PERSON 263 277	Владимир Рогов
+T20	NEWS_SOURCE 278 311	в эфире телеканала «Соловьев Live
+T22	COUNTRY 334 344	украинской
+T23	FAC 345 377	системы противовоздушной обороны
+T28	COUNTRY 447 457	украинских
+T29	GROUP 458 466	боевиков
+T30	CARDINAL 468 472	одна
+T31	WEAPON 476 481	ракет
+T32	FAC 502 505	ПВО
+T35	CARDINAL 543 546	две
+T36	WEAPON 547 553	ракеты
+T37	FAC 563 574	многоэтажку
+T38	NEWS_SOURCE 606 618	сказал Рогов
+T39	NEWS_SOURCE 620 633	По его словам
+T40	PROFESSION 635 644	спасатели
+T42	GROUP 665 673	погибших
+T43	QUANTITY 679 683	трое
+T46	COUNTRY 731 738	Украины
+T47	NEWS_SOURCE 703 747	Пресс-служба генпрокуратуры Украины сообщила
+T52	CITY 798 807	Запорожье
+T53	FAC 824 834	пятиэтажка
+T54	GROUP 866 873	жителей
+T57	QUANTITY 911 918	четверо
+T60	COUNTRY 1039 1049	украинских
+T61	GROUP 1050 1057	властей
+T67	COUNTRY 1112 1118	России
+T68	COUNTRY 1147 1157	Российская
+T71	PROFESSION 1230 1245	Пресс-секретарь
+T72	COUNTRY 1257 1263	России
+T74	PERSON 1264 1278	Дмитрий Песков
+T75	DATE 1279 1287	в ноябре
+T80	COUNTRY 1413 1420	Украины
+T81	COUNTRY 1423 1434	украинского
+T66	PROFESSION 1246 1256	президента
+R2	SUBORDINATE_OF Arg1:T71 Arg2:T66	
+R3	WORKPLACE Arg1:T66 Arg2:T72	
+T1	WEAPON 12 24	ракета С-300
+T2	EVENT 12 49	ракета С-300 попала в пятиэтажный дом
+R5	TAKES_PLACE_IN Arg1:T2 Arg2:T0	
+T5	TIME 73 78	ночью
+T6	DATE 79 93	с 1 на 2 марта
+T7	CITY 126 135	Запорожье
+R6	OWNERSHIP Arg1:T8 Arg2:T7	
+T4	FAC 34 49	пятиэтажный дом
+R4	HEADQUARTERED_IN Arg1:T4 Arg2:T0	
+R7	HEADQUARTERED_IN Arg1:T10 Arg2:T7	
+T12	ORGANIZATION 183 198	офис президента
+R8	HEADQUARTERED_IN Arg1:T12 Arg2:T14	
+T11	NEWS_SOURCE 175 206	сообщил офис президента Украины
+T17	REGION 243 262	Запорожской области
+T18	ORGANIZATION 229 242	администрации
+R9	HEADQUARTERED_IN Arg1:T18 Arg2:T17	
+T15	PROFESSION 208 228	Член главного совета
+R10	WORKPLACE Arg1:T15 Arg2:T18	
+R11	WORKS_AS Arg1:T19 Arg2:T15	
+R12	USES Arg1:T22 Arg2:T23	
+T16	TIME 380 394	Минувшей ночью
+T21	GROUP 402 413	наши ребята
+T24	WEAPON 430 446	военным объектам
+T25	PERSON 513 535	[Владимира] Зеленского
+T26	PERSON 613 618	Рогов
+T27	DATE 576 582	Сейчас
+T33	EVENT 547 574	ракеты упали на многоэтажку
+T34	QUANTITY 660 673	трех погибших
+T41	FAC 693 701	больницу
+T44	ORGANIZATION 716 730	генпрокуратуры
+T45	ORGANIZATION 703 715	Пресс-служба
+R13	OWNERSHIP Arg1:T44 Arg2:T45	
+R14	HEADQUARTERED_IN Arg1:T53 Arg2:T52	
+T48	TIME 775 780	ночью
+T49	DATE 781 795	с 1 на 2 марта
+T50	EVENT 813 834	повреждена пятиэтажка
+R15	DATE_TAKES_PLACE_ON Arg1:T50 Arg2:T49	
+T51	PROFESSION 836 845	Спасатели
+T55	QUANTITY 899 909	11 человек
+T56	QUANTITY 932 946	восемь человек
+T58	QUANTITY 955 961	пятеро
+R16	WORKPLACE Arg1:T61 Arg2:T60	
+T59	FAC 1061 1067	здание
+T62	WEAPON 1075 1087	ракета С-300
+R17	HEADQUARTERED_IN Arg1:T59 Arg2:T60	
+T63	ORGANIZATION 1091 1111	Министерстве обороны
+R1	HEADQUARTERED_IN Arg1:T63 Arg2:T67	
+T64	FAC 1213 1228	мирным объектам
+R18	WORKS_AS Arg1:T74 Arg2:T71	
+T65	NEWS_SOURCE 1230 1295	Пресс-секретарь президента России Дмитрий Песков в ноябре говорил
