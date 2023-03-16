@@ -1,0 +1,57 @@
+T0	PERSON 0 5	Путин
+T1	NORP 16 25	россиянок
+T5	PROFESSION 56 65	Президент
+T6	PERSON 66 80	Владимир Путин
+T7	NORP 91 100	россиянок
+T13	NEWS_SOURCE 183 198	на сайте Кремля
+T14	ORGANIZATION 192 198	Кремля
+T15	GROUP 239 260	женщин-военнослужащих
+T16	PROFESSION 246 260	военнослужащих
+T18	GROUP 322 328	женщин
+T19	GROUP 330 337	девушек
+T21	PROFESSION 363 377	военных врачей
+T22	PROFESSION 379 389	фельдшеров
+T23	PROFESSION 391 400	медсестер
+T28	FAC 442 452	госпиталей
+T30	FAC 455 462	больниц
+T31	NEWS_SOURCE 537 549	сказал Путин
+T32	PERSON 544 549	Путин
+T33	PROFESSION 552 561	Президент
+T34	COUNTRY 594 604	российских
+T35	PROFESSION 605 611	солдат
+T36	PROFESSION 614 622	офицеров
+T38	GROUP 798 809	волонтерами
+T39	PROFESSION 837 854	глава государства
+T40	PERSON 856 861	Путин
+T41	NEWS_SOURCE 856 872	Путин подчеркнул
+T42	COUNTRY 880 886	России
+T45	NORP 1013 1020	россиян
+T46	DATE 1086 1097	В 1910 году
+T48	COUNTRY 1168 1176	немецкая
+T2	EVENT 28 54	Международным женским днем
+R1	WORKS_AS Arg1:T6 Arg2:T5	
+T3	DATE 101 110	с 8 Марта
+R2	DATE_TAKES_PLACE_ON Arg1:T2 Arg2:T3	
+T8	NEWS_SOURCE 156 198	следует из опубликованного на сайте Кремля
+T4	PROFESSION 136 150	военнослужащих
+T9	GROUP 129 150	женщин-военнослужащих
+T10	COUNTRY 314 320	Родины
+T11	GROUP 341 361	боевых подразделений
+R3	MEMBER Arg1:T18 Arg2:T11	
+R4	MEMBER Arg1:T19 Arg2:T11	
+T12	FAC 404 423	полковых медпунктов
+T17	FAC 425 440	медицинских рот
+T20	GROUP 525 532	раненых
+T24	LOCATION 504 516	на передовой
+T25	GROUP 646 653	женщины
+T26	FAC 812 821	госпитали
+T27	NEWS_SOURCE 826 854	перечислил глава государства
+T29	EVENT 887 913	Международный женский день
+R5	TAKES_PLACE_IN Arg1:T29 Arg2:T42	
+T37	GROUP 986 993	женщине
+T43	EVENT 1122 1146	День солидарности женщин
+T44	PERSON 1202 1214	Клара Цеткин
+T47	EVENT 1230 1239	праздника
+T49	GROUP 1262 1279	трудящихся женщин
+R6	DATE_TAKES_PLACE_ON Arg1:T43 Arg2:T46	
+R7	ORIGINS_FROM Arg1:T44 Arg2:T48	

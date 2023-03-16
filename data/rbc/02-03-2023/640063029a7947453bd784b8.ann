@@ -1,5 +1,5 @@
 T0	CITY 2 11	Запорожье
-T3	CARDINAL 34 45	пятиэтажный
+T3	QUANTITY 34 45	пятиэтажный
 T8	COUNTRY 111 118	Украине
 T9	WEAPON 136 142	ракета
 T10	FAC 152 173	жилой пятиэтажный дом
@@ -20,7 +20,7 @@ T37	FAC 563 574	многоэтажку
 T38	NEWS_SOURCE 606 618	сказал Рогов
 T39	NEWS_SOURCE 620 633	По его словам
 T40	PROFESSION 635 644	спасатели
-T42	GROUP 665 673	погибших
+T42	GROUP 660 673	трех погибших
 T43	QUANTITY 679 683	трое
 T46	COUNTRY 731 738	Украины
 T47	NEWS_SOURCE 703 747	Пресс-служба генпрокуратуры Украины сообщила
@@ -87,7 +87,10 @@ T59	FAC 1061 1067	здание
 T62	WEAPON 1075 1087	ракета С-300
 R17	HEADQUARTERED_IN Arg1:T59 Arg2:T60	
 T63	ORGANIZATION 1091 1111	Министерстве обороны
-R1	HEADQUARTERED_IN Arg1:T63 Arg2:T67	
+R1	OWNERSHIP Arg1:T67 Arg2:T63	
 T64	FAC 1213 1228	мирным объектам
 R18	WORKS_AS Arg1:T74 Arg2:T71	
 T65	NEWS_SOURCE 1230 1295	Пресс-секретарь президента России Дмитрий Песков в ноябре говорил
+T69	DATE 1502 1518	Thu, 02 Mar 2023
+T70	TIME 1519 1533	12:59:03 +0300
+T73	EVENT 64 72	обстрела

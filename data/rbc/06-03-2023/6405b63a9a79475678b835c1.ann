@@ -1,0 +1,51 @@
+T0	PERSON 0 5	Путин
+T1	EVENT 17 27	с Токаевым
+T2	PROFESSION 29 39	Президенты
+T3	COUNTRY 40 46	России
+T4	COUNTRY 49 59	Казахстана
+T5	NEWS_SOURCE 60 74	Владимир Путин
+T6	PERSON 60 74	Владимир Путин
+T7	NEWS_SOURCE 77 82	Касым
+T8	NEWS_SOURCE 83 96	Жомарт Токаев
+T9	EVENT 105 124	телефонный разговор
+T10	NEWS_SOURCE 116 124	разговор
+T11	PROFESSION 133 138	пресс
+T12	PROFESSION 139 148	секретарь
+T13	COUNTRY 149 160	российского
+T14	PROFESSION 161 171	президента
+T15	PERSON 172 186	Дмитрий Песков
+T16	PERSON 197 210	корреспондент
+T17	NEWS_SOURCE 126 214	заявил пресс-секретарь российского президента Дмитрий Песков, передает корреспондент РБК
+T18	ORGANIZATION 211 214	РБК
+T19	NEWS_SOURCE 216 229	По его словам
+T20	ORGANIZATION 368 374	Кремля
+T21	NEWS_SOURCE 362 384	сайте Кремля говорится
+T22	FAC 423 437	энергетической
+T23	FAC 439 450	транспортно
+T24	FAC 451 464	логистической
+T25	FAC 467 488	гуманитарной областях
+T26	NEWS_SOURCE 490 495	Путин
+T27	PERSON 490 495	Путин
+T28	NEWS_SOURCE 498 516	Токаев подтвердили
+T29	ORGANIZATION 576 596	пресс-службе Токаева
+T30	NEWS_SOURCE 589 596	Токаева
+T31	PROFESSION 642 652	президенты
+T32	PRODUCT 708 720	транспортных
+T33	FAC 721 730	маршрутов
+T34	EVENT 825 835	президенты
+T35	COUNTRY 836 842	России
+T36	PROFESSION 843 844	и
+T37	COUNTRY 845 855	Казахстана
+T38	DATE 868 886	телефону 20 января
+T39	COUNTRY 933 942	российско
+T40	GROUP 943 957	казахстанского
+T41	ORGANIZATION 958 985	стратегического партнерства
+T42	ORGANIZATION 988 1000	союзничества
+T43	ORGANIZATION 1147 1150	Mar
+T44	DATE 1151 1155	2023
+T45	PERCENT 1156 1158	13
+T46	CARDINAL 1156 1158	13
+T47	PERCENT 1159 1161	39
+T48	CARDINAL 1159 1161	39
+T49	CARDINAL 1162 1164	44
+T50	ORGANIZATION 1165 1166	+

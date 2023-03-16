@@ -1,0 +1,30 @@
+T0	PROFESSION 0 10	Губернатор
+T1	REGION 11 27	Брянской области
+T2	ECONOMIC_SECTOR 72 79	поселок
+T3	CITY 80 88	Белевица
+T4	REGION 107 123	Брянской области
+T5	NEWS_SOURCE 125 143	сообщил в телеграм
+T6	LAW 143 150	-канале
+T7	PROFESSION 151 161	губернатор
+T8	PERSON 162 171	Александр
+T9	NEWS_SOURCE 144 179	канале губернатор Александр Богомаз
+T10	ECONOMIC_SECTOR 209 220	гражданской
+T11	FAC 201 235	объекты гражданской инфраструктуры
+T12	GROUP 267 273	Власти
+T13	REGION 274 290	Брянской области
+T14	COUNTRY 322 332	украинской
+T15	DATE 342 349	2 марта
+T16	PRODUCT 443 453	автомобиль
+T17	FAC 443 453	автомобиль
+T18	CARDINAL 463 466	два
+T19	DATE 507 514	9 марта
+T20	FAC 542 546	село
+T21	GROUP 547 554	Раковка
+T22	FAC 595 604	жилой дом
+T23	FAC 607 620	хозяйственная
+T24	ORGANIZATION 690 693	Fri
+T25	CARDINAL 695 697	10
+T26	ORGANIZATION 698 701	Mar
+T27	CARDINAL 707 709	15
+T28	CARDINAL 713 715	21
+T29	ORGANIZATION 716 717	+

@@ -1,0 +1,64 @@
+T0	PERSON 0 9	Зеленский
+T1	CARDINAL 27 33	одного
+T2	PROFESSION 37 44	лидеров
+T3	ORGANIZATION 46 61	Правого сектора
+T5	PROFESSION 64 73	Президент
+T6	COUNTRY 74 81	Украины
+T7	PERSON 82 100	Владимир Зеленский
+T10	CITY 122 130	Бахмутом
+T12	CITY 132 143	Артемовском
+T13	PERSON 145 162	Дмитрия Коцюбайло
+T16	ORDINAL 196 197	й
+T19	PERSON 224 233	Коцюбайло
+T20	PROFESSION 247 260	руководителей
+T22	ORGANIZATION 262 277	Правого сектора
+T23	COUNTRY 294 300	России
+T30	REGION 423 430	Донбасс
+T31	CARDINAL 453 457	один
+T33	PERSON 497 506	Коцюбайло
+T34	DATE 575 591	Осенью 2021 года
+T35	PERSON 592 601	Зеленский
+T36	PERSON 611 620	Коцюбайло
+T38	COUNTRY 634 641	Украины
+T39	DATE 643 662	11 апреля 2022 года
+T40	COUNTRY 663 673	российские
+T41	PROFESSION 674 681	военные
+T42	NEWS_SOURCE 663 690	российские военные сообщили
+T52	ORGANIZATION 872 882	Минобороны
+T53	NEWS_SOURCE 870 897	В Минобороны сообщили тогда
+T54	PERSON 903 910	Бобанич
+T55	PERSON 936 942	Хаммер
+T56	CITY 1011 1018	Донецка
+T57	CITY 1021 1029	Луганска
+T59	WEAPON 1033 1053	тяжелого вооружения»
+R1	WORKS_AS Arg1:T7 Arg2:T5	
+R2	WORKPLACE Arg1:T7 Arg2:T6	
+T4	NEWS_SOURCE 64 108	Президент Украины Владимир Зеленский сообщил
+R3	ALTERNATIVE_NAME Arg1:T10 Arg2:T12	
+T8	GROUP 183 192	батальном
+T9	ORGANIZATION 193 222	67-й механизированной бригады
+R4	WORKPLACE Arg1:T13 Arg2:T9	
+T11	CARDINAL 238 243	одним
+R5	WORKPLACE Arg1:T2 Arg2:T3	
+T14	CRIME 301 327	экстремистской организации
+R6	EVENT_TAKES_PART_IN Arg1:T22 Arg2:T14	
+R7	MEMBER Arg1:T19 Arg2:T22	
+T15	AGE 344 364	в 18-летнем возрасте
+T17	EVENT 379 400	в событиях на Майдане
+R8	EVENT_TAKES_PART_IN Arg1:T19 Arg2:T17	
+T18	GROUP 461 482	отрядов националистов
+T21	AWARD 621 641	звание Героя Украины
+T24	PROFESSION 696 705	спецназом
+T25	BOROUGH 706 720	в районе Изюма
+T26	CITY 715 720	Изюма
+T27	PERSON 730 743	Тарас Бобанич
+T28	PROFESSION 757 779	заместителем командира
+T29	ORGANIZATION 806 823	«Правого сектора»
+T32	ORGANIZATION 781 805	добровольческого корпуса
+R9	MEMBER Arg1:T29 Arg2:T32	
+R10	WORKPLACE Arg1:T28 Arg2:T29	
+T37	CITY 836 845	львовским
+T43	ORGANIZATION 846 856	отделением
+R11	HEADQUARTERED_IN Arg1:T43 Arg2:T37	
+R12	ALTERNATIVE_NAME Arg1:T54 Arg2:T55	
+T44	WEAPON 971 985	артиллерийские

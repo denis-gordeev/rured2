@@ -1,0 +1,36 @@
+T0	ORGANIZATION 0 14	ВГА Энергодара
+T1	NEWS_SOURCE 0 23	ВГА Энергодара сообщила
+T2	FAC 37 53	прибрежной линии
+T3	FAC 62 73	Вооруженные
+T4	ORGANIZATION 62 78	Вооруженные силы
+T5	COUNTRY 79 86	Украины
+T6	ORGANIZATION 88 91	ВСУ
+T7	FAC 101 115	артиллерийский
+T8	ECONOMIC_SECTOR 116 123	обстрел
+T9	ORGANIZATION 141 151	Энергодара
+T10	FAC 124 163	прибрежной линии Энергодара Запорожской
+T11	REGION 164 171	области
+T12	NEWS_SOURCE 181 202	сообщается в телеграм
+T13	ECONOMIC_SECTOR 210 228	военно-гражданской
+T14	ORGANIZATION 229 249	администрации города
+T15	ORGANIZATION 275 284	Энергодар
+T16	FAC 296 312	прибрежной линии
+T17	NEWS_SOURCE 313 319	города
+T18	CARDINAL 332 334	13
+T19	NEWS_SOURCE 347 368	говорится в сообщении
+T20	ORGANIZATION 373 383	Энергодаре
+T21	ORGANIZATION 394 405	Запорожская
+T22	FAC 406 409	АЭС
+T23	COUNTRY 411 417	Россия
+T24	COUNTRY 420 427	Украина
+T25	FAC 472 479	станции
+T26	FAC 533 555	атомную электростанцию
+T27	DATE 556 566	в сентябре
+T28	NEWS_SOURCE 608 610	по
+T29	ORGANIZATION 583 626	Международного агентства по атомной энергии
+T30	FAC 792 799	станции
+T31	PERSON 859 862	Sat
+T32	DATE 864 875	01 Oct 2022
+T33	CARDINAL 876 878	16
+T34	CARDINAL 879 881	40
+T35	CARDINAL 882 886	55 +

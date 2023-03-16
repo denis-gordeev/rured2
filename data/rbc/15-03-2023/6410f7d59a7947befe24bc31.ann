@@ -1,0 +1,96 @@
+T0	PROFESSION 0 16	Министр культуры
+T1	COUNTRY 17 24	Украины
+T2	GROUP 52 59	монахов
+T4	PROFESSION 63 112	лавры
+
+Министр культуры и информационной политики
+T5	COUNTRY 113 120	Украины
+T6	PERSON 121 139	Александр Ткаченко
+T7	GROUP 154 160	монахи
+T13	NEWS_SOURCE 206 226	слова приводит ZN.ua
+T15	GROUP 263 270	монахов
+T16	FAC 391 396	Лавре
+T18	NEWS_SOURCE 401 437	сказал Ткаченко в эфире телемарафона
+T19	ORGANIZATION 476 506	Украинской православной церкви
+T20	REGION 507 518	Московского
+T22	ORGANIZATION 533 553	Православную церковь
+T23	COUNTRY 554 561	Украины
+T24	CITY 571 581	Московский
+T26	PROFESSION 628 635	министр
+T27	ORGANIZATION 687 690	ПЦУ
+T28	GROUP 831 842	Руководство
+T33	DATE 879 896	на прошлой неделе
+T34	ORGANIZATION 927 930	УПЦ
+T37	DATE 966 977	до 29 марта
+T39	ORGANIZATION 981 1011	Украинской православной церкви
+T40	FAC 1050 1059	монастыря
+T43	PERSON 1130 1135	Павел
+T44	NEWS_SOURCE 1119 1142	митрополит Павел заявил
+T46	GROUP 1148 1154	монахи
+T48	CITY 1258 1268	Московский
+T50	COUNTRY 1276 1280	Руси
+T51	PERSON 1281 1287	Кирилл
+T53	COUNTRY 1347 1355	римского
+T54	PERSON 1356 1365	Франциска
+T55	PROFESSION 1368 1390	генерального секретаря
+T56	ORGANIZATION 1391 1394	ООН
+T57	PERSON 1395 1412	Антониу Гутерриша
+T58	GROUP 1435 1442	монахов
+T63	PROFESSION 1469 1474	Глава
+T64	COUNTRY 1475 1486	российского
+T65	ORGANIZATION 1487 1491	МИДа
+T66	PERSON 1492 1505	Сергей Лавров
+T67	PERSON 1515 1524	Гутерришу
+T68	PROFESSION 1527 1539	председателю
+T70	GPE 1587 1593	Европе
+T71	ORGANIZATION 1595 1599	ОБСЕ
+T73	GROUP 1652 1666	представителей
+T74	FAC 1667 1670	УПЦ
+R1	WORKPLACE Arg1:T0 Arg2:T1	
+T3	FAC 63 68	лавры
+T82	PROFESSION 70 112	Министр культуры и информационной политики
+R3	WORKPLACE Arg1:T82 Arg2:T5	
+R4	WORKPLACE Arg1:T6 Arg2:T5	
+T83	NEWS_SOURCE 70 148	Министр культуры и информационной политики Украины Александр Ткаченко допустил
+R2	WORKPLACE Arg1:T2 Arg2:T1	
+R5	HEADQUARTERED_IN Arg1:T3 Arg2:T1	
+T8	FAC 179 200	Киево-Печерской лавре
+R6	HEADQUARTERED_IN Arg1:T8 Arg2:T5	
+T9	FAC 273 278	Лавре
+T10	GROUP 321 327	монахи
+T11	PERSON 408 416	Ткаченко
+T12	COUNTRY 476 486	Украинской
+T14	ORGANIZATION 507 530	Московского патриархата
+R7	HEADQUARTERED_IN Arg1:T22 Arg2:T23	
+T17	ORGANIZATION 571 592	Московский патриархат
+R8	MEMBER Arg1:T19 Arg2:T14	
+T21	NEWS_SOURCE 628 644	министр пообещал
+T25	GROUP 666 673	монахов
+R9	MEMBER Arg1:T25 Arg2:T27	
+T84	NEWS_SOURCE 819 829	отметил он
+T29	FAC 856 877	Киево-Печерская лавра
+T30	GROUP 912 926	представителей
+R10	MEMBER Arg1:T30 Arg2:T34	
+T31	FAC 953 965	здания лавры
+T32	NEWS_SOURCE 979 1027	В Украинской православной церкви в ответ заявили
+T35	PROFESSION 1119 1129	митрополит
+T36	FAC 1113 1118	лавры
+R11	WORKS_AS Arg1:T43 Arg2:T35	
+T38	ORGANIZATION 1155 1158	УПЦ
+R12	MEMBER Arg1:T46 Arg2:T38	
+T41	PROFESSION 1249 1280	Патриарх Московский и всея Руси
+R13	WORKS_AS Arg1:T51 Arg2:T41	
+T42	PROFESSION 1296 1309	предстоятелей
+T45	FAC 1310 1340	поместных православных церквей
+T47	PROFESSION 1342 1355	папу римского
+R14	WORKS_AS Arg1:T54 Arg2:T47	
+R15	WORKPLACE Arg1:T55 Arg2:T56	
+R16	WORKPLACE Arg1:T57 Arg2:T56	
+T49	FAC 1446 1467	Киево-Печерской лавры
+R17	WORKPLACE Arg1:T63 Arg2:T65	
+R18	WORKPLACE Arg1:T66 Arg2:T65	
+T52	ORGANIZATION 1540 1584	Организации по безопасности и сотрудничеству
+R19	HEADQUARTERED_IN Arg1:T52 Arg2:T70	
+R20	ABBREVIATION Arg1:T52 Arg2:T71	
+T59	PERSON 1601 1613	Буяру Османи
+R21	WORKPLACE Arg1:T68 Arg2:T52	

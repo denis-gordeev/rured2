@@ -1,0 +1,83 @@
+T0	PERSON 8 14	Лерчек
+T2	MONEY 57 68	311 млн руб
+T3	CURRENCY 65 68	руб
+T6	PERSON 112 128	Валерию Чекалину
+T10	CRIME 146 175	в уклонении от уплаты налогов
+T12	MONEY 179 186	311 млн
+T13	QUANTITY 183 186	млн
+T14	CURRENCY 187 190	руб
+T15	FAMILY 198 202	мужа
+T18	CITY 261 267	Москвы
+T19	NEWS_SOURCE 249 294	прокуратура Москвы сообщила в телеграм-канале
+T20	PERSON 297 314	Валерии Чекалиной
+T24	COUNTRY 356 362	России
+T40	COUNTRY 543 549	России
+T46	NEWS_SOURCE 640 659	По данным следствия
+T47	PERSON 661 669	Чекалина
+T53	MONEY 850 867	более 311 млн руб
+T55	PERSON 870 886	Валерия Чекалина
+T58	QUANTITY 922 934	около 10 млн
+T59	GROUP 935 946	подписчиков
+T60	NEWS_SOURCE 949 958	Instagram
+T62	COUNTRY 1022 1028	России
+T63	DATE 1033 1050	с марта 2022 года
+T64	COUNTRY 1081 1087	России
+T67	PERSON 1122 1129	Lerchek
+T68	DATE 1143 1154	В 2020 году
+T69	ORDINAL 1162 1169	седьмое
+T70	NEWS_SOURCE 1178 1193	рейтинге Forbes
+T71	ORGANIZATION 1187 1193	Forbes
+T72	CARDINAL 1198 1202	одна
+T73	GROUP 1212 1239	высокооплачиваемых блогеров
+T75	COUNTRY 1257 1263	России
+T76	PERSON 1281 1289	Чекалина
+T79	CARDINAL 1349 1353	один
+T80	DATE 1400 1405	месяц
+T81	CARDINAL 1408 1416	минус 10
+T83	PROFESSION 1450 1456	блогер
+T90	PROFESSION 0 7	Блогера
+R1	WORKS_AS Arg1:T0 Arg2:T90	
+T1	CRIME 26 53	уклонении от уплаты налогов
+R2	EVENT_TAKES_PART_IN Arg1:T0 Arg2:T1	
+T91	QUANTITY 57 64	311 млн
+T92	ORGANIZATION 71 82	Прокуратура
+T5	PERSON 130 144	Лерчек/Lerchek
+R3	ALTERNATIVE_NAME Arg1:T6 Arg2:T5	
+T4	PROFESSION 92 111	блогера-миллионника
+T7	ORGANIZATION 249 260	прокуратура
+R4	HEADQUARTERED_IN Arg1:T7 Arg2:T18	
+R5	EVENT_TAKES_PART_IN Arg1:T6 Arg2:T10	
+R6	WORKS_AS Arg1:T6 Arg2:T4	
+T8	PERSON 205 220	Артема Чекалина
+T9	CRIME 224 239	в пособничестве
+R7	EVENT_TAKES_PART_IN Arg1:T8 Arg2:T9	
+T11	LAW 327 355	обвинение по ч. 2 ст. 198 УК
+T16	CRIME 364 489	уклонение физического лица от уплаты налогов путем непредоставления налоговой декларации, совершенное в особо крупном размере
+R8	EVENT_TAKES_PART_IN Arg1:T20 Arg2:T16	
+T17	LAW 515 542	ч. 5 ст. 33, ч.2 ст. 198 УК
+T21	PERSON 494 509	Артему Чекалину
+T22	CRIME 551 611	пособничество в уклонении физического лица от уплаты налогов
+T23	NEWS_SOURCE 617 638	говорится в сообщении
+R9	EVENT_TAKES_PART_IN Arg1:T21 Arg2:T22	
+T25	FAMILY 672 681	ее супруг
+T26	CRIME 682 734	уклонились от уплаты налога на добавленную стоимость
+R10	EVENT_TAKES_PART_IN Arg1:T47 Arg2:T26	
+T27	DATE 745 789	с I квартала 2020 года по IV квартал 2021-го
+R11	DATE_TAKES_PLACE_ON Arg1:T26 Arg2:T27	
+T28	DATE 824 840	за 2020-2021 год
+R12	DATE_TAKES_PLACE_ON Arg1:T26 Arg2:T28	
+T29	CURRENCY 864 867	руб
+T30	QUANTITY 850 863	более 311 млн
+T31	PERSON 908 914	Лерчек
+R13	ALTERNATIVE_NAME Arg1:T55 Arg2:T31	
+R14	SELLS_TO Arg1:T31 Arg2:T59	
+T32	ORGANIZATION 972 987	корпорации Meta
+T33	NEWS_SOURCE 1069 1078	Instagram
+T34	NEWS_SOURCE 1106 1120	телеграм-канал
+T35	NEWS_SOURCE 1240 1256	социальных сетей
+R15	ORIGINS_FROM Arg1:T73 Arg2:T75	
+T36	FAMILY 1297 1307	с супругом
+T37	PRODUCT 1316 1337	марафоны по похудению
+R16	USES Arg1:T76 Arg2:T37	
+T38	DATE 1438 1449	В 2021 году
+T39	PRODUCT 1472 1503	нижнего белья под брендом LEANI

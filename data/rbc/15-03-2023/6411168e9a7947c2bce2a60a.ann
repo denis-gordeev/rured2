@@ -1,0 +1,73 @@
+T0	COUNTRY 5 14	советский
+T1	PERSON 25 42	Сергей Григорьянц
+T2	AGE 44 56	На 82-м году
+T3	COUNTRY 68 77	советский
+T4	PROFESSION 78 87	диссидент
+T7	PROFESSION 113 125	и основатель
+T10	PERSON 146 163	Сергей Григорьянц
+T16	FAMILY 201 205	дочь
+T17	PERSON 206 221	Анну Григорьянц
+T19	PROFESSION 232 246	правозащитника
+T20	ORGANIZATION 263 271	Facebook
+T22	COUNTRY 324 330	России
+T24	ORGANIZATION 384 390	Яблока
+T25	PERSON 392 404	Лев Шлосберг
+T26	PERSON 412 438	Сергей Иванович Григорьянц
+T27	PROFESSION 485 494	журналист
+T28	PROFESSION 537 544	политик
+T29	PERSON 547 564	Сергей Григорьянц
+T30	DATE 573 589	12 мая 1941 года
+T31	CITY 592 597	Киеве
+T32	DATE 637 658	В начале 1970-х годов
+T33	PERSON 659 669	Григорьянц
+T34	CITY 681 687	Москву
+T35	DATE 733 744	на пять лет
+T36	PRODUCT 788 796	журналов
+T41	DATE 900 911	В 1987 году
+T42	PERSON 912 922	Григорьянц
+T46	COUNTRY 1050 1054	СССР
+T47	PERSON 1055 1065	Григорьянц
+T48	COUNTRY 1086 1097	российского
+T49	GROUP 1098 1109	руководства
+T55	PROFESSION 15 24	диссидент
+R1	WORKS_AS Arg1:T1 Arg2:T55	
+R2	WORKPLACE Arg1:T4 Arg2:T3	
+T5	ORGANIZATION 126 145	журнала «Гласность»
+R3	WORKPLACE Arg1:T7 Arg2:T5	
+R4	WORKPLACE Arg1:T10 Arg2:T5	
+T6	ORGANIZATION 174 182	Би-би-си
+T8	NEWS_SOURCE 165 221	сообщает Би-би-си со ссылкой на его дочь Анну Григорьянц
+T9	EVENT 223 231	О смерти
+T11	ORGANIZATION 290 303	компания Meta
+T12	CRIME 331 345	экстремистской
+T13	PROFESSION 359 371	председатель
+T14	CITY 372 382	псковского
+R5	WORKPLACE Arg1:T25 Arg2:T14	
+R6	WORKS_AS Arg1:T25 Arg2:T13	
+T15	NEWS_SOURCE 529 544	написал политик
+R7	DATE_OF_BIRTH Arg1:T29 Arg2:T30	
+R8	ORIGINS_FROM Arg1:T29 Arg2:T31	
+T18	PROFESSION 599 635	занимался литературной деятельностью
+R9	WORKS_AS Arg1:T29 Arg2:T18	
+T21	NEWS_SOURCE 223 271	О смерти правозащитника написал также в Facebook
+R10	OWNERSHIP Arg1:T11 Arg2:T20	
+R11	ORIGINS_FROM Arg1:T25 Arg2:T22	
+T23	PROFESSION 457 470	правозащитник
+R12	WORKS_AS Arg1:T26 Arg2:T23	
+R13	WORKS_AS Arg1:T26 Arg2:T27	
+R14	PLACE_RESIDES_IN Arg1:T33 Arg2:T34	
+T56	PENALTY 709 744	был арестован и осужден на пять лет
+T57	CRIME 768 796	продаже запрещенных журналов
+R15	PENALIZED_AS Arg1:T33 Arg2:T56	
+R16	EVENT_TAKES_PART_IN Arg1:T33 Arg2:T57	
+T37	DATE 798 813	В начале 1980-х
+T38	CRIME 814 863	был обвинен в антисоветской агитации и пропаганде
+R17	DATE_TAKES_PLACE_ON Arg1:T38 Arg2:T37	
+T39	ORGANIZATION 965 983	журнал «Гласность»
+T40	GROUP 1002 1034	профсоюз независимых журналистов
+T43	PROFESSION 1023 1034	журналистов
+R18	OWNERSHIP Arg1:T42 Arg2:T39	
+R19	MEMBER Arg1:T42 Arg2:T40	
+T44	EVENT 1036 1054	После распада СССР
+R20	WORKPLACE Arg1:T49 Arg2:T48	
+R21	WORKPLACE Arg1:T47 Arg2:T48	

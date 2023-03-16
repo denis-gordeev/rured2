@@ -1,0 +1,59 @@
+T0	PERSON 2 9	Коломне
+T1	ECONOMIC_SECTOR 18 30	беспилотники
+T2	ECONOMIC_SECTOR 35 49	патрулирования
+T3	PERSON 115 122	Коломне
+T4	ECONOMIC_SECTOR 139 166	воздух подняли беспилотники
+T5	NEWS_SOURCE 203 230	сообщил глава подмосковного
+T6	PROFESSION 211 230	глава подмосковного
+T7	NEWS_SOURCE 238 256	Александр Гречищев
+T8	PERSON 238 256	Александр Гречищев
+T9	NEWS_SOURCE 259 267	телеграм
+T10	NEWS_SOURCE 268 274	канале
+T11	DATE 403 421	по настоящее время
+T12	FAC 425 431	воздух
+T13	ECONOMIC_SECTOR 440 452	беспилотники
+T14	PROFESSION 507 512	главы
+T15	NEWS_SOURCE 497 519	По словам главы города
+T16	PERSON 580 587	Коломне
+T17	PERSON 605 613	Гречищев
+T18	NEWS_SOURCE 605 621	Гречищев добавил
+T19	NEWS_SOURCE 796 815	фейковым сообщениям
+T20	GROUP 854 870	террористические
+T21	DATE 917 924	2 марта
+T22	NEWS_SOURCE 926 930	Baza
+T23	ORGANIZATION 926 930	Baza
+T24	GROUP 933 947	местные жители
+T25	NEWS_SOURCE 948 967	в соцсетях сообщили
+T26	PERSON 975 982	Коломне
+T27	EVENT 1010 1015	Взрыв
+T28	ORGANIZATION 1097 1100	РБК
+T29	NEWS_SOURCE 1089 1100	сообщил РБК
+T30	PROFESSION 1101 1107	житель
+T31	PERSON 1116 1121	Пески
+T32	PROFESSION 1123 1172	Сотрудники правоохранительных органов и спасатели
+T33	NEWS_SOURCE 1214 1266	В пресс-службе администрации Коломенского городского
+T34	ORGANIZATION 1216 1273	пресс-службе администрации Коломенского городского округа
+T35	NEWS_SOURCE 1274 1286	сообщили РБК
+T36	ORGANIZATION 1283 1286	РБК
+T37	DATE 1316 1331	В конце февраля
+T38	PERSON 1341 1348	Коломны
+T39	FAC 1350 1356	вблизи
+T40	ORGANIZATION 1365 1374	Губастово
+T41	COUNTRY 1381 1391	украинский
+T42	ECONOMIC_SECTOR 1392 1403	беспилотник
+T43	PROFESSION 1405 1410	Глава
+T44	CITY 1411 1421	Московской
+T45	PERSON 1430 1436	Андрей
+T46	NEWS_SOURCE 1405 1453	Глава Московской области Андрей Воробьев сообщал
+T47	FAC 1491 1517	гражданской инфраструктуры
+T48	ECONOMIC_SECTOR 1491 1517	гражданской инфраструктуры
+T49	FAC 1519 1524	Жертв
+T50	NEWS_SOURCE 1556 1570	По данным Mash
+T51	ORGANIZATION 1566 1570	Mash
+T52	GROUP 1572 1576	БПЛА
+T53	CARDINAL 1584 1587	100
+T54	CITY 1624 1635	Воскресенск
+T55	ORGANIZATION 1712 1715	Mar
+T56	PERCENT 1716 1720	2023
+T57	CARDINAL 1721 1723	17
+T58	CARDINAL 1724 1726	18

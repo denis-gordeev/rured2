@@ -1,0 +1,41 @@
+T0	ORGANIZATION 0 3	ФСБ
+T1	NEWS_SOURCE 4 11	заявила
+T2	LAW 29 153	теракта на транспортном объекте в Ставрополе
+
+В Ставрополе задержаны члены законспирированной ячейки «Исламского государства
+T3	ORGANIZATION 156 158	ИГ
+T4	LAW 155 171	(ИГ, запрещенная
+T5	COUNTRY 174 180	России
+T6	ORGANIZATION 181 209	террористическая организация
+T7	LAW 174 210	России террористическая организация)
+T8	NEWS_SOURCE 212 219	сообщил
+T9	ORGANIZATION 220 245	Центр общественных связей
+T10	NEWS_SOURCE 226 245	общественных связей
+T11	ORGANIZATION 247 250	ЦОС
+T12	LAW 220 251	Центр общественных связей (ЦОС)
+T13	ORGANIZATION 252 255	ФСБ
+T14	NEWS_SOURCE 257 266	По данным
+T15	PROFESSION 304 314	зарубежных
+T16	CARDINAL 345 350	одном
+T17	FAC 354 398	объектов транспортной инфраструктуры региона
+T18	ECONOMIC_SECTOR 466 482	для изготовления
+T19	ORGANIZATION 483 487	СВУ,
+T20	CARDINAL 554 558	1 ст
+T21	CARDINAL 560 562	30
+T22	CARDINAL 572 573	ч
+T23	CARDINAL 575 579	2 ст
+T24	CARDINAL 581 584	205
+T25	ORGANIZATION 678 681	ФСБ
+T26	NEWS_SOURCE 687 692	видео
+T27	ORGANIZATION 711 714	ФСБ
+T28	CARDINAL 716 720	один
+T29	GPE 774 780	Африку
+T30	ORGANIZATION 808 810	ИГ
+T31	GROUP 852 868	террористический
+T32	CITY 882 892	Ставрополе
+T33	CARDINAL 941 943	10
+T34	PERSON 983 986	Oct
+T35	DATE 987 991	2022
+T36	CARDINAL 992 994	11
+T37	CARDINAL 995 997	38
+T38	CARDINAL 998 1002	36 +

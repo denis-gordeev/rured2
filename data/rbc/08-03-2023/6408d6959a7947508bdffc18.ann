@@ -1,0 +1,40 @@
+T0	LOCATION 0 6	На юге
+T1	CITY 7 13	Москвы
+T2	LOCATION 62 68	На юге
+T3	CITY 69 75	Москвы
+T4	FAC 94 104	жилом доме
+T5	QUANTITY 116 128	один человек
+T7	ORGANIZATION 175 178	РБК
+T10	ORGANIZATION 202 205	МЧС
+T11	EVENT 207 212	Взрыв
+T17	CARDINAL 265 266	1
+T18	NEWS_SOURCE 268 289	По данным прокуратуры
+T20	PRODUCT 403 426	аэрозольного баллончика
+T21	DATE 451 469	1998 года рождения
+T25	CARDINAL 533 536	112
+T30	ORDINAL 637 643	первом
+T31	ORDINAL 646 652	втором
+T32	FAC 653 664	этажах дома
+T33	ORGANIZATION 667 673	Мосгаз
+T36	FAC 716 724	квартире
+T43	EVENT 14 60	из-за взорвавшегося аэрозоля пострадал мужчина
+R1	TAKES_PLACE_IN Arg1:T43 Arg2:T1	
+T44	EVENT 76 104	произошел взрыв в жилом доме
+R2	TAKES_PLACE_IN Arg1:T44 Arg2:T3	
+R3	TAKES_PLACE_IN Arg1:T44 Arg2:T4	
+T6	ORGANIZATION 181 201	столичном управлении
+R4	OWNERSHIP Arg1:T10 Arg2:T6	
+R5	HEADQUARTERED_IN Arg1:T10 Arg2:T1	
+T8	NEWS_SOURCE 166 205	сообщили РБК в столичном управлении МЧС
+T9	STREET 234 248	Липецкая улица
+T12	HOUSE 250 256	дом 14
+T13	CARDINAL 254 256	14
+T14	ORGANIZATION 278 289	прокуратуры
+T15	CARDINAL 326 331	одной
+T16	FAC 335 342	квартир
+T19	NEWS_SOURCE 511 537	пишет телеграм-канал «112»
+T22	DISEASE 561 580	с ожогами рук и ног
+T23	NEWS_SOURCE 588 602	канал сообщает
+T24	NEWS_SOURCE 666 687	«Мосгаз» подчеркивает
+T26	FAC 693 713	газовые коммуникации
+T27	PRODUCT 753 766	газовая плита

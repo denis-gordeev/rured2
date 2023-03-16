@@ -1,0 +1,46 @@
+T0	COUNTRY 0 7	Украина
+T1	PROFESSION 48 54	комика
+T2	CARDINAL 57 62	тремя
+T6	COUNTRY 123 130	Украины
+T8	COUNTRY 462 469	Украину
+T10	GROUP 499 505	Власти
+T13	PERSON 587 602	Андреем Щегелем
+T14	PERSON 610 616	Щегель
+T15	PERSON 639 654	Роману Скрипину
+T16	NEWS_SOURCE 610 664	Щегель в интервью журналисту Роману Скрипину рассказал
+T17	COUNTRY 682 688	Турции
+T20	CARDINAL 718 721	три
+T21	COUNTRY 769 776	Украину
+T22	ORGANIZATION 788 799	РБК Украина
+T24	NEWS_SOURCE 778 800	сообщило «РБК Украина»
+T25	PERSON 802 808	Щегелю
+T26	ORGANIZATION 866 876	Минкультом
+T27	COUNTRY 877 884	Украины
+T30	NEWS_SOURCE 1113 1144	говорится в заявлении Минкульта
+T31	COUNTRY 1161 1167	Россия
+T32	COUNTRY 1195 1202	Украине
+T33	GPE 1204 1208	Киев
+R1	WORKPLACE Arg1:T1 Arg2:T0	
+T3	ORGANIZATION 75 122	Министерство культуры и информационной политики
+R2	HEADQUARTERED_IN Arg1:T3 Arg2:T6	
+T4	GROUP 213 239	мужчин призывного возраста
+T5	ORGANIZATION 325 336	Минкультуры
+R3	ORIGINS_FROM Arg1:T4 Arg2:T6	
+T7	ORGANIZATION 346 374	правоохранительными органами
+T9	GROUP 470 496	мужчин призывного возраста
+R4	ORIGINS_FROM Arg1:T9 Arg2:T8	
+T11	PROFESSION 571 586	стендап-комиком
+R5	PLACE_RESIDES_IN Arg1:T13 Arg2:T8	
+T12	CRIME 534 570	нарушения правил пересечения границы
+T40	PROFESSION 628 638	журналисту
+R6	PLACE_RESIDES_IN Arg1:T14 Arg2:T17	
+T18	NEWS_SOURCE 690 700	Он отметил
+R7	HEADQUARTERED_IN Arg1:T26 Arg2:T27	
+T19	PROFESSION 1060 1066	комика
+T23	ORGANIZATION 1135 1144	Минкульта
+T28	EVENT 1175 1191	военную операцию
+R8	ORGANIZES Arg1:T31 Arg2:T28	
+T29	EVENT 1229 1246	военное положение
+T41	EVENT 1249 1277	объявил всеобщую мобилизацию
+R9	ORGANIZES Arg1:T33 Arg2:T29	
+R10	ORGANIZES Arg1:T33 Arg2:T41	

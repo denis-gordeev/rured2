@@ -1,0 +1,64 @@
+T0	CITY 2 8	Москве
+T2	NORP 101 108	россиян
+T3	ORGANIZATION 210 216	ГУ МВД
+T5	CITY 220 226	Москве
+T7	QUANTITY 228 232	Трое
+T8	GROUP 233 239	мужчин
+T9	QUANTITY 242 245	три
+T10	AGE 268 280	19 до 29 лет
+T11	CITY 308 314	Москвы
+T13	REGION 316 327	Подмосковья
+T16	FAC 373 379	вагоне
+T18	GROUP 462 472	пассажирам
+T20	PROFESSION 488 499	полицейские
+T21	ORGANIZATION 529 534	отдел
+T29	CITY 665 671	Москвы
+T34	ORDINAL 772 779	шестому
+T35	ORGANIZATION 815 824	ведомстве
+T36	NEWS_SOURCE 813 833	В ведомстве отметили
+T37	DATE 886 904	В середине февраля
+T44	PROFESSION 1038 1049	сотрудников
+T45	FAC 1050 1059	аэропорта
+T46	VEHICLE 1132 1140	самолета
+T1	QUANTITY 19 27	шестерых
+T53	FAC 57 62	метро
+T54	EVENT 9 54	задержали шестерых на спор раздевшихся догола
+R1	TAKES_PLACE_IN Arg1:T54 Arg2:T0	
+R2	TAKES_PLACE_IN Arg1:T54 Arg2:T53	
+T55	GROUP 63 68	людей
+T47	QUANTITY 70 78	Шестерых
+T48	FAC 132 145	метрополитене
+T49	CITY 122 131	столичном
+R3	HEADQUARTERED_IN Arg1:T48 Arg2:T49	
+T50	EVENT 79 119	полностью раздевшихся россиян арестовали
+R4	TAKES_PLACE_IN Arg1:T50 Arg2:T48	
+R5	HEADQUARTERED_IN Arg1:T3 Arg2:T5	
+T4	NEWS_SOURCE 201 226	сообщает ГУ МВД по Москве
+T6	GROUP 246 253	женщины
+T12	FAC 383 403	Замоскворецкой линии
+T14	CRIME 347 370	сняли с себя всю одежду
+R6	EVENT_TAKES_PART_IN Arg1:T8 Arg2:T14	
+R7	ORGANIZES Arg1:T6 Arg2:T14	
+R8	TAKES_PLACE_IN Arg1:T14 Arg2:T16	
+T15	DATE 475 487	Спустя сутки
+T17	PENALTY 500 534	задержали всех и доставили в отдел
+T19	LAW 610 628	ч. 1 ст. 20.1 КоАП
+T22	CRIME 630 648	мелкое хулиганство
+T23	ORGANIZATION 652 664	Тверской суд
+R9	HEADQUARTERED_IN Arg1:T23 Arg2:T29	
+T24	QUANTITY 685 693	шестерых
+T25	QUANTITY 705 712	пятерым
+T26	CARDINAL 756 758	12
+T27	CARDINAL 762 764	14
+T30	GROUP 694 703	виновными
+T28	PENALTY 722 770	административный арест на срок от 12 до 14 суток
+T31	PENALTY 789 811	административный штраф
+T32	GROUP 850 860	нарушители
+T33	FAC 905 927	в аэропорту Домодедово
+T38	CITY 943 949	Москва
+T39	CITY 952 958	Казань
+T40	LOCATION 1006 1034	по взлетно-посадочной полосе
+T41	CRIME 1082 1101	он громко матерился
+T42	PENALTY 1114 1140	мужчину вывели из самолета
+R10	DATE_TAKES_PLACE_ON Arg1:T41 Arg2:T37	
+R11	TAKES_PLACE_IN Arg1:T41 Arg2:T46	

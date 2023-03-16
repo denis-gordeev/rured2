@@ -1,0 +1,53 @@
+T0	GROUP 6 16	пассажиров
+T5	QUANTITY 90 94	2881
+T6	VEHICLE 105 136	круизного лайнера Ruby Princess
+T9	COUNTRY 213 216	США
+T11	ORGANIZATION 218 221	CDC
+T12	DATE 224 241	В настоящее время
+T13	CITY 266 276	Галвестоне
+T15	GROUP 342 352	пассажиров
+T16	NEWS_SOURCE 358 375	уточняет CBC News
+T18	GROUP 381 390	пассажиры
+T20	ORGANIZATION 471 491	Carnival Corporation
+T30	ORDINAL 982 988	первый
+T34	GROUP 1014 1017	СМИ
+T35	DATE 1024 1041	в марте 2020 года
+T36	FAC 1066 1071	порту
+T37	CITY 1072 1078	Сиднея
+T41	QUANTITY 1173 1175	28
+T47	QUANTITY 0 5	Сотни
+T1	VEHICLE 17 48	круизного лайнера Ruby Princess
+T2	DISEASE 58 69	норовирусом
+R1	USES Arg1:T0 Arg2:T1	
+T3	QUANTITY 71 86	Как минимум 284
+T4	GROUP 95 104	пассажира
+T48	DISEASE 146 157	норовирусом
+R2	USES Arg1:T4 Arg2:T6	
+T7	ORGANIZATION 168 216	Центр по контролю и профилактике заболеваний США
+R3	HEADQUARTERED_IN Arg1:T7 Arg2:T9	
+T8	NEWS_SOURCE 159 222	сообщает Центр по контролю и профилактике заболеваний США (CDC)
+T10	VEHICLE 242 248	лайнер
+T14	REGION 278 288	штат Техас
+T49	PROFESSION 294 306	эпидемиологи
+R4	OWNERSHIP Arg1:T14 Arg2:T13	
+T17	ORGANIZATION 367 375	CBC News
+T19	DISEASE 444 467	приступы рвоты и диареи
+T50	VEHICLE 513 519	лайнер
+R5	OWNERSHIP Arg1:T20 Arg2:T50	
+T51	DISEASE 577 586	норовирус
+T21	VEHICLE 611 625	круизных судов
+T22	DISEASE 629 638	Норовирус
+T52	DISEASE 653 677	вирусного гастроэнтерита
+T23	DISEASE 679 744	инфекционного заболевания с поражением желудочно-кишечного тракта
+T24	DISEASE 771 778	диареей
+T25	DISEASE 790 796	рвотой
+T26	DISEASE 799 813	болью в животе
+T27	DISEASE 837 846	лихорадка
+T53	DISEASE 851 864	головные боли
+T28	VEHICLE 963 976	Ruby Princess
+T29	NEWS_SOURCE 993 1017	попадает в сообщения СМИ
+T31	VEHICLE 1042 1048	лайнер
+T32	QUANTITY 1079 1088	с сотнями
+R6	HEADQUARTERED_IN Arg1:T36 Arg2:T37	
+T33	DISEASE 1100 1108	COVID-19
+T38	QUANTITY 1150 1164	до 663 человек

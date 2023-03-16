@@ -1,0 +1,97 @@
+T0	ORGANIZATION 0 2	СК
+T2	CITY 52 61	Подольске
+T6	CITY 143 152	Подольске
+T7	ORGANIZATION 163 166	РБК
+T8	PROFESSION 167 194	старший помощник начальника
+T9	NEWS_SOURCE 154 214	сообщила РБК старший помощник начальника Главного управления
+T11	ORGANIZATION 195 239	Главного управления СК по Московской области
+T15	DATE 282 300	1995 года рождения
+T16	DATE 384 401	В настоящее время
+T17	PROFESSION 428 439	следователь
+T22	NEWS_SOURCE 614 628	Baza указывала
+T25	PERSON 655 671	Евгений Шмельков
+T26	ORGANIZATION 721 723	СК
+T31	CRIME 758 766	убийство
+T32	PERSON 769 775	Врадий
+T33	NEWS_SOURCE 769 787	Врадий сказала РБК
+T34	ORGANIZATION 784 787	РБК
+T36	QUANTITY 848 853	двумя
+T37	CARDINAL 867 871	один
+T38	PROFESSION 953 964	следователи
+T39	CRIME 965 979	и криминалисты
+T40	GROUP 1058 1068	свидетелей
+T42	ORGANIZATION 1087 1095	Известия
+T45	ORGANIZATION 1098 1102	Baza
+T46	ORGANIZATION 1104 1107	112
+T47	ORGANIZATION 1110 1114	Mash
+T48	PROFESSION 1154 1163	хоккеиста
+T50	FAMILY 1186 1190	сына
+T51	PROFESSION 1191 1214	бывшего министра спорта
+T52	PROFESSION 1217 1225	депутата
+T53	ORGANIZATION 1226 1233	Госдумы
+T54	ORGANIZATION 1237 1241	КПРФ
+T55	PERSON 1242 1261	Бориса Иванюженкова
+T56	ORGANIZATION 1265 1267	СК
+T57	GROUP 1357 1360	СМИ
+T58	PROFESSION 1398 1408	спортсмена
+T61	NEWS_SOURCE 1528 1546	сказала Врадий РБК
+T63	PERSON 1552 1569	Артем Иванюженков
+T64	NEWS_SOURCE 1619 1632	По его словам
+T65	ORDINAL 1637 1643	третий
+T67	CITY 1671 1675	Сочи
+T1	NEWS_SOURCE 0 10	СК сообщил
+T73	CRIME 41 49	убийстве
+R1	TAKES_PLACE_IN Arg1:T73 Arg2:T2	
+T74	CRIME 100 108	убийстве
+T75	EVENT 63 108	Следствие задержало подозреваемого в убийстве
+T3	FAC 130 140	гриль-баре
+R2	HEADQUARTERED_IN Arg1:T3 Arg2:T6	
+R3	TAKES_PLACE_IN Arg1:T74 Arg2:T6	
+R4	TAKES_PLACE_IN Arg1:T75 Arg2:T6	
+T4	REGION 221 239	Московской области
+T5	PERSON 240 252	Ольга Врадий
+T10	NEWS_SOURCE 154 252	сообщила РБК старший помощник начальника Главного управления СК по Московской области Ольга Врадий
+R5	WORKS_AS Arg1:T5 Arg2:T8	
+R6	QUOTES Arg1:T5 Arg2:T11	
+R7	WORKPLACE Arg1:T5 Arg2:T4	
+T12	NEWS_SOURCE 444 455	сказала она
+T13	CRIME 458 466	Убийство
+T14	DATE 488 496	12 марта
+T18	TIME 477 487	рано утром
+R8	DATE_TAKES_PLACE_ON Arg1:T13 Arg2:T14	
+T19	CITY 499 509	подольском
+T20	FAC 510 529	гриль-баре «Шервуд»
+R9	HEADQUARTERED_IN Arg1:T20 Arg2:T19	
+T21	CRIME 539 572	получил смертельное ранение ножом
+T76	EVENT 582 612	конфликта с другим посетителем
+R10	TAKES_PLACE_IN Arg1:T76 Arg2:T20	
+T77	ORGANIZATION 614 618	Baza
+T23	AGE 645 654	23-летний
+R11	AGE_DIED_AT Arg1:T25 Arg2:T23	
+T24	CRIME 673 691	его ранили в грудь
+T78	FAC 711 719	больнице
+T79	EVENT 704 719	умер в больнице
+T27	LAW 738 756	ч. 1 ст. 105 УК РФ
+T28	GROUP 854 866	посетителями
+T29	EVENT 832 841	конфликта
+R12	EVENT_TAKES_PART_IN Arg1:T28 Arg2:T29	
+T30	CRIME 867 901	один нанес другому ножевое ранение
+T35	NEWS_SOURCE 1073 1084	сказала она
+T41	PERSON 1164 1183	Артема Иванюженкова
+R13	WORKS_AS Arg1:T41 Arg2:T48	
+T43	CRIME 1129 1153	подозреваемым в убийстве
+T44	NEWS_SOURCE 1086 1128	«Известия», Baza, 112 и Mash ранее назвали
+R14	WORKPLACE Arg1:T52 Arg2:T53	
+R15	WORKPLACE Arg1:T52 Arg2:T54	
+R16	MEMBER Arg1:T54 Arg2:T53	
+R17	MEMBER Arg1:T55 Arg2:T54	
+R18	WORKS_AS Arg1:T55 Arg2:T51	
+R19	WORKS_AS Arg1:T55 Arg2:T52	
+T49	CRIME 1389 1397	убийству
+T66	NEWS_SOURCE 1329 1371	Распространенная некоторыми СМИ информация
+T59	CRIME 1490 1523	распространение фейковых новостей
+T60	ORGANIZATION 1543 1546	РБК
+T62	PERSON 1536 1542	Врадий
+T68	REGION 1743 1754	Подмосковье
+R20	WORKPLACE Arg1:T63 Arg2:T67	
+T69	NEWS_SOURCE 1678 1710	назвал фейками и ложью сообщения

@@ -1,0 +1,105 @@
+T0	PROFESSION 23 33	начальника
+T1	ORGANIZATION 34 48	управления МВД
+T2	ORGANIZATION 68 91	Хостинский районный суд
+T3	CITY 92 96	Сочи
+T4	PROFESSION 108 126	бывшего начальника
+T6	COUNTRY 163 169	России
+T8	PERSON 184 199	Олега Молчанова
+T9	CARDINAL 202 206	трем
+T15	ORGANIZATION 339 344	судов
+T16	REGION 345 364	Краснодарского края
+T17	ORGANIZATION 372 375	суд
+T19	PERSON 387 396	Молчанова
+T20	MONEY 397 409	на 1 млн руб
+T21	CURRENCY 406 409	руб
+T24	DATE 499 520	в течение четырех лет
+T35	COUNTRY 750 756	России
+T40	PERCENT 826 829	50%
+T41	FAC 845 849	кафе
+T45	CURRENCY 939 942	руб
+T47	PERSON 974 992	Андрея Островского
+T48	PERSON 1023 1031	Молчанов
+T51	VEHICLE 1076 1082	катере
+T52	FAC 1085 1098	морском порту
+T53	CITY 1099 1103	Сочи
+T54	PERSON 1130 1138	Молчанов
+T58	CARDINAL 1235 1239	двух
+T59	CARDINAL 1285 1299	четырехкратном
+T60	PERSON 1344 1362	Андрея Островского
+T62	PERSON 1392 1401	Молчанова
+T63	ORGANIZATION 1403 1406	суд
+T64	CARDINAL 1420 1424	трем
+T78	PERSON 1667 1678	Островского
+T80	CURRENCY 1703 1706	руб
+R1	WORKPLACE Arg1:T0 Arg2:T1	
+T90	PENALTY 49 66	осудили за взятки
+R2	PENALIZED_AS Arg1:T0 Arg2:T90	
+R3	HEADQUARTERED_IN Arg1:T2 Arg2:T3	
+T91	BOROUGH 68 78	Хостинский
+T5	ORGANIZATION 127 183	городского линейного управления МВД России на транспорте
+R4	HEADQUARTERED_IN Arg1:T5 Arg2:T6	
+R5	WORKPLACE Arg1:T8 Arg2:T5	
+T7	CARDINAL 215 220	шести
+T10	PENALTY 200 250	к трем годам и шести месяцам колонии общего режима
+T11	CRIME 251 294	за получение взяток и превышение полномочий
+R6	PENALIZED_AS Arg1:T8 Arg2:T10	
+R7	CONVICTED_OF Arg1:T8 Arg2:T11	
+R8	PLACE_RESIDES_IN Arg1:T8 Arg2:T3	
+T12	ORGANIZATION 313 338	объединенная пресс-служба
+R9	OWNERSHIP Arg1:T15 Arg2:T12	
+R10	OWNERSHIP Arg1:T16 Arg2:T12	
+T13	NEWS_SOURCE 304 364	сообщила объединенная пресс-служба судов Краснодарского края
+T14	QUANTITY 400 405	1 млн
+T18	PENALTY 376 409	оштрафовал Молчанова на 1 млн руб
+R11	PENALIZED_AS Arg1:T19 Arg2:T18	
+T22	GROUP 478 498	представителя власти
+T23	PENALTY 413 520	запретил ему занимать должности, связанные с выполнением функций представителя власти в течение четырех лет
+R12	PENALIZED_AS Arg1:T19 Arg2:T23	
+T92	PERSON 531 540	Молчанову
+T25	CRIME 562 603	злоупотреблении должностными полномочиями
+T26	LAW 605 620	ч. 1 ст. 285 УК
+T27	CRIME 624 640	получении взятки
+T28	LAW 642 664	ч. 3 и ч. 6 ст. 290 УК
+R13	CONVICTED_OF Arg1:T92 Arg2:T25	
+R14	CONVICTED_OF Arg1:T92 Arg2:T27	
+T29	NEWS_SOURCE 667 685	Обвинение полагает
+T30	PROFESSION 702 713	начальником
+T31	CITY 714 724	сочинского
+T32	ORGANIZATION 725 770	линейного управления МВД России на транспорте
+R15	HEADQUARTERED_IN Arg1:T32 Arg2:T31	
+T33	FAC 792 809	кафе «Бригантина»
+T34	DATE 850 875	в течение долгого времени
+T36	CRIME 772 875	бесплатно питался в кафе «Бригантина» или пользовался 50% скидкой в этом кафе в течение долгого времени
+R16	WORKPLACE Arg1:T30 Arg2:T31	
+R17	CONVICTED_OF Arg1:T92 Arg2:T36	
+T37	PERSON 901 909	Молчанов
+T38	QUANTITY 931 938	1,5 млн
+T39	MONEY 931 942	1,5 млн руб
+T42	PENALTY 994 1021	также осужден по этому делу
+R18	PENALIZED_AS Arg1:T47 Arg2:T42	
+T43	GROUP 1050 1082	организаторов прогулок на катере
+R19	HEADQUARTERED_IN Arg1:T52 Arg2:T53	
+R20	WORKPLACE Arg1:T43 Arg2:T53	
+T44	CRIME 1032 1082	получал взятки от организаторов прогулок на катере
+R21	CONVICTED_OF Arg1:T48 Arg2:T44	
+T46	ORGANIZATION 1105 1108	Суд
+T49	CRIME 1139 1173	бесплатно пользовался этой услугой
+R22	CONVICTED_OF Arg1:T54 Arg2:T49	
+T50	QUANTITY 1694 1701	300 тыс
+T79	MONEY 1694 1706	300 тыс. руб
+T93	PENALTY 1679 1707	оштрафовали на 300 тыс. руб.
+R23	PENALIZED_AS Arg1:T78 Arg2:T93	
+T55	PROFESSION 1175 1189	Экс-начальника
+T56	ORGANIZATION 1190 1214	линейного управления МВД
+R24	WORKPLACE Arg1:T55 Arg2:T56	
+T57	CRIME 1215 1316	признали виновным в двух эпизодах превышения должностных полномочий и четырехкратном получении взятки
+R25	CONVICTED_OF Arg1:T55 Arg2:T57	
+T61	CARDINAL 1433 1437	трем
+T65	PENALTY 1407 1466	приговорил к трем годам и трем месяцам условного заключения
+R26	PENALIZED_AS Arg1:T60 Arg2:T65	
+T66	CRIME 1470 1549	посредничество при получении взятки лицом с использованием служебного положения
+R27	CONVICTED_OF Arg1:T60 Arg2:T66	
+T67	LAW 1642 1652	ст. 171 УК
+T68	LAW 1551 1568	ч. 2 ст. 291.1 УК
+T69	CRIME 1610 1640	незаконном предпринимательстве
+R28	CONVICTED_OF Arg1:T60 Arg2:T69	

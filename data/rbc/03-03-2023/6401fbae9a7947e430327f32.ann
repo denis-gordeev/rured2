@@ -1,0 +1,88 @@
+T0	PRODUCT 22 33	Спутника V»
+T1	CITY 45 51	Москве
+T2	CITY 55 61	Москве
+T5	PROFESSION 80 86	ученый
+T7	PERSON 87 101	Андрей Ботиков
+T8	CARDINAL 104 108	один
+T9	PRODUCT 123 130	вакцины
+T10	DISEASE 134 146	коронавируса
+T11	PRODUCT 148 157	Спутник V
+T12	ORGANIZATION 177 180	РБК
+T13	NEWS_SOURCE 160 186	сообщил источник РБК в МВД
+T14	ORGANIZATION 183 186	МВД
+T18	ORGANIZATION 236 243	полиции
+T19	PERSON 263 271	Ботикова
+T23	NEWS_SOURCE 319 343	Как сообщил источник РБК
+T24	ORGANIZATION 340 343	РБК
+T25	CRIME 345 353	убийство
+T26	PERSON 388 396	Ботикова
+T27	PERSON 449 457	Ботикова
+T31	CITY 491 497	Москвы
+T33	PROFESSION 499 528	Старший помощник руководителя
+T34	ORGANIZATION 529 569	столичного главка Следственного комитета
+T36	PERSON 570 582	Юлия Иванова
+T42	NEWS_SOURCE 735 747	По данным СК
+T43	ORGANIZATION 745 747	СК
+T44	ORGANIZATION 831 834	РБК
+T45	ORGANIZATION 863 870	ГСУ СКР
+T47	CITY 874 880	Москве
+T50	ORGANIZATION 958 983	правоохранительные органы
+T51	PERSON 985 992	Ботиков
+T60	CARDINAL 1211 1216	одной
+T61	COUNTRY 1231 1237	России
+T62	PERSON 1239 1246	Ботиков
+T64	PROFESSION 1324 1334	президента
+T65	PERSON 1335 1351	Владимира Путина
+T66	DATE 1383 1399	В июне 2021 года
+T67	PERSON 1431 1447	Владимира Путина
+T76	CARDINAL 0 6	Одного
+T77	GROUP 10 20	создателей
+T78	CRIME 34 42	задушили
+R1	TAKES_PLACE_IN Arg1:T78 Arg2:T1	
+T3	CRIME 62 79	в ходе ссоры убит
+R2	WORKS_AS Arg1:T7 Arg2:T5	
+T4	GROUP 112 122	создателей
+R3	TAKES_PLACE_IN Arg1:T3 Arg2:T2	
+R4	MEMBER Arg1:T7 Arg2:T4	
+T6	ORGANIZATION 213 235	территориальном отделе
+R5	OWNERSHIP Arg1:T18 Arg2:T6	
+T15	NEWS_SOURCE 189 243	подтвердил собеседник в территориальном отделе полиции
+R6	HEADQUARTERED_IN Arg1:T6 Arg2:T2	
+T16	CRIME 254 262	убийстве
+T17	NEWS_SOURCE 295 317	сообщили «РИА Новости»
+T20	PROFESSION 410 417	ученого
+T21	CRIME 402 409	задушил
+T22	CRIME 419 427	Убийство
+T28	STREET 461 473	улице Рогова
+T29	LOCATION 474 490	на северо-западе
+R7	OWNERSHIP Arg1:T31 Arg2:T28	
+R8	WORKPLACE Arg1:T33 Arg2:T34	
+R9	WORKS_AS Arg1:T36 Arg2:T33	
+T30	ORGANIZATION 592 605	«РИА Новости»
+T32	NEWS_SOURCE 570 605	Юлия Иванова сообщила «РИА Новости»
+T35	AGE 612 621	29-летний
+T37	CRIME 662 680	задушил его ремнем
+T38	EVENT 701 733	в ходе допроса признал свою вину
+T39	PENALTY 767 806	привлекался к уголовной ответственности
+T40	ORGANIZATION 897 914	НИЦЭМ им. Гамалеи
+T41	ORGANIZATION 884 896	пресс-службе
+R10	OWNERSHIP Arg1:T40 Arg2:T41	
+T46	PROFESSION 1001 1028	старшим научным сотрудником
+R11	WORKS_AS Arg1:T51 Arg2:T46	
+T48	ORGANIZATION 1031 1106	Научно-исследовательском центре эпидемиологии и микробиологии имени Гамалеи
+R12	WORKPLACE Arg1:T51 Arg2:T48	
+T49	ORGANIZATION 1119 1137	научное учреждение
+T52	DATE 1138 1157	к августу 2020 года
+T53	PRODUCT 1170 1177	вакцину
+T54	DISEASE 1181 1189	COVID-19
+T55	PRODUCT 1190 1201	«Спутник V»
+R13	PRODUCES Arg1:T61 Arg2:T55	
+R14	HEADQUARTERED_IN Arg1:T49 Arg2:T61	
+T56	PRODUCT 1268 1275	вакцину
+T57	PROFESSION 1249 1264	соавтор патента
+R15	WORKS_AS Arg1:T62 Arg2:T57	
+T58	GROUP 1296 1302	ученых
+R16	WORKS_AS Arg1:T65 Arg2:T64	
+T59	PRODUCT 1372 1381	препарата
+T63	AWARD 1352 1381	награду за создание препарата
+T68	AWARD 1480 1534	медаль ордена «За заслуги перед Отечеством» II степени

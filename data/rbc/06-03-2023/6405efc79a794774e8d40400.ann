@@ -1,0 +1,37 @@
+T0	VEHICLE 0 11	Внедорожник
+T12	ORGANIZATION 284 287	МЧС
+T14	ORGANIZATION 309 318	ведомство
+T16	CARDINAL 359 363	один
+T21	QUANTITY 465 468	три
+T22	PROFESSION 469 477	водолаза
+T23	ORGANIZATION 492 495	МЧС
+T24	COUNTRY 496 502	России
+T26	ORGANIZATION 584 593	ведомство
+T1	EVENT 12 24	упал в озеро
+T2	REGION 27 45	Кабардино-Балкарии
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T2	
+T3	LOCATION 49 104	высокогорное озеро Гижгит (другое название — Былымское)
+T4	BOROUGH 107 125	Эльбрусском районе
+T5	REGION 126 144	Кабардино-Балкарии
+T6	VEHICLE 150 186	автомобиль Toyota Land Cruiser Prado
+T7	QUANTITY 241 254	шесть человек
+R2	OWNERSHIP Arg1:T5 Arg2:T4	
+R3	TAKES_PLACE_IN Arg1:T1 Arg2:T6	
+T8	ORGANIZATION 273 283	управление
+R4	OWNERSHIP Arg1:T12 Arg2:T8	
+T9	NEWS_SOURCE 264 301	сообщило управление МЧС по республике
+T10	NEWS_SOURCE 309 327	ведомство уточнило
+T11	QUANTITY 333 345	два человека
+T13	QUANTITY 417 428	22 человека
+T15	CARDINAL 431 436	шесть
+T17	PRODUCT 437 451	единиц техники
+T18	EVENT 377 406	поисково-спасательных работах
+T19	PROFESSION 480 491	Спасателями
+R5	WORKPLACE Arg1:T19 Arg2:T23	
+R6	HEADQUARTERED_IN Arg1:T23 Arg2:T24	
+T20	EVENT 503 546	проводятся работы по эвакуации тел погибших
+R7	TAKES_PLACE_IN Arg1:T20 Arg2:T24	
+T25	NEWS_SOURCE 574 611	указывает ведомство в телеграм-канале
+T33	ORGANIZATION 613 624	Прокуратура
+T34	REGION 625 635	республики
+R8	HEADQUARTERED_IN Arg1:T33 Arg2:T34	

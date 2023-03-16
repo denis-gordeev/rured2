@@ -1,0 +1,82 @@
+T0	COUNTRY 0 3	США
+T1	LOCATION 27 40	черноморского
+T2	COUNTRY 74 77	США
+T3	LOCATION 112 123	Черном море
+T4	COUNTRY 124 136	американский
+T12	NEWS_SOURCE 290 303	По его словам
+T14	NEWS_SOURCE 441 457	подчеркнул Кирби
+T15	PERSON 452 457	Кирби
+T16	COUNTRY 470 482	американских
+T17	PROFESSION 483 490	военных
+T18	DATE 492 500	накануне
+T23	COUNTRY 538 548	российским
+T28	COUNTRY 588 600	американских
+T29	PROFESSION 601 608	военных
+T30	WEAPON 610 617	самолет
+T31	WEAPON 624 628	БПЛА
+T33	COMMODITY 658 665	топливо
+T34	ORGANIZATION 667 687	Министерство обороны
+T36	COUNTRY 688 694	России
+T38	COUNTRY 720 731	российского
+T39	WEAPON 732 743	истребителя
+T40	WEAPON 762 766	БПЛА
+T47	DATE 999 1007	накануне
+T48	TIME 1008 1013	утром
+T49	COUNTRY 1031 1038	Румынии
+T50	WEAPON 1098 1104	Reaper
+T57	REGION 1160 1165	Крыма
+T58	CARDINAL 1189 1192	два
+T59	COUNTRY 1193 1203	российских
+T60	WEAPON 1204 1215	истребителя
+T61	ORGANIZATION 1219 1229	Минобороны
+T62	NEWS_SOURCE 1217 1240	В Минобороны утверждают
+T63	WEAPON 1246 1250	дрон
+T65	ORGANIZATION 1290 1299	Ведомство
+T66	COUNTRY 1309 1312	США
+T70	ORGANIZATION 1480 1494	Госдепартамент
+T71	PROFESSION 1506 1511	посол
+T72	COUNTRY 1512 1518	России
+T73	COUNTRY 1521 1524	США
+T74	PERSON 1525 1541	Анатолий Антонов
+T76	COUNTRY 1626 1638	американской
+T80	WEAPON 41 46	дрона
+T81	WEAPON 137 141	дрон
+T5	ORGANIZATION 218 250	Совете национальной безопасности
+T6	ORGANIZATION 251 262	Белого дома
+T7	PERSON 263 273	Джон Кирби
+T8	ORGANIZATION 274 288	телеканалу CNN
+T9	PROFESSION 172 215	координатор по стратегическим коммуникациям
+R1	WORKPLACE Arg1:T9 Arg2:T5	
+R2	WORKPLACE Arg1:T7 Arg2:T6	
+T10	NEWS_SOURCE 165 288	заявил координатор по стратегическим коммуникациям в Совете национальной безопасности Белого дома Джон Кирби телеканалу CNN
+T11	COUNTRY 305 322	Соединенные Штаты
+R3	WORKPLACE Arg1:T17 Arg2:T16	
+T13	WEAPON 501 524	беспилотник MQ-9 Reaper
+T19	WEAPON 549 554	Су-27
+T20	LOCATION 559 571	Черным морем
+R4	WORKPLACE Arg1:T29 Arg2:T28	
+T21	NEWS_SOURCE 573 608	По утверждению американских военных
+R5	HEADQUARTERED_IN Arg1:T34 Arg2:T36	
+T22	NEWS_SOURCE 667 705	Министерство обороны России утверждает
+T24	WEAPON 746 752	дроном
+T25	NEWS_SOURCE 881 894	объяснили там
+T26	LOCATION 859 878	водной поверхностью
+T27	EVENT 846 878	столкнулся с водной поверхностью
+T32	ORGANIZATION 896 921	Газета The New York Times
+T35	PROFESSION 956 974	военного чиновника
+T37	FAC 1024 1028	базы
+R6	HEADQUARTERED_IN Arg1:T37 Arg2:T49	
+T41	NEWS_SOURCE 896 981	Газета The New York Times со ссылкой на высокопоставленного военного чиновника писала
+T42	WEAPON 987 998	MQ-9 Reaper
+T43	EVENT 1098 1119	Reaper вел наблюдение
+T44	QUANTITY 1120 1143	приблизительно в 120 км
+T45	LOCATION 1144 1156	к юго-западу
+R7	TAKES_PLACE_IN Arg1:T43 Arg2:T57	
+T46	CRIME 1313 1395	в нарушении «границ района временного режима использования воздушного пространства
+R8	EVENT_TAKES_PART_IN Arg1:T66 Arg2:T46	
+T51	EVENT 1462 1477	Из-за инцидента
+R9	ORIGINS_FROM Arg1:T74 Arg2:T72	
+R10	WORKS_AS Arg1:T74 Arg2:T71	
+R11	WORKPLACE Arg1:T74 Arg2:T73	
+R12	TAKES_PLACE_IN Arg1:T51 Arg2:T72	
+T52	NEWS_SOURCE 1543 1583	Он назвал инцидент провокацией и сообщил

@@ -1,0 +1,70 @@
+T0	PERSON 0 5	Путин
+T1	PROFESSION 24 31	военных
+T2	GROUP 32 42	прокуроров
+T3	CARDINAL 43 50	четырех
+T4	GROUP 51 59	регионов
+T5	ORGANIZATION 62 92	ЗВО
+
+Комитеты Совета Федерации
+T6	DATE 93 102	3 октября
+T7	NEWS_SOURCE 127 138	президентом
+T8	PROFESSION 127 138	президентом
+T9	GROUP 164 174	прокуроров
+T10	PROFESSION 184 189	глава
+T11	ORGANIZATION 190 198	комитета
+T12	PROFESSION 199 201	по
+T13	ORGANIZATION 202 235	конституционному законодательству
+T14	NEWS_SOURCE 176 249	сообщил глава комитета по конституционному законодательству Андрей Клишас
+T15	PERSON 236 249	Андрей Клишас
+T16	PERSON 251 264	Сергей Заряев
+T17	ECONOMIC_SECTOR 289 297	военного
+T18	PROFESSION 298 307	прокурора
+T19	REGION 308 317	Западного
+T20	INVESTMENT_PROGRAM 318 326	военного
+T21	REGION 327 333	округа
+T22	NEWS_SOURCE 352 395	данным на сайте Главной военной прокуратуры
+T23	ORGANIZATION 384 395	прокуратуры
+T24	REGION 420 430	Восточного
+T25	EVENT 431 439	военного
+T26	REGION 440 446	округа
+T27	PROFESSION 448 469	Заместитель прокурора
+T28	CITY 470 476	Москвы
+T29	PERSON 477 490	Дмитрий Бурко
+T30	ORGANIZATION 508 519	прокуратуру
+T31	REGION 520 549	Чукотского автономного округа
+T32	PROFESSION 551 559	прокурор
+T33	REGION 560 588	Ненецкого автономного округа
+T34	PERSON 589 601	Сергей Лапин
+T35	ORGANIZATION 604 624	прокуратуру Мордовии
+T36	PROFESSION 635 655	Новгородской области
+T37	PERSON 656 667	Юрий Немкин
+T38	PROFESSION 680 690	прокурором
+T39	PERSON 691 706	Ставропольского
+T40	PROFESSION 707 711	края
+T41	PROFESSION 715 724	прокурора
+T42	REGION 725 741	Амурской области
+T43	PERSON 742 760	Александра Бучмана
+T44	CITY 804 817	Новосибирской
+T45	REGION 818 825	области
+T46	NEWS_SOURCE 866 868	на
+T47	DATE 882 888	в июле
+T48	ORGANIZATION 896 903	Сибкрай
+T49	NEWS_SOURCE 906 923	По данным издания
+T50	NEWS_SOURCE 955 962	Бучмана
+T51	PERSON 955 975	Бучмана Яков Хорошев
+T52	GROUP 1034 1044	прокуроров
+T53	COUNTRY 1057 1063	России
+T54	DATE 1075 1083	пять лет
+T55	GROUP 1110 1120	кандидатур
+T56	EVENT 1132 1141	заседании
+T57	DATE 1150 1159	4 октября
+T58	NEWS_SOURCE 1161 1168	отметил
+T59	PERSON 1169 1175	Клишас
+T60	CARDINAL 1206 1208	30
+T61	DATE 1212 1216	2022
+T62	ORGANIZATION 1243 1246	Fri
+T63	DATE 1248 1250	30
+T64	CARDINAL 1248 1250	30
+T65	DATE 1255 1259	2022
+T66	DATE 1263 1265	42
+T67	CARDINAL 1266 1268	49

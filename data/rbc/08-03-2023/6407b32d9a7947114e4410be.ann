@@ -1,0 +1,66 @@
+T2	COUNTRY 37 43	Грузии
+T4	ORGANIZATION 70 72	ЕС
+T5	COUNTRY 122 128	Грузии
+T7	ORDINAL 131 137	первом
+T8	ORGANIZATION 170 179	Евросоюза
+T11	PROFESSION 211 216	главы
+T12	GPE 217 228	европейской
+T13	PROFESSION 229 239	дипломатии
+T14	PERSON 240 254	Жозепа Борреля
+T16	ORGANIZATION 264 266	ЕС
+T19	GROUP 357 360	СМИ
+T20	NORP 412 418	грузин
+T21	ORGANIZATION 471 473	ЕС
+T22	NEWS_SOURCE 478 492	заявил Боррель
+T23	PERSON 485 492	Боррель
+T24	COUNTRY 568 575	Грузией
+T25	ORGANIZATION 597 605	Евросоюз
+T26	NEWS_SOURCE 740 755	уточнил Боррель
+T27	PERSON 748 755	Боррель
+T28	ORGANIZATION 757 765	Евросоюз
+T29	COUNTRY 774 780	Грузию
+T31	CITY 913 920	Тбилиси
+T32	ORDINAL 951 957	первом
+T33	COUNTRY 1067 1073	Грузии
+T34	GROUP 1090 1096	юрлица
+T36	PERCENT 1115 1118	20%
+T39	QUANTITY 1185 1187	76
+T40	PROFESSION 1188 1202	парламентариев
+T41	QUANTITY 1221 1223	13
+T42	ORGANIZATION 1233 1243	парламенте
+T43	QUANTITY 1244 1255	139 человек
+T44	PROFESSION 1257 1266	Президент
+T45	COUNTRY 1267 1273	Грузии
+T46	PERSON 1274 1292	Саломе Зурабишвили
+T47	GROUP 1327 1339	протестующих
+T48	ORGANIZATION 1405 1415	парламенте
+T50	PROFESSION 1480 1489	президент
+T52	GPE 1563 1569	Москвы
+T53	NORP 1620 1626	грузин
+T54	GPE 1631 1637	Европы
+T56	PROFESSION 1640 1652	Председатель
+T62	COUNTRY 1800 1806	Грузии
+T71	PERSON 0 7	Боррель
+T72	GROUP 24 34	иноагентах
+T73	LAW 15 34	закон об иноагентах
+R1	WORKPLACE Arg1:T72 Arg2:T2	
+T1	LAW 74 109	Законопроект об иностранном влиянии
+T3	NEWS_SOURCE 189 266	говорится в заявлении главы европейской дипломатии Жозепа Борреля на сайте ЕС
+T6	GROUP 334 354	гражданское общество
+T9	GROUP 626 652	большинство граждан страны
+T10	EVENT 896 910	Акция протеста
+T15	LAW 940 1016	принятия в первом чтении законопроекта о «прозрачности иностранного влияния»
+R2	TAKES_PLACE_IN Arg1:T10 Arg2:T31	
+T17	GROUP 1053 1064	иноагентами
+T18	LOCATION 1135 1147	из-за рубежа
+R3	WORKPLACE Arg1:T40 Arg2:T42	
+R4	WORKS_AS Arg1:T46 Arg2:T44	
+R5	WORKPLACE Arg1:T46 Arg2:T45	
+T30	NEWS_SOURCE 1257 1315	Президент Грузии Саломе Зурабишвили выступила с обращением
+T35	NEWS_SOURCE 1453 1465	отметила она
+T37	NEWS_SOURCE 1480 1497	президент сказала
+T38	ORGANIZATION 1653 1687	правящей партии «Грузинская мечта»
+R6	WORKPLACE Arg1:T56 Arg2:T38	
+T49	PERSON 1688 1705	Ираклий Кобахидзе
+T51	NEWS_SOURCE 1688 1712	Ираклий Кобахидзе заявил
+T55	GROUP 1718 1739	общественность страны

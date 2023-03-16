@@ -1,0 +1,72 @@
+T2	PRODUCT 67 73	оружие
+T4	GROUP 75 81	Власти
+T5	REGION 82 106	Днепропетровской области
+T8	PRODUCT 147 153	оружия
+T11	DATE 210 219	год назад
+T12	GROUP 227 236	населению
+T19	PERSON 316 328	Сергей Лысак
+T20	GROUP 344 350	власти
+T21	EVENT 366 375	совещания
+T23	REGION 418 442	Днепропетровской области
+T24	EVENT 447 456	совещании
+T26	PRODUCT 561 567	оружие
+T27	PRODUCT 634 640	оружие
+T28	PERSON 677 682	Лысак
+T29	GROUP 699 706	властей
+T30	PRODUCT 751 757	оружие
+T31	DATE 759 780	В марте прошлого года
+T32	PROFESSION 781 790	президент
+T33	COUNTRY 791 798	Украины
+T34	PERSON 799 817	Владимир Зеленский
+T36	GROUP 932 938	Власти
+T37	GROUP 953 962	населению
+T38	CARDINAL 964 977	десятки тысяч
+T39	PROFESSION 997 1002	глава
+T40	ORGANIZATION 1003 1006	МВД
+T41	NEWS_SOURCE 990 1032	заявил глава МВД страны Денис Монастырский
+T42	PERSON 1014 1032	Денис Монастырский
+T43	DATE 1034 1054	23 февраля 2022 года
+T44	ORGANIZATION 1055 1069	Верховная Рада
+T45	ORDINAL 1080 1086	первом
+T47	LAW 1094 1142	законопроект о легализации огнестрельного оружия
+T51	PROFESSION 1337 1359	министр обороны страны
+T52	PERSON 1360 1376	Алексей Резников
+T53	PROFESSION 1379 1384	глава
+T56	COUNTRY 1409 1419	украинское
+T1	REGION 2 26	Днепропетровской области
+R1	WORKPLACE Arg1:T4 Arg2:T5	
+T3	DATE 118 131	десятидневный
+T6	EVENT 181 209	специальной военной операции
+T7	GROUP 42 51	населения
+R2	WORKPLACE Arg1:T7 Arg2:T1	
+T9	EVENT 173 180	началом
+R3	SUBEVENT_OF Arg1:T6 Arg2:T9	
+R4	DATE_TAKES_PLACE_ON Arg1:T9 Arg2:T11	
+T10	ORGANIZATION 284 315	областной военной администрации
+T13	PROFESSION 278 283	глава
+R5	WORKPLACE Arg1:T13 Arg2:T10	
+R6	WORKS_AS Arg1:T19 Arg2:T13	
+R7	WORKPLACE Arg1:T19 Arg2:T10	
+T14	NEWS_SOURCE 246 328	в своем телеграм-канале написал глава областной военной администрации Сергей Лысак
+T15	ORGANIZATION 391 417	правоохранительных органов
+T16	GROUP 378 390	сотрудниками
+R8	WORKPLACE Arg1:T16 Arg2:T15	
+R9	HEADQUARTERED_IN Arg1:T15 Arg2:T23	
+R10	EVENT_TAKES_PART_IN Arg1:T20 Arg2:T21	
+T17	GROUP 524 541	гражданским лицам
+T18	NEWS_SOURCE 669 682	написал Лысак
+R11	WORKS_AS Arg1:T34 Arg2:T32	
+R12	WORKPLACE Arg1:T34 Arg2:T33	
+T22	PRODUCT 873 893	огнестрельное оружие
+T25	GROUP 845 862	гражданским лицам
+R13	USES Arg1:T25 Arg2:T22	
+T35	PRODUCT 978 987	автоматов
+R14	HEADQUARTERED_IN Arg1:T40 Arg2:T33	
+T46	PRODUCT 1169 1192	короткоствольное оружие
+T48	GROUP 1286 1316	законных воинских формирований
+R15	USES Arg1:T48 Arg2:T46	
+T49	LAW 1318 1325	Реформу
+R16	WORKS_AS Arg1:T52 Arg2:T51	
+T50	ORGANIZATION 1385 1388	МВД
+T54	PERSON 1389 1401	Монастырский
+T55	NEWS_SOURCE 1403 1452	пишут украинское издание «СИГНАЛ» и «РБК-Украина»

@@ -1,0 +1,70 @@
+T0	COUNTRY 3 10	Украине
+T2	COUNTRY 34 45	российского
+T3	PROFESSION 46 62	военного летчика
+T4	COUNTRY 67 74	Украине
+T5	ORGANIZATION 75 78	суд
+T6	CARDINAL 92 94	12
+T8	COUNTRY 101 112	российского
+T14	ORGANIZATION 160 187	Службы безопасности Украины
+T15	ORGANIZATION 189 192	СБУ
+T16	NEWS_SOURCE 199 213	утверждает СБУ
+T17	ORGANIZATION 210 213	СБУ
+T19	DATE 266 283	в марте 2022 года
+T20	EVENT 306 330	Летчик катапультировался
+T21	COUNTRY 346 357	украинскими
+T22	GROUP 358 368	силовиками
+T23	PROFESSION 409 422	следователями
+T25	ORGANIZATION 423 426	СБУ
+T26	ORGANIZATION 428 431	суд
+T29	CARDINAL 462 463	2
+T30	CARDINAL 471 473	28
+T31	CARDINAL 482 483	1
+T32	CARDINAL 491 494	438
+T35	COUNTRY 514 521	Украины
+T38	NEWS_SOURCE 562 580	сообщило ведомство
+T39	PROFESSION 587 594	летчика
+T41	ORGANIZATION 607 617	спецслужбы
+T43	ORGANIZATION 632 635	СБУ
+T47	CARDINAL 687 688	6
+T52	DATE 772 789	6 марта 2022 года
+T53	COUNTRY 790 800	украинские
+T54	GROUP 801 804	СМИ
+T55	NEWS_SOURCE 790 813	украинские СМИ сообщили
+T56	CITY 826 837	Харьковской
+T57	FAC 838 847	телебашни
+T58	DATE 912 919	9 марта
+T63	COUNTRY 991 998	Украины
+T64	COUNTRY 1000 1010	Российское
+T65	ORGANIZATION 1011 1021	Минобороны
+T66	ORGANIZATION 1054 1071	Военное ведомство
+T67	FAC 1121 1141	гражданских объектов
+T68	COUNTRY 1200 1207	Украины
+T1	CARDINAL 25 27	12
+T78	PENALTY 11 33	приговорили к 12 годам
+R1	WORKPLACE Arg1:T3 Arg2:T2	
+R2	PENALIZED_AS Arg1:T0 Arg2:T78	
+T7	PROFESSION 113 129	военного летчика
+T9	PENALTY 79 100	приговорил к 12 годам
+R3	HEADQUARTERED_IN Arg1:T5 Arg2:T4	
+R4	WORKPLACE Arg1:T7 Arg2:T8	
+R5	ABBREVIATION Arg1:T14 Arg2:T15	
+T10	ORGANIZATION 144 159	телеграм-канале
+R6	OWNERSHIP Arg1:T14 Arg2:T10	
+T11	NEWS_SOURCE 131 187	сообщается в телеграм-канале Службы безопасности Украины
+T12	WEAPON 219 226	самолет
+T13	FAC 256 265	телебашню
+T18	CITY 244 255	Харьковскую
+R7	HEADQUARTERED_IN Arg1:T13 Arg2:T18	
+R8	WORKPLACE Arg1:T22 Arg2:T21	
+R9	WORKPLACE Arg1:T23 Arg2:T25	
+T24	ORGANIZATION 571 580	ведомство
+T27	LAW 453 521	по части 2 статьи 28 и части 1 статьи 438 Уголовного кодекса Украины
+T28	LAW 523 556	нарушение законов и обычаев войны
+T33	PROFESSION 649 686	заместителем командира воинской части
+T34	ORGANIZATION 687 770	6-й армии Военно-воздушных сил и противовоздушной обороны Западного военного округа
+R10	WORKPLACE Arg1:T54 Arg2:T53	
+R11	HEADQUARTERED_IN Arg1:T57 Arg2:T56	
+T36	ORGANIZATION 930 998	Государственная служба специальной связи и защиты информации Украины
+T37	NEWS_SOURCE 921 998	сообщала Государственная служба специальной связи и защиты информации Украины
+R12	HEADQUARTERED_IN Arg1:T65 Arg2:T64	
+R13	HEADQUARTERED_IN Arg1:T67 Arg2:T68	

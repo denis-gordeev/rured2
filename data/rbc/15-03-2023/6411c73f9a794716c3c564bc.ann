@@ -1,0 +1,39 @@
+T0	CITY 2 11	Кировской
+T1	REGION 2 19	Кировской области
+T2	GROUP 53 57	окна
+T3	EVENT 58 65	мужчину
+T4	FAC 117 124	Вятские
+T5	REGION 125 149	Поляны Кировской области
+T6	NEWS_SOURCE 169 208	сообщила прокуратура региона в телеграм
+T7	NEWS_SOURCE 209 215	канале
+T8	ORGANIZATION 217 236	Следственные органы
+T9	GROUP 230 236	органы
+T10	CRIME 275 281	статье
+T11	GROUP 308 338	сотрудников правоохранительных
+T12	LAW 339 351	органов (ст.
+T13	CARDINAL 352 355	317
+T14	COUNTRY 359 361	РФ
+T15	LAW 356 362	УК РФ)
+T16	LAW 377 386	наказание
+T17	LAW 395 401	статье
+T18	DATE 446 447	г
+T19	NEWS_SOURCE 449 456	Вятские
+T20	PERSON 457 463	Поляны
+T21	PROFESSION 526 536	губернатор
+T22	NEWS_SOURCE 518 562	сообщил губернатор региона Александр Соколов
+T23	PERSON 545 562	Александр Соколов
+T24	DATE 574 580	16 лет
+T25	NEWS_SOURCE 638 656	отметил губернатор
+T26	PROFESSION 646 656	губернатор
+T27	ORGANIZATION 674 681	МВД РБК
+T28	NEWS_SOURCE 661 699	региональном МВД РБК также подтвердили
+T29	ORGANIZATION 688 699	подтвердили
+T30	NEWS_SOURCE 813 820	отмечал
+T31	CARDINAL 846 849	два
+T32	CARDINAL 905 929	6411c73f9a794716c3c564bc
+T33	CARDINAL 936 938	15
+T34	ORGANIZATION 939 942	Mar
+T35	DATE 943 947	2023
+T36	CARDINAL 948 950	16
+T37	CARDINAL 951 953	57
+T38	CARDINAL 954 956	15

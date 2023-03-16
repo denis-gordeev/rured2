@@ -1,0 +1,71 @@
+T1	CITY 2 10	Саратове
+T2	GROUP 36 43	мужчины
+T3	FAC 54 66	наркоклиники
+T4	CITY 70 78	Саратове
+T22	NEWS_SOURCE 692 711	По данным следствия
+T25	PROFESSION 723 731	владелец
+T28	FAC 790 794	дома
+T31	PROFESSION 867 877	Основатель
+T38	PERSON 1123 1129	Руслан
+T39	DATE 1168 1175	полгода
+T40	FAMILY 1179 1193	родственниками
+T45	PROFESSION 1421 1441	генеральный директор
+T46	PERSON 1442 1456	Дмитрий Кречин
+T47	PROFESSION 1458 1476	консультант центра
+T48	PERSON 1477 1490	Антон Мелькин
+T49	QUANTITY 1497 1501	семь
+T50	GROUP 1502 1513	постояльцев
+T51	DATE 1515 1521	Сейчас
+T53	CARDINAL 1645 1648	112
+T5	AGE 79 88	25-летний
+T6	GROUP 89 96	мужчина
+T7	DISEASE 148 170	нарко- и алкозависимых
+T8	FAC 112 170	частном реабилитационном центре для нарко- и алкозависимых
+R1	HEADQUARTERED_IN Arg1:T8 Arg2:T4	
+T9	CRIME 172 259	умер от переохлаждения, после того как его завернули в ковер и оставили на веранде дома
+R2	TAKES_PLACE_IN Arg1:T9 Arg2:T4	
+T10	REGION 298 317	Саратовской области
+T59	ORGANIZATION 272 294	Следственного комитета
+T60	ORGANIZATION 261 271	Управление
+R3	OWNERSHIP Arg1:T59 Arg2:T60	
+R4	HEADQUARTERED_IN Arg1:T59 Arg2:T10	
+T61	EVENT 318 342	возбудило уголовное дело
+R5	TAKES_PLACE_IN Arg1:T61 Arg2:T4	
+T11	LAW 360 375	ч. 3 ст. 127 УК
+T12	CRIME 377 599	незаконное лишение человека свободы, не связанное с его похищением, совершенное группой лиц по предварительному сговору, с применением насилия, опасного для жизни и здоровья, повлекшее по неосторожности смерть потерпевшего
+T13	CARDINAL 666 690	от четырех до восьми лет
+T14	PENALTY 642 690	лишение свободы на срок от четырех до восьми лет
+T15	AGE 713 722	34-летний
+T16	ORGANIZATION 732 738	центра
+R6	WORKPLACE Arg1:T25 Arg2:T16	
+T17	AGE 744 753	30-летний
+T18	GROUP 779 789	постояльцы
+R7	OWNERSHIP Arg1:T18 Arg2:T28	
+T19	FAC 861 865	дома
+T20	CRIME 795 865	завернули мужчину в ковер, обмотали скотчем и оставили на веранде дома
+R8	EVENT_TAKES_PART_IN Arg1:T18 Arg2:T20	
+T21	ORGANIZATION 878 884	центра
+R9	WORKPLACE Arg1:T31 Arg2:T21	
+T23	EVENT 867 909	Основатель центра и его знакомый задержаны
+T24	NEWS_SOURCE 1002 1028	пишет телеграм-канал «112»
+T26	AGE 1113 1122	26-летний
+R10	AGE_DIED_AT Arg1:T38 Arg2:T26	
+T27	ORGANIZATION 1146 1167	клинике «Новая жизнь»
+T29	FAC 1297 1305	в центре
+T30	FAMILY 1330 1340	с близкими
+T32	EVENT 1315 1329	Личные встречи
+T33	NEWS_SOURCE 1357 1373	По данным канала
+T34	PENALTY 1407 1420	ранее судимый
+R11	PENALIZED_AS Arg1:T46 Arg2:T34	
+T35	EVENT 1375 1406	подозреваемыми по делу проходят
+R12	EVENT_TAKES_PART_IN Arg1:T46 Arg2:T35	
+R13	EVENT_TAKES_PART_IN Arg1:T48 Arg2:T35	
+R14	EVENT_TAKES_PART_IN Arg1:T50 Arg2:T35	
+R15	WORKS_AS Arg1:T46 Arg2:T45	
+R16	WORKS_AS Arg1:T48 Arg2:T47	
+T36	ORGANIZATION 1522 1544	реабилитационный центр
+T37	EVENT 1545 1575	приостановил свою деятельность
+R17	DATE_TAKES_PLACE_ON Arg1:T37 Arg2:T51	
+T41	GROUP 1582 1591	пациентов
+T42	FAC 1627 1634	клиники
+T43	NEWS_SOURCE 1636 1649	добавил «112»

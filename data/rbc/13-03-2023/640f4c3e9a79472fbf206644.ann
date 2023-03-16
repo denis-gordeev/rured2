@@ -1,0 +1,62 @@
+T5	ORGANIZATION 91 106	вооруженных сил
+T6	COUNTRY 107 114	Украины
+T18	CARDINAL 290 293	два
+T19	NEWS_SOURCE 321 334	По его словам
+T20	TIME 392 397	Утром
+T21	NEWS_SOURCE 398 413	Богомаз сообщал
+T24	FAC 500 509	жилой дом
+T31	PERSON 706 713	Богомаз
+T33	DATE 722 730	10 марта
+T34	DATE 840 856	за день до этого
+T35	DATE 858 865	9 марта
+T44	PERSON 0 7	Богомаз
+T45	NEWS_SOURCE 0 15	Богомаз сообщил
+T1	VILLAGE 28 44	деревни Грудская
+T2	VILLAGE 47 61	села Некислица
+T3	EVENT 19 27	обстреле
+R1	TAKES_PLACE_IN Arg1:T3 Arg2:T1	
+R2	TAKES_PLACE_IN Arg1:T3 Arg2:T2	
+T4	REGION 63 81	В Брянской области
+R3	OWNERSHIP Arg1:T6 Arg2:T5	
+R4	OWNERSHIP Arg1:T4 Arg2:T1	
+R5	OWNERSHIP Arg1:T4 Arg2:T2	
+T7	VILLAGE 127 143	деревня Грудская
+T8	VILLAGE 146 160	село Некислица
+T9	BOROUGH 163 177	Севском районе
+R6	OWNERSHIP Arg1:T9 Arg2:T8	
+R7	OWNERSHIP Arg1:T9 Arg2:T7	
+T10	EVENT 82 90	обстрелу
+R8	TAKES_PLACE_IN Arg1:T10 Arg2:T7	
+R9	TAKES_PLACE_IN Arg1:T10 Arg2:T8	
+T11	PROFESSION 187 200	глава региона
+T12	PERSON 201 218	Александр Богомаз
+T13	NEWS_SOURCE 179 236	сообщил глава региона Александр Богомаз в телеграм-канале
+T14	FAC 294 304	жилых дома
+T15	NEWS_SOURCE 309 319	написал он
+T16	VILLAGE 338 359	эти населенные пункты
+T17	GROUP 372 390	оперативные службы
+R10	HEADQUARTERED_IN Arg1:T14 Arg2:T16	
+T46	PERSON 398 405	Богомаз
+T22	VILLAGE 426 441	деревни Раковка
+T47	EVENT 417 425	обстреле
+T48	BOROUGH 444 461	Климовском районе
+R11	TAKES_PLACE_IN Arg1:T47 Arg2:T22	
+R12	TAKES_PLACE_IN Arg1:T47 Arg2:T48	
+T23	FAC 557 572	энергоснабжение
+T25	FAC 512 535	хозяйственная постройка
+R13	HEADQUARTERED_IN Arg1:T24 Arg2:T22	
+R14	HEADQUARTERED_IN Arg1:T25 Arg2:T22	
+T26	REGION 575 591	Брянская область
+T27	COUNTRY 619 627	Украиной
+T28	COUNTRY 628 638	российские
+T29	EVENT 648 680	регулярно подвергается обстрелам
+T30	NEWS_SOURCE 706 730	Богомаз сообщал 10 марта
+T32	VILLAGE 757 773	поселок Белевица
+T49	BOROUGH 774 791	Погарского района
+T50	EVENT 738 756	обстрелу подвергся
+R15	TAKES_PLACE_IN Arg1:T50 Arg2:T32	
+R16	TAKES_PLACE_IN Arg1:T50 Arg2:T49	
+R17	DATE_TAKES_PLACE_ON Arg1:T50 Arg2:T33	
+T51	VILLAGE 813 820	Раковку
+R18	TAKES_PLACE_IN Arg1:T50 Arg2:T51	
+R19	DATE_TAKES_PLACE_ON Arg1:T50 Arg2:T35	

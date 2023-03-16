@@ -1,0 +1,48 @@
+T0	REGION 2 22	Белгородской области
+T1	ORGANIZATION 23 26	ФСБ
+T2	PRODUCT 45 51	оружия
+T3	PROFESSION 74 84	Сотрудники
+T4	ORGANIZATION 85 88	ФСБ
+T6	REGION 91 111	Белгородской области
+T8	CRIME 128 139	контрабанды
+T9	PRODUCT 140 146	оружия
+T14	NEWS_SOURCE 240 262	передает «РИА Новости»
+T16	CARDINAL 290 295	двоих
+T29	NEWS_SOURCE 484 503	По данным агентства
+T30	ORGANIZATION 494 503	агентства
+T31	CARDINAL 505 509	один
+T32	REGION 535 555	Белгородской области
+T33	REGION 568 578	Московской
+T34	DATE 582 588	сейчас
+T35	REGION 601 606	Ямале
+T36	GROUP 620 626	мужчин
+T47	LOCATION 55 72	зоны спецоперации
+T48	EVENT 27 51	пресекла поставки оружия
+R1	EVENT_TAKES_PART_IN Arg1:T1 Arg2:T48	
+R2	TAKES_PLACE_IN Arg1:T48 Arg2:T0	
+R3	HEADQUARTERED_IN Arg1:T1 Arg2:T0	
+T5	LOCATION 150 178	зоны проведения спецоперации
+R4	WORKPLACE Arg1:T3 Arg2:T4	
+R5	HEADQUARTERED_IN Arg1:T4 Arg2:T6	
+R6	TAKES_PLACE_IN Arg1:T8 Arg2:T6	
+T10	ORGANIZATION 249 262	«РИА Новости»
+T7	ORGANIZATION 197 209	пресс-служба
+T11	ORGANIZATION 210 238	регионального управления ФСБ
+R7	OWNERSHIP Arg1:T11 Arg2:T7	
+T12	NEWS_SOURCE 188 238	сообщила пресс-служба регионального управления ФСБ
+T13	GROUP 296 309	подозреваемых
+T15	WEAPON 404 444	тротиловые шашки массой от 200 г до 3 кг
+T17	CARDINAL 431 434	200
+T18	CARDINAL 440 441	3
+T19	CARDINAL 447 454	15 тыс.
+T20	WEAPON 455 482	патронов различного калибра
+T21	WEAPON 324 358	противотанковые управляемые ракеты
+T22	WEAPON 360 371	гранатометы
+T23	WEAPON 373 402	ручные гранаты и запалы к ним
+T24	ORDINAL 557 563	другой
+T25	PENALTY 627 651	возбудили уголовные дела
+T26	WEAPON 709 730	огнестрельного оружия
+T27	WEAPON 732 743	боеприпасов
+T28	WEAPON 746 764	взрывчатых веществ
+T37	CRIME 667 817	незаконном приобретении, передаче и сбыте огнестрельного оружия, боеприпасов и взрывчатых веществ, совершенном группой лиц по предварительному сговору
+R8	EVENT_TAKES_PART_IN Arg1:T36 Arg2:T37	

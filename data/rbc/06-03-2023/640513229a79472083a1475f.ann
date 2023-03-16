@@ -1,0 +1,71 @@
+T0	CARDINAL 29 35	восьми
+T1	COUNTRY 45 52	Украины
+T2	REGION 56 64	Киевской
+T4	REGION 66 76	Черкасской
+T5	REGION 78 85	Сумской
+T6	REGION 87 99	Черниговской
+T7	REGION 101 115	Кировоградской
+T8	REGION 117 128	Харьковской
+T9	REGION 130 140	Полтавской
+T10	REGION 143 159	Днепропетровской
+T12	COUNTRY 169 176	Украины
+T16	REGION 363 373	Черкасской
+T17	REGION 376 393	Киевской областях
+T22	COUNTRY 488 498	украинских
+T23	DATE 528 546	с середины октября
+T26	FAC 594 610	электроснабжении
+T27	GROUP 623 635	пострадавших
+T28	COUNTRY 639 649	российском
+T29	ORGANIZATION 650 660	Минобороны
+T32	COUNTRY 787 794	Украины
+T33	COUNTRY 796 802	Россия
+T34	COUNTRY 820 830	украинской
+T36	GPE 881 886	Киева
+T37	REGION 910 918	Крымском
+T40	FAC 936 957	линий электропередачи
+T41	REGION 961 968	Курской
+T44	PROFESSION 982 991	президент
+T46	PERSON 999 1013	Владимир Путин
+T53	EVENT 0 17	Воздушную тревогу
+T54	REGION 36 44	областях
+R1	TAKES_PLACE_IN Arg1:T53 Arg2:T1	
+R2	OWNERSHIP Arg1:T1 Arg2:T54	
+T3	EVENT 186 203	воздушную тревогу
+R3	TAKES_PLACE_IN Arg1:T3 Arg2:T10	
+R4	TAKES_PLACE_IN Arg1:T3 Arg2:T9	
+R5	TAKES_PLACE_IN Arg1:T3 Arg2:T8	
+R6	TAKES_PLACE_IN Arg1:T3 Arg2:T7	
+R7	TAKES_PLACE_IN Arg1:T3 Arg2:T6	
+R8	TAKES_PLACE_IN Arg1:T3 Arg2:T5	
+R9	TAKES_PLACE_IN Arg1:T3 Arg2:T4	
+R10	TAKES_PLACE_IN Arg1:T3 Arg2:T2	
+T11	EVENT 265 282	Воздушную тревогу
+R11	TAKES_PLACE_IN Arg1:T11 Arg2:T16	
+R12	TAKES_PLACE_IN Arg1:T11 Arg2:T17	
+T13	TIME 396 411	около 00:30 мск
+T14	TIME 426 438	на 01:00 мск
+T15	EVENT 439 465	сигналы продолжали звучать
+T18	EVENT 468 485	Воздушную тревогу
+T19	GROUP 548 562	Местные власти
+T20	GROUP 612 620	погибших
+T21	NEWS_SOURCE 548 571	Местные власти сообщали
+R13	HEADQUARTERED_IN Arg1:T29 Arg2:T28	
+T24	EVENT 676 729	нанесении «массированных ударов высокоточным оружием»
+T25	FAC 764 786	энергетической системы
+R14	HEADQUARTERED_IN Arg1:T25 Arg2:T32	
+R15	TAKES_PLACE_IN Arg1:T24 Arg2:T32	
+T30	LOCATION 733 761	объектам военного управления
+R16	OWNERSHIP Arg1:T32 Arg2:T30	
+T31	FAC 831 860	энергетической инфраструктуре
+R17	HEADQUARTERED_IN Arg1:T31 Arg2:T34	
+T35	FAC 919 924	мосту
+R18	HEADQUARTERED_IN Arg1:T35 Arg2:T37	
+T38	CRIME 900 906	теракт
+R19	TAKES_PLACE_IN Arg1:T38 Arg2:T37	
+R20	ORGANIZES Arg1:T36 Arg2:T38	
+R21	ORGANIZES Arg1:T28 Arg2:T24	
+T42	FAC 969 972	АЭС
+R22	HEADQUARTERED_IN Arg1:T42 Arg2:T41	
+T43	NEWS_SOURCE 974 1013	говорил президент страны Владимир Путин
+T39	CRIME 929 957	подрыв линий электропередачи
+R23	ORGANIZES Arg1:T34 Arg2:T39	

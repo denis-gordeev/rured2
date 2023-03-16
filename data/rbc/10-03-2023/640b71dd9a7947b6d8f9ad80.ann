@@ -1,0 +1,60 @@
+T0	ORGANIZATION 0 10	Минобороны
+T2	EVENT 165 173	брифинге
+T3	ORGANIZATION 174 213	Национального центра управления обороны
+T5	ORGANIZATION 224 228	ТАСС
+T9	ORGANIZATION 534 543	агентство
+T10	DATE 556 581	21 сентября прошлого года
+T11	PROFESSION 582 591	президент
+T12	COUNTRY 592 598	России
+T13	PERSON 599 613	Владимир Путин
+T14	NEWS_SOURCE 582 621	президент России Владимир Путин объявил
+T16	DATE 647 657	28 октября
+T17	PROFESSION 658 673	министр обороны
+T18	PERSON 674 686	Сергей Шойгу
+T21	ORGANIZATION 773 783	Минобороны
+T23	DATE 784 793	в феврале
+T25	PROFESSION 869 876	военные
+T26	COUNTRY 940 943	США
+T27	COUNTRY 946 952	России
+T29	COUNTRY 1058 1068	российские
+T30	GROUP 1069 1075	власти
+T33	COUNTRY 1137 1143	России
+T35	PERSON 1144 1158	Дмитрий Песков
+T38	PERSON 1228 1233	Путин
+T39	DATE 1234 1243	в декабре
+T41	DATE 1318 1339	на сегодняшний момент
+T49	EVENT 116 152	частичной мобилизации не планируется
+T4	NEWS_SOURCE 154 228	заявили на брифинге Национального центра управления обороны, передает ТАСС
+R1	EVENT_TAKES_PART_IN Arg1:T3 Arg2:T2	
+R2	ORGANIZES Arg1:T0 Arg2:T49	
+T1	EVENT 11 70	исключило «дополнительные мероприятия» в рамках мобилизации
+R3	ORGANIZES Arg1:T0 Arg2:T1	
+T6	NEWS_SOURCE 377 418	обратившемуся на горячую линию разъяснено
+T7	NEWS_SOURCE 525 553	приводит агентство сообщение
+R4	WORKS_AS Arg1:T13 Arg2:T11	
+R5	WORKPLACE Arg1:T13 Arg2:T12	
+T8	EVENT 622 643	частичную мобилизацию
+R6	DATE_TAKES_PLACE_ON Arg1:T8 Arg2:T10	
+R7	ORGANIZES Arg1:T13 Arg2:T8	
+R8	WORKS_AS Arg1:T18 Arg2:T17	
+T15	NEWS_SOURCE 658 694	министр обороны Сергей Шойгу сообщил
+T19	EVENT 695 710	о ее завершении
+R9	DATE_TAKES_PLACE_ON Arg1:T19 Arg2:T16	
+T20	NEWS_SOURCE 771 802	В Минобороны в феврале пояснили
+T22	ORGANIZATION 929 939	Посольство
+R10	OWNERSHIP Arg1:T26 Arg2:T22	
+R11	HEADQUARTERED_IN Arg1:T22 Arg2:T27	
+T24	DATE 953 968	в том же месяце
+T28	GROUP 995 1029	американцам с двойным гражданством
+T50	NORP 995 1006	американцам
+R12	WORKPLACE Arg1:T30 Arg2:T29	
+T51	EVENT 969 1045	опубликовало рекомендацию американцам с двойным гражданством покинуть страну
+R13	ORGANIZES Arg1:T22 Arg2:T51	
+R14	DATE_TAKES_PLACE_ON Arg1:T51 Arg2:T23	
+T31	PROFESSION 1110 1125	Пресс-секретарь
+T32	PROFESSION 1126 1136	президента
+R15	SUBORDINATE_OF Arg1:T31 Arg2:T32	
+R16	WORKS_AS Arg1:T35 Arg2:T31	
+R17	WORKPLACE Arg1:T35 Arg2:T33	
+T34	NEWS_SOURCE 1144 1177	Дмитрий Песков после этого заявил
+T36	NEWS_SOURCE 1228 1251	Путин в декабре говорил

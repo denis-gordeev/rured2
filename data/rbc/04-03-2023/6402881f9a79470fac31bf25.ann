@@ -1,0 +1,84 @@
+T0	FAMILY 0 6	Сестру
+T2	COUNTRY 35 41	Италии
+T3	GROUP 67 72	мафии
+T4	PROFESSION 111 116	босса
+T10	PROFESSION 237 249	следователей
+T12	FAMILY 272 278	сестра
+T13	PERSON 279 285	Денаро
+T14	DATE 315 331	в течение 30 лет
+T17	GROUP 392 410	сетью информаторов
+T20	PERSON 520 526	Денаро
+T21	GROUP 561 584	преступной организацией
+T23	PROFESSION 712 717	судья
+T26	ORGANIZATION 744 755	Коза ностра
+T27	FAMILY 775 781	сестре
+T29	DATE 821 838	В середине января
+T30	REGION 842 849	Сицилии
+T31	GROUP 850 861	полицейские
+T32	PERSON 872 878	Денаро
+T37	DATE 977 991	в течение года
+T38	DISEASE 1020 1029	онкологии
+T39	CARDINAL 1082 1089	десятки
+T40	CRIME 1090 1097	убийств
+T41	PROFESSION 1131 1136	судей
+T42	PERSON 1137 1153	Паоло Борселлина
+T43	PERSON 1156 1173	Джованни Фальконе
+T46	DATE 1249 1261	в два месяца
+T49	NEWS_SOURCE 1355 1378	По данным La Repubblica
+T50	ORGANIZATION 1365 1378	La Repubblica
+T56	ORDINAL 1437 1443	первой
+T1	PROFESSION 19 33	крестного отца
+R1	ORIGINS_FROM Arg1:T3 Arg2:T2	
+T61	FAMILY 74 80	Сестра
+T5	GROUP 117 130	«Коза ностра»
+T6	PERSON 131 152	Маттео Мессина Денаро
+T62	PERSON 153 160	Розалия
+T63	GROUP 186 191	мафии
+R2	MEMBER Arg1:T6 Arg2:T5	
+T64	ORGANIZATION 104 110	тюрьму
+T65	CRIME 175 191	содействие мафии
+R3	EVENT_TAKES_PART_IN Arg1:T62 Arg2:T65	
+T7	ORGANIZATION 210 222	Notizie Oggi
+T8	NEWS_SOURCE 201 249	сообщает Notizie Oggi со ссылкой на следователей
+T9	NEWS_SOURCE 251 270	По версии следствия
+T11	ORGANIZATION 308 314	тюрьмы
+T15	GROUP 366 381	мафиозной семьи
+T16	PROFESSION 499 504	босса
+T19	CRIME 286 314	помогала ему избежать тюрьмы
+T66	PROFESSION 355 365	«казначея»
+R4	WORKS_AS Arg1:T15 Arg2:T66	
+R5	SUBORDINATE_OF Arg1:T17 Arg2:T66	
+R6	MEMBER Arg1:T17 Arg2:T15	
+T18	DATE 527 539	долгое время
+R7	MEMBER Arg1:T20 Arg2:T21	
+T22	PERSON 646 653	Розалии
+T67	CRIME 623 658	пиццини были найдены у Розалии дома
+R8	EVENT_TAKES_PART_IN Arg1:T22 Arg2:T67	
+T25	PERSON 718 736	Альфредо Монтальто
+R9	WORKS_AS Arg1:T25 Arg2:T23	
+T24	NEWS_SOURCE 705 736	заявил судья Альфредо Монтальто
+T28	GROUP 803 819	мафиозной семьей
+T33	DATE 879 891	после 30 лет
+T34	EVENT 850 878	полицейские задержали Денаро
+R10	TAKES_PLACE_IN Arg1:T34 Arg2:T30	
+R11	DATE_TAKES_PLACE_ON Arg1:T34 Arg2:T29	
+T68	CITY 928 935	Палермо
+T35	FAC 938 960	клинике «Ла Маддалена»
+R12	HEADQUARTERED_IN Arg1:T35 Arg2:T68	
+R13	USES Arg1:T32 Arg2:T35	
+T36	PERSON 1031 1037	Денаро
+T69	GROUP 1122 1130	с мафией
+T70	PENALTY 1042 1078	приговорен к пожизненному заключению
+R14	PENALIZED_AS Arg1:T36 Arg2:T70	
+R15	CONVICTED_OF Arg1:T36 Arg2:T40	
+R16	WORKS_AS Arg1:T42 Arg2:T41	
+R17	WORKS_AS Arg1:T43 Arg2:T41	
+T44	GROUP 1215 1229	«Коза нострой»
+T45	CRIME 1230 1237	взрывов
+R18	ORGANIZES Arg1:T44 Arg2:T45	
+T47	NEWS_SOURCE 1263 1285	Il Messaggero отмечает
+T48	EVENT 1299 1327	сделал пластическую операцию
+R19	ORGANIZES Arg1:T36 Arg2:T48	
+T51	PERSON 1380 1401	Маттео Мессина Денаро
+T52	GROUP 1423 1436	«Коза ностра»
+R20	MEMBER Arg1:T51 Arg2:T52	

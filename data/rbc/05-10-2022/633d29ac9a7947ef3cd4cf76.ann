@@ -1,0 +1,49 @@
+T0	REGION 6 12	Крымом
+T1	REGION 15 25	Херсонской
+T2	GPE 26 34	областью
+T3	ORGANIZATION 42 66	таможню
+
+Государственная
+T4	FAC 67 74	граница
+T5	REGION 81 100	Херсонской областью
+T6	REGION 103 109	Крымом
+T7	ORGANIZATION 204 215	РИА Новости
+T8	PROFESSION 225 233	замглавы
+T9	NEWS_SOURCE 192 255	в интервью «РИА Новости» сообщил замглавы ВГА Кирилл Стремоусов
+T10	PERSON 238 255	Кирилл Стремоусов
+T11	ORGANIZATION 258 273	Государственная
+T12	FAC 348 353	зоной
+T13	FAC 358 368	контрольно
+T14	FAC 397 409	погранслужба
+T15	ORGANIZATION 412 415	ФСБ
+T16	GROUP 466 477	диверсантов
+T17	ORGANIZATION 483 490	таможня
+T18	COUNTRY 612 618	России
+T19	COUNTRY 629 632	ЛНР
+T20	ORGANIZATION 682 689	таможни
+T21	NEWS_SOURCE 694 714	словам представителя
+T22	COUNTRY 715 718	ЛНР
+T23	CITY 721 727	Москве
+T24	PERSON 728 735	Родиона
+T25	PRODUCT 736 745	Мирошника
+T26	DATE 768 785	несколько месяцев
+T27	ORGANIZATION 795 815	Государственной думе
+T28	NEWS_SOURCE 793 823	в Государственной думе заявили
+T29	COUNTRY 855 862	Россией
+T30	DATE 912 929	в ближайшее время
+T31	ORGANIZATION 990 997	таможни
+T32	DATE 1037 1050	ближайшие дни
+T33	PROFESSION 1148 1156	замглавы
+T34	ORGANIZATION 1157 1173	комитета Госдумы
+T35	NEWS_SOURCE 1140 1173	отметил замглавы комитета Госдумы
+T36	NEWS_SOURCE 1177 1182	делам
+T37	PROFESSION 1174 1182	по делам
+T38	ORGANIZATION 1183 1186	СНГ
+T39	NEWS_SOURCE 1187 1193	Виктор
+T40	PERSON 1187 1204	Виктор Водолацкий
+T41	DATE 1264 1267	Wed
+T42	DATE 1272 1280	Oct 2022
+T43	PERCENT 1281 1283	11
+T44	DATE 1284 1286	16
+T45	PERCENT 1284 1286	16
+T46	PERCENT 1287 1291	19 +

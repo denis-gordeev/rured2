@@ -1,0 +1,47 @@
+T0	CITY 2 12	Петербурге
+T1	VEHICLE 13 23	автомобиль
+T3	CITY 82 92	Петербурге
+T4	VEHICLE 93 103	автомобиль
+T9	COUNTRY 158 164	России
+T27	CITY 561 577	Нижнем Новгороде
+T33	CARDINAL 625 630	троих
+T38	GROUP 770 775	детей
+T2	STREET 49 79	На Каменноостровском проспекте
+T5	EVENT 24 47	сбил женщину с коляской
+R1	TAKES_PLACE_IN Arg1:T5 Arg2:T0	
+T6	EVENT 104 127	сбил женщину с коляской
+R2	TAKES_PLACE_IN Arg1:T6 Arg2:T3	
+T7	ORGANIZATION 151 157	ГУ МВД
+T8	ORGANIZATION 138 150	пресс-служба
+R3	OWNERSHIP Arg1:T7 Arg2:T8	
+T10	NEWS_SOURCE 129 202	сообщила пресс-служба ГУ МВД России по городу и области в телеграм-канале
+T11	VEHICLE 215 238	автомобиле «ВАЗ 111940»
+T12	FAC 264 273	светофора
+T13	EVENT 239 273	проехала на красный свет светофора
+R4	TAKES_PLACE_IN Arg1:T13 Arg2:T3	
+T14	GROUP 313 337	стран ближнего зарубежья
+T15	FAC 393 402	светофора
+T16	DATE 438 456	2022 года рождения
+T17	DISEASE 477 510	состоянии средней степени тяжести
+T18	EVENT 404 474	Пострадавшую женщину и ее ребенка 2022 года рождения госпитализировали
+T19	ORGANIZATION 523 530	полиции
+T20	PROFESSION 512 522	Сотрудники
+T21	EVENT 553 556	ДТП
+R5	WORKPLACE Arg1:T20 Arg2:T19	
+T22	GROUP 631 636	детей
+T23	DISEASE 810 819	с ушибами
+T24	FAC 655 674	пешеходном переходе
+T25	DATE 578 585	3 марта
+T26	PROFESSION 586 594	водитель
+T28	VEHICLE 595 619	автомобиля Hyundai Creta
+T29	EVENT 586 636	водитель автомобиля Hyundai Creta сбил троих детей
+R6	TAKES_PLACE_IN Arg1:T29 Arg2:T27	
+R7	DATE_TAKES_PLACE_ON Arg1:T29 Arg2:T25	
+R8	TAKES_PLACE_IN Arg1:T29 Arg2:T24	
+T30	GROUP 687 694	девочки
+T31	DATE 695 699	2009
+T32	DATE 701 705	2011
+T34	DATE 708 727	2019 годов рождения
+T35	EVENT 729 749	их госпитализировали
+R9	TAKES_PLACE_IN Arg1:T35 Arg2:T27	
+R10	ORIGINS_FROM Arg1:T30 Arg2:T27	

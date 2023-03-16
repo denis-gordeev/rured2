@@ -1,0 +1,76 @@
+T2	ORGANIZATION 53 66	фармкомпаниям
+T3	DATE 67 73	за год
+T7	DATE 115 118	год
+T11	CURRENCY 182 185	руб
+T14	CITY 204 210	Москвы
+T20	ORGANIZATION 298 306	Компании
+T22	NEWS_SOURCE 361 380	По словам вице-мэра
+T26	CARDINAL 468 476	более 20
+T27	CARDINAL 501 506	одним
+T30	CITY 615 621	Москвы
+T31	PERSON 622 641	Владислав Овчинский
+T33	DATE 655 661	сейчас
+T37	CURRENCY 759 762	руб
+T38	ORGANIZATION 802 810	компания
+T39	ORGANIZATION 825 830	банке
+T45	ORGANIZATION 999 1003	фонд
+T46	ORGANIZATION 1019 1030	предприятию
+T48	DATE 1068 1086	В минувшем феврале
+T52	ORGANIZATION 1169 1180	предприятий
+T53	INVESTMENT_PROGRAM 1237 1243	займов
+T58	NEWS_SOURCE 1471 1493	Ефимов также рассказал
+T59	DATE 1499 1515	на данный момент
+T60	CITY 1518 1524	Москве
+T61	CARDINAL 1525 1533	свыше 90
+T62	ORGANIZATION 1534 1542	компаний
+T63	PRODUCT 1553 1564	антибиотики
+T64	PRODUCT 1566 1573	вакцины
+T65	PRODUCT 1575 1584	препараты
+T71	DISEASE 1692 1709	сахарного диабета
+T77	PERSON 0 6	Ефимов
+T1	CURRENCY 19 20	₽
+T78	QUANTITY 20 28	4,7 млрд
+T79	MONEY 19 28	₽4,7 млрд
+T80	INVESTMENT_PROGRAM 29 52	льготных инвесткредитов
+T81	NEWS_SOURCE 0 16	Ефимов рассказал
+T4	ORGANIZATION 75 103	Фармацевтические предприятия
+T5	INVESTMENT_PROGRAM 141 157	льготные кредиты
+T6	QUANTITY 173 181	4,7 млрд
+T8	MONEY 173 186	4,7 млрд руб.
+T9	PERSON 281 296	Владимир Ефимов
+T10	PROFESSION 196 280	заммэра Москвы по вопросам экономической политики и имущественно-земельных отношений
+R1	WORKS_AS Arg1:T9 Arg2:T10	
+T12	PROFESSION 371 380	вице-мэра
+T13	ORGANIZATION 415 439	промышленных предприятий
+T15	GROUP 440 456	столичные власти
+T16	INVESTMENT_PROGRAM 539 555	льготные кредиты
+T17	PROFESSION 557 614	Глава департамента инвестиционной и промышленной политики
+R2	WORKPLACE Arg1:T17 Arg2:T30	
+T18	PRODUCT 734 742	лекарств
+T19	GROUP 719 742	производителей лекарств
+T21	QUANTITY 750 758	4,5 млрд
+T23	MONEY 750 762	4,5 млрд руб
+R3	WORKS_AS Arg1:T31 Arg2:T17	
+T24	INVESTMENT_PROGRAM 831 860	кредит на инвестиционные цели
+T25	ORGANIZATION 883 945	Московский фонд поддержки промышленности и предпринимательства
+T28	REGION 883 893	Московский
+R4	INVESTS Arg1:T25 Arg2:T24	
+R5	HEADQUARTERED_IN Arg1:T45 Arg2:T28	
+T29	GROUP 1087 1103	столичные власти
+T32	INVESTMENT_PROGRAM 1132 1164	льготных инвестиционных кредитов
+T34	LOCATION 1196 1213	территории города
+R6	HEADQUARTERED_IN Arg1:T52 Arg2:T34	
+T35	ECONOMIC_SECTOR 1296 1337	строительству промышленной инфраструктуры
+T36	INVESTMENT_PROGRAM 1270 1337	инвестиционные проекты по строительству промышленной инфраструктуры
+T40	DATE 1458 1469	прошлых лет
+T41	ECONOMIC_SECTOR 1389 1430	промышленно-производственной деятельности
+T42	GROUP 1448 1457	персонала
+T43	PERSON 1471 1477	Ефимов
+T44	DISEASE 1612 1626	онкологических
+T47	DISEASE 1629 1660	сердечно-сосудистых заболеваний
+T49	DISEASE 1662 1689	расстройств нервной системы
+R7	PRODUCES Arg1:T62 Arg2:T63	
+R8	PRODUCES Arg1:T62 Arg2:T64	
+R9	PRODUCES Arg1:T62 Arg2:T65	
+R10	HEADQUARTERED_IN Arg1:T62 Arg2:T60	
+T50	ECONOMIC_SECTOR 1589 1611	лечения и профилактики

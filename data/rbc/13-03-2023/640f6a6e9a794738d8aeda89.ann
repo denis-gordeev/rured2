@@ -1,0 +1,52 @@
+T1	PERSON 56 64	Суворову
+T2	CITY 67 73	Одессе
+T3	GROUP 75 81	Власти
+T4	CITY 82 88	Одессы
+T5	COUNTRY 144 152	русского
+T6	PROFESSION 153 163	полководца
+T7	PERSON 164 183	Александра Суворова
+T11	PROFESSION 279 313	исполняющего обязанности директора
+T12	ORGANIZATION 314 342	департамента культуры города
+T13	PERSON 343 356	Ивана Липтуги
+T17	COUNTRY 392 399	Украина
+T18	PERSON 401 418	Вадиму Позднякову
+T21	ORGANIZATION 497 560	Приморской районной администрации и коммунальным службам города
+T29	CITY 722 728	Одессе
+T32	DATE 749 760	в 1995 году
+T33	DATE 762 780	С 1969 по 1995 год
+T34	PERSON 798 817	Александра Суворова
+T39	NEWS_SOURCE 0 16	«Думская» узнала
+T40	EVENT 27 55	демонтировать памятную доску
+R1	TAKES_PLACE_IN Arg1:T40 Arg2:T2	
+R2	WORKPLACE Arg1:T3 Arg2:T4	
+R3	WORKS_AS Arg1:T7 Arg2:T6	
+R4	ORIGINS_FROM Arg1:T7 Arg2:T5	
+T8	STREET 202 218	Приморской улице
+T41	EVENT 89 135	приняли решение о демонтаже мемориальной доски
+R5	TAKES_PLACE_IN Arg1:T41 Arg2:T4	
+R6	ORGANIZES Arg1:T3 Arg2:T41	
+R7	TAKES_PLACE_IN Arg1:T41 Arg2:T8	
+T42	ORGANIZATION 0 9	«Думская»
+T9	ORGANIZATION 237 254	издание «Думская»
+T10	NEWS_SOURCE 228 254	сообщает издание «Думская»
+T15	PROFESSION 357 362	главе
+T14	ORGANIZATION 363 400	организации «Декоммунизация. Украина»
+R8	WORKPLACE Arg1:T15 Arg2:T14	
+R9	HEADQUARTERED_IN Arg1:T14 Arg2:T17	
+R10	WORKS_AS Arg1:T18 Arg2:T15	
+R11	WORKPLACE Arg1:T13 Arg2:T12	
+R12	WORKS_AS Arg1:T13 Arg2:T11	
+T16	NEWS_SOURCE 420 441	В документе говорится
+T19	BOROUGH 497 507	Приморской
+T20	PROFESSION 561 584	заместитель мэра города
+T22	PERSON 585 600	Павел Вугельман
+T23	EVENT 447 492	поручение демонтировать мемориальную табличку
+R13	ORGANIZES Arg1:T22 Arg2:T23	
+R14	WORKS_AS Arg1:T22 Arg2:T20	
+R15	EVENT_TAKES_PART_IN Arg1:T21 Arg2:T23	
+T24	ORGANIZATION 667 683	городском совете
+T25	GROUP 630 662	историко-топонимическая комиссия
+R16	WORKPLACE Arg1:T25 Arg2:T24	
+R17	EVENT_TAKES_PART_IN Arg1:T25 Arg2:T23	
+T26	STREET 732 748	Приморской улице
+R18	HEADQUARTERED_IN Arg1:T24 Arg2:T29	

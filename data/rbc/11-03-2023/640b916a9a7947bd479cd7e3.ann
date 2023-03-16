@@ -1,0 +1,65 @@
+T1	GPE 2 7	Киеве
+T2	REGION 67 72	Крыма
+T4	REGION 82 87	Крыму
+T5	DATE 88 99	в этом году
+T9	PROFESSION 145 155	президента
+T10	COUNTRY 156 163	Украины
+T15	COUNTRY 190 201	украинскому
+T17	PROFESSION 202 214	телеведущему
+T18	PERSON 215 233	Василию Голованову
+T20	COUNTRY 247 254	Украина
+T21	NEWS_SOURCE 339 348	сказал он
+T22	REGION 373 378	Крыму
+T23	COUNTRY 486 493	Украина
+T25	DATE 610 620	24 февраля
+T26	PROFESSION 621 630	президент
+T27	COUNTRY 631 638	Украины
+T28	PERSON 639 657	Владимир Зеленский
+T29	NEWS_SOURCE 621 664	президент Украины Владимир Зеленский заявил
+T31	REGION 715 719	Крым
+T32	DATE 739 750	В 2014 году
+T34	COUNTRY 823 829	России
+T35	PROFESSION 833 842	президент
+T36	PERSON 843 857	Владимир Путин
+T37	REGION 888 893	Крыма
+T38	PROFESSION 904 928	Заместитель председателя
+T39	ORGANIZATION 929 948	Совета безопасности
+T40	COUNTRY 949 955	России
+T41	PERSON 956 972	Дмитрий Медведев
+T42	NEWS_SOURCE 956 980	Дмитрий Медведев отмечал
+T47	CITY 1010 1016	Москва
+T50	PERSON 1103 1117	Сергей Аксенов
+T51	DATE 1118 1126	10 марта
+T53	REGION 1140 1145	Крыму
+T55	ECONOMIC_SECTOR 1259 1272	строительство
+T56	LOCATION 1273 1286	линии обороны
+T57	PERSON 1346 1353	Аксенов
+T66	GROUP 57 66	населении
+R1	WORKPLACE Arg1:T66 Arg2:T2	
+T3	PERSON 164 178	Михаил Подоляк
+R2	PLACE_RESIDES_IN Arg1:T3 Arg2:T10	
+T6	PROFESSION 124 155	советник главы офиса президента
+R3	WORKS_AS Arg1:T3 Arg2:T6	
+R4	WORKS_AS Arg1:T18 Arg2:T17	
+R5	WORKPLACE Arg1:T17 Arg2:T15	
+T7	NEWS_SOURCE 117 244	заявил советник главы офиса президента Украины Михаил Подоляк в интервью украинскому телеведущему Василию Голованову на YouTube
+T8	PERSON 350 357	Подоляк
+T11	GROUP 379 394	часть населения
+R6	WORKPLACE Arg1:T8 Arg2:T23	
+T12	ECONOMIC_SECTOR 552 566	туристического
+T13	PERSON 587 594	Подоляк
+T14	NEWS_SOURCE 579 594	считает Подоляк
+R7	WORKS_AS Arg1:T28 Arg2:T26	
+T16	EVENT 758 795	проведения на полуострове референдума
+R8	DATE_TAKES_PLACE_ON Arg1:T16 Arg2:T32	
+T19	REGION 797 807	республика
+R9	OWNERSHIP Arg1:T34 Arg2:T19	
+R10	WORKS_AS Arg1:T36 Arg2:T35	
+R11	WORKPLACE Arg1:T38 Arg2:T39	
+R12	WORKPLACE Arg1:T41 Arg2:T40	
+R13	WORKPLACE Arg1:T41 Arg2:T39	
+T24	WEAPON 1065 1083	оружия любого вида
+T30	PROFESSION 1086 1102	Глава республики
+R14	WORKS_AS Arg1:T50 Arg2:T30	
+T33	NEWS_SOURCE 1086 1134	Глава республики Сергей Аксенов 10 марта сообщил
+T43	FAC 1179 1207	объекты его жизнеобеспечения

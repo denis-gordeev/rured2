@@ -1,0 +1,50 @@
+T0	ORGANIZATION 0 6	МАГАТЭ
+T1	NEWS_SOURCE 0 14	МАГАТЭ заявило
+T2	PRODUCT 51 66	ядерного оружия
+T4	ORGANIZATION 67 120	Ираном
+
+У Международного агентства по атомной энергии
+T5	ORGANIZATION 122 128	МАГАТЭ
+T6	COUNTRY 184 190	Ираном
+T7	PRODUCT 191 206	ядерного оружия
+T9	PROFESSION 223 255	генеральный директор организации
+T11	PERSON 256 270	Рафаэль Гросси
+T12	COUNTRY 290 295	Ирана
+T13	PERCENT 313 319	до 20%
+T15	PERCENT 324 325	%
+T16	PRODUCT 326 330	уран
+T18	PRODUCT 376 391	ядерного оружия
+T19	NEWS_SOURCE 393 410	Гросси подчеркнул
+T21	PRODUCT 492 498	оружие
+T22	ORGANIZATION 518 524	МАГАТЭ
+T23	NEWS_SOURCE 574 588	Гросси добавил
+T24	COUNTRY 594 598	Иран
+T26	COMMODITY 651 656	урана
+T27	PERCENT 657 663	до 60%
+T28	ORGANIZATION 665 671	МАГАТЭ
+T33	COUNTRY 780 788	Иранская
+T34	ORGANIZATION 807 813	МАГАТЭ
+T35	CARDINAL 898 902	трем
+T39	EVENT 982 1004	дальнейших переговоров
+T40	DATE 1006 1024	В середине февраля
+T41	GROUP 1025 1050	международные наблюдатели
+T42	COUNTRY 1064 1069	Иране
+T43	PRODUCT 1070 1074	уран
+T44	PERCENT 1101 1104	84%
+T47	ORGANIZATION 1177 1183	МАГАТЭ
+T48	COUNTRY 1218 1222	Иран
+T49	PRODUCT 1223 1227	уран
+T52	FAC 1304 1323	газовых центрифугах
+T60	COUNTRY 67 73	Ираном
+T3	ORGANIZATION 77 120	Международного агентства по атомной энергии
+R1	ABBREVIATION Arg1:T3 Arg2:T5	
+T8	NEWS_SOURCE 216 270	заявил генеральный директор организации Рафаэль Гросси
+R2	WORKS_AS Arg1:T11 Arg2:T9	
+T10	NEWS_SOURCE 272 282	Он отметил
+T14	PERSON 393 399	Гросси
+T17	COUNTRY 454 474	исламская республика
+T20	NEWS_SOURCE 500 513	По его словам
+T61	PERSON 574 580	Гросси
+R3	EVENT_TAKES_PART_IN Arg1:T34 Arg2:T39	
+R4	EVENT_TAKES_PART_IN Arg1:T33 Arg2:T39	
+T25	PRODUCT 1160 1175	ядерного оружия

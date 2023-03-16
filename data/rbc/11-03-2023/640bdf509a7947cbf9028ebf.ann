@@ -1,0 +1,69 @@
+T7	COUNTRY 71 81	российская
+T13	COUNTRY 183 193	российской
+T14	EVENT 194 210	военной операции
+T15	COUNTRY 214 221	Украине
+T16	NEWS_SOURCE 223 255	рассказал источник «РИА Новости»
+T18	WEAPON 276 282	ракеты
+T19	CARDINAL 335 342	единице
+T20	CARDINAL 356 360	один
+T21	COUNTRY 361 371	украинский
+T24	CARDINAL 396 401	одной
+T25	WEAPON 402 408	ракеты
+T26	NEWS_SOURCE 413 440	заявил собеседник агентства
+T28	COUNTRY 486 496	российских
+T35	NEWS_SOURCE 538 551	По его словам
+T37	COUNTRY 569 579	украинские
+T38	WEAPON 580 595	боевые самолеты
+T39	WEAPON 610 619	вертолеты
+T40	WEAPON 632 644	беспилотники
+T41	COUNTRY 658 666	турецкие
+T42	WEAPON 667 676	Bayraktar
+T47	PERSON 744 752	Торопова
+T48	WEAPON 786 798	истребителей
+T49	WEAPON 800 811	штурмовиков
+T50	WEAPON 813 829	бомбардировщиков
+T51	WEAPON 831 840	самолетов
+T54	WEAPON 870 880	вертолетов
+T55	WEAPON 882 912	беспилотников и крылатых ракет
+T60	QUANTITY 968 976	до 25 км
+T61	DATE 979 988	В феврале
+T62	PROFESSION 989 1009	генеральный директор
+T65	PERSON 1033 1047	Сергей Чемезов
+T67	COUNTRY 1063 1069	Россия
+T71	COUNTRY 1140 1147	Украине
+T73	ECONOMIC_SECTOR 1172 1184	производства
+T74	ORGANIZATION 1189 1199	Минобороны
+T75	CARDINAL 1208 1216	в 50 раз
+T76	ORGANIZATION 1260 1271	предприятия
+T77	CARDINAL 1283 1286	две
+T78	CARDINAL 1297 1300	три
+T81	NEWS_SOURCE 1441 1456	говорил Чемезов
+T82	PERSON 1449 1456	Чемезов
+T1	ORGANIZATION 0 13	«РИА Новости»
+T89	NEWS_SOURCE 0 20	«РИА Новости» узнало
+T2	WEAPON 51 63	ракеты Р-37М
+T3	WEAPON 82 94	ракета Р-37М
+R1	TAKES_PLACE_IN Arg1:T14 Arg2:T15	
+R2	EVENT_TAKES_PART_IN Arg1:T13 Arg2:T14	
+T4	ORGANIZATION 242 255	«РИА Новости»
+T5	WEAPON 372 387	военный самолет
+T6	ORGANIZATION 431 440	агентства
+T8	WEAPON 458 464	ракеты
+T9	NEWS_SOURCE 442 452	Он отметил
+T10	WEAPON 497 509	истребителей
+T11	WEAPON 512 518	Су-35С
+T12	WEAPON 520 528	МиГ-31БМ
+T17	WEAPON 531 536	Су-57
+T22	WEAPON 678 690	Ракету Р-37М
+T23	ORGANIZATION 702 752	конструкторское бюро «Вымпел» имени И. И. Торопова
+T27	WEAPON 841 868	военно-транспортной авиации
+T29	WEAPON 943 948	Р-37М
+T30	QUANTITY 951 957	300 км
+T31	ORGANIZATION 1010 1032	госкорпорации «Ростех»
+T32	NEWS_SOURCE 989 1057	генеральный директор госкорпорации «Ростех» Сергей Чемезов рассказал
+R3	WORKS_AS Arg1:T65 Arg2:T62	
+R4	WORKPLACE Arg1:T65 Arg2:T31	
+T33	WEAPON 1087 1115	гиперзвуковых ракет «Кинжал»
+T34	NEWS_SOURCE 1149 1159	Он отметил
+T36	WEAPON 1389 1398	продукции
+T43	ORGANIZATION 1431 1436	армию

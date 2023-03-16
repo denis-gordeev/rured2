@@ -1,0 +1,50 @@
+T0	PERSON 0 7	Байдену
+T1	DATE 53 62	В феврале
+T2	PROFESSION 63 73	президенту
+T3	COUNTRY 74 77	США
+T4	PERSON 78 89	Джо Байдену
+T6	ORGANIZATION 183 190	Reuters
+T13	PROFESSION 300 312	дерматологов
+T14	DISEASE 359 386	базальноклеточной карциномы
+T15	DATE 397 414	20 июля 2022 года
+T16	CITY 539 547	Клеймонт
+T17	FAC 593 622	нефтеперерабатывающих заводов
+T18	PROFESSION 624 633	Президент
+T19	NEWS_SOURCE 624 641	Президент уточнил
+T20	NEWS_SOURCE 792 807	заключил Байден
+T21	PROFESSION 809 822	Представитель
+T23	ORGANIZATION 823 834	Белого дома
+T24	PERSON 835 846	Эндрю Бейтс
+T27	PROFESSION 907 918	президентом
+T28	PROFESSION 920 928	Редактор
+T29	ORGANIZATION 929 948	The Washington Post
+T30	PERSON 961 967	Бейтсу
+T31	PROFESSION 1098 1115	главы государства
+T38	DISEASE 16 51	злокачественное образование на коже
+T5	DISEASE 128 164	злокачественного образования на коже
+R1	WORKS_AS Arg1:T4 Arg2:T2	
+R2	WORKPLACE Arg1:T4 Arg2:T3	
+T39	EVENT 90 115	провели успешную операцию
+R3	DATE_TAKES_PLACE_ON Arg1:T39 Arg2:T1	
+T11	PERSON 242 250	О’Коннор
+T12	NEWS_SOURCE 242 258	О’Коннор уточнил
+T40	PERSON 264 270	Байден
+T7	PERSON 224 240	Кевина О’Коннора
+T8	PROFESSION 209 223	лечащего врача
+R4	WORKS_AS Arg1:T7 Arg2:T8	
+T9	NEWS_SOURCE 174 240	сообщает Reuters со ссылкой на его лечащего врача Кевина О’Коннора
+T10	REGION 549 561	штат Делавэр
+R5	OWNERSHIP Arg1:T10 Arg2:T16	
+T41	DISEASE 689 692	рак
+T42	REGION 723 731	Делавэре
+T43	DISEASE 773 778	раком
+T44	DATE 708 720	долгое время
+T45	PERSON 801 807	Байден
+R6	WORKPLACE Arg1:T21 Arg2:T23	
+R7	WORKS_AS Arg1:T24 Arg2:T21	
+T22	DISEASE 878 885	опухоли
+T25	NEWS_SOURCE 809 855	Представитель Белого дома Эндрю Бейтс объяснил
+R8	WORKPLACE Arg1:T28 Arg2:T29	
+T26	PERSON 1004 1011	Байдена
+T46	DISEASE 1042 1067	немеланомные опухоли кожи
+R9	WORKS_AS Arg1:T26 Arg2:T31	

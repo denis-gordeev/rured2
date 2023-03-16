@@ -1,0 +1,49 @@
+T0	CITY 2 7	Киеве
+T3	FAC 49 63	энергообъектов
+T4	CITY 67 72	Киеве
+T6	COMMODITY 109 122	электричества
+T7	FAC 142 156	энергообъектов
+T9	ORGANIZATION 203 207	ДТЭК
+T11	BOROUGH 218 231	Голосеевского
+T12	BOROUGH 233 247	Шевченковского
+T14	BOROUGH 249 262	Святошинского
+T16	BOROUGH 265 277	Соломенского
+T19	NEWS_SOURCE 451 487	говорится в сообщении энергохолдинга
+T20	ORGANIZATION 473 487	энергохолдинга
+T21	DATE 490 497	9 марта
+T22	COUNTRY 498 505	Украина
+T23	PROFESSION 588 591	Мэр
+T24	CITY 592 597	Киева
+T25	PERSON 598 612	Виталий Кличко
+T26	NEWS_SOURCE 598 620	Виталий Кличко сообщил
+T28	BOROUGH 633 645	Голосеевском
+T30	BOROUGH 648 660	Святошинском
+T32	ORGANIZATION 733 737	ДТЭК
+T33	CARDINAL 764 767	три
+T34	FAC 768 787	теплоэлектростанции
+T35	PRODUCT 802 814	оборудования
+T36	FAC 815 818	ТЭС
+T1	EVENT 8 30	ввели отключения света
+T2	EVENT 73 122	введены стабилизационные отключения электричества
+R2	TAKES_PLACE_IN Arg1:T2 Arg2:T4	
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T0	
+R3	HEADQUARTERED_IN Arg1:T7 Arg2:T4	
+R4	HEADQUARTERED_IN Arg1:T3 Arg2:T0	
+T5	NEWS_SOURCE 166 207	говорится в телеграм-канале компании ДТЭК
+T8	EVENT 286 342	происходят отключения согласно стабилизационным графикам
+R5	TAKES_PLACE_IN Arg1:T8 Arg2:T16	
+R6	TAKES_PLACE_IN Arg1:T8 Arg2:T14	
+R7	TAKES_PLACE_IN Arg1:T8 Arg2:T12	
+R8	TAKES_PLACE_IN Arg1:T8 Arg2:T11	
+T10	FAC 375 388	энергообъекты
+T13	COMMODITY 409 416	энергию
+T15	GROUP 426 446	жителей этих районов
+T17	EVENT 556 586	подверглась ракетному обстрелу
+R9	TAKES_PLACE_IN Arg1:T17 Arg2:T22	
+R10	DATE_TAKES_PLACE_ON Arg1:T17 Arg2:T21	
+R11	WORKS_AS Arg1:T25 Arg2:T23	
+R12	WORKPLACE Arg1:T25 Arg2:T24	
+R13	TAKES_PLACE_IN Arg1:T17 Arg2:T28	
+R14	TAKES_PLACE_IN Arg1:T17 Arg2:T30	
+T18	NEWS_SOURCE 731 751	В ДТЭК также сказали
+R15	HEADQUARTERED_IN Arg1:T34 Arg2:T24	

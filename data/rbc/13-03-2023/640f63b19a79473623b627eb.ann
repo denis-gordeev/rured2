@@ -1,0 +1,50 @@
+T2	CITY 100 106	Москве
+T4	GROUP 141 150	водителям
+T6	VEHICLE 199 221	общественный транспорт
+T24	NEWS_SOURCE 506 537	говорится в сообщении дептранса
+T25	ORGANIZATION 552 569	Росгидрометцентра
+T31	CITY 606 612	Москве
+T38	PERSON 817 833	Евгений Тишковец
+T40	DATE 853 860	в марте
+T42	COUNTRY 878 884	России
+T45	CARDINAL 1016 1017	0
+T46	DATE 1053 1061	в апреле
+T53	ORGANIZATION 0 8	Дептранс
+T54	GROUP 22 31	москвичам
+T55	VEHICLE 48 59	автомобилем
+R1	OWNERSHIP Arg1:T54 Arg2:T55	
+T56	TIME 74 80	В ночь
+T1	DATE 81 97	с 13 на 14 марта
+T3	EVENT 107 125	ожидается снегопад
+R2	TAKES_PLACE_IN Arg1:T3 Arg2:T2	
+R3	DATE_TAKES_PLACE_ON Arg1:T3 Arg2:T1	
+T5	VEHICLE 177 195	личного автомобиля
+R4	OWNERSHIP Arg1:T4 Arg2:T5	
+R5	USES Arg1:T4 Arg2:T6	
+T7	ORGANIZATION 239 269	департамент транспорта столицы
+T8	NEWS_SOURCE 231 293	сообщил департамент транспорта столицы в своем телеграм-канале
+T9	EVENT 345 391	в городе ожидается снег, дождь и сильный ветер
+T10	PROFESSION 308 318	синоптиков
+T11	NEWS_SOURCE 296 318	По прогнозу синоптиков
+T12	TIME 320 335	с 3:00 до 21:00
+T13	DATE 336 344	14 марта
+R6	DATE_TAKES_PLACE_ON Arg1:T9 Arg2:T13	
+T14	TIME 425 441	утренний час пик
+T15	DATE 416 422	завтра
+T16	ORGANIZATION 528 537	дептранса
+T17	VEHICLE 458 479	городским транспортом
+T18	NEWS_SOURCE 540 569	По прогнозу Росгидрометцентра
+T19	TIME 571 577	в ночь
+T20	DATE 578 603	с понедельника на вторник
+R7	TAKES_PLACE_IN Arg1:T9 Arg2:T31	
+T21	TIME 675 679	Днем
+T22	DATE 680 688	14 марта
+T23	PROFESSION 776 794	Ведущий специалист
+T26	ORGANIZATION 795 815	центра погоды «Фобос
+T27	NEWS_SOURCE 776 847	Ведущий специалист центра погоды «Фобос» Евгений Тишковец ранее говорил
+T28	LOCATION 861 877	в средней полосе
+R8	OWNERSHIP Arg1:T42 Arg2:T28	
+T29	EVENT 885 940	будет холодная погода с сильными морозами и снегопадами
+R9	DATE_TAKES_PLACE_ON Arg1:T29 Arg2:T40	
+T30	DATE 942 965	Метеорологическая весна
+T32	NEWS_SOURCE 1022 1035	по его словам

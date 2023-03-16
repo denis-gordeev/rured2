@@ -1,0 +1,63 @@
+T1	PERSON 0 7	Косачев
+T2	NORP 38 45	россиян
+T3	GROUP 46 68	оппонентов государства
+T4	NORP 133 140	россиян
+T5	COUNTRY 191 197	родину
+T6	PROFESSION 214 225	вице-спикер
+T7	ORGANIZATION 226 242	Совета Федерации
+T9	PERSON 243 261	Константин Косачев
+T11	ORGANIZATION 273 285	РИА Новости»
+T12	COUNTRY 329 340	российского
+T15	NEWS_SOURCE 442 456	заявил Косачев
+T16	PERSON 449 456	Косачев
+T18	PERSON 458 465	Косачев
+T22	COUNTRY 595 602	Украине
+T23	DATE 617 627	в сентябре
+T24	COUNTRY 667 673	России
+T25	ORGANIZATION 696 699	ФСБ
+T26	DATE 716 724	в ноябре
+T28	NORP 753 760	россиян
+T29	COUNTRY 763 772	Казахстан
+T30	COUNTRY 774 781	Армению
+T31	COUNTRY 783 791	Киргизию
+T32	COUNTRY 793 804	Таджикистан
+T33	COUNTRY 806 814	Монголию
+T34	COUNTRY 817 824	Абхазию
+T37	DATE 860 871	за пять лет
+T42	PROFESSION 940 952	Председатель
+T43	ORGANIZATION 953 960	Госдумы
+T44	PERSON 961 977	Вячеслав Володин
+T45	NORP 1080 1087	россиян
+T47	PERSON 1121 1137	Дмитрий Медведев
+T48	NEWS_SOURCE 1139 1152	По его словам
+T49	GROUP 1174 1192	противников власти
+T50	COUNTRY 1218 1224	России
+T58	GROUP 29 45	уехавших россиян
+T59	GROUP 114 132	уехавших из страны
+R1	WORKPLACE Arg1:T6 Arg2:T7	
+R2	WORKPLACE Arg1:T9 Arg2:T7	
+T8	NEWS_SOURCE 207 285	заявил вице-спикер Совета Федерации Константин Косачев, передает «РИА Новости»
+T10	NEWS_SOURCE 458 480	Косачев также выступил
+T13	GROUP 533 541	уехавших
+T17	EVENT 628 649	частичной мобилизации
+T14	EVENT 575 591	военной операции
+T19	EVENT 650 684	отток граждан из России увеличился
+R3	TAKES_PLACE_IN Arg1:T14 Arg2:T22	
+R4	TAKES_PLACE_IN Arg1:T17 Arg2:T24	
+R5	DATE_TAKES_PLACE_ON Arg1:T19 Arg2:T23	
+T20	NEWS_SOURCE 686 699	Из данных ФСБ
+T21	DATE 825 843	с июля по сентябрь
+T27	DATE 879 897	с июля по сентябрь
+T35	CARDINAL 931 938	9,7 млн
+T36	LOCATION 912 920	за рубеж
+R6	WORKPLACE Arg1:T42 Arg2:T43	
+R7	WORKS_AS Arg1:T44 Arg2:T42	
+T38	GROUP 1025 1033	уехавших
+T39	EVENT 978 1033	выступил с инициативой о конфискации имущества уехавших
+R8	EVENT_TAKES_PART_IN Arg1:T44 Arg2:T39	
+R9	EVENT_TAKES_PART_IN Arg1:T47 Arg2:T39	
+T40	GROUP 1071 1087	уехавших россиян
+T41	PROFESSION 1105 1112	зампред
+T46	ORGANIZATION 1113 1120	Совбеза
+R10	WORKS_AS Arg1:T47 Arg2:T41	
+R11	WORKPLACE Arg1:T47 Arg2:T46	

@@ -1,0 +1,61 @@
+T0	ORGANIZATION 2 11	MSM Group
+T1	PERSON 36 43	Познера
+T2	CITY 46 52	Москве
+T5	PROFESSION 71 83	телеведущего
+T6	PERSON 84 101	Владимира Познера
+T11	ORGANIZATION 162 166	ТАСС
+T20	PERSON 272 289	Владимира Познера
+T21	DATE 312 330	8 апреля 2023 года
+T27	DATE 405 425	15 февраля 2023 года
+T28	NEWS_SOURCE 430 444	сообщили в MSM
+T29	ORGANIZATION 441 450	MSM Group
+T30	EVENT 465 476	мероприятия
+T31	NEWS_SOURCE 515 537	в Доме музыки сообщили
+T32	CITY 545 551	Москве
+T35	DATE 602 610	8 апреля
+T36	EVENT 621 632	мероприятие
+T37	DATE 649 674	с 26 ноября прошлого года
+T38	PROFESSION 676 685	Журналист
+T39	GROUP 764 773	зрителями
+T42	EVENT 820 827	встречи
+T53	EVENT 22 35	отмену вечера
+R1	EVENT_TAKES_PART_IN Arg1:T1 Arg2:T53	
+R2	TAKES_PLACE_IN Arg1:T53 Arg2:T2	
+T3	EVENT 54 70	Творческий вечер
+R3	WORKS_AS Arg1:T6 Arg2:T5	
+T4	ORGANIZATION 104 115	Доме музыки
+R4	EVENT_TAKES_PART_IN Arg1:T6 Arg2:T3	
+T7	EVENT 116 151	отменен из-за логистических проблем
+R5	TAKES_PLACE_IN Arg1:T7 Arg2:T4	
+R6	TAKES_PLACE_IN Arg1:T7 Arg2:T2	
+R7	SUBEVENT_OF Arg1:T3 Arg2:T7	
+T8	ORGANIZATION 193 224	концертного агентства MSM Group
+R8	ORGANIZES Arg1:T8 Arg2:T3	
+T9	NEWS_SOURCE 153 224	сообщает ТАСС со ссылкой на уведомление концертного агентства MSM Group
+R9	EVENT_TAKES_PART_IN Arg1:T8 Arg2:T7	
+T10	EVENT 255 271	Творческий вечер
+R10	EVENT_TAKES_PART_IN Arg1:T20 Arg2:T10	
+R11	DATE_TAKES_PLACE_ON Arg1:T10 Arg2:T21	
+T12	CITY 352 363	Московского
+T13	ORGANIZATION 352 390	Московского международного дома музыки
+T14	FAC 333 351	Светлановском зале
+R12	OWNERSHIP Arg1:T13 Arg2:T14	
+T15	EVENT 227 253	Решение об отмене-переносе
+R13	SUBEVENT_OF Arg1:T10 Arg2:T15	
+R14	EVENT_TAKES_PART_IN Arg1:T20 Arg2:T15	
+R15	DATE_TAKES_PLACE_ON Arg1:T15 Arg2:T27	
+T16	ORGANIZATION 517 528	Доме музыки
+T17	DATE 506 514	Накануне
+T18	PERSON 567 574	Познера
+T19	EVENT 552 566	отменили вечер
+R16	EVENT_TAKES_PART_IN Arg1:T18 Arg2:T19	
+R17	TAKES_PLACE_IN Arg1:T19 Arg2:T32	
+R18	DATE_TAKES_PLACE_ON Arg1:T10 Arg2:T35	
+T22	NEWS_SOURCE 798 827	говорилось в описании встречи
+R19	EVENT_TAKES_PART_IN Arg1:T39 Arg2:T42	
+T23	NEWS_SOURCE 869 911	В информационно-справочной службе уточнили
+T24	ORGANIZATION 871 902	информационно-справочной службе
+T25	ORGANIZATION 917 927	Дом музыки
+R20	OWNERSHIP Arg1:T25 Arg2:T24	
+T26	EVENT 967 987	предоставил площадку
+R21	EVENT_TAKES_PART_IN Arg1:T25 Arg2:T26	

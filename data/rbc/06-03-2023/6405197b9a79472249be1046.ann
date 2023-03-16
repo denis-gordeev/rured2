@@ -1,0 +1,47 @@
+T0	PROFESSION 0 8	Эксперты
+T1	NEWS_SOURCE 0 16	Эксперты заявили
+T2	GPE 22 28	Европа
+T4	ORGANIZATION 73 82	Евросоюзу
+T5	COMMODITY 139 158	ископаемого топлива
+T8	ORGANIZATION 290 309	The Financial Times
+T9	GPE 318 329	европейские
+T12	PROFESSION 493 498	глава
+T13	GPE 499 511	европейского
+T24	PROFESSION 743 755	Председатель
+T25	ORGANIZATION 756 768	Titan Cement
+T31	PERSON 835 857	Дмитрий Папалексопулос
+T32	ORGANIZATION 900 912	правительств
+T33	COMMODITY 970 984	энергоносители
+T35	FAC 1009 1020	предприятий
+T37	NEWS_SOURCE 1200 1250	По данным Международного энергетического агентства
+T38	ORGANIZATION 1210 1250	Международного энергетического агентства
+T39	COMMODITY 1287 1306	ископаемого топлива
+T40	DATE 1307 1321	в прошлом году
+T45	CARDINAL 1445 1474	6405197b9a79472249be1046
+
+Mon
+T3	GROUP 330 343	промышленники
+R1	WORKPLACE Arg1:T3 Arg2:T9	
+T6	ECONOMIC_SECTOR 222 266	переходе на возобновляемые источники энергии
+T7	NEWS_SOURCE 268 343	заявили в разговоре с The Financial Times ведущие европейские промышленники
+T11	PERSON 565 578	Филипп Делорм
+T10	ORGANIZATION 499 525	европейского подразделения
+T14	ORGANIZATION 526 564	промышленной группы Schneider Electric
+R2	OWNERSHIP Arg1:T14 Arg2:T10	
+R3	WORKPLACE Arg1:T12 Arg2:T10	
+R4	WORKS_AS Arg1:T11 Arg2:T12	
+T15	NEWS_SOURCE 580 593	По его словам
+T16	COMMODITY 734 741	энергии
+T17	COMMODITY 651 689	топлива с высоким содержанием углерода
+R5	WORKPLACE Arg1:T24 Arg2:T25	
+T18	PROFESSION 771 788	вице-председатель
+T19	ORGANIZATION 789 834	Европейского круглого стола по промышленности
+R6	WORKPLACE Arg1:T31 Arg2:T19	
+R7	WORKS_AS Arg1:T31 Arg2:T18	
+T20	FAC 989 1006	домашних хозяйств
+T21	DATE 1021 1031	этой зимой
+T22	ECONOMIC_SECTOR 1139 1183	перехода к возобновляемым источникам энергии
+T23	NEWS_SOURCE 1188 1198	добавил он
+T26	CURRENCY 1338 1339	$
+T27	MONEY 1332 1345	более $1 трлн
+T28	QUANTITY 1332 1345	более $1 трлн

@@ -1,0 +1,44 @@
+T0	GROUP 0 6	Власти
+T1	REGION 7 23	Киевской области
+T2	EVENT 43 59	регионе учениями
+T3	PROFESSION 60 67	саперов
+T4	EVENT 69 70	В
+T5	REGION 71 83	Вышгородском
+T6	REGION 91 107	Киевской области
+T7	EVENT 149 155	учения
+T8	EVENT 160 167	саперов
+T9	NEWS_SOURCE 169 190	сообщается в телеграм
+T10	REGION 198 206	Киевской
+T11	EVENT 190 238	-канале Киевской областной военной администрации
+T12	DATE 241 248	Сегодня
+T13	DATE 250 259	6 октября
+T14	EVENT 292 298	учения
+T15	GROUP 303 310	саперов
+T16	NEWS_SOURCE 485 506	говорится в сообщении
+T17	COUNTRY 515 525	украинское
+T18	NEWS_SOURCE 526 533	издание
+T19	NEWS_SOURCE 535 541	Страна
+T20	NEWS_SOURCE 542 544	ua
+T21	ORGANIZATION 542 544	ua
+T22	NEWS_SOURCE 546 552	писало
+T23	CITY 560 565	Киеве
+T24	GPE 560 565	Киеве
+T25	DATE 626 639	В прошлый раз
+T26	COUNTRY 640 650	украинские
+T27	GROUP 651 657	власти
+T28	REGION 680 696	Киевской области
+T29	DATE 697 709	в конце июля
+T30	DATE 711 718	28 июля
+T31	ECONOMIC_SECTOR 754 769	ракетного удара
+T32	PROFESSION 817 822	глава
+T33	ORGANIZATION 823 836	администрации
+T34	NEWS_SOURCE 809 859	сообщил глава администрации региона Алексей Кулеба
+T35	PERSON 845 859	Алексей Кулеба
+T36	NEWS_SOURCE 931 938	уточнял
+T37	CARDINAL 975 1004	633eb34b9a79476795af6f31
+
+Thu
+T38	DATE 1009 1017	Oct 2022
+T39	CARDINAL 1018 1020	15
+T40	CARDINAL 1024 1026	32
+T41	EVENT 1027 1028	+

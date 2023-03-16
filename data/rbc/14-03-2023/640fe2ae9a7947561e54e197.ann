@@ -1,0 +1,100 @@
+T0	COUNTRY 0 3	США
+T1	COUNTRY 52 59	Мексику
+T2	NORP 60 69	украинцам
+T3	ORGANIZATION 71 84	Администрация
+T4	COUNTRY 85 88	США
+T7	COUNTRY 198 208	украинским
+T8	GROUP 209 217	беженцам
+T9	DATE 240 252	прошлом году
+T10	COUNTRY 269 277	Мексикой
+T12	ORGANIZATION 306 313	Reuters
+T14	COUNTRY 328 340	американское
+T17	ORGANIZATION 381 390	ведомстве
+T18	DATE 405 427	в начале прошлого года
+T19	COUNTRY 430 433	США
+T20	COUNTRY 440 447	Мексику
+T21	QUANTITY 456 470	порядка 25 тыс
+T22	COUNTRY 472 482	украинских
+T23	GROUP 483 491	беженцев
+T24	DATE 532 538	на год
+T26	ORGANIZATION 603 615	министерстве
+T28	COUNTRY 641 653	американские
+T29	PROFESSION 654 666	пограничники
+T30	NORP 686 695	украинцев
+T31	COUNTRY 712 720	Мексикой
+T32	NEWS_SOURCE 722 738	агентство писало
+T33	DATE 743 758	в прошлом марте
+T34	COUNTRY 772 775	США
+T35	QUANTITY 784 799	порядка 300 тыс
+T37	COUNTRY 801 811	украинских
+T38	GROUP 812 820	беженцев
+T39	NEWS_SOURCE 822 834	передает CNN
+T40	ORGANIZATION 831 834	CNN
+T43	ORGANIZATION 878 881	ООН
+T46	GROUP 891 899	беженцев
+T47	COUNTRY 915 918	США
+T49	GROUP 948 958	покинувших
+T50	COUNTRY 959 966	Украину
+T52	COUNTRY 980 990	украинских
+T53	GROUP 991 999	беженцев
+T54	COUNTRY 1012 1018	России
+T55	GPE 1029 1035	Европы
+T57	GROUP 1067 1075	беженцев
+T58	ORGANIZATION 1076 1079	ООН
+T63	COUNTRY 1175 1182	Украины
+T66	ORGANIZATION 1260 1272	Еврокомиссии
+T67	PERSON 1273 1287	Дубравка Шуйца
+T68	GROUP 1313 1320	беженцы
+T69	GPE 1336 1342	родину
+T70	GPE 1357 1363	Европе
+T72	FAC 1425 1437	рабочих мест
+T81	LAW 4 26	продлят статус беженца
+R1	HEADQUARTERED_IN Arg1:T3 Arg2:T4	
+R2	ORIGINS_FROM Arg1:T8 Arg2:T7	
+T5	PRODUCT 180 197	талоны на питание
+T6	LAW 89 127	продлит действие гуманитарного статуса
+T82	PRODUCT 156 177	медицинскую страховку
+R3	USES Arg1:T8 Arg2:T82	
+R4	BUYS Arg1:T8 Arg2:T5	
+T11	ORGANIZATION 341 377	Министерство внутренней безопасности
+R5	HEADQUARTERED_IN Arg1:T11 Arg2:T14	
+T13	NEWS_SOURCE 287 377	сообщило агентство Reuters со ссылкой на американское Министерство внутренней безопасности
+T15	NEWS_SOURCE 379 399	В ведомстве уточнили
+R6	ORIGINS_FROM Arg1:T23 Arg2:T22	
+T16	LAW 493 531	Соответствующий статус им предоставили
+R7	WORKPLACE Arg1:T29 Arg2:T28	
+T25	LOCATION 696 709	через границу
+R8	OWNERSHIP Arg1:T31 Arg2:T25	
+T27	EVENT 667 695	массово пропускают украинцев
+R9	TAKES_PLACE_IN Arg1:T27 Arg2:T28	
+T83	ORGANIZATION 722 731	агентство
+R10	ORIGINS_FROM Arg1:T38 Arg2:T37	
+T36	PROFESSION 857 899	верховного комиссара ООН по делам беженцев
+R11	WORKPLACE Arg1:T36 Arg2:T43	
+T41	NEWS_SOURCE 836 899	По данным управления верховного комиссара ООН по делам беженцев
+T42	QUANTITY 936 947	до 300 тыс.
+R12	ORIGINS_FROM Arg1:T49 Arg2:T50	
+T44	GROUP 968 979	Большинство
+R13	ORIGINS_FROM Arg1:T53 Arg2:T52	
+R14	WORKPLACE Arg1:T53 Arg2:T54	
+T45	GROUP 1021 1028	странах
+R15	MEMBER Arg1:T45 Arg2:T55	
+R16	WORKPLACE Arg1:T53 Arg2:T55	
+T48	PROFESSION 1039 1075	верховный комиссар по делам беженцев
+T51	PERSON 1080 1094	Филиппо Гранди
+R17	WORKS_AS Arg1:T51 Arg2:T48	
+R18	WORKPLACE Arg1:T51 Arg2:T58	
+T56	EVENT 1127 1145	приему новой волны
+R19	EVENT_TAKES_PART_IN Arg1:T55 Arg2:T56	
+T59	LOCATION 1164 1174	за пределы
+T60	EVENT 1183 1231	может вырасти на фоне очередного витка эскалации
+T61	GROUP 1153 1163	выезжающих
+R20	EVENT_TAKES_PART_IN Arg1:T61 Arg2:T60	
+T62	NEWS_SOURCE 1233 1243	говорил он
+R21	ORIGINS_FROM Arg1:T61 Arg2:T63	
+T64	PROFESSION 1245 1259	Вице-президент
+R22	WORKPLACE Arg1:T64 Arg2:T66	
+R23	WORKS_AS Arg1:T67 Arg2:T64	
+T65	NEWS_SOURCE 1245 1300	Вице-президент Еврокомиссии Дубравка Шуйца подчеркивала
+R24	MEMBER Arg1:T68 Arg2:T70	
+T71	FAC 1410 1415	домов
