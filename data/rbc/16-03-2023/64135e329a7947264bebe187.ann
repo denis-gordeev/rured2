@@ -1,0 +1,47 @@
+T0	DATE 0 1	В
+T1	NEWS_SOURCE 0 1	В
+T2	CITY 2 9	Курской
+T3	REGION 10 17	области
+T4	FAC 34 45	автомобилей
+T5	ORGANIZATION 47 48	В
+T6	CITY 49 56	Курской
+T7	REGION 57 64	области
+T8	FAC 80 91	автомобилей
+T9	FAC 95 102	дорогах
+T10	EVENT 144 160	соседнем регионе
+T11	ORGANIZATION 171 174	РБК
+T12	NEWS_SOURCE 162 219	сообщили РБК в пресс-службе администрации Курской области
+T13	ORGANIZATION 177 219	пресс-службе администрации Курской области
+T14	EVENT 263 274	мероприятия
+T15	ORGANIZATION 290 295	пресс
+T16	NEWS_SOURCE 279 316	сообщили в пресс-службе администрации
+T17	ORGANIZATION 296 316	службе администрации
+T18	FAC 340 348	телеграм
+T19	FAC 349 355	канала
+T20	NEWS_SOURCE 356 360	Baza
+T21	FAC 411 416	канал
+T22	COUNTRY 453 464	украинскими
+T23	GPE 502 513	вооруженные
+T24	REGION 544 560	Брянской области
+T25	NEWS_SOURCE 574 583	Орловской
+T26	REGION 584 591	области
+T27	NEWS_SOURCE 593 606	уточняет Baza
+T28	PROFESSION 609 619	Губернатор
+T29	REGION 630 637	области
+T30	NEWS_SOURCE 620 652	Орловской области Андрей Клычков
+T31	PERSON 638 652	Андрей Клычков
+T32	DATE 653 666	днем 16 марта
+T33	NEWS_SOURCE 667 673	сказал
+T34	NEWS_SOURCE 679 689	информация
+T35	LAW 690 709	о вооруженных людях
+T36	NEWS_SOURCE 740 745	также
+T37	CARDINAL 868 870	16
+T38	CARDINAL 879 908	64135e329a7947264bebe187
+
+Thu
+T39	CARDINAL 910 912	16
+T40	ORGANIZATION 913 916	Mar
+T41	DATE 917 921	2023
+T42	CARDINAL 922 924	21
+T43	PERCENT 925 927	57
+T44	CARDINAL 925 927	57

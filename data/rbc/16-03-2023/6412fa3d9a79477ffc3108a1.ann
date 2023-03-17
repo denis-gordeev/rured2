@@ -1,19 +1,13 @@
-T0	NEWS_SOURCE 0 5	Глава
 T1	PROFESSION 0 5	Глава
 T2	ORGANIZATION 6 13	Минфина
 T3	PERCENT 36 40	в 5%
 T4	PERCENT 119 127	около 5%
-T5	NEWS_SOURCE 145 152	сообщил
-T6	PROFESSION 153 181	журналистам министр финансов
 T7	COUNTRY 182 188	России
-T8	NEWS_SOURCE 165 203	министр финансов России Антон Силуанов
 T9	PERSON 189 203	Антон Силуанов
 T10	DATE 231 242	в этом году
 T11	ORGANIZATION 277 292	парламентариями
-T12	DATE 308 323	весеннюю сессию
 T13	NEWS_SOURCE 373 388	сказал Силуанов
 T14	PERSON 380 388	Силуанов
-T15	NEWS_SOURCE 397 404	по ТАСС
 T16	ORGANIZATION 400 404	ТАСС
 T17	DATE 408 424	В начале февраля
 T18	PROFESSION 425 444	первый вице-премьер
@@ -24,43 +18,62 @@ T22	DATE 595 606	в 2022 году
 T23	ORGANIZATION 616 624	компаний
 T24	DATE 637 653	первом полугодии
 T25	DATE 655 677	за первые три квартала
-T26	DATE 705 709	плюс
 T27	ORGANIZATION 722 725	РБК
-T28	NEWS_SOURCE 712 735	Источники РБК, знакомые
 T29	ORGANIZATION 798 806	компании
 T30	DATE 835 856	за последние два года
-T31	MONEY 867 873	1 млрд
 T32	CURRENCY 874 877	руб
 T33	ECONOMIC_SECTOR 895 907	нефтегазовой
 T34	FAC 908 915	отрасли
 T35	PROFESSION 924 944	замминистра финансов
 T36	PERSON 945 960	Алексей Сазанов
 T37	NEWS_SOURCE 945 968	Алексей Сазанов уточнил
-T38	ECONOMIC_SECTOR 982 986	сбор
-T39	GROUP 1027 1038	доналоговой
-T40	MONEY 1048 1060	более 1 млрд
 T41	CURRENCY 1061 1064	руб
 T42	DATE 1066 1083	за 2021–2022 годы
-T43	FAC 1091 1102	предприятий
 T44	ECONOMIC_SECTOR 1103 1137	нефтегазового и угольного секторов
-T45	FAC 1139 1147	малого и
-T46	INVESTMENT_PROGRAM 1148 1156	среднего
 T47	PERSON 1166 1174	Силуанов
 T48	NEWS_SOURCE 1166 1182	Силуанов сообщил
 T49	MONEY 1214 1232	около 300 млрд руб
 T50	CURRENCY 1229 1232	руб
-T51	EVENT 1236 1252	Российском союзе
-T52	ORGANIZATION 1247 1286	союзе промышленников и предпринимателей
 T53	ORGANIZATION 1288 1292	РСПП
 T54	ORGANIZATION 1347 1355	компаний
-T55	ORGANIZATION 1363 1372	налоговая
 T56	GPE 1440 1446	Кремль
 T57	CARDINAL 1654 1683	6412fa3d9a79477ffc3108a1
 
 Thu
-T58	CARDINAL 1685 1687	16
-T59	ORGANIZATION 1688 1691	Mar
-T60	DATE 1692 1696	2023
-T61	CARDINAL 1697 1699	15
-T62	CARDINAL 1700 1702	40
-T63	CARDINAL 1703 1705	31
+R1	WORKPLACE Arg1:T1 Arg2:T2	
+T5	PROFESSION 153 164	журналистам
+T6	PROFESSION 165 181	министр финансов
+R2	WORKS_AS Arg1:T9 Arg2:T6	
+R3	WORKPLACE Arg1:T9 Arg2:T7	
+T8	NEWS_SOURCE 145 203	сообщил журналистам министр финансов России Антон Силуанов
+T12	DATE 306 316	в весеннюю
+T15	NEWS_SOURCE 373 405	сказал Силуанов (цитата по ТАСС)
+T64	ORDINAL 425 431	первый
+T65	NEWS_SOURCE 408 467	В начале февраля первый вице-премьер Андрей Белоусов заявил
+R4	WORKS_AS Arg1:T19 Arg2:T18	
+T66	GROUP 499 515	крупным бизнесом
+T67	EVENT 516 555	добровольный однократный взнос в бюджет
+T68	CARDINAL 529 540	однократный
+R5	EVENT_TAKES_PART_IN Arg1:T66 Arg2:T67	
+T69	NEWS_SOURCE 574 585	он объяснил
+T70	ORDINAL 637 643	первом
+T71	ORGANIZATION 658 664	первые
+T26	EVENT 680 709	результаты были сильно в плюс
+R6	DATE_TAKES_PLACE_ON Arg1:T26 Arg2:T22	
+R7	TAKES_PLACE_IN Arg1:T26 Arg2:T23	
+T28	NEWS_SOURCE 712 759	Источники РБК, знакомые с ситуацией, рассказали
+T31	QUANTITY 867 873	1 млрд
+T72	MONEY 1048 1065	более 1 млрд руб.
+T40	QUANTITY 1054 1060	1 млрд
+T38	ORGANIZATION 1005 1013	компании
+T39	ORGANIZATION 1091 1102	предприятий
+T43	ORGANIZATION 1139 1164	малого и среднего бизнеса
+T45	EVENT 974 986	разовый сбор
+R8	TAKES_PLACE_IN Arg1:T45 Arg2:T38	
+T46	QUANTITY 1214 1228	около 300 млрд
+T51	ORGANIZATION 1236 1286	Российском союзе промышленников и предпринимателей
+T52	COUNTRY 1236 1246	Российском
+R9	ABBREVIATION Arg1:T51 Arg2:T53	
+T55	NEWS_SOURCE 1440 1482	Кремль, комментируя идею, обратил внимание
+T73	GROUP 1488 1495	бизнесу
+R10	WORKPLACE Arg1:T73 Arg2:T52	

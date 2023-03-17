@@ -1,0 +1,73 @@
+T0	COUNTRY 2 5	США
+T1	COUNTRY 14 24	российские
+T2	PERSON 49 55	Черным
+T3	LOCATION 56 61	морем
+T4	GROUP 75 81	Власти
+T5	COUNTRY 82 85	США
+T6	PERSON 130 136	Черным
+T7	LOCATION 137 142	морем
+T8	COUNTRY 154 161	Россией
+T9	EVENT 206 217	на брифинге
+T13	ORGANIZATION 271 315	Совете национальной безопасности Белого дома
+T15	PERSON 316 326	Джон Кирби
+T19	COUNTRY 477 480	США
+T23	GPE 517 528	Европейское
+T26	COUNTRY 558 561	США
+T27	DATE 562 570	14 марта
+T29	COUNTRY 585 595	российский
+T32	COUNTRY 615 627	американским
+T39	PROFESSION 672 697	Официальный представитель
+T40	ORGANIZATION 698 705	Госдепа
+T41	COUNTRY 706 709	США
+T42	PERSON 710 719	Нед Прайс
+T44	WEAPON 741 752	истребителя
+T46	COUNTRY 806 816	российских
+T47	PROFESSION 817 824	пилотов
+T57	NEWS_SOURCE 960 977	Ведомство заявило
+T58	WEAPON 983 987	дрон
+T59	LOCATION 1018 1041	воздушного пространства
+T60	PROFESSION 1043 1048	Глава
+T61	ORGANIZATION 1049 1052	МИД
+T62	PERSON 1053 1066	Сергей Лавров
+T64	COUNTRY 1079 1082	США
+T66	LOCATION 1128 1148	берегов Черного моря
+T67	COUNTRY 1182 1189	Украине
+T68	COUNTRY 1265 1277	американская
+R1	WORKPLACE Arg1:T4 Arg2:T5	
+T73	EVENT 106 142	ограничения полетов над Черным морем
+R2	ORGANIZES Arg1:T8 Arg2:T73	
+T10	PROFESSION 225 268	координатор по стратегическим коммуникациям
+R3	EVENT_TAKES_PART_IN Arg1:T15 Arg2:T9	
+R4	WORKS_AS Arg1:T15 Arg2:T10	
+T11	PERSON 428 433	Кирби
+T12	ORGANIZATION 445 458	«РИА Новости»
+T14	NEWS_SOURCE 421 459	сказал Кирби (цитата по «РИА Новости»)
+T16	NEWS_SOURCE 461 471	Он добавил
+T17	EVENT 481 497	продолжат полеты
+R5	ORGANIZES Arg1:T19 Arg2:T17	
+T18	LOCATION 502 514	Черным морем
+T20	ORGANIZATION 529 541	командование
+R6	HEADQUARTERED_IN Arg1:T20 Arg2:T23	
+T21	ORGANIZATION 542 557	вооруженных сил
+T22	NEWS_SOURCE 517 579	Европейское командование вооруженных сил США 14 марта сообщило
+T24	WEAPON 596 601	Су-27
+T25	WEAPON 628 653	беспилотником MQ-9 Reaper
+T28	LOCATION 658 670	Черным морем
+T30	NEWS_SOURCE 672 726	Официальный представитель Госдепа США Нед Прайс заявил
+R7	WORKPLACE Arg1:T47 Arg2:T46	
+R8	WORKPLACE Arg1:T42 Arg2:T41	
+R9	WORKS_AS Arg1:T42 Arg2:T39	
+R10	WORKPLACE Arg1:T42 Arg2:T40	
+T31	ORGANIZATION 828 838	Минобороны
+T33	COUNTRY 839 845	России
+R11	HEADQUARTERED_IN Arg1:T31 Arg2:T33	
+T34	NEWS_SOURCE 826 853	В Минобороны России заявили
+T35	WEAPON 859 864	Су-27
+T36	WEAPON 866 885	бортовое вооружение
+T37	WEAPON 902 935	беспилотным летательным аппаратом
+T38	ORGANIZATION 960 969	Ведомство
+R12	WORKPLACE Arg1:T60 Arg2:T61	
+R13	WORKPLACE Arg1:T62 Arg2:T61	
+T43	NEWS_SOURCE 1043 1073	Глава МИД Сергей Лавров заявил
+T45	EVENT 1155 1178	начала военной операции
+R14	TAKES_PLACE_IN Arg1:T45 Arg2:T67	
