@@ -1,0 +1,38 @@
+T0	CITY 35 46	Севастополе
+T2	CITY 64 75	Севастополе
+T3	WEAPON 120 132	гранатометов
+T4	PROFESSION 150 160	губернатор
+T5	PERSON 168 184	Михаил Развожаев
+T6	NEWS_SOURCE 142 186	сообщил губернатор города Михаил Развожаев в
+T15	CITY 401 416	Севастопольской
+T17	CITY 435 444	Инкермане
+T18	DATE 447 454	1 марта
+T19	ORGANIZATION 455 465	Минобороны
+T21	PROFESSION 480 494	военнослужащие
+T23	WEAPON 568 581	беспилотников
+T27	ORGANIZATION 666 675	ведомстве
+T36	PERSON 0 9	Развожаев
+T37	NEWS_SOURCE 0 18	Развожаев объяснил
+R1	WORKS_AS Arg1:T5 Arg2:T4	
+R2	WORKPLACE Arg1:T4 Arg2:T2	
+T1	NEWS_SOURCE 142 208	сообщил губернатор города Михаил Развожаев в своем телеграм-канале
+T7	NEWS_SOURCE 237 247	уточнил он
+T8	ORGANIZATION 289 307	«ЧП / Севастополь»
+T9	NEWS_SOURCE 266 307	сообщал телеграм-канал «ЧП / Севастополь»
+T10	GROUP 322 339	подписчики канала
+T11	BOROUGH 357 383	Корабельной стороны города
+T12	LOCATION 385 422	южное побережье Севастопольской бухты
+T13	EVENT 348 354	взрывы
+R3	TAKES_PLACE_IN Arg1:T13 Arg2:T11	
+R4	TAKES_PLACE_IN Arg1:T13 Arg2:T17	
+T14	NEWS_SOURCE 447 474	1 марта Минобороны сообщило
+T16	WEAPON 540 546	дронов
+T20	EVENT 503 546	отразили попытку массированной атаки дронов
+R5	DATE_TAKES_PLACE_ON Arg1:T20 Arg2:T18	
+R6	WORKPLACE Arg1:T21 Arg2:T19	
+T22	CARDINAL 562 567	шесть
+T24	CARDINAL 593 599	четыре
+T25	WEAPON 616 650	средствами радиоэлектронной борьбы
+T26	NEWS_SOURCE 652 675	Как сказали в ведомстве
+T28	EVENT 677 712	жертв и разрушений на земле не было
+R7	TAKES_PLACE_IN Arg1:T28 Arg2:T17	

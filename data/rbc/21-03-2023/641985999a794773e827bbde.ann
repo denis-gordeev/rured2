@@ -1,0 +1,77 @@
+T0	PERSON 0 5	Рогов
+T1	EVENT 16 22	взрыве
+T2	COUNTRY 53 60	Украине
+T7	PERSON 158 172	Владимир Рогов
+T13	PERSON 327 332	Рогов
+T14	COUNTRY 334 344	Украинское
+T22	PERSON 435 440	Рогов
+T23	BOROUGH 500 510	Вольнянске
+T25	CITY 533 542	Запорожья
+T26	NEWS_SOURCE 544 563	По словам чиновника
+T27	PROFESSION 554 563	чиновника
+T31	ORDINAL 600 601	й
+T34	ORGANIZATION 626 629	ВСУ
+T35	COUNTRY 632 643	украинского
+T36	WEAPON 658 661	ПВО
+T37	DATE 664 672	10 марта
+T38	PERSON 673 678	Рогов
+T40	EVENT 694 701	взрывах
+T42	CITY 704 713	Запорожье
+T43	GPE 742 747	Киеву
+T47	COUNTRY 841 847	России
+T48	EVENT 858 869	референдума
+T49	DATE 870 890	в сентябре 2022 года
+T50	COUNTRY 892 902	Российские
+T51	ORGANIZATION 903 909	войска
+T54	LOCATION 958 973	Северные районы
+T56	CITY 1011 1020	Запорожье
+T57	GPE 1047 1052	Киева
+T66	CITY 25 34	Запорожье
+T67	NEWS_SOURCE 0 13	Рогов сообщил
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T66	
+T68	CITY 68 77	Запорожье
+T69	EVENT 78 93	прогремел взрыв
+T3	PROFESSION 103 123	член главного совета
+T4	ORGANIZATION 124 137	администрации
+T5	REGION 138 157	Запорожской области
+R2	WORKPLACE Arg1:T7 Arg2:T5	
+R3	HEADQUARTERED_IN Arg1:T4 Arg2:T5	
+R4	WORKPLACE Arg1:T3 Arg2:T4	
+R5	TAKES_PLACE_IN Arg1:T69 Arg2:T68	
+R6	OWNERSHIP Arg1:T2 Arg2:T68	
+T6	NEWS_SOURCE 95 190	сообщил член главного совета администрации Запорожской области Владимир Рогов в телеграм-канале
+T8	TIME 225 230	13:08
+T9	GROUP 250 267	земляки-запорожцы
+T10	NEWS_SOURCE 237 267	сообщают мне земляки-запорожцы
+T11	NEWS_SOURCE 319 332	написал Рогов
+T12	EVENT 269 314	после взрыва была объявлена воздушная тревога
+R7	TAKES_PLACE_IN Arg1:T12 Arg2:T68	
+T15	ORGANIZATION 345 374	издание «Суспiльне Запорiжжя»
+T16	NEWS_SOURCE 334 385	Украинское издание «Суспiльне Запорiжжя» тоже пишет
+T17	EVENT 388 405	воздушной тревоге
+T18	REGION 408 427	Запорожской области
+R8	TAKES_PLACE_IN Arg1:T17 Arg2:T18	
+R9	HEADQUARTERED_IN Arg1:T15 Arg2:T14	
+R10	HEADQUARTERED_IN Arg1:T15 Arg2:T68	
+T19	NEWS_SOURCE 435 448	Рогов уточнил
+T20	EVENT 454 459	взрыв
+R11	TAKES_PLACE_IN Arg1:T20 Arg2:T23	
+T21	BOROUGH 513 532	ближайшем пригороде
+T24	FAC 580 595	командный пункт
+R12	HEADQUARTERED_IN Arg1:T34 Arg2:T35	
+T28	GROUP 596 625	128-й горно-штурмовой бригады
+R13	WORKPLACE Arg1:T28 Arg2:T34	
+R14	OWNERSHIP Arg1:T28 Arg2:T24	
+T29	NEWS_SOURCE 664 691	10 марта Рогов тоже сообщал
+R15	TAKES_PLACE_IN Arg1:T40 Arg2:T42	
+R16	DATE_TAKES_PLACE_ON Arg1:T40 Arg2:T37	
+R17	OWNERSHIP Arg1:T43 Arg2:T42	
+T30	REGION 806 825	Запорожская область
+R18	DATE_TAKES_PLACE_ON Arg1:T48 Arg2:T49	
+R19	TAKES_PLACE_IN Arg1:T48 Arg2:T30	
+R20	OWNERSHIP Arg1:T47 Arg2:T30	
+R21	OWNERSHIP Arg1:T50 Arg2:T51	
+T32	LOCATION 923 956	южные и центральные части области
+R22	OWNERSHIP Arg1:T50 Arg2:T32	
+R23	OWNERSHIP Arg1:T57 Arg2:T56	
+R24	OWNERSHIP Arg1:T57 Arg2:T54	

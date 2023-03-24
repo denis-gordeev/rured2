@@ -1,0 +1,89 @@
+T0	COUNTRY 0 3	США
+T1	COUNTRY 13 18	Китай
+T2	CRIME 19 61	в попытке скрыть нарушения прав человека в
+T3	COUNTRY 62 71	КНДР
+
+США
+T4	COUNTRY 81 86	Китай
+T9	GPE 161 166	Пекин
+T14	ORGANIZATION 244 267	Совета Безопасности ООН
+T16	COUNTRY 308 312	КНДР
+T17	NEWS_SOURCE 322 338	сообщает Reuters
+T18	ORGANIZATION 331 338	Reuters
+T20	ORGANIZATION 357 376	Совета Безопасности
+T22	COUNTRY 454 457	США
+T24	ORGANIZATION 460 463	ООН
+T26	PERSON 464 484	Линда Томас-Гринфилд
+T27	COUNTRY 487 496	Китайские
+T29	PROFESSION 497 506	дипломаты
+T32	GROUP 539 547	коллегам
+T33	COUNTRY 644 653	китайская
+T35	COUNTRY 710 715	Китай
+T38	QUANTITY 775 777	15
+T39	GROUP 778 784	членов
+T42	ORGANIZATION 883 886	ООН
+T47	ORGANIZATION 997 1000	ООН
+T49	COUNTRY 1057 1066	китайский
+T50	PROFESSION 1067 1075	дипломат
+T52	PERSON 1076 1086	Син Цзишэн
+T54	COUNTRY 1124 1127	США
+T56	COUNTRY 1130 1138	Албанией
+T60	QUANTITY 1230 1232	15
+T61	GROUP 1233 1253	представителей стран
+T62	NEWS_SOURCE 1267 1283	отмечает Reuters
+T63	ORGANIZATION 1276 1283	Reuters
+T64	COUNTRY 1305 1310	Китая
+T65	EVENT 1337 1344	встреча
+T67	COUNTRY 1401 1415	Северная Корея
+T68	EVENT 1440 1447	встрече
+T69	GPE 1449 1456	Пхеньян
+T72	COUNTRY 1561 1575	Северная Корея
+T73	ORGANIZATION 1604 1607	ООН
+T74	WEAPON 1614 1634	баллистических ракет
+T76	DATE 1655 1666	с 2006 года
+T85	COUNTRY 62 66	КНДР
+R1	EVENT_TAKES_PART_IN Arg1:T1 Arg2:T2	
+T86	COUNTRY 68 71	США
+T5	COUNTRY 130 144	Северной Корее
+R2	ABBREVIATION Arg1:T5 Arg2:T85	
+T6	CRIME 87 144	в попытке скрыть нарушения прав человека в Северной Корее
+R3	EVENT_TAKES_PART_IN Arg1:T4 Arg2:T6	
+T7	COUNTRY 176 194	Соединенным Штатам
+T8	GROUP 341 356	Некоторые члены
+R4	WORKPLACE Arg1:T8 Arg2:T20	
+T10	PROFESSION 445 453	постпред
+T11	NEWS_SOURCE 437 484	заявила постпред США в ООН Линда Томас-Гринфилд
+R5	WORKPLACE Arg1:T26 Arg2:T22	
+R6	WORKS_AS Arg1:T26 Arg2:T10	
+R7	WORKPLACE Arg1:T29 Arg2:T27	
+T12	ORGANIZATION 518 527	агентства
+T13	ORGANIZATION 551 558	Совбезу
+R8	WORKPLACE Arg1:T32 Arg2:T13	
+T15	NEWS_SOURCE 487 565	Китайские дипломаты, по данным агентства, разослали коллегам по Совбезу письмо
+T19	NEWS_SOURCE 710 732	Китай также утверждает
+T21	ORGANIZATION 757 760	ООН
+T23	ORGANIZATION 738 756	Совет Безопасности
+R9	OWNERSHIP Arg1:T21 Arg2:T23	
+R10	OWNERSHIP Arg1:T39 Arg2:T23	
+T25	ORGANIZATION 899 937	Советом организации по правам человека
+T28	ORGANIZATION 942 964	Генеральной Ассамблеей
+R11	MEMBER Arg1:T25 Arg2:T42	
+R12	MEMBER Arg1:T28 Arg2:T42	
+T30	EVENT 981 1020	веб-телевидения ООН для прямого вещания
+R13	WORKPLACE Arg1:T50 Arg2:T49	
+R14	WORKS_AS Arg1:T52 Arg2:T50	
+T31	EVENT 1100 1107	встречу
+R15	ORGANIZES Arg1:T54 Arg2:T31	
+R16	ORGANIZES Arg1:T56 Arg2:T31	
+T34	NEWS_SOURCE 1049 1138	отметил китайский дипломат Син Цзишэн, комментируя встречу, организованную США и Албанией
+T36	ORGANIZATION 1254 1261	Совбеза
+T37	EVENT 1159 1198	веб-трансляцию неофициального заседания
+R17	WORKPLACE Arg1:T61 Arg2:T36	
+R18	ORGANIZES Arg1:T36 Arg2:T37	
+R19	ORGANIZES Arg1:T61 Arg2:T37	
+T40	GROUP 1396 1399	СМИ
+R20	EVENT_TAKES_PART_IN Arg1:T40 Arg2:T65	
+T41	CRIME 1479 1502	нарушении прав человека
+T43	EVENT 1576 1607	находится под ограничениями ООН
+R21	EVENT_TAKES_PART_IN Arg1:T72 Arg2:T43	
+R22	DATE_TAKES_PLACE_ON Arg1:T43 Arg2:T76	

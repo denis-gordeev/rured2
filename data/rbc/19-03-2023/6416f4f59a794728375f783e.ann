@@ -1,0 +1,55 @@
+T0	ORGANIZATION 0 10	Минобороны
+T1	CARDINAL 32 36	двум
+T2	FAC 37 44	ангарам
+T3	FAC 47 54	военной
+T4	ECONOMIC_SECTOR 55 63	техникой
+T5	GROUP 64 67	ВСУ
+T6	COUNTRY 69 79	Российские
+T7	PROFESSION 80 87	военные
+T8	GROUP 80 87	военные
+T9	CARDINAL 104 108	двум
+T10	FAC 109 116	ангарам
+T11	FAC 119 126	военной
+T12	FAC 138 149	вооружением
+T13	REGION 156 174	Херсонской области
+T14	NEWS_SOURCE 184 223	говорится в сводке Министерства обороны
+T15	ORGANIZATION 196 223	сводке Министерства обороны
+T16	FAC 235 246	населенного
+T17	LOCATION 247 253	пункта
+T18	REGION 268 278	Херсонской
+T19	CARDINAL 296 299	два
+T20	PRODUCT 323 330	военной
+T21	CARDINAL 340 343	122
+T22	ORDINAL 344 345	й
+T23	FAC 346 377	бригады территориальной обороны
+T24	ORGANIZATION 370 377	обороны
+T25	ORGANIZATION 393 403	Минобороны
+T26	CITY 415 425	херсонском
+T27	ECONOMIC_SECTOR 445 458	огневой атаки
+T28	DATE 459 467	за сутки
+T29	CARDINAL 479 484	до 20
+T30	COUNTRY 485 495	украинских
+T31	GROUP 496 510	военнослужащих
+T32	CARDINAL 523 526	три
+T33	PRODUCT 527 537	автомобиля
+T34	FAC 527 537	автомобиля
+T35	CARDINAL 547 550	две
+T36	FAC 551 569	самоходные гаубицы
+T37	ORGANIZATION 571 579	Гвоздика
+T38	PROFESSION 593 628	врио губернатора Херсонской области
+T39	NEWS_SOURCE 586 644	заявил врио губернатора Херсонской области Владимир Сальдо
+T40	PERSON 629 644	Владимир Сальдо
+T41	DATE 645 652	8 марта
+T42	REGION 656 674	Херсонской области
+T43	FAC 690 714	противовоздушной обороны
+T44	FAC 814 821	объекты
+T45	GROUP 933 939	людьми
+T46	PRODUCT 942 954	автомобилями
+T47	NEWS_SOURCE 1037 1047	подчеркнул
+T48	ORGANIZATION 1114 1117	Sun
+T49	CARDINAL 1119 1121	19
+T50	ORGANIZATION 1122 1125	Mar
+T51	DATE 1126 1130	2023
+T52	CARDINAL 1131 1133	15
+T53	CARDINAL 1134 1136	29
+T54	CARDINAL 1137 1139	32

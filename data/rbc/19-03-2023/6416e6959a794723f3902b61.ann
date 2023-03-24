@@ -1,0 +1,52 @@
+T0	PERSON 0 8	Пугачева
+T3	COUNTRY 66 73	Израиле
+T6	COUNTRY 93 97	СССР
+T7	PERSON 98 111	Алла Пугачева
+T9	PROFESSION 152 159	коллеги
+T10	PERSON 160 175	Валерия Меладзе
+T11	COUNTRY 178 185	Израиле
+T12	PERSON 218 225	Меладзе
+T13	PROFESSION 256 264	владелец
+T15	ORGANIZATION 273 286	компания Meta
+T16	COUNTRY 325 331	России
+T18	PERSON 473 480	Меладзе
+T19	PERSON 507 526	Константина Меладзе
+T22	EVENT 671 678	концерт
+T23	PERSON 679 686	Меладзе
+T25	DATE 707 715	16 марта
+T28	EVENT 775 786	мероприятия
+T30	CARDINAL 807 810	140
+T35	COUNTRY 869 880	израильском
+T1	EVENT 34 55	провальных» концертах
+T2	PERSON 56 63	Меладзе
+R1	EVENT_TAKES_PART_IN Arg1:T2 Arg2:T1	
+R2	TAKES_PLACE_IN Arg1:T1 Arg2:T3	
+T4	PROFESSION 75 92	Народная артистка
+R3	WORKS_AS Arg1:T7 Arg2:T4	
+T5	EVENT 131 151	провальных концертах
+R4	EVENT_TAKES_PART_IN Arg1:T10 Arg2:T5	
+R5	TAKES_PLACE_IN Arg1:T5 Arg2:T11	
+T8	CRIME 256 331	владелец соцсети компания Meta признана экстремистской и запрещена в России
+T14	NEWS_SOURCE 187 254	Комментарий и видео с концерта Меладзе она опубликовала в Instagram
+T47	EVENT 209 217	концерта
+R6	EVENT_TAKES_PART_IN Arg1:T12 Arg2:T47	
+T48	NEWS_SOURCE 334 351	На кадрах показан
+T49	PROFESSION 385 391	певица
+T50	NEWS_SOURCE 369 400	Под публикацией певица написала
+T17	EVENT 450 472	«провальных» концертах
+R7	EVENT_TAKES_PART_IN Arg1:T18 Arg2:T17	
+T51	PERSON 540 546	Валеры
+T20	WORK_OF_ART 501 506	Песни
+T21	NEWS_SOURCE 645 657	добавила она
+T52	ORGANIZATION 723 742	«Аргументы и факты»
+T26	NEWS_SOURCE 716 742	писали «Аргументы и факты»
+R8	EVENT_TAKES_PART_IN Arg1:T23 Arg2:T22	
+T24	NEWS_SOURCE 744 759	Газета уточняла
+T27	CARDINAL 814 817	818
+R9	EVENT_TAKES_PART_IN Arg1:T23 Arg2:T28	
+T29	EVENT 824 831	Концерт
+T31	FAC 848 866	театра Синема-Сити
+T32	CITY 888 897	Беэр-Шева
+R10	OWNERSHIP Arg1:T35 Arg2:T32	
+R11	HEADQUARTERED_IN Arg1:T31 Arg2:T35	
+R12	TAKES_PLACE_IN Arg1:T29 Arg2:T35	

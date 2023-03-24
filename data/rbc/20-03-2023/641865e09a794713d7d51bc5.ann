@@ -1,0 +1,69 @@
+T0	CITY 2 8	Москве
+T1	PROFESSION 23 40	бывшего прокурора
+T5	PROFESSION 66 83	бывшего прокурора
+T9	FAC 135 143	квартире
+T10	CITY 153 159	Москвы
+T13	ORGANIZATION 170 174	ТАСС
+T18	ORGANIZATION 238 241	РБК
+T21	CITY 254 260	Москве
+T24	FAMILY 397 404	супруга
+T27	DATE 479 491	более 30 лет
+T28	DATE 493 511	С 1979 по 1982 год
+T35	ORGANIZATION 664 681	прокуратуры РСФСР
+T36	DATE 690 697	сегодня
+T37	CITY 720 728	Иркутске
+T41	ORGANIZATION 778 781	МВД
+T44	NEWS_SOURCE 813 827	По данным Baza
+T45	ORGANIZATION 823 827	Baza
+T48	PERSON 839 848	Братчиков
+T60	EVENT 9 22	нашли мертвым
+R1	TAKES_PLACE_IN Arg1:T60 Arg2:T0	
+T2	REGION 41 59	Московской области
+R2	WORKPLACE Arg1:T1 Arg2:T2	
+T3	PERSON 103 122	Бориса Наместникова
+T4	LOCATION 144 152	в центре
+R3	OWNERSHIP Arg1:T10 Arg2:T4	
+T8	ORGANIZATION 200 226	правоохранительных органах
+T11	NEWS_SOURCE 161 226	сообщает ТАСС со ссылкой на источник в правоохранительных органах
+T6	REGION 84 102	Московской области
+R4	PLACE_RESIDES_IN Arg1:T3 Arg2:T10	
+R5	WORKS_AS Arg1:T3 Arg2:T5	
+R6	WORKPLACE Arg1:T5 Arg2:T6	
+T7	ORGANIZATION 244 250	ГУ МВД
+T12	ORGANIZATION 265 295	территориальном отделе полиции
+R7	OWNERSHIP Arg1:T7 Arg2:T12	
+R8	HEADQUARTERED_IN Arg1:T7 Arg2:T21	
+T14	NEWS_SOURCE 228 322	Источники РБК в ГУ МВД по Москве и в территориальном отделе полиции подтвердили эту информацию
+T15	PROFESSION 324 336	Экс-прокурор
+T16	EVENT 337 358	совершил самоубийство
+R9	ORGANIZES Arg1:T3 Arg2:T16	
+T17	PERSON 365 377	Наместникова
+R10	EVENT_TAKES_PART_IN Arg1:T17 Arg2:T16	
+T19	AGE 434 440	90 лет
+T20	DATE 406 417	Месяц назад
+T22	PERSON 442 453	Наместников
+T23	ORGANIZATION 467 478	прокуратуре
+T25	ORGANIZATION 526 537	прокуратуру
+T26	REGION 538 554	Пермской области
+R11	HEADQUARTERED_IN Arg1:T25 Arg2:T26	
+T29	DATE 558 577	с 1991-го по 1993-й
+T30	ORGANIZATION 580 591	прокуратуру
+T31	REGION 592 603	Подмосковья
+R12	HEADQUARTERED_IN Arg1:T30 Arg2:T31	
+T32	PERSON 617 628	Наместников
+T33	ORGANIZATION 640 663	следственное управление
+R13	OWNERSHIP Arg1:T35 Arg2:T33	
+R14	WORKPLACE Arg1:T32 Arg2:T35	
+T34	EVENT 729 742	нашли мертвым
+R15	TAKES_PLACE_IN Arg1:T34 Arg2:T37	
+T38	PROFESSION 782 792	полковника
+T40	PERSON 793 811	Германа Братчикова
+T39	PROFESSION 743 777	замглавы муниципального управления
+R16	WORKPLACE Arg1:T39 Arg2:T41	
+R17	WORKS_AS Arg1:T40 Arg2:T38	
+T42	AGE 829 838	50-летний
+T43	GROUP 893 904	начальством
+T46	EVENT 849 904	покончил с собой после рабочего совещания с начальством
+R18	ORGANIZES Arg1:T48 Arg2:T46	
+R19	AGE_DIED_AT Arg1:T48 Arg2:T42	
+R20	AGE_DIED_AT Arg1:T17 Arg2:T19	

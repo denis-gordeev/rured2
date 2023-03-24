@@ -1,0 +1,56 @@
+T0	CITY 2 12	Мелитополе
+T4	CITY 115 125	Мелитополе
+T15	PERSON 368 382	Владимир Рогов
+T16	NEWS_SOURCE 368 389	Владимир Рогов заявил
+T17	FAC 484 498	пожарной части
+T18	DATE 568 584	В середине марта
+T19	CITY 587 597	Мелитополе
+T22	PERSON 659 670	Ивана Ткача
+T23	PERSON 755 760	Ткача
+T24	CITY 859 869	Мелитополь
+T28	DATE 916 930	в начале марта
+T31	CITY 966 975	Запорожье
+T32	COUNTRY 1011 1018	Украины
+T41	PROFESSION 13 24	полицейский
+T1	FAC 54 69	пожарной частью
+T42	EVENT 25 45	пострадал при взрыве
+R1	TAKES_PLACE_IN Arg1:T42 Arg2:T0	
+R2	HEADQUARTERED_IN Arg1:T1 Arg2:T0	
+R3	WORKPLACE Arg1:T41 Arg2:T0	
+T2	WEAPON 71 102	Самодельное взрывное устройство
+T3	REGION 126 145	Запорожской области
+R4	OWNERSHIP Arg1:T3 Arg2:T4	
+T5	ORGANIZATION 164 187	городская администрация
+T6	NEWS_SOURCE 155 205	сообщает городская администрация в телеграм-канале
+T7	GROUP 217 232	местных властей
+T8	NEWS_SOURCE 207 232	По данным местных властей
+T9	PROFESSION 244 255	полицейский
+T10	DISEASE 284 311	минно-взрывной травмой ноги
+T43	FAC 273 281	больницу
+T12	REGION 348 367	Запорожской области
+T13	DISEASE 410 435	состоянии средней тяжести
+T11	ORGANIZATION 334 347	администрации
+R5	HEADQUARTERED_IN Arg1:T5 Arg2:T4	
+R6	HEADQUARTERED_IN Arg1:T11 Arg2:T12	
+T14	PROFESSION 313 333	Член главного совета
+R7	WORKPLACE Arg1:T14 Arg2:T11	
+R8	WORKPLACE Arg1:T15 Arg2:T11	
+T33	PERSON 437 442	Рогов
+T44	NEWS_SOURCE 437 450	Рогов сообщил
+T45	COUNTRY 547 557	украинскую
+T46	VEHICLE 608 618	автомобиль
+T20	CRIME 598 618	подорвали автомобиль
+R9	TAKES_PLACE_IN Arg1:T20 Arg2:T19	
+T21	ORGANIZATION 629 658	местной транспортной компании
+T47	PROFESSION 619 628	владельца
+R10	WORKPLACE Arg1:T47 Arg2:T21	
+R11	OWNERSHIP Arg1:T22 Arg2:T21	
+T48	FAC 682 690	больнице
+T49	EVENT 675 708	умер в больнице от полученных ран
+R12	TAKES_PLACE_IN Arg1:T49 Arg2:T19	
+T50	FAMILY 747 754	ребенок
+T25	REGION 896 915	Запорожской области
+T26	EVENT 859 895	Мелитополь стал официальной столицей
+R13	DATE_TAKES_PLACE_ON Arg1:T26 Arg2:T28	
+R14	TAKES_PLACE_IN Arg1:T26 Arg2:T25	
+R15	OWNERSHIP Arg1:T32 Arg2:T31	

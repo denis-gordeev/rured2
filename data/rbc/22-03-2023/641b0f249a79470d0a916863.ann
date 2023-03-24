@@ -1,0 +1,73 @@
+T0	PERSON 0 9	Лукашенко
+T1	NEWS_SOURCE 0 16	Лукашенко заявил
+T2	COUNTRY 31 37	Польши
+T3	COUNTRY 71 77	Польша
+T4	COUNTRY 145 151	России
+T5	COUNTRY 156 166	Белоруссии
+T6	COUNTRY 194 205	белорусский
+T7	PROFESSION 206 215	президент
+T9	PERSON 216 235	Александр Лукашенко
+T11	ORGANIZATION 246 251	БелТА
+T12	NORP 342 351	украинцев
+T14	NORP 354 363	белорусов
+T16	COUNTRY 379 385	Россию
+T18	COUNTRY 496 502	Россию
+T19	NEWS_SOURCE 507 523	сказал Лукашенко
+T20	PERSON 514 523	Лукашенко
+T21	DATE 526 534	15 марта
+T22	ORGANIZATION 535 568	агентство внутренней безопасности
+T24	COUNTRY 569 575	Польши
+T25	COUNTRY 649 659	российские
+T26	GROUP 726 736	Спецслужбы
+T27	COUNTRY 737 743	Польши
+T28	FAC 801 819	транспортных узлах
+T29	NEWS_SOURCE 821 833	По их данным
+T30	PRODUCT 835 841	камеры
+T32	ORGANIZATION 899 903	Сеть
+T33	DATE 905 913	17 марта
+T35	ORGANIZATION 921 935	Rzeczpospolita
+T36	CARDINAL 945 951	девяти
+T37	NEWS_SOURCE 965 982	По данным издания
+T39	NORP 984 991	россиян
+T40	COUNTRY 1044 1054	Белоруссии
+T41	COUNTRY 1057 1064	Украины
+T42	COUNTRY 1066 1077	Белорусский
+T44	NEWS_SOURCE 1066 1099	Белорусский телеканал СТВ сообщал
+T45	CARDINAL 1128 1132	трое
+T47	NORP 1133 1142	белорусов
+T48	PERSON 1166 1181	Мария Медведева
+T50	PERSON 1184 1202	Николай Москаленко
+T51	GPE 1206 1212	Минске
+T52	NEWS_SOURCE 1204 1225	В Минске подчеркивают
+T61	CRIME 47 69	задержанных за шпионаж
+T62	CRIME 99 120	подозрению в шпионаже
+R1	WORKPLACE Arg1:T9 Arg2:T6	
+R2	WORKS_AS Arg1:T9 Arg2:T7	
+T8	NEWS_SOURCE 187 251	заявил белорусский президент Александр Лукашенко, передает БелТА
+T10	NEWS_SOURCE 273 283	добавил он
+T13	PENALTY 327 337	арестовали
+R3	HEADQUARTERED_IN Arg1:T22 Arg2:T24	
+T15	QUANTITY 586 594	шестерых
+T17	GROUP 595 614	иностранных граждан
+T23	GROUP 660 670	спецслужбы
+T63	CRIME 674 724	вести подготовку к диверсионным действиям в стране
+R4	WORKPLACE Arg1:T23 Arg2:T25	
+R5	EVENT_TAKES_PART_IN Arg1:T17 Arg2:T63	
+R6	TAKES_PLACE_IN Arg1:T63 Arg2:T24	
+R7	WORKPLACE Arg1:T26 Arg2:T27	
+R8	HEADQUARTERED_IN Arg1:T28 Arg2:T27	
+T31	GROUP 952 963	задержанных
+T34	NEWS_SOURCE 905 942	17 марта газета Rzeczpospolita писала
+T38	GROUP 1016 1027	задержанные
+R9	ORIGINS_FROM Arg1:T38 Arg2:T40	
+R10	ORIGINS_FROM Arg1:T38 Arg2:T41	
+T49	PERSON 1145 1164	Владислав Посмитюха
+T43	ORGANIZATION 1078 1091	телеканал СТВ
+T46	GROUP 1111 1122	задержанных
+R11	MEMBER Arg1:T49 Arg2:T46	
+R12	MEMBER Arg1:T48 Arg2:T46	
+R13	MEMBER Arg1:T50 Arg2:T46	
+R14	ORIGINS_FROM Arg1:T49 Arg2:T42	
+R15	ORIGINS_FROM Arg1:T48 Arg2:T42	
+R16	ORIGINS_FROM Arg1:T50 Arg2:T42	
+T64	CRIME 1249 1257	шпионажу

@@ -1,0 +1,68 @@
+T0	GPE 0 6	Кремль
+T1	NEWS_SOURCE 7 13	заявил
+T2	PROFESSION 48 59	чиновниками
+T3	PROFESSION 63 82	службе
+
+Сотрудникам
+T4	EVENT 83 102	внутриполитического
+T5	ORGANIZATION 103 133	блока администрации президента
+T6	NEWS_SOURCE 123 133	президента
+T7	ORGANIZATION 135 137	АП
+T8	COUNTRY 139 145	России
+T9	PRODUCT 166 175	смартфоны
+T10	FAC 184 196	операционных
+T11	NEWS_SOURCE 212 219	Android
+T12	PROFESSION 222 231	служебных
+T13	NEWS_SOURCE 222 237	служебных целях
+T14	PROFESSION 246 251	пресс
+T15	PROFESSION 252 272	секретарь президента
+T16	NEWS_SOURCE 239 287	заявил пресс-секретарь президента Дмитрий Песков
+T17	PERSON 273 287	Дмитрий Песков
+T18	NEWS_SOURCE 289 315	передает корреспондент РБК
+T19	ORGANIZATION 312 315	РБК
+T20	DATE 366 377	кремлевских
+T21	PROFESSION 378 388	чиновников
+T22	PRODUCT 414 421	айфонов
+T23	NEWS_SOURCE 568 582	отметил Песков
+T24	PERSON 576 582	Песков
+T25	NEWS_SOURCE 698 731	сказал пресс-секретарь президента
+T26	PROFESSION 705 731	пресс-секретарь президента
+T27	NEWS_SOURCE 733 752	Он также подчеркнул
+T28	EVENT 758 778	служебные переговоры
+T29	PRODUCT 801 811	материалов
+T30	PRODUCT 843 853	смартфонов
+T31	DATE 856 864	20 марта
+T32	ORGANIZATION 866 878	Коммерсантъ»
+T33	GROUP 919 950	сотрудников внутриполитического
+T34	FAC 931 950	внутриполитического
+T35	ORGANIZATION 951 981	блока администрации президента
+T36	DATE 1051 1059	1 апреля
+T37	NEWS_SOURCE 1061 1077	По данным газеты
+T38	NEWS_SOURCE 1100 1111	заместитель
+T39	PROFESSION 1100 1126	заместитель главы аппарата
+T40	PERSON 1127 1142	Сергей Кириенко
+T41	NEWS_SOURCE 1145 1175	Источники издания предположили
+T42	ECONOMIC_SECTOR 1234 1242	шпионажу
+T43	GPE 1260 1266	Запада
+T44	CARDINAL 1268 1272	Один
+T45	NEWS_SOURCE 1276 1286	источников
+T46	PROFESSION 1312 1322	чиновникам
+T47	COUNTRY 1364 1371	Android
+T48	COUNTRY 1373 1382	китайских
+T49	COUNTRY 1396 1406	российской
+T50	EVENT 1408 1414	Авроре
+T51	PROFESSION 1427 1440	президентской
+T52	ORGANIZATION 1441 1454	администрации
+T53	NEWS_SOURCE 1455 1476	источник газеты также
+T54	GROUP 1511 1519	техникой
+T55	ORGANIZATION 1520 1536	корпорации Apple
+T56	PROFESSION 1560 1570	чиновников
+T57	ORGANIZATION 1611 1625	администрациях
+T58	CITY 1701 1704	Mon
+T59	CARDINAL 1706 1708	20
+T60	ORGANIZATION 1709 1712	Mar
+T61	DATE 1713 1717	2023
+T62	PERCENT 1718 1720	12
+T63	CARDINAL 1718 1720	12
+T64	PERCENT 1721 1723	50
+T65	CARDINAL 1724 1728	14 +

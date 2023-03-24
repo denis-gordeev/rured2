@@ -1,0 +1,56 @@
+T0	CITY 2 12	Петербурге
+T1	PRODUCT 36 47	полиэтилена
+T2	PRODUCT 52 64	бронепанелей
+T3	FAC 69 75	заводе
+T4	ORGANIZATION 77 96	НПО Спецматериалов»
+T5	CITY 99 109	Петербурге
+T6	COUNTRY 129 135	России
+T7	ECONOMIC_SECTOR 145 157	производству
+T8	FAC 158 194	сверхвысокомолекулярного полиэтилена
+T9	PRODUCT 183 194	полиэтилена
+T10	NEWS_SOURCE 196 217	сообщила пресс-служба
+T11	ORGANIZATION 211 243	служба законодательного собрания
+T12	NEWS_SOURCE 235 243	собрания
+T13	ECONOMIC_SECTOR 291 303	производства
+T14	PRODUCT 304 316	бронепанелей
+T15	PRODUCT 330 336	шлемов
+T16	PRODUCT 353 363	композитов
+T17	GROUP 440 446	бойцов
+T18	ORGANIZATION 450 464	передовой СВО»
+T19	NEWS_SOURCE 468 475	отметил
+T20	PROFESSION 476 488	председатель
+T21	PERSON 501 510	Александр
+T22	FAC 511 519	Бельский
+T23	EVENT 546 560	открытии линии
+T24	DATE 563 582	На сегодняшний день
+T25	PRODUCT 645 656	полиэтилена
+T26	PRODUCT 729 738	аромидных
+T27	FAC 729 738	аромидных
+T28	PROFESSION 802 822	генеральный директор
+T29	ORGANIZATION 823 843	«НПО Спецматериалов»
+T30	PERSON 844 860	Михаил Сильников
+T31	ORGANIZATION 871 880	телеканал
+T32	NEWS_SOURCE 795 882	заявил генеральный директор «НПО Спецматериалов» Михаил Сильников, передает телеканал «
+T33	ORGANIZATION 882 887	Санкт
+T34	CITY 882 887	Санкт
+T35	NEWS_SOURCE 888 898	Петербург»
+T36	ORGANIZATION 888 898	Петербург»
+T37	DATE 901 919	В середине февраля
+T38	ORGANIZATION 945 948	МВД
+T39	CITY 952 958	Москве
+T40	NEWS_SOURCE 973 978	сайте
+T41	CARDINAL 1013 1016	111
+T42	EVENT 1052 1065	изображениями
+T43	PROFESSION 1066 1075	архангела
+T44	PERSON 1076 1083	Михаила
+T45	PERSON 1085 1104	Георгия Победоносца
+T46	REGION 1107 1116	Казанской
+T47	FAC 1117 1129	иконы Божией
+T48	ORGANIZATION 1130 1136	Матери
+T49	ORGANIZATION 1183 1192	ведомства
+T50	ORGANIZATION 1207 1210	rbc
+T51	CARDINAL 1226 1250	641a4dba9a7947baf0a94fc1
+T52	CARDINAL 1257 1259	22
+T53	ORGANIZATION 1260 1263	Mar
+T54	DATE 1264 1268	2023
+T55	CARDINAL 1275 1279	54 +

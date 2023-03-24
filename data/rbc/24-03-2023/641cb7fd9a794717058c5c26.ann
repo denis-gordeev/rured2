@@ -1,0 +1,84 @@
+T0	COUNTRY 28 31	США
+T2	COUNTRY 64 76	Россией
+
+США
+T3	PROFESSION 101 111	дипломатии
+T4	COUNTRY 114 121	Россией
+T5	COUNTRY 140 151	украинского
+T6	GPE 196 202	Москва
+T7	PROFESSION 231 243	госсекретарь
+T8	COUNTRY 244 247	США
+T10	PERSON 248 262	Энтони Блинкен
+T17	ORGANIZATION 372 387	Госдепартамента
+T18	COUNTRY 435 441	Россия
+T19	NEWS_SOURCE 570 584	сказал Блинкен
+T20	PERSON 577 584	Блинкен
+T23	ORGANIZATION 596 614	The Eastern Herald
+T24	COUNTRY 618 621	США
+T25	COUNTRY 675 685	российской
+T26	COUNTRY 706 717	украинского
+T27	DATE 727 746	В декабре 2022 года
+T28	COUNTRY 747 759	американский
+T29	PROFESSION 760 769	президент
+T30	PERSON 770 780	Джо Байден
+T31	NEWS_SOURCE 770 787	Джо Байден заявил
+T32	COUNTRY 812 822	российским
+T34	PERSON 832 850	Владимиром Путиным
+T35	COUNTRY 931 938	Украине
+T37	GPE 942 948	Москвы
+T38	COUNTRY 1003 1013	украинской
+T40	EVENT 1030 1041	переговоров
+T41	COUNTRY 1044 1047	США
+T43	PROFESSION 1094 1130	заместитель министра иностранных дел
+T44	COUNTRY 1131 1137	России
+T46	PERSON 1138 1151	Сергей Рябков
+T47	DATE 1153 1173	Осенью прошлого года
+T48	PROFESSION 1174 1183	президент
+T49	COUNTRY 1184 1191	Украины
+T50	PERSON 1192 1210	Владимир Зеленский
+T52	COUNTRY 1248 1255	Россией
+T53	PERSON 1277 1282	Путин
+T54	DATE 1284 1306	В январе текущего года
+T57	COUNTRY 1334 1341	Украины
+T58	PERSON 1342 1358	Сергей Никифоров
+T60	GPE 1371 1375	Киев
+T62	ORGANIZATION 1502 1505	ООН
+T63	COUNTRY 1561 1568	Украины
+T69	PERSON 0 7	Блинкен
+T70	COUNTRY 64 71	Россией
+R1	WORKPLACE Arg1:T69 Arg2:T0	
+T1	PROFESSION 35 60	конструктивной дипломатии
+R2	WORKS_AS Arg1:T69 Arg2:T1	
+T71	COUNTRY 73 76	США
+T72	EVENT 152 161	конфликта
+R3	TAKES_PLACE_IN Arg1:T72 Arg2:T5	
+R4	EVENT_TAKES_PART_IN Arg1:T6 Arg2:T72	
+R5	EVENT_TAKES_PART_IN Arg1:T5 Arg2:T72	
+R6	WORKPLACE Arg1:T7 Arg2:T8	
+R7	WORKPLACE Arg1:T10 Arg2:T8	
+T9	ORGANIZATION 313 334	палаты представителей
+T11	ORGANIZATION 281 312	комитете по международным делам
+R8	OWNERSHIP Arg1:T9 Arg2:T11	
+T12	NEWS_SOURCE 336 387	Трансляция велась на YouTube-канале Госдепартамента
+T13	PROFESSION 483 493	дипломатии
+T14	NEWS_SOURCE 586 614	цитата по The Eastern Herald
+T15	EVENT 718 725	кризиса
+R9	TAKES_PLACE_IN Arg1:T15 Arg2:T26	
+R10	EVENT_TAKES_PART_IN Arg1:T25 Arg2:T15	
+R11	WORKS_AS Arg1:T30 Arg2:T29	
+R12	WORKPLACE Arg1:T30 Arg2:T28	
+T16	EVENT 911 927	военных действий
+R13	TAKES_PLACE_IN Arg1:T16 Arg2:T35	
+R14	WORKPLACE Arg1:T34 Arg2:T32	
+T21	GPE 951 961	Вашингтона
+R15	WORKPLACE Arg1:T46 Arg2:T44	
+R16	WORKS_AS Arg1:T46 Arg2:T43	
+T22	NEWS_SOURCE 1080 1151	говорил ранее заместитель министра иностранных дел России Сергей Рябков
+T33	NEWS_SOURCE 1153 1218	Осенью прошлого года президент Украины Владимир Зеленский заявлял
+R17	WORKPLACE Arg1:T53 Arg2:T52	
+T36	PROFESSION 1307 1322	пресс-секретарь
+T39	PROFESSION 1323 1333	президента
+R18	WORKPLACE Arg1:T58 Arg2:T57	
+R19	WORKS_AS Arg1:T58 Arg2:T36	
+T42	NEWS_SOURCE 1284 1365	В январе текущего года пресс-секретарь президента Украины Сергей Никифоров сказал
+T45	NEWS_SOURCE 1676 1686	уточнял он

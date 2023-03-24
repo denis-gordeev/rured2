@@ -1,0 +1,83 @@
+T0	PERSON 0 5	Рогов
+T4	GROUP 75 81	Власти
+T5	COUNTRY 82 89	Украины
+T8	ORGANIZATION 148 161	«РИА Новости»
+T14	PERSON 217 231	Владимир Рогов
+T15	NEWS_SOURCE 233 246	По его словам
+T16	GPE 248 256	западные
+T17	COUNTRY 259 269	украинские
+T18	GROUP 270 273	СМИ
+T19	WEAPON 323 331	снарядов
+T20	COUNTRY 354 361	Украины
+T21	NEWS_SOURCE 416 429	отметил Рогов
+T22	PERSON 424 429	Рогов
+T24	COUNTRY 454 464	украинские
+T25	PROFESSION 465 472	военные
+T27	CITY 496 507	Запорожском
+T29	COUNTRY 605 615	украинских
+T30	ORGANIZATION 616 621	войск
+T31	NEWS_SOURCE 678 694	подчеркнул Рогов
+T32	PERSON 689 694	Рогов
+T33	DATE 696 705	В феврале
+T36	COUNTRY 730 741	украинского
+T37	PROFESSION 742 752	президента
+T38	PERSON 753 765	Игорь Жовква
+T40	COUNTRY 784 791	Украины
+T42	GPE 874 879	Киева
+T43	WEAPON 892 903	боеприпасов
+T44	DATE 906 913	8 марта
+T45	PROFESSION 914 930	министры обороны
+T46	GROUP 931 936	стран
+T47	ORGANIZATION 937 946	Евросоюза
+T48	COUNTRY 969 976	Украине
+T49	WEAPON 977 1002	артиллерийские боеприпасы
+T51	GPE 1028 1039	европейских
+T52	FAC 1040 1047	складах
+T56	PROFESSION 1113 1128	министр обороны
+T57	COUNTRY 1129 1136	Украины
+T58	PERSON 1137 1153	Алексей Резников
+T60	WEAPON 1186 1197	боеприпасов
+T61	ORGANIZATION 1203 1205	ЕС
+T1	ORGANIZATION 27 30	ВСУ
+T2	EVENT 31 73	информационно-психологической спецоперации
+R1	ORGANIZES Arg1:T1 Arg2:T2	
+T3	NEWS_SOURCE 0 12	Рогов заявил
+R2	WORKPLACE Arg1:T4 Arg2:T5	
+T6	EVENT 97 139	информационно-психологическую спецоперацию
+R3	ORGANIZES Arg1:T5 Arg2:T6	
+T7	REGION 197 216	Запорожской области
+T9	ORGANIZATION 183 196	администрации
+T10	PROFESSION 162 182	член главного совета
+R4	WORKPLACE Arg1:T10 Arg2:T9	
+R5	WORKPLACE Arg1:T14 Arg2:T7	
+R6	WORKS_AS Arg1:T14 Arg2:T10	
+T11	NEWS_SOURCE 141 231	заявил «РИА Новости» член главного совета администрации Запорожской области Владимир Рогов
+R7	WORKPLACE Arg1:T18 Arg2:T17	
+T12	NEWS_SOURCE 432 448	Он также отметил
+R8	WORKPLACE Arg1:T25 Arg2:T24	
+R9	USES Arg1:T16 Arg2:T18	
+T13	LOCATION 496 519	Запорожском направлении
+T23	ORGANIZATION 552 557	армия
+T26	EVENT 522 544	проводят разведку боем
+R10	ORGANIZES Arg1:T24 Arg2:T26	
+R11	OWNERSHIP Arg1:T29 Arg2:T30	
+T28	PROFESSION 706 752	заместитель главы офиса украинского президента
+R12	WORKS_AS Arg1:T38 Arg2:T28	
+T34	NEWS_SOURCE 696 772	В феврале заместитель главы офиса украинского президента Игорь Жовква заявил
+T35	ORGANIZATION 778 783	армия
+R13	OWNERSHIP Arg1:T40 Arg2:T35	
+T39	EVENT 792 849	столкнулась с нехваткой снарядов из-за интенсивности боев
+R14	TAKES_PLACE_IN Arg1:T39 Arg2:T40	
+T41	CARDINAL 881 891	почти ноль
+T68	NEWS_SOURCE 851 866	Тогда он заявил
+R15	MEMBER Arg1:T46 Arg2:T47	
+R16	WORKS_AS Arg1:T46 Arg2:T45	
+R17	HEADQUARTERED_IN Arg1:T52 Arg2:T51	
+T50	CURRENCY 1051 1052	€
+T53	QUANTITY 1052 1058	1 млрд
+T54	MONEY 1051 1058	€1 млрд
+T55	ORGANIZATION 1079 1102	Европейского фонда мира
+R18	EXPENDITURE Arg1:T55 Arg2:T54	
+T59	NEWS_SOURCE 1113 1160	министр обороны Украины Алексей Резников заявил
+R19	WORKS_AS Arg1:T58 Arg2:T56	
+R20	WORKPLACE Arg1:T58 Arg2:T57	

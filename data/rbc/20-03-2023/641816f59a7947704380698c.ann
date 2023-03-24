@@ -1,0 +1,91 @@
+T0	PERSON 0 9	Дерипаска
+T1	PERSON 51 63	Марии Певчих
+T2	PROFESSION 65 74	Бизнесмен
+T3	PERSON 75 89	Олег Дерипаска
+T8	COUNTRY 200 206	России
+T13	ORGANIZATION 338 353	Арбитражный суд
+T14	CITY 354 360	Москвы
+T15	DATE 361 368	9 марта
+T16	DATE 370 378	16 марта
+T17	ORGANIZATION 379 382	суд
+T19	DATE 426 432	1 июня
+T21	PERSON 484 493	Дерипаска
+T23	PROFESSION 505 529	Представитель бизнесмена
+T24	NEWS_SOURCE 505 542	Представитель бизнесмена уточнил ТАСС
+T25	ORGANIZATION 538 542	ТАСС
+T26	ORGANIZATION 567 570	суд
+T27	ORGANIZATION 659 662	РБК
+T29	PROFESSION 691 699	адвокату
+T30	PERSON 700 709	Дерипаски
+T31	PERSON 712 724	Марии Певчих
+T32	DATE 727 746	В августе 2022 года
+T33	PERSON 747 756	Дерипаска
+T34	ORGANIZATION 765 768	суд
+T35	PERSON 786 804	Алексея Навального
+T36	PERSON 821 837	Георгия Албурова
+T37	PERSON 840 846	Певчих
+T38	ORGANIZATION 859 878	издания The Insider
+T39	ORGANIZATION 880 886	Минюст
+T41	CRIME 909 919	иноагентов
+T42	ORGANIZATION 921 935	Генпрокуратура
+T46	PERSON 1089 1103	Сергее Лаврове
+T47	PERSON 1140 1149	Навальный
+T49	DATE 1162 1182	в сентябре 2018 года
+T50	PERSON 1226 1233	Лаврова
+T51	GROUP 1240 1245	семьи
+T52	PERSON 1248 1258	Дерипаской
+T53	NEWS_SOURCE 1260 1276	По словам Певчих
+T54	PERSON 1270 1276	Певчих
+T55	PERSON 1278 1287	Дерипаска
+T56	PROFESSION 1306 1312	авторы
+T57	BOROUGH 1365 1379	Зеленоградский
+T58	ORGANIZATION 1380 1383	суд
+T59	CITY 1384 1390	Москвы
+T60	PROFESSION 1408 1418	бизнесмена
+T61	DATE 1419 1434	в конце октября
+T62	PERSON 1445 1454	Дерипаска
+T63	ORGANIZATION 1479 1492	компании Meta
+T64	COUNTRY 1505 1511	России
+T67	PROFESSION 1542 1552	бизнесмену
+T68	PERSON 1553 1567	Олегу Тинькову
+T71	PROFESSION 1624 1634	бизнесмена
+T72	QUANTITY 1647 1653	2 млрд
+T73	CURRENCY 1654 1657	руб
+T81	EVENT 10 48	подал иск о защите чести и достоинства
+R1	ORGANIZES Arg1:T0 Arg2:T81	
+R2	WORKS_AS Arg1:T3 Arg2:T2	
+T82	EVENT 90 128	подал иск о защите чести и достоинства
+T4	PROFESSION 131 157	главе отдела расследований
+T5	ORGANIZATION 158 183	Фонда борьбы с коррупцией
+T6	ORGANIZATION 185 188	ФБК
+R3	ABBREVIATION Arg1:T5 Arg2:T6	
+T7	CRIME 190 265	признан в России иноагентом, а также экстремистской организацией и запрещен
+T9	PERSON 267 279	Марии Певчих
+R4	ORGANIZES Arg1:T3 Arg2:T82	
+R5	WORKS_AS Arg1:T9 Arg2:T4	
+R6	WORKPLACE Arg1:T9 Arg2:T5	
+R7	CONVICTED_OF Arg1:T5 Arg2:T7	
+R8	HEADQUARTERED_IN Arg1:T13 Arg2:T14	
+T10	EVENT 395 412	Заседание по делу
+R9	DATE_TAKES_PLACE_ON Arg1:T10 Arg2:T19	
+R10	DATE_TAKES_PLACE_ON Arg1:T82 Arg2:T15	
+T11	NEWS_SOURCE 659 688	РБК обратился за комментарием
+T12	PROFESSION 772 785	оппозиционера
+R11	WORKS_AS Arg1:T35 Arg2:T12	
+R12	WORKS_AS Arg1:T36 Arg2:T12	
+R13	WORKS_AS Arg1:T37 Arg2:T12	
+T18	GROUP 905 908	СМИ
+T20	ORGANIZATION 978 987	New Lines
+T22	ORGANIZATION 990 1019	Associated Newspapers Limited
+T28	PROFESSION 1064 1088	министре иностранных дел
+R14	WORKS_AS Arg1:T46 Arg2:T28	
+T40	NEWS_SOURCE 1105 1161	Речь идет о расследовании, которое Навальный опубликовал
+T43	EVENT 1391 1407	удовлетворил иск
+R15	HEADQUARTERED_IN Arg1:T58 Arg2:T59	
+R16	OWNERSHIP Arg1:T59 Arg2:T57	
+R17	ORGANIZES Arg1:T58 Arg2:T43	
+R18	DATE_TAKES_PLACE_ON Arg1:T43 Arg2:T61	
+T44	CRIME 1494 1538	признана в России экстремистской и запрещена
+R19	WORKS_AS Arg1:T68 Arg2:T67	
+T45	EVENT 1455 1476	подал аналогичный иск
+R20	TAKES_PLACE_IN Arg1:T45 Arg2:T63	

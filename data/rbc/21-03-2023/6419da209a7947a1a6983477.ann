@@ -1,0 +1,95 @@
+T1	EVENT 18 26	обстреле
+T2	REGION 45 61	Брянской области
+T5	COUNTRY 102 109	Украины
+T6	ORGANIZATION 111 114	ВСУ
+T8	REGION 144 160	Брянской области
+T10	PROFESSION 170 180	губернатор
+T12	PERSON 189 206	Александр Богомаз
+T17	CARDINAL 265 269	пяти
+T20	NEWS_SOURCE 309 322	По его словам
+T22	COUNTRY 389 399	украинские
+T23	WEAPON 400 412	беспилотники
+T32	NEWS_SOURCE 519 540	По словам губернатора
+T33	PROFESSION 529 540	губернатора
+T34	GROUP 542 554	пострадавших
+T37	DATE 654 662	17 марта
+T39	GROUP 663 673	сотрудники
+T40	ORGANIZATION 674 677	ФСБ
+T41	ORGANIZATION 680 690	Росгвардии
+T42	VILLAGE 779 784	Мамай
+T43	VILLAGE 786 794	Тростань
+T44	VILLAGE 796 802	Дружба
+T45	VILLAGE 804 812	Сновское
+T46	VILLAGE 815 823	Дубровка
+T51	DATE 961 969	13 марта
+T52	PERSON 970 977	Богомаз
+T53	COUNTRY 1025 1032	Украины
+T56	GROUP 1076 1088	пострадавших
+T57	DATE 1098 1111	В тот же день
+T58	ORDINAL 1122 1128	второй
+T59	VILLAGE 1149 1165	деревня Грудская
+T64	CARDINAL 1247 1250	два
+T70	PERSON 0 7	Богомаз
+T71	NEWS_SOURCE 0 14	Богомаз заявил
+T72	VILLAGE 27 42	поселка Климово
+T3	ORGANIZATION 69 72	ВСУ
+T73	WEAPON 62 68	дроном
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T72	
+R2	OWNERSHIP Arg1:T2 Arg2:T72	
+R3	ORGANIZES Arg1:T3 Arg2:T1	
+T4	ORGANIZATION 86 109	Вооруженных сил Украины
+R4	ABBREVIATION Arg1:T4 Arg2:T6	
+T74	WEAPON 74 85	Беспилотник
+T7	VILLAGE 126 141	поселок Климово
+R5	OWNERSHIP Arg1:T8 Arg2:T7	
+R6	TAKES_PLACE_IN Arg1:T1 Arg2:T7	
+R7	WORKS_AS Arg1:T12 Arg2:T10	
+T9	NEWS_SOURCE 162 224	сообщил губернатор региона Александр Богомаз в телеграм-канале
+T11	FAC 270 281	жилых домов
+T13	PROFESSION 294 307	глава региона
+T14	NEWS_SOURCE 286 307	написал глава региона
+R8	TAKES_PLACE_IN Arg1:T1 Arg2:T11	
+T15	GROUP 355 373	оперативные службы
+R9	WORKPLACE Arg1:T15 Arg2:T7	
+T16	TIME 375 379	Днем
+T18	DATE 380 388	21 марта
+T21	FAC 463 466	НПС
+T19	FAC 434 480	нефтеперекачивающей станции (НПС) «Новозыбков»
+R10	ABBREVIATION Arg1:T19 Arg2:T21	
+T24	FAC 481 502	трубопровода «Дружба»
+R11	OWNERSHIP Arg1:T24 Arg2:T19	
+T25	PERSON 510 517	Богомаз
+T26	NEWS_SOURCE 504 517	писал Богомаз
+T27	EVENT 413 480	атаковали территорию нефтеперекачивающей станции (НПС) «Новозыбков»
+R12	DATE_TAKES_PLACE_ON Arg1:T27 Arg2:T18	
+T28	WEAPON 568 581	беспилотников
+T29	FAC 602 618	НПС «Новозыбков»
+T30	FAC 705 712	станции
+T31	WEAPON 713 744	самодельное взрывное устройство
+R13	WORKPLACE Arg1:T39 Arg2:T40	
+R14	WORKPLACE Arg1:T39 Arg2:T41	
+T35	EVENT 824 850	отключили электроснабжение
+R15	TAKES_PLACE_IN Arg1:T35 Arg2:T46	
+R16	TAKES_PLACE_IN Arg1:T35 Arg2:T45	
+R17	TAKES_PLACE_IN Arg1:T35 Arg2:T44	
+R18	TAKES_PLACE_IN Arg1:T35 Arg2:T43	
+R19	TAKES_PLACE_IN Arg1:T35 Arg2:T42	
+T36	REGION 852 868	Брянская область
+T38	COUNTRY 898 906	Украиной
+T47	COUNTRY 907 917	российские
+T48	EVENT 927 959	регулярно подвергается обстрелам
+R20	TAKES_PLACE_IN Arg1:T48 Arg2:T36	
+R21	OWNERSHIP Arg1:T47 Arg2:T36	
+T49	NEWS_SOURCE 961 985	13 марта Богомаз говорил
+T50	VILLAGE 1040 1055	деревня Раковка
+T54	BOROUGH 1056 1074	Климовского района
+R22	TAKES_PLACE_IN Arg1:T48 Arg2:T50	
+T55	VILLAGE 1168 1182	село Некислица
+T60	BOROUGH 1185 1199	Севском районе
+R23	OWNERSHIP Arg1:T60 Arg2:T55	
+R24	OWNERSHIP Arg1:T60 Arg2:T59	
+T61	FAC 1251 1261	жилых дома
+T62	PROFESSION 1211 1224	главы региона
+T63	NEWS_SOURCE 1201 1224	По словам главы региона
+T65	EVENT 1226 1261	повреждения получили два жилых дома
+R25	DATE_TAKES_PLACE_ON Arg1:T65 Arg2:T51	

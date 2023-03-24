@@ -1,0 +1,65 @@
+T0	PERSON 0 5	Рогов
+T1	NEWS_SOURCE 6 13	сообщил
+T2	ECONOMIC_SECTOR 31 38	прорыва
+T3	NEWS_SOURCE 41 48	Орехова
+T4	PERSON 41 48	Орехова
+T5	CITY 51 62	Запорожской
+T6	REGION 63 70	области
+T7	COUNTRY 72 82	Украинские
+T8	PROFESSION 83 90	военные
+T9	PERSON 127 134	Орехова
+T10	LOCATION 137 148	Запорожской
+T11	REGION 149 156	области
+T12	ORGANIZATION 175 187	РИА Новости»
+T13	PROFESSION 188 201	член главного
+T14	NEWS_SOURCE 161 222	этом сообщил «РИА Новости» член главного совета администрации
+T15	ORGANIZATION 202 230	совета администрации региона
+T16	NEWS_SOURCE 231 245	Владимир Рогов
+T17	PERSON 231 245	Владимир Рогов
+T18	NEWS_SOURCE 247 260	По его словам
+T19	ORGANIZATION 262 265	ВСУ
+T20	NEWS_SOURCE 278 285	Орехову
+T21	PERSON 278 285	Орехову
+T22	PRODUCT 311 323	бронетехнику
+T23	NEWS_SOURCE 446 458	заявил Рогов
+T24	PERSON 453 458	Рогов
+T25	DATE 500 515	в ближайшие дни
+T26	DATE 520 532	начале марта
+T27	PERSON 533 538	Рогов
+T28	COUNTRY 557 564	Украина
+T29	COUNTRY 627 637	российским
+T30	REGION 652 671	Запорожской области
+T31	COUNTRY 690 700	украинская
+T32	REGION 725 749	Днепропетровской области
+T33	GPE 803 808	Киеву
+T34	REGION 815 834	Запорожской области
+T35	NEWS_SOURCE 848 864	По мнению Рогова
+T36	PERSON 858 864	Рогова
+T37	LOCATION 903 917	Азовского моря
+T38	NEWS_SOURCE 933 958	главы Запорожской области
+T39	PROFESSION 928 958	врио главы Запорожской области
+T40	CITY 967 975	Балицкий
+T41	PERSON 959 975	Евгений Балицкий
+T42	NEWS_SOURCE 967 982	Балицкий заявил
+T43	GPE 1034 1038	Киев
+T44	CARDINAL 1046 1058	около 40 тыс
+T45	PROFESSION 1060 1067	военных
+T46	DATE 1069 1085	В середине марта
+T47	ORGANIZATION 1086 1094	Politico
+T48	COUNTRY 1131 1134	США
+T49	GPE 1154 1159	Киева
+T50	DATE 1185 1188	маю
+T51	NEWS_SOURCE 1190 1199	По словам
+T52	CARDINAL 1200 1206	одного
+T53	COUNTRY 1210 1222	американских
+T54	NEWS_SOURCE 1223 1233	чиновников
+T55	PROFESSION 1223 1233	чиновников
+T56	COUNTRY 1242 1254	американской
+T57	COUNTRY 1262 1269	Украине
+T58	DATE 1271 1273	за
+T59	CARDINAL 1274 1283	последние
+T60	DATE 1284 1290	четыре
+T61	DATE 1295 1307	пять месяцев
+T62	COUNTRY 1341 1348	Украине
+T63	CARDINAL 1441 1443	24
+T64	CITY 1444 1447	Mar

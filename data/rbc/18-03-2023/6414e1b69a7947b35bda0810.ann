@@ -1,0 +1,73 @@
+T1	WORK_OF_ART 12 22	Джона Уика
+T3	WORK_OF_ART 27 36	Прослушки
+T4	PERSON 38 49	Лэнс Реддик
+T5	COUNTRY 51 63	Американский
+T6	PROFESSION 64 69	актер
+T7	PERSON 70 81	Лэнс Реддик
+T8	WORK_OF_ART 110 117	фильмов
+T9	CHARACTER 120 130	Джоне Уике
+T14	PROFESSION 191 204	представитель
+T15	PERSON 205 215	Миа Хансен
+T17	NEWS_SOURCE 217 229	передает CNN
+T18	ORGANIZATION 226 229	CNN
+T19	NEWS_SOURCE 231 243	По ее словам
+T20	NEWS_SOURCE 295 302	Издание
+T21	ORGANIZATION 303 306	TMZ
+T22	ORGANIZATION 333 359	правоохранительных органах
+T25	PROFESSION 377 383	актера
+T26	FAC 401 405	доме
+T31	ORGANIZATION 454 461	издания
+T33	EVENT 512 518	смерти
+T34	PERSON 555 566	Лэнс Реддик
+T35	DATE 575 595	31 декабря 1962 года
+T36	CITY 598 607	Балтиморе
+T37	REGION 614 622	Мэриленд
+T41	CITY 780 788	Йельскую
+T42	ORGANIZATION 789 800	школу драмы
+T44	DATE 845 856	в 1994 году
+T45	PERSON 858 864	Реддик
+T50	CHARACTER 947 953	Харона
+T52	CHARACTER 972 982	Джоне Уике
+T53	ORDINAL 990 1000	четвертого
+T55	DATE 1033 1041	23 марта
+T59	COUNTRY 1153 1165	Американская
+T2	PROFESSION 5 10	актер
+R1	WORKS_AS Arg1:T4 Arg2:T2	
+R2	WORKPLACE Arg1:T6 Arg2:T5	
+R3	WORKPLACE Arg1:T7 Arg2:T5	
+T10	WORK_OF_ART 133 152	сериале «Прослушка»
+T11	AGE 170 176	60 лет
+R4	AGE_DIED_AT Arg1:T7 Arg2:T11	
+R5	WORKS_AS Arg1:T15 Arg2:T14	
+T12	EVENT 245 293	он скончался внезапно «по естественным причинам»
+R6	EVENT_TAKES_PART_IN Arg1:T7 Arg2:T12	
+R7	DATE_OF_BIRTH Arg1:T34 Arg2:T35	
+R8	BORN_IN Arg1:T34 Arg2:T36	
+R9	BORN_IN Arg1:T34 Arg2:T37	
+T13	CITY 415 428	Лос-Анджелеса
+T16	BOROUGH 429 440	Студио-сити
+R10	HEADQUARTERED_IN Arg1:T26 Arg2:T13	
+T23	NEWS_SOURCE 295 366	Издание TMZ со ссылкой на источники в правоохранительных органах писало
+T24	GROUP 442 453	Собеседники
+R11	TAKES_PLACE_IN Arg1:T33 Arg2:T26	
+R12	TAKES_PLACE_IN Arg1:T33 Arg2:T13	
+T27	ORGANIZATION 672 697	музыкальной школе Истмана
+T28	ORGANIZATION 702 724	Университете Рочестера
+R13	OWNERSHIP Arg1:T28 Arg2:T27	
+T29	PROFESSION 742 758	бакалавра музыки
+T30	DATE 760 771	В 1994 году
+R14	HEADQUARTERED_IN Arg1:T42 Arg2:T41	
+T32	EVENT 803 844	получил степень магистра изящных искусств
+R15	DATE_TAKES_PLACE_ON Arg1:T32 Arg2:T30	
+T38	PROFESSION 883 893	лейтенанта
+T39	CHARACTER 894 910	Седрика Дэниэлса
+T40	WORK_OF_ART 913 944	детективном сериале «Прослушка»
+T43	WORK_OF_ART 956 969	серии фильмов
+T46	WORK_OF_ART 1001 1007	фильма
+T47	WORK_OF_ART 1058 1082	фильме «Большие надежды»
+T48	PERSON 1083 1099	Альфонсо Куарона
+T49	WORK_OF_ART 1101 1121	сериалах «Тюрьма Оз»
+T51	WORK_OF_ART 1123 1141	«Остаться в живых»
+T54	WORK_OF_ART 1143 1150	«Грань»
+T56	WORK_OF_ART 1152 1181	«Американская история ужасов»
+T57	WORK_OF_ART 1184 1197	«Обитель зла»

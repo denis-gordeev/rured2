@@ -1,0 +1,93 @@
+T0	ORGANIZATION 0 2	СК
+T1	CARDINAL 34 50	четвероклассника
+T3	BOROUGH 74 83	Троицкому
+T4	BOROUGH 86 101	Новомосковскому
+T11	CITY 257 263	Москве
+T12	PROFESSION 265 276	Следователи
+T14	GROUP 381 390	очевидцев
+T15	ORGANIZATION 395 397	СК
+T21	CRIME 496 509	изнасилования
+T23	ORDINAL 522 532	четвертого
+T33	GROUP 670 678	родители
+T36	ORGANIZATION 754 760	РЕН ТВ
+T39	NEWS_SOURCE 842 878	Как утверждает собеседник телеканала
+T42	CARDINAL 919 923	один
+T43	GROUP 927 935	учеников
+T50	CITY 1041 1047	Москвы
+T52	ORGANIZATION 1056 1059	РБК
+T53	ORGANIZATION 1065 1070	школа
+T54	GROUP 1099 1108	родителей
+T55	GROUP 1125 1128	СМИ
+T56	CARDINAL 1144 1149	двумя
+T57	GROUP 1150 1159	учениками
+T58	CARDINAL 1179 1185	одного
+T59	GROUP 1189 1194	детей
+T60	DATE 1223 1239	с 18 по 19 марта
+T61	DATE 1249 1263	в выходные дни
+T63	DATE 1302 1310	20 марта
+T66	DATE 1394 1407	В тот же день
+T67	EVENT 1425 1432	встречу
+T68	ORGANIZATION 1435 1440	школу
+T69	NEWS_SOURCE 1445 1468	сообщили в пресс-службе
+T70	ORGANIZATION 1456 1468	пресс-службе
+T71	PROFESSION 1482 1490	психолог
+T77	GROUP 1594 1604	родителями
+T78	GROUP 1606 1615	Родителям
+T79	CARDINAL 1860 1889	641c51c09a79477b94c23ae2
+
+Thu
+T86	CRIME 24 50	растления четвероклассника
+T2	ORGANIZATION 52 126	Следственный отдел по Троицкому и Новомосковскому административным округам
+T5	CRIME 163 207	нарушения половой неприкосновенности ребенка
+T6	ORGANIZATION 231 253	Следственного комитета
+R1	ABBREVIATION Arg1:T6 Arg2:T0	
+T7	ORGANIZATION 220 230	управлении
+R2	OWNERSHIP Arg1:T6 Arg2:T7	
+R3	HEADQUARTERED_IN Arg1:T6 Arg2:T11	
+R4	TAKES_PLACE_IN Arg1:T5 Arg2:T11	
+T8	ORGANIZATION 355 373	учебного заведения
+T9	GROUP 333 354	педагогический состав
+R5	WORKPLACE Arg1:T9 Arg2:T8	
+T10	ORGANIZATION 419 445	образовательном учреждении
+T13	ORGANIZATION 472 476	Mash
+T16	NEWS_SOURCE 457 482	Телеграм-канал Mash пишет
+T17	CITY 574 586	Новой Москве
+T18	ORGANIZATION 540 571	школы № 1392 им. Д.В. Рябинкина
+R6	TAKES_PLACE_IN Arg1:T21 Arg2:T18	
+R7	TAKES_PLACE_IN Arg1:T21 Arg2:T17	
+T19	NEWS_SOURCE 588 613	По данным телеграм-канала
+T20	ORGANIZATION 629 639	учреждения
+T22	GROUP 615 628	администрация
+R8	WORKPLACE Arg1:T22 Arg2:T20	
+T24	CRIME 717 731	изнасилованием
+R9	TAKES_PLACE_IN Arg1:T24 Arg2:T20	
+T25	NEWS_SOURCE 754 792	РЕН ТВ со ссылкой на источник сообщает
+T26	CRIME 798 840	четвероклассника изнасиловал его сверстник
+R10	TAKES_PLACE_IN Arg1:T26 Arg2:T20	
+T27	PROFESSION 880 905	классная руководительница
+T28	NEWS_SOURCE 880 913	классная руководительница заявила
+T29	CRIME 936 983	заставил одноклассника заняться оральным сексом
+R11	ORGANIZES Arg1:T43 Arg2:T29	
+T30	ORGANIZATION 1001 1047	департамента образования и науки города Москвы
+T31	ORGANIZATION 986 1000	В пресс-службе
+R12	OWNERSHIP Arg1:T30 Arg2:T31	
+T32	NEWS_SOURCE 986 1059	В пресс-службе департамента образования и науки города Москвы заявили РБК
+T34	PROFESSION 1265 1286	Классный руководитель
+T35	GROUP 1352 1370	родителям учеников
+T37	ORGANIZATION 1387 1392	школы
+T38	GROUP 1373 1386	администрации
+R13	WORKPLACE Arg1:T38 Arg2:T37	
+R14	TAKES_PLACE_IN Arg1:T67 Arg2:T68	
+R15	DATE_TAKES_PLACE_ON Arg1:T67 Arg2:T63	
+T40	PROFESSION 1493 1511	социальный педагог
+T41	GROUP 1529 1547	четвероклассниками
+T44	EVENT 1512 1526	провели беседу
+T45	ORGANIZATION 1800 1826	правоохранительным органам
+T46	ORGANIZATION 1738 1743	школе
+T47	NEWS_SOURCE 1736 1761	В школе также подчеркнули
+T48	PROFESSION 1725 1734	психолога
+T49	GROUP 1551 1564	администрация
+T51	ORGANIZATION 1565 1570	школы
+R16	ORGANIZES Arg1:T49 Arg2:T44	
+R17	WORKPLACE Arg1:T71 Arg2:T51	
+R18	WORKPLACE Arg1:T40 Arg2:T51	
