@@ -1,0 +1,57 @@
+T0	CITY 2 13	Севастополе
+T2	WEAPON 54 67	беспилотников
+T4	FAC 78 97	морского транспорта
+T6	DATE 111 122	понедельник
+T7	TIME 123 128	утром
+T8	CITY 131 142	Севастополе
+T15	FAC 237 267	Морской пассажирский транспорт
+T19	NEWS_SOURCE 396 415	сказано в сообщении
+T20	FAC 499 517	наземный транспорт
+T22	DATE 536 545	24 апреля
+T23	LOCATION 546 551	бухта
+T24	CITY 552 563	Севастополя
+T30	PERSON 628 644	Михаил Развожаев
+T31	NEWS_SOURCE 646 659	По его словам
+T35	CARDINAL 715 719	один
+T36	COUNTRY 736 746	российские
+T37	PROFESSION 747 754	военные
+T39	ORDINAL 758 764	второй
+T42	DATE 859 882	С октября прошлого года
+T43	REGION 885 890	Крыму
+T44	CITY 893 904	Севастополе
+T54	CITY 1207 1218	Севастополе
+T55	CARDINAL 1252 1281	6445f3e09a7947ac8fc461f7
+
+Mon
+T1	EVENT 14 41	остановили морское движение
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T0	
+R2	TAKES_PLACE_IN Arg1:T1 Arg2:T8	
+R3	DATE_TAKES_PLACE_ON Arg1:T1 Arg2:T6	
+T3	ORGANIZATION 171 227	дирекции по развитию дорожно-транспортной инфраструктуры
+R4	HEADQUARTERED_IN Arg1:T3 Arg2:T8	
+T5	NEWS_SOURCE 144 234	сообщили в телеграм-канале дирекции по развитию дорожно-транспортной инфраструктуры города
+T9	FAC 323 356	морского пассажирского транспорта
+T10	TIME 526 532	в ночь
+T11	WEAPON 582 605	надводных беспилотников
+T12	EVENT 564 581	подверглась атаке
+R5	TAKES_PLACE_IN Arg1:T12 Arg2:T24	
+R6	DATE_TAKES_PLACE_ON Arg1:T12 Arg2:T22	
+R7	OWNERSHIP Arg1:T24 Arg2:T23	
+T13	PROFESSION 615 627	глава города
+R8	WORKS_AS Arg1:T30 Arg2:T13	
+R9	WORKPLACE Arg1:T30 Arg2:T24	
+T14	NEWS_SOURCE 607 644	сообщал глава города Михаил Развожаев
+T16	TIME 692 702	в 3:30 мск
+T17	WEAPON 720 724	дрон
+R10	WORKPLACE Arg1:T37 Arg2:T36	
+T18	FAC 821 828	объекты
+T21	NEWS_SOURCE 847 857	добавил он
+T25	EVENT 915 943	средний уровень реагирования
+R11	TAKES_PLACE_IN Arg1:T25 Arg2:T44	
+R12	TAKES_PLACE_IN Arg1:T25 Arg2:T43	
+R13	DATE_TAKES_PLACE_ON Arg1:T25 Arg2:T42	
+T26	DATE 1161 1170	В феврале
+T27	EVENT 1171 1185	желтый уровень
+R14	TAKES_PLACE_IN Arg1:T27 Arg2:T54	
+R15	DATE_FOUNDED_IN Arg1:T54 Arg2:T26	
+T28	PROFESSION 958 974	главам субъектов

@@ -1,0 +1,55 @@
+T0	COUNTRY 0 10	Российские
+T1	PROFESSION 11 18	военные
+T2	CARDINAL 30 33	две
+T4	COUNTRY 57 60	США
+T5	ORGANIZATION 62 78	Вооруженные силы
+T6	COUNTRY 79 85	России
+T7	COUNTRY 97 109	американские
+T9	PROFESSION 177 186	начальник
+T16	PERSON 223 233	Иван Бигма
+T18	ORGANIZATION 256 266	Минобороны
+T20	ORGANIZATION 269 277	Telegram
+T21	NEWS_SOURCE 279 292	По его словам
+T22	CITY 297 307	Авдеевском
+T23	COUNTRY 349 359	украинские
+T30	COUNTRY 431 434	США
+T31	CARDINAL 450 453	152
+T37	WEAPON 498 512	Новобахмутовка
+T41	ORGANIZATION 584 587	ВСУ
+T42	NEWS_SOURCE 590 603	добавил Бигма
+T43	DATE 605 612	3 марта
+T44	COUNTRY 613 616	США
+T45	COUNTRY 648 655	Украине
+T48	PERSON 702 716	Дмитрий Песков
+T49	NEWS_SOURCE 681 724	секретарь президента Дмитрий Песков говорил
+T51	GPE 748 753	Киева
+T52	COUNTRY 765 768	США
+T53	COUNTRY 822 829	Украины
+R1	WORKPLACE Arg1:T1 Arg2:T0	
+T3	WEAPON 34 53	контрбатарейные РЛС
+R2	HEADQUARTERED_IN Arg1:T5 Arg2:T6	
+T8	WEAPON 110 157	радиолокационные станции контрбатарейной борьбы
+T11	ORGANIZATION 200 222	группировки войск «Юг»
+T10	ORGANIZATION 187 199	пресс-центра
+R3	OWNERSHIP Arg1:T11 Arg2:T10	
+R4	WORKPLACE Arg1:T9 Arg2:T10	
+R5	WORKPLACE Arg1:T16 Arg2:T10	
+T12	NEWS_SOURCE 167 277	рассказал начальник пресс-центра группировки войск «Юг» Иван Бигма, следует из сообщения Минобороны в Telegram
+T13	LOCATION 294 319	на Авдеевском направлении
+T14	PROFESSION 320 332	артиллеристы
+T15	CARDINAL 345 348	две
+T17	WEAPON 360 417	радиолокационные станции контрбатарейной борьбы AN/TPQ-50
+T19	WEAPON 450 483	152-миллиметровых гаубиц «Мста-Б»
+T24	GROUP 573 583	с расчетом
+R6	WORKPLACE Arg1:T24 Arg2:T41	
+T25	PERSON 598 603	Бигма
+T26	WEAPON 547 572	120-миллиметровый миномет
+T27	CARDINAL 547 551	120-
+T28	CURRENCY 659 660	$
+T29	QUANTITY 660 668	400 млн.
+T32	MONEY 659 668	$400 млн.
+R7	EXPENDITURE Arg1:T44 Arg2:T32	
+T33	ORGANIZATION 675 701	пресс-секретарь президента
+R8	WORKPLACE Arg1:T48 Arg2:T33	
+T34	EVENT 777 785	конфликт
+R9	TAKES_PLACE_IN Arg1:T34 Arg2:T53	

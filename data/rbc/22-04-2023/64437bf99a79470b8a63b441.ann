@@ -1,0 +1,52 @@
+T0	FAC 37 47	транспорта
+T1	FAC 53 59	светом
+T2	CARDINAL 62 64	11
+T3	PROFESSION 75 81	Ученые
+T6	ORGANIZATION 190 193	МЧС
+T7	COUNTRY 194 200	России
+T8	FAC 234 244	транспорта
+T9	CARDINAL 267 269	11
+T11	NEWS_SOURCE 324 353	сообщается на сайте ВНИИ ГОЧС
+T12	NEWS_SOURCE 355 371	По данным ученых
+T13	DATE 373 387	на этой неделе
+T14	DATE 389 406	с 17 по 23 апреля
+T18	FAC 578 601	транспортного сообщения
+T21	REGION 653 668	Камчатском крае
+T22	REGION 670 689	Магаданской области
+T25	REGION 721 737	Республике Алтай
+T27	DATE 776 785	17 апреля
+T28	REGION 807 817	Мурманскую
+T30	REGION 819 840	Архангельскую области
+T31	REGION 842 857	Республику Коми
+T32	REGION 859 884	Ненецкий автономный округ
+T33	REGION 886 904	Краснодарский край
+T34	REGION 906 912	Адыгею
+T35	REGION 915 919	Крым
+T44	PROFESSION 0 6	Ученые
+T45	EVENT 7 36	спрогнозировали сбои в работе
+R1	TAKES_PLACE_IN Arg1:T45 Arg2:T0	
+R2	TAKES_PLACE_IN Arg1:T45 Arg2:T1	
+T4	ORGANIZATION 82 189	Всероссийского научно-исследовательского института по проблемам гражданской обороны и чрезвычайных ситуаций
+R3	WORKPLACE Arg1:T3 Arg2:T4	
+R4	HEADQUARTERED_IN Arg1:T6 Arg2:T7	
+T5	FAC 249 264	энергоснабжении
+T10	ORGANIZATION 344 353	ВНИИ ГОЧС
+T46	PROFESSION 365 371	ученых
+T15	CARDINAL 431 436	до 30
+T16	CARDINAL 455 460	до 40
+T17	FAC 615 630	энергоснабжения
+T19	EVENT 504 551	сбои в работе систем жизнеобеспечения населения
+R5	TAKES_PLACE_IN Arg1:T19 Arg2:T21	
+R6	TAKES_PLACE_IN Arg1:T19 Arg2:T22	
+T20	REGION 691 718	Чукотском автономном округе
+R7	TAKES_PLACE_IN Arg1:T19 Arg2:T20	
+R8	TAKES_PLACE_IN Arg1:T19 Arg2:T25	
+R9	DATE_TAKES_PLACE_ON Arg1:T19 Arg2:T27	
+T23	EVENT 787 800	Сбои затронут
+R10	TAKES_PLACE_IN Arg1:T23 Arg2:T28	
+R11	TAKES_PLACE_IN Arg1:T23 Arg2:T30	
+R12	TAKES_PLACE_IN Arg1:T23 Arg2:T31	
+R13	TAKES_PLACE_IN Arg1:T23 Arg2:T32	
+R14	TAKES_PLACE_IN Arg1:T23 Arg2:T33	
+R15	TAKES_PLACE_IN Arg1:T23 Arg2:T34	
+R16	TAKES_PLACE_IN Arg1:T23 Arg2:T35	

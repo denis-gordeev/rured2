@@ -1,0 +1,75 @@
+T0	ORGANIZATION 2 5	ВСУ
+T2	ORGANIZATION 29 32	ВКС
+T3	COUNTRY 33 39	России
+T4	WEAPON 40 49	самолетов
+T6	COUNTRY 50 57	Украины
+T7	FAC 67 75	ПВО
+
+ВКС
+T8	COUNTRY 76 82	России
+T9	WEAPON 153 156	ПВО
+T10	COUNTRY 157 164	Украины
+T14	ORGANIZATION 215 238	Вооруженных сил Украины
+T15	ORGANIZATION 240 243	ВСУ
+T16	PROFESSION 245 252	генерал
+T21	WEAPON 353 360	авиации
+T30	WEAPON 479 498	бортовое вооружение
+T33	COUNTRY 528 538	украинские
+T34	WEAPON 539 551	перехватчики
+T39	NEWS_SOURCE 619 641	Генерал выразил мнение
+T42	WEAPON 688 697	самолетов
+T43	COUNTRY 727 734	Украины
+T44	COUNTRY 737 744	Украина
+T46	CARDINAL 793 802	Несколько
+T51	GPE 823 828	Киеву
+T52	GPE 842 849	Варшава
+T53	ORGANIZATION 860 863	МИД
+T54	COUNTRY 864 870	Польши
+T55	GPE 901 906	Киеву
+T56	WEAPON 918 927	самолетов
+T60	COUNTRY 989 996	Украина
+T61	COUNTRY 1009 1017	Словакии
+T63	COUNTRY 1032 1038	России
+T64	ORGANIZATION 1043 1046	ООН
+T66	PERSON 1047 1064	Дмитрий Полянский
+T68	WEAPON 1092 1109	военных самолетов
+T69	GPE 1110 1115	Киеву
+T70	ORGANIZATION 1125 1129	НАТО
+T71	COUNTRY 1196 1203	Украине
+T80	WEAPON 67 70	ПВО
+T1	NEWS_SOURCE 0 13	В ВСУ заявили
+T5	ORGANIZATION 72 75	ВКС
+R1	OWNERSHIP Arg1:T3 Arg2:T2	
+R2	OWNERSHIP Arg1:T8 Arg2:T5	
+T81	WEAPON 93 122	управляемые авиационные бомбы
+R3	ABBREVIATION Arg1:T14 Arg2:T15	
+T11	PROFESSION 182 214	командующий Объединенными силами
+R4	WORKPLACE Arg1:T11 Arg2:T14	
+T12	PERSON 253 264	Сергей Наев
+T13	ORGANIZATION 276 287	«Укринформ»
+R5	WORKS_AS Arg1:T12 Arg2:T16	
+R6	WORKPLACE Arg1:T12 Arg2:T14	
+T17	NEWS_SOURCE 174 287	сообщил командующий Объединенными силами Вооруженных сил Украины (ВСУ) генерал Сергей Наев в интервью «Укринформ»
+T18	WEAPON 586 617	ракеты класса «воздух — воздух»
+T19	NEWS_SOURCE 365 374	сказал он
+T20	PERSON 376 380	Наев
+T22	NEWS_SOURCE 376 394	Наев также отметил
+T23	WEAPON 410 434	бомбардировочной авиации
+T24	WEAPON 446 476	истребители типа Су-30 и Су-35
+T25	PROFESSION 619 626	Генерал
+T26	GROUP 660 675	стран-партнеров
+T27	GPE 752 760	западные
+T28	GROUP 761 767	страны
+R7	MEMBER Arg1:T28 Arg2:T27	
+T29	WEAPON 780 791	истребители
+T31	WEAPON 803 822	истребителей МиГ-29
+R8	HEADQUARTERED_IN Arg1:T53 Arg2:T54	
+T32	NEWS_SOURCE 858 879	в МИД Польши отмечали
+T35	WEAPON 982 988	МиГ-29
+T36	PROFESSION 1019 1046	Зампостпреда России при ООН
+R9	WORKS_AS Arg1:T66 Arg2:T36	
+T37	NEWS_SOURCE 1019 1077	Зампостпреда России при ООН Дмитрий Полянский ранее заявил
+T38	GROUP 1116 1124	странами
+R10	MEMBER Arg1:T38 Arg2:T70	
+T40	EVENT 1184 1192	конфликт
+R11	TAKES_PLACE_IN Arg1:T40 Arg2:T71	

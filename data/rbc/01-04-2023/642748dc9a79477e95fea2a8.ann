@@ -1,0 +1,92 @@
+T0	PERSON 0 6	Мацуев
+T1	PROFESSION 49 64	Народный артист
+T2	COUNTRY 65 71	России
+T3	PROFESSION 73 80	пианист
+T4	PERSON 81 93	Денис Мацуев
+T5	DISEASE 104 117	коронавирусом
+T9	ORGANIZATION 195 199	ТАСС
+T11	PROFESSION 214 222	музыкант
+T16	DATE 305 311	сейчас
+T17	CARDINAL 377 381	трех
+T18	EVENT 382 391	концертов
+T20	NEWS_SOURCE 396 409	сказал Мацуев
+T21	PERSON 403 409	Мацуев
+T22	DATE 424 432	30 марта
+T23	DATE 472 480	31 марта
+T25	CARDINAL 611 614	150
+T26	PERSON 630 648	Сергея Рахманинова
+T27	PERSON 660 667	Мацуева
+T31	CITY 709 719	Московской
+T32	FAC 720 730	филармонии
+T33	PROFESSION 753 762	музыканта
+T36	NEWS_SOURCE 793 832	сообщается в телеграм-канале филармонии
+T37	ORDINAL 837 843	первом
+T38	ORDINAL 864 870	второй
+T40	PERSON 879 890	Рахманинова
+T41	ORDINAL 913 919	первой
+T45	ORDINAL 976 982	втором
+T47	NEWS_SOURCE 1035 1060	Дирижер — Валерий Гергиев
+T48	PERSON 1045 1060	Валерий Гергиев
+T49	NEWS_SOURCE 1065 1086	говорится в сообщении
+T50	PERSON 1107 1114	Мацуева
+T51	DATE 1146 1154	1 апреля
+T52	EVENT 1188 1196	концерты
+T55	DATE 1244 1260	В начале февраля
+T57	PERSON 1296 1303	Мацуева
+T58	COUNTRY 1306 1312	Италии
+T59	EVENT 1318 1329	выступления
+T60	CITY 1364 1374	Pianistico
+T61	CITY 1394 1401	Бергамо
+T63	NEWS_SOURCE 1429 1460	Организаторы фестиваля пояснили
+T64	PROFESSION 1498 1503	мэров
+T65	PROFESSION 1541 1546	посол
+T66	COUNTRY 1547 1554	Украины
+T68	COUNTRY 1557 1563	Италии
+T69	PERSON 1564 1579	Ярослав Мельник
+T75	DISEASE 15 28	коронавирусом
+T76	EVENT 31 47	перенес концерты
+R1	ORGANIZES Arg1:T0 Arg2:T76	
+T7	FAC 175 185	филармонии
+T8	CITY 164 174	Московской
+T6	EVENT 143 161	перенести концерты
+R2	HEADQUARTERED_IN Arg1:T7 Arg2:T8	
+R3	TAKES_PLACE_IN Arg1:T6 Arg2:T8	
+R4	WORKS_AS Arg1:T4 Arg2:T1	
+R5	WORKS_AS Arg1:T4 Arg2:T3	
+R6	WORKPLACE Arg1:T4 Arg2:T2	
+T10	NEWS_SOURCE 187 222	Об этом ТАСС рассказал сам музыкант
+T12	DATE 255 269	юбилейные даты
+T13	PERSON 270 300	Сергея Васильевича Рахманинова
+T14	FAC 312 325	с филармонией
+T15	DISEASE 446 467	неважное самочувствие
+T19	EVENT 506 531	запланированных концертах
+T24	NEWS_SOURCE 497 543	Говоря о запланированных концертах, он уточнил
+T77	DATE 611 629	150-летнего юбилея
+T78	EVENT 592 600	Концерты
+R7	ORGANIZES Arg1:T27 Arg2:T78	
+T28	DATE 691 706	1, 2 и 3 апреля
+R8	DATE_TAKES_PLACE_ON Arg1:T78 Arg2:T28	
+R9	TAKES_PLACE_IN Arg1:T78 Arg2:T31	
+T29	WORK_OF_ART 1012 1033	«Симфонические танцы»
+T34	EVENT 763 791	программу концертов изменили
+T35	FAC 822 832	филармонии
+T46	EVENT 835 863	В первом отделении прозвучит
+T39	WORK_OF_ART 864 890	второй концерт Рахманинова
+T42	PERSON 956 971	Ивана Бессонова
+T43	PERSON 944 955	Рахманинова
+T44	EVENT 927 955	I Конкурса имени Рахманинова
+T70	AWARD 904 926	лауреата первой премии
+T30	EVENT 973 1011	Во втором отделении концерта прозвучат
+T79	EVENT 1088 1114	Концерт с участием Мацуева
+T53	DATE 1197 1209	2 и 3 апреля
+T54	EVENT 1279 1295	отмене концертов
+R10	TAKES_PLACE_IN Arg1:T54 Arg2:T58	
+T56	EVENT 1339 1374	международного фестиваля Pianistico
+R11	SUBEVENT_OF Arg1:T56 Arg2:T59	
+T80	CITY 1385 1391	Брешиа
+T62	DATE 1421 1427	на май
+T81	EVENT 1442 1451	фестиваля
+T82	PROFESSION 1429 1441	Организаторы
+T83	EVENT 1466 1503	отменили концерты по инициативе мэров
+R12	WORKPLACE Arg1:T69 Arg2:T66	
+R13	WORKS_AS Arg1:T69 Arg2:T65	

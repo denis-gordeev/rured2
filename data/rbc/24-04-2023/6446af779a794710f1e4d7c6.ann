@@ -1,0 +1,41 @@
+T0	PROFESSION 0 31	Советником Кадырова по силовому
+T1	ORGANIZATION 23 31	силовому
+T2	PROFESSION 47 67	племянник
+
+Племянник
+T3	PERSON 68 91	Рамзана Кадырова Хамзат
+T4	PROFESSION 92 99	Кадыров
+T5	PROFESSION 122 147	советника-помощника главы
+T6	REGION 148 153	Чечни
+T7	PROFESSION 154 156	по
+T8	ORGANIZATION 157 165	силовому
+T9	GROUP 166 171	блоку
+T10	PERSON 181 195	Рамзан Кадыров
+T11	NEWS_SOURCE 181 220	Рамзан Кадыров сообщил в своем телеграм
+T12	NEWS_SOURCE 221 227	канале
+T13	DATE 230 243	В понедельник
+T14	EVENT 244 258	на совещании в
+T15	PERSON 259 266	Грозном
+T16	PROFESSION 291 316	советника-помощника главы
+T17	REGION 317 337	Чеченской Республики
+T18	ORGANIZATION 341 349	силовому
+T19	GROUP 350 355	блоку
+T20	COUNTRY 384 392	Кадырова
+T21	PROFESSION 517 522	глава
+T22	DATE 536 545	В феврале
+T23	PERSON 554 562	Кадырова
+T24	PROFESSION 586 624	вице-премьера — министра имущественных
+T25	PROFESSION 669 674	главы
+T26	NEWS_SOURCE 659 680	По словам главы Чечни
+T27	REGION 675 680	Чечни
+T28	PERSON 784 791	Кадыров
+T29	PROFESSION 805 820	министра спорта
+T30	REGION 821 826	Чечни
+T31	PROFESSION 845 849	член
+T32	ORGANIZATION 851 864	Единой России
+T33	ORGANIZATION 915 921	совета
+T34	ORGANIZATION 1013 1015	24
+T35	DATE 1020 1024	2023
+T36	CARDINAL 1025 1027	20
+T37	CARDINAL 1028 1030	18
+T38	PERCENT 1031 1033	19

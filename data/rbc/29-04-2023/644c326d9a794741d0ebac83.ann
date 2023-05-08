@@ -1,0 +1,88 @@
+T3	DATE 35 43	на 9 мая
+T4	REGION 47 64	Орловской области
+T5	DATE 91 96	1 мая
+T6	EVENT 99 104	парад
+T7	DATE 105 110	9 мая
+T11	PERSON 200 214	Андрей Клычков
+T14	ORGANIZATION 237 246	ВКонтакте
+T19	EVENT 550 556	парада
+T20	DATE 557 562	9 мая
+T21	PERSON 575 582	Клычков
+T23	DATE 727 744	в праздничные дни
+T24	PROFESSION 755 768	глава региона
+T25	EVENT 837 858	локальные мероприятия
+T29	REGION 946 958	Белгородской
+T30	REGION 961 977	Курской областях
+T31	REGION 981 986	Крыму
+T32	CITY 989 1000	Севастополе
+T35	CARDINAL 1054 1059	одном
+T36	CITY 1071 1084	Новороссийске
+T37	PROFESSION 1086 1096	Губернатор
+T38	REGION 1097 1117	Белгородской области
+T39	PERSON 1118 1134	Вячеслав Гладков
+T42	COUNTRY 1201 1208	Украины
+T43	WEAPON 1220 1227	техники
+T44	PROFESSION 1230 1244	военнослужащих
+T46	CITY 1248 1254	Москве
+T47	EVENT 1258 1263	парад
+T48	GPE 1326 1332	Кремле
+T49	EVENT 1369 1375	параде
+T50	PROFESSION 1393 1402	президент
+T51	PERSON 1403 1417	Владимир Путин
+T54	DATE 1506 1527	с 27 апреля по 10 мая
+T55	GROUP 1540 1551	посетителей
+T1	REGION 2 19	Орловской области
+T2	EVENT 20 34	отменили парад
+R1	TAKES_PLACE_IN Arg1:T2 Arg2:T1	
+R2	DATE_TAKES_PLACE_ON Arg1:T2 Arg2:T3	
+T63	EVENT 65 90	не будут проводить митинг
+R3	TAKES_PLACE_IN Arg1:T63 Arg2:T4	
+R4	DATE_TAKES_PLACE_ON Arg1:T63 Arg2:T5	
+R5	DATE_TAKES_PLACE_ON Arg1:T6 Arg2:T7	
+T64	GROUP 156 171	местных жителей
+R6	WORKPLACE Arg1:T64 Arg2:T4	
+T8	PROFESSION 181 199	губернатор региона
+R7	WORKS_AS Arg1:T11 Arg2:T8	
+T9	NEWS_SOURCE 173 247	сообщил губернатор региона Андрей Клычков на своей странице во «ВКонтакте»
+T10	PROFESSION 250 265	Правоохранители
+T12	EVENT 308 328	массовых мероприятий
+T13	EVENT 483 502	Первомайский митинг
+T16	NEWS_SOURCE 567 582	написал Клычков
+T15	EVENT 584 608	Акция «Бессмертный Полк»
+T17	EVENT 464 482	не сможем провести
+R8	SUBEVENT_OF Arg1:T13 Arg2:T17	
+R9	SUBEVENT_OF Arg1:T19 Arg2:T17	
+R10	DATE_TAKES_PLACE_ON Arg1:T19 Arg2:T20	
+T18	VEHICLE 677 687	на машинах
+T22	NEWS_SOURCE 746 768	объяснил глава региона
+T65	NEWS_SOURCE 863 873	добавил он
+T26	REGION 882 899	Орловской области
+T27	DATE 910 921	День победы
+T28	EVENT 901 906	парад
+T66	EVENT 928 943	решили отменить
+R11	SUBEVENT_OF Arg1:T28 Arg2:T66	
+R12	DATE_TAKES_PLACE_ON Arg1:T28 Arg2:T27	
+R13	TAKES_PLACE_IN Arg1:T66 Arg2:T26	
+R14	TAKES_PLACE_IN Arg1:T66 Arg2:T29	
+R15	TAKES_PLACE_IN Arg1:T66 Arg2:T30	
+R16	TAKES_PLACE_IN Arg1:T66 Arg2:T31	
+R17	TAKES_PLACE_IN Arg1:T66 Arg2:T32	
+T33	REGION 1002 1022	В Краснодарском крае
+T34	EVENT 1023 1035	парад Победы
+R18	TAKES_PLACE_IN Arg1:T34 Arg2:T36	
+R19	WORKPLACE Arg1:T39 Arg2:T38	
+R20	WORKS_AS Arg1:T39 Arg2:T37	
+T67	NEWS_SOURCE 1086 1143	Губернатор Белгородской области Вячеслав Гладков объяснил
+T40	ORGANIZATION 1184 1200	вооруженные силы
+R21	OWNERSHIP Arg1:T42 Arg2:T40	
+R22	TAKES_PLACE_IN Arg1:T47 Arg2:T46	
+T41	WEAPON 1291 1298	авиация
+T45	NEWS_SOURCE 1324 1364	в Кремле пообещали сообщить своевременно
+R23	WORKS_AS Arg1:T51 Arg2:T50	
+R24	EVENT_TAKES_PART_IN Arg1:T51 Arg2:T49	
+T52	EVENT 1447 1488	шествие «Бессмертного полка» не состоится
+T53	FAC 1490 1505	Красную площадь
+T56	EVENT 1571 1618	проведения мероприятий в честь годовщины Победы
+T68	DATE 1602 1611	годовщины
+R25	EVENT_TAKES_PART_IN Arg1:T51 Arg2:T56	
+R26	USES Arg1:T51 Arg2:T53	

@@ -1,0 +1,69 @@
+T0	PROFESSION 33 42	военкомов
+T1	REGION 53 63	Украинских
+T2	PROFESSION 64 73	военкомов
+T4	PROFESSION 134 141	военных
+T6	EVENT 150 161	на брифинге
+T8	PROFESSION 162 177	министр обороны
+T9	COUNTRY 178 185	Украины
+T11	PERSON 186 202	Алексей Резников
+T12	PROFESSION 235 253	главнокомандующему
+T13	ORGANIZATION 254 257	ВСУ
+T15	PROFESSION 262 271	президент
+T16	COUNTRY 272 279	Украины
+T17	PERSON 280 298	Владимир Зеленский
+T18	PROFESSION 358 367	военкомов
+T22	PROFESSION 481 495	военнослужащих
+T23	NEWS_SOURCE 616 631	сказал Резников
+T24	PERSON 623 631	Резников
+T28	EVENT 658 669	На брифинге
+T29	PROFESSION 670 677	министр
+T32	NEWS_SOURCE 865 880	сказал Резников
+T33	PERSON 872 880	Резников
+T34	NEWS_SOURCE 882 892	Он отметил
+T35	GPE 898 906	западные
+T36	GROUP 907 915	партнеры
+T37	GPE 925 930	Киеву
+T40	COUNTRY 1003 1015	Американские
+T41	WEAPON 1016 1022	Abrams
+T42	NEWS_SOURCE 1084 1099	добавил министр
+T43	PROFESSION 1092 1099	министр
+T44	COUNTRY 1101 1111	Российские
+T45	GROUP 1112 1118	власти
+T47	ORGANIZATION 1133 1149	вооруженные силы
+T48	EVENT 1170 1186	контрнаступлению
+T50	GPE 1187 1192	Киева
+T53	PROFESSION 1341 1346	глава
+T55	PERSON 1353 1367	Сергей Аксенов
+T64	PERSON 0 9	Зеленский
+T65	NEWS_SOURCE 0 22	Зеленский рекомендовал
+R1	WORKPLACE Arg1:T2 Arg2:T1	
+T3	EVENT 74 99	будут отправлять на фронт
+R2	TAKES_PLACE_IN Arg1:T3 Arg2:T1	
+T5	GROUP 126 141	раненых военных
+R3	WORKS_AS Arg1:T5 Arg2:T2	
+R4	WORKPLACE Arg1:T11 Arg2:T9	
+R5	WORKS_AS Arg1:T11 Arg2:T8	
+R6	EVENT_TAKES_PART_IN Arg1:T11 Arg2:T6	
+T7	NEWS_SOURCE 143 202	заявил на брифинге министр обороны Украины Алексей Резников
+T10	NEWS_SOURCE 204 217	По его словам
+R7	WORKPLACE Arg1:T17 Arg2:T16	
+R8	WORKS_AS Arg1:T17 Arg2:T15	
+T14	PROFESSION 424 438	военнослужащих
+T19	LOCATION 439 454	на линию фронта
+T20	ORGANIZATION 644 653	Страна.ua
+T21	NEWS_SOURCE 658 690	На брифинге министр также заявил
+T25	ORGANIZATION 696 699	ВСУ
+T26	EVENT 751 784	готовы перейти в контрнаступление
+R9	ORGANIZES Arg1:T25 Arg2:T26	
+T27	PROFESSION 833 843	командиров
+R11	SELLS_TO Arg1:T36 Arg2:T37	
+R10	MEMBER Arg1:T36 Arg2:T35	
+T30	WEAPON 986 1001	танки Leopard 2
+R12	WORKPLACE Arg1:T45 Arg2:T44	
+T31	NEWS_SOURCE 1101 1127	Российские власти заявляли
+R13	ORGANIZES Arg1:T50 Arg2:T48	
+R14	OWNERSHIP Arg1:T44 Arg2:T47	
+T38	REGION 1347 1352	Крыма
+R15	WORKPLACE Arg1:T55 Arg2:T38	
+R16	WORKS_AS Arg1:T55 Arg2:T53	
+T39	NEWS_SOURCE 1319 1367	говорил, в частности, глава Крыма Сергей Аксенов

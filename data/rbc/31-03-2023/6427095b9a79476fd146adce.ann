@@ -1,0 +1,46 @@
+T0	CITY 9 16	Тбилиси
+T1	CITY 49 56	Тбилиси
+T9	NEWS_SOURCE 178 190	передает 1TV
+T10	NEWS_SOURCE 192 205	По его данным
+T11	EVENT 207 212	пожар
+T15	ORGANIZATION 294 297	МВД
+T17	COUNTRY 298 304	Грузии
+T19	CARDINAL 350 352	16
+T20	EVENT 412 422	возгорание
+T21	ORDINAL 433 443	на третьем
+T23	ORDINAL 446 455	четвертом
+T25	CARDINAL 463 478	четырехэтажного
+T27	NEWS_SOURCE 490 509	заявили в ведомстве
+T28	ORGANIZATION 500 509	ведомстве
+T30	COUNTRY 520 526	Грузия
+T41	LOCATION 0 8	В центре
+R1	OWNERSHIP Arg1:T0 Arg2:T41	
+T42	FAC 27 45	отель «Амбассадор»
+T43	EVENT 17 45	загорелся отель «Амбассадор»
+R2	TAKES_PLACE_IN Arg1:T43 Arg2:T0	
+T2	FAC 68 90	гостиница «Амбассадор»
+T3	EVENT 57 90	загорелась гостиница «Амбассадор»
+R3	TAKES_PLACE_IN Arg1:T3 Arg2:T1	
+T4	STREET 94 107	улице Шавтели
+R4	TAKES_PLACE_IN Arg1:T3 Arg2:T4	
+R5	OWNERSHIP Arg1:T1 Arg2:T4	
+T5	PROFESSION 143 151	пожарных
+T6	EVENT 153 176	возгорание локализовали
+T7	ORGANIZATION 187 190	1TV
+R6	TAKES_PLACE_IN Arg1:T6 Arg2:T1	
+T8	FAC 221 246	на последнем этаже здания
+R7	TAKES_PLACE_IN Arg1:T11 Arg2:T8	
+R8	HEADQUARTERED_IN Arg1:T15 Arg2:T17	
+T12	NEWS_SOURCE 294 313	МВД Грузии уточнило
+T13	GROUP 353 382	пожарно-спасательных расчетов
+T14	LOCATION 319 340	на месте происшествия
+R9	WORKPLACE Arg1:T13 Arg2:T17	
+T16	NEWS_SOURCE 385 410	По предварительным данным
+T18	FAC 433 485	на третьем и четвертом этажах четырехэтажного здания
+R10	TAKES_PLACE_IN Arg1:T20 Arg2:T18	
+T22	ORGANIZATION 511 527	«Sputnik Грузия»
+T24	NEWS_SOURCE 511 533	«Sputnik Грузия» пишет
+T26	FAC 564 586	нижние этажи гостиницы
+R11	TAKES_PLACE_IN Arg1:T20 Arg2:T26	
+T29	EVENT 606 620	Тушение пожара
+R12	TAKES_PLACE_IN Arg1:T29 Arg2:T26	

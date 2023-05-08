@@ -1,0 +1,36 @@
+T0	CRIME 19 27	обстреле
+T1	FAC 28 32	села
+T2	REGION 37 47	Белгородом
+T3	CITY 49 64	Село Черемошное
+T4	CITY 67 79	Белгородском
+T5	PROFESSION 123 133	губернатор
+T6	PERSON 134 146	Белгородской
+T7	PERSON 155 171	Вячеслав Гладков
+T8	NEWS_SOURCE 115 188	сообщил губернатор Белгородской области Вячеслав Гладков в своем телеграм
+T9	NEWS_SOURCE 189 195	канале
+T10	NEWS_SOURCE 216 222	данным
+T11	FAC 283 293	населенных
+T12	GROUP 352 358	службы
+T13	GROUP 360 369	абонентов
+T14	ORGANIZATION 433 436	РБК
+T15	NEWS_SOURCE 423 445	источники РБК сообщили
+T16	DATE 451 459	27 марта
+T17	ECONOMIC_SECTOR 460 483	самодельный беспилотник
+T18	FAC 486 497	самодельным
+T19	FAC 541 548	станцию
+T20	FAC 550 563	Газэнергосети
+T21	CITY 567 576	Белгороде
+T22	ECONOMIC_SECTOR 596 607	беспилотник
+T23	REGION 648 667	Харьковской области
+T24	FAC 690 707	газовый резервуар
+T25	QUANTITY 716 718	30
+T26	CARDINAL 716 722	30 тыс
+T27	PRODUCT 724 730	литров
+T28	FAC 733 743	газопровод
+T29	ECONOMIC_SECTOR 745 751	пожара
+T30	ORGANIZATION 824 827	rbc
+T31	CARDINAL 843 867	64244f8a9a7947f0f639c24b
+T32	CARDINAL 874 876	29
+T33	ORGANIZATION 877 880	Mar
+T34	DATE 881 885	2023
+T35	CARDINAL 886 891	18:00

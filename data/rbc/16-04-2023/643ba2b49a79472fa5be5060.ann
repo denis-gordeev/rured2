@@ -1,0 +1,65 @@
+T0	COUNTRY 2 8	Японии
+T1	CARDINAL 20 24	пять
+T3	WEAPON 57 66	вертолета
+T4	COUNTRY 70 76	Японии
+T5	CARDINAL 88 92	пяти
+T10	CARDINAL 163 170	десятью
+T11	PROFESSION 171 186	военнослужащими
+T13	REGION 198 205	Окинавы
+T15	PERSON 224 229	Kyodo
+T16	ORGANIZATION 232 235	NHK
+T19	PROFESSION 307 317	водолазами
+T21	CARDINAL 329 338	около 106
+T25	FAC 363 373	префектуре
+T27	REGION 374 381	Окинава
+T29	DATE 442 450	6 апреля
+T30	WEAPON 451 459	вертолет
+T35	LOCATION 581 586	Мияко
+T38	GROUP 606 612	власти
+T39	WEAPON 632 637	борта
+T40	DATE 639 648	13 апреля
+T42	CARDINAL 660 661	4
+T46	WEAPON 710 718	вертолет
+T47	WEAPON 736 747	части борта
+T48	PERSON 749 754	Kyodo
+T49	NEWS_SOURCE 749 763	Kyodo сообщает
+T50	EVENT 788 803	авиакатастрофой
+T51	WEAPON 833 842	вертолета
+T54	CARDINAL 901 905	двух
+T60	WEAPON 1010 1019	вертолета
+T62	COUNTRY 1101 1114	американского
+T66	DATE 1163 1172	В феврале
+T67	COUNTRY 1173 1185	американский
+T72	EVENT 1273 1281	крушения
+T73	WEAPON 1282 1286	борт
+T74	NEWS_SOURCE 1332 1350	По данным ABC News
+T75	ORGANIZATION 1342 1350	ABC News
+T76	CARDINAL 1360 1363	два
+T2	GROUP 29 43	членов экипажа
+T83	NEWS_SOURCE 0 19	В Японии обнаружили
+T6	GROUP 93 107	членов экипажа
+T7	WEAPON 108 134	военного вертолета UH-60JA
+T8	EVENT 77 134	нашли тела пяти членов экипажа военного вертолета UH-60JA
+R1	TAKES_PLACE_IN Arg1:T8 Arg2:T4	
+T9	ORGANIZATION 250 277	Сухопутные силы самообороны
+T12	NEWS_SOURCE 215 284	сообщают Kyodo и NHK со ссылкой на Сухопутные силы самообороны страны
+T14	LOCATION 318 360	на глубине около 106 м возле острова Мияко
+R2	HEADQUARTERED_IN Arg1:T25 Arg2:T27	
+T17	EVENT 286 306	Тела были обнаружены
+R3	TAKES_PLACE_IN Arg1:T17 Arg2:T27	
+T18	PROFESSION 383 392	Спасатели
+T20	WEAPON 410 439	часть поврежденного вертолета
+T22	LOCATION 502 507	Мияко
+T23	CARDINAL 539 540	3
+T24	LOCATION 537 560	в 3 км от острова Ирабу
+T26	LOCATION 658 688	в 4 км к северо-северо-востоку
+R4	DATE_TAKES_PLACE_ON Arg1:T50 Arg2:T29	
+T28	ORGANIZATION 906 944	центров управления воздушным движением
+T31	CARDINAL 890 897	Ни один
+T32	WEAPON 1067 1074	UH-60JA
+T33	WEAPON 1115 1161	вертолета Black Hawk для спасательных операций
+T34	WEAPON 1186 1213	военный вертолет Black Hawk
+T36	EVENT 1214 1231	потерпел крушение
+T37	REGION 1234 1247	штате Алабама
+R5	TAKES_PLACE_IN Arg1:T36 Arg2:T37	
+R6	DATE_TAKES_PLACE_ON Arg1:T36 Arg2:T66	

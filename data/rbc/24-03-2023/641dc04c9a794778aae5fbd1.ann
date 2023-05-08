@@ -1,0 +1,95 @@
+T1	PROFESSION 0 8	Генерала
+T2	ORGANIZATION 9 12	ФТС
+T3	BOROUGH 42 51	Басманный
+T4	ORGANIZATION 52 64	районный суд
+T5	CITY 65 71	Москвы
+T6	PROFESSION 82 95	замначальника
+T9	PROFESSION 136 144	генерала
+T10	PERSON 145 163	Александра Беглова
+T16	PERSON 241 258	Александра Алеева
+T17	NEWS_SOURCE 260 292	сообщили РБК в пресс-службе суда
+T19	ORGANIZATION 311 315	суда
+T20	PERSON 317 323	Беглов
+T21	PERSON 326 331	Алеев
+T22	DATE 362 371	до 22 мая
+T23	PROFESSION 401 412	следователь
+T24	ORGANIZATION 414 417	Суд
+T25	PERSON 558 564	Алеева
+T44	ORGANIZATION 813 816	ФСБ
+T45	PERSON 837 843	Алеева
+T47	DATE 870 878	24 марта
+T55	ORGANIZATION 973 976	РБК
+T56	NEWS_SOURCE 964 990	Источник РБК ранее говорил
+T57	PERSON 1010 1017	Беглова
+T58	PERSON 1020 1026	Алеева
+T59	MONEY 1034 1044	40 млн руб
+T60	CURRENCY 1041 1044	руб
+T64	FAC 1168 1184	загородных домах
+T67	GROUP 1218 1229	сотрудников
+T68	ORGANIZATION 1230 1237	таможни
+T69	NEWS_SOURCE 1239 1271	Согласно информации на сайте ФТС
+T70	ORGANIZATION 1268 1271	ФТС
+T72	PERSON 1273 1279	Беглов
+T73	PROFESSION 1285 1308	заместителем начальника
+T74	ORGANIZATION 1309 1344	Центрального таможенного управления
+T76	DATE 1397 1416	в октябре 2015 года
+T77	DATE 1418 1429	С 2011 года
+T81	PERSON 1583 1598	Дмитрий Бибиков
+T89	PENALTY 13 40	арестовали по делу о взятке
+R1	WORKPLACE Arg1:T1 Arg2:T2	
+R2	PENALIZED_AS Arg1:T1 Arg2:T89	
+R3	OWNERSHIP Arg1:T5 Arg2:T3	
+R4	HEADQUARTERED_IN Arg1:T4 Arg2:T5	
+T7	ORGANIZATION 132 135	ФТС
+T8	ORGANIZATION 96 131	Центрального таможенного управления
+R5	OWNERSHIP Arg1:T7 Arg2:T8	
+R6	WORKS_AS Arg1:T10 Arg2:T9	
+R7	PENALIZED_AS Arg1:T10 Arg2:T89	
+T11	PROFESSION 166 211	начальника центра электронного декларирования
+T12	ORGANIZATION 212 240	Центральной акцизной таможни
+R8	WORKPLACE Arg1:T11 Arg2:T12	
+R9	PENALIZED_AS Arg1:T16 Arg2:T89	
+R10	WORKS_AS Arg1:T16 Arg2:T11	
+T13	ORGANIZATION 269 272	РБК
+T14	ORGANIZATION 288 292	суда
+T15	ORGANIZATION 273 287	в пресс-службе
+R11	OWNERSHIP Arg1:T14 Arg2:T15	
+T18	PENALTY 332 361	будут содержаться под стражей
+R12	PENALIZED_AS Arg1:T21 Arg2:T18	
+R13	PENALIZED_AS Arg1:T20 Arg2:T18	
+T90	GROUP 470 483	подозреваемых
+R14	MEMBER Arg1:T21 Arg2:T90	
+R15	MEMBER Arg1:T20 Arg2:T90	
+T26	LAW 580 616	ч. 6 ст. 290, п. «в» ч. 5 ст. 290 УК
+T27	CRIME 618 658	получение взятки в особо крупном размере
+T28	LAW 683 721	ч. 6 ст. 290, п. «б» ч. 3 ст. 291.1 УК
+T29	CRIME 723 798	получение взятки в особо крупном размере и посредничество во взяточничестве
+T30	PERSON 827 834	Беглова
+R16	EVENT_TAKES_PART_IN Arg1:T25 Arg2:T27	
+T31	PERSON 670 677	Беглова
+R17	EVENT_TAKES_PART_IN Arg1:T31 Arg2:T29	
+T32	ORGANIZATION 890 911	телеграм-канала «112»
+T33	NEWS_SOURCE 880 911	По данным телеграм-канала «112»
+T34	CRIME 919 940	предполагаемой взятки
+T35	CURRENCY 959 962	руб
+T36	QUANTITY 951 958	3,8 млн
+T37	MONEY 951 962	3,8 млн руб
+T38	QUANTITY 1034 1040	40 млн
+R18	EVENT_TAKES_PART_IN Arg1:T57 Arg2:T34	
+R19	EVENT_TAKES_PART_IN Arg1:T58 Arg2:T34	
+T39	FAC 1186 1197	в квартирах
+R20	WORKPLACE Arg1:T67 Arg2:T68	
+T40	EVENT 1134 1155	Следственные действия
+R21	TAKES_PLACE_IN Arg1:T40 Arg2:T64	
+R22	TAKES_PLACE_IN Arg1:T40 Arg2:T39	
+T41	FAC 1200 1217	рабочих комитетах
+R23	TAKES_PLACE_IN Arg1:T40 Arg2:T41	
+R24	WORKPLACE Arg1:T73 Arg2:T74	
+R25	WORKS_AS Arg1:T72 Arg2:T73	
+T42	PROFESSION 1347 1396	начальником службы федеральных таможенных доходов
+T43	ORGANIZATION 1442 1460	таможенных органах
+R26	WORKPLACE Arg1:T72 Arg2:T43	
+T46	PERSON 1462 1468	Беглов
+T48	AWARD 1483 1542	медалями «За службу в таможенных органах» II и III степеней
+T49	AWARD 1544 1556	«За усердие»
+T50	AWARD 1559 1599	ведомственной наградой «Дмитрий Бибиков»

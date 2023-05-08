@@ -1,0 +1,61 @@
+T0	ORGANIZATION 0 3	РЖД
+T4	ORGANIZATION 57 60	РЖД
+T7	CURRENCY 85 88	руб
+T9	FAC 124 138	грузовой поезд
+T11	REGION 151 166	Дальневосточной
+T23	REGION 298 313	Дальневосточной
+T27	CURRENCY 376 379	руб
+T30	ORGANIZATION 419 422	суд
+T31	ORGANIZATION 438 441	РЖД
+T37	DATE 661 674	В конце марта
+T38	ORGANIZATION 675 678	суд
+T39	REGION 681 689	Приморье
+T41	QUANTITY 717 726	на 50 тыс
+T42	CURRENCY 728 731	руб
+T58	CURRENCY 1092 1095	руб
+T1	CURRENCY 20 21	₽
+T2	QUANTITY 21 28	2,5 млн
+T3	MONEY 20 28	₽2,5 млн
+R1	EXPENDITURE Arg1:T0 Arg2:T3	
+T64	EVENT 32 55	сбитого амурского тигра
+R2	EVENT_TAKES_PART_IN Arg1:T0 Arg2:T64	
+T5	QUANTITY 77 84	2,5 млн
+T6	MONEY 77 88	2,5 млн руб
+R3	EXPENDITURE Arg1:T4 Arg2:T6	
+T8	ORGANIZATION 167 191	транспортной прокуратуре
+R4	HEADQUARTERED_IN Arg1:T8 Arg2:T11	
+T10	EVENT 193 223	Краснокнижное животное погибло
+T12	ORDINAL 227 233	8667-м
+T13	FAC 237 261	перегона Аван — Котиково
+T14	FAC 314 329	железной дороги
+R5	HEADQUARTERED_IN Arg1:T14 Arg2:T23	
+T15	BOROUGH 263 278	Вяземский район
+T16	REGION 279 296	Хабаровского края
+R6	OWNERSHIP Arg1:T16 Arg2:T15	
+T17	PENALTY 61 138	выплатили почти 2,5 млн руб. за амурского тигра, которого сбил грузовой поезд
+R7	PENALIZED_AS Arg1:T4 Arg2:T17	
+R8	TAKES_PLACE_IN Arg1:T10 Arg2:T13	
+T18	QUANTITY 361 375	2 млн 464 тыс.
+T19	MONEY 361 379	2 млн 464 тыс. руб
+T20	ORGANIZATION 381 405	Транспортная прокуратура
+T21	PENALTY 456 494	выплатить компенсацию за сбитого тигра
+R9	PENALIZED_AS Arg1:T31 Arg2:T21	
+T22	ORGANIZATION 496 504	Компания
+T24	EVENT 536 555	судебного заседания
+T25	ORGANIZATION 589 658	департамента Росприроднадзора по Дальневосточному федеральному округу
+T26	REGION 622 638	Дальневосточному
+T28	MONEY 717 731	на 50 тыс. руб
+T29	CRIME 736 769	распространение ложной информации
+T32	PENALTY 690 716	оштрафовал местного жителя
+R10	TAKES_PLACE_IN Arg1:T32 Arg2:T39	
+R11	TAKES_PLACE_IN Arg1:T29 Arg2:T39	
+T33	AGE 794 803	30-летний
+T34	VILLAGE 811 825	села Яковлевка
+R12	OWNERSHIP Arg1:T39 Arg2:T34	
+T35	LAW 1046 1065	ч. 9 ст. 13.15 КоАП
+T36	CRIME 913 1044	статье о распространении в интернете заведомо недостоверной общественно значимой информации, создающей угрозу общественного порядка
+T40	EVENT 863 909	На мужчину составили административный протокол
+T43	QUANTITY 1080 1090	до 100 тыс
+T44	MONEY 1080 1095	до 100 тыс. руб
+T45	PENALTY 1080 1103	до 100 тыс. руб. штрафа
+R13	TAKES_PLACE_IN Arg1:T40 Arg2:T34	

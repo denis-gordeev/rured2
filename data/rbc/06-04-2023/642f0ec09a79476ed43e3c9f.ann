@@ -1,0 +1,67 @@
+T1	PROFESSION 0 9	Экс-посол
+T2	COUNTRY 10 16	Польши
+T5	COUNTRY 19 25	России
+T6	COUNTRY 48 56	Украиной
+T7	COUNTRY 83 89	Польши
+T8	COUNTRY 92 99	Украины
+T9	PROFESSION 139 151	бывший посол
+T10	COUNTRY 152 158	Польши
+T12	COUNTRY 161 167	России
+T18	ORGANIZATION 203 209	RMF FM
+T19	COUNTRY 253 260	польско
+T20	COUNTRY 261 271	украинский
+T25	PROFESSION 466 508	Бывший посол и замминистра иностранных дел
+T26	NEWS_SOURCE 466 517	Бывший посол и замминистра иностранных дел пояснила
+T27	COUNTRY 523 533	украинская
+T28	DATE 544 550	сейчас
+T30	COUNTRY 708 714	России
+T31	PERSON 718 728	Пелчинская
+T32	COUNTRY 765 773	Украиной
+T33	ORGANIZATION 802 811	Евросоюза
+T34	COUNTRY 847 854	Украины
+T35	PROFESSION 855 864	экс-посол
+T36	COUNTRY 1012 1019	Украины
+T37	ORGANIZATION 1030 1032	ЕС
+T38	GPE 1035 1041	Запада
+T39	COUNTRY 1069 1078	польскому
+T40	GROUP 1079 1085	народу
+T41	DATE 1107 1125	5 апреля 2023 года
+T42	PROFESSION 1126 1135	президент
+T43	COUNTRY 1136 1143	Украины
+T44	PERSON 1144 1162	Владимир Зеленский
+T46	EVENT 1170 1176	визита
+T47	CITY 1179 1186	Варшаву
+T48	DATE 1205 1212	будущем
+T49	COUNTRY 1219 1226	Польшей
+T50	COUNTRY 1229 1237	Украиной
+T52	GROUP 1317 1325	народами
+T53	NEWS_SOURCE 1510 1526	сказал Зеленский
+T54	PERSON 1517 1526	Зеленский
+T55	PROFESSION 1565 1575	президента
+T56	PERSON 1576 1587	Анджея Дуды
+T58	COUNTRY 1623 1629	Польши
+R1	WORKPLACE Arg1:T1 Arg2:T2	
+R2	WORKPLACE Arg1:T9 Arg2:T10	
+T3	PERSON 168 194	Катажина Пелчинская-Наленч
+R3	WORKPLACE Arg1:T3 Arg2:T10	
+T4	NEWS_SOURCE 131 209	заявила бывший посол Польши в России Катажина Пелчинская-Наленч в эфире RMF FM
+T11	ORGANIZATION 253 276	польско-украинский союз
+T13	PERSON 340 357	Пелчинская-Наленч
+T14	NEWS_SOURCE 332 357	сказала Пелчинская-Наленч
+T15	NEWS_SOURCE 718 736	Пелчинская считает
+R4	ORIGINS_FROM Arg1:T40 Arg2:T39	
+T16	NEWS_SOURCE 1090 1105	подчеркнула она
+R5	WORKPLACE Arg1:T44 Arg2:T43	
+R6	WORKS_AS Arg1:T44 Arg2:T42	
+R7	DATE_TAKES_PLACE_ON Arg1:T46 Arg2:T41	
+R8	EVENT_TAKES_PART_IN Arg1:T44 Arg2:T46	
+T17	NEWS_SOURCE 1144 1197	Владимир Зеленский в ходе визита в Варшаву предсказал
+T21	EVENT 1543 1550	поездки
+T22	AWARD 1588 1605	орден Белого орла
+R9	WORKS_AS Arg1:T56 Arg2:T55	
+T23	EVENT 1238 1290	не будет границы — ни политической, ни экономической
+R10	DATE_TAKES_PLACE_ON Arg1:T23 Arg2:T48	
+R11	EVENT_TAKES_PART_IN Arg1:T49 Arg2:T23	
+R12	EVENT_TAKES_PART_IN Arg1:T50 Arg2:T23	
+R13	WORKPLACE Arg1:T56 Arg2:T58	
+R14	EVENT_TAKES_PART_IN Arg1:T54 Arg2:T21	

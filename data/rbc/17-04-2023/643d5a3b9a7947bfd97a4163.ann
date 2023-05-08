@@ -1,0 +1,70 @@
+T0	PERSON 4 15	Евтушенкова
+T2	COUNTRY 59 67	Британии
+T5	ORGANIZATION 84 97	АФК «Система»
+T6	PERSON 98 119	Владимира Евтушенкова
+T7	ORGANIZATION 138 146	компании
+T12	PROFESSION 167 179	председателя
+T13	GROUP 180 197	совета директоров
+T17	FAMILY 281 292	Члены семьи
+T18	PERSON 293 314	Владимира Евтушенкова
+T19	DATE 360 377	с весны 2022 года
+T20	COUNTRY 411 425	Великобритании
+T21	DATE 426 443	в середине апреля
+T23	PERSON 480 487	Натальи
+T24	FAMILY 493 497	сына
+T26	PERSON 515 522	Татьяны
+T27	DATE 548 564	весной 2022 года
+T28	PERSON 565 584	Владимир Евтушенков
+T29	ORGANIZATION 601 614	АФК «Система»
+T30	PERCENT 615 623	до 49,2%
+T32	PERCENT 670 673	10%
+T33	ORGANIZATION 676 684	компании
+T36	DATE 749 769	До недавнего времени
+T38	GROUP 803 819	совет директоров
+T43	ORGANIZATION 864 867	МТС
+T44	COUNTRY 896 906	британских
+T45	ORGANIZATION 916 929	АФК «Система»
+T46	DATE 939 950	в 1993 году
+T56	ECONOMIC_SECTOR 1052 1068	лесопромышленный
+T70	FAMILY 0 3	Сын
+T1	ORGANIZATION 41 44	МТС
+T71	GROUP 24 40	совет директоров
+T3	FAMILY 69 72	Сын
+T4	PROFESSION 73 83	основателя
+R2	WORKS_AS Arg1:T6 Arg2:T4	
+R3	WORKPLACE Arg1:T4 Arg2:T5	
+T72	PERSON 120 126	Феликс
+T8	PERCENT 147 152	15,2%
+R4	WORKS_AS Arg1:T13 Arg2:T12	
+R1	WORKPLACE Arg1:T71 Arg2:T1	
+T9	ORGANIZATION 198 217	оператора связи МТС
+R5	WORKPLACE Arg1:T13 Arg2:T9	
+T10	NEWS_SOURCE 219 279	следует из данных сервиса раскрытия корпоративной информации
+T11	COUNTRY 338 349	британскими
+T14	PENALTY 324 359	находится под британскими санкциями
+R6	PENALIZED_AS Arg1:T18 Arg2:T14	
+T15	FAMILY 459 463	жены
+T16	PROFESSION 464 479	предпринимателя
+T22	PERSON 498 505	Феликса
+T25	FAMILY 508 514	дочери
+T73	PENALTY 531 547	введения санкций
+R7	PENALIZED_AS Arg1:T28 Arg2:T73	
+T31	PROFESSION 643 668	контролирующим акционером
+T74	FAMILY 696 700	сыну
+T34	PERCENT 739 747	до 15,2%
+T35	PERSON 770 787	Феликс Евтушенков
+T37	ORGANIZATION 820 841	онлайн-ретейлера Ozon
+R8	WORKPLACE Arg1:T38 Arg2:T37	
+R9	MEMBER Arg1:T35 Arg2:T38	
+T39	PENALTY 887 914	введения британских санкций
+R10	DATE_FOUNDED_IN Arg1:T45 Arg2:T46	
+T40	ORGANIZATION 993 1011	оператор связи МТС
+T41	PERCENT 1013 1019	49,94%
+T42	ORGANIZATION 1022 1042	онлайн-ретейлер Ozon
+T47	PERCENT 1044 1049	31,8%
+T48	ORGANIZATION 1052 1090	лесопромышленный холдинг Segezha Group
+T49	PERCENT 1092 1097	62,2%
+T50	ORGANIZATION 1100 1119	агрохолдинг «Степь»
+T51	PERCENT 1121 1126	89,7%
+T52	PERCENT 1150 1155	95,5%
+T53	ORGANIZATION 1129 1148	сеть клиник «Медси»

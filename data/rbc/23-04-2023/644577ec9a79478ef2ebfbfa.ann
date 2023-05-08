@@ -1,0 +1,70 @@
+T2	WORK_OF_ART 8 17	Ворониных
+T3	PENALTY 33 48	арестованного в
+T4	COUNTRY 49 52	США
+T5	PROFESSION 53 67	брата
+
+Актриса
+T6	PERSON 68 85	Екатерина Волкова
+T12	FAMILY 169 174	брата
+T13	PERSON 175 190	Леонида Волкова
+T14	PENALTY 192 205	арестованного
+T15	COUNTRY 208 211	США
+T18	DATE 263 283	несколько дней назад
+T19	COUNTRY 301 304	США
+T20	DATE 355 372	В настоящее время
+T22	PROFESSION 449 458	адвокатом
+T24	FAMILY 549 554	брата
+T25	DATE 635 652	В середине апреля
+T26	ORGANIZATION 663 671	CBS News
+T27	NEWS_SOURCE 653 679	телеканал CBS News сообщил
+T28	CARDINAL 690 694	двух
+T29	NORP 705 712	россиян
+T31	PERSON 725 738	Павла Векшина
+T33	PERSON 752 766	Кирилла Щукина
+T36	DATE 864 872	9 апреля
+T38	PERSON 924 939	Леониду Волкову
+T40	REGION 943 951	Медфорда
+T41	CARDINAL 961 966	обеих
+T43	NEWS_SOURCE 974 995	По данным прокуратуры
+T44	ORGANIZATION 984 995	прокуратуры
+T45	PERSON 997 1002	Щукин
+T47	NEWS_SOURCE 1182 1201	По версии следствия
+T48	PERSON 1209 1215	Щукина
+T49	VEHICLE 1244 1253	грузовике
+T51	ORGANIZATION 1257 1272	компании U-Haul
+T52	VEHICLE 1275 1285	автомобиль
+T64	FAMILY 53 58	брата
+T1	PROFESSION 60 67	Актриса
+T7	WORK_OF_ART 94 116	телесериала «Воронины»
+R1	WORKS_AS Arg1:T6 Arg2:T1	
+T8	NEWS_SOURCE 60 126	Актриса Екатерина Волкова, звезда телесериала «Воронины», сообщила
+T9	CARDINAL 222 229	двойном
+T10	CRIME 222 238	двойном убийстве
+T11	FAMILY 253 257	брат
+T16	FAC 1307 1333	складом для хранения вещей
+T17	PERSON 1102 1109	Волкова
+T50	FAC 1143 1147	дома
+T53	PENALTY 288 298	арестовали
+T21	FAMILY 436 442	братом
+T23	ORGANIZATION 513 528	телеграм-канале
+T54	NEWS_SOURCE 498 528	написала она в телеграм-канале
+T55	PERSON 593 600	Волкова
+T30	AGE 714 724	28-летнего
+T32	AGE 741 751	37-летнего
+T35	REGION 780 796	штат Массачусетс
+T34	REGION 770 778	Медфорда
+T56	FAC 815 821	складе
+T57	CRIME 835 850	было расчленено
+T65	CARDINAL 823 827	одно
+T66	CARDINAL 852 855	Оба
+T67	EVENT 852 863	Оба исчезли
+R2	DATE_TAKES_PLACE_ON Arg1:T67 Arg2:T36	
+R3	PLACE_RESIDES_IN Arg1:T33 Arg2:T35	
+R4	PLACE_RESIDES_IN Arg1:T31 Arg2:T35	
+T68	CRIME 875 895	Обвинение в убийстве
+T37	AGE 913 923	37-летнему
+R5	EVENT_TAKES_PART_IN Arg1:T38 Arg2:T68	
+T39	PERSON 1019 1026	Волкова
+R6	PLACE_RESIDES_IN Arg1:T38 Arg2:T40	
+T42	EVENT 1102 1180	Волкова заметили входящим и выходящим из дома жертв, перед тем как они пропали
+R7	DATE_TAKES_PLACE_ON Arg1:T42 Arg2:T36	

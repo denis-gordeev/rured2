@@ -1,0 +1,42 @@
+T0	REGION 2 20	Мурманской области
+T1	PRODUCT 31 43	беспилотники
+T2	REGION 47 65	Мурманской области
+T3	PRODUCT 89 101	беспилотники
+T4	PROFESSION 142 152	губернатор
+T5	PERSON 153 165	Андрей Чибис
+T8	ORGANIZATION 208 221	правительства
+T12	CARDINAL 295 298	150
+T13	GROUP 339 345	власти
+T14	GROUP 358 363	юрлиц
+T15	GROUP 366 368	ИП
+T18	ORGANIZATION 424 432	компании
+T19	ECONOMIC_SECTOR 453 471	добычей ископаемых
+T20	ECONOMIC_SECTOR 473 487	строительством
+T21	ECONOMIC_SECTOR 489 500	энергетикой
+T22	PRODUCT 528 540	беспилотники
+T27	GROUP 667 670	СМИ
+T29	PRODUCT 738 750	беспилотники
+T30	PROFESSION 821 831	президента
+T32	COUNTRY 866 872	России
+T36	DATE 1085 1097	с 19 октября
+T37	CARDINAL 1115 1123	более 30
+T38	PRODUCT 1168 1181	беспилотников
+T46	EVENT 119 141	постановление подписал
+R1	WORKS_AS Arg1:T5 Arg2:T4	
+R2	ORGANIZES Arg1:T5 Arg2:T46	
+T6	NEWS_SOURCE 167 221	оно опубликовано в электронном бюллетене правительства
+T7	PRODUCT 255 301	дроны с максимальной взлетной массой от 150 г.
+R3	USES Arg1:T2 Arg2:T7	
+T9	ORDINAL 388 397	с первыми
+T10	EVENT 302 333	Ограничения не распространяются
+R4	EVENT_TAKES_PART_IN Arg1:T13 Arg2:T10	
+R5	EVENT_TAKES_PART_IN Arg1:T14 Arg2:T10	
+R6	EVENT_TAKES_PART_IN Arg1:T15 Arg2:T10	
+T11	EVENT 760 787	поисково-спасательных работ
+T16	ECONOMIC_SECTOR 627 670	фото-, видео- и аэросъемку для кино или СМИ
+T17	REGION 882 900	Мурманскую область
+T23	PRODUCT 939 944	дроны
+T24	LAW 929 944	Запрет на дроны
+T25	EVENT 1115 1181	более 30 регионов ввели ограничения на использование беспилотников
+R7	TAKES_PLACE_IN Arg1:T25 Arg2:T32	
+R8	OWNERSHIP Arg1:T32 Arg2:T17	

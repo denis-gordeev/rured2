@@ -1,0 +1,73 @@
+T0	ORGANIZATION 0 2	СК
+T1	REGION 24 31	Чукотки
+T2	AWARD 38 44	премий
+T7	PROFESSION 75 86	Следователи
+T8	ORGANIZATION 160 164	думы
+T10	REGION 165 172	Чукотки
+T12	PERSON 173 191	Александра Маслова
+T16	CURRENCY 245 248	руб
+T20	ORGANIZATION 298 320	Следственного комитета
+T24	CURRENCY 390 393	руб
+T28	DATE 470 488	с 2016 по 2021 год
+T29	DATE 490 509	В декабре 2021 года
+T30	CITY 536 543	Анадыря
+T31	CITY 569 575	Москву
+T32	PROFESSION 595 606	Следователи
+T35	ORGANIZATION 640 644	думы
+T39	DATE 750 761	до семи лет
+T41	NEWS_SOURCE 780 799	По версии следствия
+T42	DATE 801 829	в период с 2016 по 2021 годы
+T45	REGION 1058 1087	Чукотского автономного округа
+T48	CURRENCY 1144 1147	руб
+T49	ORGANIZATION 1165 1167	СК
+T50	AWARD 1175 1181	премий
+T51	DATE 1206 1217	ежемесячную
+T53	CURRENCY 1275 1278	руб
+T54	ORGANIZATION 1380 1383	суд
+T56	CURRENCY 1445 1448	руб
+T3	PROFESSION 45 56	экс-спикера
+T4	ORGANIZATION 57 61	думы
+R1	WORKPLACE Arg1:T3 Arg2:T4	
+T5	EVENT 87 126	завершили расследование уголовного дела
+T6	PROFESSION 139 159	бывшего председателя
+R2	WORKPLACE Arg1:T6 Arg2:T8	
+R3	WORKS_AS Arg1:T12 Arg2:T6	
+R4	WORKPLACE Arg1:T12 Arg2:T10	
+R5	HEADQUARTERED_IN Arg1:T8 Arg2:T10	
+T9	AWARD 207 225	премий самому себе
+R6	ORGANIZES Arg1:T0 Arg2:T5	
+T11	QUANTITY 236 244	16,3 млн
+T13	MONEY 236 248	16,3 млн руб
+T14	ORGANIZATION 260 297	пресс-служба регионального управления
+R7	OWNERSHIP Arg1:T20 Arg2:T14	
+T15	NEWS_SOURCE 251 320	передает пресс-служба регионального управления Следственного комитета
+T17	QUANTITY 382 389	8,9 млн
+T18	MONEY 382 393	8,9 млн руб
+T19	PERSON 395 401	Маслов
+T21	REGION 425 454	Чукотского автономного округа
+T22	PROFESSION 406 419	председателем
+T23	ORGANIZATION 420 424	думы
+T25	ORDINAL 455 462	шестого
+R8	WORKPLACE Arg1:T22 Arg2:T23	
+R9	WORKS_AS Arg1:T19 Arg2:T22	
+R10	WORKPLACE Arg1:T19 Arg2:T21	
+T26	FAC 526 535	аэропорту
+R11	HEADQUARTERED_IN Arg1:T26 Arg2:T30	
+T27	PROFESSION 618 629	экс-спикеру
+T33	REGION 630 639	чукотской
+T34	CRIME 667 700	превышении должностных полномочий
+T36	LAW 702 717	ч. 2 ст. 286 УК
+T37	PENALTY 750 777	до семи лет лишения свободы
+T38	AWARD 883 919	поощрении и премировании самого себя
+T40	ORGANIZATION 984 996	думы региона
+T43	QUANTITY 1129 1143	более 16,3 млн
+T44	MONEY 1129 1149	более 16,3 млн руб.,
+T46	NEWS_SOURCE 1154 1167	уточнили в СК
+T47	PERSON 1183 1189	Маслов
+T52	QUANTITY 1266 1273	289 тыс
+T57	MONEY 1266 1279	289 тыс. руб.
+R12	INCOME Arg1:T47 Arg2:T57	
+R13	INCOME Arg1:T47 Arg2:T44	
+T55	QUANTITY 1432 1444	более 46 млн
+T59	MONEY 1432 1448	более 46 млн руб
+T58	PENALTY 1384 1449	наложил арест на имущество обвиняемого на сумму более 46 млн руб.

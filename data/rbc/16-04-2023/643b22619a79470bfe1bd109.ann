@@ -1,0 +1,92 @@
+T0	PERSON 0 5	Путин
+T1	PROFESSION 8 16	патриарх
+T2	PERSON 17 23	Кирилл
+T5	PROFESSION 74 83	Президент
+T6	COUNTRY 84 90	России
+T7	PERSON 91 105	Владимир Путин
+T9	CITY 117 127	Московский
+T11	COUNTRY 135 139	Руси
+T12	PERSON 140 146	Кирилл
+T18	PRODUCT 220 235	пасхальные яйца
+T19	NEWS_SOURCE 237 259	сообщает «РИА Новости»
+T20	ORGANIZATION 247 259	РИА Новости»
+T21	PERSON 261 266	Путин
+T22	PROFESSION 269 274	глава
+T23	FAC 275 302	Русской православной церкви
+T27	DATE 357 368	В 2017 году
+T28	PROFESSION 369 386	глава государства
+T29	PROFESSION 407 416	патриарху
+T31	CITY 430 444	златоустовских
+T32	PROFESSION 445 453	мастеров
+T33	COMMODITY 457 463	латуни
+T34	COMMODITY 465 471	золота
+T35	COMMODITY 474 484	хризолитов
+T36	DATE 486 502	В следующем году
+T37	PERSON 503 508	Путин
+T41	CITY 588 597	Златоусте
+T42	REGION 601 611	уральского
+T47	PERSON 756 762	Кирилл
+T48	PERSON 781 787	Путину
+T50	PROFESSION 816 825	Президент
+T55	TIME 939 943	ночь
+T56	PROFESSION 944 952	патриарх
+T57	PERSON 953 959	Кирилл
+T58	PERSON 1013 1020	Путиным
+T59	PROFESSION 1050 1053	мэр
+T60	CITY 1054 1060	Москвы
+T61	PERSON 1061 1075	Сергей Собянин
+T64	PERSON 1111 1125	Дмитрий Песков
+T67	PERSON 1150 1156	Путина
+T69	NORP 1228 1236	христиан
+R1	WORKS_AS Arg1:T2 Arg2:T1	
+T3	PRODUCT 57 72	пасхальные яйца
+T4	EVENT 24 72	преподнесли друг другу в подарок пасхальные яйца
+R2	EVENT_TAKES_PART_IN Arg1:T2 Arg2:T4	
+R3	EVENT_TAKES_PART_IN Arg1:T0 Arg2:T4	
+T10	EVENT 156 174	праздничной службы
+T13	FAC 177 199	храме Христа Спасителя
+T8	PROFESSION 108 139	патриарх Московский и всея Руси
+R4	WORKS_AS Arg1:T7 Arg2:T5	
+R5	WORKPLACE Arg1:T7 Arg2:T6	
+R6	WORKS_AS Arg1:T12 Arg2:T8	
+R7	TAKES_PLACE_IN Arg1:T10 Arg2:T13	
+R8	EVENT_TAKES_PART_IN Arg1:T7 Arg2:T10	
+R9	EVENT_TAKES_PART_IN Arg1:T12 Arg2:T10	
+T14	NORP 275 282	Русской
+T15	NORP 283 295	православной
+T16	PRODUCT 337 355	пасхальные подарки
+T17	ORDINAL 303 314	не в первый
+T24	PRODUCT 417 429	яйцо «Собор»
+R10	WORKPLACE Arg1:T32 Arg2:T31	
+T25	PRODUCT 517 544	яйцо «Воскресение Христово»
+T26	CARDINAL 562 574	единственном
+T30	FAC 620 646	Таганайского месторождения
+T38	COMMODITY 612 619	нефрита
+T39	PROFESSION 747 755	Патриарх
+T40	PRODUCT 798 813	пасхальные яйца
+R11	USES Arg1:T37 Arg2:T25	
+R12	OWNERSHIP Arg1:T42 Arg2:T41	
+R13	WORKS_AS Arg1:T47 Arg2:T39	
+T43	FAC 836 857	храм Христа Спасителя
+T44	EVENT 860 879	пасхальной заутрене
+R14	EVENT_TAKES_PART_IN Arg1:T47 Arg2:T44	
+R15	EVENT_TAKES_PART_IN Arg1:T48 Arg2:T44	
+T45	EVENT 910 924	крестного хода
+R16	EVENT_TAKES_PART_IN Arg1:T47 Arg2:T45	
+R17	WORKS_AS Arg1:T57 Arg2:T56	
+T46	EVENT 928 943	пасхальную ночь
+T49	EVENT 960 1002	совершает заутреню и божественную литургию
+R18	ORGANIZES Arg1:T57 Arg2:T49	
+T51	EVENT 1021 1036	на богослужении
+R19	WORKPLACE Arg1:T61 Arg2:T60	
+R20	WORKS_AS Arg1:T61 Arg2:T59	
+R21	EVENT_TAKES_PART_IN Arg1:T58 Arg2:T51	
+R22	EVENT_TAKES_PART_IN Arg1:T61 Arg2:T51	
+R23	ORGANIZES Arg1:T57 Arg2:T51	
+T52	PROFESSION 1077 1092	Пресс-секретарь
+T53	PROFESSION 1093 1110	главы государства
+R24	WORKS_AS Arg1:T58 Arg2:T53	
+R25	WORKS_AS Arg1:T64 Arg2:T52	
+R26	SUBORDINATE_OF Arg1:T53 Arg2:T52	
+T54	NEWS_SOURCE 1077 1133	Пресс-секретарь главы государства Дмитрий Песков сообщал
+T62	PRODUCT 1163 1195	традиционные пасхальные угощения

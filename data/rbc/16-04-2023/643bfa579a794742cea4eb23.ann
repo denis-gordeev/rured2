@@ -1,0 +1,68 @@
+T1	PERSON 0 7	Кадыров
+T4	CITY 58 69	Белогоровке
+T7	DATE 94 117	на протяжении пяти дней
+T8	COUNTRY 133 143	украинских
+T9	PROFESSION 144 151	военных
+T10	CITY 192 203	Белогоровка
+T13	PROFESSION 239 244	глава
+T14	REGION 245 250	Чечни
+T19	CITY 407 418	Белогоровки
+T20	DATE 420 430	Пять суток
+T21	CARDINAL 466 470	одну
+T22	NEWS_SOURCE 524 538	заявил Кадыров
+T28	PERSON 614 619	Малой
+T32	NEWS_SOURCE 858 876	подчеркнул Кадыров
+T33	PERSON 869 876	Кадыров
+T34	PERSON 890 899	Алаудинов
+T35	GROUP 906 912	бойцов
+T36	PERSON 995 1002	Кадыров
+T37	ORGANIZATION 1031 1046	Вооруженных сил
+T38	COUNTRY 1047 1054	Украины
+T40	NEWS_SOURCE 1109 1122	По его словам
+T41	COUNTRY 1148 1158	украинских
+T42	PROFESSION 1159 1166	военных
+T43	COUNTRY 1176 1186	российские
+T44	WEAPON 1187 1192	дроны
+T45	COUNTRY 1208 1218	украинским
+T46	PROFESSION 1219 1226	военным
+T47	WEAPON 1247 1256	минометов
+T48	CARDINAL 1290 1293	два
+T49	CARDINAL 1302 1306	одну
+T52	ORGANIZATION 1341 1345	НАТО
+T2	GROUP 27 42	бойцов «Ахмата»
+T3	NEWS_SOURCE 0 17	Кадыров рассказал
+T5	GROUP 71 93	Бойцы спецназа «Ахмат»
+R1	WORKPLACE Arg1:T9 Arg2:T8	
+T6	REGION 204 221	Луганской области
+R2	OWNERSHIP Arg1:T6 Arg2:T10	
+T11	PERSON 251 265	Рамзан Кадыров
+R3	WORKPLACE Arg1:T11 Arg2:T14	
+R4	WORKS_AS Arg1:T11 Arg2:T13	
+T12	NEWS_SOURCE 231 289	сообщил глава Чечни Рамзан Кадыров в своем телеграм-канале
+T15	GROUP 331 354	бойцов спецназа «Ахмат»
+T16	CARDINAL 385 390	одном
+T17	FAC 391 397	здании
+R5	HEADQUARTERED_IN Arg1:T17 Arg2:T19	
+T18	PERSON 531 538	Кадыров
+T24	PERSON 570 585	Апты Алаудинова
+T23	PROFESSION 551 569	командира спецназа
+T25	PROFESSION 587 602	командир группы
+R6	WORKS_AS Arg1:T24 Arg2:T23	
+T26	NEWS_SOURCE 541 585	По словам командира спецназа Апты Алаудинова
+R7	WORKS_AS Arg1:T28 Arg2:T25	
+T27	PROFESSION 681 694	артиллеристов
+T59	EVENT 620 640	вызвал огонь на себя
+R8	ORGANIZES Arg1:T28 Arg2:T59	
+T60	GROUP 720 726	бойцов
+T29	GROUP 750 764	бойцы «Ахмата»
+T30	FAC 951 960	госпиталь
+R9	HEADQUARTERED_IN Arg1:T37 Arg2:T38	
+T31	CITY 1058 1069	запорожском
+T39	GROUP 1082 1107	батальоном «Восток-Ахмат»
+T53	LOCATION 1058 1081	запорожском направлении
+T61	NEWS_SOURCE 995 1010	Кадыров сообщал
+R10	WORKPLACE Arg1:T42 Arg2:T41	
+R11	WORKPLACE Arg1:T46 Arg2:T45	
+T62	ORGANIZATION 1277 1280	ВСУ
+T63	WEAPON 1294 1299	танка
+T50	WEAPON 1307 1327	боевую машину пехоты

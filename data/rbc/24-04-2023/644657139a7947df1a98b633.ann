@@ -1,0 +1,74 @@
+T0	PERSON 0 8	Силуанов
+T1	NEWS_SOURCE 0 15	Силуанов заявил
+T2	ORGANIZATION 21 23	ЕС
+T3	ORGANIZATION 72 80	Евросоюз
+T4	COUNTRY 143 149	России
+T5	PROFESSION 163 168	глава
+T6	ORGANIZATION 169 176	Минфина
+T8	PERSON 177 191	Антон Силуанов
+T13	DATE 290 301	сегодняшнюю
+T14	ORGANIZATION 306 308	ЕС
+T15	COUNTRY 404 410	России
+T16	NEWS_SOURCE 415 429	сказал министр
+T17	PROFESSION 422 429	министр
+T19	ORDINAL 464 470	первой
+T20	NEWS_SOURCE 687 703	отметил Силуанов
+T21	PERSON 695 703	Силуанов
+T22	COUNTRY 828 834	России
+T23	DATE 899 907	В январе
+T24	PERSON 908 916	Силуанов
+T26	COUNTRY 930 940	российская
+T27	ORGANIZATION 973 981	западные
+T28	DATE 995 1010	в мае 2022 года
+T31	ORDINAL 1026 1032	первый
+T32	GPE 1040 1048	западных
+T33	COUNTRY 1061 1071	российской
+T34	GPE 1090 1098	Брюссель
+T35	COUNTRY 1138 1148	российскую
+T36	COUNTRY 1169 1176	Украине
+T37	ORGANIZATION 1215 1224	Евросоюзе
+T38	DATE 1233 1254	с конца прошлого года
+T40	COUNTRY 1262 1271	литовский
+T42	PROFESSION 1272 1284	еврокомиссар
+T43	PERSON 1285 1305	Вингиниюс Синкявичюс
+T45	PROFESSION 1408 1413	глава
+T46	ORGANIZATION 1414 1424	Евросовета
+T47	PERSON 1425 1437	Шарль Мишель
+T48	ORGANIZATION 1439 1454	Financial Times
+T49	DATE 1455 1463	в апреле
+T50	ORGANIZATION 1567 1569	ЕС
+T51	COUNTRY 1579 1589	российской
+T53	NEWS_SOURCE 1682 1707	сказал собеседник издания
+T54	GPE 1717 1728	европейских
+T56	PROFESSION 1729 1739	чиновников
+R1	WORKS_AS Arg1:T8 Arg2:T5	
+R2	WORKPLACE Arg1:T8 Arg2:T6	
+T7	EVENT 205 222	марафоне «Знание»
+R3	EVENT_TAKES_PART_IN Arg1:T8 Arg2:T7	
+T9	NEWS_SOURCE 156 222	заявил глава Минфина Антон Силуанов, выступая на марафоне «Знание»
+T10	GROUP 241 268	группе «Знания» «ВКонтакте»
+T11	NEWS_SOURCE 224 268	Трансляция шла в группе «Знания» «ВКонтакте»
+T12	NEWS_SOURCE 325 340	Как они говорят
+T18	NEWS_SOURCE 432 442	Он добавил
+T64	GROUP 539 556	[развитые] страны
+T65	GROUP 598 631	страны с развивающейся экономикой
+T66	NEWS_SOURCE 810 820	Он заверил
+T25	NEWS_SOURCE 899 924	В январе Силуанов говорил
+T67	PENALTY 982 989	санкции
+R4	WORKS_AS Arg1:T47 Arg2:T45	
+R5	WORKPLACE Arg1:T47 Arg2:T46	
+T57	PENALTY 1476 1497	международные санкции
+T58	NEWS_SOURCE 1439 1470	Financial Times в апреле писала
+T59	CARDINAL 1540 1545	одной
+T52	ORGANIZATION 1700 1707	издания
+R6	WORKPLACE Arg1:T56 Arg2:T54	
+R7	WORKS_AS Arg1:T43 Arg2:T42	
+T29	PENALTY 1049 1056	санкций
+T30	NEWS_SOURCE 991 1020	Еще в мае 2022 года он заявил
+T39	CARDINAL 1104 1110	десять
+T41	PENALTY 1099 1126	ввел десять пакетов санкций
+T44	EVENT 1149 1165	военную операцию
+R8	TAKES_PLACE_IN Arg1:T44 Arg2:T36	
+R9	TAKES_PLACE_IN Arg1:T41 Arg2:T35	
+T55	NEWS_SOURCE 1262 1312	литовский еврокомиссар Вингиниюс Синкявичюс сказал
+T60	PENALTY 1346 1353	санкции

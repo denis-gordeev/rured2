@@ -1,0 +1,55 @@
+T0	PERSON 0 6	Песков
+T1	NEWS_SOURCE 0 13	Песков заявил
+T2	ECONOMIC_SECTOR 34 41	подрыве
+T3	CRIME 34 41	подрыве
+T4	PRODUCT 42 52	автомобиля
+T5	FAC 42 52	автомобиля
+T6	GPE 66 72	Кремле
+T7	ECONOMIC_SECTOR 84 91	подрыве
+T8	CRIME 84 91	подрыве
+T9	PRODUCT 92 102	автомобиля
+T10	FAC 92 102	автомобиля
+T11	PROFESSION 103 111	писателя
+T12	NEWS_SOURCE 112 118	Захара
+T13	PERSON 112 128	Захара Прилепина
+T14	PROFESSION 146 172	пресс-секретарь президента
+T15	NEWS_SOURCE 138 187	сообщил пресс-секретарь президента Дмитрий Песков
+T16	PERSON 173 187	Дмитрий Песков
+T17	NEWS_SOURCE 189 221	его слова передают «РИА Новости»
+T18	ORGANIZATION 209 221	РИА Новости»
+T19	PERSON 223 229	Песков
+T20	NEWS_SOURCE 223 237	Песков отметил
+T21	GROUP 280 306	правоохранительных органов
+T22	EVENT 338 347	покушение
+T23	CRIME 338 347	покушение
+T24	DATE 363 368	6 мая
+T25	REGION 380 390	Новгородом
+T26	FAC 401 411	автомобиль
+T27	ORGANIZATION 412 419	Audi Q7
+T28	PROFESSION 436 444	писатель
+T29	CARDINAL 447 451	один
+T30	PROFESSION 455 468	руководителей
+T31	GROUP 455 468	руководителей
+T32	REGION 490 496	Россия
+T33	PERSON 498 503	Захар
+T34	NEWS_SOURCE 514 519	Пресс
+T35	PROFESSION 514 519	Пресс
+T36	PROFESSION 520 565	секретарь писателя и губернатор Нижегородской
+T37	NEWS_SOURCE 530 582	писателя и губернатор Нижегородской области сообщили
+T38	NEWS_SOURCE 610 622	Источник РБК
+T39	ORGANIZATION 619 622	РБК
+T40	NEWS_SOURCE 634 637	МВД
+T41	ORGANIZATION 634 637	МВД
+T42	NEWS_SOURCE 639 648	рассказал
+T43	CITY 771 777	Москву
+T44	GPE 771 777	Москву
+T45	GPE 781 789	Донбасса
+T46	PRODUCT 852 868	капот автомобиля
+T47	ORGANIZATION 870 890	Следственный комитет
+T48	NEWS_SOURCE 883 898	комитет сообщил
+T49	GROUP 904 915	специалисты
+T50	ORGANIZATION 916 918	СК
+T51	CARDINAL 1009 1033	645627e59a7947f5e397d414
+T52	PERSON 1035 1038	Sat
+T53	CARDINAL 1047 1054	2023 13
+T54	CARDINAL 1055 1057	45

@@ -1,0 +1,46 @@
+T0	PERSON 0 7	Блинкен
+T1	PERSON 17 24	Лаврову
+T2	PROFESSION 26 38	Госсекретарь
+T4	COUNTRY 39 42	США
+T5	PERSON 43 57	Энтони Блинкен
+T6	PROFESSION 81 87	главой
+T7	ORGANIZATION 88 92	МИДа
+T8	PERSON 93 109	Сергеем Лавровым
+T9	CITY 137 150	Екатеринбурге
+T10	PROFESSION 151 161	журналиста
+T11	ORGANIZATION 162 185	The Wall Street Journal
+T13	PERSON 186 202	Эвана Гершковича
+T15	COUNTRY 215 225	российском
+T16	ORGANIZATION 226 235	ведомстве
+T18	PERSON 237 243	Лавров
+T19	NEWS_SOURCE 237 250	Лавров заявил
+T20	COUNTRY 267 279	американской
+T22	GROUP 304 311	властей
+T23	COUNTRY 312 318	России
+T24	GPE 363 371	западных
+T25	PROFESSION 372 382	чиновников
+T26	GROUP 385 388	СМИ
+T27	NEWS_SOURCE 390 408	По словам министра
+T28	PROFESSION 400 408	министра
+T30	PROFESSION 410 419	репортера
+T34	PERSON 535 543	Блинкена
+T35	COUNTRY 546 556	российском
+T36	ORGANIZATION 557 561	МИДе
+R1	WORKS_AS Arg1:T5 Arg2:T2	
+R2	WORKPLACE Arg1:T5 Arg2:T4	
+T3	EVENT 58 78	связался по телефону
+R3	ORGANIZES Arg1:T5 Arg2:T3	
+R4	EVENT_TAKES_PART_IN Arg1:T8 Arg2:T3	
+R5	WORKS_AS Arg1:T8 Arg2:T6	
+R6	WORKPLACE Arg1:T8 Arg2:T7	
+R7	WORKPLACE Arg1:T10 Arg2:T11	
+R8	WORKPLACE Arg1:T13 Arg2:T11	
+R9	HEADQUARTERED_IN Arg1:T16 Arg2:T15	
+T12	NEWS_SOURCE 204 235	сообщили в российском ведомстве
+R10	WORKPLACE Arg1:T22 Arg2:T23	
+R11	WORKPLACE Arg1:T25 Arg2:T24	
+T14	CRIME 442 525	попытке получения секретных сведений», причем данные касались государственной тайны
+R12	CONVICTED_OF Arg1:T30 Arg2:T14	
+R13	OWNERSHIP Arg1:T35 Arg2:T36	
+T17	CARDINAL 639 652	двустороннего
+T21	NEWS_SOURCE 667 688	говорится в сообщении

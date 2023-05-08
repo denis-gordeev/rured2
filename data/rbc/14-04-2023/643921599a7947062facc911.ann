@@ -1,0 +1,73 @@
+T0	GPE 0 6	Кремль
+T1	ORGANIZATION 62 77	НАТО
+
+Внезапная
+T3	ORGANIZATION 87 107	Тихоокеанского флота
+T4	DATE 119 128	14 апреля
+T5	PROFESSION 137 152	министр обороны
+T6	NEWS_SOURCE 129 165	объявил министр обороны Сергей Шойгу
+T7	PERSON 153 165	Сергей Шойгу
+T8	ORGANIZATION 211 216	армии
+T14	PERSON 265 279	Дмитрий Песков
+T15	DATE 304 321	За последние годы
+T16	ORGANIZATION 398 414	Вооруженных сил»
+T17	ORGANIZATION 489 493	НАТО
+T18	ORGANIZATION 532 538	альянс
+T19	COUNTRY 539 545	Японии
+T20	GROUP 555 560	стран
+T21	LOCATION 561 592	Азиатско-Тихоокеанского региона
+T22	PERSON 594 600	Песков
+T23	ORGANIZATION 628 646	Тихоокеанский флот
+T25	PERSON 891 896	Шойгу
+T26	ORGANIZATION 945 960	Вооруженных сил
+T31	LOCATION 1135 1166	южной части Курильских островов
+T32	REGION 1179 1187	Сахалине
+T35	PERSON 1219 1236	Валерий Герасимов
+T40	DATE 1331 1351	В начале этой недели
+T41	COUNTRY 1352 1355	США
+T42	COUNTRY 1358 1367	Филиппины
+T50	EVENT 1468 1474	учения
+T55	ORGANIZATION 1519 1535	Вооруженные силы
+T56	COUNTRY 1536 1541	Китая
+T65	ORGANIZATION 62 66	НАТО
+T66	ORGANIZATION 42 47	флота
+T2	EVENT 68 86	Внезапная проверка
+R1	WORKS_AS Arg1:T7 Arg2:T5	
+R2	DATE_TAKES_PLACE_ON Arg1:T2 Arg2:T4	
+R3	TAKES_PLACE_IN Arg1:T2 Arg2:T3	
+T10	LOCATION 1395 1407	Тихом океане
+T43	EVENT 1375 1392	совместные учения
+R4	EVENT_TAKES_PART_IN Arg1:T41 Arg2:T43	
+R5	EVENT_TAKES_PART_IN Arg1:T42 Arg2:T43	
+R6	DATE_TAKES_PLACE_ON Arg1:T43 Arg2:T40	
+T44	QUANTITY 1437 1451	более 17,5 тыс
+T45	LOCATION 1475 1510	в водах недалеко от острова Тайвань
+R7	OWNERSHIP Arg1:T56 Arg2:T55	
+R8	ORGANIZES Arg1:T56 Arg2:T50	
+T46	NEWS_SOURCE 0 24	Кремль ответил на вопрос
+T9	PROFESSION 226 237	журналистам
+T11	PROFESSION 238 253	пресс-секретарь
+T12	PROFESSION 254 264	президента
+R9	SUBORDINATE_OF Arg1:T12 Arg2:T11	
+R10	WORKS_AS Arg1:T14 Arg2:T11	
+T13	NEWS_SOURCE 418 427	сказал он
+T47	ORGANIZATION 469 474	флота
+T48	NEWS_SOURCE 594 608	Песков ответил
+T49	EVENT 716 755	приведен в высшую степень боеготовности
+R11	TAKES_PLACE_IN Arg1:T49 Arg2:T23	
+T24	NEWS_SOURCE 882 896	объяснил Шойгу
+T27	LOCATION 1019 1052	с океанских и морских направлений
+T28	NEWS_SOURCE 1055 1065	Он уточнил
+T29	PROFESSION 1125 1132	десанта
+T30	WEAPON 1299 1302	ПВО
+T33	WEAPON 1304 1311	авиация
+T34	WEAPON 1314 1329	подводные лодки
+T36	ORGANIZATION 1200 1218	Генерального штаба
+T37	PROFESSION 1190 1199	Начальник
+R12	WORKPLACE Arg1:T37 Arg2:T36	
+R13	WORKS_AS Arg1:T35 Arg2:T37	
+T38	NEWS_SOURCE 1190 1259	Начальник Генерального штаба Валерий Герасимов в свою очередь отметил
+T39	EVENT 1265 1274	в учениях
+T51	PROFESSION 757 771	Военнослужащие
+T52	WEAPON 791 798	акетные
+T53	WEAPON 808 835	корабельным ударным группам

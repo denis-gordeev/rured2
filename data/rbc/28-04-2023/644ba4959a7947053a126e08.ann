@@ -1,0 +1,54 @@
+T0	PERSON 47 57	Пономарева
+T1	PERSON 60 67	Гудкова
+T2	ORGANIZATION 69 83	Генпрокуратура
+T4	COUNTRY 165 175	российских
+T5	PROFESSION 176 185	депутатов
+T11	COUNTRY 253 259	России
+T12	ORGANIZATION 273 282	Ведомство
+T14	COUNTRY 366 372	России
+T15	PERSON 381 391	Пономарева
+T16	EVENT 408 414	съезда
+T17	PROFESSION 441 457	экс-депутат Думы
+T18	PERSON 458 473	Геннадий Гудков
+T19	PROFESSION 497 504	адвокат
+T20	PERSON 505 516	Марк Фейгин
+T21	ORDINAL 539 545	Первый
+T22	DATE 559 577	в ноябре 2022 года
+T23	COUNTRY 580 586	Польше
+T24	PERSON 588 597	Пономарев
+T25	PERSON 600 606	Гудков
+T27	COUNTRY 645 665	Российской Федерации
+T29	ORGANIZATION 717 728	прокуратуре
+T34	ORGANIZATION 0 11	Прокуратура
+T35	EVENT 12 46	признала нежелательной организацию
+R1	EVENT_TAKES_PART_IN Arg1:T0 Arg2:T35	
+R2	EVENT_TAKES_PART_IN Arg1:T1 Arg2:T35	
+R3	ORGANIZES Arg1:T34 Arg2:T35	
+T26	NEWS_SOURCE 707 728	заявили в прокуратуре
+T28	CRIME 608 665	отрицают территориальную целостность Российской Федерации
+T30	CRIME 667 704	выступают с сепаратистскими лозунгами
+R4	EVENT_TAKES_PART_IN Arg1:T24 Arg2:T28	
+R5	EVENT_TAKES_PART_IN Arg1:T25 Arg2:T28	
+R6	EVENT_TAKES_PART_IN Arg1:T24 Arg2:T30	
+R7	EVENT_TAKES_PART_IN Arg1:T24 Arg2:T30	
+T31	EVENT 539 551	Первый съезд
+R8	TAKES_PLACE_IN Arg1:T31 Arg2:T23	
+R9	DATE_TAKES_PLACE_ON Arg1:T31 Arg2:T22	
+R10	WORKS_AS Arg1:T18 Arg2:T17	
+R11	WORKS_AS Arg1:T20 Arg2:T19	
+R12	EVENT_TAKES_PART_IN Arg1:T18 Arg2:T16	
+R13	EVENT_TAKES_PART_IN Arg1:T20 Arg2:T16	
+R14	EVENT_TAKES_PART_IN Arg1:T15 Arg2:T16	
+T3	ORGANIZATION 107 146	организацией «Съезд народных депутатов»
+R15	WORKPLACE Arg1:T5 Arg2:T4	
+T6	PERSON 224 241	Ильей Пономаревым
+T7	ORGANIZATION 219 223	Думы
+T8	PROFESSION 202 218	бывшим депутатом
+R16	WORKS_AS Arg1:T6 Arg2:T8	
+R17	WORKPLACE Arg1:T8 Arg2:T7	
+T9	EVENT 84 106	признала нежелательной
+R18	ORGANIZES Arg1:T2 Arg2:T9	
+R19	TAKES_PLACE_IN Arg1:T9 Arg2:T3	
+T10	NEWS_SOURCE 273 288	Ведомство сочло
+T32	EVENT 294 299	съезд
+T13	CRIME 300 372	представляет угрозу основам конституционного строя и безопасности России

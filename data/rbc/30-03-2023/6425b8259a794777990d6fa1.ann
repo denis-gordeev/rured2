@@ -1,0 +1,68 @@
+T2	QUANTITY 21 27	35 тыс
+T3	CARDINAL 71 77	восьми
+T4	CARDINAL 88 92	трех
+T6	QUANTITY 120 126	35 тыс
+T7	COMMODITY 149 162	электричества
+T10	PROFESSION 219 229	губернатор
+T15	DATE 301 315	круглосуточном
+T16	CARDINAL 343 346	343
+T17	QUANTITY 368 372	1244
+T20	PRODUCT 394 401	техники
+T24	NEWS_SOURCE 455 469	заявил Голубев
+T25	PERSON 462 469	Голубев
+T26	PROFESSION 481 492	губернатора
+T30	EVENT 590 593	ДТП
+T32	FAC 676 692	дорожной техники
+T33	PROFESSION 712 722	синоптиков
+T36	ORGANIZATION 899 902	МЧС
+T42	CARDINAL 1023 1031	на 50 км
+T47	ORGANIZATION 1083 1088	ГИБДД
+T54	FAC 1179 1185	трассы
+T55	PROFESSION 1187 1197	Сотрудники
+T56	ORGANIZATION 1198 1211	автоинспекции
+T57	FAC 1232 1244	большегрузов
+T66	CARDINAL 1424 1426	18
+T67	REGION 1443 1461	Ростовской области
+T73	CARDINAL 1589 1618	6425b8259a794777990d6fa1
+
+Thu
+T1	REGION 0 20	В Ростовской области
+T80	GROUP 29 36	жителей
+T5	REGION 101 119	Ростовской области
+T81	GROUP 128 135	жителей
+T8	PERSON 230 245	Василий Голубев
+R1	WORKS_AS Arg1:T8 Arg2:T10	
+T9	NEWS_SOURCE 211 269	сообщил губернатор Василий Голубев в своем телеграм-канале
+T11	GROUP 347 364	аварийных бригады
+T12	CARDINAL 383 386	640
+T13	TIME 440 450	каждый час
+R2	WORKS_AS Arg1:T25 Arg2:T26	
+T14	NEWS_SOURCE 471 492	По словам губернатора
+T18	FAC 530 549	на трассе М-4 «Дон»
+R3	TAKES_PLACE_IN Arg1:T30 Arg2:T18	
+T19	CARDINAL 658 660	36
+T21	GROUP 751 759	оперштаб
+T22	EVENT 812 832	экстренном заседании
+R4	ORGANIZES Arg1:T21 Arg2:T22	
+T23	FAC 924 949	пункты обогрева для людей
+R5	USES Arg1:T36 Arg2:T23	
+T27	TIME 1464 1469	ночью
+T28	DATE 1470 1478	31 марта
+T29	REGION 962 980	Ростовской области
+T31	LOCATION 952 961	На севере
+T34	FAC 991 1001	трассе М-4
+T35	NEWS_SOURCE 1033 1049	сообщает 161.ru.
+T37	EVENT 981 1032	пробка на трассе М-4 растянулась примерно на 50 км,
+R6	TAKES_PLACE_IN Arg1:T37 Arg2:T29	
+T38	ORGANIZATION 1050 1057	Издание
+T39	NEWS_SOURCE 1050 1094	Издание со ссылкой на управление ГИБДД пишет
+T40	ORDINAL 1153 1158	921-м
+T41	ORDINAL 1161 1166	953-м
+R7	WORKPLACE Arg1:T55 Arg2:T56	
+T43	ORGANIZATION 1328 1342	Гидрометцентра
+T44	NEWS_SOURCE 1310 1342	Согласно прогнозу Гидрометцентра
+T45	EVENT 1344 1430	сильные осадки (дождь и мокрый снег), сильное налипание мокрого снега, ветер до 18 м/с
+R8	TAKES_PLACE_IN Arg1:T45 Arg2:T67	
+R9	DATE_TAKES_PLACE_ON Arg1:T45 Arg2:T28	
+T46	DATE 1480 1505	С этой даты и до 2 апреля
+T48	LOCATION 1506 1530	в южной половине региона

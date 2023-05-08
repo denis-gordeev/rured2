@@ -1,0 +1,89 @@
+T0	WEAPON 20 33	беспилотников
+T2	FAC 37 43	Кремль
+T4	PERSON 78 96	Владимиром Путиным
+T5	PROFESSION 97 106	президент
+T6	COUNTRY 107 116	Венесуэлы
+T8	DATE 139 148	вчерашнюю
+T10	WEAPON 155 168	беспилотников
+T12	FAC 172 178	Кремль
+T14	COUNTRY 199 210	российского
+T16	PROFESSION 211 221	президента
+T19	COUNTRY 270 278	киевским
+T20	FAC 325 331	Кремля
+T23	COUNTRY 394 403	Венесуэлы
+T24	COUNTRY 437 443	России
+T25	NEWS_SOURCE 448 467	указано в сообщении
+T26	CARDINAL 497 509	двусторонние
+T33	CARDINAL 680 684	двух
+T34	WEAPON 685 698	беспилотников
+T37	FAC 702 708	Кремль
+T40	CARDINAL 796 800	один
+T41	WEAPON 804 810	дронов
+T45	PERSON 867 873	Путина
+T46	FAC 891 897	Кремле
+T49	NEWS_SOURCE 907 962	заявил пресс-секретарь главы государства Дмитрий Песков
+T50	PERSON 948 962	Дмитрий Песков
+T51	GPE 964 970	Москва
+T52	GPE 988 992	Киев
+T53	PROFESSION 994 1003	Президент
+T54	COUNTRY 1004 1011	Украины
+T55	PERSON 1012 1030	Владимир Зеленский
+T56	DATE 1049 1054	4 мая
+T57	PERSON 1055 1061	Песков
+T59	COUNTRY 1096 1099	США
+T61	GPE 1165 1170	Киеве
+T62	GPE 1176 1186	Вашингтоне
+T64	GPE 1221 1225	Киев
+T66	GPE 1229 1238	Вашингтон
+T67	NEWS_SOURCE 1243 1252	сказал он
+T71	ORGANIZATION 1323 1334	Белого дома
+T72	PERSON 1335 1345	Джон Кирби
+T74	COUNTRY 1359 1376	Соединенные Штаты
+T83	PERSON 0 6	Мадуро
+T1	NEWS_SOURCE 1049 1068	4 мая Песков заявил
+T58	EVENT 1123 1147	решение о таких терактах
+R1	TAKES_PLACE_IN Arg1:T58 Arg2:T62	
+R2	WORKPLACE Arg1:T72 Arg2:T71	
+R3	WORKPLACE Arg1:T72 Arg2:T74	
+R4	HEADQUARTERED_IN Arg1:T71 Arg2:T74	
+T60	PROFESSION 1254 1322	Координатор по стратегическим коммуникациям в Совете нацбезопасности
+R5	WORKS_AS Arg1:T72 Arg2:T60	
+T63	EVENT 1031 1047	отверг обвинения
+R6	EVENT_TAKES_PART_IN Arg1:T55 Arg2:T63	
+R7	WORKPLACE Arg1:T55 Arg2:T54	
+R8	WORKS_AS Arg1:T55 Arg2:T53	
+T65	EVENT 7 43	осудил атаку беспилотников на Кремль
+R9	ORGANIZES Arg1:T83 Arg2:T65	
+T3	EVENT 45 75	Во время телефонного разговора
+R10	EVENT_TAKES_PART_IN Arg1:T4 Arg2:T3	
+T7	PERSON 117 131	Николас Мадуро
+R11	WORKPLACE Arg1:T16 Arg2:T14	
+T11	NEWS_SOURCE 180 221	говорится на сайте российского президента
+R12	EVENT_TAKES_PART_IN Arg1:T7 Arg2:T3	
+R13	WORKPLACE Arg1:T7 Arg2:T6	
+R14	WORKS_AS Arg1:T7 Arg2:T5	
+T9	NEWS_SOURCE 97 178	президент Венесуэлы Николас Мадуро осудил вчерашнюю атаку беспилотников на Кремль
+T13	PERSON 224 238	Николас Мадуро
+T15	WEAPON 332 368	беспилотными летательными аппаратами
+R15	WORKPLACE Arg1:T13 Arg2:T23	
+T17	GROUP 470 481	Собеседники
+T18	ECONOMIC_SECTOR 562 583	торгово-экономической
+T21	ECONOMIC_SECTOR 585 599	энергетической
+T22	ECONOMIC_SECTOR 602 623	гуманитарной областях
+T27	TIME 625 629	Днем
+T28	DATE 630 635	3 мая
+T29	FAC 649 655	Кремля
+T30	ORGANIZATION 636 648	пресс-служба
+T31	TIME 667 673	ночной
+T32	NEWS_SOURCE 636 708	пресс-служба Кремля сообщила о ночной атаке двух беспилотников на Кремль
+T35	PROFESSION 710 717	Военные
+T36	GROUP 720 730	спецслужбы
+T38	EVENT 731 749	вывели их из строя
+R16	EVENT_TAKES_PART_IN Arg1:T36 Arg2:T38	
+R17	DATE_TAKES_PLACE_ON Arg1:T38 Arg2:T28	
+T39	NEWS_SOURCE 751 790	На кадрах с камер видеонаблюдения видно
+T42	FAC 829 846	Сенатского дворца
+T43	PROFESSION 914 929	пресс-секретарь
+T44	PROFESSION 930 947	главы государства
+R18	SUBORDINATE_OF Arg1:T44 Arg2:T43	
+R19	WORKS_AS Arg1:T50 Arg2:T43	

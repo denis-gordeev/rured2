@@ -1,0 +1,77 @@
+T0	EVENT 27 33	взрыва
+T1	CITY 36 45	Белгороде
+T2	FAC 64 73	гостинице
+T4	CITY 116 125	Белгороде
+T5	FAC 126 131	домов
+T7	PROFESSION 186 189	мэр
+T9	PERSON 197 213	Валентин Демидов
+T10	NEWS_SOURCE 215 228	По его словам
+T11	VEHICLE 271 282	автомобилей
+T19	FAC 431 440	квартирах
+T24	PROFESSION 551 555	мэра
+T26	PROFESSION 638 648	губернатор
+T27	NEWS_SOURCE 617 665	сообщал белгородский губернатор Вячеслав Гладков
+T28	PERSON 649 665	Вячеслав Гладков
+T30	NEWS_SOURCE 667 690	По словам главы региона
+T31	EVENT 692 699	взрывом
+T32	FAC 716 736	линии электропередач
+T37	NEWS_SOURCE 859 873	По данным Baza
+T38	ORGANIZATION 869 873	Baza
+T39	FAC 896 900	доме
+T41	GROUP 940 947	жильцов
+T42	NEWS_SOURCE 962 980	По информации Mash
+T43	ORGANIZATION 976 980	Mash
+T44	GROUP 982 988	жители
+T45	CITY 989 998	Белгорода
+T46	EVENT 1037 1044	взрывом
+T53	NEWS_SOURCE 1170 1193	Baza опубликовала видео
+T61	GROUP 0 7	Жителей
+R1	TAKES_PLACE_IN Arg1:T0 Arg2:T1	
+R2	USES Arg1:T61 Arg2:T2	
+R3	HEADQUARTERED_IN Arg1:T2 Arg2:T1	
+T3	EVENT 107 113	взрыва
+T62	GROUP 80 87	жителям
+T63	FAC 167 176	гостиницу
+R4	TAKES_PLACE_IN Arg1:T3 Arg2:T4	
+R5	HEADQUARTERED_IN Arg1:T5 Arg2:T4	
+R6	HEADQUARTERED_IN Arg1:T63 Arg2:T4	
+R7	ORIGINS_FROM Arg1:T62 Arg2:T4	
+R8	WORKS_AS Arg1:T9 Arg2:T7	
+T6	NEWS_SOURCE 178 213	сообщил мэр города Валентин Демидов
+T8	EVENT 230 282	в результате взрыва повреждено несколько автомобилей
+T12	CARDINAL 314 324	около 20 м
+R9	TAKES_PLACE_IN Arg1:T8 Arg2:T4	
+T13	STREET 329 344	улице Шаландина
+R10	OWNERSHIP Arg1:T4 Arg2:T13	
+T14	NEWS_SOURCE 442 467	По предварительным данным
+T15	GROUP 524 542	оперативные службы
+T16	ORGANIZATION 579 615	управления региональной безопасности
+T17	PROFESSION 569 578	начальник
+R11	WORKPLACE Arg1:T17 Arg2:T16	
+T18	CITY 625 637	белгородский
+R12	WORKPLACE Arg1:T28 Arg2:T18	
+R13	WORKS_AS Arg1:T28 Arg2:T26	
+T20	PROFESSION 677 690	главы региона
+T21	ORGANIZATION 1170 1174	Baza
+T22	ORGANIZATION 1048 1063	телеграм-канале
+T23	ORGANIZATION 1066 1095	сообществе «Белгород Новости»
+T25	NEWS_SOURCE 1046 1101	В телеграм-канале и сообществе «Белгород Новости» пишут
+T29	EVENT 1221 1227	взрыва
+T47	FAC 1131 1151	магазина «Пятерочка»
+T48	VEHICLE 1162 1168	машину
+T33	NEWS_SOURCE 739 768	Местные телеграм-каналы пишут
+T34	EVENT 774 807	воронка после взрыва образовалась
+T35	WEAPON 931 938	снаряда
+T36	STREET 823 841	проспекта Ватутина
+T49	STREET 844 857	улицы Губкина
+R14	TAKES_PLACE_IN Arg1:T34 Arg2:T36	
+R15	TAKES_PLACE_IN Arg1:T34 Arg2:T49	
+T50	CARDINAL 877 882	одной
+T51	FAC 886 893	квартир
+T40	STREET 901 916	улице Шаландина
+T52	EVENT 940 960	жильцов эвакуировали
+R16	TAKES_PLACE_IN Arg1:T52 Arg2:T40	
+R17	ORIGINS_FROM Arg1:T44 Arg2:T45	
+R18	TAKES_PLACE_IN Arg1:T46 Arg2:T45	
+R19	HEADQUARTERED_IN Arg1:T47 Arg2:T45	
+R20	TAKES_PLACE_IN Arg1:T29 Arg2:T45	

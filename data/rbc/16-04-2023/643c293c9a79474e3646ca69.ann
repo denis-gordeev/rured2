@@ -1,0 +1,58 @@
+T2	FAC 44 70	птицефабрики
+
+Птицефабрика
+T5	CITY 92 103	Шебекинском
+T8	PROFESSION 171 181	губернатор
+T10	REGION 182 202	Белгородской области
+T11	PERSON 203 219	Вячеслав Гладков
+T17	FAC 272 278	здания
+T19	PROFESSION 298 309	Сотрудников
+T20	ORGANIZATION 310 321	предприятия
+T21	VEHICLE 406 416	автомобиль
+T22	PERSON 426 433	Гладков
+T23	NEWS_SOURCE 435 448	По его словам
+T25	DATE 525 549	в воскресенье, 16 апреля
+T27	COUNTRY 571 578	Украины
+T30	REGION 608 628	Белгородской области
+T31	FAC 649 658	жилой дом
+T32	CARDINAL 684 687	две
+T33	FAC 688 695	комнаты
+T34	NEWS_SOURCE 697 715	По словам Гладкова
+T35	PERSON 707 715	Гладкова
+T36	EVENT 788 804	великий праздник
+T37	DATE 806 815	16 апреля
+T38	NORP 816 828	православные
+T39	EVENT 838 843	Пасху
+T40	ORGANIZATION 847 850	РБК
+T41	PROFESSION 885 895	губернатор
+T1	REGION 0 12	Белгородский
+T50	PROFESSION 13 23	губернатор
+R1	WORKPLACE Arg1:T50 Arg2:T1	
+T51	NEWS_SOURCE 0 31	Белгородский губернатор сообщил
+T52	FAC 44 56	птицефабрики
+T53	EVENT 35 56	обстреле птицефабрики
+R2	TAKES_PLACE_IN Arg1:T53 Arg2:T1	
+T54	FAC 58 70	Птицефабрика
+T3	VILLAGE 73 89	Новой Таволжанке
+T4	EVENT 121 141	подверглась обстрелу
+R3	TAKES_PLACE_IN Arg1:T4 Arg2:T3	
+R4	HEADQUARTERED_IN Arg1:T54 Arg2:T3	
+R5	WORKPLACE Arg1:T8 Arg2:T10	
+R6	WORKS_AS Arg1:T11 Arg2:T8	
+T6	NEWS_SOURCE 163 243	сообщил губернатор Белгородской области Вячеслав Гладков в своем телеграм-канале
+R7	WORKPLACE Arg1:T19 Arg2:T20	
+T7	NEWS_SOURCE 359 369	написал он
+T9	WEAPON 383 391	снарядом
+T12	NEWS_SOURCE 418 433	добавил Гладков
+T13	GROUP 450 480	оперативные и аварийные службы
+T14	EVENT 551 559	обстрелу
+T15	VILLAGE 591 605	село Терезовка
+R8	OWNERSHIP Arg1:T30 Arg2:T15	
+R9	TAKES_PLACE_IN Arg1:T14 Arg2:T15	
+R10	DATE_TAKES_PLACE_ON Arg1:T14 Arg2:T25	
+R11	ORGANIZES Arg1:T27 Arg2:T14	
+T16	WEAPON 634 640	снаряд
+T18	FAC 864 872	кладбище
+T24	NEWS_SOURCE 877 895	написал губернатор
+R12	DATE_TAKES_PLACE_ON Arg1:T36 Arg2:T37	
+R13	DATE_TAKES_PLACE_ON Arg1:T39 Arg2:T37	

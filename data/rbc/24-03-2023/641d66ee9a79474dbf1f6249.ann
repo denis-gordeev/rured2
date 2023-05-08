@@ -1,42 +1,48 @@
 T0	NEWS_SOURCE 0 16	Старовойт заявил
-T1	ORGANIZATION 33 40	Плёхово
-T2	FAC 33 40	Плёхово
 T3	REGION 43 58	Курской области
-T4	REGION 62 77	Курской области
-T5	ECONOMIC_SECTOR 82 89	обстрел
-T6	FAC 97 101	село
-T7	REGION 102 109	Плёхово
-T8	ORGANIZATION 110 121	Суджанского
-T9	REGION 122 128	района
-T10	NEWS_SOURCE 138 180	в своем телеграм-канале сообщил губернатор
-T11	PROFESSION 170 180	губернатор
-T12	NEWS_SOURCE 189 194	Роман
+T7	VILLAGE 102 109	Плёхово
 T13	PERSON 189 204	Роман Старовойт
 T14	GROUP 213 220	жителей
 T15	FAC 269 285	электроснабжение
-T16	LOCATION 286 297	населенного
-T17	COMMODITY 298 304	пункта
-T18	LAW 317 326	Старовойт
 T19	NEWS_SOURCE 329 339	Он добавил
 T20	CARDINAL 464 467	два
 T21	DATE 480 488	20 марта
 T22	PERSON 489 498	Старовойт
 T23	NEWS_SOURCE 489 506	Старовойт сообщал
-T24	LOCATION 519 531	окрестностей
-T25	PERSON 536 541	Гуево
-T26	ORGANIZATION 544 551	Горналь
-T27	ORGANIZATION 579 589	Суджанском
+T25	VILLAGE 536 541	Гуево
+T26	VILLAGE 544 551	Горналь
 T28	NEWS_SOURCE 598 611	По его словам
 T29	COUNTRY 613 623	украинские
 T30	PROFESSION 624 631	военные
-T31	DATE 727 735	С начала
-T32	EVENT 736 760	военной операции Курская
 T33	REGION 762 782	Белгородская области
-T34	COUNTRY 805 824	Украиной российские
-T35	CARDINAL 976 978	24
-T36	ORGANIZATION 979 982	Mar
-T37	PERCENT 983 990	2023 12
-T38	CARDINAL 983 990	2023 12
-T39	CARDINAL 991 993	43
-T40	PERCENT 994 996	19
-T41	CARDINAL 994 996	19
+T42	PERSON 0 9	Старовойт
+T1	VILLAGE 28 40	села Плёхово
+R1	OWNERSHIP Arg1:T3 Arg2:T1	
+T2	REGION 60 77	В Курской области
+T4	PERSON 317 326	Старовойт
+T5	NEWS_SOURCE 309 326	написал Старовойт
+T6	EVENT 736 752	военной операции
+T12	REGION 753 760	Курская
+T18	COUNTRY 805 813	Украиной
+T31	COUNTRY 814 824	российские
+T32	EVENT 833 865	регулярно подвергаются обстрелам
+R2	TAKES_PLACE_IN Arg1:T32 Arg2:T33	
+R3	TAKES_PLACE_IN Arg1:T32 Arg2:T12	
+R4	TAKES_PLACE_IN Arg1:T6 Arg2:T18	
+T8	PROFESSION 393 403	энергетики
+T9	EVENT 404 435	приступят к ремонту повреждений
+R5	TAKES_PLACE_IN Arg1:T9 Arg2:T7	
+T34	BOROUGH 110 128	Суджанского района
+R6	OWNERSHIP Arg1:T34 Arg2:T7	
+T10	PROFESSION 170 188	губернатор региона
+R7	WORKS_AS Arg1:T13 Arg2:T10	
+T11	NEWS_SOURCE 138 205	в своем телеграм-канале сообщил губернатор региона Роман Старовойт.
+T16	VILLAGE 286 304	населенного пункта
+R8	WORKS_AS Arg1:T4 Arg2:T10	
+T17	FAC 468 478	жилых дома
+R9	HEADQUARTERED_IN Arg1:T17 Arg2:T16	
+T24	LOCATION 519 535	окрестностей сел
+T27	BOROUGH 579 596	Суджанском районе
+R10	OWNERSHIP Arg1:T27 Arg2:T26	
+R11	OWNERSHIP Arg1:T27 Arg2:T25	
+T35	FAC 657 669	вышкам связи

@@ -1,0 +1,60 @@
+T2	ORGANIZATION 13 28	Большого театра
+T3	PERSON 29 46	Анна Бондаревская
+T4	AGE 65 71	36 лет
+T8	ORGANIZATION 86 101	Большого театра
+T9	PERSON 102 119	Анна Бондаревская
+T10	AGE 138 144	36 лет
+T14	PERSON 186 198	Бондаревская
+T15	DATE 210 219	22 апреля
+T16	EVENT 228 241	день рождения
+T17	GROUP 244 255	Руководство
+T18	ORGANIZATION 268 283	Большого театра
+T19	NEWS_SOURCE 349 370	говорится в сообщении
+T20	PERSON 403 415	Бондаревская
+T21	CITY 427 433	Москве
+T22	DATE 434 445	в 1988 году
+T23	DATE 449 453	2010
+T24	COUNTRY 463 473	Российский
+T29	DATE 523 529	в 2014
+T34	DATE 613 629	В 2014-2016 года
+T39	PERSON 679 689	Вишневской
+T40	PERSON 697 715	Маквалы Касрашвили
+T41	ORGANIZATION 735 750	Большого театра
+T42	PERSON 751 763	Бондаревская
+T43	DATE 773 791	с 2016 по 2021 год
+T45	PERSON 828 845	Петра Чайковского
+T48	PERSON 861 876	Джакомо Пуччини
+T1	PROFESSION 0 12	Экс-солистка
+R1	AGE_DIED_AT Arg1:T3 Arg2:T4	
+R2	WORKS_AS Arg1:T3 Arg2:T1	
+R3	WORKPLACE Arg1:T3 Arg2:T2	
+R4	AGE_DIED_AT Arg1:T9 Arg2:T10	
+T5	PROFESSION 73 85	Экс-солистка
+R5	WORKPLACE Arg1:T5 Arg2:T8	
+R6	WORKS_AS Arg1:T9 Arg2:T5	
+T6	ORGANIZATION 178 184	театра
+T7	ORGANIZATION 163 177	телеграм-канал
+R7	OWNERSHIP Arg1:T6 Arg2:T7	
+T11	NEWS_SOURCE 154 184	сообщает телеграм-канал театра
+R8	DATE_TAKES_PLACE_ON Arg1:T16 Arg2:T15	
+R9	DATE_OF_DEATH Arg1:T14 Arg2:T15	
+R10	DATE_OF_BIRTH Arg1:T14 Arg2:T15	
+T12	GROUP 258 267	коллектив
+R11	WORKPLACE Arg1:T12 Arg2:T18	
+R12	WORKPLACE Arg1:T17 Arg2:T18	
+R13	DATE_OF_BIRTH Arg1:T20 Arg2:T22	
+R14	BORN_IN Arg1:T20 Arg2:T21	
+T25	ORGANIZATION 544 611	Колледж музыкально-театрального искусства № 61 им. Г. П. Вишневской
+T13	ORGANIZATION 463 519	Российский экономический университет им. Г. В. Плеханова
+T26	PERSON 595 611	Г. П. Вишневской
+T27	PERSON 504 519	Г. В. Плеханова
+T28	ORGANIZATION 650 689	Центра оперного пения Галины Вишневской
+T30	GROUP 718 734	В оперной труппе
+R15	WORKPLACE Arg1:T30 Arg2:T41	
+R16	MEMBER Arg1:T42 Arg2:T30	
+T31	WORK_OF_ART 811 827	операх «Иоланта»
+T32	WORK_OF_ART 847 860	«Манон Леско»
+T33	WORK_OF_ART 879 892	Борис Годунов
+T35	PERSON 894 913	Модеста Мусоргского
+T36	WORK_OF_ART 915 932	«Царская невеста»
+T37	PERSON 933 959	Николая Римского-Корсакова

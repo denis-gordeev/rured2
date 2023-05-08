@@ -1,0 +1,91 @@
+T0	COUNTRY 0 10	Белоруссия
+T1	PERSON 20 26	Сапегу
+T2	COUNTRY 27 33	России
+T3	ORGANIZATION 35 49	Генпрокуратура
+T4	COUNTRY 50 60	Белоруссии
+T7	COUNTRY 116 122	Россию
+T9	ORGANIZATION 158 170	РИА Новости»
+T11	ORGANIZATION 185 194	ведомство
+T12	COUNTRY 288 299	белорусской
+T14	NEWS_SOURCE 328 351	отметили в пресс-службе
+T16	COUNTRY 435 445	российской
+T17	PERSON 475 481	Сапегу
+T18	COUNTRY 498 504	Россию
+T19	COUNTRY 553 562	Россиянка
+T20	DATE 563 583	весной прошлого года
+T21	DATE 603 614	шести годам
+T27	COUNTRY 804 812	Беларуси
+T28	CRIME 832 846	экстремистским
+T29	GROUP 884 893	силовиков
+T30	GROUP 914 926	протестующим
+T31	EVENT 934 955	президентских выборов
+T32	DATE 956 965	2020 года
+T33	MONEY 1095 1121	167 500 белорусских рублей
+T34	CURRENCY 1103 1121	белорусских рублей
+T37	CURRENCY 1137 1154	российских рублей
+T39	MONEY 1203 1226	7488 белорусских рублей
+T40	CURRENCY 1208 1226	белорусских рублей
+T42	COUNTRY 1243 1253	российских
+T43	CURRENCY 1254 1260	рублей
+T45	PERSON 1263 1269	Сапега
+T46	DATE 1285 1300	в мае 2021 года
+T47	CITY 1303 1309	Минске
+T48	PROFESSION 1319 1335	бывшим главредом
+T53	COUNTRY 1384 1394	Белоруссии
+T57	VEHICLE 1460 1476	самолета Ryanair
+T58	PERSON 1504 1514	Протасевич
+T59	CRIME 1531 1542	террористов
+T65	PERSON 1733 1739	Сапега
+T66	COUNTRY 1769 1775	Россию
+R1	HEADQUARTERED_IN Arg1:T3 Arg2:T4	
+T5	PERSON 87 99	Софьи Сапеги
+T6	EVENT 102 146	передаче ее в Россию для отбывания наказания
+R2	EVENT_TAKES_PART_IN Arg1:T5 Arg2:T6	
+T8	NEWS_SOURCE 148 194	сообщает «РИА Новости» со ссылкой на ведомство
+T10	ORGANIZATION 339 351	пресс-службе
+T13	ORGANIZATION 413 424	Прокуратура
+R3	ORIGINS_FROM Arg1:T17 Arg2:T18	
+T15	PENALTY 530 550	исполнения приговора
+R4	PENALIZED_AS Arg1:T17 Arg2:T15	
+T73	PENALTY 601 635	к шести годам тюремного заключения
+R5	PENALIZED_AS Arg1:T17 Arg2:T73	
+T22	CRIME 651 740	возбуждении социальной вражды и незаконном сборе и распространении данных о частной жизни
+R6	CONVICTED_OF Arg1:T17 Arg2:T22	
+T23	EVENT 982 999	массовые протесты
+R7	DATE_TAKES_PLACE_ON Arg1:T23 Arg2:T32	
+T24	CRIME 745 847	обвинили в администрировании телеграм-канала «Черная книга Беларуси» (признан в стране экстремистским)
+R8	CONVICTED_OF Arg1:T17 Arg2:T24	
+T25	QUANTITY 1095 1102	167 500
+T26	QUANTITY 1123 1136	более 5,1 млн
+T35	MONEY 1123 1154	более 5,1 млн российских рублей
+T36	QUANTITY 1203 1207	7488
+T38	MONEY 1228 1260	более 232 тыс. российских рублей
+T41	PENALTY 1270 1284	была задержана
+R9	TAKES_PLACE_IN Arg1:T41 Arg2:T47	
+R10	PENALIZED_AS Arg1:T45 Arg2:T41	
+T44	ORGANIZATION 1336 1372	оппозиционного телеграм-канала Nexta
+R11	WORKPLACE Arg1:T48 Arg2:T44	
+T49	CRIME 1395 1411	террористической
+T50	PERSON 1426 1446	Романом Протасевичем
+T51	EVENT 1449 1502	их сняли с самолета Ryanair после вынужденной посадки
+T52	DATE 1698 1712	На этой неделе
+T54	EVENT 1740 1766	согласилась на экстрадицию
+R12	EVENT_TAKES_PART_IN Arg1:T65 Arg2:T54	
+R13	DATE_TAKES_PLACE_ON Arg1:T54 Arg2:T52	
+R14	ORIGINS_FROM Arg1:T65 Arg2:T66	
+T55	CRIME 1563 1595	организацию массовых беспорядков
+T56	CRIME 1597 1627	заговор с целью захвата власти
+T60	CRIME 1629 1646	разжигание вражды
+T61	CRIME 1656 1696	руководство экстремистским формированием
+R15	CONVICTED_OF Arg1:T58 Arg2:T55	
+R16	CONVICTED_OF Arg1:T58 Arg2:T56	
+R17	CONVICTED_OF Arg1:T58 Arg2:T60	
+R18	CONVICTED_OF Arg1:T58 Arg2:T61	
+T62	NORP 1785 1794	россиянка
+T63	EVENT 1795 1837	просила о помиловании, но ей было отказано
+R19	EVENT_TAKES_PART_IN Arg1:T65 Arg2:T63	
+R20	PENALIZED_AS Arg1:T17 Arg2:T73	
+T64	PENALTY 1050 1092	компенсировать потерпевшим моральный ущерб
+R21	PENALIZED_AS Arg1:T45 Arg2:T64	
+R22	EVENT_TAKES_PART_IN Arg1:T50 Arg2:T51	
+R23	EVENT_TAKES_PART_IN Arg1:T45 Arg2:T51	

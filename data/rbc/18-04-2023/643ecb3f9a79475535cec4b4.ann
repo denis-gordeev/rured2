@@ -1,0 +1,46 @@
+T0	WEAPON 11 18	гранаты
+T2	CITY 44 53	Белгороде
+T5	CITY 71 80	Белгороде
+T6	WEAPON 92 99	гранаты
+T10	CARDINAL 149 153	двое
+T12	PERSON 193 209	Вячеслав Гладков
+T16	GROUP 257 263	жители
+T17	FAC 270 274	дома
+T19	GROUP 342 367	правоохранительные органы
+T21	NEWS_SOURCE 372 393	сообщил глава региона
+T23	CARDINAL 445 451	дважды
+T25	COUNTRY 482 489	Украины
+T26	ORDINAL 504 511	первого
+T27	CARDINAL 518 522	один
+T28	FAC 543 552	жилой дом
+T29	CARDINAL 599 602	три
+T30	FAC 603 615	домовладения
+T34	DATE 707 716	11 апреля
+T36	WEAPON 756 767	беспилотник
+T37	DATE 845 867	с 24 февраля 2022 года
+T3	EVENT 54 67	погиб человек
+R1	TAKES_PLACE_IN Arg1:T3 Arg2:T2	
+T1	FAC 28 41	частного дома
+R2	TAKES_PLACE_IN Arg1:T3 Arg2:T1	
+T4	FAC 109 129	частного жилого дома
+R3	HEADQUARTERED_IN Arg1:T4 Arg2:T5	
+T7	EVENT 130 164	погиб человек, еще двое пострадали
+R4	TAKES_PLACE_IN Arg1:T7 Arg2:T5	
+T8	PROFESSION 174 192	губернатор области
+R5	WORKS_AS Arg1:T12 Arg2:T8	
+T9	NEWS_SOURCE 166 227	сообщил губернатор области Вячеслав Гладков в телеграм-канале
+R6	OWNERSHIP Arg1:T16 Arg2:T17	
+T11	PROFESSION 380 393	глава региона
+T13	VILLAGE 405 415	село Муром
+T14	BOROUGH 418 436	Шебекинском районе
+T15	EVENT 452 470	попало под обстрел
+R7	TAKES_PLACE_IN Arg1:T15 Arg2:T13	
+T18	WEAPON 526 534	снарядов
+T20	WEAPON 623 630	снаряды
+T22	FAC 640 660	склад зернохранилища
+T24	FAC 684 705	линия электропередачи
+T31	FAC 731 740	аэропорта
+T32	CITY 741 750	Белгорода
+T33	FAC 824 832	Аэропорт
+T35	EVENT 824 844	Аэропорт не работает
+R8	DATE_TAKES_PLACE_ON Arg1:T35 Arg2:T37	

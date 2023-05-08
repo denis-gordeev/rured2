@@ -1,0 +1,55 @@
+T0	VILLAGE 28 32	села
+T1	REGION 35 55	Белгородской области
+T2	REGION 59 79	Белгородской области
+T9	PERSON 161 177	Вячеслав Гладков
+T10	FAC 194 205	частный дом
+T11	FAC 223 229	здания
+T15	PROFESSION 295 305	Губернатор
+T19	TIME 370 375	утром
+T26	COUNTRY 510 517	Украины
+T30	REGION 600 615	Курской области
+T31	CARDINAL 631 637	одного
+T32	FAC 641 653	домовладений
+T33	FAC 665 668	дом
+T34	FAC 671 676	сарай
+T36	REGION 725 732	Курской
+T37	REGION 735 756	Белгородской областях
+T38	COUNTRY 779 787	Украиной
+T39	DATE 797 807	19 октября
+T40	DATE 856 873	с весны 2022 года
+T41	DATE 878 893	каждые 15 суток
+T42	DATE 948 957	в феврале
+T50	PERSON 0 7	Гладков
+T51	NEWS_SOURCE 0 15	Гладков сообщил
+R1	OWNERSHIP Arg1:T1 Arg2:T0	
+T3	VILLAGE 99 120	село Новая Таволжанка
+T4	EVENT 80 120	под обстрел попало село Новая Таволжанка
+R2	TAKES_PLACE_IN Arg1:T4 Arg2:T2	
+T5	ORGANIZATION 138 146	Telegram
+T6	PROFESSION 147 160	глава региона
+R3	WORKS_AS Arg1:T9 Arg2:T6	
+T7	NEWS_SOURCE 122 177	сообщил в своем Telegram глава региона Вячеслав Гладков
+T8	CRIME 921 944	террористической угрозы
+T43	WEAPON 179 185	Снаряд
+T14	DISEASE 276 293	получила контузию
+T12	AGE 242 251	73-летняя
+T13	NEWS_SOURCE 295 313	Губернатор написал
+T16	ORGANIZATION 319 335	аварийные службы
+T17	EVENT 346 366	последствия обстрела
+T18	EVENT 385 409	восстановительные работы
+R4	EVENT_TAKES_PART_IN Arg1:T16 Arg2:T18	
+R5	EVENT_TAKES_PART_IN Arg1:T16 Arg2:T17	
+T20	VILLAGE 411 427	Новая Таволжанка
+T21	CITY 440 451	Шебекинском
+T22	REGION 489 509	Харьковской областью
+R6	OWNERSHIP Arg1:T26 Arg2:T22	
+T23	DATE 520 529	15 апреля
+T24	CARDINAL 530 536	дважды
+T25	VILLAGE 563 578	поселок Теткино
+T27	BOROUGH 579 599	в Глушковском районе
+T28	EVENT 545 578	под обстрел попал поселок Теткино
+R7	DATE_TAKES_PLACE_ON Arg1:T28 Arg2:T23	
+R8	TAKES_PLACE_IN Arg1:T28 Arg2:T30	
+R9	OWNERSHIP Arg1:T30 Arg2:T27	
+R10	OWNERSHIP Arg1:T38 Arg2:T37	
+R11	OWNERSHIP Arg1:T38 Arg2:T36	

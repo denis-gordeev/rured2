@@ -1,0 +1,74 @@
+T0	REGION 0 9	Калужский
+T1	PROFESSION 10 20	губернатор
+T3	GROUP 58 70	добровольцев
+T4	REGION 74 91	Калужской области
+T8	PROFESSION 221 231	губернатор
+T10	PERSON 232 247	Владислав Шапша
+T15	COUNTRY 384 390	Родине
+T16	PERSON 414 427	Андрей Иванов
+T17	PROFESSION 429 436	военком
+T18	CITY 437 443	Калуги
+T19	PERSON 479 484	Шапша
+T23	PERSON 556 573	Сергей Кузьменков
+T24	NEWS_SOURCE 579 599	рассказал губернатор
+T25	PROFESSION 589 599	губернатор
+T26	DATE 684 700	несколько недель
+T27	ORGANIZATION 717 728	военкоматов
+T29	ORGANIZATION 733 743	военкомате
+T31	NEWS_SOURCE 907 923	подчеркнул Шапша
+T32	PERSON 918 923	Шапша
+T33	PROFESSION 940 949	военкомов
+T34	DATE 961 981	осенью прошлого года
+T36	DATE 1049 1079	с 21 сентября по конец октября
+T37	DATE 1081 1091	28 октября
+T38	PROFESSION 1092 1107	министр обороны
+T41	QUANTITY 1175 1182	300 тыс
+T43	GROUP 1243 1255	добровольцев
+T44	GROUP 1258 1271	контрактников
+T45	NEWS_SOURCE 1273 1290	В Кремле заявляли
+T46	ORDINAL 1296 1302	вторая
+T50	PROFESSION 1359 1367	военкома
+T51	PROFESSION 1390 1400	губернатор
+T52	PERSON 1401 1413	Сергей Носов
+T64	PROFESSION 37 45	военкома
+R1	WORKPLACE Arg1:T1 Arg2:T0	
+T2	NEWS_SOURCE 0 28	Калужский губернатор объявил
+T5	ORGANIZATION 115 139	регионального военкомата
+T65	PROFESSION 109 114	главу
+R2	WORKPLACE Arg1:T65 Arg2:T5	
+R3	HEADQUARTERED_IN Arg1:T5 Arg2:T4	
+T66	GROUP 152 164	добровольцев
+T6	EVENT 193 211	контрактную службу
+R4	EVENT_TAKES_PART_IN Arg1:T66 Arg2:T6	
+R5	WORKS_AS Arg1:T10 Arg2:T8	
+T7	NEWS_SOURCE 213 271	сообщил губернатор Владислав Шапша в своем телеграм-канале
+T9	PROFESSION 298 317	областного военкома
+T11	EVENT 292 317	смене областного военкома
+R6	TAKES_PLACE_IN Arg1:T11 Arg2:T4	
+T12	GROUP 347 360	добровольцами
+T13	BOROUGH 446 466	Ферзиковского района
+R7	WORKS_AS Arg1:T16 Arg2:T17	
+R8	WORKPLACE Arg1:T17 Arg2:T18	
+T14	NEWS_SOURCE 471 484	написал Шапша
+T20	GROUP 504 526	органов власти региона
+T21	NEWS_SOURCE 486 526	По данным портала органов власти региона
+T22	PROFESSION 605 621	прошлом военкоме
+T67	GROUP 636 647	добровольцы
+R9	WORKS_AS Arg1:T23 Arg2:T22	
+T28	EVENT 799 817	подписать контракт
+R10	TAKES_PLACE_IN Arg1:T28 Arg2:T29	
+T30	EVENT 1008 1029	частичной мобилизации
+R11	DATE_TAKES_PLACE_ON Arg1:T30 Arg2:T36	
+T35	PERSON 1108 1120	Сергей Шойгу
+T39	EVENT 1130 1165	выполнении мобилизационного задания
+R12	ORGANIZES Arg1:T35 Arg2:T39	
+R13	DATE_TAKES_PLACE_ON Arg1:T39 Arg2:T37	
+R14	WORKS_AS Arg1:T35 Arg2:T38	
+T40	NEWS_SOURCE 1081 1201	28 октября министр обороны Сергей Шойгу заявил о выполнении мобилизационного задания и наборе 300 тыс. человек и сообщил
+T42	GPE 1273 1281	В Кремле
+T47	REGION 1339 1358	Магаданской области
+R15	WORKPLACE Arg1:T50 Arg2:T47	
+T48	EVENT 1368 1388	отправили в отставку
+R16	TAKES_PLACE_IN Arg1:T48 Arg2:T47	
+R17	WORKS_AS Arg1:T52 Arg2:T51	
+T49	NEWS_SOURCE 1390 1420	губернатор Сергей Носов заявил

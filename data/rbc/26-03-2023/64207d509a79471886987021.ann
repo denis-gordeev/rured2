@@ -1,0 +1,61 @@
+T0	PROFESSION 0 10	Губернатор
+T2	REGION 56 72	Тульской области
+T3	REGION 76 92	Тульской области
+T5	CITY 115 123	Киреевск
+T7	PERSON 138 151	Алексей Дюмин
+T11	NEWS_SOURCE 191 248	сообщил представитель правительства области «РИА Новости»
+T13	EVENT 250 255	Взрыв
+T14	DATE 266 279	днем 26 марта
+T16	ORGANIZATION 281 285	ТАСС
+T20	GROUP 328 354	правоохранительных органах
+T22	WEAPON 404 415	беспилотник
+T23	NEWS_SOURCE 417 431	По данным ТАСС
+T24	ORGANIZATION 427 431	ТАСС
+T25	COUNTRY 441 451	украинский
+T27	CARDINAL 455 458	141
+T29	WEAPON 479 490	взрывчаткой
+T31	ORGANIZATION 525 528	РБК
+T32	NEWS_SOURCE 517 553	заявили РБК в региональном минздраве
+T33	ORGANIZATION 531 553	региональном минздраве
+T34	NEWS_SOURCE 555 569	По данным Baza
+T35	ORGANIZATION 565 569	Baza
+T47	DATE 642 649	В марте
+T49	CARDINAL 664 670	дважды
+T50	WEAPON 678 690	беспилотники
+T51	ORDINAL 692 698	Первый
+T52	DATE 720 733	начале месяца
+T56	WEAPON 780 785	дрона
+T58	LOCATION 794 804	лесополосе
+T59	CARDINAL 807 809	15
+T61	ORDINAL 848 854	Второй
+T62	WEAPON 863 874	беспилотник
+T63	DATE 886 894	19 марта
+T64	CARDINAL 917 922	обоих
+T1	WEAPON 41 53	беспилотника
+T70	EVENT 18 27	совещание
+R1	TAKES_PLACE_IN Arg1:T70 Arg2:T2	
+T4	PROFESSION 124 137	глава региона
+R2	WORKS_AS Arg1:T7 Arg2:T4	
+R3	WORKPLACE Arg1:T7 Arg2:T3	
+R4	OWNERSHIP Arg1:T3 Arg2:T5	
+R5	TAKES_PLACE_IN Arg1:T13 Arg2:T5	
+R6	DATE_TAKES_PLACE_ON Arg1:T13 Arg2:T14	
+T6	ORGANIZATION 235 248	«РИА Новости»
+T8	ORGANIZATION 213 234	правительства области
+T9	PROFESSION 199 212	представитель
+R7	WORKPLACE Arg1:T9 Arg2:T8	
+T10	ORGANIZATION 288 301	«РИА Новости»
+T12	GROUP 357 375	экстренных службах
+T15	NEWS_SOURCE 281 384	ТАСС и «РИА Новости» со ссылкой на источники в правоохранительных органах и экстренных службах сообщили
+T17	WEAPON 452 466	Ту-141 «Стриж»
+T18	QUANTITY 503 506	три
+T19	AGE 575 584	17-летняя
+T21	AGE 594 603	20-летний
+T26	AGE 622 631	36-летний
+T28	BOROUGH 743 760	Киреевском районе
+T30	EVENT 699 707	инцидент
+R8	DATE_TAKES_PLACE_ON Arg1:T30 Arg2:T52	
+R9	TAKES_PLACE_IN Arg1:T30 Arg2:T28	
+T36	VILLAGE 826 846	поселка Березовского
+R10	OWNERSHIP Arg1:T36 Arg2:T58	
+T37	BOROUGH 897 913	Одоевском районе

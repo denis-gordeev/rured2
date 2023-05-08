@@ -1,0 +1,60 @@
+T0	CARDINAL 4 7	два
+T1	COUNTRY 16 22	России
+T2	ECONOMIC_SECTOR 33 45	беспилотники
+T3	GROUP 47 53	Власти
+T4	REGION 54 66	Свердловской
+T5	REGION 69 75	Омской
+T6	GROUP 76 84	областей
+T7	LAW 98 100	на
+T8	CRIME 101 114	использование
+T9	ECONOMIC_SECTOR 115 128	беспилотников
+T10	ORGANIZATION 159 171	правительств
+T11	NEWS_SOURCE 138 180	сообщается на сайтах правительств регионов
+T12	GROUP 182 188	Власти
+T13	ECONOMIC_SECTOR 259 273	промышленности
+T14	DATE 303 307	днем
+T15	ORGANIZATION 308 320	пресс-служба
+T16	PROFESSION 321 331	президента
+T17	NEWS_SOURCE 308 340	пресс-служба президента сообщила
+T18	TIME 346 355	в ночь на
+T19	DATE 356 361	3 мая
+T20	GPE 363 371	киевский
+T21	CARDINAL 395 400	двумя
+T22	ECONOMIC_SECTOR 401 415	беспилотниками
+T23	PERSON 419 430	кремлевской
+T24	PROFESSION 442 459	главы государства
+T25	PERSON 461 466	Дроны
+T26	GROUP 484 498	пострадавших и
+T27	PROFESSION 515 524	президент
+T28	DATE 525 533	в момент
+T29	ECONOMIC_SECTOR 534 539	атаки
+T30	GPE 568 574	Кремле
+T31	CRIME 605 611	теракт
+T32	EVENT 614 623	покушение
+T33	CRIME 614 623	покушение
+T34	PROFESSION 627 637	президента
+T35	COUNTRY 669 676	Украина
+T36	GPE 718 722	Киев
+T37	CITY 768 774	Москве
+T38	GPE 768 774	Москве
+T39	ECONOMIC_SECTOR 814 841	использование беспилотников
+T40	PROFESSION 911 922	президентом
+T41	ECONOMIC_SECTOR 1010 1018	военного
+T42	COUNTRY 1030 1033	ЛНР
+T43	COUNTRY 1035 1038	ДНР
+T44	ORGANIZATION 1040 1051	Запорожская
+T45	CITY 1054 1064	Херсонская
+T46	REGION 1065 1072	области
+T47	DATE 1076 1097	октябре прошлого года
+T48	PROFESSION 1099 1113	Глава комитета
+T49	ORGANIZATION 1105 1148	комитета Госдумы по информационной политике
+T50	PERSON 1149 1167	Александр Хинштейн
+T51	DATE 1168 1173	4 мая
+T52	ECONOMIC_SECTOR 1203 1215	беспилотники
+T53	PROFESSION 1255 1274	министру транспорта
+T54	PERSON 1275 1292	Виталию Савельеву
+T55	PROFESSION 1295 1300	главе
+T56	ORGANIZATION 1301 1311	Росавиации
+T57	PERSON 1312 1331	Александру Нерадько
+T58	PRODUCT 1391 1394	Thu
+T59	CARDINAL 1408 1410	19

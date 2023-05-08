@@ -1,0 +1,56 @@
+T0	ORGANIZATION 0 7	Reuters
+T1	PERSON 41 53	Си Цзиньпина
+T2	PERSON 63 70	Байдену
+T3	COUNTRY 72 77	Китай
+T4	PROFESSION 108 129	телефонному разговору
+T5	PROFESSION 136 149	председателем
+T6	PERSON 150 163	Си Цзиньпином
+T7	PROFESSION 166 177	президентом
+T8	COUNTRY 178 181	США
+T9	PERSON 182 194	Джо Байденом
+T10	COUNTRY 215 227	американских
+T11	PROFESSION 228 238	дипломатов
+T12	NEWS_SOURCE 240 256	сообщает Reuters
+T13	ORGANIZATION 249 256	Reuters
+T14	DATE 282 298	В прошлом месяце
+T15	COUNTRY 315 327	американский
+T16	GROUP 328 339	истребитель
+T17	COUNTRY 345 354	китайский
+T18	FAC 355 368	воздушный шар
+T19	PROFESSION 371 376	шпион
+T20	PERSON 377 383	Байден
+T21	NEWS_SOURCE 377 390	Байден заявил
+T22	PERSON 419 432	Си Цзиньпином
+T23	DATE 481 492	пять недель
+T24	EVENT 496 505	разговора
+T25	NEWS_SOURCE 523 541	отмечает агентство
+T26	COUNTRY 552 561	китайский
+T27	PROFESSION 562 567	лидер
+T28	CITY 587 593	Москву
+T29	COUNTRY 610 620	российским
+T30	PROFESSION 621 632	президентом
+T31	PERSON 633 651	Владимиром Путиным
+T32	DATE 654 677	Сейчас не лучший момент
+T33	COUNTRY 682 694	американской
+T34	NEWS_SOURCE 682 705	американской дипломатии
+T35	PROFESSION 695 705	дипломатии
+T36	PROFESSION 718 735	профессор кафедры
+T37	ORGANIZATION 762 774	университета
+T38	NEWS_SOURCE 710 787	считает профессор кафедры китаеведения Гарвардского университета Уильям Кирби
+T39	PERSON 782 787	Кирби
+T40	ORDINAL 792 801	последний
+T41	DATE 802 805	раз
+T42	COUNTRY 806 811	Китай
+T43	COUNTRY 814 820	Россия
+T44	DATE 837 848	в 1957 году
+T45	PERSON 856 866	Мао Цзэдун
+T46	NEWS_SOURCE 856 873	Мао Цзэдун заявил
+T47	CITY 876 882	Москве
+T48	FAC 885 900	Восточный ветер
+T49	LOCATION 918 926	Западным
+T50	CARDINAL 1000 1002	25
+T51	CARDINAL 1011 1035	641e59c79a7947993e66198c
+T52	PERSON 1037 1040	Sat
+T53	CARDINAL 1042 1044	25
+T54	ORGANIZATION 1045 1048	Mar
+T55	CARDINAL 1057 1059	17

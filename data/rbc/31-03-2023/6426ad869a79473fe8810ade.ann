@@ -1,0 +1,67 @@
+T0	GPE 0 6	Кремль
+T1	EVENT 19 28	совещание
+T2	PERSON 29 35	Путина
+T3	PROFESSION 50 57	внешней
+T4	PROFESSION 68 77	Президент
+T5	COUNTRY 78 84	России
+T6	PERSON 85 99	Владимир Путин
+T7	ORGANIZATION 130 150	Советом безопасности
+T8	NEWS_SOURCE 138 150	безопасности
+T9	PROFESSION 160 193	пресс-секретарь главы государства
+T10	PERSON 194 208	Дмитрий Песков
+T11	PERSON 219 232	корреспондент
+T12	NEWS_SOURCE 152 236	сообщил пресс-секретарь главы государства Дмитрий Песков, передает корреспондент РБК
+T13	ORGANIZATION 233 236	РБК
+T14	NEWS_SOURCE 257 263	доклад
+T15	PROFESSION 257 263	доклад
+T16	PROFESSION 265 289	министра иностранных дел
+T17	NEWS_SOURCE 265 296	министра иностранных дел Сергея
+T18	PERSON 290 296	Сергея
+T19	NEWS_SOURCE 298 305	Лаврова
+T20	PERSON 298 305	Лаврова
+T21	ORGANIZATION 324 331	внешней
+T22	PROFESSION 332 340	политики
+T23	NEWS_SOURCE 345 359	пояснил Песков
+T24	PERSON 353 359	Песков
+T25	PERSON 361 366	Путин
+T26	DATE 367 382	в конце декабря
+T27	ORGANIZATION 429 436	внешней
+T28	PROFESSION 437 445	политики
+T29	PERSON 447 453	Лавров
+T30	PROFESSION 481 489	Директор
+T31	NEWS_SOURCE 490 535	департамента внешнеполитического планирования
+T32	ORGANIZATION 490 540	департамента внешнеполитического планирования МИДа
+T33	PERSON 541 557	Алексей Дробинин
+T34	NEWS_SOURCE 541 565	Алексей Дробинин говорил
+T35	COUNTRY 604 610	России
+T36	DATE 629 646	начале этого года
+T37	DATE 649 677	В середине минувшего февраля
+T38	NEWS_SOURCE 678 683	глава
+T39	PROFESSION 678 683	глава
+T40	ORGANIZATION 684 687	МИД
+T41	COUNTRY 688 694	России
+T42	NEWS_SOURCE 695 701	заявил
+T43	GPE 804 810	Запада
+T44	ORGANIZATION 939 942	ООН
+T45	PERSON 944 950	Лавров
+T46	NEWS_SOURCE 944 964	Лавров также отметил
+T47	DATE 970 976	сейчас
+T48	COUNTRY 977 983	России
+T49	DATE 1024 1044	на десятилетия назад
+T50	EVENT 1094 1107	деколонизации
+T51	COUNTRY 1132 1138	России
+T52	FAC 1166 1173	внешней
+T53	COUNTRY 1183 1189	России
+T54	DATE 1203 1214	в 2016 году
+T55	DATE 1216 1232	В ноябре 2021-го
+T56	NEWS_SOURCE 1233 1239	Лавров
+T57	PERSON 1233 1239	Лавров
+T58	DATE 1352 1374	В январе прошлого года
+T59	PROFESSION 1375 1385	президенту
+T60	CARDINAL 1491 1515	6426ad869a79473fe8810ade
+T61	ORGANIZATION 1517 1520	Fri
+T62	DATE 1522 1524	31
+T63	ORGANIZATION 1525 1528	Mar
+T64	CARDINAL 1529 1536	2023 13
+T65	CARDINAL 1537 1539	29
+T66	CARDINAL 1540 1544	51 +

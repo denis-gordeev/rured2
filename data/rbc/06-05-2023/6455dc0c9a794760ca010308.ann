@@ -1,0 +1,63 @@
+T0	PERSON 0 5	Рогов
+T1	NEWS_SOURCE 6 12	заявил
+T2	COUNTRY 36 46	российских
+T3	ORGANIZATION 47 50	сил
+T4	CITY 53 64	Запорожской
+T5	REGION 65 72	области
+T6	COUNTRY 74 84	Российские
+T7	GROUP 85 99	военнослужащие
+T8	REGION 102 121	Запорожской области
+T9	PROFESSION 167 171	член
+T10	NEWS_SOURCE 160 192	заявил член совета администрации
+T11	ORGANIZATION 172 192	совета администрации
+T12	NEWS_SOURCE 201 209	Владимир
+T13	PERSON 201 215	Владимир Рогов
+T14	NEWS_SOURCE 217 239	передает «РИА Новости»
+T15	ORGANIZATION 227 239	РИА Новости»
+T16	FAC 303 326	эшелонированной обороны
+T17	PERSON 337 342	Рогов
+T18	NEWS_SOURCE 343 350	говорил
+T19	COUNTRY 356 363	Украина
+T20	ORGANIZATION 378 389	Запорожскую
+T21	REGION 390 397	область
+T22	PRODUCT 398 410	бронетехнику
+T23	NEWS_SOURCE 415 425	утверждает
+T24	FAC 461 486	подземных овощехранилищах
+T25	PERSON 489 499	Ореховском
+T26	CITY 502 515	Гуляйпольском
+T27	FAC 516 523	районах
+T28	CITY 557 562	Киева
+T29	PERSON 564 569	Рогов
+T30	NEWS_SOURCE 564 583	Рогов также заявлял
+T31	ORGANIZATION 589 592	ВСУ
+T32	FAC 589 592	ВСУ
+T33	ORGANIZATION 602 608	фронта
+T34	EVENT 620 651	многотысячную группировку войск
+T35	NEWS_SOURCE 656 663	отмечал
+T36	DATE 717 722	4 мая
+T37	PERSON 723 728	Рогов
+T38	NEWS_SOURCE 723 735	Рогов заявил
+T39	CITY 743 748	Киева
+T40	GPE 743 748	Киева
+T41	ORGANIZATION 760 763	сил
+T42	FAC 767 776	передовой
+T43	REGION 779 798	Запорожской области
+T44	DATE 831 841	днем ранее
+T45	NEWS_SOURCE 842 849	сообщал
+T46	EVENT 855 858	ВСУ
+T47	FAC 897 907	ореховском
+T48	GPE 923 929	Кремле
+T49	NEWS_SOURCE 923 938	Кремле говорили
+T50	COUNTRY 992 1002	украинских
+T51	PROFESSION 1003 1010	военных
+T52	GROUP 1003 1010	военных
+T53	PROFESSION 1012 1017	Пресс
+T54	PROFESSION 1018 1038	секретарь президента
+T55	PERSON 1039 1053	Дмитрий Песков
+T56	NEWS_SOURCE 1018 1061	секретарь президента Дмитрий Песков отмечал
+T57	ORGANIZATION 1067 1077	Минобороны
+T58	CARDINAL 1178 1202	6455dc0c9a794760ca010308
+T59	NEWS_SOURCE 1204 1207	Sat
+T60	PERSON 1204 1207	Sat
+T61	CARDINAL 1224 1226	58
+T62	CARDINAL 1230 1231	+

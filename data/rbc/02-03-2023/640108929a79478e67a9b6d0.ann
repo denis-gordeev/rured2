@@ -1,8 +1,6 @@
 T0	COUNTRY 2 5	США
-T1	EVENT 25 40	для переговоров
 T2	PERSON 41 47	Путина
-T3	EVENT 50 58	Байденом
-T4	EVENT 68 83	для переговоров
+T3	PERSON 50 58	Байденом
 T5	PROFESSION 84 94	президента
 T6	COUNTRY 95 98	США
 T7	PERSON 99 110	Джо Байдена
@@ -10,52 +8,52 @@ T8	PROFESSION 113 123	президента
 T9	COUNTRY 124 130	России
 T10	PERSON 131 147	Владимира Путина
 T11	EVENT 176 193	пресс-конференции
-T12	NEWS_SOURCE 173 212	на пресс-конференции заявил координатор
-T13	EVENT 213 215	по
-T14	PROFESSION 201 230	координатор по стратегическим
-T15	INVESTMENT_PROGRAM 231 244	коммуникациям
 T16	ORGANIZATION 245 256	Белого дома
-T17	NEWS_SOURCE 245 267	Белого дома Джон Кирби
 T18	PERSON 257 267	Джон Кирби
 T19	PROFESSION 270 279	Президент
-T20	NEWS_SOURCE 269 296	«Президент [Байден] говорил
 T21	NEWS_SOURCE 306 316	Он говорил
 T22	PERSON 331 336	Путин
 T23	NEWS_SOURCE 452 464	сказал Кирби
 T24	PERSON 459 464	Кирби
 T25	DATE 467 476	В декабре
-T26	EVENT 497 508	переговоров
 T27	PERSON 515 522	Путиным
-T28	NEWS_SOURCE 525 533	Байденом
+T28	PERSON 525 533	Байденом
 T29	PERSON 535 540	Кирби
 T30	NEWS_SOURCE 535 547	Кирби заявил
 T31	COUNTRY 553 556	США
 T32	COUNTRY 582 588	Россия
-T33	EVENT 620 631	переговорам
-T34	NEWS_SOURCE 637 643	Байден
-T35	EVENT 666 677	переговоров
-T36	NEWS_SOURCE 679 685	заявил
+T34	PERSON 637 643	Байден
 T37	PERSON 709 714	Путин
 T38	COUNTRY 773 780	Украине
-T39	CITY 784 790	Кремле
 T40	GPE 784 790	Кремле
-T41	NEWS_SOURCE 799 806	заявили
 T42	COUNTRY 818 828	российских
 T43	PROFESSION 829 836	военных
 T44	COUNTRY 839 846	Украины
-T45	EVENT 884 895	переговоров
-T46	CITY 924 931	Москвой
 T47	GPE 924 931	Москвой
 T48	GPE 934 945	Вашингтонов
 T49	DATE 975 998	с февраля прошлого года
 T50	COUNTRY 1006 1012	Россия
-T51	CITY 1020 1031	специальную
-T52	ORDINAL 1032 1039	военную
 T53	COUNTRY 1052 1059	Украине
-T54	CARDINAL 1093 1117	640108929a79478e67a9b6d0
-T55	DATE 1119 1122	Thu
-T56	ORGANIZATION 1127 1130	Mar
-T57	DATE 1131 1135	2023
-T58	CARDINAL 1136 1138	23
-T59	PERCENT 1142 1144	11
-T60	CARDINAL 1142 1144	11
+R1	WORKPLACE Arg1:T7 Arg2:T6	
+R2	WORKS_AS Arg1:T7 Arg2:T5	
+R3	WORKPLACE Arg1:T10 Arg2:T9	
+R4	WORKS_AS Arg1:T10 Arg2:T8	
+R5	WORKPLACE Arg1:T3 Arg2:T0	
+T1	PROFESSION 201 244	координатор по стратегическим коммуникациям
+R6	WORKS_AS Arg1:T18 Arg2:T1	
+R7	EVENT_TAKES_PART_IN Arg1:T18 Arg2:T11	
+R8	WORKPLACE Arg1:T18 Arg2:T16	
+T4	NEWS_SOURCE 194 267	заявил координатор по стратегическим коммуникациям Белого дома Джон Кирби
+T12	PERSON 281 287	Байден
+R9	WORKS_AS Arg1:T12 Arg2:T19	
+T13	NEWS_SOURCE 270 304	Президент [Байден] говорил об этом
+T14	NEWS_SOURCE 637 685	Байден, говоря о возможности переговоров, заявил
+T15	EVENT 754 769	боевые действия
+R10	TAKES_PLACE_IN Arg1:T15 Arg2:T38	
+T17	NEWS_SOURCE 782 806	В Кремле в ответ заявили
+R11	WORKPLACE Arg1:T43 Arg2:T42	
+T20	EVENT 897 974	Официальные контакты между Москвой и Вашингтонов почти полностью прекратились
+R12	DATE_TAKES_PLACE_ON Arg1:T20 Arg2:T49	
+T26	EVENT 1020 1048	специальную военную операцию
+R13	TAKES_PLACE_IN Arg1:T26 Arg2:T53	
+R14	DATE_TAKES_PLACE_ON Arg1:T26 Arg2:T49	

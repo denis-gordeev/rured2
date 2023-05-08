@@ -1,0 +1,39 @@
+T0	PERSON 7 18	Ким Чен Ына
+T1	GPE 50 63	Вашингтонской
+T3	GPE 76 89	Вашингтонская
+T5	COUNTRY 119 122	США
+T8	DATE 137 151	на этой неделе
+T16	COUNTRY 325 339	Северной Кореи
+T18	COUNTRY 362 366	КНДР
+T19	PERSON 367 378	Ким Чен Ына
+T20	NEWS_SOURCE 383 402	слова приводит ЦТАК
+T21	ORGANIZATION 398 402	ЦТАК
+T22	GPE 405 418	Вашингтонская
+T23	PROFESSION 441 452	правителями
+T24	COUNTRY 453 456	США
+T25	COUNTRY 459 470	Южной Кореи
+T26	COUNTRY 544 548	КНДР
+T32	PERSON 750 760	Ким Ё Чжон
+T41	FAMILY 0 6	Сестра
+T2	EVENT 76 100	Вашингтонская декларация
+T4	COUNTRY 125 136	Южная Корея
+R1	EVENT_TAKES_PART_IN Arg1:T5 Arg2:T2	
+R2	EVENT_TAKES_PART_IN Arg1:T4 Arg2:T2	
+T6	EVENT 50 72	Вашингтонской деклации
+R3	DATE_TAKES_PLACE_ON Arg1:T2 Arg2:T8	
+T7	LOCATION 216 237	Северо-Восточной Азии
+T9	PERSON 256 266	Ким Ё Чжон
+T10	GROUP 309 324	Трудовой партии
+T11	PROFESSION 268 308	заместитель отдела пропаганды и агитации
+R5	WORKS_AS Arg1:T9 Arg2:T11	
+R6	WORKPLACE Arg1:T9 Arg2:T16	
+T12	FAMILY 342 348	сестра
+T13	PROFESSION 349 361	руководителя
+R4	WORKPLACE Arg1:T19 Arg2:T18	
+R7	WORKS_AS Arg1:T19 Arg2:T13	
+T14	EVENT 405 429	Вашингтонская декларация
+R8	WORKPLACE Arg1:T23 Arg2:T24	
+R9	WORKPLACE Arg1:T23 Arg2:T25	
+T15	LOCATION 709 730	Северо-Восточной Азии
+R10	PLACE_RESIDES_IN Arg1:T32 Arg2:T26	
+T17	NEWS_SOURCE 742 760	сказала Ким Ё Чжон

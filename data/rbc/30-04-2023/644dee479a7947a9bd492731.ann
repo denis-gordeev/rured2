@@ -1,0 +1,60 @@
+T0	ORGANIZATION 0 10	Минобороны
+T1	NEWS_SOURCE 0 18	Минобороны заявило
+T2	FAC 49 56	дронами
+T3	CITY 65 73	Херсоном
+T4	COUNTRY 75 85	Российская
+T5	EVENT 86 110	группировка войск «Днепр
+T6	COUNTRY 128 139	украинскому
+T7	FAC 147 157	управления
+T8	ECONOMIC_SECTOR 147 172	управления беспилотниками
+T9	CITY 182 189	Херсона
+T10	ORGANIZATION 200 211	РИА Новости
+T11	PROFESSION 221 230	начальник
+T12	NEWS_SOURCE 199 236	«РИА Новости» сообщил начальник пресс
+T13	ORGANIZATION 231 236	пресс
+T14	ORGANIZATION 237 243	центра
+T15	GROUP 244 255	группировки
+T16	NEWS_SOURCE 256 269	Алексей Рулев
+T17	PERSON 256 269	Алексей Рулев
+T18	PROFESSION 277 284	военные
+T19	GROUP 294 302	командно
+T20	GROUP 303 317	наблюдательный
+T21	PRODUCT 332 343	боеприпасов
+T22	PRODUCT 346 353	техники
+T23	COUNTRY 402 412	украинская
+T24	CARDINAL 433 435	30
+T25	PROFESSION 436 443	военных
+T26	CARDINAL 445 457	более десяти
+T27	PRODUCT 479 484	машин
+T28	PRODUCT 487 498	автомобилей
+T29	FAC 487 498	автомобилей
+T30	FAC 522 532	населенных
+T31	QUANTITY 533 540	пунктов
+T32	CITY 541 549	Бургунка
+T33	ORGANIZATION 551 562	Новотягинка
+T34	CARDINAL 590 593	два
+T35	PRODUCT 594 604	минометных
+T36	ORGANIZATION 614 617	ВСУ
+T37	NEWS_SOURCE 623 650	сказал собеседник агентства
+T38	FAC 667 703	противовоздушной обороны группировки
+T39	CARDINAL 720 723	два
+T40	ECONOMIC_SECTOR 724 744	ударных беспилотника
+T41	EVENT 755 762	военный
+T42	ORGANIZATION 773 783	Минобороны
+T43	NEWS_SOURCE 784 818	в своей ежедневной сводке сообщило
+T44	COUNTRY 824 834	российские
+T45	PROFESSION 835 842	военные
+T46	GROUP 870 877	составу
+T47	FAC 878 902	объединенной группировки
+T48	EVENT 903 908	войск
+T49	ORGANIZATION 909 912	ВСУ
+T50	CITY 914 920	Херсон
+T51	DATE 943 960	вечером 28 апреля
+T52	PRODUCT 998 1004	оружие
+T53	FAC 1023 1043	морского базирования
+T54	ORGANIZATION 1048 1057	ведомстве
+T55	NEWS_SOURCE 1046 1065	В ведомстве заявили
+T56	CARDINAL 1128 1152	644dee479a7947a9bd492731
+T57	CARDINAL 1159 1161	30
+T58	DATE 1166 1170	2023
+T59	CARDINAL 1171 1173	10

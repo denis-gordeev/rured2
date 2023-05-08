@@ -1,0 +1,48 @@
+T1	GROUP 32 42	участников
+T6	GROUP 99 109	участников
+T11	CITY 158 170	Новосибирске
+T12	DATE 171 184	11–13 августа
+T17	PERSON 345 365	Александра Васильева
+T18	COUNTRY 505 511	Родину
+T19	NEWS_SOURCE 590 611	говорится в заявлении
+T20	ORGANIZATION 614 617	РБК
+T25	DATE 728 747	В августе 2022 года
+T30	PERSON 845 853	Васильев
+T33	PROFESSION 985 993	артистам
+T39	GROUP 0 14	Группу «Сплин»
+T2	EVENT 43 67	фестиваля «Ветер Сибири»
+R1	EVENT_TAKES_PART_IN Arg1:T1 Arg2:T2	
+T3	GROUP 69 83	Группу «Сплин»
+T4	EVENT 110 138	рок-фестиваля «Ветер Сибири»
+T5	REGION 60 66	Сибири
+T7	REGION 131 137	Сибири
+R2	EVENT_TAKES_PART_IN Arg1:T6 Arg2:T4	
+R3	TAKES_PLACE_IN Arg1:T4 Arg2:T11	
+R4	DATE_TAKES_PLACE_ON Arg1:T4 Arg2:T12	
+T8	ORGANIZATION 211 240	местное издание «Сибирьмедиа»
+T9	GROUP 287 307	местный «Союз отцов»
+T10	EVENT 248 275	отменить выступление группы
+R5	EVENT_TAKES_PART_IN Arg1:T9 Arg2:T10	
+T13	PROFESSION 331 344	лидера группы
+R6	WORKS_AS Arg1:T17 Arg2:T13	
+R7	MEMBER Arg1:T17 Arg2:T39	
+T14	DATE 442 448	сейчас
+T15	EVENT 454 482	специальная военная операция
+R8	DATE_TAKES_PLACE_ON Arg1:T15 Arg2:T14	
+T16	GROUP 634 647	организаторам
+T21	EVENT 648 672	фестиваля «Ветер Сибири»
+T22	GROUP 683 697	группы «Сплин»
+T23	PROFESSION 674 682	Директор
+R9	WORKS_AS Arg1:T22 Arg2:T23	
+T24	GROUP 748 762	группа «Сплин»
+T26	CITY 801 811	в Воронеже
+T27	EVENT 773 800	на рок-фестивале «Чернозем»
+R10	TAKES_PLACE_IN Arg1:T27 Arg2:T26	
+R11	EVENT_TAKES_PART_IN Arg1:T24 Arg2:T27	
+R12	DATE_TAKES_PLACE_ON Arg1:T27 Arg2:T25	
+R13	EVENT_TAKES_PART_IN Arg1:T30 Arg2:T27	
+T28	PROFESSION 832 844	лидер группы
+R14	WORKS_AS Arg1:T30 Arg2:T28	
+T29	NEWS_SOURCE 813 860	В ходе выступления лидер группы Васильев заявил
+T31	WORK_OF_ART 944 962	песню «Выхода нет»
+T32	PROFESSION 963 975	рок-музыкант

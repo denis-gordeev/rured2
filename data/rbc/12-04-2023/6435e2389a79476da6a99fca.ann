@@ -1,0 +1,42 @@
+T0	NEWS_SOURCE 0 14	Кадыров заявил
+T1	CITY 33 38	Чечне
+T2	GROUP 49 69	бандитского подполья
+T5	REGION 92 97	Чечне
+T6	PROFESSION 98 108	сотрудники
+T8	ORGANIZATION 109 116	полиции
+T9	ORGANIZATION 119 123	ОМОН
+T10	ORGANIZATION 133 136	ФСБ
+T16	PROFESSION 281 296	Правоохранители
+T19	NEWS_SOURCE 580 598	По словам Кадырова
+T20	PERSON 590 598	Кадырова
+T22	CARDINAL 618 623	одном
+T24	FAC 755 769	соседнего дома
+T31	PERSON 0 7	Кадыров
+R1	ORIGINS_FROM Arg1:T2 Arg2:T1	
+R2	WORKPLACE Arg1:T31 Arg2:T1	
+T3	VILLAGE 73 89	селе Гвардейское
+R3	OWNERSHIP Arg1:T5 Arg2:T3	
+R4	WORKPLACE Arg1:T6 Arg2:T8	
+R5	WORKPLACE Arg1:T6 Arg2:T9	
+R6	WORKPLACE Arg1:T6 Arg2:T10	
+T4	EVENT 145 166	успешную спецоперацию
+R7	TAKES_PLACE_IN Arg1:T4 Arg2:T5	
+T7	PROFESSION 232 245	глава региона
+T11	PERSON 246 260	Рамзан Кадыров
+R8	WORKS_AS Arg1:T11 Arg2:T7	
+T12	NEWS_SOURCE 224 278	сообщил глава региона Рамзан Кадыров в телеграм-канале
+T13	EVENT 297 358	отрабатывали оперативку об участнике незаконного формирования
+R9	EVENT_TAKES_PART_IN Arg1:T8 Arg2:T13	
+R10	EVENT_TAKES_PART_IN Arg1:T9 Arg2:T13	
+R11	EVENT_TAKES_PART_IN Arg1:T10 Arg2:T13	
+T14	CRIME 435 461	злоумышленник был вооружен
+T15	NEWS_SOURCE 410 433	По имеющейся информации
+T17	GROUP 833 853	бандитского подполья
+T25	GROUP 790 799	силовиков
+T26	GROUP 701 709	Силовики
+T23	PENALTY 773 782	задержали
+T27	EVENT 498 561	провести ночную спецоперацию с привлечением технических средств
+T28	TIME 507 513	ночную
+R12	REFERENCE Arg1:T27 Arg2:T14	
+T18	NEWS_SOURCE 566 578	рассказал он
+T21	FAC 627 639	домовладений

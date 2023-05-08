@@ -1,0 +1,66 @@
+T0	GROUP 0 6	Власти
+T1	CITY 7 13	Одессы
+T2	NEWS_SOURCE 7 24	Одессы сообщили о
+T3	CARDINAL 35 40	одном
+T4	FAC 44 55	предприятий
+T5	CARDINAL 74 79	одном
+T6	ORGANIZATION 83 94	предприятий
+T7	FAC 83 94	предприятий
+T8	CITY 95 101	Одессы
+T9	GROUP 119 131	пострадавших
+T10	FAC 119 131	пострадавших
+T11	PROFESSION 145 169	спикер областной военной
+T12	ORGANIZATION 170 183	администрации
+T13	PERSON 184 190	Сергей
+T14	ORGANIZATION 191 198	Братчук
+T15	NEWS_SOURCE 137 209	сообщил спикер областной военной администрации Сергей Братчук в телеграм
+T16	NEWS_SOURCE 210 216	канале
+T17	DATE 257 265	4 апреля
+T18	ORGANIZATION 266 271	УНИАН
+T19	ORGANIZATION 275 284	Суспiльне
+T20	CITY 313 319	Одессе
+T21	ORGANIZATION 329 342	администрация
+T22	CITY 376 382	Одессе
+T23	CITY 385 393	Одесском
+T24	ORDINAL 402 408	Первый
+T25	PERCENT 425 432	около 1
+T26	CARDINAL 431 432	1
+T27	PERCENT 433 435	14
+T28	TIME 436 455	по местному времени
+T29	TIME 469 489	спустя четыре минуты
+T30	CARDINAL 493 498	одном
+T31	NEWS_SOURCE 518 529	по данным «
+T32	CITY 529 538	Суспiльне
+T33	ECONOMIC_SECTOR 561 566	пожар
+T34	NEWS_SOURCE 568 576	Телеграм
+T35	FAC 577 582	канал
+T36	ORGANIZATION 583 591	Readovka
+T37	NEWS_SOURCE 583 591	Readovka
+T38	LOCATION 645 651	на юге
+T39	CITY 652 658	Одессы
+T40	FAC 695 706	аэровокзала
+T41	FAC 729 748	авиаремонтный завод
+T42	FAC 751 770	авиация пограничных
+T43	EVENT 771 776	войск
+T44	COUNTRY 777 784	Украины
+T45	DATE 787 800	В прошлый раз
+T46	GROUP 810 816	власти
+T47	DATE 836 844	21 марта
+T48	NEWS_SOURCE 846 855	По словам
+T49	PROFESSION 856 866	начальника
+T50	PROFESSION 876 884	районной
+T51	ORGANIZATION 885 898	администрации
+T52	NEWS_SOURCE 867 909	одесской районной администрации Юрия Крука
+T53	PERSON 899 909	Юрия Крука
+T54	FAC 921 945	системы противовоздушной
+T55	ORGANIZATION 946 953	обороны
+T56	FAC 978 987	жилой дом
+T57	GROUP 994 1006	пострадавшие
+T58	DATE 1008 1016	28 марта
+T59	GROUP 1017 1023	жители
+T60	CITY 1043 1049	Одессы
+T61	ORGANIZATION 1081 1099	Энергохолдинг ДТЭК
+T62	FAC 1189 1204	электропередачи
+T63	ORGANIZATION 1264 1267	Tue
+T64	CARDINAL 1284 1286	58
+T65	CARDINAL 1290 1291	+

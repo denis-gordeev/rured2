@@ -1,0 +1,82 @@
+T0	GROUP 0 6	Власти
+T1	COUNTRY 7 14	Украины
+T2	REGION 55 58	ДНР
+T5	COUNTRY 101 108	Украины
+T6	GPE 141 146	Киеву
+T7	REGION 153 156	ДНР
+T13	ORGANIZATION 372 384	министерство
+T14	DATE 461 472	С 18 апреля
+T16	REGION 532 551	Житомирскую область
+T17	ORGANIZATION 619 628	ведомстве
+T18	DATE 631 641	19 февраля
+T19	PROFESSION 642 645	мэр
+T20	CITY 646 655	Шахтерска
+T21	REGION 658 661	ДНР
+T22	PERSON 662 677	Александр Шатов
+T25	CITY 740 750	Артемовска
+T26	COUNTRY 752 762	украинское
+T27	CITY 774 780	Бахмут
+T28	CITY 794 802	Шахтерск
+T29	GROUP 816 823	жителей
+T30	CITY 824 832	Соледара
+T32	CARDINAL 861 868	в 10 км
+T33	CITY 872 882	Артемовска
+T34	DATE 884 901	В середине января
+T36	NEWS_SOURCE 902 927	Минобороны России заявило
+T37	CITY 950 959	Соледаром
+T38	PERSON 976 986	Артемовска
+T39	COUNTRY 999 1009	украинские
+T40	GROUP 1010 1016	власти
+T42	PROFESSION 1018 1030	Вице-премьер
+T44	PERSON 1031 1044	Ирина Верещук
+T45	DATE 1045 1055	17 февраля
+T47	QUANTITY 1087 1092	6 тыс
+T48	GROUP 1094 1109	гражданских лиц
+T49	GROUP 1179 1186	властей
+T51	CITY 1219 1228	Артемовск
+T52	DATE 1238 1255	несколько месяцев
+T53	DATE 1257 1265	3 апреля
+T54	PROFESSION 1266 1276	основатель
+T57	PERSON 1290 1306	Евгений Пригожин
+T58	NEWS_SOURCE 1290 1314	Евгений Пригожин сообщил
+T59	ORGANIZATION 1324 1338	администрацией
+T60	CITY 1339 1349	Артемовска
+T61	COUNTRY 1358 1368	российский
+T63	DATE 1375 1384	11 апреля
+T65	PERCENT 1400 1409	более 80%
+T66	COUNTRY 1452 1462	российских
+T67	ORGANIZATION 1463 1466	сил
+R1	WORKPLACE Arg1:T0 Arg2:T1	
+T4	GROUP 24 54	жителей подконтрольных районов
+R2	ORIGINS_FROM Arg1:T4 Arg2:T1	
+T3	ORGANIZATION 75 100	Министерство реинтеграции
+R3	HEADQUARTERED_IN Arg1:T3 Arg2:T5	
+T8	ORGANIZATION 260 269	ведомства
+R4	HEADQUARTERED_IN Arg1:T8 Arg2:T5	
+T9	NEWS_SOURCE 219 269	Сообщение опубликовано в телеграм-канале ведомства
+T10	EVENT 287 303	военных действий
+T11	NEWS_SOURCE 362 384	объяснило министерство
+T12	NEWS_SOURCE 1375 1394	11 апреля он заявил
+R5	HEADQUARTERED_IN Arg1:T67 Arg2:T66	
+T55	GROUP 1277 1289	ЧВК «Вагнер»
+R6	WORKS_AS Arg1:T57 Arg2:T54	
+T56	EVENT 1350 1373	подняли российский флаг
+R7	ORGANIZES Arg1:T55 Arg2:T56	
+R8	HEADQUARTERED_IN Arg1:T59 Arg2:T60	
+R9	TAKES_PLACE_IN Arg1:T56 Arg2:T60	
+T50	EVENT 1212 1228	Бои за Артемовск
+R10	DATE_TAKES_PLACE_ON Arg1:T50 Arg2:T52	
+R11	WORKS_AS Arg1:T44 Arg2:T42	
+T41	NEWS_SOURCE 1018 1063	Вице-премьер Ирина Верещук 17 февраля заявила
+T35	ORGANIZATION 902 912	Минобороны
+T43	COUNTRY 913 919	России
+R12	HEADQUARTERED_IN Arg1:T35 Arg2:T43	
+R13	ORIGINS_FROM Arg1:T29 Arg2:T30	
+T23	NEWS_SOURCE 631 685	19 февраля мэр Шахтерска в ДНР Александр Шатов сообщил
+T31	GROUP 710 725	местных жителей
+R14	ALTERNATIVE_NAME Arg1:T25 Arg2:T27	
+R15	WORKS_AS Arg1:T22 Arg2:T19	
+T15	GROUP 473 487	жители региона
+T24	VEHICLE 520 529	на поезде
+T46	GROUP 579 591	переселенцам
+T62	NEWS_SOURCE 608 628	заверили в ведомстве

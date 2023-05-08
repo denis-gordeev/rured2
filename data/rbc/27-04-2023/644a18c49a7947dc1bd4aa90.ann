@@ -1,0 +1,48 @@
+T0	NEWS_SOURCE 0 7	Блогера
+T1	PROFESSION 0 7	Блогера
+T2	PERSON 8 18	Блиновскую
+T3	COUNTRY 41 52	Белоруссией
+T4	PROFESSION 54 61	Блогера
+T5	PERSON 62 78	Елену Блиновскую
+T6	CRIME 110 137	уклонении от уплаты налогов
+T7	COUNTRY 163 172	российско
+T8	COUNTRY 173 184	белорусской
+T9	CRIME 185 192	границе
+T10	ORGANIZATION 202 205	РБК
+T11	NEWS_SOURCE 194 214	сообщил РБК источник
+T12	ORGANIZATION 226 228	СК
+T13	COUNTRY 229 235	России
+T14	NEWS_SOURCE 237 250	По его словам
+T15	ECONOMIC_SECTOR 273 292	арендованной машине
+T16	ORGANIZATION 326 338	РИА Новости»
+T17	NEWS_SOURCE 302 340	также сообщил источник «РИА Новости» в
+T18	GROUP 341 367	правоохранительных органах
+T19	NEWS_SOURCE 369 377	Источник
+T20	NEWS_SOURCE 379 395	Известий» заявил
+T21	COUNTRY 437 446	Казахстан
+T22	PROFESSION 537 546	водителем
+T23	GROUP 537 546	водителем
+T24	COUNTRY 578 588	Белоруссии
+T25	NEWS_SOURCE 578 588	Белоруссии
+T26	NEWS_SOURCE 590 615	сказал собеседник издания
+T27	ORGANIZATION 642 644	СК
+T28	NEWS_SOURCE 645 652	объявил
+T29	DATE 653 668	утром 27 апреля
+T30	FAC 722 732	автомобиле
+T31	NEWS_SOURCE 803 823	сообщили следователи
+T32	PROFESSION 812 823	следователи
+T33	PERSON 825 835	Блиновскую
+T34	CRIME 848 869	в уклонении от уплаты
+T35	MONEY 919 936	более 918 млн руб
+T36	CURRENCY 933 936	руб
+T37	CRIME 940 979	отмывании денег в особо крупном размере
+T38	PERSON 981 997	Елена Блиновская
+T39	GROUP 1009 1021	организацией
+T40	EVENT 1022 1031	марафонов
+T41	CARDINAL 1083 1112	644a18c49a7947dc1bd4aa90
+
+Thu
+T42	CARDINAL 1114 1116	27
+T43	CARDINAL 1126 1128	10
+T44	CARDINAL 1129 1131	00
+T45	CARDINAL 1132 1136	37 +

@@ -1,0 +1,34 @@
+T0	GROUP 0 13	Правительство
+T1	GROUP 19 33	производителям
+T2	PROFESSION 63 78	Премьер-министр
+T3	PERSON 79 87	Мишустин
+T4	GROUP 152 166	производителей
+T5	ECONOMIC_SECTOR 167 174	валенок
+T6	NEWS_SOURCE 184 217	сообщается на сайте правительства
+T7	ORGANIZATION 204 217	правительства
+T8	GROUP 220 233	Производители
+T9	PRODUCT 253 258	обуви
+T10	DATE 337 342	более
+T11	CARDINAL 343 349	одного
+T12	DATE 350 354	года
+T13	DATE 383 394	на три года
+T14	NEWS_SOURCE 399 420	говорится в сообщении
+T15	GROUP 427 428	«
+T16	GROUP 437 451	производителям
+T17	PRODUCT 547 559	оборудования
+T18	GROUP 596 607	сотрудникам
+T19	ORGANIZATION 620 627	кабмине
+T20	ORGANIZATION 630 643	Правительство
+T21	FAC 661 681	производство валяной
+T22	PRODUCT 682 698	обуви и обуви из
+T23	FAC 699 706	войлока
+T24	ECONOMIC_SECTOR 833 847	промышленность
+T25	ECONOMIC_SECTOR 894 906	производство
+T26	PRODUCT 907 914	изделий
+T27	GROUP 938 950	организациях
+T28	PRODUCT 951 973	меховой промышленности
+T29	ECONOMIC_SECTOR 959 973	промышленности
+T30	CARDINAL 1039 1041	28
+T31	CARDINAL 1046 1053	2023 13
+T32	CARDINAL 1054 1056	44
+T33	CARDINAL 1057 1061	53 +

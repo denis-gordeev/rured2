@@ -1,0 +1,66 @@
+T0	PERSON 0 9	Зеленский
+T3	CARDINAL 41 45	трех
+T4	COUNTRY 61 64	ЛНР
+T5	PROFESSION 74 83	Президент
+T6	COUNTRY 84 91	Украины
+T7	PERSON 92 110	Владимир Зеленский
+T9	CITY 164 177	Северодонецке
+T10	CITY 190 197	Горском
+T11	COUNTRY 231 234	ЛНР
+T17	REGION 309 326	Луганской области
+T23	REGION 396 413	Луганской области
+T24	REGION 415 429	Северодонецкую
+T29	REGION 485 502	Луганской области
+T30	REGION 531 534	ЛНР
+T31	REGION 544 547	ДНР
+T33	COUNTRY 604 610	России
+T34	DATE 611 631	осенью прошлого года
+T35	DATE 633 640	В марте
+T36	ORGANIZATION 641 651	Минобороны
+T37	COUNTRY 652 658	России
+T40	DATE 713 719	В июне
+T41	REGION 722 725	ЛНР
+T43	CITY 766 774	Горского
+T44	CITY 777 785	Золотого
+T46	ORGANIZATION 803 809	войска
+T47	REGION 810 813	ЛНР
+T48	CITY 821 833	Северодонецк
+T49	DATE 835 846	с 2014 года
+T51	REGION 873 890	Луганской области
+T52	COUNTRY 891 898	Украины
+T53	CITY 906 914	Луганска
+T1	ORGANIZATION 17 38	военные администрации
+R1	WORKS_AS Arg1:T7 Arg2:T5	
+R2	WORKPLACE Arg1:T7 Arg2:T6	
+T2	ORGANIZATION 140 161	военных администраций
+T8	CITY 179 187	Попасной
+T12	ORGANIZATION 254 285	городскую военную администрацию
+T13	CITY 246 253	Горскую
+T14	BOROUGH 286 308	Северодонецкого района
+R3	OWNERSHIP Arg1:T17 Arg2:T14	
+R4	HEADQUARTERED_IN Arg1:T12 Arg2:T13	
+T15	ORGANIZATION 341 372	городскую военную администрацию
+T16	CITY 328 340	Попаснянскую
+R5	HEADQUARTERED_IN Arg1:T15 Arg2:T16	
+T18	BOROUGH 373 395	Северодонецкого района
+R6	OWNERSHIP Arg1:T23 Arg2:T18	
+T19	ORGANIZATION 430 461	городскую военную администрацию
+R7	HEADQUARTERED_IN Arg1:T19 Arg2:T24	
+T20	BOROUGH 462 484	Северодонецкого района
+R8	OWNERSHIP Arg1:T29 Arg2:T20	
+T21	NEWS_SOURCE 507 528	говорится в документе
+T22	REGION 549 560	Запорожской
+T25	REGION 563 583	Херсонской областями
+R9	OWNERSHIP Arg1:T33 Arg2:T25	
+R10	OWNERSHIP Arg1:T33 Arg2:T22	
+R11	OWNERSHIP Arg1:T33 Arg2:T31	
+R12	OWNERSHIP Arg1:T33 Arg2:T30	
+T26	NEWS_SOURCE 633 667	В марте Минобороны России сообщало
+T27	REGION 699 702	ЛНР
+T28	CITY 703 711	Попасной
+T32	ORGANIZATION 690 698	войсками
+R13	OWNERSHIP Arg1:T28 Arg2:T27	
+R14	OWNERSHIP Arg1:T41 Arg2:T43	
+R15	OWNERSHIP Arg1:T41 Arg2:T44	
+R16	OWNERSHIP Arg1:T48 Arg2:T47	
+T38	DATE 789 802	том же месяце

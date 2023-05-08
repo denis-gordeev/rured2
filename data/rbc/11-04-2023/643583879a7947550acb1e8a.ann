@@ -1,0 +1,85 @@
+T0	ORGANIZATION 0 3	Суд
+T1	COUNTRY 6 14	Молдавии
+T3	COUNTRY 66 74	Молдавии
+T4	ORGANIZATION 75 94	Конституционный суд
+T5	ORGANIZATION 96 98	КС
+T7	COUNTRY 193 199	России
+T9	ORGANIZATION 210 213	TV8
+T10	PROFESSION 238 250	председателя
+T13	DATE 272 294	В апреле прошлого года
+T18	PROFESSION 407 415	Депутаты
+T19	ORGANIZATION 416 426	парламента
+T21	PERSON 454 472	Адриан Лебединский
+T22	PERSON 475 488	Григоре Новак
+T23	ORGANIZATION 540 543	суд
+T30	PERSON 774 785	Лебединский
+T32	ORGANIZATION 804 807	TV8
+T33	PROFESSION 834 843	депутатов
+T34	DATE 936 945	год назад
+T35	ORGANIZATION 953 962	парламент
+T36	PROFESSION 974 983	президент
+T43	CURRENCY 1091 1095	леев
+T47	CURRENCY 1119 1122	руб
+T48	ORGANIZATION 1133 1135	ЦБ
+T49	COUNTRY 1136 1142	России
+T54	TIME 1175 1180	часов
+T64	CURRENCY 1263 1266	руб
+T68	COUNTRY 1352 1362	российскую
+T69	EVENT 1363 1375	спецоперацию
+T70	COUNTRY 1379 1386	Украине
+T73	COUNTRY 1438 1448	молдавский
+T74	DATE 1486 1495	1945 года
+T75	COUNTRY 1500 1510	российском
+T76	ORGANIZATION 1511 1515	МИДе
+T78	GPE 1571 1579	Кишинева
+T79	COUNTRY 1722 1729	Россией
+R1	HEADQUARTERED_IN Arg1:T0 Arg2:T1	
+T2	NEWS_SOURCE 0 23	Суд в Молдавии объяснил
+R2	ABBREVIATION Arg1:T4 Arg2:T5	
+T6	EVENT 100 134	разрешил носить георгиевскую ленту
+R3	EVENT_TAKES_PART_IN Arg1:T4 Arg2:T6	
+R4	HEADQUARTERED_IN Arg1:T4 Arg2:T3	
+T8	ORGANIZATION 251 255	суда
+T11	PERSON 256 270	Домники Маноле
+R5	WORKPLACE Arg1:T11 Arg2:T8	
+R6	WORKS_AS Arg1:T11 Arg2:T10	
+T12	NEWS_SOURCE 201 270	передает TV8 со ссылкой на заявление председателя суда Домники Маноле
+T14	LAW 312 405	закон, запрещающий ношение георгиевских лент и демонстрацию в публичных местах символов V и Z
+T15	ORGANIZATION 430 453	Социалистической партии
+R7	WORKPLACE Arg1:T18 Arg2:T15	
+R8	WORKPLACE Arg1:T18 Arg2:T19	
+T16	ORGANIZATION 501 503	КС
+T17	LAW 564 590	запрете георгиевской ленты
+T20	CRIME 687 771	действий военной агрессии, военных преступлений или преступлений против человечности
+R9	WORKS_AS Arg1:T21 Arg2:T18	
+R10	WORKS_AS Arg1:T22 Arg2:T18	
+T24	NEWS_SOURCE 774 815	Лебединский в комментарии для TV8 отметил
+T25	NEWS_SOURCE 1498 1524	В российском МИДе отметили
+R11	HEADQUARTERED_IN Arg1:T76 Arg2:T75	
+T26	GROUP 1667 1674	жителей
+R12	ORIGINS_FROM Arg1:T26 Arg2:T78	
+T27	ORGANIZATION 890 893	суд
+T28	PERSON 991 1001	Майя Санду
+R13	WORKS_AS Arg1:T28 Arg2:T36	
+T29	PERSON 1270 1275	Санду
+T31	NEWS_SOURCE 1270 1284	Санду говорила
+R14	TAKES_PLACE_IN Arg1:T69 Arg2:T70	
+T37	GROUP 1054 1068	физических лиц
+T41	PENALTY 1022 1068	штрафы за нарушение запрета для физических лиц
+T38	QUANTITY 1072 1079	4,5 тыс
+T39	QUANTITY 1081 1089	до 9 тыс
+T40	MONEY 1069 1095	от 4,5 тыс. до 9 тыс. леев
+T42	QUANTITY 1097 1106	от 20 тыс
+T44	QUANTITY 1108 1118	до 40 тыс.
+T45	MONEY 1097 1123	от 20 тыс. до 40 тыс. руб.
+T46	NEWS_SOURCE 1143 1163	на момент публикации
+T50	CARDINAL 1169 1174	30–60
+T51	PENALTY 1169 1199	30–60 часов общественных работ
+T52	GROUP 1207 1222	юридических лиц
+T53	QUANTITY 1225 1245	от 9 тыс. до 18 тыс.
+T55	MONEY 1225 1250	от 9 тыс. до 18 тыс. леев
+T56	CURRENCY 1246 1250	леев
+T57	QUANTITY 1252 1262	40–80 тыс.
+T58	MONEY 1252 1267	40–80 тыс. руб.
+T59	PROFESSION 1449 1454	лидер
+R15	WORKPLACE Arg1:T59 Arg2:T73	

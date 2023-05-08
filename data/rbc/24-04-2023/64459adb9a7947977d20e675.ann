@@ -1,0 +1,70 @@
+T2	REGION 54 60	Техасе
+T3	COUNTRY 81 93	американском
+T7	QUANTITY 189 195	девять
+T12	ORGANIZATION 263 268	офиса
+T15	DATE 305 314	23 апреля
+T16	FAC 332 336	доме
+T19	HOUSE 352 355	263
+T20	LOCATION 359 365	северу
+T21	CITY 369 377	Джаспера
+T22	GROUP 379 403	Большинство пострадавших
+T26	CITY 495 502	Бомонте
+T27	DATE 621 630	18 апреля
+T32	ORGANIZATION 726 733	полиции
+T33	CARDINAL 787 791	двое
+T34	GROUP 792 798	мужчин
+T35	AGE 799 801	48
+T36	AGE 804 810	50 лет
+T38	NEWS_SOURCE 909 926	По версии полиции
+T39	ORGANIZATION 919 926	полиции
+T41	VEHICLE 953 963	автомобиля
+T42	ORGANIZATION 1012 1030	The Jerusalem Post
+T43	PROFESSION 1045 1058	представителя
+T50	QUANTITY 0 6	Девять
+T1	EVENT 15 51	пострадали при стрельбе на вечеринке
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T2	
+T51	CITY 71 78	Джаспер
+T4	REGION 94 105	штате Техас
+R2	OWNERSHIP Arg1:T3 Arg2:T4	
+T6	ORGANIZATION 225 238	телеканал ABC
+T8	ORGANIZATION 269 284	местной полиции
+R4	OWNERSHIP Arg1:T8 Arg2:T12	
+T9	NEWS_SOURCE 216 284	сообщает телеканал ABC со ссылкой на заявление офиса местной полиции
+T5	EVENT 154 169	выпускного бала
+T10	EVENT 126 147	стрельбу на вечеринке
+R3	SUBEVENT_OF Arg1:T5 Arg2:T10	
+R5	TAKES_PLACE_IN Arg1:T10 Arg2:T51	
+R6	TAKES_PLACE_IN Arg1:T5 Arg2:T51	
+T11	EVENT 286 294	Стрельба
+R7	DATE_TAKES_PLACE_ON Arg1:T11 Arg2:T15	
+T13	TIME 315 329	после полуночи
+T14	STREET 340 351	Каунти-роуд
+R8	TAKES_PLACE_IN Arg1:T11 Arg2:T14	
+R9	HEADQUARTERED_IN Arg1:T16 Arg2:T14	
+R10	OWNERSHIP Arg1:T21 Arg2:T14	
+T17	FAC 416 437	мемориальную больницу
+T18	CITY 438 446	Джаспера
+R11	HEADQUARTERED_IN Arg1:T17 Arg2:T18	
+R12	USES Arg1:T22 Arg2:T17	
+T23	FAC 462 492	больницу Кристус-Сент-Элизабет
+R13	HEADQUARTERED_IN Arg1:T23 Arg2:T26	
+T24	EVENT 641 649	стрельба
+T25	BOROUGH 659 673	Шимон ха-Цадик
+T28	CITY 692 702	Иерусалима
+T29	LOCATION 674 691	в восточной части
+R14	TAKES_PLACE_IN Arg1:T24 Arg2:T25	
+R15	DATE_TAKES_PLACE_ON Arg1:T24 Arg2:T27	
+R16	TAKES_PLACE_IN Arg1:T24 Arg2:T28	
+T30	COUNTRY 714 725	израильской
+R17	HEADQUARTERED_IN Arg1:T32 Arg2:T30	
+T31	NEWS_SOURCE 704 733	По данным израильской полиции
+T52	VEHICLE 758 768	автомобилю
+T53	DISEASE 825 848	ранения средней тяжести
+T37	WEAPON 880 907	пистолет-пулемет типа Carlo
+T54	EVENT 865 873	стрельбы
+T40	ORGANIZATION 1059 1085	правоохранительных органов
+R18	WORKPLACE Arg1:T43 Arg2:T40	
+T44	NEWS_SOURCE 1012 1092	The Jerusalem Post со ссылкой на представителя правоохранительных органов писала
+T45	ORGANIZATION 1123 1142	пограничной полиции
+T55	FAC 1118 1122	базы
+R19	OWNERSHIP Arg1:T45 Arg2:T55	

@@ -1,0 +1,43 @@
+T0	ORGANIZATION 0 2	СК
+T1	PRODUCT 18 26	пиццерии
+T2	FAC 29 36	Коврове
+T3	CRIME 43 53	отравлений
+T4	FAC 57 64	Коврове
+T5	REGION 65 85	Владимирской области
+T6	CARDINAL 121 127	одного
+T7	EVENT 131 143	сетевых кафе
+T8	FAC 139 143	кафе
+T9	PRODUCT 144 152	пиццерий
+T10	EVENT 179 188	несколько
+T11	QUANTITY 189 196	человек
+T12	EVENT 217 228	отравлением
+T13	NEWS_SOURCE 230 285	сообщает региональное управление Следственного комитета
+T14	ORGANIZATION 252 285	управление Следственного комитета
+T15	NEWS_SOURCE 287 306	По данным следствия
+T16	ECONOMIC_SECTOR 308 322	госпитализации
+T17	GROUP 323 344	посетителей заведения
+T18	DATE 355 371	с 21 по 24 марта
+T19	GROUP 382 394	пострадавших
+T20	NEWS_SOURCE 446 454	отмечает
+T21	ORGANIZATION 455 457	СК
+T22	NEWS_SOURCE 469 480	прокуратура
+T23	ORGANIZATION 469 480	прокуратура
+T24	GROUP 523 534	Специалисты
+T25	PRODUCT 550 567	пищевую продукцию
+T26	GROUP 593 615	других заведениях сети
+T27	NEWS_SOURCE 621 636	пишет издание «
+T28	EVENT 636 640	День
+T29	DATE 641 643	во
+T30	CITY 644 653	Владимире
+T31	GROUP 656 666	посетители
+T32	FAC 667 671	кафе
+T33	COUNTRY 710 715	ланча
+T34	DATE 716 724	21 марта
+T35	FAC 756 762	Ковров
+T36	CARDINAL 783 789	десяти
+T37	ECONOMIC_SECTOR 816 827	отравлением
+T38	PERSON 887 890	Sat
+T39	CARDINAL 892 894	25
+T40	ORGANIZATION 895 898	Mar
+T41	CARDINAL 904 906	17
+T42	CARDINAL 907 909	13

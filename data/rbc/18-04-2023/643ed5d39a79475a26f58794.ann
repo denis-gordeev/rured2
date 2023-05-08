@@ -1,0 +1,69 @@
+T0	CITY 0 10	Херсонские
+T1	GROUP 11 17	власти
+T3	REGION 75 93	Херсонской области
+T4	ORGANIZATION 137 142	армии
+T5	CARDINAL 150 168	несколько десятков
+T6	VEHICLE 169 174	лодок
+T7	GROUP 186 196	владельцам
+T9	PROFESSION 275 299	врио губернатора области
+T11	PERSON 300 315	Владимир Сальдо
+T14	GROUP 387 393	власти
+T15	ORGANIZATION 420 425	армии
+T17	VEHICLE 558 565	лодками
+T19	VEHICLE 589 594	лодок
+T22	CARDINAL 610 618	около 30
+T25	NEWS_SOURCE 641 654	По его словам
+T26	VEHICLE 664 669	лодки
+T28	GROUP 695 705	Владельцам
+T29	PRODUCT 753 758	мотор
+T30	VEHICLE 761 766	лодку
+T31	ORGANIZATION 790 812	районную администрацию
+T32	DATE 913 922	18 апреля
+T33	PERSON 923 929	Сальдо
+T35	COUNTRY 960 967	Украине
+T40	NEWS_SOURCE 1094 1107	по его словам
+T41	NORP 1109 1117	украинцы
+T45	NEWS_SOURCE 1216 1230	Сальдо отметил
+T46	FAC 1256 1268	фортификации
+T47	PROFESSION 1305 1314	Президент
+T48	COUNTRY 1315 1321	России
+T49	PERSON 1322 1336	Владимир Путин
+T50	REGION 1362 1380	Херсонской области
+T51	CARDINAL 1383 1387	трех
+T52	REGION 1412 1415	ДНР
+T53	REGION 1417 1420	ЛНР
+T54	REGION 1423 1442	Запорожской области
+T55	DATE 1447 1454	октябре
+R1	WORKPLACE Arg1:T1 Arg2:T0	
+T2	ORGANIZATION 60 65	армии
+T64	VEHICLE 66 71	лодки
+T65	EVENT 109 126	военное положение
+R2	TAKES_PLACE_IN Arg1:T65 Arg2:T3	
+T8	ORGANIZATION 247 266	телеканала «Таврия»
+R3	WORKS_AS Arg1:T11 Arg2:T9	
+R4	WORKPLACE Arg1:T9 Arg2:T3	
+T10	NEWS_SOURCE 239 356	в эфире телеканала «Таврия» сообщил врио губернатора области Владимир Сальдо, ролик опубликован в его телеграм-канале
+T12	EVENT 368 386	военного положения
+T13	ORGANIZATION 503 508	армии
+T16	PERSON 633 639	Сальдо
+T18	NEWS_SOURCE 623 639	рассказал Сальдо
+T20	CITY 779 789	Геническую
+R5	HEADQUARTERED_IN Arg1:T31 Arg2:T20	
+T21	VEHICLE 847 852	лодки
+T23	NEWS_SOURCE 894 905	пообещал он
+T24	NEWS_SOURCE 907 936	Ранее 18 апреля Сальдо заявил
+T27	LOCATION 968 988	правом берегу Днепра
+T34	EVENT 1050 1080	подготовке к форсированию реки
+R6	TAKES_PLACE_IN Arg1:T34 Arg2:T35	
+T36	WEAPON 1130 1148	малотоннажный флот
+T37	GROUP 1198 1205	десанта
+T38	EVENT 1170 1205	использовать для переброски десанта
+T39	ORGANIZATION 1289 1292	ВСУ
+R7	WORKS_AS Arg1:T49 Arg2:T47	
+T42	EVENT 1342 1359	военное положение
+R8	TAKES_PLACE_IN Arg1:T42 Arg2:T50	
+R9	TAKES_PLACE_IN Arg1:T42 Arg2:T52	
+R10	TAKES_PLACE_IN Arg1:T42 Arg2:T53	
+R11	TAKES_PLACE_IN Arg1:T42 Arg2:T54	
+R12	DATE_TAKES_PLACE_ON Arg1:T42 Arg2:T55	
+R13	WORKPLACE Arg1:T49 Arg2:T48	

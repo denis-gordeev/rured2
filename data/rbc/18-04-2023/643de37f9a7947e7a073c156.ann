@@ -1,0 +1,63 @@
+T0	COUNTRY 0 6	Польша
+T2	DATE 18 24	начале
+T4	QUANTITY 50 57	230 тыс
+T6	COUNTRY 70 76	Польше
+T7	QUANTITY 129 136	230 тыс
+T12	ORGANIZATION 197 230	министерство национальной обороны
+T13	GROUP 256 262	мужчин
+T14	AGE 263 281	2004 года рождения
+T15	GROUP 283 289	мужчин
+T17	AGE 302 321	с 1999 по 2003 годы
+T23	COUNTRY 588 594	Польше
+T24	DATE 611 622	в 2009 году
+T25	PROFESSION 752 761	Президент
+T27	DATE 781 791	12 февраля
+T28	QUANTITY 828 840	почти 10 тыс
+T29	COUNTRY 842 854	американских
+T30	PROFESSION 855 862	военных
+T32	ORGANIZATION 895 899	НАТО
+T36	COUNTRY 937 943	Польша
+T37	WEAPON 1003 1013	вооружение
+T38	DATE 1023 1037	в прошлом году
+T41	QUANTITY 1083 1089	13 742
+T42	PROFESSION 1096 1103	солдата
+T43	PROFESSION 1130 1144	военнослужащих
+T53	NEWS_SOURCE 1235 1245	Он добавил
+T54	ORGANIZATION 1291 1307	Вооруженные силы
+T55	DATE 1316 1328	12 апреля на
+T56	ORGANIZATION 1335 1347	министерства
+T58	COUNTRY 1364 1367	США
+T60	COUNTRY 1370 1376	Польша
+T62	LOCATION 1446 1462	восточном фланге
+T1	EVENT 25 49	мобилизационной проверки
+T3	NEWS_SOURCE 0 15	Польша сообщила
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T0	
+T5	EVENT 86 110	мобилизационная проверка
+R2	TAKES_PLACE_IN Arg1:T5 Arg2:T6	
+T8	ORGANIZATION 164 182	радиостанция RMF24
+R3	HEADQUARTERED_IN Arg1:T12 Arg2:T6	
+T9	NEWS_SOURCE 155 230	сообщает радиостанция RMF24 со ссылкой на министерство национальной обороны
+T10	EVENT 370 384	военной службе
+T11	DATE 453 468	в прошлых годах
+T16	EVENT 475 499	мобилизационной проверки
+T18	EVENT 641 680	отсутствует обязательная военная служба
+R4	TAKES_PLACE_IN Arg1:T18 Arg2:T23	
+T19	PERSON 762 773	Анджей Дуда
+R5	WORKS_AS Arg1:T19 Arg2:T25	
+R6	WORKPLACE Arg1:T30 Arg2:T29	
+T21	LOCATION 900 919	на восточном фланге
+R7	HEADQUARTERED_IN Arg1:T32 Arg2:T21	
+T22	NEWS_SOURCE 921 931	Он уточнил
+T31	EVENT 1038 1082	на профессиональную военную службу поступило
+R8	DATE_TAKES_PLACE_ON Arg1:T31 Arg2:T38	
+R10	TAKES_PLACE_IN Arg1:T31 Arg2:T36	
+T20	NEWS_SOURCE 752 791	Президент Анджей Дуда заявил 12 февраля
+T26	PERSON 1220 1233	Мариуш Блащак
+T33	PROFESSION 1207 1219	вице-премьер
+R9	WORKS_AS Arg1:T26 Arg2:T33	
+T34	NEWS_SOURCE 1200 1233	заявил вице-премьер Мариуш Блащак
+T35	NORP 1272 1279	поляков
+T39	NEWS_SOURCE 1316 1358	12 апреля на сайте министерства говорилось
+T40	EVENT 1386 1413	совместные военные обучения
+R11	ORGANIZES Arg1:T60 Arg2:T40	
+R12	EVENT_TAKES_PART_IN Arg1:T58 Arg2:T40	

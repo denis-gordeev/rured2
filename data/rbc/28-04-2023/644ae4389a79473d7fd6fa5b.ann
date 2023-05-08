@@ -1,0 +1,84 @@
+T0	ORGANIZATION 2 6	NASA
+T2	FAC 40 43	МКС
+T5	FAC 102 135	Международной космической станции
+T6	FAC 137 140	МКС
+T9	COUNTRY 248 251	США
+T15	ORGANIZATION 309 313	NASA
+T18	COUNTRY 336 342	Япония
+T19	COUNTRY 344 350	Канада
+T21	ORGANIZATION 370 405	Европейского космического агентства
+T22	ORGANIZATION 407 410	ESA
+T24	FAC 456 463	станции
+T25	DATE 464 476	до 2030 года
+T26	COUNTRY 480 486	Россия
+T27	FAC 537 544	станции
+T28	DATE 545 557	до 2028 года
+T30	DATE 613 630	в конце 1998 года
+T32	FAC 679 686	станции
+T33	COUNTRY 710 716	России
+T34	COUNTRY 718 721	США
+T35	COUNTRY 723 729	Японии
+T36	COUNTRY 731 737	Канады
+T37	COUNTRY 739 747	Германии
+T38	DATE 798 815	в 2030-2031 годах
+T39	DATE 842 865	в феврале прошлого года
+T40	ORGANIZATION 872 876	NASA
+T41	FAC 878 885	станция
+T42	DATE 886 904	в январе 2031 года
+T52	FAC 1193 1200	станции
+T1	NEWS_SOURCE 0 14	В NASA заявили
+T61	GROUP 55 69	всеми странами
+T62	EVENT 17 39	поддержке экспулатации
+R1	TAKES_PLACE_IN Arg1:T62 Arg2:T2	
+T3	DATE 44 54	после 2024
+R2	DATE_TAKES_PLACE_ON Arg1:T62 Arg2:T3	
+R3	EVENT_TAKES_PART_IN Arg1:T61 Arg2:T62	
+T4	GROUP 75 91	страны-участницы
+R4	ABBREVIATION Arg1:T5 Arg2:T6	
+T7	DATE 179 194	после 2024 года
+T63	EVENT 142 178	поддержали продление ее эксплуатации
+R5	DATE_TAKES_PLACE_ON Arg1:T63 Arg2:T7	
+R6	EVENT_TAKES_PART_IN Arg1:T4 Arg2:T63	
+T8	ORGANIZATION 223 307	Национального управления США по аэронавтике и исследованию космического пространства
+R7	ABBREVIATION Arg1:T8 Arg2:T15	
+T10	NEWS_SOURCE 204 314	говорится на сайте Национального управления США по аэронавтике и исследованию космического пространства (NASA)
+T11	COUNTRY 317 334	Соединенные Штаты
+T12	GROUP 353 369	страны-участницы
+R8	ABBREVIATION Arg1:T21 Arg2:T22	
+T13	NEWS_SOURCE 317 423	Соединенные Штаты, Япония, Канада и страны-участницы Европейского космического агентства (ESA) подтвердили
+T14	EVENT 429 463	поддержат продление работы станции
+R9	DATE_TAKES_PLACE_ON Arg1:T14 Arg2:T25	
+R10	EVENT_TAKES_PART_IN Arg1:T11 Arg2:T14	
+R11	EVENT_TAKES_PART_IN Arg1:T18 Arg2:T14	
+R12	EVENT_TAKES_PART_IN Arg1:T19 Arg2:T14	
+R13	EVENT_TAKES_PART_IN Arg1:T12 Arg2:T14	
+T16	NEWS_SOURCE 480 498	Россия подтвердила
+T17	EVENT 504 544	поддержит продление эксплуатации станции
+R14	DATE_TAKES_PLACE_ON Arg1:T17 Arg2:T28	
+R15	ORGANIZES Arg1:T26 Arg2:T17	
+T20	NEWS_SOURCE 562 583	говорится в сообщении
+T23	FAC 586 589	МКС
+T29	FAC 635 674	многоцелевой исследовательский комплекс
+T31	EVENT 590 612	начали эксплуатировать
+R16	DATE_TAKES_PLACE_ON Arg1:T31 Arg2:T30	
+R17	TAKES_PLACE_IN Arg1:T31 Arg2:T23	
+R18	TAKES_PLACE_IN Arg1:T31 Arg2:T29	
+T54	PROFESSION 696 706	космонавты
+T55	EVENT 676 706	На станции работают космонавты
+R19	EVENT_TAKES_PART_IN Arg1:T33 Arg2:T55	
+R20	EVENT_TAKES_PART_IN Arg1:T34 Arg2:T55	
+R21	EVENT_TAKES_PART_IN Arg1:T35 Arg2:T55	
+R22	EVENT_TAKES_PART_IN Arg1:T36 Arg2:T55	
+R23	EVENT_TAKES_PART_IN Arg1:T37 Arg2:T55	
+T56	FAC 764 771	Станцию
+T57	EVENT 772 797	планируют свести с орбиты
+R24	TAKES_PLACE_IN Arg1:T57 Arg2:T56	
+R25	DATE_TAKES_PLACE_ON Arg1:T57 Arg2:T38	
+T43	LOCATION 1151 1172	на околоземной орбите
+T44	ORGANIZATION 1216 1235	частными компаниями
+T45	EVENT 905 951	начнет медленно снижаться и войдет в атмосферу
+R26	TAKES_PLACE_IN Arg1:T45 Arg2:T41	
+R27	DATE_TAKES_PLACE_ON Arg1:T45 Arg2:T42	
+T46	LOCATION 975 1006	необитаемой части Тихого океана
+T47	LOCATION 1007 1031	неподалеку от Точки Немо
+R28	OWNERSHIP Arg1:T44 Arg2:T52	

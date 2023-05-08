@@ -1,0 +1,66 @@
+T0	COUNTRY 3 10	Украине
+T2	WEAPON 62 69	авиации
+T3	COUNTRY 71 81	Украинский
+T7	WEAPON 155 168	беспилотников
+T8	CARDINAL 189 191	11
+T11	ORGANIZATION 213 222	Страна.ua
+T12	ORGANIZATION 248 256	компании
+T13	ORGANIZATION 259 267	Facebook
+T14	ORGANIZATION 281 306	корпорации Meta Platforms
+T15	COUNTRY 363 369	России
+T16	CARDINAL 384 388	двух
+T17	WEAPON 395 406	боеприпасов
+T18	NEWS_SOURCE 408 427	сказано в сообщении
+T19	ORDINAL 429 435	Первый
+T25	CARDINAL 550 552	11
+T26	ORDINAL 556 562	Второй
+T35	CITY 673 678	Киеве
+T36	ORGANIZATION 700 711	предприятий
+T38	COUNTRY 712 719	Украины
+T42	COUNTRY 812 822	украинский
+T44	ORGANIZATION 892 896	НАТО
+T45	WEAPON 945 951	танков
+T47	DATE 989 1005	к середине марта
+T48	ORDINAL 1006 1012	первую
+T49	COUNTRY 1045 1052	Украину
+T50	PROFESSION 1063 1078	министр обороны
+T51	COUNTRY 1079 1085	России
+T53	PERSON 1086 1098	Сергей Шойгу
+T56	COUNTRY 1192 1202	российских
+T1	WEAPON 36 57	осколочные боеприпасы
+T4	ORGANIZATION 82 104	оборонный завод «Маяк»
+R1	HEADQUARTERED_IN Arg1:T4 Arg2:T3	
+T5	WEAPON 129 150	осколочные боеприпасы
+T6	CRIME 334 348	экстремистской
+R2	WORKS_AS Arg1:T53 Arg2:T50	
+R3	WORKPLACE Arg1:T53 Arg2:T51	
+T9	EVENT 1109 1121	на совещании
+T10	WEAPON 1146 1158	боеприпасами
+T52	ORGANIZATION 1167 1208	Объединенной группировки российских войск
+R4	OWNERSHIP Arg1:T56 Arg2:T52	
+T54	ORGANIZATION 1222 1243	оборонные предприятия
+T55	WEAPON 1280 1310	высокоточных средств поражения
+R5	EVENT_TAKES_PART_IN Arg1:T53 Arg2:T9	
+T57	FAC 1159 1166	в штабе
+R6	OWNERSHIP Arg1:T52 Arg2:T57	
+R7	TAKES_PLACE_IN Arg1:T9 Arg2:T57	
+T58	NEWS_SOURCE 203 267	сообщает «Страна.ua» со ссылкой на сообщение компании в Facebook
+T20	WEAPON 443 480	ОБП-23.1 (ОБП — осколочный боеприпас)
+T21	CARDINAL 487 488	1
+T22	WEAPON 531 538	снаряда
+T23	CARDINAL 593 596	0,5
+T24	CARDINAL 630 633	4,5
+T27	CARDINAL 581 586	23.05
+T28	WEAPON 567 586	снаряда — ОБП-23.05
+T29	ORGANIZATION 637 659	Оборонный завод «Маяк»
+R8	HEADQUARTERED_IN Arg1:T29 Arg2:T35	
+T30	CARDINAL 684 688	одно
+R9	HEADQUARTERED_IN Arg1:T36 Arg2:T38	
+T31	ECONOMIC_SECTOR 723 749	производству средств связи
+T32	WEAPON 782 803	огнестрельного оружия
+T33	ECONOMIC_SECTOR 751 779	звукозаписывающей аппаратуры
+T34	ORGANIZATION 823 846	концерн «Укроборонпром»
+T37	NEWS_SOURCE 806 854	Ранее украинский концерн «Укроборонпром» сообщил
+T39	CARDINAL 915 918	125
+T40	WEAPON 915 940	125-миллиметровые снаряды
+T41	WEAPON 1020 1031	боеприпасов

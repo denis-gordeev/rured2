@@ -1,0 +1,30 @@
+T1	NEWS_SOURCE 0 17	Le Monde сообщила
+T2	PERSON 23 29	Макрон
+T4	PROFESSION 67 76	Президент
+T5	COUNTRY 77 84	Франции
+T12	ORGANIZATION 199 207	Le Monde
+T13	ORGANIZATION 232 255	Конституционным советом
+T14	DATE 256 265	14 апреля
+T17	PROFESSION 298 307	президент
+T18	PERSON 308 324	Эмманюэль Макрон
+T20	TIME 371 379	48 часов
+T22	NEWS_SOURCE 429 445	отмечает издание
+T24	ORDINAL 522 528	первом
+T25	CARDINAL 543 557	шестьдесят два
+T26	CARDINAL 578 595	шестьдесят четыре
+T33	ORGANIZATION 0 8	Le Monde
+T3	LAW 39 65	закон о пенсионной реформе
+T6	PERSON 85 101	Эмманюэль Макрон
+T7	LAW 111 137	закон о пенсионной реформе
+R1	WORKPLACE Arg1:T6 Arg2:T5	
+R2	WORKS_AS Arg1:T6 Arg2:T4	
+T8	ORGANIZATION 162 181	Официальном журнале
+T9	NEWS_SOURCE 139 207	документ опубликован в Официальном журнале, передает газета Le Monde
+T10	ORGANIZATION 266 283	Елисейский дворец
+T11	EVENT 209 231	После одобрения текста
+R3	TAKES_PLACE_IN Arg1:T11 Arg2:T10	
+R4	WORKS_AS Arg1:T18 Arg2:T17	
+T15	LAW 334 360	закон о пенсионной реформе
+T16	ORGANIZATION 390 410	Официальному журналу
+T19	ORGANIZATION 438 445	издание
+T21	LAW 465 513	Кодекс социального обеспечения вносятся поправки

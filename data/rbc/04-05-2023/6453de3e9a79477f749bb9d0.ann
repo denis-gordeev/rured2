@@ -1,0 +1,50 @@
+T0	VILLAGE 2 14	селе Успенка
+T1	REGION 17 34	Тюменской области
+T2	CARDINAL 46 48	13
+T3	FAC 49 60	жилых домов
+T7	CARDINAL 134 136	13
+T8	FAC 137 148	жилых домов
+T17	QUANTITY 389 391	45
+T18	GROUP 392 413	маломобильных человек
+T19	QUANTITY 416 419	370
+T20	GROUP 420 425	детей
+T23	NEWS_SOURCE 475 496	говорится в сообщении
+T24	QUANTITY 526 528	74
+T25	CARDINAL 540 542	51
+T26	PRODUCT 551 558	техники
+T29	CARDINAL 661 668	четырех
+T31	PRODUCT 676 683	техники
+T32	REGION 718 730	Свердловской
+T33	REGION 733 751	Тюменской областей
+T35	REGION 807 824	Тюменской области
+R1	OWNERSHIP Arg1:T1 Arg2:T0	
+R2	HEADQUARTERED_IN Arg1:T3 Arg2:T0	
+T4	EVENT 775 780	Пожар
+R3	TAKES_PLACE_IN Arg1:T4 Arg2:T35	
+T5	NEWS_SOURCE 685 701	Ранее сообщалось
+T6	EVENT 752 773	вспыхнул лесной пожар
+T34	LOCATION 707 717	на границе
+R4	TAKES_PLACE_IN Arg1:T6 Arg2:T33	
+R5	TAKES_PLACE_IN Arg1:T6 Arg2:T32	
+R6	OWNERSHIP Arg1:T32 Arg2:T34	
+R7	OWNERSHIP Arg1:T33 Arg2:T34	
+T36	NEWS_SOURCE 560 580	Позже стало известно
+T27	GROUP 612 637	аэромобильную группировку
+T28	QUANTITY 648 650	50
+T30	VILLAGE 64 76	селе Успенка
+T37	REGION 77 94	Тюменской области
+R8	OWNERSHIP Arg1:T37 Arg2:T30	
+T9	QUANTITY 163 165	79
+T10	ORGANIZATION 224 227	МЧС
+T11	ORGANIZATION 199 223	регионального управления
+R9	OWNERSHIP Arg1:T10 Arg2:T11	
+T12	NEWS_SOURCE 175 227	сообщает телеграм-канал регионального управления МЧС
+R10	HEADQUARTERED_IN Arg1:T8 Arg2:T30	
+T38	EVENT 95 148	огонь от лесного пожара перекинулся на 13 жилых домов
+R11	TAKES_PLACE_IN Arg1:T38 Arg2:T30	
+T13	FAC 255 266	жилых домов
+T39	LOCATION 282 305	рядом с лесным массивом
+R12	HEADQUARTERED_IN Arg1:T13 Arg2:T39	
+T14	QUANTITY 325 327	79
+T15	ORGANIZATION 346 375	дома престарелых «Милосердие»
+T16	ORGANIZATION 429 470	детского психоневрологического диспансера

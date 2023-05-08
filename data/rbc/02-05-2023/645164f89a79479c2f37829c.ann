@@ -1,0 +1,46 @@
+T0	ORGANIZATION 2 12	Минобороны
+T1	NEWS_SOURCE 0 21	В Минобороны сообщили
+T2	ORGANIZATION 40 43	ВВС
+T3	NEWS_SOURCE 40 43	ВВС
+T4	COUNTRY 44 51	Израиля
+T5	GPE 65 71	Алеппо
+T6	CARDINAL 73 76	Два
+T7	FAC 77 100	израильских истребителя
+T8	FAC 117 124	взлетно
+T9	FAC 125 167	посадочной полосе международного аэропорта
+T10	CITY 170 176	Алеппо
+T11	PROFESSION 194 209	замруководителя
+T12	COUNTRY 210 221	российского
+T13	NEWS_SOURCE 186 228	сообщил замруководителя российского Центра
+T14	ORGANIZATION 222 260	Центра по примирению враждующих сторон
+T15	ORGANIZATION 262 266	ЦПВС
+T16	PERSON 268 280	Олег Гуринов
+T17	NEWS_SOURCE 268 304	Олег Гуринов, передает «РИА Новости»
+T18	ORGANIZATION 292 304	РИА Новости»
+T19	DATE 307 317	1 мая  два
+T20	PRODUCT 342 344	F-
+T21	CARDINAL 344 346	16
+T22	ORGANIZATION 347 350	ВВС
+T23	COUNTRY 351 358	Израиля
+T24	GPE 441 447	Алеппо
+T25	FAC 486 493	взлетно
+T26	FAC 505 536	полоса международного аэропорта
+T27	NEWS_SOURCE 541 555	сказал Гуринов
+T28	PERSON 548 555	Гуринов
+T29	CARDINAL 583 587	один
+T30	ORGANIZATION 655 659	SANA
+T31	COUNTRY 674 685	израильские
+T32	ORGANIZATION 686 689	ВВС
+T33	CARDINAL 748 754	одного
+T34	ECONOMIC_SECTOR 755 763	военного
+T35	ORGANIZATION 765 794	Международный аэропорт Алеппо
+T36	ORGANIZATION 835 844	агентства
+T37	NEWS_SOURCE 824 851	Собеседник агентства заявил
+T38	FAC 857 865	авиаузел
+T39	CITY 916 922	Алеппо
+T40	CARDINAL 956 980	645164f89a79479c2f37829c
+T41	DATE 994 998	2023
+T42	CARDINAL 999 1001	22
+T43	PERCENT 1002 1004	53
+T44	CARDINAL 1002 1004	53
+T45	CARDINAL 1008 1009	+

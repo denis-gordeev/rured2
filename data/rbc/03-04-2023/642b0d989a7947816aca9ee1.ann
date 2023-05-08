@@ -1,0 +1,66 @@
+T0	GROUP 0 6	Власти
+T3	REGION 51 60	Ингушетии
+T8	ORGANIZATION 187 199	РИА Новости»
+T10	ORGANIZATION 214 241	оперативный штаб республики
+T13	ORGANIZATION 282 285	ФСБ
+T21	DATE 376 384	28 марта
+T22	ORGANIZATION 393 396	ДПС
+T25	REGION 444 453	Ингушетии
+T28	CARDINAL 499 503	двое
+T29	PROFESSION 504 515	полицейских
+T31	ORGANIZATION 529 543	Управление МВД
+T32	NEWS_SOURCE 529 565	Управление МВД по Ингушетии сообщало
+T34	GPE 638 647	Ингушетии
+T35	REGION 651 667	североосетинском
+T36	ORGANIZATION 668 678	управлении
+T37	ORGANIZATION 679 681	СК
+T39	REGION 727 733	Осетии
+T40	ORGANIZATION 735 737	СК
+T43	CARDINAL 769 772	317
+T1	EVENT 18 48	контртеррористической операции
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T3	
+T2	BOROUGH 62 83	В Малгобекском районе
+T4	REGION 84 93	Ингушетии
+T5	EVENT 139 175	режим контртеррористической операции
+R2	TAKES_PLACE_IN Arg1:T5 Arg2:T2	
+R3	OWNERSHIP Arg1:T4 Arg2:T2	
+T6	NEWS_SOURCE 177 241	передает «РИА Новости» со ссылкой на оперативный штаб республики
+T7	BOROUGH 886 906	Малгобекского района
+T9	VILLAGE 841 855	Село Кантышево
+T11	CARDINAL 866 882	примерно в 15 км
+R4	OWNERSHIP Arg1:T7 Arg2:T9	
+T44	CRIME 777 838	посягательство на жизнь сотрудника правоохранительного органа
+T45	ORGANIZATION 812 838	правоохранительного органа
+T46	PROFESSION 801 811	сотрудника
+R5	WORKPLACE Arg1:T46 Arg2:T45	
+T12	PROFESSION 259 281	начальником управления
+R6	WORKPLACE Arg1:T12 Arg2:T13	
+T47	REGION 286 298	по Ингушетии
+R7	HEADQUARTERED_IN Arg1:T13 Arg2:T47	
+T48	EVENT 311 341	контртеррористической операции
+T15	TIME 351 363	с 20:00 мск.
+T16	TIME 366 372	В ночь
+R8	DATE_TAKES_PLACE_ON Arg1:T48 Arg2:T21	
+T17	FAC 388 392	пост
+R9	USES Arg1:T22 Arg2:T17	
+R10	TAKES_PLACE_IN Arg1:T48 Arg2:T17	
+T18	BOROUGH 414 432	Пригородном районе
+T19	REGION 456 471	Северной Осетии
+T20	LOCATION 433 443	на границе
+R11	OWNERSHIP Arg1:T19 Arg2:T20	
+R12	OWNERSHIP Arg1:T25 Arg2:T20	
+T23	EVENT 473 497	было совершено нападение
+R13	TAKES_PLACE_IN Arg1:T23 Arg2:T18	
+T24	REGION 544 556	по Ингушетии
+R14	HEADQUARTERED_IN Arg1:T31 Arg2:T24	
+T26	EVENT 571 580	нападение
+T27	VILLAGE 602 616	села Кантышево
+R15	TAKES_PLACE_IN Arg1:T26 Arg2:T27	
+R16	HEADQUARTERED_IN Arg1:T37 Arg2:T35	
+R17	OWNERSHIP Arg1:T37 Arg2:T36	
+T30	NEWS_SOURCE 649 689	В североосетинском управлении СК заявили
+T33	FAC 708 712	пост
+R18	HEADQUARTERED_IN Arg1:T33 Arg2:T39	
+T14	LAW 765 775	ст. 317 УК
+T38	EVENT 738 761	возбудил уголовное дело
+R19	ORGANIZES Arg1:T40 Arg2:T38	

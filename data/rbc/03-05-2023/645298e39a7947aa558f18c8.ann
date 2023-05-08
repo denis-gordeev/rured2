@@ -1,0 +1,92 @@
+T0	GROUP 0 6	Власти
+T4	GROUP 67 73	Власти
+T5	REGION 74 93	Запорожской области
+T9	PROFESSION 206 230	врио губернатора региона
+T12	PERSON 231 247	Евгений Балицкий
+T21	NEWS_SOURCE 513 546	говорится в сообщении губернатора
+T22	PROFESSION 535 546	губернатора
+T23	DATE 549 560	В этом году
+T24	GROUP 568 587	региональные власти
+T27	PROFESSION 675 685	Губернатор
+T28	CITY 686 697	Севастополя
+T29	PERSON 698 714	Михаил Развожаев
+T32	ORGANIZATION 763 773	Минобороны
+T36	GROUP 835 841	власти
+T37	REGION 842 849	Курской
+T38	REGION 851 872	Белгородской областей
+T39	REGION 875 880	Крыма
+T41	REGION 912 930	Херсонской области
+T42	GROUP 980 986	власти
+T45	GPE 1007 1013	Кремле
+T49	PERSON 1113 1127	Дмитрий Песков
+T50	CITY 1131 1137	Москве
+T51	EVENT 1138 1150	парад Победы
+T52	PERSON 1223 1229	Песков
+T53	NEWS_SOURCE 1223 1237	Песков добавил
+T54	GROUP 1243 1249	власти
+T55	CITY 1276 1282	Москве
+T58	WEAPON 1303 1316	беспилотников
+T61	GPE 1320 1326	Кремль
+T67	NEWS_SOURCE 1440 1456	Балицкий отметил
+T71	GROUP 1524 1536	Организаторы
+T72	EVENT 1538 1556	Бессмертного полка
+T75	DATE 1593 1604	в этом году
+T1	REGION 7 26	Запорожской области
+R1	WORKPLACE Arg1:T0 Arg2:T1	
+T2	EVENT 27 65	отказались от проведения парада Победы
+R2	TAKES_PLACE_IN Arg1:T2 Arg2:T1	
+R3	WORKPLACE Arg1:T4 Arg2:T5	
+T3	EVENT 94 132	отказались от проведения парада Победы
+R4	TAKES_PLACE_IN Arg1:T3 Arg2:T5	
+T6	EVENT 135 161	шествия «Бессмертный полк»
+R5	TAKES_PLACE_IN Arg1:T6 Arg2:T5	
+R6	WORKS_AS Arg1:T12 Arg2:T9	
+R7	WORKPLACE Arg1:T12 Arg2:T5	
+T7	NEWS_SOURCE 199 271	заявил врио губернатора региона Евгений Балицкий в своем телеграм-канале
+T8	REGION 388 407	Запорожской области
+T10	EVENT 426 459	Не будет проводиться парад Победы
+T11	EVENT 462 509	не будет массового шествия «Бессмертного полка»
+R8	TAKES_PLACE_IN Arg1:T11 Arg2:T8	
+R9	TAKES_PLACE_IN Arg1:T10 Arg2:T8	
+T13	EVENT 588 673	отказались от проведения мероприятий с массовым скоплением людей по случаю Дня Победы
+R10	ORGANIZES Arg1:T24 Arg2:T13	
+R11	DATE_TAKES_PLACE_ON Arg1:T13 Arg2:T23	
+R12	WORKS_AS Arg1:T29 Arg2:T27	
+R13	WORKPLACE Arg1:T29 Arg2:T28	
+T14	EVENT 726 739	отмене парада
+T15	NEWS_SOURCE 675 722	Губернатор Севастополя Михаил Развожаев сообщил
+R14	ORGANIZES Arg1:T28 Arg2:T14	
+R15	ORGANIZES Arg1:T71 Arg2:T72	
+T17	EVENT 775 810	Об отказе проводить военное шествие
+T18	DATE 814 819	9 Мая
+R16	WORKPLACE Arg1:T36 Arg2:T37	
+R17	WORKPLACE Arg1:T36 Arg2:T38	
+R18	WORKPLACE Arg1:T36 Arg2:T39	
+R19	TAKES_PLACE_IN Arg1:T17 Arg2:T37	
+R20	TAKES_PLACE_IN Arg1:T17 Arg2:T38	
+R21	TAKES_PLACE_IN Arg1:T17 Arg2:T39	
+R22	TAKES_PLACE_IN Arg1:T17 Arg2:T41	
+R23	DATE_TAKES_PLACE_ON Arg1:T17 Arg2:T18	
+T19	REGION 987 1003	Липецкой области
+R24	WORKPLACE Arg1:T42 Arg2:T19	
+R25	TAKES_PLACE_IN Arg1:T17 Arg2:T19	
+R26	DATE_TAKES_PLACE_ON Arg1:T72 Arg2:T75	
+T16	NEWS_SOURCE 1524 1566	Организаторы «Бессмертного полка» сообщали
+T20	PERSON 1440 1448	Балицкий
+T25	REGION 1462 1483	в Запорожской области
+R27	WORKPLACE Arg1:T20 Arg2:T25	
+T26	PROFESSION 1102 1112	президента
+T30	PROFESSION 1086 1101	пресс-секретарь
+R28	SUBORDINATE_OF Arg1:T26 Arg2:T30	
+R29	WORKS_AS Arg1:T49 Arg2:T30	
+R30	TAKES_PLACE_IN Arg1:T51 Arg2:T50	
+T31	NEWS_SOURCE 1078 1127	уточнил пресс-секретарь президента Дмитрий Песков
+T33	NEWS_SOURCE 1207 1221	подчеркивал он
+T34	EVENT 1250 1273	не будут отменять парад
+R31	TAKES_PLACE_IN Arg1:T34 Arg2:T55	
+R32	WORKPLACE Arg1:T54 Arg2:T55	
+T35	TIME 1341 1346	ночью
+T40	DATE 1347 1352	3 мая
+T43	EVENT 1414 1438	акцию «Бессмертный полк»
+T44	EVENT 1297 1326	атаки беспилотников на Кремль
+R33	DATE_TAKES_PLACE_ON Arg1:T44 Arg2:T40	

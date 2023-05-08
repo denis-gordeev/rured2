@@ -1,0 +1,55 @@
+T0	ORGANIZATION 0 6	Минфин
+T2	ORGANIZATION 55 95	нефтяных компаний
+
+Министерство финансов
+T3	ORGANIZATION 108 122	правительством
+T9	PERSON 236 250	Антон Силуанов
+T10	PROFESSION 327 337	нефтяников
+T12	ORGANIZATION 351 364	правительстве
+T17	PROFESSION 425 432	министр
+T19	ORGANIZATION 444 448	ТАСС
+T20	ORGANIZATION 536 553	нефтяных компаний
+T21	DATE 602 611	В феврале
+T22	PROFESSION 612 621	президент
+T23	PERSON 622 636	Владимир Путин
+T26	COMMODITY 737 742	нефть
+T29	ECONOMIC_SECTOR 838 864	добычу полезных ископаемых
+T34	PRODUCT 1023 1028	Urals
+T35	GPE 1031 1042	европейских
+T36	FAC 1043 1049	портах
+T37	GPE 1069 1077	западных
+T39	COUNTRY 1095 1105	российской
+T41	COMMODITY 1106 1111	нефти
+T42	ORGANIZATION 1180 1182	ЕС
+T43	COMMODITY 1186 1191	нефть
+T44	COUNTRY 1195 1201	России
+T45	GPE 1217 1224	Западом
+T46	PRODUCT 1311 1316	Brent
+T47	ECONOMIC_SECTOR 1355 1367	нефтегазовых
+T48	COMMODITY 1407 1412	нефть
+T50	CURRENCY 1471 1474	руб
+T51	ORGANIZATION 1488 1495	Минфине
+T1	ORGANIZATION 55 72	нефтяных компаний
+T61	ORGANIZATION 74 95	Министерство финансов
+T4	ORGANIZATION 166 183	нефтяных компаний
+T5	PERSON 203 219	Наиле Аскар-заде
+T6	PROFESSION 220 235	глава ведомства
+R1	WORKS_AS Arg1:T9 Arg2:T6	
+T7	NEWS_SOURCE 185 250	заявил в интервью Наиле Аскар-заде глава ведомства Антон Силуанов
+T8	EVENT 130 165	новой корректировке налогообложения
+R2	EVENT_TAKES_PART_IN Arg1:T3 Arg2:T8	
+R3	EVENT_TAKES_PART_IN Arg1:T61 Arg2:T8	
+R4	TAKES_PLACE_IN Arg1:T8 Arg2:T4	
+T11	ORGANIZATION 386 413	нефтедобывающими компаниями
+T13	NEWS_SOURCE 418 449	сказал министр (цитата по ТАСС)
+T14	NEWS_SOURCE 451 462	Он напомнил
+R5	WORKS_AS Arg1:T23 Arg2:T22	
+T15	LAW 646 673	поправки в Налоговый кодекс
+T16	ORGANIZATION 769 786	нефтяных компаний
+T18	COMMODITY 942 950	нефтяное
+T24	LAW 800 956	законодательство затрагивают налог на добычу полезных ископаемых и налог на дополнительный доход в отношении углеводородного сырья и акциз на нефтяное сырье
+R6	HEADQUARTERED_IN Arg1:T36 Arg2:T35	
+R7	PRODUCES Arg1:T39 Arg2:T41	
+T25	QUANTITY 1456 1470	более 600 млрд
+T27	MONEY 1456 1474	более 600 млрд руб
+T28	NEWS_SOURCE 1477 1495	говорили в Минфине

@@ -1,0 +1,86 @@
+T0	ORGANIZATION 1 12	Коммерсантъ
+T3	ORGANIZATION 64 88	PickPoint
+
+Логистический
+T8	CARDINAL 180 183	два
+T10	GROUP 213 222	партнерам
+T11	PROFESSION 223 228	глава
+T12	ORGANIZATION 229 237	компании
+T13	PERSON 238 254	Надежда Романова
+T14	NEWS_SOURCE 238 263	Надежда Романова уточнила
+T16	GPE 317 325	западных
+T17	GROUP 326 336	ритейлеров
+T18	GROUP 361 370	клиентами
+T19	GROUP 435 454	западных инвесторов
+T20	PERSON 503 511	Романова
+T21	DATE 513 523	С 4 апреля
+T22	ORGANIZATION 524 533	PickPoint
+T25	GROUP 567 572	юрлиц
+T26	GROUP 575 581	физлиц
+T27	GROUP 633 641	клиентам
+T28	DATE 653 667	6 до 30 апреля
+T29	NEWS_SOURCE 669 686	По данным издания
+T30	ORGANIZATION 688 702	сеть PickPoint
+T31	CARDINAL 715 720	6 тыс
+T34	PRODUCT 744 751	пунктов
+T35	COUNTRY 769 775	России
+T36	DATE 792 810	с начала 2023 года
+T39	GROUP 846 857	контрагенты
+T40	MONEY 883 894	433 млн руб
+T41	CURRENCY 891 894	руб
+T42	DATE 896 905	В феврале
+T45	COUNTRY 1001 1007	России
+T46	GROUP 1015 1022	клиенты
+T47	ORGANIZATION 1111 1120	PickPoint
+T48	GROUP 1159 1171	пользователи
+T54	PERSON 1281 1301	Дениса Петрушевского
+T55	ORGANIZATION 1308 1317	PickPoint
+T57	DATE 1377 1393	За последний год
+T58	COUNTRY 1397 1403	России
+T59	ORGANIZATION 1413 1421	компаний
+T63	PROFESSION 1510 1533	исполнительный директор
+T65	ORGANIZATION 1534 1543	Oborot.ru
+T67	PERSON 1544 1557	Иван Кургузов
+T68	PROFESSION 1678 1689	Гендиректор
+T71	PERSON 1711 1728	Михаил Бурмистров
+T74	ORGANIZATION 1822 1836	Сберлогистикой
+T75	ORGANIZATION 1839 1844	5Post
+T1	ORGANIZATION 41 73	логистического сервиса PickPoint
+T2	EVENT 22 40	прекращении работы
+R1	TAKES_PLACE_IN Arg1:T2 Arg2:T1	
+T4	ORGANIZATION 75 105	Логистический сервис PickPoint
+T79	EVENT 106 141	завершает операционную деятельность
+R2	TAKES_PLACE_IN Arg1:T79 Arg2:T4	
+T5	ORGANIZATION 152 165	«Коммерсантъ»
+T7	NEWS_SOURCE 143 202	сообщает «Коммерсантъ» со ссылкой на два источника на рынке
+R3	WORKPLACE Arg1:T17 Arg2:T16	
+T6	ORGANIZATION 371 380	PickPoint
+T9	NEWS_SOURCE 493 511	объяснила Романова
+T15	EVENT 534 563	прекратила прием нового груза
+R4	ORGANIZES Arg1:T22 Arg2:T15	
+R5	DATE_TAKES_PLACE_ON Arg1:T15 Arg2:T21	
+T23	ORGANIZATION 679 686	издания
+T24	PRODUCT 722 732	постаматов
+T32	CARDINAL 735 743	4,5 тыс.
+R6	HEADQUARTERED_IN Arg1:T30 Arg2:T35	
+T33	GROUP 836 843	клиенты
+T37	ORGANIZATION 813 835	логистическому сервису
+T38	QUANTITY 883 890	433 млн
+T43	PRODUCT 1078 1087	постаматы
+T44	PRODUCT 1220 1227	посылок
+T49	PROFESSION 1239 1280	управляющего директора почтоматов «Халва»
+T50	PRODUCT 1262 1280	почтоматов «Халва»
+R7	WORKS_AS Arg1:T54 Arg2:T49	
+T51	NEWS_SOURCE 1229 1301	По словам управляющего директора почтоматов «Халва» Дениса Петрушевского
+T52	GROUP 1361 1375	других игроков
+T53	ECONOMIC_SECTOR 1482 1500	рынок B2C-доставки
+R8	WORKPLACE Arg1:T63 Arg2:T65	
+R9	WORKS_AS Arg1:T67 Arg2:T63	
+T56	NEWS_SOURCE 1502 1557	отметил исполнительный директор Oborot.ru Иван Кургузов
+T60	ORGANIZATION 1690 1710	«Infoline-Аналитики»
+R10	WORKPLACE Arg1:T68 Arg2:T60	
+R11	WORKPLACE Arg1:T71 Arg2:T60	
+R12	WORKS_AS Arg1:T71 Arg2:T68	
+T61	NEWS_SOURCE 1678 1739	Гендиректор «Infoline-Аналитики» Михаил Бурмистров подтвердил
+T62	GROUP 1745 1764	независимым игрокам
+T64	ORGANIZATION 1800 1819	«Яндекс. Доставкой»

@@ -1,0 +1,66 @@
+T0	PERSON 0 6	Песков
+T1	COUNTRY 45 48	ЛНР
+T2	CRIME 49 57	двойника
+T3	PERSON 58 64	Путина
+T4	PROFESSION 76 85	секретаря
+T5	ORGANIZATION 86 118	Совета национальной безопасности
+T6	ORGANIZATION 121 128	обороны
+T7	COUNTRY 129 136	Украины
+T8	PERSON 137 153	Алексея Данилова
+T9	COUNTRY 167 170	ЛНР
+T10	CITY 173 183	Херсонскую
+T11	REGION 184 191	область
+T12	PROFESSION 199 209	президента
+T13	COUNTRY 210 216	России
+T14	PERSON 217 233	Владимира Путина
+T15	ECONOMIC_SECTOR 234 239	ездил
+T16	CRIME 244 251	двойник
+T17	CRIME 253 254	«
+T18	PROFESSION 287 320	пресс-секретарь главы государства
+T19	NEWS_SOURCE 280 335	заявил пресс-секретарь главы государства Дмитрий Песков
+T20	PERSON 321 335	Дмитрий Песков
+T21	EVENT 336 347	на брифинге
+T22	NEWS_SOURCE 349 375	передает корреспондент РБК
+T23	ORGANIZATION 372 375	РБК
+T24	PERSON 378 383	Путин
+T25	PERSON 392 402	Херсонскую
+T26	REGION 403 410	область
+T27	COUNTRY 413 416	ЛНР
+T28	DATE 417 426	17 апреля
+T29	NEWS_SOURCE 428 445	В Кремле отметили
+T30	COUNTRY 490 493	ЛНР
+T31	PERSON 494 499	Путин
+T32	ORGANIZATION 508 531	штаб Нацгвардии «Восток
+T33	NEWS_SOURCE 547 553	доклад
+T34	PROFESSION 547 561	доклад генерал
+T35	PROFESSION 562 572	полковника
+T36	NEWS_SOURCE 562 583	полковника Александра
+T37	PERSON 562 590	полковника Александра Лапина
+T38	REGION 595 605	херсонском
+T39	PROFESSION 618 627	президент
+T40	EVENT 630 635	штабе
+T41	EVENT 648 653	войск
+T42	ORGANIZATION 655 660	Днепр
+T43	EVENT 655 660	Днепр
+T44	PROFESSION 685 692	генерал
+T45	PROFESSION 693 703	полковника
+T46	PERSON 704 720	Олега Макаревича
+T47	PROFESSION 723 735	командующего
+T48	ORGANIZATION 736 739	ВДВ
+T49	PROFESSION 740 747	генерал
+T50	PROFESSION 748 758	полковника
+T51	PERSON 759 766	Михаила
+T52	FAC 767 778	Теплинского
+T53	PERSON 780 785	Путин
+T54	PROFESSION 794 807	военным копии
+T55	PERSON 820 833	Нерукотворный
+T56	PROFESSION 837 854	Глава государства
+T57	EVENT 876 883	встречу
+T58	PROFESSION 886 894	военными
+T59	FAC 976 989	подразделений
+T60	PERSON 1016 1022	Песков
+T61	NEWS_SOURCE 1016 1030	Песков отметил
+T62	PROFESSION 1083 1112	верховного главнокомандующего
+T63	CARDINAL 1147 1171	644109e59a7947a8dd4494a8
+T64	CARDINAL 1178 1180	20
+T65	CARDINAL 1196 1200	24 +

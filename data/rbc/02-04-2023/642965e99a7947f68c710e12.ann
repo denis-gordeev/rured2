@@ -1,0 +1,61 @@
+T2	CITY 16 26	Мелитополя
+T4	COUNTRY 75 85	Украинские
+T5	PROFESSION 86 93	военные
+T6	CITY 110 120	Мелитополю
+T7	WEAPON 131 142	РСЗО HIMARS
+T8	WEAPON 146 151	Ольха
+T10	ORGANIZATION 200 213	администрации
+T11	PROFESSION 251 261	сотрудники
+T13	ORGANIZATION 262 284	Следственного комитета
+T15	GROUP 312 324	пострадавших
+T16	ORGANIZATION 363 376	администрации
+T17	CARDINAL 395 400	шесть
+T20	FAC 519 545	объекты локомотивного депо
+T21	FAC 548 564	многоэтажный дом
+T27	CITY 659 669	Мелитополь
+T32	PROFESSION 715 736	члена главного совета
+T35	PERSON 771 787	Владимира Рогова
+T36	COUNTRY 789 799	украинские
+T37	PROFESSION 800 807	военные
+T38	CITY 841 848	Орехова
+T39	ORGANIZATION 882 885	ВСУ
+T40	CARDINAL 899 903	семь
+T42	WEAPON 931 934	ПВО
+T43	COUNTRY 935 941	России
+T44	CARDINAL 948 953	шесть
+T1	ORGANIZATION 48 51	ВСУ
+T50	ORGANIZATION 0 15	В администрации
+R1	HEADQUARTERED_IN Arg1:T50 Arg2:T2	
+T3	WEAPON 52 73	кассетных боеприпасов
+R2	WORKPLACE Arg1:T5 Arg2:T4	
+T9	WEAPON 167 188	кассетных боеприпасов
+T51	NEWS_SOURCE 190 220	заявили в администрации города
+T12	GROUP 287 304	экстренные службы
+T14	LOCATION 222 241	На местах обстрелов
+R3	WORKPLACE Arg1:T11 Arg2:T13	
+T52	GROUP 334 347	мирные жители
+T53	NEWS_SOURCE 349 376	подчеркнули в администрации
+T54	DISEASE 378 385	Ранения
+T18	AGE 422 431	56-летняя
+T19	DISEASE 445 474	находится в тяжелом состоянии
+T22	STREET 565 590	на улице Западно-Линейной
+R4	HEADQUARTERED_IN Arg1:T21 Arg2:T22	
+T23	WEAPON 616 623	снаряда
+T24	STREET 640 657	на улице Штевнева
+T25	EVENT 498 518	повреждения получили
+R5	TAKES_PLACE_IN Arg1:T25 Arg2:T20	
+R6	TAKES_PLACE_IN Arg1:T25 Arg2:T21	
+R7	TAKES_PLACE_IN Arg1:T25 Arg2:T24	
+T26	EVENT 670 687	попал под обстрел
+T28	TIME 688 703	около 10:00 мск
+R8	TAKES_PLACE_IN Arg1:T26 Arg2:T27	
+T29	REGION 751 770	Запорожской области
+T30	WEAPON 954 973	реактивных снарядов
+T31	NEWS_SOURCE 978 988	написал он
+T33	ORGANIZATION 737 750	администрации
+R9	OWNERSHIP Arg1:T29 Arg2:T33	
+R10	WORKS_AS Arg1:T35 Arg2:T32	
+R11	WORKPLACE Arg1:T37 Arg2:T36	
+T34	EVENT 808 820	нанесли удар
+R12	ORGANIZES Arg1:T36 Arg2:T34	
+R13	HEADQUARTERED_IN Arg1:T39 Arg2:T38	

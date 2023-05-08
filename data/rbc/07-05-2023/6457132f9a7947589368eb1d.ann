@@ -1,0 +1,33 @@
+T0	CARDINAL 0 6	Восемь
+T1	DATE 7 14	человек
+T2	CITY 56 62	Техасе
+T3	ECONOMIC_SECTOR 77 85	стрельбы
+T4	PERSON 111 116	Аллен
+T5	COUNTRY 119 131	американском
+T6	GPE 138 143	Техас
+T7	CARDINAL 152 158	восемь
+T8	QUANTITY 152 166	восемь человек
+T9	QUANTITY 172 176	семь
+T10	CARDINAL 172 176	семь
+T11	EVENT 206 223	пресс-конференции
+T12	PROFESSION 232 241	начальник
+T13	NEWS_SOURCE 203 250	на пресс-конференции сообщил начальник пожарной
+T14	ORGANIZATION 242 264	пожарной охраны города
+T15	PERSON 274 278	Бойд
+T16	NEWS_SOURCE 265 292	Джонатан Бойд, передает CNN
+T17	NEWS_SOURCE 300 310	он говорил
+T18	ORGANIZATION 316 331	пожарная служба
+T19	CARDINAL 363 372	девятерых
+T20	ORDINAL 363 372	девятерых
+T21	CARDINAL 382 387	Более
+T22	GROUP 426 445	пострадавших власти
+T23	NEWS_SOURCE 460 475	По словам Бойда
+T24	ORDINAL 496 505	девятерых
+T25	GROUP 506 518	пострадавших
+T26	CARDINAL 546 550	двое
+T27	GROUP 571 583	пострадавших
+T28	PROFESSION 620 633	хирургическом
+T29	GROUP 620 633	хирургическом
+T30	CARDINAL 659 667	четверых
+T31	CARDINAL 761 785	6457132f9a7947589368eb1d
+T32	CARDINAL 804 806	06

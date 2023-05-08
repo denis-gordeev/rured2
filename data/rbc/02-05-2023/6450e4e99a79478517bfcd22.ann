@@ -1,0 +1,41 @@
+T0	GROUP 0 10	Спецслужбы
+T1	COUNTRY 11 21	Казахстана
+T2	CARDINAL 33 35	19
+T3	ORGANIZATION 72 82	Спецслужбы
+T4	COUNTRY 83 93	Казахстана
+T5	QUANTITY 105 115	19 человек
+T6	NEWS_SOURCE 152 170	сообщил на встрече
+T7	EVENT 163 170	встрече
+T8	PROFESSION 173 184	президентом
+T9	EVENT 193 201	Жомартом
+T10	PROFESSION 211 223	председатель
+T11	NEWS_SOURCE 173 232	президентом Касымом-Жомартом Токаевым председатель Комитета
+T12	ORGANIZATION 224 269	Комитета национальной безопасности республики
+T13	NEWS_SOURCE 259 285	республики Ермек Сагимбаев
+T14	PERSON 270 285	Ермек Сагимбаев
+T15	PROFESSION 298 315	главе государства
+T16	CRIME 333 373	нескольких террористических преступлений
+T17	CARDINAL 444 449	одном
+T18	CARDINAL 521 527	восемь
+T19	CRIME 552 562	преступных
+T20	GROUP 563 568	групп
+T21	CARDINAL 585 589	семь
+T22	FAC 590 606	подпольных цехов
+T23	FAC 610 622	изготовлению
+T24	ECONOMIC_SECTOR 607 629	по изготовлению оружия
+T25	PRODUCT 623 629	оружия
+T26	PRODUCT 632 643	боеприпасов
+T27	ORGANIZATION 671 680	ведомства
+T28	CARDINAL 690 698	более 37
+T29	CARDINAL 699 704	9 млн
+T30	ECONOMIC_SECTOR 705 714	кибератак
+T31	ORDINAL 717 721	1948
+T32	ORGANIZATION 722 726	DDoS
+T33	FAC 735 742	объекты
+T34	FAC 755 769	инфраструктуры
+T35	EVENT 784 791	встречи
+T36	PROFESSION 794 800	главой
+T37	ORGANIZATION 801 804	КНБ
+T38	CARDINAL 896 920	6450e4e99a79478517bfcd22
+T39	CARDINAL 942 944	59
+T40	CARDINAL 945 949	47 +

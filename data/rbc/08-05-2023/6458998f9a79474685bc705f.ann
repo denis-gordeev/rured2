@@ -1,0 +1,36 @@
+T0	COUNTRY 24 30	Россию
+T1	GROUP 47 80	миротворцев
+
+Власти Приднестровья
+T2	COUNTRY 88 94	Россию
+T3	GROUP 111 122	миротворцев
+T4	ORGANIZATION 133 145	РИА Новости»
+T5	PROFESSION 146 151	глава
+T6	ORGANIZATION 152 169	представительства
+T7	NEWS_SOURCE 124 208	сообщил «РИА Новости» глава представительства непризнанной республики Леонид Манаков
+T8	PERSON 194 208	Леонид Манаков
+T9	NEWS_SOURCE 210 229	По словам дипломата
+T10	PROFESSION 220 229	дипломата
+T11	DATE 231 242	в 1995 году
+T12	COUNTRY 243 249	Россия
+T13	CARDINAL 284 289	шести
+T14	QUANTITY 290 292	до
+T15	CARDINAL 293 297	двух
+T16	PRODUCT 298 312	мотострелковых
+T17	GROUP 313 323	батальонов
+T18	QUANTITY 329 340	450 человек
+T19	ORGANIZATION 402 410	комиссии
+T20	QUANTITY 418 430	3100 человек
+T21	NEWS_SOURCE 442 444	он
+T22	NEWS_SOURCE 446 461	Манаков отметил
+T23	GROUP 484 495	миротворцев
+T24	FAC 642 649	Днестре
+T25	CITY 694 702	Кишиневе
+T26	EVENT 715 723	Дипломат
+T27	ORGANIZATION 762 766	силы
+T28	GROUP 762 766	силы
+T29	COUNTRY 793 800	россиян
+T30	NORP 793 800	россиян
+T31	CARDINAL 895 919	6458998f9a79474685bc705f
+T32	CARDINAL 941 943	49
+T33	CARDINAL 944 948	54 +

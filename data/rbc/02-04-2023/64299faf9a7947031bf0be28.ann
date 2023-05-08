@@ -1,0 +1,45 @@
+T0	PERSON 0 7	Гладков
+T1	EVENT 19 27	обстреле
+T2	FAC 28 36	ВСУ села
+T3	REGION 32 36	села
+T4	REGION 39 59	Белгородской области
+T5	EVENT 63 72	Валуйском
+T6	REGION 73 110	городском округе Белгородской области
+T7	ECONOMIC_SECTOR 115 122	обстрел
+T8	FAC 130 134	село
+T9	ORGANIZATION 135 147	Новопетровка
+T10	CRIME 176 183	погибло
+T11	CARDINAL 184 186	15
+T12	PRODUCT 193 213	крупнорогатого скота
+T13	PROFESSION 231 236	глава
+T14	NEWS_SOURCE 223 261	сообщил глава региона Вячеслав Гладков
+T15	PERSON 245 261	Вячеслав Гладков
+T16	EVENT 270 278	телеграм
+T17	LAW 278 285	-канале
+T18	NEWS_SOURCE 279 285	канале
+T19	CARDINAL 365 367	12
+T20	PRODUCT 368 391	артиллерийских снарядов
+T21	CARDINAL 400 402	15
+T22	PRODUCT 403 429	голов крупнорогатого скота
+T23	PRODUCT 438 442	окна
+T24	PRODUCT 456 462	кровля
+T25	PRODUCT 477 495	сельхозпредприятия
+T26	CARDINAL 545 549	пять
+T27	GROUP 558 570	домовладений
+T28	CARDINAL 573 576	два
+T29	PRODUCT 577 587	автомобиля
+T30	NEWS_SOURCE 589 607	уточнил губернатор
+T31	PROFESSION 597 607	губернатор
+T32	ORGANIZATION 615 627	Новопетровка
+T33	CARDINAL 640 641	1
+T34	COUNTRY 648 657	российско
+T35	COUNTRY 658 668	украинской
+T36	LOCATION 678 687	Валуйский
+T37	FAC 688 703	городской округ
+T38	GPE 737 757	Харьковской областью
+T39	COUNTRY 758 765	Украины
+T40	REGION 769 789	Белгородской области
+T41	PRODUCT 820 826	желтый
+T42	CARDINAL 927 951	64299faf9a7947031bf0be28
+T43	AWARD 953 956	Sun
+T44	CARDINAL 970 972	19

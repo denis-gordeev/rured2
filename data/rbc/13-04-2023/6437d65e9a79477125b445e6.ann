@@ -1,0 +1,43 @@
+T0	GPE 0 6	Кремль
+T1	PERSON 24 30	Путина
+T2	PROFESSION 51 61	журналиста
+T3	ORGANIZATION 62 65	WSJ
+T4	PERSON 67 81	Владимир Путин
+T5	NEWS_SOURCE 76 81	Путин
+T6	PERSON 112 128	Эвана Гершковича
+T7	NEWS_SOURCE 170 182	заявил пресс
+T8	PROFESSION 177 182	пресс
+T9	PROFESSION 183 192	секретарь
+T10	COUNTRY 193 204	российского
+T11	PROFESSION 205 215	президента
+T12	PERSON 216 230	Дмитрий Песков
+T13	PERSON 241 254	корреспондент
+T14	NEWS_SOURCE 183 258	секретарь российского президента Дмитрий Песков, передает корреспондент РБК
+T15	ORGANIZATION 255 258	РБК
+T16	PROFESSION 285 295	президента
+T17	NEWS_SOURCE 362 364	он
+T18	PROFESSION 377 386	президент
+T19	PERSON 387 401	Владимир Путин
+T20	NEWS_SOURCE 396 401	Путин
+T21	COUNTRY 437 449	американской
+T22	NEWS_SOURCE 437 456	американской газеты
+T23	NEWS_SOURCE 471 498	источники сообщал Bloomberg
+T24	ORGANIZATION 489 498	Bloomberg
+T25	PERSON 500 510	Гершковича
+T26	DATE 521 534	в конце марта
+T27	CITY 537 550	Екатеринбурге
+T28	ORGANIZATION 577 580	ФСБ
+T29	NEWS_SOURCE 577 591	ФСБ утверждает
+T30	COUNTRY 617 620	США
+T31	FAC 650 661	предприятий
+T32	ECONOMIC_SECTOR 662 692	военно-промышленного комплекса
+T33	CITY 695 708	Екатеринбурге
+T34	PERSON 710 722	Лефортовский
+T35	ORGANIZATION 723 726	суд
+T36	CITY 727 733	Москвы
+T37	GPE 727 733	Москвы
+T38	DATE 748 760	до конца мая
+T39	CARDINAL 813 815	13
+T40	CARDINAL 824 848	6437d65e9a79477125b445e6
+T41	CARDINAL 867 869	13
+T42	CARDINAL 870 872	24

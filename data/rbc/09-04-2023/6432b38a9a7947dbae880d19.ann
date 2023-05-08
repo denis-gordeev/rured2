@@ -1,0 +1,87 @@
+T2	PERSON 60 72	Вадим Волков
+T5	PERSON 94 106	Вадим Волков
+T14	ORGANIZATION 212 221	ВКонтакте
+T19	PERSON 268 288	Вадим Кимович Волков
+T24	NEWS_SOURCE 434 453	сказано в сообщении
+T25	PERSON 456 468	Вадим Волков
+T27	CITY 529 543	Ленинградского
+T32	ORGANIZATION 604 611	ЛГИТМиК
+T33	COUNTRY 620 630	Российский
+T35	PERSON 693 710	Игоря Владимирова
+T41	ORGANIZATION 823 846	Творческими мастерскими
+T43	ORGANIZATION 879 882	СТД
+T51	CARDINAL 1018 1020	12
+T52	PERSON 1041 1047	Волков
+T59	COUNTRY 1185 1194	китайское
+T60	CARDINAL 1213 1219	Четыре
+T65	PROFESSION 1350 1356	актера
+T67	DATE 1379 1381	11
+T68	DATE 1383 1385	13
+T69	DATE 1388 1397	16 апреля
+T72	CARDINAL 1465 1473	более 30
+T73	PERSON 1481 1487	Волков
+T1	WORK_OF_ART 17 31	«Убойной силе»
+T82	WORK_OF_ART 34 59	«Улицах разбитых фонарей»
+T3	PROFESSION 74 93	Актер театра и кино
+T4	AGE 112 130	на 60-м году жизни
+R1	AGE_DIED_AT Arg1:T5 Arg2:T4	
+T6	ORGANIZATION 149 161	пресс-служба
+T7	ORGANIZATION 162 192	Молодежного театра на Фонтанке
+R2	OWNERSHIP Arg1:T7 Arg2:T6	
+T8	NEWS_SOURCE 140 222	сообщила пресс-служба Молодежного театра на Фонтанке в социальной сети «ВКонтакте»
+T9	PROFESSION 422 429	артиста
+T10	DATE 477 492	11 февраля 1964
+T11	CITY 500 510	Ленинграде
+T12	PERSON 713 730	Ларисы Малеванной
+T13	WORK_OF_ART 1527 1541	«Убойная сила»
+T15	PROFESSION 1399 1405	Артист
+T16	EVENT 1412 1444	снимался в кино и на телевидении
+T20	WORK_OF_ART 1543 1567	«Улицы разбитых фонарей»
+T22	WORK_OF_ART 1569 1587	«Ментовские войны»
+T23	WORK_OF_ART 1589 1606	«Морские дьяволы»
+T26	WORK_OF_ART 1608 1630	«Тест на беременность»
+T36	EVENT 1488 1526	исполнил эпизодические роли в сериалах
+R3	EVENT_TAKES_PART_IN Arg1:T73 Arg2:T36	
+R4	DATE_OF_BIRTH Arg1:T25 Arg2:T10	
+T37	GROUP 405 411	родным
+T70	GROUP 414 421	друзьям
+R5	WORKPLACE Arg1:T19 Arg2:T7	
+T17	AGE 225 237	На 60-м году
+R6	AGE_DIED_AT Arg1:T19 Arg2:T17	
+T18	DATE 350 362	все эти годы
+R7	BORN_IN Arg1:T25 Arg2:T11	
+T21	ORGANIZATION 529 602	Ленинградского государственного института театра, музыки и кинематографии
+R8	ABBREVIATION Arg1:T21 Arg2:T32	
+T28	ORGANIZATION 620 676	Российский государственный институт сценических искусств
+T29	ORGANIZATION 742 769	Театре Ленинского комсомола
+T30	ORGANIZATION 790 807	Формальном театре
+T31	ORGANIZATION 851 877	Союзе театральных деятелей
+R9	ABBREVIATION Arg1:T31 Arg2:T43	
+R10	MEMBER Arg1:T41 Arg2:T31	
+T34	ORGANIZATION 920 940	«Приютом комедианта»
+T38	ORGANIZATION 885 917	Театром им. В.Ф. Комиссаржевской
+R11	WORKPLACE Arg1:T25 Arg2:T29	
+R12	WORKPLACE Arg1:T25 Arg2:T30	
+R13	WORKPLACE Arg1:T25 Arg2:T41	
+R14	WORKPLACE Arg1:T25 Arg2:T38	
+R15	WORKPLACE Arg1:T25 Arg2:T34	
+T39	CARDINAL 1004 1006	12
+T40	ORGANIZATION 965 995	Молодежного театра на Фонтанке
+R16	WORKPLACE Arg1:T52 Arg2:T40	
+T42	WORK_OF_ART 1059 1095	в постановках «Севильский цирюльник»
+T44	WORK_OF_ART 1097 1118	«Время для посещений»
+T45	WORK_OF_ART 1120 1146	«Школа налогоплательщиков»
+T46	VEHICLE 1148 1159	«АБАНАМАТ!»
+T47	WORK_OF_ART 1161 1172	«Жаворонок»
+T48	WORK_OF_ART 1174 1210	«Последнее китайское предупреждение»
+T49	WORK_OF_ART 1212 1234	«Четыре танго о любви»
+T50	WORK_OF_ART 1236 1249	«Наш городок»
+T53	WORK_OF_ART 1251 1272	«Жозефина и Наполеон»
+T54	WORK_OF_ART 1274 1290	«В день свадьбы»
+T55	WORK_OF_ART 1293 1317	«Кабала святош / Мольер»
+T56	EVENT 1319 1338	Ближайшие спектакли
+R17	DATE_TAKES_PLACE_ON Arg1:T56 Arg2:T67	
+R18	DATE_TAKES_PLACE_ON Arg1:T56 Arg2:T68	
+R19	DATE_TAKES_PLACE_ON Arg1:T56 Arg2:T69	
+R20	WORKS_AS Arg1:T73 Arg2:T15	
+R21	EVENT_TAKES_PART_IN Arg1:T73 Arg2:T16	

@@ -1,0 +1,61 @@
+T0	ORGANIZATION 0 8	Депздрав
+T2	CITY 9 15	Москвы
+T4	FAC 41 53	поликлиниках
+T5	ORGANIZATION 58 69	военкоматов
+T6	CITY 94 104	московских
+T10	ORGANIZATION 224 234	военкоматы
+T14	ORGANIZATION 294 322	департамента здравоохранения
+T19	PROFESSION 418 426	адвоката
+T20	PERSON 427 445	Максима Питерского
+T21	BOROUGH 462 470	Вешняках
+T27	CARDINAL 535 537	29
+T28	CARDINAL 550 554	пяти
+T29	GROUP 699 705	мужчин
+T34	NEWS_SOURCE 736 759	говорилось в публикации
+T37	PROFESSION 853 860	Депутат
+T38	ORGANIZATION 861 871	Мосгордумы
+T39	PERSON 872 886	Евгений Ступин
+T40	PERSON 923 932	Питерским
+T43	ORGANIZATION 1085 1095	военкоматы
+T47	ORDINAL 1194 1201	первого
+T49	ORGANIZATION 1326 1335	Минздрава
+T50	COUNTRY 1336 1338	РФ
+T56	ORGANIZATION 1487 1496	ведомстве
+R1	HEADQUARTERED_IN Arg1:T0 Arg2:T2	
+R2	HEADQUARTERED_IN Arg1:T5 Arg2:T2	
+R3	HEADQUARTERED_IN Arg1:T4 Arg2:T2	
+T1	FAC 105 117	поликлиниках
+T3	GROUP 196 221	потенциальных призывников
+R4	ORIGINS_FROM Arg1:T3 Arg2:T6	
+R5	HEADQUARTERED_IN Arg1:T1 Arg2:T6	
+R6	HEADQUARTERED_IN Arg1:T10 Arg2:T6	
+T7	ORGANIZATION 267 282	телеграм-канале
+R7	HEADQUARTERED_IN Arg1:T14 Arg2:T6	
+T8	NEWS_SOURCE 254 322	сообщается в телеграм-канале столичного департамента здравоохранения
+T9	ORGANIZATION 330 364	телеграм-канал «Осторожно, Москва»
+T11	NEWS_SOURCE 330 388	телеграм-канал «Осторожно, Москва» опубликовал фото анкеты
+R8	WORKS_AS Arg1:T20 Arg2:T19	
+T12	FAC 448 459	поликлинике
+T13	BOROUGH 473 506	Восточном административном округе
+T15	AGE 706 721	от 18 до 64 лет
+T16	FAC 789 800	поликлиника
+T17	ORGANIZATION 837 851	телеграм-канал
+T18	NEWS_SOURCE 831 851	писал телеграм-канал
+T22	ORGANIZATION 1373 1382	депздраве
+T23	GROUP 1458 1483	потенциальных призывников
+R9	WORKS_AS Arg1:T39 Arg2:T37	
+R10	WORKPLACE Arg1:T39 Arg2:T38	
+T24	NEWS_SOURCE 853 941	Депутат Мосгордумы Евгений Ступин, который рассказал о произошедшем с Питерским, отметил
+T25	LAW 964 995	закону об электронных повестках
+T26	FAC 997 1010	медучреждения
+T30	GROUP 1057 1082	потенциальных призывников
+T32	DATE 1342 1350	27.04.21
+T31	EVENT 1202 1267	этапа диспансеризации либо профилактического медицинского осмотра
+R11	EVENT_TAKES_PART_IN Arg1:T30 Arg2:T31	
+T33	NEWS_SOURCE 1362 1382	сообщили в депздраве
+R12	HEADQUARTERED_IN Arg1:T49 Arg2:T50	
+R13	DATE_TAKES_PLACE_ON Arg1:T31 Arg2:T32	
+T35	NEWS_SOURCE 1485 1506	В ведомстве объяснили
+T36	PROFESSION 1534 1540	врачам
+T41	EVENT 1670 1698	мероприятиям диспансеризации
+R14	EVENT_TAKES_PART_IN Arg1:T23 Arg2:T41	

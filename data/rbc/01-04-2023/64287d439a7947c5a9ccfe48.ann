@@ -1,0 +1,52 @@
+T0	PROFESSION 0 7	Кадыров
+T1	PERSON 0 7	Кадыров
+T2	PERSON 17 27	Бастрыкина
+T3	PROFESSION 28 35	орденом
+T4	PERSON 36 42	Ахмата
+T5	REGION 59 64	Чечни
+T6	PROFESSION 43 64	Кадырова
+
+Глава Чечни
+T7	PERSON 65 79	Рамзан Кадыров
+T8	PROFESSION 89 101	председателя
+T9	ORGANIZATION 102 124	Следственного комитета
+T10	COUNTRY 125 131	России
+T11	PERSON 132 153	Александра Бастрыкина
+T12	PROFESSION 154 161	орденом
+T13	PERSON 169 177	Кадырова
+T14	EVENT 179 196	Видео награждения
+T15	NEWS_SOURCE 209 242	Instagram помощника главы региона
+T16	PROFESSION 219 242	помощника главы региона
+T17	ORGANIZATION 264 272	компании
+T18	COUNTRY 294 300	России
+T19	ORGANIZATION 301 329	террористической организации
+T20	LAW 351 356	перед
+T21	REGION 357 366	Чеченской
+T22	LAW 367 380	Республикой и
+T23	NEWS_SOURCE 381 387	личный
+T24	PERSON 483 520	Кадырова Бастрыкин Александр Иванович
+T25	PERSON 565 574	Бастрыкин
+T26	PERSON 584 592	Кадырова
+T27	ORGANIZATION 593 606	ведомственной
+T28	ORGANIZATION 615 617	СК
+T29	ORGANIZATION 619 627	Доблесть
+T30	PERSON 654 662	Кадырова
+T31	GROUP 676 691	государственные
+T32	GROUP 694 714	общественные деятели
+T33	REGION 764 773	чеченской
+T34	GROUP 774 791	государственности
+T35	DATE 818 840	В ноябре прошлого года
+T36	CARDINAL 861 865	одна
+T37	PROFESSION 869 876	дочерей
+T38	PERSON 877 885	Кадырова
+T39	PROFESSION 887 897	начальница
+T40	ORGANIZATION 898 910	департамента
+T41	ORGANIZATION 935 940	мэрии
+T42	PERSON 941 957	Грозного Хадижат
+T43	CURRENCY 958 966	Кадырова
+T44	ORGANIZATION 981 984	rbc
+T45	PERSON 1026 1029	Sat
+T46	DATE 1031 1033	01
+T47	CARDINAL 1031 1033	01
+T48	DATE 1038 1042	2023
+T49	CARDINAL 1043 1045	21

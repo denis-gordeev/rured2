@@ -1,0 +1,92 @@
+T0	COUNTRY 13 20	Франции
+T1	CITY 23 29	Москве
+T3	PROFESSION 57 78	животного
+
+Сотрудники
+T4	ORGANIZATION 79 89	посольства
+T5	COUNTRY 90 97	Франции
+T6	CITY 100 106	Москве
+T12	ORGANIZATION 179 182	112
+T14	ORGANIZATION 186 190	Mash
+T16	ORGANIZATION 193 206	«РИА Новости»
+T22	NEWS_SOURCE 410 434	сообщают телеграм-каналы
+T25	REGION 470 475	Крыма
+T28	PERSON 499 514	Пьер Нотарианни
+T29	COUNTRY 534 546	итальянского
+T31	NEWS_SOURCE 581 594	Mash отмечает
+T41	DATE 797 813	В июле 2022 года
+T46	ORGANIZATION 957 960	РБК
+T47	COUNTRY 990 997	Франции
+T48	CITY 1000 1006	Москве
+T50	ORGANIZATION 1043 1046	РБК
+T51	NEWS_SOURCE 1034 1054	сообщили РБК в пресс
+T54	DATE 1090 1112	В январе текущего года
+T56	ORGANIZATION 1169 1179	посольство
+T57	COUNTRY 1180 1186	России
+T58	COUNTRY 1189 1195	Латвии
+T59	DATE 1247 1270	В декабре прошлого года
+T60	PROFESSION 1271 1294	министр иностранных дел
+T61	COUNTRY 1295 1302	Украины
+T62	PERSON 1303 1317	Дмитрий Кулеба
+T64	CARDINAL 1332 1334	31
+T65	COUNTRY 1352 1363	украинскими
+T66	PROFESSION 1364 1375	дипломатами
+T67	CARDINAL 1378 1380	15
+T74	ORGANIZATION 2 12	посольство
+T2	EVENT 30 66	прислали посылку с костями животного
+R1	OWNERSHIP Arg1:T0 Arg2:T74	
+R2	TAKES_PLACE_IN Arg1:T2 Arg2:T74	
+R3	HEADQUARTERED_IN Arg1:T74 Arg2:T1	
+T75	PROFESSION 68 78	Сотрудники
+R4	WORKPLACE Arg1:T75 Arg2:T4	
+R5	OWNERSHIP Arg1:T5 Arg2:T4	
+R6	HEADQUARTERED_IN Arg1:T4 Arg2:T6	
+T7	EVENT 107 151	получили посылку с костями мелкого животного
+R7	TAKES_PLACE_IN Arg1:T7 Arg2:T4	
+T8	NEWS_SOURCE 153 229	сообщают телеграм-каналы «112» и Mash и «РИА Новости» со ссылкой на источник
+T9	ORGANIZATION 378 404	правоохранительным органам
+T10	EVENT 361 377	коробку передали
+R8	EVENT_TAKES_PART_IN Arg1:T9 Arg2:T10	
+T11	CITY 460 466	Судака
+R9	OWNERSHIP Arg1:T25 Arg2:T11	
+T13	PROFESSION 547 560	кинопродюсера
+T15	PERSON 561 578	Пьетро Нотарианни
+R10	WORKPLACE Arg1:T13 Arg2:T29	
+R11	PLACE_RESIDES_IN Arg1:T28 Arg2:T11	
+T17	ORGANIZATION 581 585	Mash
+T18	ORDINAL 604 613	не первый
+T19	PERSON 684 714	Мари Катрина Пьер Анжелик Брам
+T20	NORP 672 683	француженка
+T21	AGE 662 671	59-летняя
+R12	AGE_IS Arg1:T19 Arg2:T21	
+T23	ORDINAL 728 739	не в первый
+T24	EVENT 744 762	отправляет посылки
+T26	ORGANIZATION 775 795	диппредставительства
+T27	PROFESSION 763 774	сотрудникам
+R13	WORKPLACE Arg1:T27 Arg2:T26	
+R14	EVENT_TAKES_PART_IN Arg1:T19 Arg2:T24	
+T30	ORGANIZATION 840 850	посольству
+T32	COUNTRY 827 839	французскому
+R15	OWNERSHIP Arg1:T32 Arg2:T30	
+T33	DATE 919 928	в декабре
+R16	DATE_TAKES_PLACE_ON Arg1:T24 Arg2:T41	
+R17	DATE_TAKES_PLACE_ON Arg1:T24 Arg2:T33	
+T34	ORGANIZATION 979 989	посольство
+R18	OWNERSHIP Arg1:T47 Arg2:T34	
+R19	HEADQUARTERED_IN Arg1:T34 Arg2:T48	
+T35	ORGANIZATION 1062 1087	столичного управления МВД
+T36	ORGANIZATION 1049 1061	пресс-службе
+R20	OWNERSHIP Arg1:T35 Arg2:T36	
+T37	NEWS_SOURCE 1034 1087	сообщили РБК в пресс-службе столичного управления МВД
+R21	OWNERSHIP Arg1:T57 Arg2:T56	
+R22	HEADQUARTERED_IN Arg1:T56 Arg2:T58	
+T38	EVENT 1113 1195	посылку с веществом неизвестного происхождения получило посольство России в Латвии
+R23	DATE_TAKES_PLACE_ON Arg1:T38 Arg2:T54	
+R24	TAKES_PLACE_IN Arg1:T38 Arg2:T58	
+T39	FAC 1217 1228	лабораторию
+R25	WORKPLACE Arg1:T62 Arg2:T61	
+R26	WORKS_AS Arg1:T62 Arg2:T60	
+T40	NEWS_SOURCE 1247 1329	В декабре прошлого года министр иностранных дел Украины Дмитрий Кулеба рассказывал
+T42	GROUP 1381 1388	странах
+R27	WORKPLACE Arg1:T66 Arg2:T65	
+T43	CRIME 1389 1451	отправлений с настоящими или фальшивыми взрывными устройствами

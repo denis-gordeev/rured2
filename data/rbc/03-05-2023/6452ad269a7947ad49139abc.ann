@@ -1,0 +1,54 @@
+T0	COUNTRY 33 40	Украине
+T3	PROFESSION 70 82	Госсекретарь
+T4	COUNTRY 83 86	США
+T5	PERSON 87 101	Энтони Блинкен
+T6	COUNTRY 127 134	Украине
+T12	NEWS_SOURCE 181 219	говорится в заявлении на сайте Госдепа
+T13	ORGANIZATION 212 219	Госдепа
+T14	PROFESSION 273 284	президентом
+T16	COUNTRY 286 289	США
+T19	ORDINAL 320 324	37-е
+T20	COUNTRY 343 355	американских
+T21	WEAPON 369 381	оборудования
+T23	ORGANIZATION 394 403	Пентагона
+T25	ORGANIZATION 407 410	РБК
+T26	COUNTRY 416 423	Украины
+T30	NEWS_SOURCE 440 461	говорится в сообщении
+T32	WEAPON 569 586	стрелковое оружие
+T33	WEAPON 589 599	боеприпасы
+T34	WEAPON 601 608	гаубицы
+T35	WEAPON 610 619	грузовики
+T42	WEAPON 687 693	ракеты
+T46	ORGANIZATION 772 779	Госдепе
+T51	PERSON 0 7	Блинкен
+T1	CURRENCY 45 46	$
+T2	QUANTITY 46 53	300 млн
+T52	MONEY 45 53	$300 млн
+T53	EVENT 8 32	санкционировал выделение
+R1	EVENT_TAKES_PART_IN Arg1:T51 Arg2:T53	
+R2	TAKES_PLACE_IN Arg1:T53 Arg2:T0	
+R3	INCOME Arg1:T0 Arg2:T52	
+R4	EXPENDITURE Arg1:T4 Arg2:T52	
+R5	WORKPLACE Arg1:T5 Arg2:T4	
+R6	WORKS_AS Arg1:T5 Arg2:T3	
+T7	EVENT 135 167	очередного пакета военной помощи
+R7	EVENT_TAKES_PART_IN Arg1:T5 Arg2:T7	
+T8	CURRENCY 171 172	$
+T9	QUANTITY 172 179	300 млн
+T10	MONEY 171 179	$300 млн
+R8	INCOME Arg1:T6 Arg2:T10	
+R9	EXPENDITURE Arg1:T4 Arg2:T10	
+T11	PERSON 295 303	Байденом
+T15	WEAPON 356 366	вооружений
+R10	WORKS_AS Arg1:T11 Arg2:T14	
+T17	CURRENCY 427 428	$
+T18	QUANTITY 428 435	300 млн
+T22	MONEY 427 435	$300 млн
+R11	INCOME Arg1:T26 Arg2:T22	
+R12	EXPENDITURE Arg1:T20 Arg2:T22	
+T27	WEAPON 622 659	прицепы для перевозки тяжелой техники
+T28	WEAPON 661 685	противотанковые средства
+T29	WEAPON 703 717	запасные части
+T31	WEAPON 739 759	полевое оборудование
+T36	NEWS_SOURCE 761 779	уточнили в Госдепе
+T24	WEAPON 491 567	дополнительные боеприпасы для высокомобильных артиллерийских ракетных систем

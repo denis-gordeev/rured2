@@ -1,0 +1,75 @@
+T0	PROFESSION 0 5	Глава
+T1	ORGANIZATION 6 9	МЧС
+T2	CITY 20 26	Курган
+T4	PROFESSION 62 67	Глава
+T5	ORGANIZATION 68 71	МЧС
+T6	COUNTRY 72 78	России
+T7	PERSON 79 97	Александр Куренков
+T9	CITY 108 114	Курган
+T12	NEWS_SOURCE 163 176	передает ТАСС
+T13	ORGANIZATION 172 176	ТАСС
+T14	PROFESSION 187 196	министром
+T15	CITY 211 217	Москвы
+T19	REGION 326 344	Курганской области
+T22	REGION 429 434	Урале
+T23	REGION 480 498	Курганскую область
+T25	NEWS_SOURCE 660 675	сказал Куренков
+T26	DATE 678 683	7 мая
+T27	PROFESSION 684 694	губернатор
+T30	REGION 695 713	Курганской области
+T31	PERSON 714 726	Вадим Шумков
+T33	EVENT 790 804	лесных пожаров
+T35	GROUP 1019 1024	детей
+T36	GROUP 1027 1049	пожилых родственников!
+T39	QUANTITY 1126 1129	три
+T42	QUANTITY 1241 1254	шесть человек
+T43	CARDINAL 1260 1264	один
+T46	REGION 1373 1391	Курганской области
+T47	QUANTITY 1410 1421	свыше 1 тыс
+T48	PROFESSION 1423 1431	пожарных
+T49	CARDINAL 1434 1443	около 250
+T51	PRODUCT 1451 1458	техники
+T53	ORGANIZATION 1471 1487	региональном МЧС
+T56	REGION 1540 1557	Тюменской области
+T57	REGION 1580 1592	Свердловской
+T58	DATE 1594 1608	С конца апреля
+T59	REGION 1637 1655	Курганской области
+T3	EVENT 44 60	лесными пожарами
+R1	WORKPLACE Arg1:T0 Arg2:T1	
+R2	TAKES_PLACE_IN Arg1:T3 Arg2:T2	
+R3	WORKPLACE Arg1:T4 Arg2:T5	
+R4	WORKPLACE Arg1:T7 Arg2:T5	
+R5	WORKS_AS Arg1:T7 Arg2:T4	
+T8	EVENT 132 151	природными пожарами
+R6	TAKES_PLACE_IN Arg1:T8 Arg2:T9	
+T10	ORGANIZATION 261 264	МЧС
+T11	PROFESSION 227 260	специалисты центрального аппарата
+R7	WORKPLACE Arg1:T11 Arg2:T10	
+T16	EVENT 279 323	определят стратегию по ликвидации возгораний
+R8	TAKES_PLACE_IN Arg1:T16 Arg2:T19	
+T17	EVENT 347 363	Природные пожары
+R9	TAKES_PLACE_IN Arg1:T17 Arg2:T22	
+T18	PERSON 667 675	Куренков
+T20	EVENT 732 767	режим ЧС на всей территории региона
+R10	SUBEVENT_OF Arg1:T33 Arg2:T20	
+R11	WORKPLACE Arg1:T31 Arg2:T30	
+R12	WORKS_AS Arg1:T31 Arg2:T27	
+R13	DATE_TAKES_PLACE_ON Arg1:T20 Arg2:T26	
+T21	NEWS_SOURCE 806 859	Ситуацию в регионе она назвал «критической» и отметил
+T24	NEWS_SOURCE 1053 1067	предупредил он
+T28	ORGANIZATION 1079 1095	регионального СК
+T29	NEWS_SOURCE 1069 1095	По данным регионального СК
+T32	CRIME 1168 1178	халатности
+T34	EVENT 1097 1138	в результате пожаров погибли три человека
+T37	DISEASE 1180 1189	С ожогами
+T38	FAC 1192 1222	областную клиническую больницу
+T40	DISEASE 1277 1299	ожогами легкой степени
+T41	EVENT 1356 1370	тушении пожара
+R14	TAKES_PLACE_IN Arg1:T41 Arg2:T46	
+T44	NEWS_SOURCE 1460 1487	сообщали в региональном МЧС
+R15	WORKPLACE Arg1:T48 Arg2:T46	
+T45	EVENT 1495 1527	режим ЧС из-за природных пожаров
+R16	TAKES_PLACE_IN Arg1:T45 Arg2:T56	
+R17	TAKES_PLACE_IN Arg1:T45 Arg2:T57	
+R18	TAKES_PLACE_IN Arg1:T45 Arg2:T59	
+R19	DATE_TAKES_PLACE_ON Arg1:T45 Arg2:T58	

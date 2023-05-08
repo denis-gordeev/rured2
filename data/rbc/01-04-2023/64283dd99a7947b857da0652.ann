@@ -1,0 +1,44 @@
+T0	GROUP 0 12	Экоактивисты
+T1	PRODUCT 20 33	черную краску
+T2	FAC 36 42	фонтан
+T3	LOCATION 46 53	площади
+T4	COUNTRY 54 61	Испании
+T5	CITY 64 68	Риме
+T6	GROUP 70 82	Экоактивисты
+T7	INVESTMENT_PROGRAM 86 94	движения
+T8	ORGANIZATION 95 113	Ultima Generazione
+T9	FAC 116 135	Последнее поколение
+T10	CITY 152 159	черного
+T11	FAC 175 190	римском фонтане
+T12	LOCATION 194 201	площади
+T13	COUNTRY 202 209	Испании
+T14	NEWS_SOURCE 219 255	организация сообщила в своем Twitter
+T15	ORGANIZATION 248 255	Twitter
+T16	FAC 344 362	сельское хозяйство
+T17	ECONOMIC_SECTOR 344 362	сельское хозяйство
+T18	ECONOMIC_SECTOR 364 376	производство
+T19	GROUP 422 428	власти
+T20	NEWS_SOURCE 456 465	заявили в
+T21	ORGANIZATION 466 477	организации
+T22	NEWS_SOURCE 481 503	В сообщении отмечается
+T23	PRODUCT 551 561	древесного
+T24	FAC 551 561	древесного
+T25	COMMODITY 562 566	угля
+T26	GROUP 568 573	члены
+T27	ORGANIZATION 574 585	организации
+T28	COMMODITY 617 636	ископаемого топлива
+T29	DATE 638 657	В начале января два
+T30	FAC 658 670	экоактивиста
+T31	FAC 674 688	экологического
+T32	FAC 701 716	Last Renovation
+T33	FAC 747 760	фасаду здания
+T34	ORGANIZATION 761 782	Министерства экологии
+T35	COUNTRY 783 790	Франции
+T36	ORGANIZATION 858 870	министерства
+T37	ORGANIZATION 935 938	rbc
+T38	CARDINAL 954 978	64283dd99a7947b857da0652
+T39	PERSON 980 983	Sat
+T40	DATE 985 996	01 Apr 2023
+T41	CARDINAL 997 999	18
+T42	CARDINAL 1000 1002	00
+T43	CARDINAL 1003 1007	52 +

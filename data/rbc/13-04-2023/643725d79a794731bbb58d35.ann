@@ -1,0 +1,76 @@
+T0	PERSON 0 6	Песков
+T1	GROUP 26 36	участников
+T2	EVENT 37 41	ПМЭФ
+T4	GPE 44 50	Запада
+T5	CITY 75 89	Петербургскому
+T7	EVENT 128 132	ПМЭФ
+T8	DATE 153 157	июне
+T9	GROUP 184 205	представители бизнеса
+T10	GROUP 209 230	недружественных стран
+T11	GPE 235 241	Кремль
+T14	COUNTRY 303 309	России
+T15	PERSON 310 324	Дмитрий Песков
+T16	GPE 342 348	Москва
+T17	GROUP 395 406	бизнесменов
+T18	EVENT 409 415	форуме
+T19	EVENT 454 458	ПМЭФ
+T20	DATE 459 470	в этом году
+T21	DATE 481 494	14 по 17 июня
+T22	EVENT 510 521	мероприятия
+T26	GROUP 615 624	поколений
+T27	CARDINAL 640 646	четыре
+T29	EVENT 688 694	форума
+T30	DATE 695 706	в этом году
+T33	DATE 745 759	В прошлом году
+T34	EVENT 770 831	юбилейный XXV Петербургский международный экономический форум
+T35	DATE 845 858	15 по 18 июня
+T36	EVENT 862 873	мероприятии
+T41	CARDINAL 915 918	130
+T42	GROUP 919 929	государств
+T43	GROUP 931 940	Участники
+T44	EVENT 941 947	форума
+T45	CARDINAL 958 961	691
+T49	CURRENCY 999 1002	руб
+T50	DATE 1005 1033	В начале марта прошлого года
+T51	ORGANIZATION 1034 1047	правительство
+T53	COUNTRY 1131 1137	России
+T54	COUNTRY 1139 1149	российских
+T57	COUNTRY 1204 1213	Австралия
+T58	COUNTRY 1215 1229	Великобритания
+T59	COUNTRY 1231 1234	США
+T60	COUNTRY 1236 1242	Япония
+T61	GROUP 1321 1332	резидентами
+T65	GROUP 1398 1409	кредиторами
+T66	PROFESSION 1411 1420	Президент
+T67	COUNTRY 1421 1427	России
+T68	PERSON 1428 1442	Владимир Путин
+T69	GROUP 1467 1489	недружественные страны
+T70	NEWS_SOURCE 1505 1518	По его словам
+T71	GROUP 1583 1609	недружественных правителях
+R1	EVENT_TAKES_PART_IN Arg1:T1 Arg2:T2	
+R2	ORIGINS_FROM Arg1:T1 Arg2:T4	
+T3	EVENT 75 126	Петербургскому международному экономическому форуму
+R3	MEMBER Arg1:T9 Arg2:T10	
+T6	PROFESSION 276 291	пресс-секретарь
+T12	PROFESSION 292 302	президента
+R4	SUBORDINATE_OF Arg1:T12 Arg2:T6	
+R5	WORKPLACE Arg1:T15 Arg2:T14	
+R6	WORKS_AS Arg1:T15 Arg2:T6	
+T13	NEWS_SOURCE 269 324	заявил пресс-секретарь президента России Дмитрий Песков
+T77	NEWS_SOURCE 326 336	Он пояснил
+R7	EVENT_TAKES_PART_IN Arg1:T17 Arg2:T18	
+R8	DATE_TAKES_PLACE_ON Arg1:T19 Arg2:T21	
+R9	WORKS_AS Arg1:T68 Arg2:T66	
+R10	WORKPLACE Arg1:T68 Arg2:T67	
+T23	COUNTRY 714 743	Объединенные Арабские Эмираты
+R11	EVENT_TAKES_PART_IN Arg1:T23 Arg2:T29	
+T24	CITY 784 797	Петербургский
+R12	DATE_TAKES_PLACE_ON Arg1:T34 Arg2:T35	
+T25	QUANTITY 890 902	более 14 тыс
+R13	EVENT_TAKES_PART_IN Arg1:T43 Arg2:T44	
+T28	QUANTITY 988 998	5,639 трлн
+T31	MONEY 988 1002	5,639 трлн руб
+T32	GROUP 1150 1178	юридических и физических лиц
+R14	WORKPLACE Arg1:T32 Arg2:T54	
+R15	HEADQUARTERED_IN Arg1:T51 Arg2:T53	
+T37	GROUP 1193 1202	страны ЕС

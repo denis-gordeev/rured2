@@ -1,0 +1,54 @@
+T0	CITY 2 13	Севастополе
+T1	NEWS_SOURCE 0 22	В Севастополе сообщили
+T2	INVESTMENT_PROGRAM 36 41	атаки
+T3	ECONOMIC_SECTOR 42 55	беспилотников
+T4	ORGANIZATION 57 89	Система противовоздушной обороны
+T5	FAC 91 94	ПВО
+T6	ECONOMIC_SECTOR 102 113	беспилотник
+T7	LAW 117 123	западе
+T8	REGION 124 129	Крыма
+T9	PROFESSION 139 144	глава
+T10	PERSON 156 170	Сергей Аксенов
+T11	NEWS_SOURCE 131 187	сообщил глава республики Сергей Аксенов в своем телеграм
+T12	LAW 179 194	телеграм-канале
+T13	PROFESSION 324 335	губернатора
+T14	CITY 336 347	Севастополя
+T15	NEWS_SOURCE 314 366	По словам губернатора Севастополя Михаила Развожаева
+T16	PERSON 348 366	Михаила Развожаева
+T17	ORGANIZATION 368 378	силы флота
+T18	LOCATION 426 431	рейде
+T19	CARDINAL 434 438	один
+T20	ORGANIZATION 453 464	Севастополь
+T21	ECONOMIC_SECTOR 485 504	атаке беспилотников
+T22	TIME 507 511	ночь
+T23	DATE 515 524	29 апреля
+T24	CARDINAL 526 530	Один
+T25	FAC 567 581	Казачьей бухте
+T26	ORDINAL 583 589	второй
+T27	FAC 606 611	флота
+T28	FAC 615 633	стрелкового оружия
+T29	PRODUCT 627 633	оружия
+T30	NEWS_SOURCE 635 652	говорил Развожаев
+T31	CARDINAL 670 676	четыре
+T32	PRODUCT 677 685	цистерны
+T33	FAC 677 685	цистерны
+T34	CARDINAL 715 720	1 тыс
+T35	TIME 722 724	кв
+T36	ORDINAL 746 755	четвертый
+T37	NEWS_SOURCE 782 789	заверил
+T38	PROFESSION 836 848	Руководитель
+T39	FAC 849 862	объединенного
+T40	ORGANIZATION 863 879	координационного
+T41	PROFESSION 880 885	пресс
+T42	ORGANIZATION 885 908	-центра сил обороны юга
+T43	COUNTRY 909 916	Украины
+T44	PERSON 917 932	Наталья Гуменюк
+T45	CARDINAL 960 965	одним
+T46	COUNTRY 1004 1014	украинской
+T47	FAC 1015 1020	армии
+T48	DATE 1058 1062	2023
+T49	CARDINAL 1063 1087	644fd3509a79472e2191f1a5
+T50	DATE 1094 1096	01
+T51	DATE 1101 1105	2023
+T52	PERCENT 1106 1108	18
+T53	CARDINAL 1106 1108	18

@@ -1,0 +1,83 @@
+T2	COUNTRY 44 50	Канаде
+T7	REGION 121 127	Квебек
+T10	COUNTRY 143 149	Канады
+T16	GROUP 228 240	потребителей
+T17	COMMODITY 241 256	электроэнергией
+T23	QUANTITY 328 335	760 тыс
+T25	NEWS_SOURCE 346 365	сообщили в компании
+T26	ORGANIZATION 357 365	компании
+T28	CITY 428 436	Монреале
+T34	CARDINAL 586 591	до 60
+T35	NEWS_SOURCE 597 612	пишет телеканал
+T39	COMMODITY 771 785	электроэнергии
+T43	CARDINAL 910 915	до 20
+T45	NEWS_SOURCE 950 962	отмечает CBC
+T46	CARDINAL 1007 1010	112
+T48	NEWS_SOURCE 1019 1048	По данным портала Poweroutage
+T49	COMMODITY 1081 1095	электроэнергии
+T52	QUANTITY 1141 1154	свыше 780 тыс
+T54	GROUP 1156 1168	потребителей
+T57	QUANTITY 1174 1181	185 тыс
+T59	COMMODITY 1204 1217	электричества
+T64	DATE 1277 1284	В марте
+T65	CARDINAL 1285 1293	половина
+T66	GROUP 1294 1301	жителей
+T67	COUNTRY 1302 1311	Аргентины
+T72	FAC 1374 1385	энергоблока
+T73	FAC 1389 1411	атомной электростанции
+T74	FAC 1429 1447	высоковольтной ЛЭП
+T75	EVENT 1464 1469	пожар
+T76	LOCATION 1472 1484	окрестностях
+T79	COMMODITY 1525 1538	Электричество
+T81	CARDINAL 1559 1564	6 млн
+T82	FAC 1565 1571	зданий
+T83	ORGANIZATION 1580 1589	La Nación
+T84	FAC 1620 1635	электростанциях
+T85	NEWS_SOURCE 1648 1673	говорили газете источники
+T1	LOCATION 128 142	на юго-востоке
+R1	OWNERSHIP Arg1:T10 Arg2:T7	
+T3	QUANTITY 0 14	Более 760 тыс.
+T4	QUANTITY 67 81	Более 760 тыс.
+T5	ORGANIZATION 160 163	CBC
+T6	ORGANIZATION 188 209	компании Hydro-Québec
+T8	NEWS_SOURCE 151 256	передает CBC со ссылкой на заявление компании Hydro-Québec, которая снабжает потребителей электроэнергией
+T9	TIME 271 311	на 18:00 по местному времени (01:00 мск)
+T11	EVENT 23 41	остались без света
+R2	TAKES_PLACE_IN Arg1:T11 Arg2:T2	
+T12	EVENT 90 108	остались без света
+R3	TAKES_PLACE_IN Arg1:T12 Arg2:T7	
+T13	REGION 418 425	Квебека
+T14	REGION 439 452	регионе Утауэ
+T15	LOCATION 453 466	на юго-западе
+R4	OWNERSHIP Arg1:T13 Arg2:T28	
+R5	OWNERSHIP Arg1:T14 Arg2:T15	
+T18	FAC 489 506	электроснабжением
+T19	EVENT 532 595	на регион обрушились ледяные дожди и ветер с порывами до 60 м/c
+R6	TAKES_PLACE_IN Arg1:T19 Arg2:T13	
+R7	TAKES_PLACE_IN Arg1:T19 Arg2:T14	
+T20	ORGANIZATION 826 838	Hydro-Québec
+T21	NEWS_SOURCE 816 838	заявили в Hydro-Québec
+T22	DATE 869 877	5 апреля
+R8	DATE_TAKES_PLACE_ON Arg1:T19 Arg2:T22	
+T24	CITY 893 901	Монреаля
+T27	ORGANIZATION 959 962	CBC
+R9	DATE_TAKES_PLACE_ON Arg1:T19 Arg2:T22	
+T29	CITY 989 997	Монреаля
+T30	FAC 977 988	в аэропорту
+R10	HEADQUARTERED_IN Arg1:T30 Arg2:T29	
+T31	REGION 1122 1131	в Квебеке
+R11	WORKPLACE Arg1:T54 Arg2:T31	
+T32	REGION 1218 1246	в соседней провинции Онтарио
+T33	NEWS_SOURCE 1248 1275	следует из статистики сайта
+T36	QUANTITY 1313 1325	около 20 млн
+R12	WORKPLACE Arg1:T66 Arg2:T67	
+T37	EVENT 1335 1411	осталась без света из-за сбоя в работе энергоблока на атомной электростанции
+R13	TAKES_PLACE_IN Arg1:T37 Arg2:T67	
+T38	EVENT 1419 1425	аварии
+R14	TAKES_PLACE_IN Arg1:T38 Arg2:T74	
+R15	TAKES_PLACE_IN Arg1:T38 Arg2:T67	
+T40	FAC 1501 1523	энергоблок АЭС «Атуча»
+R16	TAKES_PLACE_IN Arg1:T75 Arg2:T40	
+T41	NEWS_SOURCE 1573 1589	писала La Nación
+T42	EVENT 1591 1597	Аварии
+R17	TAKES_PLACE_IN Arg1:T42 Arg2:T84	

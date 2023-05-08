@@ -1,0 +1,40 @@
+T0	COUNTRY 24 31	Украине
+T1	PROFESSION 62 72	президента
+T2	COUNTRY 74 81	Украине
+T4	PROFESSION 88 97	президент
+T8	PERSON 181 198	Алексей Арестович
+T11	PERSON 222 236	Юлии Латыниной
+T12	ORGANIZATION 238 244	Минюст
+T13	GROUP 265 275	иноагентов
+T17	COUNTRY 316 323	Украине
+T18	COUNTRY 357 364	Польшей
+T20	COUNTRY 376 379	США
+T22	NEWS_SOURCE 519 535	сказал Арестович
+T23	PROFESSION 537 548	Журналистка
+T24	PROFESSION 610 619	президент
+T25	PERSON 620 638	Владимир Зеленский
+T27	NEWS_SOURCE 698 708	Он отметил
+T38	PERSON 0 9	Арестович
+R1	WORKPLACE Arg1:T4 Arg2:T2	
+R2	WORKPLACE Arg1:T1 Arg2:T0	
+T3	ORGANIZATION 157 180	офиса главы государства
+T5	PROFESSION 141 156	бывший советник
+R3	WORKPLACE Arg1:T5 Arg2:T3	
+R4	WORKS_AS Arg1:T8 Arg2:T5	
+T6	PROFESSION 210 221	журналистке
+T7	ORGANIZATION 299 313	YouTube-канале
+R5	WORKS_AS Arg1:T11 Arg2:T6	
+R6	MEMBER Arg1:T11 Arg2:T13	
+T9	NEWS_SOURCE 278 313	опубликованном на ее YouTube-канале
+T10	CARDINAL 341 345	одно
+T14	PERSON 526 535	Арестович
+R7	WORKS_AS Arg1:T25 Arg2:T24	
+T15	NEWS_SOURCE 537 565	Журналистка в ответ спросила
+T16	PERSON 640 649	Арестович
+T19	NEWS_SOURCE 640 658	Арестович возразил
+T21	EVENT 667 696	не поборол коррупцию до конца
+R8	ORGANIZES Arg1:T25 Arg2:T21	
+T26	EVENT 714 736	начало боевых действий
+T28	CITY 888 897	Запорожье
+T29	CRIME 858 885	хищение гуманитарной помощи
+R9	TAKES_PLACE_IN Arg1:T29 Arg2:T28	

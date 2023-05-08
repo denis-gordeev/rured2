@@ -1,0 +1,83 @@
+T0	PERSON 0 5	Рогов
+T1	COUNTRY 27 37	украинской
+T2	ORGANIZATION 53 90	Запорожскую область
+
+Вооруженные силы
+T3	COUNTRY 91 98	Украины
+T6	WEAPON 133 145	бронетехнику
+T7	ORGANIZATION 156 168	РИА Новости»
+T12	PERSON 224 238	Владимир Рогов
+T14	WEAPON 278 290	бронетехнику
+T15	FAC 321 346	подземных овощехранилищах
+T16	BOROUGH 349 359	Ореховском
+T20	NEWS_SOURCE 436 448	сказал Рогов
+T21	PERSON 443 448	Рогов
+T22	NEWS_SOURCE 450 463	По его словам
+T24	COUNTRY 478 485	Украина
+T25	GROUP 511 522	группировку
+T26	ORGANIZATION 523 528	войск
+T27	NEWS_SOURCE 530 540	Он отметил
+T30	GROUP 611 617	солдат
+T31	REGION 650 669	Запорожской области
+T32	PERSON 671 676	Рогов
+T33	DATE 691 696	4 мая
+T34	DATE 777 782	3 мая
+T35	PERSON 783 788	Рогов
+T36	NEWS_SOURCE 783 795	Рогов заявил
+T38	CITY 848 854	Орехов
+T44	COUNTRY 998 1005	Украины
+T45	GPE 1009 1015	Кремле
+T46	NEWS_SOURCE 1009 1024	Кремле говорили
+T47	COUNTRY 1078 1088	украинских
+T48	PROFESSION 1089 1096	военных
+T52	PERSON 1125 1139	Дмитрий Песков
+T54	ORGANIZATION 1153 1163	Минобороны
+T61	WEAPON 38 50	бронетехники
+T62	REGION 53 72	Запорожскую область
+T63	NEWS_SOURCE 0 13	Рогов сообщил
+T64	ORGANIZATION 74 90	Вооруженные силы
+R1	OWNERSHIP Arg1:T3 Arg2:T64	
+T4	EVENT 1061 1077	контрнаступлении
+R2	ORGANIZES Arg1:T47 Arg2:T4	
+R3	WORKPLACE Arg1:T48 Arg2:T47	
+T49	PROFESSION 1114 1124	президента
+T50	PROFESSION 1098 1113	Пресс-секретарь
+R4	SUBORDINATE_OF Arg1:T49 Arg2:T50	
+R5	WORKS_AS Arg1:T52 Arg2:T50	
+T51	NEWS_SOURCE 1098 1147	Пресс-секретарь президента Дмитрий Песков отмечал
+T53	EVENT 1202 1230	специальной военной операции
+R6	ORGANIZES Arg1:T54 Arg2:T53	
+T5	REGION 113 132	Запорожскую область
+T8	REGION 204 223	Запорожской области
+R7	WORKPLACE Arg1:T12 Arg2:T8	
+T9	ORGANIZATION 190 203	администрации
+T10	PROFESSION 169 189	член главного совета
+R8	WORKPLACE Arg1:T10 Arg2:T9	
+R9	WORKPLACE Arg1:T12 Arg2:T9	
+R10	WORKS_AS Arg1:T12 Arg2:T10	
+T11	LOCATION 262 277	на линию фронта
+T13	ORGANIZATION 402 405	ВСУ
+T17	BOROUGH 362 383	Гуляйпольском районах
+T18	REGION 412 431	Запорожской области
+T19	LOCATION 384 411	на подконтрольной ВСУ части
+R11	HEADQUARTERED_IN Arg1:T15 Arg2:T19	
+T23	LOCATION 465 477	на передовой
+T55	CARDINAL 497 510	многотысячную
+R12	HEADQUARTERED_IN Arg1:T26 Arg2:T23	
+T28	CARDINAL 596 610	десятках тысяч
+T29	LOCATION 635 647	на передовой
+R13	OWNERSHIP Arg1:T31 Arg2:T29	
+T56	EVENT 737 760	наступательные действия
+R14	TAKES_PLACE_IN Arg1:T56 Arg2:T31	
+T57	NEWS_SOURCE 765 775	уточнил он
+T58	ORGANIZATION 817 820	ВСУ
+T59	LOCATION 821 846	на ореховском направлении
+T37	EVENT 798 816	начале наступления
+R15	ORGANIZES Arg1:T58 Arg2:T37	
+R16	DATE_TAKES_PLACE_ON Arg1:T37 Arg2:T34	
+R17	HEADQUARTERED_IN Arg1:T58 Arg2:T59	
+T39	BOROUGH 865 883	Пологовском районе
+T40	REGION 884 903	Запорожской области
+T41	LOCATION 919 969	на левом берегу реки Конки — левого притока Днепра
+R18	OWNERSHIP Arg1:T44 Arg2:T41	
+R19	OWNERSHIP Arg1:T44 Arg2:T38	

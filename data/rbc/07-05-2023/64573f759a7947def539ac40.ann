@@ -1,0 +1,86 @@
+T0	PROFESSION 0 3	Мэр
+T1	CITY 4 11	Донецка
+T6	VILLAGE 90 103	Александровка
+T7	VILLAGE 106 114	Кременец
+T9	CITY 138 145	Донецка
+T12	COUNTRY 190 197	Украины
+T13	ORGANIZATION 199 202	ВСУ
+T14	PROFESSION 213 216	мэр
+T17	PERSON 224 240	Алексей Кулемзин
+T20	PRODUCT 271 285	электроэнергии
+T21	QUANTITY 286 290	1900
+T22	GROUP 291 300	абонентов
+T26	NEWS_SOURCE 339 354	заявил Кулемзин
+T27	PERSON 346 354	Кулемзин
+T29	COUNTRY 390 400	украинской
+T31	CITY 429 436	Донецка
+T34	REGION 511 514	ДНР
+T35	CITY 575 581	Донецк
+T37	CARDINAL 616 622	155 мм
+T38	DATE 625 634	29 апреля
+T39	PERSON 635 643	Кулемзин
+T42	DATE 701 714	В тот же день
+T45	DATE 796 805	28 апреля
+T46	PERSON 806 814	Кулемзин
+T48	CITY 865 872	Донецка
+T50	AGE 916 928	восьмилетняя
+T56	QUANTITY 1030 1032	19
+T57	GROUP 1033 1045	пострадавших
+R1	WORKPLACE Arg1:T0 Arg2:T1	
+T2	NEWS_SOURCE 0 19	Мэр Донецка сообщил
+T3	VILLAGE 36 54	населенных пунктах
+T4	EVENT 61 70	обстрелов
+R2	TAKES_PLACE_IN Arg1:T4 Arg2:T3	
+T5	ORGANIZATION 174 197	Вооруженных сил Украины
+R3	ABBREVIATION Arg1:T5 Arg2:T13	
+T8	EVENT 147 157	обесточены
+T10	EVENT 164 173	обстрелов
+R4	SUBEVENT_OF Arg1:T10 Arg2:T8	
+R5	ORGANIZES Arg1:T13 Arg2:T10	
+R6	TAKES_PLACE_IN Arg1:T8 Arg2:T7	
+R7	TAKES_PLACE_IN Arg1:T10 Arg2:T7	
+R8	TAKES_PLACE_IN Arg1:T8 Arg2:T6	
+R9	TAKES_PLACE_IN Arg1:T8 Arg2:T6	
+R10	WORKPLACE Arg1:T17 Arg2:T9	
+R11	WORKS_AS Arg1:T17 Arg2:T14	
+T11	NEWS_SOURCE 205 264	сообщил мэр города Алексей Кулемзин в своем телеграм-канале
+T15	VILLAGE 301 318	пгт Александровка
+T16	VILLAGE 321 334	села Кременец
+R12	ORIGINS_FROM Arg1:T22 Arg2:T15	
+R13	ORIGINS_FROM Arg1:T22 Arg2:T16	
+T18	NEWS_SOURCE 356 366	Он добавил
+T19	EVENT 378 387	обстрелов
+T23	BOROUGH 411 428	Петровском районе
+T24	CARDINAL 448 450	19
+T25	FAC 451 478	трансформаторных подстанций
+R14	HEADQUARTERED_IN Arg1:T25 Arg2:T31	
+R15	OWNERSHIP Arg1:T31 Arg2:T23	
+R16	TAKES_PLACE_IN Arg1:T19 Arg2:T23	
+T28	ORGANIZATION 517 566	Совместном центре контроля и координации вопросов
+T30	ORGANIZATION 568 572	СЦКК
+R17	ABBREVIATION Arg1:T28 Arg2:T30	
+T32	WEAPON 597 622	снарядами калибром 155 мм
+T33	ORGANIZATION 493 510	представительство
+R18	OWNERSHIP Arg1:T34 Arg2:T33	
+T36	NEWS_SOURCE 484 514	сообщает представительство ДНР
+T40	NEWS_SOURCE 625 651	29 апреля Кулемзин говорил
+T41	BOROUGH 657 673	Петровский район
+T61	EVENT 681 699	подвергся обстрелу
+R19	TAKES_PLACE_IN Arg1:T61 Arg2:T41	
+R20	DATE_TAKES_PLACE_ON Arg1:T61 Arg2:T38	
+T43	BOROUGH 733 748	Ленинский район
+R21	TAKES_PLACE_IN Arg1:T61 Arg2:T43	
+R22	DATE_TAKES_PLACE_ON Arg1:T61 Arg2:T42	
+T44	FAC 789 794	домах
+T47	NEWS_SOURCE 796 822	28 апреля Кулемзин сообщил
+T49	QUANTITY 881 895	девять человек
+T51	QUANTITY 955 965	16 человек
+T58	EVENT 828 895	в результате массированного обстрела Донецка погибли девять человек
+R23	TAKES_PLACE_IN Arg1:T58 Arg2:T48	
+T62	EVENT 938 965	ранения получили 16 человек
+R24	TAKES_PLACE_IN Arg1:T62 Arg2:T48	
+T52	ORGANIZATION 976 1019	Республиканского травматологического центра
+T53	PROFESSION 967 975	Директор
+R25	WORKPLACE Arg1:T53 Arg2:T52	
+T54	NEWS_SOURCE 967 1027	Директор Республиканского травматологического центра сообщал
+R26	HEADQUARTERED_IN Arg1:T52 Arg2:T48	

@@ -1,0 +1,87 @@
+T0	COUNTRY 3 10	Франции
+T2	COUNTRY 43 50	Франции
+T4	PROFESSION 76 86	президента
+T5	PERSON 87 104	Эмманюэля Макрона
+T6	ORDINAL 108 114	второй
+T8	NEWS_SOURCE 149 167	сообщает Le Figaro
+T9	ORGANIZATION 158 167	Le Figaro
+T14	COUNTRY 317 323	Париже
+T17	PROFESSION 393 402	чиновнику
+T22	NEWS_SOURCE 497 511	сообщает BFMTV
+T23	ORGANIZATION 506 511	BFMTV
+T28	GROUP 614 619	детей
+T29	PERSON 620 633	Шарлот Кобель
+T30	PROFESSION 664 681	министра культуры
+T31	PERSON 682 698	Риму Абдул-Малак
+T32	PROFESSION 700 716	министра юстиции
+T36	PROFESSION 739 763	министра здравоохранения
+T39	NEWS_SOURCE 781 807	По данным ассоциации Attac
+T40	ORGANIZATION 791 807	ассоциации Attac
+T41	COUNTRY 818 825	Франции
+T42	CARDINAL 833 842	более 400
+T43	PRODUCT 897 909	сковородками
+T44	QUANTITY 920 937	около 500 человек
+T45	EVENT 939 945	Митинг
+T48	QUANTITY 972 989	около 200 человек
+T49	DATE 991 1008	С середины апреля
+T50	COUNTRY 1012 1019	Франции
+T52	ORGANIZATION 1101 1122	Конституционный совет
+T53	COUNTRY 1123 1130	Франции
+T54	DATE 1152 1161	14 апреля
+T55	DATE 1163 1180	на следующий день
+T56	PERSON 1194 1200	Макрон
+T1	EVENT 18 38	митинги с кастрюлями
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T0	
+T3	DATE 51 75	в годовщину переизбрания
+T7	EVENT 127 147	митинги с кастрюлями
+R2	DATE_TAKES_PLACE_ON Arg1:T7 Arg2:T3	
+R3	TAKES_PLACE_IN Arg1:T7 Arg2:T2	
+R4	WORKS_AS Arg1:T5 Arg2:T4	
+R5	WORKPLACE Arg1:T5 Arg2:T2	
+T10	PROFESSION 209 226	главы государства
+T11	CARDINAL 243 258	несколько сотен
+T12	EVENT 184 226	в акциях против политики главы государства
+R6	TAKES_PLACE_IN Arg1:T12 Arg2:T2	
+T13	FAC 298 314	здание института
+R7	HEADQUARTERED_IN Arg1:T13 Arg2:T14	
+T15	PROFESSION 353 369	министр культуры
+T16	PERSON 370 379	Пап Ндьяй
+R8	WORKS_AS Arg1:T16 Arg2:T15	
+R9	WORKS_AS Arg1:T16 Arg2:T17	
+T18	CITY 431 439	Лионском
+T64	FAC 440 447	вокзале
+R10	HEADQUARTERED_IN Arg1:T64 Arg2:T18	
+T19	EVENT 463 494	концертом кастрюль и сковородок
+R11	TAKES_PLACE_IN Arg1:T19 Arg2:T64	
+T20	PRODUCT 473 481	кастрюль
+T21	PRODUCT 484 494	сковородок
+T65	EVENT 529 543	плановый визит
+T24	CITY 557 567	Сен-Морисе
+T25	FAC 546 554	больницу
+R12	HEADQUARTERED_IN Arg1:T25 Arg2:T24	
+R13	TAKES_PLACE_IN Arg1:T65 Arg2:T25	
+T26	PROFESSION 592 619	госсекретарю по делам детей
+R14	WORKS_AS Arg1:T29 Arg2:T26	
+T27	EVENT 574 591	пришлось отменить
+R15	REFERENCE Arg1:T27 Arg2:T65	
+R16	WORKS_AS Arg1:T31 Arg2:T30	
+T33	PERSON 717 736	Эрика Дюпон-Моретти
+R17	WORKS_AS Arg1:T33 Arg2:T32	
+T34	PERSON 764 778	Франсуа Брауна
+R18	WORKS_AS Arg1:T34 Arg2:T36	
+T35	EVENT 843 859	протестных акций
+R19	TAKES_PLACE_IN Arg1:T35 Arg2:T41	
+T37	CITY 877 881	Нант
+T38	PRODUCT 884 894	кастрюлями
+T66	LOCATION 861 876	В центре города
+T46	FAC 952 958	мэрией
+T67	CITY 959 964	Бордо
+R20	TAKES_PLACE_IN Arg1:T45 Arg2:T67	
+T47	EVENT 1029 1072	акции против повышения пенсионного возраста
+T51	DATE 1088 1099	к 2030 году
+T57	AGE 1073 1087	с 62 до 64 лет
+R21	TAKES_PLACE_IN Arg1:T47 Arg2:T50	
+R22	DATE_TAKES_PLACE_ON Arg1:T47 Arg2:T49	
+R23	HEADQUARTERED_IN Arg1:T52 Arg2:T53	
+T68	LAW 1042 1099	повышения пенсионного возраста с 62 до 64 лет к 2030 году
+R24	WORKPLACE Arg1:T56 Arg2:T53	

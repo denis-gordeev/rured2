@@ -1,0 +1,73 @@
+T0	ORGANIZATION 0 17	Austrian Airlines
+T1	CARDINAL 27 36	более 100
+T3	GROUP 62 71	Профсоюзы
+T4	PROFESSION 74 84	менеджмент
+T5	ORGANIZATION 85 115	авиакомпании Austrian Airlines
+T6	GROUP 167 178	сотрудникам
+T7	EVENT 200 210	забастовка
+T9	CARDINAL 237 246	более ста
+T11	DATE 257 274	вторник, 28 марта
+T12	NEWS_SOURCE 276 294	сообщает Bloomberg
+T13	ORGANIZATION 285 294	Bloomberg
+T16	GROUP 360 384	представители работников
+T18	PERCENT 519 525	на 10%
+T19	DATE 538 546	27 марта
+T20	COUNTRY 550 558	Германии
+T21	GROUP 579 590	сотрудников
+T24	FAC 641 650	аэропорты
+T28	CARDINAL 716 720	один
+T29	GROUP 724 737	организаторов
+T31	DATE 787 798	с 1992 года
+T35	PERSON 970 983	Фрэнк Вернеке
+T38	GROUP 1026 1040	авиапассажиров
+T39	CARDINAL 1056 1060	двух
+T40	COUNTRY 1072 1080	немецких
+T41	FAC 1081 1091	аэропортах
+T42	CITY 1094 1101	Мюнхене
+T43	CITY 1104 1114	Франкфурте
+T45	GROUP 1135 1156	застрявшим пассажирам
+T46	COUNTRY 1200 1208	Германии
+T47	COUNTRY 1277 1284	Франции
+T48	ORGANIZATION 1298 1337	государственный оператор железных дорог
+T53	DATE 1381 1400	в декабре 2022 года
+T54	EVENT 1407 1429	однодневной забастовки
+T2	EVENT 50 60	забастовки
+R1	ORGANIZES Arg1:T3 Arg2:T2	
+R2	WORKPLACE Arg1:T4 Arg2:T5	
+R3	WORKPLACE Arg1:T6 Arg2:T5	
+T8	ORGANIZATION 296 304	Компания
+T10	PERCENT 346 351	12,3%
+T14	EVENT 305 342	предложила повышение заработной платы
+R4	ORGANIZES Arg1:T8 Arg2:T14	
+T15	NEWS_SOURCE 353 392	Однако представители работников заявили
+T17	GROUP 437 458	некоторых сотрудников
+T66	EVENT 559 578	началась забастовка
+R5	TAKES_PLACE_IN Arg1:T66 Arg2:T20	
+T22	FAC 652 688	автобусные и железнодорожные вокзалы
+R6	HEADQUARTERED_IN Arg1:T24 Arg2:T20	
+R7	HEADQUARTERED_IN Arg1:T22 Arg2:T20	
+T23	GROUP 739 753	профсоюз Verdi
+T25	EVENT 759 769	забастовка
+T26	NEWS_SOURCE 709 737	заявил один из организаторов
+R8	ORGANIZES Arg1:T23 Arg2:T25	
+T27	GROUP 802 812	Сотрудники
+T30	PROFESSION 946 957	журналистам
+T32	PROFESSION 958 969	глава Verdi
+R9	WORKS_AS Arg1:T35 Arg2:T32	
+T33	NEWS_SOURCE 939 983	сказал журналистам глава Verdi Фрэнк Вернеке
+T34	QUANTITY 1017 1024	380 тыс
+R10	HEADQUARTERED_IN Arg1:T41 Arg2:T42	
+R11	HEADQUARTERED_IN Arg1:T41 Arg2:T43	
+T36	EVENT 986 1006	Приостановка полетов
+R12	TAKES_PLACE_IN Arg1:T36 Arg2:T42	
+R13	TAKES_PLACE_IN Arg1:T36 Arg2:T43	
+T37	EVENT 1187 1197	Забастовки
+R14	TAKES_PLACE_IN Arg1:T37 Arg2:T46	
+T44	EVENT 1226 1273	протестов против повышения пенсионного возраста
+R15	TAKES_PLACE_IN Arg1:T44 Arg2:T47	
+T49	PERCENT 1376 1380	8,9%
+T50	CARDINAL 1407 1418	однодневной
+T51	COUNTRY 1286 1297	Австрийский
+R16	HEADQUARTERED_IN Arg1:T48 Arg2:T51	
+R17	TAKES_PLACE_IN Arg1:T54 Arg2:T51	
+R18	DATE_TAKES_PLACE_ON Arg1:T54 Arg2:T53	

@@ -1,0 +1,79 @@
+T0	PERSON 0 5	Шойгу
+T1	NEWS_SOURCE 0 12	Шойгу заявил
+T2	COUNTRY 37 43	России
+T3	ORGANIZATION 67 71	НАТО
+T4	ORGANIZATION 122 126	НАТО
+T5	GPE 153 159	Москвы
+T7	COUNTRY 173 183	российской
+T8	EVENT 184 200	военной операции
+T10	PROFESSION 209 224	министр обороны
+T11	COUNTRY 225 231	России
+T13	PERSON 232 244	Сергей Шойгу
+T14	EVENT 245 257	на совещании
+T19	COUNTRY 341 347	России
+T20	COUNTRY 406 413	Украину
+T21	WEAPON 414 424	вооружения
+T22	GROUP 486 504	военных советников
+T23	GROUP 507 516	наемников
+T24	NEWS_SOURCE 521 535	сказал министр
+T25	PROFESSION 528 535	министр
+T26	NEWS_SOURCE 537 550	Шойгу отметил
+T27	COUNTRY 556 559	США
+T28	GROUP 565 573	союзники
+T31	NEWS_SOURCE 770 785	отметил министр
+T32	PROFESSION 778 785	министр
+T33	COUNTRY 831 837	России
+T34	CARDINAL 838 844	десять
+T36	COUNTRY 885 892	Украине
+T37	PROFESSION 903 909	генсек
+T38	ORGANIZATION 910 938	Североатлантического альянса
+T43	COUNTRY 994 1001	Украине
+T48	WEAPON 1017 1027	бронемашин
+T49	CARDINAL 1029 1032	230
+T52	WEAPON 1042 1052	боеприпасы
+T54	PERCENT 1069 1072	98%
+T55	COUNTRY 1152 1161	Финляндия
+T57	GPE 1165 1171	Москве
+T58	COUNTRY 1233 1240	Украине
+R2	WORKPLACE Arg1:T13 Arg2:T11	
+R3	WORKPLACE Arg1:T10 Arg2:T11	
+T6	CITY 267 277	Шанхайской
+T9	ORGANIZATION 267 304	Шанхайской организации сотрудничества
+T12	CITY 307 315	Нью-Дели
+R1	ORGANIZES Arg1:T7 Arg2:T8	
+R4	TAKES_PLACE_IN Arg1:T14 Arg2:T12	
+R5	EVENT_TAKES_PART_IN Arg1:T13 Arg2:T14	
+R6	EVENT_TAKES_PART_IN Arg1:T9 Arg2:T14	
+T15	NEWS_SOURCE 202 315	заявил министр обороны России Сергей Шойгу на совещании в рамках Шанхайской организации сотрудничества в Нью-Дели
+T16	PENALTY 361 379	масштабные санкции
+T17	LOCATION 465 485	зону боевых действий
+T18	PERSON 537 542	Шойгу
+T65	EVENT 574 638	стремятся переформатировать систему межгосударственных отношений
+R7	ORGANIZES Arg1:T27 Arg2:T65	
+R8	ORGANIZES Arg1:T28 Arg2:T65	
+T29	GROUP 697 720	независимые государства
+T30	PENALTY 838 860	десять пакетов санкций
+T35	GPE 813 818	Запад
+T66	EVENT 796 812	военной операции
+R9	TAKES_PLACE_IN Arg1:T30 Arg2:T33	
+T67	EVENT 863 884	усилил военную помощь
+R10	ORGANIZES Arg1:T35 Arg2:T67	
+R11	TAKES_PLACE_IN Arg1:T67 Arg2:T36	
+R12	EVENT_TAKES_PART_IN Arg1:T33 Arg2:T66	
+T39	PERSON 939 955	Йенс Столтенберг
+R13	WORKS_AS Arg1:T39 Arg2:T37	
+T40	DATE 894 902	Накануне
+R14	WORKPLACE Arg1:T39 Arg2:T38	
+T68	NEWS_SOURCE 894 962	Накануне генсек Североатлантического альянса Йенс Столтенберг заявил
+T41	GROUP 968 980	страны-члены
+T42	CARDINAL 1002 1016	более 1,5 тыс.
+T44	WEAPON 1033 1039	танков
+T45	ORGANIZATION 1138 1142	блок
+R15	MEMBER Arg1:T55 Arg2:T45	
+T46	EVENT 1113 1135	начала боевых действий
+R16	EVENT_TAKES_PART_IN Arg1:T55 Arg2:T46	
+T47	PENALTY 1172 1179	санкции
+R17	TAKES_PLACE_IN Arg1:T47 Arg2:T57	
+T50	EVENT 1261 1280	затягивают конфликт
+T51	EVENT 1224 1255	поставки Украине военной помощи
+R18	SUBEVENT_OF Arg1:T50 Arg2:T51	

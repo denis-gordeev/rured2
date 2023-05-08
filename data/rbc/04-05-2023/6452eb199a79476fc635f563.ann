@@ -1,0 +1,56 @@
+T0	PROFESSION 0 18	Командир батальона
+T1	LOCATION 20 26	Восток
+T2	COUNTRY 60 63	ДНР
+T3	ORGANIZATION 65 81	Вооруженные силы
+T4	COUNTRY 82 89	Украины
+T5	COUNTRY 118 128	российских
+T6	GROUP 129 136	военных
+T7	COUNTRY 139 142	ДНР
+T8	NEWS_SOURCE 144 160	сообщил командир
+T9	PROFESSION 152 170	командир батальона
+T10	NEWS_SOURCE 171 172	«
+T11	ORGANIZATION 172 178	Восток
+T12	NEWS_SOURCE 180 201	Александр Ходаковский
+T13	PERSON 180 201	Александр Ходаковский
+T14	EVENT 210 218	телеграм
+T15	LAW 218 225	-канале
+T16	EVENT 219 225	канале
+T17	DATE 274 281	сегодня
+T18	PERSON 351 362	Ходаковский
+T19	NEWS_SOURCE 364 374	Он отметил
+T20	DATE 471 476	3 мая
+T21	PROFESSION 477 486	президент
+T22	COUNTRY 487 494	Украины
+T23	PERSON 495 513	Владимир Зеленский
+T24	NEWS_SOURCE 477 521	президент Украины Владимир Зеленский сообщил
+T25	DATE 577 583	же дня
+T26	PROFESSION 584 616	член главного совета Запорожской
+T27	ORGANIZATION 605 630	Запорожской администрации
+T28	PERSON 631 645	Владимир Рогов
+T29	NEWS_SOURCE 631 652	Владимир Рогов заявил
+T30	ORGANIZATION 658 661	ВСУ
+T31	FAC 676 681	южнее
+T32	PERSON 689 695	Орехов
+T33	EVENT 714 718	боем
+T34	ORGANIZATION 787 790	ВСУ
+T35	PROFESSION 792 806	основатель ЧВК
+T36	ORGANIZATION 808 814	Вагнер
+T37	PERSON 816 832	Евгений Пригожин
+T38	NEWS_SOURCE 807 840	«Вагнер» Евгений Пригожин отметил
+T39	PRODUCT 854 864	вооружения
+T40	GPE 867 872	Киева
+T41	GPE 890 896	Кремле
+T42	NEWS_SOURCE 890 905	Кремле говорили
+T43	COUNTRY 959 969	украинских
+T44	PROFESSION 970 977	военных
+T45	GROUP 970 977	военных
+T46	PROFESSION 979 984	Пресс
+T47	PROFESSION 985 1005	секретарь президента
+T48	PERSON 1006 1020	Дмитрий Песков
+T49	NEWS_SOURCE 985 1028	секретарь президента Дмитрий Песков отмечал
+T50	ORGANIZATION 1034 1044	Минобороны
+T51	CARDINAL 1157 1181	6452eb199a79476fc635f563
+T52	DATE 1195 1199	2023
+T53	PROFESSION 1200 1202	04
+T54	CARDINAL 1203 1205	45
+T55	CARDINAL 1206 1208	16

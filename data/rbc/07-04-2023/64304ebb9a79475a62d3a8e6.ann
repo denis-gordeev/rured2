@@ -1,0 +1,50 @@
+T2	ORGANIZATION 30 33	суд
+T3	ORGANIZATION 48 54	Reddit
+T5	ORGANIZATION 102 105	суд
+T8	COUNTRY 170 176	России
+T11	BOROUGH 206 216	Ленинского
+T13	DATE 246 254	6 апреля
+T19	CITY 347 360	Владимирского
+T21	ORGANIZATION 446 459	Роскомнадзора
+T22	REGION 463 483	Владимирской области
+T33	COUNTRY 730 736	России
+T35	ORGANIZATION 789 798	ведомство
+T36	ORGANIZATION 837 840	РБК
+T39	REGION 879 904	Западного военного округа
+T40	ORGANIZATION 909 924	компанию Reddit
+T41	ORGANIZATION 927 933	Reddit
+T49	ORDINAL 1418 1424	первые
+T50	GROUP 1433 1444	сообществах
+T51	ORGANIZATION 1503 1509	Reddit
+T52	ORGANIZATION 1515 1521	Reddit
+T1	ORGANIZATION 0 19	Военная прокуратура
+T4	CITY 56 68	Во Владимире
+T60	ORGANIZATION 69 88	военная прокуратура
+T9	ORGANIZATION 206 231	Ленинского районного суда
+R1	HEADQUARTERED_IN Arg1:T60 Arg2:T4	
+T6	COUNTRY 140 153	американскому
+T7	ORGANIZATION 154 167	форуму Reddit
+R2	HEADQUARTERED_IN Arg1:T7 Arg2:T6	
+R3	HEADQUARTERED_IN Arg1:T9 Arg2:T8	
+R4	HEADQUARTERED_IN Arg1:T5 Arg2:T4	
+T10	PROFESSION 269 274	судье
+T12	EVENT 233 245	Иск поступил
+R5	DATE_TAKES_PLACE_ON Arg1:T12 Arg2:T13	
+T14	ORGANIZATION 301 320	военная прокуратура
+R7	HEADQUARTERED_IN Arg1:T21 Arg2:T22	
+T16	NEWS_SOURCE 522 552	ресурса https://www.reddit.com
+T17	CARDINAL 589 593	27.1
+T18	LAW 594 636	Кодекса административного судопроизводства
+T20	PENALTY 661 736	признании информации в сети Интернет запрещенной к распространению в России
+R8	TAKES_PLACE_IN Arg1:T20 Arg2:T33	
+T23	ORGANIZATION 859 878	военную прокуратуру
+R9	HEADQUARTERED_IN Arg1:T23 Arg2:T39	
+T15	REGION 321 346	Западного военного округа
+T24	ORGANIZATION 347 370	Владимирского гарнизона
+R6	HEADQUARTERED_IN Arg1:T24 Arg2:T15	
+R10	HEADQUARTERED_IN Arg1:T14 Arg2:T15	
+T25	GROUP 1155 1194	Зарегистрированные пользователи ресурса
+T26	GROUP 1388 1401	пользователям
+T27	NEWS_SOURCE 1755 1784	говорится в правилах площадки
+T28	GROUP 1807 1820	пользователям
+R11	MEMBER Arg1:T28 Arg2:T52	

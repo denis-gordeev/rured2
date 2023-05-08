@@ -1,0 +1,87 @@
+T2	COUNTRY 49 59	украинских
+T3	ORGANIZATION 60 65	войск
+T4	REGION 85 104	Харьковской области
+T5	ORGANIZATION 131 135	ТАСС
+T7	PROFESSION 136 141	глава
+T12	PERSON 183 197	Виталий Ганчев
+T14	NEWS_SOURCE 522 537	заявил чиновник
+T15	PROFESSION 529 537	чиновник
+T16	COUNTRY 540 550	Российские
+T17	PROFESSION 551 558	военные
+T19	DATE 603 610	в марте
+T20	PERSON 611 617	Ганчев
+T22	ORGANIZATION 630 636	войска
+T23	QUANTITY 644 652	около 29
+T26	ORGANIZATION 681 684	ВГА
+T27	DATE 748 754	сейчас
+T28	CITY 770 779	Белгороде
+T30	CITY 816 824	Воронеже
+T31	CITY 826 836	Краснодаре
+T32	CITY 839 847	Луганске
+T33	DATE 850 867	В середине апреля
+T34	PROFESSION 868 873	глава
+T35	CITY 874 883	Купянской
+T39	PERSON 915 931	Андрей Конашевич
+T42	COUNTRY 1040 1050	российские
+T44	GROUP 1051 1057	власти
+T51	PERSON 1161 1175	Владимир Рогов
+T53	CARDINAL 1186 1211	нескольких десятках тысяч
+T54	DATE 1246 1251	5 мая
+T55	GROUP 1252 1266	местные власти
+T56	GROUP 1300 1307	жителей
+T57	QUANTITY 1308 1310	18
+T60	CITY 1339 1348	Энергодар
+T61	CITY 1351 1357	Токмак
+T1	CITY 2 13	Харьковской
+T64	ORGANIZATION 14 27	администрации
+R1	HEADQUARTERED_IN Arg1:T64 Arg2:T1	
+T65	NEWS_SOURCE 0 35	В Харьковской администрации заявили
+R2	HEADQUARTERED_IN Arg1:T3 Arg2:T2	
+T66	ORGANIZATION 67 70	ВСУ
+T67	ORGANIZATION 105 111	войска
+T68	WEAPON 114 121	технику
+R3	HEADQUARTERED_IN Arg1:T66 Arg2:T4	
+T6	ORGANIZATION 142 182	военно-гражданской администрации региона
+R4	WORKPLACE Arg1:T7 Arg2:T6	
+R5	WORKS_AS Arg1:T12 Arg2:T7	
+T8	NEWS_SOURCE 123 197	сообщил ТАСС глава военно-гражданской администрации региона Виталий Ганчев
+T9	GROUP 226 241	местных жителей
+R6	WORKPLACE Arg1:T9 Arg2:T4	
+T10	GROUP 276 300	наемники из других стран
+R7	WORKPLACE Arg1:T10 Arg2:T66	
+T11	FAC 314 327	в жилых домах
+R8	USES Arg1:T10 Arg2:T11	
+T69	NEWS_SOURCE 363 372	сказал он
+T70	EVENT 415 460	с принудительной эвакуацией мирного населения
+R9	TAKES_PLACE_IN Arg1:T70 Arg2:T4	
+R10	WORKPLACE Arg1:T17 Arg2:T16	
+T13	REGION 572 591	Харьковскую область
+T18	VILLAGE 653 679	населенных пунктов региона
+T21	NEWS_SOURCE 603 624	в марте Ганчев заявил
+R11	HEADQUARTERED_IN Arg1:T26 Arg2:T28	
+R12	HEADQUARTERED_IN Arg1:T26 Arg2:T30	
+R13	HEADQUARTERED_IN Arg1:T26 Arg2:T31	
+R14	HEADQUARTERED_IN Arg1:T26 Arg2:T32	
+T24	ORGANIZATION 884 914	районной военной администрации
+R15	HEADQUARTERED_IN Arg1:T24 Arg2:T35	
+R16	WORKS_AS Arg1:T39 Arg2:T34	
+T25	NEWS_SOURCE 850 940	В середине апреля глава Купянской районной военной администрации Андрей Конашевич допустил
+T29	VILLAGE 1003 1028	населенных пунктов района
+T36	EVENT 946 988	будет произведена принудительная эвакуация
+R17	TAKES_PLACE_IN Arg1:T36 Arg2:T29	
+R18	WORKPLACE Arg1:T44 Arg2:T42	
+T37	ORGANIZATION 1079 1084	войск
+T38	WEAPON 1087 1094	техники
+T40	REGION 1097 1116	Запорожской области
+T41	ORGANIZATION 1139 1160	администрации региона
+T43	PROFESSION 1118 1138	Член главного совета
+R19	WORKS_AS Arg1:T51 Arg2:T43	
+R20	WORKPLACE Arg1:T51 Arg2:T41	
+T45	PROFESSION 1212 1219	военных
+T46	LOCATION 1220 1244	на линии соприкосновения
+T47	NEWS_SOURCE 1118 1183	Член главного совета администрации региона Владимир Рогов говорил
+T48	EVENT 1267 1307	объявили о временном перемещении жителей
+R21	EVENT_TAKES_PART_IN Arg1:T60 Arg2:T48	
+R22	EVENT_TAKES_PART_IN Arg1:T61 Arg2:T48	
+R23	ORGANIZES Arg1:T55 Arg2:T48	
+T49	VILLAGE 1311 1329	населенных пунктов

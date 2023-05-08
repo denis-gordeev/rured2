@@ -1,0 +1,65 @@
+T0	LOCATION 14 20	северо
+T1	GPE 14 34	северо-западе Москвы
+T2	CITY 28 34	Москвы
+T3	ORGANIZATION 74 81	Полиция
+T5	FAC 156 166	жилом доме
+T8	CITY 184 190	Москвы
+T9	NEWS_SOURCE 220 256	сообщает пресс-служба ГУ МВД столицы
+T11	DATE 259 268	30 апреля
+T18	CARDINAL 364 370	одного
+T20	FAC 374 379	домов
+T27	STREET 431 450	на Живописной улице
+T30	NEWS_SOURCE 586 615	говорится в сообщении полиции
+T32	ORGANIZATION 618 629	Прокуратура
+T33	CITY 630 636	Москвы
+T37	FAC 653 673	квартире жилого дома
+T40	PROFESSION 847 858	Прокуратура
+T41	NEWS_SOURCE 847 867	Прокуратура сообщила
+T45	CRIME 930 939	убийство)
+T47	LOCATION 954 960	севере
+T48	CITY 961 967	Москвы
+T50	FAMILY 981 985	сына
+T52	NEWS_SOURCE 1030 1051	По данным прокуратуры
+T54	CARDINAL 1056 1069	несколько раз
+T55	FAMILY 1077 1081	сына
+T46	DATE 941 950	29 января
+T49	FAMILY 988 999	бывшую жену
+T51	FAMILY 1173 1187	бывшей супруге
+T53	ORGANIZATION 1040 1051	прокуратуры
+T56	CRIME 1056 1087	несколько раз ударил сына ножом
+T57	CRIME 1148 1187	причинил ножевые ранения бывшей супруге
+T58	EVENT 1189 1235	От полученных травм жертвы скончались на месте
+T59	CRIME 968 999	мужчина убил сына и бывшую жену
+R1	TAKES_PLACE_IN Arg1:T59 Arg2:T48	
+R2	DATE_TAKES_PLACE_ON Arg1:T59 Arg2:T46	
+R3	DATE_TAKES_PLACE_ON Arg1:T58 Arg2:T46	
+T4	CRIME 109 117	убийстве
+T60	PENALTY 82 117	задержала подозреваемого в убийстве
+T6	LOCATION 167 183	на северо-западе
+R4	OWNERSHIP Arg1:T8 Arg2:T6	
+R5	HEADQUARTERED_IN Arg1:T5 Arg2:T8	
+T7	ORGANIZATION 245 248	МВД
+T10	ORGANIZATION 229 244	пресс-служба ГУ
+R6	OWNERSHIP Arg1:T7 Arg2:T10	
+T12	TIME 271 283	20:15 вечера
+T13	ORGANIZATION 286 303	столичную полицию
+T14	EVENT 304 352	поступило сообщение об обнаружении трупа мужчины
+T15	FAC 353 363	в квартире
+R7	DATE_TAKES_PLACE_ON Arg1:T14 Arg2:T11	
+R8	TAKES_PLACE_IN Arg1:T14 Arg2:T13	
+T16	STREET 383 403	улице Маршала Жукова
+R9	HEADQUARTERED_IN Arg1:T20 Arg2:T16	
+R10	TAKES_PLACE_IN Arg1:T14 Arg2:T15	
+R11	TAKES_PLACE_IN Arg1:T14 Arg2:T16	
+T17	TIME 406 430	Менее чем через три часа
+T19	PROFESSION 451 482	оперативники уголовного розыска
+T21	CRIME 510 541	причинении телесных повреждений
+T22	EVENT 483 507	задержали подозреваемого
+R12	TAKES_PLACE_IN Arg1:T22 Arg2:T27	
+T23	ORGANIZATION 608 615	полиции
+T24	NEWS_SOURCE 618 645	Прокуратура Москвы сообщила
+T25	AGE 703 721	1982 года рождения
+T26	CRIME 674 776	было обнаружено тело мужчины 1982 года рождения с признаками насильственной смерти, завернутое в ковер
+R14	TAKES_PLACE_IN Arg1:T26 Arg2:T37	
+R13	HEADQUARTERED_IN Arg1:T32 Arg2:T33	
+T28	LAW 913 928	ч. 1 ст. 105 УК

@@ -1,0 +1,89 @@
+T0	PROFESSION 0 3	Мэр
+T1	CITY 4 12	Авдеевки
+T2	PROFESSION 45 50	Глава
+T3	ORGANIZATION 51 64	администрации
+T4	GPE 82 87	Киеву
+T10	PERSON 227 234	Барабаш
+T11	CITY 294 302	Авдеевки
+T16	NEWS_SOURCE 349 359	Он сообщил
+T17	DATE 366 381	через пару дней
+T19	FAC 457 467	генераторы
+T22	DATE 502 508	сейчас
+T23	CITY 552 560	Авдеевки
+T25	ORDINAL 611 617	первую
+T27	REGION 696 699	ДНР
+T28	CARDINAL 703 708	10 км
+T29	LOCATION 711 717	северу
+T30	CITY 721 728	Донецка
+T32	DATE 754 777	на начало прошлого года
+T35	DATE 798 806	24 марта
+T36	PROFESSION 807 817	врио главы
+T37	REGION 818 821	ДНР
+T38	PERSON 822 835	Денис Пушилин
+T40	COUNTRY 855 865	российских
+T41	ORGANIZATION 866 869	сил
+T43	DATE 953 959	сейчас
+T45	CITY 1051 1059	Авдеевки
+T46	DATE 1075 1092	За несколько дней
+T48	PERSON 1102 1109	Пушилин
+T49	NEWS_SOURCE 1102 1117	Пушилин говорил
+T50	ORGANIZATION 1125 1128	ВСУ
+T51	CITY 1131 1139	Авдеевке
+T56	FAC 1185 1208	асфальтированные дороги
+T58	DATE 1268 1276	25 марта
+T62	CITY 1351 1359	Авдеевки
+T63	COUNTRY 1360 1371	российскими
+T67	CITY 1444 1452	Соледара
+T69	CITY 1455 1465	Артемовска
+T70	LOCATION 1482 1502	транспортных артерий
+T72	DATE 1584 1592	17 марта
+T73	PERSON 1593 1598	Гагин
+T74	DATE 1647 1665	в ближайшие недели
+R1	WORKPLACE Arg1:T0 Arg2:T1	
+T82	GROUP 21 28	жителей
+R2	WORKPLACE Arg1:T2 Arg2:T3	
+T5	CITY 95 103	Авдеевка
+T83	PERSON 104 119	Виталий Барабаш
+R3	PLACE_RESIDES_IN Arg1:T83 Arg2:T5	
+R4	OWNERSHIP Arg1:T4 Arg2:T5	
+T6	NEWS_SOURCE 171 244	В видеообращении, опубликованном в его телеграм-канале, Барабаш рассказал
+T7	GROUP 303 322	коммунальные службы
+T8	GROUP 325 347	службы мобильной связи
+R5	WORKPLACE Arg1:T7 Arg2:T11	
+R6	WORKPLACE Arg1:T8 Arg2:T11	
+R7	WORKPLACE Arg1:T10 Arg2:T11	
+T9	FAC 470 491	вышки мобильной связи
+R8	HEADQUARTERED_IN Arg1:T19 Arg2:T11	
+R9	HEADQUARTERED_IN Arg1:T9 Arg2:T11	
+T12	PERSON 573 580	Барабаш
+T13	NEWS_SOURCE 565 580	написал Барабаш
+T14	GROUP 642 656	людям с детьми
+T15	NEWS_SOURCE 582 603	На видео он добавляет
+R10	ORIGINS_FROM Arg1:T14 Arg2:T23	
+T18	CITY 659 667	Авдеевка
+T20	BOROUGH 678 695	Покровском районе
+T21	QUANTITY 779 794	31 тыс. человек
+T24	GROUP 730 742	с населением
+R11	ORIGINS_FROM Arg1:T24 Arg2:T18	
+T26	NEWS_SOURCE 798 843	24 марта врио главы ДНР Денис Пушилин сообщал
+R12	OWNERSHIP Arg1:T40 Arg2:T41	
+T31	LOCATION 870 895	на авдеевском направлении
+T33	CITY 873 883	авдеевском
+T34	LOCATION 898 920	Авдеевское направление
+T39	CITY 898 908	Авдеевское
+T42	GROUP 994 1012	ряда подразделений
+T44	NEWS_SOURCE 1064 1073	сказал он
+T47	CARDINAL 1148 1152	пяти
+T52	PERSON 1286 1294	Пушилина
+T53	PERSON 1295 1303	Ян Гагин
+T54	PROFESSION 1277 1294	советник Пушилина
+R13	SUBORDINATE_OF Arg1:T53 Arg2:T52	
+T55	NEWS_SOURCE 1268 1310	25 марта советник Пушилина Ян Гагин заявил
+T57	ORGANIZATION 1372 1378	силами
+R14	HEADQUARTERED_IN Arg1:T57 Arg2:T63	
+T59	LOCATION 1328 1350	оперативному окружению
+T60	GROUP 1548 1559	группировку
+T61	NEWS_SOURCE 1573 1582	сказал он
+T64	NEWS_SOURCE 1584 1607	17 марта Гагин допускал
+T65	EVENT 1613 1646	город может быть взят в окружение
+R15	DATE_TAKES_PLACE_ON Arg1:T65 Arg2:T74	

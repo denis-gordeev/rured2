@@ -1,0 +1,54 @@
+T0	FAC 0 8	Турецкий
+T2	ORDINAL 21 27	пятого
+T4	ORDINAL 47 53	первый
+T5	COUNTRY 63 69	Турции
+T6	ORDINAL 92 98	первый
+T8	ORDINAL 117 123	пятого
+T10	PROFESSION 158 167	президент
+T11	COUNTRY 168 174	Турции
+T13	PERSON 175 195	Реджеп Тайип Эрдоган
+T15	ORGANIZATION 198 205	Twitter
+T16	ORDINAL 212 218	первый
+T18	ORDINAL 323 329	первый
+T19	NEWS_SOURCE 340 355	написал Эрдоган
+T20	PERSON 348 355	Эрдоган
+T22	COUNTRY 360 366	Турции
+T23	NEWS_SOURCE 358 375	В Турции сообщили
+T24	ORDINAL 402 408	пятого
+T26	DATE 419 438	в октябре 2022 года
+T28	PROFESSION 440 445	Глава
+T29	ORGANIZATION 446 481	Управления оборонной промышленности
+T32	COUNTRY 482 488	Турции
+T35	WEAPON 517 524	самолет
+T37	COUNTRY 575 587	американский
+T40	DATE 608 617	2018 году
+T41	COUNTRY 618 621	США
+T42	COUNTRY 640 646	Турции
+T45	GPE 668 674	Анкара
+T46	COUNTRY 686 692	России
+T50	CARDINAL 723 726	400
+T51	PROFESSION 740 749	президент
+T52	COUNTRY 750 756	России
+T53	PERSON 757 771	Владимир Путин
+T54	COUNTRY 799 805	Турцию
+T55	COUNTRY 820 830	российских
+T56	WEAPON 831 841	комплексов
+R1	WORKPLACE Arg1:T13 Arg2:T11	
+R2	WORKS_AS Arg1:T13 Arg2:T10	
+T3	NEWS_SOURCE 150 205	сообщил президент Турции Реджеп Тайип Эрдоган в Twitter
+T9	WEAPON 261 300	сверхзвуковой реактивный самолет Hürjet
+T1	WEAPON 9 37	истребитель пятого поколения
+T7	WEAPON 105 140	истребитель пятого поколения Hürjet
+T12	WEAPON 389 418	истребителем пятого поколения
+R3	WORKPLACE Arg1:T53 Arg2:T52	
+R4	WORKS_AS Arg1:T53 Arg2:T51	
+R5	HEADQUARTERED_IN Arg1:T29 Arg2:T32	
+T14	PERSON 489 501	Исмаил Демир
+R6	WORKPLACE Arg1:T14 Arg2:T32	
+R7	WORKPLACE Arg1:T14 Arg2:T29	
+R8	WORKS_AS Arg1:T14 Arg2:T28	
+T17	NEWS_SOURCE 440 511	Глава Управления оборонной промышленности Турции Исмаил Демир утверждал
+T21	WEAPON 588 604	истребитель F-35
+T25	WEAPON 647 651	F-35
+T27	WEAPON 693 726	зенитные ракетные комплексы С-400
+T30	NEWS_SOURCE 843 852	Он заявил

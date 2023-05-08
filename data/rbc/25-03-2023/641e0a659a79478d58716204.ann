@@ -1,0 +1,80 @@
+T1	ORGANIZATION 27 29	ЕС
+T2	PERSON 30 40	Зеленскому
+T3	COUNTRY 57 63	Россию
+T4	GROUP 65 71	Страны
+T5	ORGANIZATION 72 74	ЕС
+T6	PROFESSION 85 95	президенту
+T7	COUNTRY 96 103	Украины
+T8	PERSON 104 124	Владимиру Зеленскому
+T9	COUNTRY 147 154	Россией
+T10	PROFESSION 163 172	президент
+T11	COUNTRY 173 180	Франции
+T12	NEWS_SOURCE 156 197	заявил президент Франции Эмманюэль Макрон
+T13	PERSON 181 197	Эмманюэль Макрон
+T15	ORGANIZATION 227 245	The Eastern Herald
+T16	PERSON 257 267	Зеленского
+T18	COUNTRY 357 367	российской
+T19	COUNTRY 400 407	Украине
+T23	NEWS_SOURCE 513 526	сказал Макрон
+T24	COUNTRY 529 539	Украинский
+T25	DATE 546 555	в четверг
+T29	GPE 602 606	Киев
+T30	DATE 630 641	в этом году
+T31	DATE 715 723	23 марта
+T32	ORGANIZATION 724 726	ЕС
+T34	COUNTRY 752 759	Украину
+T35	CARDINAL 760 765	1 млн
+T36	WEAPON 766 792	артиллерийских боеприпасов
+T37	DATE 793 823	в течение следующих 12 месяцев
+T38	GROUP 825 831	Страны
+T39	GPE 854 859	Киеву
+T40	WEAPON 860 866	ракеты
+T41	DATE 886 900	В начале марта
+T42	ORGANIZATION 901 920	The Financial Times
+T43	PROFESSION 942 958	министра обороны
+T44	PERSON 959 976	Алексея Резникова
+T45	GPE 989 993	Киев
+T46	GPE 1005 1013	Брюсселя
+T47	CARDINAL 1014 1021	250 тыс
+T49	DATE 1032 1039	в месяц
+T50	COUNTRY 1052 1062	украинские
+T51	PROFESSION 1063 1070	военные
+T52	CARDINAL 1081 1088	110 тыс
+T58	COUNTRY 1148 1154	России
+T59	PERSON 1155 1169	Дмитрий Песков
+T60	NEWS_SOURCE 1155 1177	Дмитрий Песков заявлял
+T61	GPE 1196 1202	Запада
+T62	GPE 1214 1218	Киев
+T65	NEWS_SOURCE 1411 1421	говорил он
+T66	PERSON 1423 1428	Путин
+T67	DATE 1445 1456	сегодняшний
+T68	COUNTRY 1466 1473	Украине
+T77	PERSON 0 6	Макрон
+T78	NEWS_SOURCE 0 14	Макрон сообщил
+R1	MEMBER Arg1:T4 Arg2:T5	
+R2	WORKPLACE Arg1:T6 Arg2:T7	
+R3	WORKPLACE Arg1:T8 Arg2:T7	
+R4	WORKS_AS Arg1:T8 Arg2:T6	
+T14	NEWS_SOURCE 156 245	заявил президент Франции Эмманюэль Макрон, его словам приводит издание The Eastern Herald
+T17	NEWS_SOURCE 248 281	Выслушав Зеленского по видеосвязи
+T20	PERSON 520 526	Макрон
+T21	PROFESSION 540 545	лидер
+R5	WORKPLACE Arg1:T21 Arg2:T24	
+T22	ORGANIZATION 563 582	Европейскому совету
+T26	GPE 563 575	Европейскому
+T27	NEWS_SOURCE 529 596	Украинский лидер в четверг заявил Европейскому совету по видеосвязи
+T28	NEWS_SOURCE 715 734	23 марта ЕС сообщил
+R6	WORKS_AS Arg1:T44 Arg2:T43	
+T33	WEAPON 1023 1031	снарядов
+T48	NEWS_SOURCE 886 983	В начале марта The Financial Times со ссылкой на письмо министра обороны Алексея Резникова писала
+T69	DATE 1041 1051	Ежемесячно
+R7	WORKPLACE Arg1:T51 Arg2:T50	
+T53	WEAPON 1090 1119	155-миллиметровых боеприпасов
+T54	PROFESSION 1121 1136	Пресс-секретарь
+T55	PROFESSION 1137 1147	президента
+R8	WORKS_AS Arg1:T59 Arg2:T54	
+R9	SUBORDINATE_OF Arg1:T55 Arg2:T54	
+R10	WORKPLACE Arg1:T59 Arg2:T58	
+T56	EVENT 1322 1342	конфликт деградирует
+R11	EVENT_TAKES_PART_IN Arg1:T50 Arg2:T56	
+R12	EVENT_TAKES_PART_IN Arg1:T58 Arg2:T56	

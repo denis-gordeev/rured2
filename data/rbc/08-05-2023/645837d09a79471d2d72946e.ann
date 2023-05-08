@@ -1,0 +1,50 @@
+T0	COUNTRY 0 6	Египет
+T1	GROUP 20 30	основателя
+T2	FAC 31 37	канала
+T3	PERSON 39 49	Невиданный
+T4	PERSON 58 70	Смольянинова
+T5	COUNTRY 72 82	Российский
+T6	PROFESSION 83 100	спортивный блогер
+T7	PERSON 101 120	Алексей Смольянинов
+T8	COUNTRY 137 143	Египта
+T9	ORGANIZATION 159 166	Новости
+T10	ORGANIZATION 168 178	посольство
+T11	NEWS_SOURCE 145 178	сообщило «РАИ Новости» посольство
+T12	COUNTRY 179 185	России
+T13	CITY 188 193	Каире
+T14	EVENT 195 205	«Дипломаты
+T15	ORGANIZATION 206 216	посольства
+T16	NORP 237 247	россиянину
+T17	CRIME 248 251	его
+T18	GROUP 259 264	вещей
+T19	GROUP 289 302	родственников
+T20	NEWS_SOURCE 307 338	говорится в сообщении дипмиссии
+T21	PERSON 341 360	Алексей Смольянинов
+T22	PROFESSION 363 373	основатель
+T23	EVENT 374 381	Youtube
+T24	FAC 382 388	канала
+T25	PERSON 390 400	Невиданный
+T26	FAC 401 407	футбол
+T27	CARDINAL 410 423	свыше 100 тыс
+T28	GROUP 425 436	подписчиков
+T29	PROFESSION 443 449	блогер
+T30	CRIME 542 564	документальных фильмов
+T31	REGION 588 592	Крым
+T32	ORGANIZATION 626 630	Лига
+T33	GROUP 631 640	мигрантов
+T34	CITY 644 650	Косово
+T35	EVENT 665 670	войны
+T36	REGION 686 694	Стамбула
+T37	COUNTRY 724 730	Египет
+T38	DATE 731 737	29 мая
+T39	TRADE_AGREEMENT 749 764	документального
+T40	EVENT 749 771	документального фильма
+T41	GROUP 774 791	футбольных клубах
+T42	DATE 819 824	3 мая
+T43	NEWS_SOURCE 871 872	В
+T44	ORGANIZATION 873 889	посольстве тогда
+T45	NEWS_SOURCE 884 889	тогда
+T46	GROUP 904 913	дипломаты
+T47	NORP 937 948	россиянином
+T48	PERCENT 1100 1102	49
+T49	CARDINAL 1100 1102	49

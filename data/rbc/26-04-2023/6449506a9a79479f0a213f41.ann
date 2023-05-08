@@ -1,0 +1,50 @@
+T0	PERSON 0 7	Борисов
+T1	COUNTRY 65 75	Российская
+T2	PROFESSION 191 211	генеральный директор
+T3	ORGANIZATION 213 223	Роскосмоса
+T4	PERSON 225 237	Юрий Борисов
+T9	ORDINAL 276 282	Первые
+T11	NEWS_SOURCE 285 298	передает ТАСС
+T12	ORGANIZATION 294 298	ТАСС
+T13	NEWS_SOURCE 388 402	заявил Борисов
+T14	PERSON 395 402	Борисов
+T15	NEWS_SOURCE 405 423	По словам Борисова
+T16	PERSON 415 423	Борисова
+T20	ORGANIZATION 506 515	Роскосмос
+T21	CARDINAL 535 545	около пяти
+T23	CARDINAL 600 604	Один
+T25	DATE 661 680	Летом прошлого года
+T28	PERSON 733 740	Борисов
+T29	NEWS_SOURCE 733 750	Борисов рассказал
+T30	COUNTRY 765 771	России
+T32	COUNTRY 813 816	США
+T33	COUNTRY 818 823	Китай
+T34	GPE 826 832	Европа
+T35	COUNTRY 842 852	российскую
+T40	PROFESSION 1019 1024	глава
+T41	ORGANIZATION 1026 1036	Роскосмоса
+T48	ECONOMIC_SECTOR 44 63	космической отрасли
+T49	ECONOMIC_SECTOR 76 103	ракетно-космическая отрасль
+T50	DATE 114 120	сейчас
+R1	WORKPLACE Arg1:T2 Arg2:T3	
+R2	WORKS_AS Arg1:T4 Arg2:T2	
+T5	EVENT 241 283	просветительском марафоне «Знание. Первые»
+R3	EVENT_TAKES_PART_IN Arg1:T4 Arg2:T5	
+T6	ECONOMIC_SECTOR 425 444	космическая отрасль
+T7	GROUP 469 489	талантливой молодежи
+T10	GROUP 584 598	молодых кадров
+T8	INVESTMENT_PROGRAM 535 598	около пяти инновационных проектов с привлечением молодых кадров
+T17	GROUP 631 659	многоспутниковой группировки
+T18	PROFESSION 712 731	главы госкорпорации
+T19	ECONOMIC_SECTOR 774 796	производстве спутников
+T22	NEWS_SOURCE 798 811	По его словам
+T24	ECONOMIC_SECTOR 853 874	космическую индустрию
+T26	ECONOMIC_SECTOR 880 902	производства спутников
+T27	PENALTY 991 1009	в условиях санкций
+R4	WORKPLACE Arg1:T40 Arg2:T41	
+T31	NEWS_SOURCE 1011 1037	добавил глава «Роскосмоса»
+R5	WORKPLACE Arg1:T16 Arg2:T20	
+T36	EVENT 833 874	обогнали российскую космическую индустрию
+R6	EVENT_TAKES_PART_IN Arg1:T32 Arg2:T36	
+R7	EVENT_TAKES_PART_IN Arg1:T33 Arg2:T36	
+R8	EVENT_TAKES_PART_IN Arg1:T34 Arg2:T36	

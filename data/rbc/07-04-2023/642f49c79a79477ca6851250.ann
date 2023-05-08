@@ -1,0 +1,98 @@
+T0	COUNTRY 0 9	Китайский
+T1	PROFESSION 10 15	посол
+T3	GPE 46 52	Пекину
+T4	COUNTRY 65 72	Украине
+T5	GPE 82 88	Запада
+T6	COUNTRY 106 111	Китаю
+T7	COUNTRY 136 143	Украине
+T8	PROFESSION 152 157	посол
+T9	COUNTRY 158 161	КНР
+T11	COUNTRY 164 170	России
+T14	ORGANIZATION 204 212	Известия
+T16	GPE 216 221	Запад
+T17	COUNTRY 272 277	Китаю
+T18	NEWS_SOURCE 352 367	заявил дипломат
+T19	PROFESSION 359 367	дипломат
+T20	NEWS_SOURCE 369 382	Он подчеркнул
+T21	COUNTRY 392 401	китайская
+T23	COUNTRY 418 428	украинский
+T24	COUNTRY 438 443	Китай
+T25	WEAPON 484 490	оружие
+T26	PERSON 517 530	Чжан Ханьхуэй
+T28	COUNTRY 554 564	российской
+T29	COUNTRY 585 592	Украине
+T30	GPE 595 601	Пекине
+T32	COUNTRY 658 663	Китая
+T33	COUNTRY 692 702	украинском
+T34	COUNTRY 729 738	китайская
+T36	NEWS_SOURCE 824 836	сказал посол
+T37	PROFESSION 831 836	посол
+T38	COUNTRY 839 844	Китай
+T39	DATE 845 856	в годовщину
+T40	COUNTRY 912 919	Украине
+T43	GPE 959 964	Пекин
+T46	PROFESSION 1079 1088	Президент
+T47	COUNTRY 1089 1096	Украины
+T48	PERSON 1097 1115	Владимир Зеленский
+T49	COUNTRY 1126 1135	китайской
+T51	COUNTRY 1226 1238	американский
+T52	PERSON 1247 1257	Джо Байден
+T53	COUNTRY 1276 1281	Китая
+T54	COUNTRY 1297 1303	России
+T56	GPE 1307 1317	Вашингтоне
+T58	GPE 1353 1359	Пекина
+T59	GPE 1404 1409	Киеву
+T60	GROUP 1419 1425	Власти
+T61	COUNTRY 1426 1431	Китая
+T64	COUNTRY 1534 1541	Украине
+T65	GPE 1546 1550	Киев
+T66	GPE 1560 1566	Запада
+T67	GPE 1580 1585	Пекин
+T68	GPE 1605 1611	Москву
+T69	DATE 1625 1634	в феврале
+T70	PROFESSION 1635 1647	госсекретарь
+T71	COUNTRY 1648 1651	США
+T73	PERSON 1652 1666	Энтони Блинкен
+T75	GPE 1668 1677	Вашингтон
+T76	COUNTRY 1709 1714	Китай
+T77	COUNTRY 1774 1780	России
+T78	COUNTRY 1803 1810	Украине
+T79	CITY 1814 1820	Пекине
+R1	WORKPLACE Arg1:T1 Arg2:T0	
+T2	GPE 24 30	Западу
+T85	GROUP 76 81	стран
+R2	MEMBER Arg1:T85 Arg2:T5	
+R3	WORKPLACE Arg1:T8 Arg2:T9	
+T10	PERSON 171 184	Чжан Ханьхуэй
+R4	WORKS_AS Arg1:T10 Arg2:T8	
+T12	NEWS_SOURCE 145 213	заявил посол КНР в России Чжан Ханьхуэй в интервью газете «Известия»
+T13	NEWS_SOURCE 517 539	Чжан Ханьхуэй напомнил
+T15	EVENT 565 581	военной операции
+R5	TAKES_PLACE_IN Arg1:T15 Arg2:T29	
+T22	EVENT 623 653	дипломатическое урегулирование
+R6	ORGANIZES Arg1:T30 Arg2:T22	
+T27	EVENT 776 819	призыв к миру и способствование переговорам
+R7	ORGANIZES Arg1:T34 Arg2:T27	
+T31	EVENT 857 880	начала военных действий
+R8	DATE_TAKES_PLACE_ON Arg1:T31 Arg2:T39	
+T35	CARDINAL 934 936	12
+T41	EVENT 897 908	мирный план
+R9	ORGANIZES Arg1:T38 Arg2:T41	
+T42	EVENT 1048 1077	возобновить мирные переговоры
+R10	ORGANIZES Arg1:T43 Arg2:T42	
+R11	WORKS_AS Arg1:T48 Arg2:T46	
+R12	WORKPLACE Arg1:T48 Arg2:T47	
+T44	NEWS_SOURCE 1079 1167	Президент Украины Владимир Зеленский отнесся к китайской инициативе скептически и заявил
+R13	WORKPLACE Arg1:T52 Arg2:T51	
+T45	NEWS_SOURCE 1305 1325	В Вашингтоне заявили
+T50	WEAPON 1410 1417	оружием
+R14	WORKPLACE Arg1:T60 Arg2:T61	
+T55	EVENT 1513 1530	военным действиям
+R15	TAKES_PLACE_IN Arg1:T55 Arg2:T64	
+T57	EVENT 1463 1497	придерживаются нейтральной позиции
+R16	ORGANIZES Arg1:T61 Arg2:T57	
+T62	GROUP 1553 1559	страны
+R17	MEMBER Arg1:T62 Arg2:T66	
+R18	WORKS_AS Arg1:T73 Arg2:T70	
+R19	WORKPLACE Arg1:T73 Arg2:T71	
+T63	NEWS_SOURCE 1617 1666	говорил в феврале госсекретарь США Энтони Блинкен

@@ -1,0 +1,30 @@
+T0	PROFESSION 0 18	Курский губернатор
+T1	NEWS_SOURCE 0 26	Курский губернатор сообщил
+T2	NEWS_SOURCE 39 43	села
+T3	ORGANIZATION 44 53	Гордеевка
+T4	PERSON 44 53	Гордеевка
+T5	PERSON 60 69	Гордеевка
+T6	NEWS_SOURCE 55 82	Село Гордеевка Кореневского
+T7	ORGANIZATION 70 89	Кореневского района
+T8	REGION 90 105	Курской области
+T9	NEWS_SOURCE 126 133	сообщил
+T10	NEWS_SOURCE 136 144	телеграм
+T11	LAW 144 145	-
+T12	EVENT 144 151	-канале
+T13	PROFESSION 152 162	губернатор
+T14	NEWS_SOURCE 152 178	губернатор Роман Старовойт
+T15	PERSON 163 178	Роман Старовойт
+T16	DATE 268 275	сегодня
+T17	ORGANIZATION 300 319	Плёхово Суджанского
+T18	FAC 320 326	района
+T19	NEWS_SOURCE 328 348	По словам Старовойта
+T20	DATE 416 424	С начала
+T21	EVENT 425 441	военной операции
+T22	REGION 451 471	Белгородская области
+T23	GPE 481 491	граничащие
+T24	COUNTRY 494 513	Украиной российские
+T25	CARDINAL 697 721	641dd7249a794781f6bb7565
+T26	ORGANIZATION 728 734	24 Mar
+T27	CARDINAL 740 742	20
+T28	CARDINAL 743 745	11
+T29	CARDINAL 749 750	+

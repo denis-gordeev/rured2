@@ -1,0 +1,70 @@
+T0	PERSON 5 21	Николая Дроздова
+T1	PROFESSION 61 73	телеведущего
+T2	PERSON 74 90	Николая Дроздова
+T6	PROFESSION 135 143	художник
+T10	FAC 229 238	санаторий
+T12	NEWS_SOURCE 296 305	сказал он
+T17	PERSON 344 353	Мирошника
+T20	PERSON 367 374	Дроздов
+T21	FAC 490 499	санаторий
+T22	NEWS_SOURCE 546 575	говорил собеседник телеканала
+T23	PERSON 577 584	Дроздов
+T25	PERSON 596 605	Мирошника
+T26	PERSON 648 655	Дроздов
+T27	NEWS_SOURCE 648 668	Дроздов сообщил ТАСС
+T28	ORGANIZATION 664 668	ТАСС
+T30	FAC 731 750	загородную больницу
+T31	ORDINAL 787 793	второй
+T34	DATE 947 964	недели на две-три
+T35	NEWS_SOURCE 969 979	говорил он
+T36	PERSON 981 989	Дроздова
+T37	DATE 1008 1019	29 января с
+T38	FAC 1107 1115	подъезда
+T39	ORGANIZATION 1150 1153	МГУ
+T40	DATE 1186 1200	несколько дней
+T41	PERSON 1214 1222	Мирошник
+T43	PERSON 1240 1248	Дроздову
+T44	DISEASE 1273 1287	больно кашлять
+T47	DATE 1364 1376	спустя сутки
+T49	VEHICLE 1396 1401	такси
+T50	FAC 1413 1421	больницу
+T51	PERSON 1463 1471	Дроздова
+T52	CARDINAL 1480 1486	восьми
+T56	PERSON 1559 1567	Дроздова
+T64	PROFESSION 51 58	Ученого
+R1	WORKS_AS Arg1:T2 Arg2:T1	
+R2	WORKS_AS Arg1:T2 Arg2:T64	
+T3	PERSON 144 163	Константин Мирошник
+R3	WORKS_AS Arg1:T3 Arg2:T6	
+T4	ORGANIZATION 121 124	РБК
+T5	NEWS_SOURCE 113 163	сообщил РБК его друг, художник Константин Мирошник
+T7	PERSON 168 189	Николаем Николаевичем
+T8	DATE 261 267	к лету
+T9	NEWS_SOURCE 313 329	телеканал РЕН ТВ
+T11	FAC 385 409	в медицинском учреждении
+R4	USES Arg1:T20 Arg2:T11	
+T13	NEWS_SOURCE 307 361	Ранее телеканал РЕН ТВ со ссылкой на Мирошника сообщил
+T14	FAC 436 444	больница
+T15	NEWS_SOURCE 586 605	по словам Мирошника
+T16	FAC 684 688	дома
+T18	DATE 701 720	на следующей неделе
+T19	DISEASE 844 853	переломов
+T24	FAC 865 880	тренажерный зал
+T29	DISEASE 1018 1051	с множественными переломами ребер
+R5	WORKPLACE Arg1:T36 Arg2:T39	
+T32	PROFESSION 1174 1185	телеведущий
+R6	WORKS_AS Arg1:T36 Arg2:T32	
+T33	NEWS_SOURCE 1214 1234	Мирошник рассказывал
+T42	PROFESSION 1303 1310	ученому
+R7	WORKS_AS Arg1:T43 Arg2:T42	
+T45	PROFESSION 1444 1449	врачи
+T46	DISEASE 1472 1492	перелом восьми ребер
+T48	FAC 1494 1504	В больнице
+T53	EVENT 1509 1549	подключали к аппарату вентиляции легких.
+R8	TAKES_PLACE_IN Arg1:T53 Arg2:T48	
+R9	EVENT_TAKES_PART_IN Arg1:T51 Arg2:T53	
+T54	DATE 1549 1558	7 февраля
+T55	ORGANIZATION 1580 1593	медучреждения
+T65	EVENT 1568 1593	выписали из медучреждения
+R10	EVENT_TAKES_PART_IN Arg1:T56 Arg2:T65	
+R11	DATE_TAKES_PLACE_ON Arg1:T65 Arg2:T54	

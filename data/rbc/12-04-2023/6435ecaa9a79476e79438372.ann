@@ -1,0 +1,66 @@
+T0	PERSON 0 7	Блинкен
+T1	COUNTRY 67 70	США
+T2	ORGANIZATION 105 120	Госдепартамента
+T3	COUNTRY 121 124	США
+T4	PERSON 132 144	Мэтью Миллер
+T5	COUNTRY 176 184	Украиной
+T6	ORGANIZATION 195 227	Совете национальной безопасности
+T7	ORGANIZATION 229 232	СНБ
+T8	ORGANIZATION 234 245	Белого дома
+T9	PROFESSION 263 288	государственный секретарь
+T10	COUNTRY 289 292	США
+T11	NEWS_SOURCE 255 307	сообщил государственный секретарь США Энтони Блинкен
+T12	PERSON 293 307	Энтони Блинкен
+T13	NEWS_SOURCE 309 354	его заявление опубликовано на сайте ведомства
+T14	ORGANIZATION 345 354	ведомства
+T15	DATE 357 364	Сегодня
+T16	NEWS_SOURCE 376 389	Мэтью Миллера
+T17	PERSON 376 389	Мэтью Миллера
+T18	GROUP 400 414	представителем
+T19	PERSON 446 453	Блинкен
+T20	NEWS_SOURCE 446 461	Блинкен отметил
+T21	PERSON 508 515	Миллера
+T22	ORGANIZATION 518 531	правительстве
+T23	COUNTRY 532 535	США
+T24	FAC 564 571	внешней
+T25	DATE 590 605	В первые месяцы
+T26	COUNTRY 619 629	российской
+T27	COUNTRY 646 653	Украине
+T28	PERSON 654 660	Миллер
+T29	ORGANIZATION 685 729	Совета национальной безопасности Белого дома
+T30	GROUP 748 766	правительственными
+T31	ECONOMIC_SECTOR 767 781	коммуникациями
+T32	ECONOMIC_SECTOR 784 797	информационно
+T33	COUNTRY 825 832	Украине
+T34	PERSON 886 892	Миллер
+T35	PROFESSION 901 911	директором
+T36	ORGANIZATION 912 922	Управления
+T37	PROFESSION 923 925	по
+T38	ORGANIZATION 926 932	связям
+T39	PROFESSION 935 973	общественностью в Министерстве юстиции
+T40	COUNTRY 974 977	США
+T41	PROFESSION 980 1024	представителем генерального прокурора страны
+T42	PERSON 1025 1030	Эрика
+T43	PROFESSION 1031 1038	Холдера
+T44	PROFESSION 1051 1080	представитель Госдепартамента
+T45	PERSON 1081 1084	Нед
+T46	NEWS_SOURCE 1085 1090	Прайс
+T47	DATE 1121 1135	прошлом месяце
+T48	DATE 1137 1145	17 марта
+T49	PROFESSION 1168 1200	Временно исполняющим обязанности
+T50	PROFESSION 1214 1237	представителя ведомства
+T51	PROFESSION 1247 1265	заместитель Ведант
+T52	PERSON 1266 1272	Патель
+T53	PROFESSION 1311 1326	Госдепартаменте
+T54	PROFESSION 1402 1421	внешнеполитического
+T55	ORGANIZATION 1422 1431	ведомства
+T56	PERSON 1433 1438	Прайс
+T57	ORGANIZATION 1450 1455	пресс
+T58	ORGANIZATION 1456 1470	службу Госдепа
+T59	DATE 1471 1489	с января 2021 года
+T60	CARDINAL 1523 1547	6435ecaa9a79476e79438372
+T61	CARDINAL 1554 1556	12
+T62	CURRENCY 1561 1565	2023
+T63	CARDINAL 1569 1571	47
+T64	PERCENT 1572 1574	47
+T65	CARDINAL 1572 1576	47 +

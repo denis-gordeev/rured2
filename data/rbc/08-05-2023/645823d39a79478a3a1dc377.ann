@@ -1,0 +1,130 @@
+T0	CITY 2 7	Киеве
+T1	REGION 10 26	Киевской области
+T2	CITY 48 53	Киеве
+T3	REGION 56 72	Киевской области
+T12	CITY 181 187	Киевом
+T13	WEAPON 197 200	ПВО
+T17	CITY 298 303	Киева
+T20	PROFESSION 377 380	Мэр
+T21	PERSON 381 395	Виталий Кличко
+T24	CARDINAL 415 427	многоэтажном
+T25	COUNTRY 489 496	Украины
+T28	REGION 565 573	Одесской
+T29	REGION 576 597	Черниговской областях
+T34	PERSON 645 659	Владимир Рогов
+T37	EVENT 696 702	взрывы
+T38	CITY 705 710	Киеве
+T40	COUNTRY 729 736	Украины
+T41	CARDINAL 748 753	одним
+T47	COUNTRY 860 867	Украине
+T48	DATE 888 920	с середины октября прошлого года
+T49	COUNTRY 924 934	российском
+T50	ORGANIZATION 935 945	Минобороны
+T53	COUNTRY 1072 1079	Украины
+T54	PROFESSION 1081 1090	Президент
+T55	COUNTRY 1091 1097	России
+T56	PERSON 1098 1112	Владимир Путин
+T58	GPE 1145 1150	Киева
+T59	REGION 1176 1184	Крымском
+T66	GROUP 1238 1244	Власти
+T67	COUNTRY 1245 1252	Украины
+T69	COUNTRY 1307 1317	украинских
+T70	WEAPON 1318 1330	беспилотника
+T71	COUNTRY 1363 1374	российского
+T72	PROFESSION 1375 1385	президента
+T73	PERSON 1386 1402	Владимира Путина
+T75	GPE 1405 1411	Кремле
+T78	GPE 1463 1469	Кремля
+T79	COUNTRY 1552 1562	российская
+T80	PROFESSION 1662 1671	Президент
+T81	COUNTRY 1672 1679	Украины
+T82	PERSON 1680 1698	Владимир Зеленский
+T84	GPE 1712 1717	Киева
+T88	EVENT 27 44	прогремели взрывы
+R1	TAKES_PLACE_IN Arg1:T88 Arg2:T1	
+R2	TAKES_PLACE_IN Arg1:T88 Arg2:T0	
+T4	EVENT 73 101	прогремело несколько взрывов
+R3	TAKES_PLACE_IN Arg1:T4 Arg2:T3	
+R4	TAKES_PLACE_IN Arg1:T4 Arg2:T2	
+T5	ORGANIZATION 126 137	«Страна.ua»
+T6	ORGANIZATION 112 123	«Суспильне»
+T7	NEWS_SOURCE 103 137	сообщают «Суспильне» и «Страна.ua»
+T8	ORGANIZATION 149 175	региональной администрации
+T9	NEWS_SOURCE 139 175	По данным региональной администрации
+R5	HEADQUARTERED_IN Arg1:T8 Arg2:T12	
+T10	GROUP 202 217	Жителей столицы
+R6	WORKPLACE Arg1:T10 Arg2:T12	
+T11	ORGANIZATION 262 275	Klymenko Time
+T14	NEWS_SOURCE 262 303	Klymenko Time опубликовало видео из Киева
+T15	EVENT 333 375	слышны звуки взрывов и автомобильных сирен
+R7	TAKES_PLACE_IN Arg1:T15 Arg2:T17	
+T16	FAC 415 434	многоэтажном здании
+R8	WORKS_AS Arg1:T21 Arg2:T20	
+T18	NEWS_SOURCE 377 403	Мэр Виталий Кличко сообщил
+T19	EVENT 406 412	пожаре
+R9	TAKES_PLACE_IN Arg1:T19 Arg2:T16	
+R10	WORKPLACE Arg1:T21 Arg2:T17	
+T22	TIME 523 534	23:00 (мск)
+T23	EVENT 436 453	Воздушную тревогу
+T26	REGION 454 488	в центральных и восточных регионах
+R11	OWNERSHIP Arg1:T25 Arg2:T26	
+R12	TAKES_PLACE_IN Arg1:T23 Arg2:T26	
+R13	TAKES_PLACE_IN Arg1:T23 Arg2:T25	
+T27	NEWS_SOURCE 536 552	Ранее сообщалось
+T89	EVENT 555 562	взрывах
+R14	TAKES_PLACE_IN Arg1:T89 Arg2:T28	
+R15	TAKES_PLACE_IN Arg1:T89 Arg2:T29	
+T31	REGION 625 644	Запорожской области
+T32	ORGANIZATION 611 624	администрации
+T30	PROFESSION 599 610	Член совета
+R16	WORKPLACE Arg1:T30 Arg2:T32	
+R17	WORKPLACE Arg1:T34 Arg2:T31	
+R18	WORKS_AS Arg1:T34 Arg2:T30	
+T33	NEWS_SOURCE 599 690	Член совета администрации Запорожской области Владимир Рогов заявил в своем телеграм-канале
+T35	WEAPON 804 818	БПЛА-камикадзе
+T36	WEAPON 821 835	крылатых ракет
+R19	TAKES_PLACE_IN Arg1:T37 Arg2:T38	
+R20	TAKES_PLACE_IN Arg1:T37 Arg2:T40	
+T39	EVENT 778 835	массированным применением БПЛА-камикадзе и крылатых ракет
+R21	SUBEVENT_OF Arg1:T39 Arg2:T37	
+R22	TAKES_PLACE_IN Arg1:T39 Arg2:T38	
+R23	TAKES_PLACE_IN Arg1:T39 Arg2:T40	
+T42	EVENT 839 856	Воздушную тревогу
+R24	TAKES_PLACE_IN Arg1:T42 Arg2:T47	
+R25	DATE_TAKES_PLACE_ON Arg1:T42 Arg2:T48	
+R26	HEADQUARTERED_IN Arg1:T50 Arg2:T49	
+T43	WEAPON 993 1013	высокоточным оружием
+T44	WEAPON 1018 1046	объектам военного управления
+T45	FAC 1049 1071	энергетической системы
+R27	HEADQUARTERED_IN Arg1:T45 Arg2:T53	
+T46	NEWS_SOURCE 922 992	В российском Минобороны отчитывались о нанесении «массированных ударов
+R28	WORKPLACE Arg1:T56 Arg2:T55	
+R29	WORKS_AS Arg1:T56 Arg2:T54	
+T51	FAC 1176 1190	Крымском мосту
+T52	EVENT 1167 1172	взрыв
+R30	TAKES_PLACE_IN Arg1:T52 Arg2:T51	
+T57	REGION 1225 1232	Курской
+T60	FAC 1233 1236	АЭС
+R31	HEADQUARTERED_IN Arg1:T60 Arg2:T57	
+T61	FAC 1200 1221	линий электропередачи
+T62	EVENT 1193 1199	подрыв
+R32	TAKES_PLACE_IN Arg1:T62 Arg2:T61	
+R33	TAKES_PLACE_IN Arg1:T62 Arg2:T60	
+R34	WORKPLACE Arg1:T66 Arg2:T67	
+T63	DATE 1288 1302	на этой неделе
+T64	CARDINAL 1303 1306	два
+T65	FAC 1352 1362	резиденцию
+R35	WORKS_AS Arg1:T73 Arg2:T72	
+R36	OWNERSHIP Arg1:T73 Arg2:T65	
+R37	WORKPLACE Arg1:T73 Arg2:T71	
+R38	WORKPLACE Arg1:T72 Arg2:T75	
+T68	ORGANIZATION 1448 1462	В пресс-службе
+R39	OWNERSHIP Arg1:T78 Arg2:T68	
+T74	EVENT 1303 1385	два украинских беспилотника попытались атаковать резиденцию российского президента
+R40	DATE_TAKES_PLACE_ON Arg1:T74 Arg2:T63	
+R41	TAKES_PLACE_IN Arg1:T74 Arg2:T75	
+T76	NEWS_SOURCE 1448 1536	В пресс-службе Кремля произошедшее расценили как «спланированную террористическую акцию»
+T77	CRIME 1498 1535	спланированную террористическую акцию
+R42	ORGANIZES Arg1:T81 Arg2:T77	
+R43	WORKPLACE Arg1:T82 Arg2:T81	
+R44	WORKS_AS Arg1:T82 Arg2:T80	

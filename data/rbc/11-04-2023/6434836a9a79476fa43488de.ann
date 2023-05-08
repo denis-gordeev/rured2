@@ -1,0 +1,70 @@
+T0	PERSON 0 6	Байден
+T5	PROFESSION 49 58	Президент
+T6	COUNTRY 59 62	США
+T7	PERSON 63 73	Джо Байден
+T11	NEWS_SOURCE 180 238	говорится в заявлении, опубликованном на сайте Белого дома
+T12	ORGANIZATION 227 238	Белого дома
+T13	DATE 269 288	с 1 марта 2020 года
+T14	DATE 316 325	31 января
+T18	ORGANIZATION 403 416	администрация
+T19	PROFESSION 417 427	президента
+T20	DATE 469 475	11 мая
+T21	DATE 491 513	на 10 апреля 2023 года
+T22	DATE 515 524	за неделю
+T23	CARDINAL 547 560	более 120 тыс
+T24	CARDINAL 590 594	1773
+T25	GROUP 595 602	умерших
+T27	COUNTRY 621 633	американский
+T28	DATE 662 670	9 апреля
+T31	PROFESSION 705 716	Медицинская
+T34	CITY 748 754	Майами
+T36	COUNTRY 771 774	США
+T37	CARDINAL 784 788	двое
+T38	GROUP 789 794	детей
+T40	DISEASE 909 917	судороги
+T41	DISEASE 919 931	микроцефалия
+T42	DISEASE 970 975	COVID
+T43	GROUP 978 987	младенцев
+T44	DATE 1046 1066	23 февраля 2021 года
+T46	COUNTRY 1115 1118	США
+T49	PERSON 1162 1168	Байден
+T50	DATE 1182 1194	на пять дней
+T1	DISEASE 30 47	пандемии COVID-19
+T2	EVENT 7 23	отменил режим ЧС
+R2	WORKS_AS Arg1:T7 Arg2:T5	
+R3	WORKPLACE Arg1:T7 Arg2:T6	
+T3	NEWS_SOURCE 49 88	Президент США Джо Байден подписал закон
+R1	ORGANIZES Arg1:T0 Arg2:T2	
+T4	EVENT 98 138	отменяет чрезвычайное положение в стране
+R4	ORGANIZES Arg1:T7 Arg2:T4	
+T8	DISEASE 152 170	пандемией COVID-19
+R5	WORKPLACE Arg1:T7 Arg2:T12	
+T9	EVENT 240 248	Режим ЧС
+R6	DATE_TAKES_PLACE_ON Arg1:T9 Arg2:T13	
+T10	ORGANIZATION 326 338	пресс-служба
+T15	ORGANIZATION 339 388	Административно-бюджетного управления Белого дома
+R7	OWNERSHIP Arg1:T15 Arg2:T10	
+T16	NEWS_SOURCE 316 397	31 января пресс-служба Административно-бюджетного управления Белого дома сообщала
+T17	EVENT 428 468	выступает за прекращение действия режима
+R8	ORGANIZES Arg1:T18 Arg2:T17	
+R9	DATE_TAKES_PLACE_ON Arg1:T17 Arg2:T20	
+T52	EVENT 525 602	было зарегистрировано более 120 тыс. новых случаев заболевания и 1773 умерших
+R10	DATE_TAKES_PLACE_ON Arg1:T52 Arg2:T22	
+R11	DATE_TAKES_PLACE_ON Arg1:T52 Arg2:T21	
+T26	ORGANIZATION 634 660	Центр контроля заболеваний
+R12	HEADQUARTERED_IN Arg1:T26 Arg2:T27	
+T53	NEWS_SOURCE 612 660	сообщает американский Центр контроля заболеваний
+T29	ORGANIZATION 671 702	Университет Miami Health System
+T30	ORGANIZATION 705 754	Медицинская школа Миллера при Университете Майами
+T32	NEWS_SOURCE 662 763	9 апреля Университет Miami Health System и Медицинская школа Миллера при Университете Майами сообщили
+R13	ORIGINS_FROM Arg1:T38 Arg2:T36	
+T33	DISEASE 797 835	повреждениями мозга из-за коронавируса
+T35	CARDINAL 891 896	обоих
+T39	DISEASE 934 953	задержка в развитии
+T54	GROUP 1078 1085	умерших
+T45	DISEASE 1089 1112	коронавирусной инфекции
+T47	QUANTITY 1119 1137	превысило 500 тыс.
+R14	ORIGINS_FROM Arg1:T54 Arg2:T46	
+T48	EVENT 1195 1241	приспустить флаги по всей стране в знак траура
+R15	ORGANIZES Arg1:T49 Arg2:T48	
+R16	DATE_TAKES_PLACE_ON Arg1:T48 Arg2:T50	

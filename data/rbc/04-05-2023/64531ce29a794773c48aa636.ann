@@ -1,0 +1,57 @@
+T0	EVENT 0 5	Пожар
+T2	FAC 17 28	нефтезаводе
+T4	REGION 31 49	Краснодарском крае
+T6	FAC 110 138	нефтеперерабатывающем заводе
+T13	EVENT 228 233	Пожар
+T14	VILLAGE 237 244	Ильском
+T15	FAC 245 248	НПЗ
+T16	FAC 301 312	резервуаров
+T17	PRODUCT 315 330	нефтепродуктами
+T18	FAC 334 340	заводе
+T29	NEWS_SOURCE 439 452	По его словам
+T35	WEAPON 588 595	техники
+T37	ORGANIZATION 609 613	ТАСС
+T43	CARDINAL 764 767	три
+T1	VILLAGE 9 16	Ильском
+R1	HEADQUARTERED_IN Arg1:T2 Arg2:T1	
+R2	HEADQUARTERED_IN Arg1:T2 Arg2:T4	
+R3	TAKES_PLACE_IN Arg1:T0 Arg2:T2	
+T3	PROFESSION 60 68	Пожарные
+T48	EVENT 69 98	полностью потушили возгорание
+T5	VILLAGE 102 109	Ильском
+T7	REGION 141 159	Краснодарском крае
+R4	HEADQUARTERED_IN Arg1:T6 Arg2:T7	
+R5	HEADQUARTERED_IN Arg1:T6 Arg2:T5	
+R6	TAKES_PLACE_IN Arg1:T48 Arg2:T6	
+T8	PROFESSION 169 187	губернатор региона
+T9	PERSON 188 207	Вениамин Кондратьев
+R7	WORKS_AS Arg1:T9 Arg2:T8	
+T10	NEWS_SOURCE 161 225	сообщил губернатор региона Вениамин Кондратьев в телеграм-канале
+R8	ABBREVIATION Arg1:T6 Arg2:T15	
+T11	NEWS_SOURCE 276 286	написал он
+R9	TAKES_PLACE_IN Arg1:T13 Arg2:T15	
+T12	VILLAGE 343 374	поселке городского типа Ильский
+T19	BOROUGH 377 393	Северском районе
+T20	PROFESSION 394 412	губернатор региона
+T21	DATE 421 426	4 мая
+T22	TIME 427 437	около 4:30
+R10	HEADQUARTERED_IN Arg1:T18 Arg2:T12	
+T23	NEWS_SOURCE 394 437	губернатор региона сообщил 4 мая около 4:30
+T24	EVENT 288 330	О возгорании резервуаров с нефтепродуктами
+R11	TAKES_PLACE_IN Arg1:T24 Arg2:T18	
+R12	DATE_TAKES_PLACE_ON Arg1:T24 Arg2:T21	
+R13	OWNERSHIP Arg1:T19 Arg2:T12	
+T25	GROUP 481 488	жителям
+T26	VILLAGE 489 497	Ильского
+R14	WORKPLACE Arg1:T25 Arg2:T26	
+T27	CARDINAL 529 538	400 кв. м
+T28	EVENT 546 553	тушению
+T30	QUANTITY 564 567	167
+T31	CARDINAL 578 580	37
+T32	GROUP 639 657	экстренных службах
+T33	ORGANIZATION 660 679	телеграм-канал SHOT
+T34	WEAPON 720 732	беспилотника
+T36	EVENT 681 732	возгорание могло произойти из-за атаки беспилотника
+T38	NEWS_SOURCE 601 679	сообщал ТАСС со ссылкой на источник в экстренных службах и телеграм-канал SHOT
+T39	ORGANIZATION 785 804	телеграм-канал Baza
+T40	NEWS_SOURCE 776 804	передает телеграм-канал Baza

@@ -1,0 +1,59 @@
+T0	PROFESSION 0 10	Президента
+T1	COUNTRY 11 19	Бразилии
+T2	EVENT 34 53	экономический форум
+T3	CITY 56 66	Петербурге
+T4	PROFESSION 68 77	Президент
+T5	COUNTRY 78 84	России
+T6	PERSON 85 99	Владимир Путин
+T7	PROFESSION 110 120	президента
+T8	COUNTRY 121 129	Бразилии
+T9	PERSON 130 134	Лулу
+T10	FAC 138 143	Силву
+T11	EVENT 144 194	на Петербургский международный экономический форум
+T12	PROFESSION 212 217	глава
+T13	ORGANIZATION 218 221	МИД
+T14	COUNTRY 222 230	Бразилии
+T15	PERSON 231 236	Мауро
+T16	NEWS_SOURCE 204 243	сообщил глава МИД Бразилии Мауро Виэйра
+T17	ORGANIZATION 237 243	Виэйра
+T18	NEWS_SOURCE 245 274	его слова передает издание G1
+T19	ORGANIZATION 276 282	Виэйра
+T20	NEWS_SOURCE 283 290	сообщил
+T21	PROFESSION 296 319	министр иностранных дел
+T22	COUNTRY 320 326	России
+T23	PERSON 327 340	Сергей Лавров
+T24	PROFESSION 349 359	президенту
+T25	COUNTRY 360 368	Бразилии
+T26	PERSON 379 395	Владимира Путина
+T27	EVENT 414 433	экономический форум
+T28	ORGANIZATION 435 448	Правительство
+T29	GROUP 435 448	Правительство
+T30	COUNTRY 449 457	Бразилии
+T31	EVENT 485 489	Лулы
+T32	EVENT 493 499	форуме
+T33	PERSON 509 513	Лула
+T34	CURRENCY 556 563	доллара
+T35	ECONOMIC_SECTOR 566 574	торговле
+T36	ORGANIZATION 595 600	БРИКС
+T37	DATE 645 659	В конце января
+T38	PROFESSION 660 669	президент
+T39	COUNTRY 670 678	Бразилии
+T40	COUNTRY 721 730	российско
+T41	COUNTRY 731 742	украинского
+T42	PERSON 754 758	Лула
+T43	PRODUCT 762 767	Силва
+T44	FAC 762 767	Силва
+T45	COUNTRY 791 798	Украине
+T46	REGION 828 832	Крым
+T47	EVENT 855 902	Петербургский международный экономический форум
+T48	DATE 903 914	в этом году
+T49	DATE 923 938	с 14 по 17 июня
+T50	EVENT 954 965	мероприятия
+T51	PRODUCT 978 988	Суверенное
+T52	FAC 978 988	Суверенное
+T53	CARDINAL 1081 1090	на четыре
+T54	CARDINAL 1149 1173	643e4bee9a79470ed1f273b6
+T55	PERSON 1175 1178	Tue
+T56	CARDINAL 1180 1182	18
+T57	CARDINAL 1187 1194	2023 11
+T58	CARDINAL 1195 1197	52

@@ -1,0 +1,96 @@
+T0	CARDINAL 29 33	двух
+T2	GROUP 34 42	регионов
+T3	GROUP 64 77	людей
+
+Власти
+T4	REGION 78 83	Крыма
+T5	REGION 86 104	Ростовской области
+T8	PROFESSION 204 228	врио губернатора области
+T9	PERSON 229 245	Евгений Балицкий
+T10	NEWS_SOURCE 196 268	сообщил врио губернатора области Евгений Балицкий в эфире «Соловьев Live
+T11	REGION 372 376	Крым
+T12	CITY 380 386	Ростов
+T14	ORGANIZATION 502 505	РБК
+T17	REGION 562 577	Республики Крым
+T20	PROFESSION 593 604	губернатора
+T21	REGION 605 623	Ростовской области
+T22	DATE 626 631	5 мая
+T23	PERSON 632 640	Балицкий
+T25	QUANTITY 681 683	18
+T27	CITY 746 753	Токмаке
+T28	VILLAGE 755 765	Васильевке
+T31	CITY 788 798	Энергодаре
+T32	ORGANIZATION 880 895	Вооруженных сил
+T33	COUNTRY 896 903	Украины
+T34	ORDINAL 907 913	первую
+T35	GROUP 968 977	инвалидов
+T36	GROUP 979 986	больных
+T41	GROUP 1038 1044	Власти
+T45	PERSON 1138 1152	Андрея Козенко
+T48	CITY 1207 1215	Бердянск
+T49	PROFESSION 1217 1233	Врио губернатора
+T50	NEWS_SOURCE 1217 1246	Врио губернатора также заявил
+T51	COUNTRY 1252 1262	украинские
+T52	PROFESSION 1263 1270	военные
+T53	DATE 1273 1297	течение последней недели
+T54	GROUP 1367 1373	власти
+T55	GPE 1388 1392	Киев
+T56	DATE 1419 1434	в ближайшие дни
+T57	TIME 1444 1448	часы
+T62	PERSON 0 8	Балицкий
+T63	NEWS_SOURCE 0 15	Балицкий заявил
+T1	GROUP 71 77	Власти
+R1	WORKPLACE Arg1:T1 Arg2:T4	
+R2	WORKPLACE Arg1:T1 Arg2:T5	
+T64	LOCATION 154 174	прифронтовых районов
+T6	REGION 175 194	Запорожской области
+T7	EVENT 105 138	готовы помочь с размещением людей
+R3	TAKES_PLACE_IN Arg1:T7 Arg2:T5	
+R4	TAKES_PLACE_IN Arg1:T7 Arg2:T4	
+R5	OWNERSHIP Arg1:T6 Arg2:T64	
+R6	WORKS_AS Arg1:T9 Arg2:T8	
+T13	NEWS_SOURCE 491 500	сказал он
+T44	BOROUGH 1157 1176	Пологовского района
+T46	GROUP 1197 1204	жителей
+T47	NEWS_SOURCE 1038 1053	Власти заверили
+T16	ORGANIZATION 548 561	правительства
+T15	ORGANIZATION 535 547	пресс-службу
+R7	OWNERSHIP Arg1:T16 Arg2:T15	
+R8	OWNERSHIP Arg1:T17 Arg2:T16	
+T18	ORGANIZATION 580 592	пресс-службу
+R9	WORKPLACE Arg1:T20 Arg2:T21	
+R10	WORKPLACE Arg1:T20 Arg2:T18	
+T19	NEWS_SOURCE 502 623	РБК обратился за комментариями в пресс-службу правительства Республики Крым и пресс-службу губернатора Ростовской области
+T24	NEWS_SOURCE 626 648	5 мая Балицкий объявил
+T58	EVENT 651 680	временном переселении жителей
+T26	VILLAGE 684 702	населенных пунктов
+R11	EVENT_TAKES_PART_IN Arg1:T26 Arg2:T58	
+T59	NEWS_SOURCE 704 714	Он уточнил
+T60	CITY 800 807	Пологах
+T29	VILLAGE 767 786	Каменке-Днепровской
+T30	GROUP 673 680	жителей
+R12	WORKPLACE Arg1:T30 Arg2:T27	
+R13	ORIGINS_FROM Arg1:T30 Arg2:T28	
+R14	ORIGINS_FROM Arg1:T30 Arg2:T29	
+R15	ORIGINS_FROM Arg1:T30 Arg2:T31	
+R16	ORIGINS_FROM Arg1:T30 Arg2:T60	
+T61	PERSON 827 835	Балицкий
+R17	OWNERSHIP Arg1:T33 Arg2:T32	
+T65	GROUP 937 951	семьи с детьми
+T66	GROUP 953 966	пожилых людей
+T67	EVENT 905 936	В первую очередь будут вывозить
+R18	EVENT_TAKES_PART_IN Arg1:T65 Arg2:T67	
+R19	EVENT_TAKES_PART_IN Arg1:T66 Arg2:T67	
+R20	EVENT_TAKES_PART_IN Arg1:T35 Arg2:T67	
+R21	EVENT_TAKES_PART_IN Arg1:T36 Arg2:T67	
+T37	QUANTITY 1021 1028	70 тыс.
+T38	PROFESSION 1103 1137	вице-премьера области по экономике
+R22	WORKS_AS Arg1:T45 Arg2:T38	
+T39	NEWS_SOURCE 1093 1152	По словам вице-премьера области по экономике Андрея Козенко
+R23	WORKPLACE Arg1:T52 Arg2:T51	
+T40	LOCATION 1341 1363	линией соприкосновения
+T42	EVENT 1399 1417	начать наступление
+R24	DATE_TAKES_PLACE_ON Arg1:T42 Arg2:T56	
+R25	ORGANIZES Arg1:T55 Arg2:T42	
+T43	EVENT 1298 1317	обстреливают города
+R26	ORGANIZES Arg1:T51 Arg2:T43	

@@ -1,0 +1,71 @@
+T1	PERSON 0 7	Кадыров
+T3	COUNTRY 106 113	Украине
+T6	CARDINAL 145 146	1
+T7	REGION 148 158	чеченского
+T9	PROFESSION 228 233	глава
+T12	PERSON 240 254	Рамзан Кадыров
+T17	GROUP 318 331	подразделений
+T18	EVENT 375 378	СВО
+T21	REGION 481 489	Донбасса
+T22	NEWS_SOURCE 494 518	написал глава республики
+T23	PROFESSION 502 518	глава республики
+T24	PERSON 520 527	Кадыров
+T25	NEWS_SOURCE 520 535	Кадыров отметил
+T26	GROUP 543 549	бойцов
+T27	WEAPON 659 666	техники
+T28	WEAPON 669 679	вооружения
+T29	DATE 682 697	В начале января
+T30	PERSON 698 705	Кадыров
+T31	NEWS_SOURCE 698 713	Кадыров говорил
+T36	CARDINAL 790 791	1
+T38	COUNTRY 841 848	Украине
+T39	QUANTITY 861 873	более 21 тыс
+T40	GROUP 875 881	бойцов
+T41	REGION 885 890	Чечни
+T42	QUANTITY 892 903	свыше 9 тыс
+T43	DATE 929 938	23 апреля
+T44	PERSON 939 946	Кадыров
+T45	NEWS_SOURCE 939 954	Кадыров сообщил
+T47	GROUP 988 993	бойцы
+T53	ORDINAL 1033 1034	й
+T56	ORGANIZATION 1085 1095	Росгвардии
+T2	GROUP 48 66	спецназа «Ахмат-1»
+T64	EVENT 19 47	отправке в зону спецоперации
+R1	EVENT_TAKES_PART_IN Arg1:T2 Arg2:T64	
+T65	NEWS_SOURCE 1 15	адыров сообщил
+T66	EVENT 86 102	военной операции
+R2	TAKES_PLACE_IN Arg1:T66 Arg2:T3	
+T4	ORGANIZATION 170 180	Росгвардии
+T5	ORGANIZATION 159 169	управления
+R3	OWNERSHIP Arg1:T4 Arg2:T5	
+R4	HEADQUARTERED_IN Arg1:T5 Arg2:T7	
+T8	GROUP 126 147	бойцы ОМОНа «Ахмат-1»
+R5	WORKPLACE Arg1:T8 Arg2:T4	
+R6	EVENT_TAKES_PART_IN Arg1:T8 Arg2:T66	
+T67	GROUP 201 217	боевых товарищей
+T10	REGION 234 239	Чечни
+R7	WORKS_AS Arg1:T12 Arg2:T9	
+R8	WORKPLACE Arg1:T12 Arg2:T10	
+T11	NEWS_SOURCE 256 305	К публикации в телеграм-канале он прикрепил видео
+T13	EVENT 380 414	принимали непосредственное участие
+R9	TAKES_PLACE_IN Arg1:T13 Arg2:T21	
+T14	FAC 430 459	стратегически важных объектов
+R10	TAKES_PLACE_IN Arg1:T18 Arg2:T21	
+T15	LOCATION 960 975	на линию фронта
+T46	ORGANIZATION 1078 1083	ОБрОН
+T16	ORDINAL 994 999	94-го
+T19	ORGANIZATION 994 1029	94-го полка оперативного назначения
+R12	MEMBER Arg1:T47 Arg2:T19	
+R13	OWNERSHIP Arg1:T56 Arg2:T46	
+R14	OWNERSHIP Arg1:T56 Arg2:T19	
+T20	ORGANIZATION 1030 1076	46-й отдельной бригады оперативного назначения
+R11	ABBREVIATION Arg1:T20 Arg2:T46	
+R15	OWNERSHIP Arg1:T56 Arg2:T20	
+T37	EVENT 820 837	военных действиях
+R16	TAKES_PLACE_IN Arg1:T37 Arg2:T38	
+R17	USES Arg1:T41 Arg2:T40	
+T48	LOCATION 915 927	на передовой
+T32	LOCATION 732 747	на линию фронта
+T33	QUANTITY 760 769	около 300
+T34	GROUP 770 792	бойцов ОМОНа «Ахмат-1»
+T35	PRODUCT 608 643	полного комплекта боевой экипировки

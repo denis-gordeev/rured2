@@ -1,0 +1,90 @@
+T0	COUNTRY 0 7	Франция
+T1	COUNTRY 17 23	Россию
+T2	PRODUCT 37 51	ядерное оружие
+T3	COUNTRY 54 73	Белоруссии
+
+Франция
+T4	COUNTRY 90 96	России
+T5	WEAPON 108 122	ядерное оружие
+T6	COUNTRY 137 147	Белоруссии
+T7	COUNTRY 179 191	французского
+T8	NEWS_SOURCE 157 220	говорится в сообщении французского министерства иностранных дел
+T9	ORGANIZATION 192 220	министерства иностранных дел
+T10	COUNTRY 287 294	Франции
+T11	ORGANIZATION 299 302	ООН
+T14	COUNTRY 322 329	Франция
+T15	COUNTRY 340 346	Россию
+T21	ORGANIZATION 526 533	Twitter
+T22	DATE 536 544	25 марта
+T23	PROFESSION 545 554	президент
+T24	COUNTRY 555 561	России
+T25	PERSON 562 576	Владимир Путин
+T26	COUNTRY 602 612	Белоруссии
+T28	COUNTRY 679 690	белорусский
+T30	PERSON 697 716	Александр Лукашенко
+T31	NEWS_SOURCE 718 730	заявил Путин
+T32	PERSON 725 730	Путин
+T33	NEWS_SOURCE 744 757	по его словам
+T34	COUNTRY 801 809	Британии
+T35	COUNTRY 820 827	Украине
+T38	PROFESSION 860 876	Глава дипломатии
+T39	ORGANIZATION 877 879	ЕС
+T40	PERSON 880 893	Жозеп Боррель
+T41	WEAPON 912 927	ядерного оружия
+T42	COUNTRY 930 940	Белоруссии
+T43	GPE 953 959	Европы
+T44	GPE 982 990	Брюсселя
+T45	COUNTRY 1009 1017	Германии
+T46	GPE 1032 1038	Москвы
+T47	GPE 1041 1047	Минска
+T49	ORGANIZATION 1076 1080	НАТО
+T51	COUNTRY 1130 1137	Украина
+T52	COUNTRY 1156 1162	России
+T53	WEAPON 1174 1188	ядерное оружие
+T54	COUNTRY 1191 1201	Белоруссии
+T55	EVENT 1233 1242	заседание
+T56	ORGANIZATION 1243 1266	Совета безопасности ООН
+T58	PERSON 1268 1273	Путин
+T59	DATE 1274 1288	в прошлом году
+T61	COUNTRY 1302 1308	Россия
+T63	NEWS_SOURCE 1460 1477	говорил президент
+T64	PROFESSION 1468 1477	президент
+T65	PROFESSION 1479 1515	Заместитель министра иностранных дел
+T66	PERSON 1516 1529	Сергей Рябков
+T67	COUNTRY 1550 1553	США
+T68	GPE 1563 1571	западные
+T71	COUNTRY 1643 1649	России
+T72	COUNTRY 1718 1724	Россия
+T73	WEAPON 1744 1759	ядерным оружием
+T74	NEWS_SOURCE 1692 1712	Он также подчеркивал
+T62	WEAPON 1328 1343	ядерным оружием
+T75	GROUP 1572 1578	страны
+R1	MEMBER Arg1:T75 Arg2:T68	
+R2	WORKS_AS Arg1:T66 Arg2:T65	
+T76	NEWS_SOURCE 1479 1544	Заместитель министра иностранных дел Сергей Рябков выражал мнение
+T69	WEAPON 1663 1690	оружием массового поражения
+T57	NEWS_SOURCE 1268 1296	Путин в прошлом году заявлял
+T60	COUNTRY 54 64	Белоруссии
+T70	COUNTRY 66 73	Франция
+T77	LOCATION 126 136	территории
+R3	OWNERSHIP Arg1:T6 Arg2:T77	
+R4	HEADQUARTERED_IN Arg1:T9 Arg2:T7	
+T78	PROFESSION 262 302	постоянный представитель Франции при ООН
+T12	PERSON 303 319	Николя де Ривьер
+R5	WORKS_AS Arg1:T12 Arg2:T78	
+R6	WORKPLACE Arg1:T12 Arg2:T10	
+T13	WEAPON 421 436	ядерным оружием
+T16	PROFESSION 509 517	дипломат
+T17	COUNTRY 497 508	французский
+R7	WORKPLACE Arg1:T16 Arg2:T17	
+T18	NEWS_SOURCE 489 533	написал французский дипломат в своем Twitter
+R8	WORKPLACE Arg1:T25 Arg2:T24	
+R9	WORKS_AS Arg1:T25 Arg2:T23	
+T19	WEAPON 613 641	тактического ядерного оружия
+T20	PROFESSION 691 696	лидер
+R10	WORKS_AS Arg1:T30 Arg2:T20	
+T27	WEAPON 828 858	боеприпасы с обедненным ураном
+R11	WORKPLACE Arg1:T40 Arg2:T39	
+R12	WORKS_AS Arg1:T40 Arg2:T38	
+T29	NEWS_SOURCE 1074 1088	в НАТО заявили
+R13	EVENT_TAKES_PART_IN Arg1:T56 Arg2:T55	

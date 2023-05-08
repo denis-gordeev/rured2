@@ -1,0 +1,43 @@
+T2	CITY 32 38	Одессе
+T3	NORP 39 48	россиянки
+T4	FAC 62 66	дома
+T7	CITY 93 99	Одессе
+T9	GROUP 100 114	местные жители
+T13	AGE 149 159	двухлетней
+T17	NEWS_SOURCE 190 207	По данным издания
+T18	FAMILY 235 240	мужем
+T31	NEWS_SOURCE 426 442	сообщила полиция
+T36	COUNTRY 608 614	России
+T37	COUNTRY 631 638	Украине
+T39	CARDINAL 758 787	644e57629a7947ca37fe0858
+
+Sun
+T5	STREET 70 90	Французском бульваре
+T1	ORGANIZATION 0 11	«Страна.ua»
+T6	NEWS_SOURCE 0 20	«Страна.ua» сообщила
+T40	FAMILY 49 58	с дочерью
+T41	EVENT 23 29	гибели
+R1	TAKES_PLACE_IN Arg1:T41 Arg2:T2	
+T8	AGE 126 135	34-летней
+T10	FAMILY 160 166	дочери
+T11	EVENT 115 166	нашли тело 34-летней женщины и ее двухлетней дочери
+R2	EVENT_TAKES_PART_IN Arg1:T9 Arg2:T11	
+R3	TAKES_PLACE_IN Arg1:T11 Arg2:T5	
+R4	TAKES_PLACE_IN Arg1:T11 Arg2:T7	
+T12	ORGANIZATION 177 188	«Страна.ua»
+T14	NEWS_SOURCE 168 188	сообщает «Страна.ua»
+R5	HEADQUARTERED_IN Arg1:T4 Arg2:T5	
+T15	ORGANIZATION 200 207	издания
+T16	FAMILY 222 232	с ребенком
+T19	ORDINAL 263 270	на 16-м
+T20	EVENT 287 296	инцидента
+R6	TAKES_PLACE_IN Arg1:T20 Arg2:T5	
+T21	ORGANIZATION 335 342	полиции
+T22	ORGANIZATION 435 442	полиция
+T24	ORGANIZATION 528 539	«Страна.ua»
+T25	ORGANIZATION 542 568	правоохранительных органах
+T26	NEWS_SOURCE 512 577	Позже источники «Страна.ua» в правоохранительных органах сообщили
+T23	ORGANIZATION 680 687	издания
+T27	NEWS_SOURCE 660 687	сообщает собеседник издания
+T28	EVENT 689 724	переквалифицировали на самоубийство
+R7	ORGANIZES Arg1:T25 Arg2:T28	
