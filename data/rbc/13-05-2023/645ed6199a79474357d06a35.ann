@@ -1,0 +1,48 @@
+T0	CITY 2 6	Риме
+T1	EVENT 21 31	Зеленского
+T2	GROUP 50 70	пространство
+
+Власти
+T3	COUNTRY 71 77	Италии
+T4	PROFESSION 130 140	президента
+T5	COUNTRY 141 148	Украины
+T6	PERSON 149 169	Владимира Зеленского
+T7	CITY 186 191	Римом
+T8	NEWS_SOURCE 238 264	пишет газета La Repubblica
+T9	ORGANIZATION 251 264	La Repubblica
+T10	FAC 270 277	городом
+T11	PRODUCT 293 302	вертолеты
+T12	ORGANIZATION 319 326	полиции
+T13	GROUP 334 340	власти
+T14	FAC 360 384	железнодорожных вокзалах
+T15	FAC 388 398	аэропортах
+T16	LOCATION 434 455	набережных вдоль реки
+T17	FAC 451 460	реки Тибр
+T18	EVENT 499 509	Зеленского
+T19	TIME 525 530	утром
+T20	DATE 531 540	в субботу
+T21	PERSON 603 610	Чампино
+T22	NEWS_SOURCE 623 642	писало издание ANSA
+T23	ORGANIZATION 638 642	ANSA
+T24	NEWS_SOURCE 644 653	Зеленский
+T25	PERSON 644 653	Зеленский
+T26	EVENT 684 691	римским
+T27	CITY 692 702	Франциском
+T28	DATE 706 727	на следующий день — с
+T29	PROFESSION 728 735	премьер
+T30	PROFESSION 736 745	министром
+T31	COUNTRY 746 752	Италии
+T32	PERSON 753 768	Джорджей Мелони
+T33	NEWS_SOURCE 762 768	Мелони
+T34	PERSON 778 788	Зеленского
+T35	EVENT 803 810	встреча
+T36	DATE 811 812	с
+T37	PROFESSION 813 824	президентом
+T38	COUNTRY 825 831	Италии
+T39	PERSON 832 849	Серджо Матареллой
+T40	PERSON 852 865	Квиринальском
+T41	EVENT 866 872	дворце
+T42	PERSON 932 935	Sat
+T43	DATE 944 948	2023
+T44	CARDINAL 952 954	23
+T45	CARDINAL 955 959	06 +

@@ -1,0 +1,52 @@
+T1	FAC 32 42	телевышкой
+T4	FAC 74 84	телевышкой
+T10	ORGANIZATION 181 190	24 каналу
+T11	PROFESSION 192 198	спикер
+T14	COUNTRY 222 229	Украины
+T17	PERSON 256 273	Светлана Водолага
+T22	DATE 409 415	13 мая
+T25	CITY 455 460	Киева
+T31	CARDINAL 605 609	одна
+T37	VEHICLE 721 731	автомобиль
+T39	GROUP 746 752	власти
+T46	EVENT 8 23	произошел пожар
+T47	CITY 0 7	В Киеве
+R1	TAKES_PLACE_IN Arg1:T46 Arg2:T47	
+R2	HEADQUARTERED_IN Arg1:T1 Arg2:T47	
+T2	CITY 44 51	В Киеве
+T3	EVENT 52 65	начался пожар
+R3	TAKES_PLACE_IN Arg1:T3 Arg2:T2	
+T5	ORGANIZATION 103 114	«Страна.ua»
+T6	NEWS_SOURCE 86 114	сообщает издание «Страна.ua»
+T7	FAC 122 130	с вышкой
+T8	EVENT 131 166	распространяются клубы черного дыма
+R4	TAKES_PLACE_IN Arg1:T8 Arg2:T2	
+T9	ORGANIZATION 199 255	Государственной службы Украины по чрезвычайным ситуациям
+R5	WORKPLACE Arg1:T11 Arg2:T9	
+R6	WORKPLACE Arg1:T17 Arg2:T9	
+R7	WORKS_AS Arg1:T17 Arg2:T11	
+T12	NEWS_SOURCE 172 273	заявила «24 каналу» спикер Государственной службы Украины по чрезвычайным ситуациям Светлана Водолага
+T13	BOROUGH 289 311	в Шевченковском районе
+T15	EVENT 275 280	пожар
+R8	TAKES_PLACE_IN Arg1:T15 Arg2:T13	
+T16	CARDINAL 344 353	20 кв. м.
+T18	GROUP 379 396	экстренные службы
+R9	WORKPLACE Arg1:T18 Arg2:T14	
+T19	TIME 399 405	В ночь
+T20	FAC 430 454	Александровской больницы
+R10	HEADQUARTERED_IN Arg1:T20 Arg2:T25	
+T21	BOROUGH 480 498	в Печерском районе
+R11	OWNERSHIP Arg1:T25 Arg2:T21	
+T23	VEHICLE 516 554	в автомобиле скорой медицинской помощи
+T24	EVENT 500 515	произошел пожар
+R12	TAKES_PLACE_IN Arg1:T24 Arg2:T23	
+R13	DATE_TAKES_PLACE_ON Arg1:T24 Arg2:T22	
+R14	TAKES_PLACE_IN Arg1:T24 Arg2:T20	
+T26	DISEASE 623 637	получила ожоги
+T27	EVENT 556 599	При ликвидации огня был найден труп женщины
+R15	DATE_TAKES_PLACE_ON Arg1:T27 Arg2:T22	
+T28	ORGANIZATION 658 681	в местной администрации
+T29	ORGANIZATION 695 706	«Страна.ua»
+T30	ORGANIZATION 695 715	«Страна.ua» сообщала
+T32	EVENT 721 741	автомобиль взорвался
+R16	DATE_TAKES_PLACE_ON Arg1:T32 Arg2:T22	

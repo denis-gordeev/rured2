@@ -1,0 +1,73 @@
+T1	NORP 30 39	россиянку
+T3	NORP 61 70	россиянку
+T4	PERSON 71 81	Юлию Чумак
+T5	CITY 102 108	Манилу
+T6	ORGANIZATION 148 151	РБК
+T10	COUNTRY 175 186	российского
+T15	PERSON 246 260	Иван Мельников
+T16	PERSON 278 288	Юлия Чумак
+T20	COUNTRY 481 487	России
+T21	GROUP 494 504	волонтерам
+T22	COUNTRY 507 513	России
+T24	COUNTRY 532 538	Турции
+T27	ORGANIZATION 641 644	РБК
+T30	COUNTRY 692 698	России
+T32	COUNTRY 701 721	Республике Филиппины
+T33	DATE 724 729	9 мая
+T34	ORGANIZATION 731 743	РИА Новости»
+T35	NEWS_SOURCE 730 752	«РИА Новости» сообщило
+T37	COUNTRY 779 785	России
+T38	COUNTRY 789 799	Филиппинах
+T40	CITY 844 850	Манилу
+T41	DATE 851 856	6 мая
+T42	CARDINAL 880 885	одной
+T44	FAMILY 942 956	родственниками
+T45	ORGANIZATION 959 979	Комсомольская правда
+T47	PERSON 995 1005	Юлия Чумак
+T48	DATE 1006 1017	в 2022 году
+T50	FAMILY 1113 1126	родственникам
+T51	CITY 1134 1140	Манилу
+T54	ORGANIZATION 1204 1212	компании
+T55	GROUP 1258 1269	сотрудников
+T61	COUNTRY 0 13	На Филиппинах
+T62	EVENT 14 39	нашли пропавшую россиянку
+R1	TAKES_PLACE_IN Arg1:T62 Arg2:T61	
+T2	COUNTRY 41 54	На Филиппинах
+T63	EVENT 91 138	приехала в Манилу и перестала выходить на связь
+R2	TAKES_PLACE_IN Arg1:T63 Arg2:T2	
+R3	ORGANIZES Arg1:T4 Arg2:T63	
+T7	PROFESSION 160 174	вице-президент
+T8	ORGANIZATION 187 245	подразделения Международного комитета защиты прав человека
+R4	WORKPLACE Arg1:T15 Arg2:T8	
+R5	WORKPLACE Arg1:T15 Arg2:T10	
+R6	WORKS_AS Arg1:T15 Arg2:T7	
+T9	NEWS_SOURCE 140 260	Об этом РБК сообщил вице-президент российского подразделения Международного комитета защиты прав человека Иван Мельников
+T11	COUNTRY 338 351	на Филиппинах
+T12	NEWS_SOURCE 297 326	по предварительной информации
+T13	ORGANIZATION 451 480	Консульского департамента МИД
+R7	HEADQUARTERED_IN Arg1:T13 Arg2:T20	
+T14	COUNTRY 515 528	на Филиппинах
+R8	WORKPLACE Arg1:T21 Arg2:T22	
+R9	WORKPLACE Arg1:T21 Arg2:T14	
+R10	WORKPLACE Arg1:T21 Arg2:T24	
+T17	GROUP 439 450	сотрудникам
+R11	WORKPLACE Arg1:T17 Arg2:T13	
+T18	NEWS_SOURCE 630 639	сказал он
+T19	NEWS_SOURCE 958 989	«Комсомольская правда» сообщала
+T23	ORGANIZATION 1027 1045	МГТУ имени Баумана
+T25	PROFESSION 1072 1098	репетитором по информатике
+R12	WORKS_AS Arg1:T47 Arg2:T25	
+T26	FAMILY 1186 1192	матери
+R13	WORKPLACE Arg1:T55 Arg2:T54	
+T29	NEWS_SOURCE 1176 1200	по словам матери девушки
+T28	ORGANIZATION 663 691	консульский отдел посольства
+R14	OWNERSHIP Arg1:T30 Arg2:T28	
+R15	HEADQUARTERED_IN Arg1:T28 Arg2:T32	
+T31	NEWS_SOURCE 724 778	9 мая «РИА Новости» сообщило об исчезновении гражданки
+T36	FAMILY 811 817	матери
+T39	NEWS_SOURCE 801 827	По словам матери пропавшей
+T43	ORGANIZATION 889 905	местных компаний
+T46	EVENT 833 850	приехала в Манилу
+R16	ORGANIZES Arg1:T47 Arg2:T46	
+R17	DATE_TAKES_PLACE_ON Arg1:T46 Arg2:T41	
+R18	OWNERSHIP Arg1:T38 Arg2:T40	

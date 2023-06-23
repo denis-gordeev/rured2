@@ -1,0 +1,33 @@
+T0	PRODUCT 40 52	оборудование
+T1	COUNTRY 55 61	Россию
+T2	ORGANIZATION 63 93	Нидерландская компания Philips
+T3	PRODUCT 113 137	больничного оборудования
+T4	COUNTRY 140 146	Россию
+T5	PROFESSION 163 186	исполнительный директор
+T6	NEWS_SOURCE 148 199	заявил главный исполнительный директор Рой Джейкобс
+T7	PERSON 187 199	Рой Джейкобс
+T8	EVENT 200 222	на собрании акционеров
+T9	NEWS_SOURCE 224 240	передает Reuters
+T10	ORGANIZATION 233 240	Reuters
+T11	COUNTRY 362 368	России
+T12	COUNTRY 379 386	Украине
+T13	NEWS_SOURCE 391 400	сказал он
+T14	ORGANIZATION 437 444	Philips
+T15	COUNTRY 447 453	России
+T16	PRODUCT 496 520	больничного оборудования
+T17	PRODUCT 541 552	медицинские
+T18	ORGANIZATION 577 585	компания
+T19	GROUP 629 636	гигиены
+T20	COUNTRY 719 725	России
+T21	DATE 737 759	В ноябре прошлого года
+T22	PROFESSION 760 783	министр иностранных дел
+T23	COUNTRY 784 791	Украины
+T24	PERSON 792 806	Дмитрий Кулеба
+T25	ORGANIZATION 815 822	Philips
+T26	ORGANIZATION 840 862	международных компаний
+T27	PRODUCT 896 904	кровавых
+T28	COUNTRY 950 956	России
+T29	CARDINAL 1021 1023	10
+T30	COUNTRY 1028 1032	2023
+T31	CARDINAL 1036 1038	11
+T32	CARDINAL 1039 1041	44

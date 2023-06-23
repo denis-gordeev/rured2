@@ -1,61 +1,81 @@
 T0	PERSON 0 5	Рогов
-T1	ECONOMIC_SECTOR 15 22	взрывах
-T2	FAC 56 59	ВСУ
-T3	REGION 64 71	Одессой
+T1	EVENT 15 22	взрывах
+T2	ORGANIZATION 56 59	ВСУ
+T3	CITY 64 71	Одессой
 T4	REGION 92 108	Одесской области
-T5	PRODUCT 109 114	стали
-T6	PRODUCT 121 128	ракет Х
 T7	CARDINAL 129 131	22
-T8	FAC 143 146	ВСУ
-T9	LOCATION 150 159	побережье
-T10	LOCATION 189 197	окраинах
+T8	ORGANIZATION 143 146	ВСУ
 T11	CITY 198 204	Одессы
-T12	NEWS_SOURCE 206 217	заявил член
-T13	PROFESSION 213 217	член
-T14	ORGANIZATION 218 224	совета
-T15	NEWS_SOURCE 225 236	Запорожской
+T15	REGION 225 236	Запорожской
 T16	ORGANIZATION 237 250	администрации
-T17	NEWS_SOURCE 251 265	Владимир Рогов
 T18	PERSON 251 265	Владимир Рогов
-T19	NEWS_SOURCE 267 279	К публикации
-T20	NEWS_SOURCE 282 290	телеграм
-T21	EVENT 290 297	-канале
-T22	LAW 291 297	канале
-T23	ORGANIZATION 360 362	Юг
-T24	ORGANIZATION 364 379	вооруженных сил
 T25	COUNTRY 380 387	Украины
-T26	NEWS_SOURCE 388 393	ранее
-T27	CARDINAL 477 488	более 6 тыс
-T28	CARDINAL 490 492	кв
-T29	DATE 494 495	м
-T30	ORGANIZATION 541 563	Черноморском побережье
-T31	EVENT 596 604	районной
-T32	PROFESSION 581 626	Глава Одесской районной военной администрации
-T33	NEWS_SOURCE 627 636	Юрий Крук
 T34	PERSON 627 636	Юрий Крук
 T35	CARDINAL 655 659	трех
-T36	GROUP 660 672	пострадавших
-T37	ECONOMIC_SECTOR 684 690	склада
+T37	ORGANIZATION 684 690	склада
 T38	CARDINAL 693 698	одном
-T39	NEWS_SOURCE 829 861	приводит его слова администрация
 T40	ORGANIZATION 848 861	администрация
-T41	NEWS_SOURCE 864 872	телеграм
-T42	LAW 872 879	-канале
-T43	TIME 884 891	ночь на
 T44	DATE 892 897	8 мая
 T45	COUNTRY 920 927	Украины
 T46	REGION 941 949	Киевской
-T47	CITY 951 963	Николаевской
 T48	REGION 951 963	Николаевской
-T49	CITY 966 974	Одесской
-T50	NEWS_SOURCE 976 984	объявили
-T51	FAC 985 994	воздушную
-T52	PERSON 1005 1014	Суспільне
-T53	ECONOMIC_SECTOR 1038 1045	взрывах
+T49	REGION 966 974	Одесской
+T53	EVENT 1038 1045	взрывах
 T54	CITY 1048 1054	Одессе
 T55	ORGANIZATION 1056 1061	УНИАН
-T56	REGION 1083 1090	области
-T57	DATE 1162 1166	2023
-T58	PERCENT 1167 1169	10
-T59	CARDINAL 1167 1169	10
-T60	CARDINAL 1170 1172	48
+T61	WEAPON 23 34	боеприпасов
+T62	FAC 48 55	складам
+R1	USES Arg1:T2 Arg2:T62	
+T63	NEWS_SOURCE 0 12	Рогов заявил
+R2	TAKES_PLACE_IN Arg1:T1 Arg2:T3	
+R3	HEADQUARTERED_IN Arg1:T2 Arg2:T3	
+T64	EVENT 82 89	пожаров
+T5	WEAPON 121 131	ракет Х-22
+T6	FAC 132 142	по складам
+R4	TAKES_PLACE_IN Arg1:T64 Arg2:T4	
+T9	VILLAGE 169 183	поселка Затока
+T10	PROFESSION 213 224	член совета
+R5	WORKPLACE Arg1:T18 Arg2:T16	
+R6	WORKPLACE Arg1:T10 Arg2:T15	
+R7	HEADQUARTERED_IN Arg1:T16 Arg2:T15	
+T12	NEWS_SOURCE 206 265	заявил член совета Запорожской администрации Владимир Рогов
+T13	NEWS_SOURCE 267 332	К публикации в телеграм-канале он прикрепил фотографии возгораний
+T14	ORGANIZATION 334 363	Оперативное командование «Юг»
+T17	ORGANIZATION 364 387	вооруженных сил Украины
+R8	OWNERSHIP Arg1:T17 Arg2:T14	
+T19	NEWS_SOURCE 334 402	Оперативное командование «Юг» вооруженных сил Украины ранее сообщало
+T20	CARDINAL 477 496	более 6 тыс. кв. м.
+T21	ORGANIZATION 418 450	склад продовольственной компании
+T22	EVENT 408 450	загорелся склад продовольственной компании
+R9	TAKES_PLACE_IN Arg1:T22 Arg2:T25	
+R10	HEADQUARTERED_IN Arg1:T21 Arg2:T25	
+T23	LOCATION 519 563	рекреационная зона на Черноморском побережье
+T24	NEWS_SOURCE 565 579	утверждали там
+T26	GROUP 660 683	пострадавших работниках
+T27	PROFESSION 581 586	Глава
+T28	CITY 587 595	Одесской
+T29	ORGANIZATION 596 626	районной военной администрации
+R11	HEADQUARTERED_IN Arg1:T29 Arg2:T28	
+R12	WORKPLACE Arg1:T27 Arg2:T28	
+R13	WORKS_AS Arg1:T34 Arg2:T27	
+T30	NEWS_SOURCE 581 652	Глава Одесской районной военной администрации Юрий Крук позже рассказал
+T31	DISEASE 742 764	незначительные ранения
+T32	GROUP 720 732	Пострадавшие
+T33	NEWS_SOURCE 829 879	приводит его слова администрация в телеграм-канале
+R14	WORKPLACE Arg1:T32 Arg2:T37	
+R15	WORKPLACE Arg1:T26 Arg2:T37	
+T36	TIME 882 888	В ночь
+T39	EVENT 985 1002	воздушную тревогу
+R16	TAKES_PLACE_IN Arg1:T39 Arg2:T49	
+R17	TAKES_PLACE_IN Arg1:T39 Arg2:T48	
+R18	TAKES_PLACE_IN Arg1:T39 Arg2:T48	
+R19	DATE_TAKES_PLACE_ON Arg1:T39 Arg2:T44	
+R20	OWNERSHIP Arg1:T45 Arg2:T46	
+R21	OWNERSHIP Arg1:T45 Arg2:T48	
+R22	OWNERSHIP Arg1:T45 Arg2:T49	
+T41	EVENT 1066 1080	сильном пожаре
+T42	ORGANIZATION 1004 1015	«Суспільне»
+T43	ORGANIZATION 1018 1026	«Страна»
+R23	TAKES_PLACE_IN Arg1:T53 Arg2:T54	
+R24	SUBEVENT_OF Arg1:T41 Arg2:T53	
+T47	NEWS_SOURCE 1004 1035	«Суспільне» и «Страна» сообщали

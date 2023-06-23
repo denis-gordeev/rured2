@@ -1,0 +1,100 @@
+T0	CARDINAL 5 9	один
+T3	PERSON 56 71	Эдуард Сагалаев
+T6	PROFESSION 96 105	журналист
+T8	PROFESSION 107 116	президент
+T9	ORGANIZATION 117 159	Национальной ассоциации телерадиовещателей
+T11	PERSON 160 175	Эдуард Сагалаев
+T12	PROFESSION 185 196	гендиректор
+T14	PERSON 201 218	Виталий Игнатенко
+T16	ORGANIZATION 229 233	ТАСС
+T17	DATE 313 332	3 октября 1946 года
+T21	CITY 361 375	Самаркандского
+T23	CARDINAL 392 396	1980
+T24	GROUP 434 442	молодежи
+T25	ORGANIZATION 443 460	Всесоюзного радио
+T29	GROUP 516 524	молодежи
+T34	COUNTRY 586 590	СССР
+T38	PROFESSION 622 635	председателем
+T40	PROFESSION 660 671	президентом
+T42	CARDINAL 675 676	6
+T43	DATE 678 686	В 1995-м
+T44	PROFESSION 706 716	президента
+T45	ORGANIZATION 717 759	Национальной ассоциации телерадиовещателей
+T46	DATE 763 782	с 1996 по 1997 годы
+T47	ORGANIZATION 794 799	ВГТРК
+T48	PERSON 801 809	Сагалаев
+T49	PROFESSION 828 838	создателей
+T50	WORK_OF_ART 890 906	программы «Время
+T55	DATE 959 970	В 2009 году
+T56	ORGANIZATION 974 988	телеканале ТНТ
+T61	PROFESSION 1056 1063	ведущим
+T62	PERSON 1068 1076	Сагалаев
+T63	DATE 1078 1084	В 2017
+T64	EVENT 1128 1137	церемонии
+T65	NEWS_SOURCE 1179 1200	Сагалаев тогда заявил
+T66	PERSON 1255 1264	Сагалаеву
+T68	PROFESSION 1295 1305	журналиста
+T69	COUNTRY 1306 1312	России
+T70	ORDINAL 1357 1360	III
+T71	ORDINAL 1363 1365	IV
+T2	PROFESSION 13 28	родоначальников
+T1	ORGANIZATION 29 55	отечественного телевидения
+R1	WORKS_AS Arg1:T3 Arg2:T2	
+R2	WORKPLACE Arg1:T2 Arg2:T1	
+T4	AGE 73 90	В возрасте 76 лет
+R3	AGE_DIED_AT Arg1:T11 Arg2:T4	
+R4	WORKS_AS Arg1:T11 Arg2:T6	
+R5	QUOTES Arg1:T11 Arg2:T9	
+R6	WORKPLACE Arg1:T8 Arg2:T9	
+T5	ORGANIZATION 197 200	ОТР
+R7	WORKPLACE Arg1:T12 Arg2:T5	
+R8	WORKS_AS Arg1:T14 Arg2:T12	
+T7	NEWS_SOURCE 177 233	сообщил гендиректор ОТР Виталий Игнатенко, передает ТАСС
+T10	DATE 248 255	сегодня
+T13	EVENT 257 280	Скоропостижно скончался
+R9	ORGANIZES Arg1:T11 Arg2:T13	
+T15	NEWS_SOURCE 285 294	сказал он
+T84	PERSON 296 304	Сагалаев
+R10	DATE_OF_BIRTH Arg1:T84 Arg2:T17	
+T18	DATE 334 342	В 1967-м
+T19	ORGANIZATION 376 388	университета
+R11	HEADQUARTERED_IN Arg1:T19 Arg2:T21	
+T20	PROFESSION 402 442	главным редактором программ для молодежи
+R12	WORKPLACE Arg1:T20 Arg2:T25	
+T22	DATE 468 481	в разные годы
+T26	ORGANIZATION 525 548	Всесоюзного телевидения
+T27	ORGANIZATION 560 585	Государственного комитета
+R13	HEADQUARTERED_IN Arg1:T27 Arg2:T34	
+T30	PROFESSION 484 524	главным редактором программ для молодежи
+R15	WORKPLACE Arg1:T30 Arg2:T26	
+T28	PROFESSION 550 620	зампредом Государственного комитета СССР по телевидению и радиовещанию
+T31	COUNTRY 654 659	СССР,
+T32	ORGANIZATION 636 653	Союза журналистов
+R14	WORKPLACE Arg1:T38 Arg2:T32	
+T33	ORGANIZATION 672 676	ТВ-6
+R16	WORKPLACE Arg1:T40 Arg2:T33	
+R17	WORKS_AS Arg1:T84 Arg2:T20	
+R18	WORKS_AS Arg1:T84 Arg2:T30	
+R19	WORKS_AS Arg1:T84 Arg2:T38	
+R20	WORKS_AS Arg1:T84 Arg2:T40	
+R21	WORKPLACE Arg1:T44 Arg2:T45	
+R22	WORKS_AS Arg1:T48 Arg2:T44	
+R23	WORKPLACE Arg1:T48 Arg2:T47	
+T35	CARDINAL 819 824	одним
+T36	WORK_OF_ART 839 857	программы «Взгляд»
+T37	PROFESSION 871 889	главным редактором
+R24	WORKS_AS Arg1:T48 Arg2:T49	
+R25	WORKS_AS Arg1:T48 Arg2:T37	
+T39	ORGANIZATION 912 916	ТВ-6
+T41	WORK_OF_ART 924 957	авторскую передачу «В мире людей»
+T51	WORK_OF_ART 997 1050	цикл документальных фильмов «Мистические путешествия»
+R26	WORKS_AS Arg1:T62 Arg2:T61	
+T52	AWARD 1105 1115	лауреатами
+T53	AWARD 1138 1149	премии Ника
+R27	DATE_TAKES_PLACE_ON Arg1:T64 Arg2:T63	
+T54	PERSON 1179 1187	Сагалаев
+T57	ORGANIZATION 1206 1217	телевидение
+R28	WORKPLACE Arg1:T68 Arg2:T69	
+T58	AWARD 1275 1312	звание Заслуженного журналиста России
+T59	AWARD 1321 1374	орден «За заслуги перед отечеством» III и IV степеней
+T60	AWARD 1376 1388	орден Дружбы

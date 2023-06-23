@@ -1,0 +1,61 @@
+T0	GROUP 0 6	Жители
+T4	CITY 44 54	Белгородом
+T6	CITY 67 77	Белгородом
+T8	GROUP 112 126	местные жители
+T9	NEWS_SOURCE 128 158	передает городской портал Go31
+T12	ORGANIZATION 233 236	МЧС
+T13	COUNTRY 237 243	России
+T14	REGION 247 267	Белгородской области
+T16	GROUP 297 304	жителей
+T17	CITY 305 314	Белгорода
+T19	ORGANIZATION 413 422	ведомстве
+T21	PROFESSION 438 448	губернатор
+T22	REGION 449 469	Белгородской области
+T23	PERSON 470 486	Вячеслав Гладков
+T27	QUANTITY 603 606	два
+T30	PERSON 760 767	Гладков
+T31	PROFESSION 775 785	губернатор
+T34	CITY 920 930	Грайвороне
+T35	QUANTITY 933 938	одной
+T1	NEWS_SOURCE 0 15	Жители сообщили
+R1	ORIGINS_FROM Arg1:T0 Arg2:T4	
+R2	ORIGINS_FROM Arg1:T8 Arg2:T6	
+T2	ORGANIZATION 137 158	городской портал Go31
+T3	ORGANIZATION 214 232	Главное управление
+R3	HEADQUARTERED_IN Arg1:T3 Arg2:T14	
+R4	OWNERSHIP Arg1:T12 Arg2:T3	
+R5	OWNERSHIP Arg1:T13 Arg2:T14	
+T5	VILLAGE 954 967	селе Замостье
+T7	QUANTITY 883 887	трех
+T10	DISEASE 899 917	осколочные ранения
+T11	GROUP 815 850	диверсионно-разведывательной группе
+T15	NEWS_SOURCE 769 793	Позже губернатор сообщил
+T29	NEWS_SOURCE 752 767	добавил Гладков
+T32	DISEASE 684 703	в тяжелом состоянии
+T33	DISEASE 725 750	состоянии средней тяжести
+T28	DISEASE 628 650	минно-взрывные ранения
+T18	NEWS_SOURCE 214 276	Главное управление МЧС России по Белгородской области сообщило
+R6	ORIGINS_FROM Arg1:T16 Arg2:T17	
+T36	EVENT 355 397	Эвакуация не объявлялась и не производится
+T37	NEWS_SOURCE 402 422	заверили в ведомстве
+R7	TAKES_PLACE_IN Arg1:T36 Arg2:T17	
+T20	TIME 425 430	Утром
+T38	DATE 431 437	22 мая
+R8	WORKPLACE Arg1:T23 Arg2:T22	
+R9	WORKS_AS Arg1:T23 Arg2:T21	
+T39	EVENT 498 521	обстреле нескольких сел
+T24	CITY 522 562	в Грайворонском городском округе региона
+R10	TAKES_PLACE_IN Arg1:T39 Arg2:T24	
+R11	DATE_TAKES_PLACE_ON Arg1:T39 Arg2:T38	
+T25	NEWS_SOURCE 425 494	Утром 22 мая губернатор Белгородской области Вячеслав Гладков сообщил
+T26	VILLAGE 579 591	селе Глотово
+T40	EVENT 592 615	пострадали два человека
+R12	TAKES_PLACE_IN Arg1:T40 Arg2:T26	
+R13	DATE_TAKES_PLACE_ON Arg1:T40 Arg2:T38	
+T41	EVENT 796 850	проникшей в регион диверсионно-разведывательной группе
+R14	DATE_TAKES_PLACE_ON Arg1:T41 Arg2:T38	
+T42	NEWS_SOURCE 864 876	он рассказал
+T43	EVENT 883 917	трех получивших осколочные ранения
+R15	TAKES_PLACE_IN Arg1:T43 Arg2:T34	
+T44	EVENT 933 951	одной пострадавшей
+R16	TAKES_PLACE_IN Arg1:T44 Arg2:T5	

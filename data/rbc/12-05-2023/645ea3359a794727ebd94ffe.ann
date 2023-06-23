@@ -1,0 +1,46 @@
+T0	CITY 2 12	Мелитополе
+T1	FAC 57 73	Электроснабжение
+T2	CITY 76 86	Мелитополе
+T4	ORGANIZATION 186 206	администрации города
+T5	COMMODITY 220 234	электроэнергии
+T7	NEWS_SOURCE 298 319	говорится в сообщении
+T9	BOROUGH 405 410	Ханда
+T10	BOROUGH 413 426	Красная горка
+T15	DATE 503 510	С марта
+T16	CITY 511 521	Мелитополь
+T20	COUNTRY 561 567	Россия
+T21	DATE 599 612	сентябрьского
+T22	EVENT 613 624	референдума
+T24	CITY 654 663	Запорожье
+T25	COUNTRY 696 706	украинских
+T26	ORGANIZATION 707 710	сил
+T33	FAC 26 42	электроснабжение
+T34	EVENT 43 55	после аварии
+R1	TAKES_PLACE_IN Arg1:T34 Arg2:T0	
+R2	USES Arg1:T0 Arg2:T33	
+R3	USES Arg1:T2 Arg2:T1	
+T3	FAC 141 166	критически важные объекты
+R4	HEADQUARTERED_IN Arg1:T3 Arg2:T2	
+R5	HEADQUARTERED_IN Arg1:T4 Arg2:T2	
+T35	NEWS_SOURCE 176 206	заявили в администрации города
+T6	FAC 267 293	критически важных объектов
+T36	FAC 333 349	электроснабжения
+T8	EVENT 374 392	Без света остались
+T37	EVENT 366 372	взрыва
+R6	SUBEVENT_OF Arg1:T37 Arg2:T8	
+T38	BOROUGH 393 403	Микрорайон
+R7	TAKES_PLACE_IN Arg1:T8 Arg2:T38	
+R8	TAKES_PLACE_IN Arg1:T8 Arg2:T9	
+R9	TAKES_PLACE_IN Arg1:T8 Arg2:T10	
+T11	BOROUGH 428 438	Микрорайон
+T12	FAC 447 475	многоэтажной жилой застройки
+T13	LOCATION 476 501	к северу от центра города
+R10	HEADQUARTERED_IN Arg1:T12 Arg2:T13	
+T14	REGION 540 559	Запорожской области
+R11	OWNERSHIP Arg1:T20 Arg2:T16	
+R12	DATE_TAKES_PLACE_ON Arg1:T22 Arg2:T21	
+T17	EVENT 568 588	присоединила область
+R13	ORGANIZES Arg1:T20 Arg2:T17	
+R14	SUBEVENT_OF Arg1:T22 Arg2:T17	
+R15	OWNERSHIP Arg1:T25 Arg2:T24	
+R16	OWNERSHIP Arg1:T25 Arg2:T26	

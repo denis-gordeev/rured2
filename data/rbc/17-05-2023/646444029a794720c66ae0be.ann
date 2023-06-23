@@ -1,0 +1,68 @@
+T0	COUNTRY 11 20	китайским
+T1	FAC 21 38	рыболовным судном
+T3	COUNTRY 69 78	Китайское
+T4	FAC 79 95	рыболовное судно
+T8	QUANTITY 184 186	39
+T9	GROUP 187 202	членами экипажа
+T10	NEWS_SOURCE 212 225	сообщило CCTV
+T11	ORGANIZATION 221 225	CCTV
+T12	QUANTITY 250 252	17
+T13	COUNTRY 264 269	Китая
+T14	QUANTITY 275 277	17
+T15	COUNTRY 280 289	Индонезии
+T16	QUANTITY 292 298	пятеро
+T17	COUNTRY 302 310	Филиппин
+T18	PROFESSION 350 355	Глава
+T19	COUNTRY 356 359	КНР
+T20	PERSON 360 371	Си Цзиньпин
+T22	DATE 447 455	В апреле
+T23	COUNTRY 456 466	российское
+T26	CITY 498 510	Владивостока
+T28	COUNTRY 532 546	южнокорейского
+T29	CITY 554 560	Ульсан
+T30	PROFESSION 562 569	Капитан
+T35	CITY 653 659	Пусана
+T40	FAC 715 722	корабля
+T41	QUANTITY 736 738	21
+T42	QUANTITY 742 744	25
+T43	GROUP 745 759	членов экипажа
+T44	QUANTITY 761 765	двое
+T45	DISEASE 782 794	легкие ожоги
+T46	QUANTITY 796 803	Четверо
+T2	QUANTITY 39 41	39
+T50	EVENT 6 8	ЧП
+T51	EVENT 39 67	39 человек пропали без вести
+R1	SUBEVENT_OF Arg1:T51 Arg2:T50	
+R2	OWNERSHIP Arg1:T0 Arg2:T1	
+R3	OWNERSHIP Arg1:T3 Arg2:T4	
+T5	LOCATION 112 147	центральной части Индийского океана
+T6	EVENT 79 109	рыболовное судно перевернулось
+R4	WORKPLACE Arg1:T9 Arg2:T3	
+T7	GROUP 230 249	пропавших без вести
+R5	ORIGINS_FROM Arg1:T7 Arg2:T13	
+R6	ORIGINS_FROM Arg1:T7 Arg2:T17	
+R7	ORIGINS_FROM Arg1:T7 Arg2:T15	
+T47	EVENT 312 348	Ведутся поисково-спасательные работы
+R8	WORKPLACE Arg1:T20 Arg2:T19	
+R9	WORKS_AS Arg1:T20 Arg2:T18	
+T21	GROUP 390 422	дополнительные спасательные силы
+R10	ORIGINS_FROM Arg1:T21 Arg2:T19	
+T24	FAC 467 494	рыболовецкое судно «Калтан»
+R11	OWNERSHIP Arg1:T23 Arg2:T24	
+R12	OWNERSHIP Arg1:T28 Arg2:T29	
+R13	OWNERSHIP Arg1:T23 Arg2:T26	
+T25	EVENT 456 521	российское рыболовецкое судно «Калтан» из Владивостока загорелось
+R14	DATE_TAKES_PLACE_ON Arg1:T25 Arg2:T22	
+R15	TAKES_PLACE_IN Arg1:T25 Arg2:T29	
+T27	EVENT 583 604	об аварийной ситуации
+T31	LOCATION 605 624	в Корейском проливе
+T32	CARDINAL 637 642	60 км
+T33	LOCATION 643 652	восточнее
+R16	TAKES_PLACE_IN Arg1:T27 Arg2:T35	
+T34	GROUP 814 834	пропавшими без вести
+T36	EVENT 836 850	Пожар потушили
+T37	REGION 671 686	Дальневосточной
+T38	ORGANIZATION 687 711	транспортной прокуратуры
+R17	HEADQUARTERED_IN Arg1:T38 Arg2:T37	
+R18	MEMBER Arg1:T34 Arg2:T43	
+T39	NEWS_SOURCE 661 711	По данным Дальневосточной транспортной прокуратуры

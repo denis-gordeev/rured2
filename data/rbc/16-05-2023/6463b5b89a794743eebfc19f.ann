@@ -1,0 +1,37 @@
+T0	COUNTRY 0 10	Российский
+T1	PROFESSION 11 21	губернатор
+T2	PERSON 30 39	Лукашенко
+T3	PROFESSION 52 62	Губернатор
+T4	ORGANIZATION 63 75	Владимирской
+T5	REGION 76 83	области
+T6	COUNTRY 84 90	России
+T7	PERSON 91 107	Александр Авдеев
+T8	PROFESSION 116 126	президенту
+T9	COUNTRY 127 137	Белоруссии
+T10	PERSON 138 172	Александру Лукашенко владимирского
+T11	EVENT 203 215	белорусскому
+T12	NEWS_SOURCE 223 231	телеграм
+T13	EVENT 232 237	канал
+T14	EVENT 239 250	Пул Первого
+T15	ORGANIZATION 260 272	владимирский
+T16	COUNTRY 299 303	СССР
+T17	EVENT 335 341	Авдеев
+T18	EVENT 354 361	визитом
+T19	CITY 364 370	Минске
+T20	PERSON 390 399	Лукашенко
+T21	CITY 461 482	Владимирской областью
+T22	NEWS_SOURCE 484 498	Авдеев отметил
+T23	REGION 524 544	Владимирской области
+T24	COUNTRY 547 557	Белоруссии
+T25	ECONOMIC_SECTOR 581 595	промышленности
+T26	ECONOMIC_SECTOR 598 617	сельского хозяйства
+T27	PROFESSION 671 680	Президент
+T28	COUNTRY 681 691	Белоруссии
+T29	GROUP 713 752	представителем иностранного государства
+T30	EVENT 753 757	поле
+T31	CARDINAL 821 845	6463b5b89a794743eebfc19f
+T32	ORGANIZATION 847 850	Tue
+T33	CARDINAL 852 854	16
+T34	DATE 859 863	2023
+T35	CARDINAL 864 866	20
+T36	MONEY 867 869	46

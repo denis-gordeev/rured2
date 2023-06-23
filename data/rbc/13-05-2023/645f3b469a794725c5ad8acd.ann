@@ -1,0 +1,52 @@
+T0	ORGANIZATION 6 16	парламента
+T1	PROFESSION 0 16	Глава парламента
+T2	NEWS_SOURCE 0 29	Глава парламента Крыма заявил
+T3	GPE 45 50	Киева
+T4	COUNTRY 85 95	украинских
+T5	FAC 96 99	сил
+T6	GPE 136 141	Киева
+T7	CARDINAL 145 150	одной
+T8	ORGANIZATION 168 175	авантюр
+T9	GPE 177 183	Запада
+T10	ORGANIZATION 223 233	парламента
+T11	PROFESSION 217 233	глава парламента
+T12	NEWS_SOURCE 210 261	заявил глава парламента Крыма Владимир Константинов
+T13	PERSON 240 261	Владимир Константинов
+T14	NEWS_SOURCE 263 269	По его
+T15	GROUP 324 340	западным странам
+T16	ORGANIZATION 362 365	РБК
+T17	FAC 404 413	инфоповод
+T18	NEWS_SOURCE 567 586	сказал Константинов
+T19	PERSON 574 586	Константинов
+T20	NEWS_SOURCE 598 611	«РИА Новости»
+T21	ORGANIZATION 599 611	РИА Новости»
+T22	PROFESSION 615 624	Президент
+T23	COUNTRY 625 632	Украины
+T24	NEWS_SOURCE 615 651	Президент Украины Владимир Зеленский
+T25	PERSON 633 651	Владимир Зеленский
+T26	DATE 652 666	в конце апреля
+T27	NEWS_SOURCE 667 673	заявил
+T28	GPE 679 683	Киев
+T29	REGION 719 723	Крым
+T30	GPE 767 775	западных
+T31	PERSON 788 800	Константинов
+T32	NEWS_SOURCE 788 806	Константинов тогда
+T33	GROUP 849 853	Член
+T34	NEWS_SOURCE 875 886	Запорожской
+T35	ORGANIZATION 854 894	совета администрации Запорожской области
+T36	PERSON 895 909	Владимир Рогов
+T37	GPE 923 927	Киев
+T38	LOCATION 981 995	Азовского моря
+T39	REGION 1075 1079	Крым
+T40	DATE 1094 1107	в конце марта
+T41	PROFESSION 1109 1118	Президент
+T42	PERSON 1119 1133	Владимир Путин
+T43	COUNTRY 1146 1152	Россия
+T44	ORGANIZATION 1190 1194	силы
+T45	COUNTRY 1219 1229	российской
+T46	PERSON 1300 1303	Sat
+T47	PERCENT 1305 1307	13
+T48	CARDINAL 1305 1307	13
+T49	PERCENT 1312 1319	2023 12
+T50	CARDINAL 1317 1319	12
+T51	CARDINAL 1320 1322	10

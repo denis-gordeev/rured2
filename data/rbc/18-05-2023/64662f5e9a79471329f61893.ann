@@ -1,0 +1,73 @@
+T0	PERSON 3 22	Бориса Гребенщикова
+T1	PROFESSION 58 73	армии
+
+Музыкант
+T2	PROFESSION 76 81	лидер
+T4	PERSON 100 117	Борис Гребенщиков
+T6	COUNTRY 173 183	российской
+T7	ORGANIZATION 184 189	армии
+T13	CITY 272 278	Москвы
+T14	DATE 307 313	18 мая
+T15	DATE 315 321	сейчас
+T16	PROFESSION 338 343	судьи
+T17	PERSON 345 356	Гребенщиков
+T18	COUNTRY 390 397	Украине
+T19	COUNTRY 427 433	России
+T22	WORK_OF_ART 554 560	романс
+T25	DATE 612 629	В марте 2022 года
+T26	PERSON 630 641	Гребенщиков
+T28	COUNTRY 689 695	России
+T30	DATE 717 732	Летом 2022 года
+T32	COUNTRY 744 756	израильскому
+T35	PERSON 775 786	Гребенщиков
+T39	CITY 845 852	Берлине
+T40	CARDINAL 870 877	десятки
+T41	PROFESSION 878 890	исполнителей
+T43	CITY 911 918	Берлине
+T46	EVENT 944 955	мероприятие
+T49	COUNTRY 1015 1022	Украине
+T51	COUNTRY 1076 1083	Украине
+T52	PERSON 1191 1202	Гребенщиков
+T53	NEWS_SOURCE 1183 1206	говорил Гребенщиков РБК
+T54	ORGANIZATION 1203 1206	РБК
+T66	ORGANIZATION 58 63	армии
+T67	EVENT 23 63	составили протокол о дискредитации армии
+R1	EVENT_TAKES_PART_IN Arg1:T0 Arg2:T67	
+T68	PROFESSION 65 73	Музыкант
+T3	GROUP 82 99	группы «Аквариум»
+T5	LAW 191 207	ст. 20.3.3, ч. 1
+T8	CRIME 159 189	дискредитации российской армии
+R2	EVENT_TAKES_PART_IN Arg1:T4 Arg2:T8	
+R3	MEMBER Arg1:T4 Arg2:T3	
+R4	WORKS_AS Arg1:T4 Arg2:T2	
+R5	WORKS_AS Arg1:T4 Arg2:T68	
+T9	ORGANIZATION 249 254	судов
+T10	NEWS_SOURCE 210 278	информация о деле размещена на портале судов общей юрисдикции Москвы
+R6	DATE_TAKES_PLACE_ON Arg1:T8 Arg2:T14	
+T11	EVENT 398 445	выступал с критикой действий России в конфликте
+R7	ORGANIZES Arg1:T17 Arg2:T11	
+T12	EVENT 370 386	военных действий
+R8	TAKES_PLACE_IN Arg1:T12 Arg2:T18	
+R9	SUBEVENT_OF Arg1:T12 Arg2:T11	
+T50	NEWS_SOURCE 1025 1049	Однако позднее он заявил
+T44	LOCATION 919 942	у Бранденбургских ворот
+T45	CURRENCY 975 976	€
+T47	QUANTITY 976 983	12 млн.
+T48	MONEY 975 983	€12 млн.
+T20	PERSON 488 500	Гребенщикова
+T21	PERSON 561 583	Александра Вертинского
+T23	EVENT 453 476	начала военной операции
+T24	NEWS_SOURCE 447 516	После начала военной операции в соцсетях Гребенщикова появилось видео
+T55	NEWS_SOURCE 612 649	В марте 2022 года Гребенщиков объявил
+T27	GROUP 675 686	«Аквариума»
+R10	MEMBER Arg1:T26 Arg2:T27	
+T29	EVENT 642 695	объявил об отмене всех концертов «Аквариума» в России
+R11	ORGANIZES Arg1:T26 Arg2:T29	
+T31	ORDINAL 758 766	Девятому
+T33	EVENT 818 842	фестивале Sound of Peace
+R12	TAKES_PLACE_IN Arg1:T33 Arg2:T39	
+T34	EVENT 803 814	выступлении
+R13	SUBEVENT_OF Arg1:T33 Arg2:T34	
+T36	NEWS_SOURCE 733 774	в интервью израильскому «Девятому каналу»
+T37	EVENT 1063 1096	деньги лично Украине не передавал
+R14	ORGANIZES Arg1:T35 Arg2:T37	

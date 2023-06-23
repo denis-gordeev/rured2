@@ -1,0 +1,38 @@
+T0	EVENT 28 35	выборах
+T1	COUNTRY 38 44	Турции
+T3	COUNTRY 55 61	Турции
+T10	PROFESSION 235 240	глава
+T13	PERSON 274 294	Реджеп Тайип Эрдоган
+T14	ORDINAL 309 315	первом
+T16	GROUP 331 341	кандидатов
+T17	PERCENT 357 367	больше 50%
+T18	ORDINAL 457 463	второй
+T19	DATE 484 490	28 мая
+T23	ORGANIZATION 540 554	компании Konda
+T30	CARDINAL 599 601	35
+T31	PERSON 613 620	Эрдоган
+R1	TAKES_PLACE_IN Arg1:T0 Arg2:T1	
+T2	PROFESSION 105 122	президента страны
+T4	EVENT 94 122	на выборах президента страны
+R2	TAKES_PLACE_IN Arg1:T4 Arg2:T3	
+T5	GROUP 124 144	Главными кандидатами
+T6	PERSON 154 173	Кемаль Кылычдароглу
+T7	ORGANIZATION 177 208	Республиканской народной партии
+R3	MEMBER Arg1:T6 Arg2:T7	
+T8	PROFESSION 211 232	действующий президент
+T9	ORGANIZATION 241 273	Партии справедливости и развития
+R4	WORKPLACE Arg1:T10 Arg2:T9	
+R5	MEMBER Arg1:T13 Arg2:T9	
+R6	WORKS_AS Arg1:T13 Arg2:T8	
+R7	MEMBER Arg1:T6 Arg2:T5	
+R8	MEMBER Arg1:T13 Arg2:T5	
+T11	EVENT 457 467	второй тур
+R9	DATE_TAKES_PLACE_ON Arg1:T11 Arg2:T19	
+T12	EVENT 309 320	первом туре
+T15	NEWS_SOURCE 493 554	По данным исследования общественного мнения от компании Konda
+T20	DATE 569 576	6–7 мая
+T21	PERCENT 628 633	43,7%
+T22	PERSON 645 657	Кылычдароглу
+T24	PERCENT 660 665	49,3%
+T25	QUANTITY 583 587	3480
+T26	REGION 602 611	провинций

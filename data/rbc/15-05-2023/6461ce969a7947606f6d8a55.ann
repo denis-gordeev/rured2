@@ -1,0 +1,36 @@
+T0	COUNTRY 0 8	Молдавия
+T1	ORGANIZATION 19 49	Межпарламентской ассамблеи СНГ
+T2	COUNTRY 51 59	Молдавия
+T3	GROUP 76 92	Межпарламентской
+T4	ORGANIZATION 76 106	Межпарламентской ассамблеи СНГ
+T5	PROFESSION 116 122	спикер
+T6	ORGANIZATION 123 133	парламента
+T7	NEWS_SOURCE 108 152	сообщил спикер парламента страны Игорь Гросу
+T8	PERSON 141 152	Игорь Гросу
+T9	PROFESSION 159 171	председатель
+T10	ORGANIZATION 172 182	парламента
+T11	REGION 241 251	Республики
+T12	GPE 241 259	Республики Молдова
+T13	ORGANIZATION 263 293	Межпарламентской ассамблеи СНГ
+T14	ORGANIZATION 319 328	NewsMaker
+T15	NEWS_SOURCE 331 346	По словам Гросу
+T16	PERSON 341 346	Гросу
+T17	GROUP 405 436	представителями правящей Партии
+T18	PROFESSION 464 475	президентом
+T19	EVENT 476 487	Майей Санду
+T20	GROUP 490 505	представителями
+T21	ORGANIZATION 506 519	правительства
+T22	ORGANIZATION 522 525	СНГ
+T23	COUNTRY 555 562	Россией
+T24	ORDINAL 595 600	одним
+T25	EVENT 602 620	столом переговоров
+T26	PROFESSION 632 638	спикер
+T27	NEWS_SOURCE 625 649	заявил спикер парламента
+T28	ORGANIZATION 639 649	парламента
+T29	COUNTRY 685 692	Украине
+T30	GPE 719 722	СНГ
+T31	GROUP 758 769	сообществом
+T32	CARDINAL 823 825	15
+T33	CARDINAL 834 858	6461ce969a7947606f6d8a55
+T34	CARDINAL 865 867	15
+T35	CARDINAL 880 882	36

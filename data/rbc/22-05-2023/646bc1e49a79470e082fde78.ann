@@ -1,0 +1,85 @@
+T0	PROFESSION 8 18	губернатор
+T1	ECONOMIC_SECTOR 63 80	обстрела
+
+Поселок
+T5	COUNTRY 179 186	Украины
+T13	DATE 372 378	22 мая
+T17	PERSON 430 447	Александр Богомаз
+T18	REGION 450 470	Белгородской области
+T20	PERSON 471 487	Вячеслав Гладков
+T21	REGION 560 567	области
+T24	CARDINAL 653 656	два
+T26	CARDINAL 752 756	один
+T27	FAC 757 766	жилой дом
+T28	FAC 779 791	домовладение
+T29	FAC 794 817	хозяйственные постройки
+T31	PERSON 827 834	Богомаз
+T36	COUNTRY 910 920	украинские
+T37	GROUP 921 931	диверсанты
+T39	NEWS_SOURCE 933 956	По словам главы региона
+T45	FAC 1086 1092	школах
+T46	REGION 1093 1100	области
+T48	EVENT 1125 1152	церемонии последнего звонка
+T54	REGION 0 7	Курский
+R1	WORKPLACE Arg1:T0 Arg2:T54	
+T55	NEWS_SOURCE 0 26	Курский губернатор сообщил
+T56	EVENT 30 71	отключении света в поселке из-за обстрела
+R2	TAKES_PLACE_IN Arg1:T56 Arg2:T54	
+T2	VILLAGE 73 97	Поселок Краснооктябрский
+T3	BOROUGH 98 118	в Глушковском районе
+T4	REGION 119 134	Курской области
+R3	OWNERSHIP Arg1:T4 Arg2:T3	
+T57	EVENT 153 167	после обстрела
+T58	EVENT 135 152	остался без света
+R4	SUBEVENT_OF Arg1:T57 Arg2:T58	
+R5	ORGANIZES Arg1:T5 Arg2:T57	
+R6	TAKES_PLACE_IN Arg1:T58 Arg2:T2	
+R7	TAKES_PLACE_IN Arg1:T57 Arg2:T2	
+T6	PROFESSION 195 213	губернатор региона
+T7	PERSON 214 229	Роман Старовойт
+R8	WORKS_AS Arg1:T7 Arg2:T6	
+T8	NEWS_SOURCE 188 229	заявил губернатор региона Роман Старовойт
+T9	GROUP 267 284	аварийная бригада
+T10	EVENT 294 331	приступила к ремонту электроснабжения
+R9	EVENT_TAKES_PART_IN Arg1:T9 Arg2:T10	
+R10	TAKES_PLACE_IN Arg1:T10 Arg2:T2	
+T11	NEWS_SOURCE 336 370	написал он в своем телеграм-канале
+T12	EVENT 379 391	об обстрелах
+R11	DATE_TAKES_PLACE_ON Arg1:T12 Arg2:T13	
+T14	PROFESSION 401 412	губернаторы
+T15	REGION 413 429	Брянской области
+R12	WORKPLACE Arg1:T20 Arg2:T18	
+R13	WORKPLACE Arg1:T17 Arg2:T15	
+T16	NEWS_SOURCE 392 487	сообщали губернаторы Брянской области Александр Богомаз и Белгородской области Вячеслав Гладков
+T19	GROUP 537 556	диверсионной группы
+T59	EVENT 514 556	проникновении в регион диверсионной группы
+R14	TAKES_PLACE_IN Arg1:T59 Arg2:T18	
+T22	EVENT 568 610	ввели режим контртеррористической операции
+R15	TAKES_PLACE_IN Arg1:T22 Arg2:T21	
+T23	REGION 613 631	В Брянской области
+T49	EVENT 632 661	обстрелу подверглись два села
+R16	TAKES_PLACE_IN Arg1:T49 Arg2:T23	
+T25	VILLAGE 664 674	Соловьевка
+T60	VILLAGE 677 685	Хоромное
+R17	OWNERSHIP Arg1:T23 Arg2:T25	
+R18	OWNERSHIP Arg1:T23 Arg2:T60	
+T50	GROUP 693 708	местных жителей
+T30	NEWS_SOURCE 819 834	уточнял Богомаз
+T32	TIME 836 840	Днем
+T51	DATE 841 847	22 мая
+T33	REGION 880 900	Белгородской области
+T34	CITY 850 879	Грайворонский городской округ
+R19	ORIGINS_FROM Arg1:T37 Arg2:T36	
+T35	EVENT 901 931	проникли украинские диверсанты
+R20	TAKES_PLACE_IN Arg1:T35 Arg2:T33	
+R21	OWNERSHIP Arg1:T33 Arg2:T34	
+R22	DATE_TAKES_PLACE_ON Arg1:T35 Arg2:T51	
+T38	PROFESSION 943 956	главы региона
+T40	QUANTITY 977 983	восемь
+T41	DISEASE 1001 1008	ранения
+T42	EVENT 958 1008	в результате атаки восемь человек получили ранения
+R23	TAKES_PLACE_IN Arg1:T42 Arg2:T33	
+T43	GROUP 1036 1062	большинство жителей округа
+T44	EVENT 1101 1122	торжественные линейки
+R24	TAKES_PLACE_IN Arg1:T44 Arg2:T45	
+R25	TAKES_PLACE_IN Arg1:T48 Arg2:T45	

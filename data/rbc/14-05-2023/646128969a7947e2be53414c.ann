@@ -1,0 +1,65 @@
+T0	EVENT 0 9	Дипломаты
+T1	CITY 44 52	Антальей
+T2	CITY 55 62	Москвой
+T5	COUNTRY 88 94	России
+T6	CITY 97 104	Анталье
+T8	EVENT 161 180	ремонтными работами
+T9	NEWS_SOURCE 182 195	сообщает ТАСС
+T10	ORGANIZATION 191 195	ТАСС
+T11	NEWS_SOURCE 197 217	По словам дипломатов
+T12	PROFESSION 207 217	дипломатов
+T15	CITY 260 268	Антальей
+T16	CITY 271 278	Москвой
+T21	CITY 422 429	Антальи
+T23	ORGANIZATION 482 491	агентства
+T24	NEWS_SOURCE 471 498	Собеседник агентства сказал
+T25	DATE 504 509	вчера
+T26	CARDINAL 526 530	один
+T27	COUNTRY 541 551	российских
+T28	GROUP 552 560	туристов
+T30	TIME 612 619	полчаса
+T31	DATE 621 627	14 мая
+T35	CITY 717 725	Антальей
+T36	CITY 728 735	Москвой
+T40	CARDINAL 804 807	три
+T44	GROUP 861 870	пассажиры
+T45	TIME 893 898	Утром
+T46	ORGANIZATION 900 908	Аэрофлот
+T48	CITY 945 953	Стамбула
+T50	CITY 956 962	Москву
+T54	GROUP 1044 1054	пассажиров
+T60	FAC 1145 1166	аэропорта Шереметьево
+T3	NEWS_SOURCE 0 18	Дипломаты сообщили
+T4	ORGANIZATION 64 87	Генеральное консульство
+R1	HEADQUARTERED_IN Arg1:T4 Arg2:T6	
+R2	OWNERSHIP Arg1:T5 Arg2:T4	
+T7	FAC 129 140	в аэропорту
+T71	COUNTRY 141 150	турецкого
+R3	TAKES_PLACE_IN Arg1:T8 Arg2:T7	
+T13	FAC 341 350	аэропорту
+T14	FAC 410 421	в аэропорту
+T17	FAC 381 409	на взлетно-посадочной полосе
+R4	OWNERSHIP Arg1:T14 Arg2:T17	
+R5	HEADQUARTERED_IN Arg1:T14 Arg2:T21	
+T18	ORGANIZATION 457 468	консульства
+T19	PROFESSION 443 456	представитель
+R6	WORKPLACE Arg1:T19 Arg2:T18	
+T20	NEWS_SOURCE 434 468	объяснил представитель консульства
+T22	EVENT 330 350	Задержки в аэропорту
+R7	TAKES_PLACE_IN Arg1:T22 Arg2:T21	
+R8	ORIGINS_FROM Arg1:T28 Arg2:T27	
+T29	NEWS_SOURCE 628 698	телеграм-канал «Раньше всех. Ну почти» со ссылкой на подписчиков писал
+T32	EVENT 704 710	полеты
+R9	EVENT_TAKES_PART_IN Arg1:T35 Arg2:T32	
+R10	EVENT_TAKES_PART_IN Arg1:T36 Arg2:T32	
+T33	NEWS_SOURCE 1136 1177	На сайте аэропорта Шереметьево сообщается
+T34	NEWS_SOURCE 770 786	По данным канала
+T37	ORGANIZATION 814 843	авиакомпании Turkish Airlines
+T38	FAC 882 892	аэропорту.
+R11	USES Arg1:T44 Arg2:T38	
+T39	EVENT 804 857	три рейса авиакомпании Turkish Airlines были отменены
+T41	TIME 987 998	в 04:00 мск
+T42	ORGANIZATION 1125 1134	агентству
+T43	ORGANIZATION 1110 1124	в пресс-службе
+T47	NEWS_SOURCE 1102 1134	сказали в пресс-службе агентству
+R12	OWNERSHIP Arg1:T46 Arg2:T43	

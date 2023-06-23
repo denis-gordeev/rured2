@@ -1,0 +1,99 @@
+T0	PERSON 0 7	Гладков
+T3	VILLAGE 47 56	Борисовке
+T4	PERSON 47 70	Борисовке
+
+Беспилотники
+T5	CARDINAL 81 84	два
+T6	REGION 117 137	Белгородской области
+T11	PERSON 184 200	Вячеслав Гладков
+T14	WEAPON 262 266	БПЛА
+T16	PERSON 362 369	Гладков
+T19	WEAPON 428 432	дрон
+T22	NEWS_SOURCE 503 524	добавил глава региона
+T25	WEAPON 582 595	квадракоптера
+T26	FAC 650 656	здания
+T28	NEWS_SOURCE 702 717	уточнил Гладков
+T29	PERSON 710 717	Гладков
+T35	VILLAGE 831 840	Антоновка
+T37	VILLAGE 863 870	Глотово
+T38	VILLAGE 872 880	Замостье
+T42	COUNTRY 935 945	украинская
+T44	NEWS_SOURCE 983 1006	По словам главы региона
+T49	CITY 1167 1177	Грайворона
+T55	COUNTRY 1312 1319	Украины
+T58	ORGANIZATION 1344 1351	Twitter
+T59	GPE 1357 1361	Киев
+T1	WEAPON 25 31	дронов
+T65	NEWS_SOURCE 0 15	Гладков сообщил
+T66	EVENT 19 31	атаке дронов
+T2	CITY 32 44	в Грайвороне
+R1	TAKES_PLACE_IN Arg1:T66 Arg2:T2	
+R2	TAKES_PLACE_IN Arg1:T66 Arg2:T3	
+T67	WEAPON 58 70	Беспилотники
+T68	FAC 85 95	жилых дома
+T69	CITY 96 114	в городе Грайворон
+R3	HEADQUARTERED_IN Arg1:T68 Arg2:T69	
+R4	OWNERSHIP Arg1:T6 Arg2:T69	
+T70	EVENT 58 95	Беспилотники атаковали два жилых дома
+R5	TAKES_PLACE_IN Arg1:T70 Arg2:T69	
+T7	PROFESSION 165 183	губернатор региона
+R6	WORKS_AS Arg1:T11 Arg2:T7	
+T8	NEWS_SOURCE 157 218	сообщил губернатор региона Вячеслав Гладков в телеграм-канале
+T9	WEAPON 241 259	взрывных устройств
+T10	GROUP 331 349	оперативные службы
+T12	NEWS_SOURCE 354 369	написал Гладков
+T13	VILLAGE 383 400	поселок Борисовка
+T15	EVENT 407 422	подвергся атаке
+R7	TAKES_PLACE_IN Arg1:T15 Arg2:T13	
+T17	WEAPON 441 451	взрывчатку
+T18	FAC 455 478	административное здание
+T20	PROFESSION 511 524	глава региона
+T21	EVENT 428 478	дрон сбросил взрывчатку на административное здание
+R8	TAKES_PLACE_IN Arg1:T21 Arg2:T13	
+T23	TIME 526 533	Вечером
+T71	DATE 534 540	22 мая
+T72	FAC 544 567	административное здание
+T24	VILLAGE 568 579	в Борисовке
+T73	CARDINAL 614 618	одно
+T74	WEAPON 619 638	взрывное устройство
+R9	HEADQUARTERED_IN Arg1:T72 Arg2:T24	
+T75	EVENT 580 638	с квадракоптера было сброшено еще одно взрывное устройство
+R10	TAKES_PLACE_IN Arg1:T75 Arg2:T24	
+R11	DATE_TAKES_PLACE_ON Arg1:T75 Arg2:T71	
+T27	REGION 720 740	Белгородская область
+T30	DATE 749 755	22 мая
+T31	EVENT 756 785	подверглась нескольким атакам
+R12	DATE_TAKES_PLACE_ON Arg1:T31 Arg2:T30	
+R13	TAKES_PLACE_IN Arg1:T31 Arg2:T27	
+T32	DATE 787 795	За сутки
+T33	EVENT 796 828	под обстрел попали несколько сел
+T34	VILLAGE 842 849	Козинка
+T36	VILLAGE 851 861	Гора-Подол
+R14	TAKES_PLACE_IN Arg1:T33 Arg2:T35	
+R15	DATE_TAKES_PLACE_ON Arg1:T33 Arg2:T32	
+R16	TAKES_PLACE_IN Arg1:T33 Arg2:T34	
+R17	TAKES_PLACE_IN Arg1:T33 Arg2:T36	
+R18	TAKES_PLACE_IN Arg1:T33 Arg2:T37	
+R19	TAKES_PLACE_IN Arg1:T33 Arg2:T38	
+T76	GROUP 946 981	диверсионно-разведывательная группа
+T39	CITY 896 925	Грайворонский городской округ
+T40	EVENT 926 981	проникла украинская диверсионно-разведывательная группа
+R20	TAKES_PLACE_IN Arg1:T40 Arg2:T39	
+T41	PROFESSION 993 1006	главы региона
+T43	QUANTITY 1031 1037	восемь
+T45	DISEASE 1055 1062	ранения
+T46	EVENT 1086 1089	КТО
+T47	EVENT 1091 1121	контртеррористической операции
+T48	REGION 1064 1073	В области
+R21	TAKES_PLACE_IN Arg1:T46 Arg2:T48	
+T77	GROUP 1124 1147	Большая часть населения
+T50	FAC 1199 1207	В школах
+T51	EVENT 1216 1247	отменили очные последние звонки
+R22	TAKES_PLACE_IN Arg1:T51 Arg2:T50	
+R23	HEADQUARTERED_IN Arg1:T50 Arg2:T49	
+R24	ORIGINS_FROM Arg1:T77 Arg2:T49	
+T56	PERSON 1320 1334	Михаил Подоляк
+T52	PROFESSION 1286 1311	Советник офиса президента
+R25	WORKPLACE Arg1:T56 Arg2:T55	
+R26	WORKS_AS Arg1:T56 Arg2:T52	
+T53	NEWS_SOURCE 1286 1351	Советник офиса президента Украины Михаил Подоляк заявил в Twitter

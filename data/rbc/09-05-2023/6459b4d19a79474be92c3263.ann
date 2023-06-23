@@ -1,0 +1,30 @@
+T0	NEWS_SOURCE 0 13	«РИА Новости»
+T1	ORGANIZATION 1 13	РИА Новости»
+T2	COUNTRY 31 41	украинских
+T3	FAC 42 45	сил
+T4	LOCATION 60 66	берегу
+T5	ORGANIZATION 67 73	Днепра
+T6	COUNTRY 75 85	Российские
+T7	GROUP 86 93	военные
+T8	COUNTRY 110 120	украинских
+T9	GROUP 121 132	диверсантов
+T10	FAC 133 143	высадиться
+T11	FAC 147 165	левый берег Днепра
+T12	ORGANIZATION 159 165	Днепра
+T13	CITY 168 178	Херсонской
+T14	EVENT 179 186	области
+T15	ORGANIZATION 197 209	РИА Новости»
+T16	NEWS_SOURCE 188 218	сообщил «РИА Новости» источник
+T17	NEWS_SOURCE 251 282	По словам собеседника агентства
+T18	COUNTRY 284 294	украинская
+T19	NEWS_SOURCE 284 294	украинская
+T20	LOCATION 353 359	берегу
+T21	ORGANIZATION 360 366	Днепра
+T22	FAC 360 366	Днепра
+T23	FAC 368 376	севернее
+T24	FAC 384 390	Алешки
+T25	CARDINAL 395 399	семи
+T26	FAC 400 418	скоростных катерах
+T27	CARDINAL 473 497	6459b4d19a79474be92c3263
+T28	DATE 511 515	2023
+T29	CARDINAL 522 526	10 +

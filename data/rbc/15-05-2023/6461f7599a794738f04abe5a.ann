@@ -1,0 +1,38 @@
+T0	NEWS_SOURCE 8 18	губернатор
+T1	PROFESSION 8 18	губернатор
+T2	CITY 56 73	Краснооктябрьский
+T3	PERSON 74 86	Глушковского
+T4	REGION 94 109	Курской области
+T5	COUNTRY 132 139	Украины
+T6	CARDINAL 155 161	восемь
+T7	PROFESSION 180 190	губернатор
+T8	NEWS_SOURCE 172 206	сообщил губернатор Роман Старовойт
+T9	PERSON 191 206	Роман Старовойт
+T10	ORGANIZATION 197 206	Старовойт
+T11	NEWS_SOURCE 208 221	По его словам
+T12	FAC 246 257	фельдшерско
+T13	PRODUCT 257 275	-акушерском пункте
+T14	PRODUCT 297 303	стекла
+T15	CARDINAL 306 311	одном
+T16	GROUP 315 327	домовладений
+T17	CARDINAL 359 362	два
+T18	REGION 383 390	области
+T19	CITY 402 409	Красный
+T20	PERSON 410 416	Пахарь
+T21	NEWS_SOURCE 440 457	сообщал Старовойт
+T22	NEWS_SOURCE 459 472	По его словам
+T23	ECONOMIC_SECTOR 493 498	света
+T24	QUANTITY 508 527	порядка 600 человек
+T25	FAC 562 569	бригады
+T26	PROFESSION 583 593	губернатор
+T27	NEWS_SOURCE 583 610	губернатор также сообщал 11
+T28	DATE 608 614	11 мая
+T29	CARDINAL 623 627	пять
+T30	FAC 648 665	электроподстанцию
+T31	EVENT 709 713	селе
+T32	PERSON 714 721	Теткино
+T33	DATE 746 763	на следующий день
+T34	CARDINAL 797 821	6461f7599a794738f04abe5a
+T35	DATE 828 830	15
+T36	CARDINAL 840 842	12
+T37	CARDINAL 843 845	37

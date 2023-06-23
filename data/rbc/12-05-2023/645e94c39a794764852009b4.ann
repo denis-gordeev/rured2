@@ -1,0 +1,45 @@
+T1	CITY 30 46	Донецке
+
+Женщина
+T4	CITY 80 87	Донецке
+T7	PROFESSION 124 127	мэр
+T8	NEWS_SOURCE 116 151	сообщил мэр города Алексей Кулемзин
+T9	PERSON 135 151	Алексей Кулемзин
+T12	DATE 243 250	В марте
+T15	REGION 267 287	Белгородской области
+T17	ORGANIZATION 315 325	Росгвардии
+T18	CARDINAL 338 341	три
+T19	CITY 353 362	брянского
+T20	ORGANIZATION 363 368	СОБРа
+T21	PROFESSION 371 379	командир
+T22	GROUP 380 389	отделения
+T23	CARDINAL 392 396	двое
+T24	GROUP 397 403	бойцов
+T25	ORGANIZATION 426 431	ОМОНа
+T31	WEAPON 20 27	на мине
+T32	CITY 30 37	Донецке
+T33	EVENT 0 27	Женщина подорвалась на мине
+R1	TAKES_PLACE_IN Arg1:T33 Arg2:T32	
+T2	AGE 47 65	1960 года рождения
+T3	WEAPON 88 106	на мине «Лепесток»
+T5	PROFESSION 413 425	взрывотехник
+R2	WORKPLACE Arg1:T5 Arg2:T25	
+T6	PROFESSION 342 352	сотрудника
+R3	WORKPLACE Arg1:T6 Arg2:T20	
+R4	OWNERSHIP Arg1:T19 Arg2:T20	
+R5	WORKPLACE Arg1:T21 Arg2:T20	
+R6	WORKPLACE Arg1:T24 Arg2:T20	
+R7	WORKS_AS Arg1:T9 Arg2:T7	
+T26	EVENT 153 171	Инцидент произошел
+T10	BOROUGH 174 191	Петровском районе
+T11	STREET 203 220	улице Вельяминова
+R8	TAKES_PLACE_IN Arg1:T26 Arg2:T11	
+T27	EVENT 222 240	Женщина скончалась
+R9	TAKES_PLACE_IN Arg1:T27 Arg2:T11	
+T13	VILLAGE 253 264	села Сушаны
+T14	WEAPON 288 295	на мине
+T16	VEHICLE 308 314	машина
+T28	EVENT 288 325	на мине подорвалась машина Росгвардии
+R10	TAKES_PLACE_IN Arg1:T28 Arg2:T15	
+R11	DATE_TAKES_PLACE_ON Arg1:T28 Arg2:T12	
+T29	DISEASE 440 465	легкие осколочные ранения

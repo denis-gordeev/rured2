@@ -1,0 +1,70 @@
+T0	PROFESSION 0 10	Губернатор
+T1	NEWS_SOURCE 0 18	Губернатор сообщил
+T2	FAC 31 44	детского сада
+T3	REGION 49 65	Брянской области
+T5	COUNTRY 84 91	Украины
+T6	DATE 98 103	9 мая
+T10	REGION 140 156	Брянской области
+T11	CARDINAL 158 162	один
+T12	FAC 195 208	детского сада
+T19	PERSON 261 278	Александр Богомаз
+T20	DATE 281 288	Сегодня
+T23	ORGANIZATION 296 299	ВСУ
+T27	CARDINAL 375 379	Один
+T28	FAC 426 439	детского сада
+T30	FAC 534 550	электроснабжение
+T32	NEWS_SOURCE 578 591	По его словам
+T33	PROFESSION 593 607	военнослужащим
+T36	GROUP 634 648	представителям
+T39	PROFESSION 710 718	пожарных
+T40	CARDINAL 725 730	одним
+T43	PERSON 821 828	Богомаз
+T44	DATE 907 926	с октября 2022 года
+T47	VEHICLE 1062 1073	автомобилей
+T55	DATE 1148 1153	2 мая
+T56	CARDINAL 1185 1190	одном
+T57	FAC 1194 1206	домовладений
+R1	HEADQUARTERED_IN Arg1:T2 Arg2:T3	
+T61	EVENT 22 30	обстреле
+R2	TAKES_PLACE_IN Arg1:T61 Arg2:T2	
+T4	ORGANIZATION 67 91	Вооруженные силы Украины
+R3	OWNERSHIP Arg1:T5 Arg2:T4	
+T62	TIME 92 97	ночью
+T7	VILLAGE 115 129	село Курковичи
+T8	LOCATION 130 139	на западе
+T9	WEAPON 166 174	снарядов
+R4	OWNERSHIP Arg1:T10 Arg2:T7	
+R5	HEADQUARTERED_IN Arg1:T12 Arg2:T7	
+T13	PROFESSION 242 260	губернатор региона
+R6	WORKS_AS Arg1:T19 Arg2:T13	
+T14	NEWS_SOURCE 210 278	сообщил в своем телеграм-канале губернатор региона Александр Богомаз
+T15	TIME 289 295	в 5.30
+T16	VILLAGE 328 337	Курковичи
+T17	BOROUGH 338 373	Стародубского муниципального округа
+R7	OWNERSHIP Arg1:T17 Arg2:T16	
+T18	EVENT 296 327	ВСУ обстреляли населенный пункт
+R8	DATE_TAKES_PLACE_ON Arg1:T18 Arg2:T20	
+R9	TAKES_PLACE_IN Arg1:T18 Arg2:T16	
+R10	TAKES_PLACE_IN Arg1:T18 Arg2:T7	
+T21	WEAPON 383 391	снарядов
+T22	EVENT 525 550	Нарушено электроснабжение
+R11	TAKES_PLACE_IN Arg1:T22 Arg2:T28	
+T24	PROFESSION 563 576	глава региона
+T25	NEWS_SOURCE 555 576	написал глава региона
+T26	ORGANIZATION 608 631	пограничного управления
+R12	WORKPLACE Arg1:T33 Arg2:T26	
+T29	ORGANIZATION 649 670	местной администрации
+R13	WORKPLACE Arg1:T36 Arg2:T29	
+T31	WEAPON 731 739	снарядом
+T34	FAC 751 770	спортивная площадка
+T35	GROUP 790 808	оперативные службы
+T37	NEWS_SOURCE 813 828	добавил Богомаз
+T38	PERSON 1116 1123	Богомаз
+T41	VILLAGE 1101 1115	села Курковичи
+T42	EVENT 1089 1100	Об обстреле
+R14	TAKES_PLACE_IN Arg1:T42 Arg2:T41	
+R15	DATE_TAKES_PLACE_ON Arg1:T42 Arg2:T55	
+T45	NEWS_SOURCE 1116 1153	Богомаз в последний раз сообщал 2 мая
+T46	EVENT 1207 1219	возник пожар
+R16	DATE_TAKES_PLACE_ON Arg1:T46 Arg2:T55	
+R17	TAKES_PLACE_IN Arg1:T46 Arg2:T57	

@@ -1,0 +1,40 @@
+T0	DATE 0 1	В
+T1	CITY 2 13	Подмосковье
+T2	CARDINAL 14 19	около
+T3	FAC 20 27	складов
+T4	FAC 42 46	дрон
+T5	CITY 50 65	Солнечногорском
+T6	CITY 75 86	Подмосковье
+T7	GPE 75 86	Подмосковье
+T8	DATE 87 92	9 мая
+T9	ECONOMIC_SECTOR 99 106	упавший
+T10	FAC 107 118	беспилотник
+T11	ORGANIZATION 128 131	РБК
+T12	NEWS_SOURCE 128 167	РБК сообщил источник в региональном МВД
+T13	ORGANIZATION 151 167	региональном МВД
+T14	NEWS_SOURCE 170 189	подтвердил источник
+T15	ORGANIZATION 215 222	полиции
+T16	PERSON 224 228	Дрон
+T17	CITY 244 251	Радумля
+T18	CITY 254 284	городском округе Солнечногорск
+T19	FAC 302 309	складов
+T20	ORGANIZATION 331 344	ООО «Радумля»
+T21	CARDINAL 383 386	ста
+T22	ECONOMIC_SECTOR 410 421	беспилотник
+T23	MONEY 431 433	50
+T24	PERCENT 431 439	50 на 50
+T25	CARDINAL 434 439	на 50
+T26	GROUP 462 470	силовики
+T27	GROUP 473 480	собакой
+T28	ECONOMIC_SECTOR 498 510	беспилотнике
+T29	DATE 599 616	Подмосковье 3 мая
+T30	ECONOMIC_SECTOR 634 647	беспилотников
+T31	PRODUCT 684 695	авиационных
+T32	GROUP 714 769	оперативными службами и органами государственной власти
+T33	CARDINAL 803 832	645ba54e9a79475c6c1db494
+
+Thu
+T34	CARDINAL 834 836	11
+T35	DATE 841 848	2023 01
+T36	CARDINAL 846 848	01
+T37	CARDINAL 849 851	30

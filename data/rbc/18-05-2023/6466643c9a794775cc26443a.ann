@@ -1,0 +1,70 @@
+T0	ORGANIZATION 0 3	ООН
+T1	ORGANIZATION 71 74	ООН
+T4	PERSON 228 238	Фархан Хак
+T7	ORGANIZATION 273 276	ООН
+T8	COUNTRY 318 325	Украине
+T9	ORGANIZATION 329 332	РБК
+T12	CARDINAL 546 552	одного
+T17	COUNTRY 632 639	Украины
+T19	DATE 666 672	18 мая
+T20	ORGANIZATION 683 690	Twitter
+T21	COUNTRY 697 704	Украина
+T22	COUNTRY 802 809	Украина
+T23	COUNTRY 905 912	Россией
+T24	ORGANIZATION 915 918	ООН
+T26	COUNTRY 971 981	украинской
+T27	PERSON 991 1007	Кирилла Буданова
+T28	DATE 1013 1030	на прошлой неделе
+T29	GPE 1064 1069	Киева
+T30	CRIME 1072 1080	убийству
+T31	PROFESSION 1081 1092	журналистки
+T35	NORP 1198 1205	русских
+T36	COUNTRY 1248 1255	Украины
+T38	NORP 1330 1337	россиян
+T41	COUNTRY 1381 1391	Российская
+T42	ORGANIZATION 1425 1428	ООН
+T45	PERSON 1479 1487	Буданова
+T46	PROFESSION 1605 1638	Официальный представитель генсека
+T47	ORGANIZATION 1639 1642	ООН
+T53	DATE 1867 1873	17 мая
+T61	PERSON 15 23	Подоляка
+T62	EVENT 173 181	брифинге
+T2	PROFESSION 182 207	заместитель представителя
+T3	PROFESSION 208 215	генсека
+R1	WORKS_AS Arg1:T4 Arg2:T2	
+R2	SUBORDINATE_OF Arg1:T3 Arg2:T2	
+R3	EVENT_TAKES_PART_IN Arg1:T4 Arg2:T62	
+T63	NEWS_SOURCE 163 238	заявил на брифинге заместитель представителя генсека организации Фархан Хак
+T5	NEWS_SOURCE 240 276	Трансляция шла на YouTube-канале ООН
+T6	PROFESSION 556 567	журналистов
+T10	NEWS_SOURCE 517 614	сказал он в ответ на просьбу одного из журналистов прокомментировать недавнее заявление советника
+T11	PERSON 640 656	Михаила Подоляка
+R4	WORKPLACE Arg1:T11 Arg2:T17	
+T13	PROFESSION 605 631	советника офиса президента
+R5	WORKS_AS Arg1:T11 Arg2:T13	
+T14	PERSON 658 665	Подоляк
+T15	NEWS_SOURCE 658 690	Подоляк 18 мая написал в Twitter
+T16	PERSON 863 870	Подоляк
+T18	PROFESSION 960 990	начальника украинской разведки
+R6	WORKS_AS Arg1:T27 Arg2:T18	
+T25	FAMILY 1095 1101	дочери
+T64	PROFESSION 1102 1110	философа
+T32	PERSON 1111 1128	Александра Дугина
+R7	WORKS_AS Arg1:T32 Arg2:T64	
+T33	PERSON 1129 1142	Дарьи Дугиной
+T34	NORP 1163 1170	русских
+R8	WORKS_AS Arg1:T33 Arg2:T31	
+T65	CRIME 1190 1205	убивать русских
+T66	CRIME 1152 1170	Мы убивали русских
+T67	NEWS_SOURCE 1258 1274	Позже он уточнил
+T37	GROUP 1356 1378	военными преступниками
+T39	ORGANIZATION 1417 1424	Совбезе
+R9	OWNERSHIP Arg1:T42 Arg2:T39	
+T40	PERSON 1446 1461	Василия Небензи
+T43	PROFESSION 1436 1445	постпреда
+R10	WORKS_AS Arg1:T40 Arg2:T43	
+T44	PERSON 1643 1658	Стефан Дюжаррик
+R11	WORKS_AS Arg1:T44 Arg2:T46	
+R12	WORKPLACE Arg1:T44 Arg2:T47	
+T48	CRIME 1812 1820	терактов
+T49	NEWS_SOURCE 1857 1873	заявил он 17 мая

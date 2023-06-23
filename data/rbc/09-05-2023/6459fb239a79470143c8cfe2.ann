@@ -1,0 +1,54 @@
+T3	ORDINAL 63 65	78
+T7	EVENT 87 114	Великой Отечественной войне
+T8	FAC 118 133	Красной площади
+T9	CITY 136 142	Москве
+T10	DATE 143 154	в этом году
+T12	ORGANIZATION 205 208	РБК
+T13	WEAPON 222 231	самолетов
+T15	EVENT 234 240	параде
+T16	WEAPON 262 267	танки
+T18	CARDINAL 277 279	34
+T20	WEAPON 305 312	техники
+T30	CARDINAL 466 469	400
+T35	ORGANIZATION 523 533	Минобороны
+T36	EVENT 537 550	параде Победы
+T37	DATE 553 562	этом году
+T39	QUANTITY 591 603	более 10 тыс
+T44	WEAPON 626 636	вооружения
+T45	WEAPON 639 654	военной техники
+T46	EVENT 674 679	парад
+T47	CITY 682 688	Москве
+T53	CARDINAL 776 780	Один
+T55	PROFESSION 836 843	пилотов
+T56	DATE 938 952	В прошлом году
+T57	EVENT 953 965	парад Победы
+T58	WEAPON 985 992	авиации
+T64	EVENT 0 12	Парад Победы
+T65	EVENT 13 39	прошел без воздушной части
+R1	SUBEVENT_OF Arg1:T64 Arg2:T65	
+T2	DATE 63 77	78-й годовщины
+T1	EVENT 41 84	Парад в ознаменование 78-й годовщины победы
+R2	SUBEVENT_OF Arg1:T7 Arg2:T1	
+T4	EVENT 155 181	прошел без воздушной части
+R3	SUBEVENT_OF Arg1:T1 Arg2:T4	
+R4	TAKES_PLACE_IN Arg1:T1 Arg2:T8	
+R5	TAKES_PLACE_IN Arg1:T1 Arg2:T9	
+R6	DATE_TAKES_PLACE_ON Arg1:T1 Arg2:T10	
+T5	EVENT 194 200	парада
+T6	NEWS_SOURCE 183 208	Трансляцию парада вел РБК
+T11	WEAPON 275 279	Т-34
+T14	WEAPON 314 340	В механизированной колонне
+T17	WEAPON 370 385	колесные машины
+T19	WEAPON 387 426	бронемашины семейства «Тайфун» и «Тигр»
+T21	WEAPON 428 434	БМП-2М
+T22	WEAPON 436 469	зенитный ракетные комплексы С-400
+T23	WEAPON 472 511	пусковые комплексы «Искандер-М» и «Ярс»
+T24	NEWS_SOURCE 513 533	По данным Минобороны
+T25	CARDINAL 615 618	125
+R7	TAKES_PLACE_IN Arg1:T46 Arg2:T47	
+T26	ORGANIZATION 755 774	телеграм-канал Baza
+T27	NEWS_SOURCE 723 774	со ссылкой на источники сообщал телеграм-канал Baza
+T28	NEWS_SOURCE 776 806	Один из источников предположил
+T29	WEAPON 846 853	технику
+T31	EVENT 907 935	специальной военной операции
+R8	DATE_TAKES_PLACE_ON Arg1:T57 Arg2:T56	

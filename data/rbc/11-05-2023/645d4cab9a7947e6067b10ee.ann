@@ -1,0 +1,56 @@
+T0	ORGANIZATION 0 2	СК
+T2	CRIME 20 28	убийства
+T3	AGE 29 43	четырехлетнего
+T5	CITY 54 60	Москве
+T7	FAC 64 72	квартире
+T10	LOCATION 96 102	западе
+T11	CITY 103 109	Москвы
+T13	AGE 121 135	четырехлетнего
+T17	ORGANIZATION 189 210	столичная прокуратура
+T18	NEWS_SOURCE 312 332	сообщили в ведомстве
+T19	ORGANIZATION 323 332	ведомстве
+T20	PROFESSION 352 363	следователи
+T21	PROFESSION 364 378	и криминалисты
+T22	ORGANIZATION 391 412	Следственном комитете
+T29	NEWS_SOURCE 555 571	По данным РЕН ТВ
+T32	AGE 603 617	четырехлетнему
+T33	CARDINAL 626 642	не менее четырех
+T38	GROUP 779 785	соседи
+T39	GROUP 805 816	сотрудникам
+T40	PROFESSION 866 877	полицейские
+T41	CARDINAL 952 981	645d4cab9a7947e6067b10ee
+
+Thu
+T1	EVENT 3 13	завел дело
+R1	ORGANIZES Arg1:T0 Arg2:T1	
+R2	TAKES_PLACE_IN Arg1:T2 Arg2:T5	
+T4	STREET 73 92	на Рублевском шоссе
+R3	HEADQUARTERED_IN Arg1:T7 Arg2:T4	
+R4	HEADQUARTERED_IN Arg1:T7 Arg2:T11	
+T6	CRIME 144 178	с признаками насильственной смерти
+R5	TAKES_PLACE_IN Arg1:T6 Arg2:T11	
+T8	NEWS_SOURCE 180 210	сообщила столичная прокуратура
+T9	NEWS_SOURCE 213 242	По предварительной информации
+T12	DISEASE 244 264	телесные повреждения
+T14	FAMILY 288 292	мать
+T15	EVENT 244 292	телесные повреждения мальчику причинила его мать
+R6	TAKES_PLACE_IN Arg1:T15 Arg2:T11	
+T16	NEWS_SOURCE 380 412	добавили в Следственном комитете
+T23	CRIME 453 473	убийстве малолетнего
+T24	LAW 475 497	п. «в» ч. 2 ст. 105 УК
+T25	PENALTY 525 552	пожизненное лишение свободы
+T26	ORGANIZATION 565 571	РЕН ТВ
+T27	AGE 573 582	41-летняя
+T28	FAMILY 583 587	мать
+T30	CRIME 588 658	нанесла своему четырехлетнему ребенку не менее четырех ножевых ранений
+T31	ORGANIZATION 679 705	правоохранительных органов
+T34	PROFESSION 667 678	сотрудников
+R7	WORKPLACE Arg1:T34 Arg2:T31	
+T47	PROFESSION 721 730	психологи
+T35	ORGANIZATION 732 751	Telegram-канал Shot
+T36	NEWS_SOURCE 732 757	Telegram-канал Shot пишет
+T37	PROFESSION 763 770	полицию
+R8	WORKS_AS Arg1:T39 Arg2:T37	
+T46	FAC 855 865	В квартире
+T48	CRIME 884 918	тело мальчика с ножевыми ранениями
+R9	TAKES_PLACE_IN Arg1:T48 Arg2:T46	

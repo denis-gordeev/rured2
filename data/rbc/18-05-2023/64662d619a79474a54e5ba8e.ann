@@ -1,0 +1,48 @@
+T0	PERSON 0 7	Володин
+T1	NEWS_SOURCE 0 14	Володин заявил
+T2	COUNTRY 20 30	английский
+T3	INVESTMENT_PROGRAM 66 73	мертвый
+T4	PROFESSION 87 99	председатель
+T5	NEWS_SOURCE 80 116	заявил председатель Вячеслав Володин
+T6	PERSON 100 116	Вячеслав Володин
+T7	EVENT 126 135	заседания
+T8	EVENT 143 156	Парламентской
+T9	NEWS_SOURCE 157 166	ассамблеи
+T10	ORGANIZATION 136 171	Совета Парламентской ассамблеи ОДКБ
+T11	NEWS_SOURCE 177 214	слова приводит «Парламентская газета»
+T12	GROUP 241 259	национальные языки
+T13	COUNTRY 293 302	китайский
+T14	NEWS_SOURCE 343 357	сказал Володин
+T15	PERSON 350 357	Володин
+T16	PROFESSION 359 371	Председатель
+T17	ORGANIZATION 372 379	Госдумы
+T18	NEWS_SOURCE 359 389	Председатель Госдумы рассказал
+T19	COUNTRY 436 441	Индии
+T20	EVENT 451 458	встречи
+T21	GROUP 503 514	переводчика
+T22	COUNTRY 542 547	Индии
+T23	GROUP 548 564	должностные лица
+T24	FAC 590 596	родном
+T25	FAC 608 613	хинди
+T26	ORGANIZATION 658 669	английского
+T27	NEWS_SOURCE 674 688	сказал Володин
+T28	PERSON 681 688	Володин
+T29	NEWS_SOURCE 690 700	Он отметил
+T30	COUNTRY 706 711	Индия
+T31	REGION 780 792	родном языке
+T32	GROUP 804 816	колонизаторы
+T33	GPE 818 824	Англия
+T34	ORDINAL 834 840	пятого
+T35	DATE 866 873	В марте
+T36	PROFESSION 874 883	президент
+T37	PERSON 884 898	Владимир Путин
+T38	NEWS_SOURCE 962 981	национальных языков
+T39	ORGANIZATION 962 981	национальных языков
+T40	CARDINAL 1018 1030	170 примерно
+T41	NEWS_SOURCE 1139 1163	сказал глава государства
+T42	PROFESSION 1146 1163	глава государства
+T43	CARDINAL 1197 1221	64662d619a79474a54e5ba8e
+T44	ORGANIZATION 1223 1226	Thu
+T45	CARDINAL 1228 1230	18
+T46	CARDINAL 1235 1242	2023 17
+T47	CARDINAL 1243 1245	34

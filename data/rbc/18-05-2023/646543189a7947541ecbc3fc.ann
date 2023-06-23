@@ -1,0 +1,74 @@
+T1	GROUP 33 45	пострадавших
+T2	REGION 58 65	Пхукете
+T3	NORP 66 73	россиян
+T4	NORP 79 87	россияне
+T5	COUNTRY 170 178	Таиланде
+T6	COUNTRY 246 252	России
+T17	QUANTITY 466 468	21
+T18	NORP 478 486	россияне
+T19	ORGANIZATION 537 546	дипмиссии
+T20	NEWS_SOURCE 535 555	В дипмиссии сообщили
+T21	NORP 578 586	россияне
+T23	GROUP 752 759	туристы
+T25	REGION 855 862	Пхукета
+T28	REGION 900 907	Пхукета
+T29	ORGANIZATION 910 918	Facebook
+T30	COUNTRY 989 995	России
+T31	VEHICLE 998 1003	катер
+T32	GROUP 1014 1022	туристов
+T39	GROUP 1078 1085	туристы
+T40	VEHICLE 1089 1096	корабле
+T41	GROUP 1106 1119	члены экипажа
+T42	PROFESSION 1122 1129	капитан
+T43	COUNTRY 1152 1162	российских
+T44	GROUP 1163 1179	путешественников
+T45	NORP 1212 1219	россиян
+T46	VEHICLE 1224 1230	катере
+T47	COUNTRY 1252 1257	Китая
+T48	COUNTRY 1259 1269	Казахстана
+T49	COUNTRY 1271 1278	Украины
+T50	COUNTRY 1281 1289	Таиланда
+T56	ORGANIZATION 0 11	Консульство
+T57	NEWS_SOURCE 0 20	Консульство сообщило
+T58	EVENT 46 54	в аварии
+R1	TAKES_PLACE_IN Arg1:T58 Arg2:T2	
+R2	EVENT_TAKES_PART_IN Arg1:T1 Arg2:T58	
+T59	VEHICLE 128 147	прогулочного катера
+T60	FAC 148 167	с сигнальной вышкой
+T61	EVENT 115 167	столкновения прогулочного катера с сигнальной вышкой
+R3	TAKES_PLACE_IN Arg1:T61 Arg2:T5	
+T62	ORGANIZATION 231 245	Генконсульство
+R4	OWNERSHIP Arg1:T6 Arg2:T62	
+T7	NEWS_SOURCE 222 276	сообщило Генконсульство России в своем телеграм-канале
+T8	VEHICLE 278 314	Скоростной катер «Танатип Марин 555»
+T9	FAC 333 344	порт Чалонг
+T10	REGION 345 361	провинции Пхукет
+T11	FAC 397 413	сигнальную вышку
+R5	HEADQUARTERED_IN Arg1:T9 Arg2:T10	
+R6	HEADQUARTERED_IN Arg1:T11 Arg2:T10	
+T12	QUANTITY 454 456	37
+T13	DISEASE 501 533	травмы различной степени тяжести
+T14	ORGANIZATION 683 697	генконсульства
+T15	PROFESSION 672 682	Сотрудники
+R7	WORKPLACE Arg1:T15 Arg2:T14	
+T16	FAC 707 725	госпиталь «Вачира»
+T22	DISEASE 771 790	серьезными травмами
+T24	GROUP 830 854	уполномоченными органами
+R8	WORKPLACE Arg1:T24 Arg2:T25	
+R9	HEADQUARTERED_IN Arg1:T16 Arg2:T25	
+R10	USES Arg1:T23 Arg2:T16	
+T26	ORGANIZATION 877 899	административный центр
+T27	CRIME 960 974	экстремистской
+T51	PENALTY 977 995	запрещена в России
+T52	NEWS_SOURCE 869 918	сообщал административный центр Пхукета в Facebook
+R11	HEADQUARTERED_IN Arg1:T26 Arg2:T28	
+T33	REGION 1026 1040	остров Пхи-Пхи
+T34	DISEASE 1189 1203	тяжелые травмы
+R12	USES Arg1:T39 Arg2:T40	
+R13	ORIGINS_FROM Arg1:T44 Arg2:T43	
+T35	EVENT 1221 1251	на катере ехали также граждане
+R14	ORGANIZES Arg1:T47 Arg2:T35	
+R15	EVENT_TAKES_PART_IN Arg1:T48 Arg2:T35	
+R16	EVENT_TAKES_PART_IN Arg1:T49 Arg2:T35	
+R17	EVENT_TAKES_PART_IN Arg1:T50 Arg2:T35	
+R18	EVENT_TAKES_PART_IN Arg1:T43 Arg2:T35	

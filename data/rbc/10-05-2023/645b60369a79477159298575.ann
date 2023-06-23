@@ -1,0 +1,61 @@
+T0	ORGANIZATION 25 28	ВСУ
+T1	COUNTRY 31 48	Германии
+
+Украине
+T2	COUNTRY 58 66	Германии
+T3	PRODUCT 78 84	оружия
+T4	FAC 119 128	дистанций
+T5	FAC 130 149	зенитных комплексов
+T6	FAC 152 164	бронетехники
+T7	PROFESSION 173 196	министр иностранных дел
+T8	PERSON 204 218	Дмитрий Кулеба
+T9	COUNTRY 230 238	немецкой
+T10	NEWS_SOURCE 166 250	заявил министр иностранных дел страны Дмитрий Кулеба в интервью немецкой газете Bild
+T11	COUNTRY 269 277	Германии
+T12	PRODUCT 284 290	оружия
+T13	ECONOMIC_SECTOR 314 328	промышленность
+T14	FAC 332 339	титаном
+T15	GPE 357 363	Европе
+T16	ORGANIZATION 366 387	концерном Rheinmetall
+T17	FAC 461 473	бронетехника
+T18	COUNTRY 516 524	Германии
+T19	COUNTRY 540 548	Германию
+T20	COUNTRY 552 560	Германия
+T21	NEWS_SOURCE 587 600	заявил Кулеба
+T22	PROFESSION 609 614	глава
+T23	COUNTRY 615 624	немецкого
+T24	ORGANIZATION 636 662	концерна Rheinmetall Армин
+T25	GROUP 663 672	Паппергер
+T26	ORGANIZATION 702 724	совместных предприятий
+T27	COUNTRY 727 738	украинскими
+T28	ORGANIZATION 739 749	компаниями
+T29	ECONOMIC_SECTOR 750 773	для производства танков
+T30	FAC 775 778	ПВО
+T31	ECONOMIC_SECTOR 775 778	ПВО
+T32	ECONOMIC_SECTOR 781 792	боеприпасов
+T33	DATE 839 867	в ближайшие несколько недель
+T34	DATE 869 883	В начале марта
+T35	PERSON 884 893	Паппергер
+T36	ORGANIZATION 907 914	концерн
+T37	EVENT 921 931	переговоры
+T38	ECONOMIC_SECTOR 934 947	строительстве
+T39	FAC 948 964	танкового завода
+T40	COUNTRY 979 986	Украины
+T41	CARDINAL 1018 1021	400
+T42	PRODUCT 1022 1028	танков
+T43	FAC 1022 1033	танков типа
+T44	DATE 1042 1047	в год
+T45	ECONOMIC_SECTOR 1064 1077	строительство
+T46	CARDINAL 1099 1103	€200
+T47	QUANTITY 1104 1107	млн
+T48	PROFESSION 1109 1133	Заместитель председателя
+T49	ORGANIZATION 1134 1153	Совета безопасности
+T50	COUNTRY 1154 1160	России
+T51	PERSON 1161 1177	Дмитрий Медведев
+T52	PERSON 1214 1222	Калибров
+T53	CARDINAL 1288 1290	10
+T54	DATE 1295 1299	2023
+T55	CARDINAL 1300 1302	12
+T56	PERCENT 1303 1305	57
+T57	CARDINAL 1303 1305	57
+T58	CARDINAL 1306 1310	44 +

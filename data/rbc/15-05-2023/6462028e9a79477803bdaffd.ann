@@ -1,0 +1,58 @@
+T0	COUNTRY 2 8	Польше
+T1	EVENT 36 53	мирные переговоры
+T2	COUNTRY 54 60	России
+T3	COUNTRY 63 70	Украины
+T4	EVENT 72 82	Переговоры
+T5	COUNTRY 83 89	России
+T6	COUNTRY 92 99	Украины
+T7	PROFESSION 155 167	руководитель
+T8	ORGANIZATION 168 186	бюро международной
+T9	PROFESSION 187 217	политики канцелярии президента
+T10	COUNTRY 218 224	Польши
+T11	NEWS_SOURCE 148 238	заявил руководитель бюро международной политики канцелярии президента Польши Марчин Пшидач
+T12	PERSON 225 238	Марчин Пшидач
+T13	NEWS_SOURCE 240 263	передает Rzeczpospolita
+T14	PERSON 249 263	Rzeczpospolita
+T15	EVENT 287 305	мирных переговоров
+T16	NEWS_SOURCE 310 327	заявил глава бюро
+T17	PROFESSION 317 327	глава бюро
+T18	NEWS_SOURCE 329 342	По его словам
+T19	GPE 344 350	Москва
+T20	COUNTRY 431 437	Россия
+T21	EVENT 462 473	переговорам
+T22	COUNTRY 757 777	Российской Федерации
+T23	EVENT 855 866	переговоров
+T24	PROFESSION 879 884	пресс
+T25	PROFESSION 885 905	секретарь президента
+T26	COUNTRY 906 912	России
+T27	NEWS_SOURCE 871 927	говорил пресс-секретарь президента России Дмитрий Песков
+T28	PERSON 913 927	Дмитрий Песков
+T29	ORGANIZATION 939 981	Совета национальной безопасности и обороны
+T30	ORGANIZATION 983 987	СНБО
+T31	COUNTRY 989 996	Украины
+T32	NEWS_SOURCE 997 1012	Алексей Данилов
+T33	PERSON 997 1012	Алексей Данилов
+T34	DATE 1013 1019	11 мая
+T35	NEWS_SOURCE 1020 1026	заявил
+T36	GPE 1065 1069	Киев
+T37	CITY 1092 1099	Москвой
+T38	GPE 1092 1099	Москвой
+T39	COUNTRY 1103 1113	российских
+T40	COUNTRY 1167 1174	Украина
+T41	CARDINAL 1224 1229	одним
+T42	PROFESSION 1241 1250	президент
+T43	PERSON 1251 1269	Владимир Зеленский
+T44	COUNTRY 1284 1294	российских
+T45	EVENT 1295 1300	войск
+T46	EVENT 1303 1311	границам
+T47	DATE 1319 1328	1991 года
+T48	CARDINAL 1362 1386	6462028e9a79477803bdaffd
+T49	ORGANIZATION 1388 1391	Mon
+T50	PERCENT 1393 1395	15
+T51	CARDINAL 1393 1395	15
+T52	DATE 1400 1404	2023
+T53	CARDINAL 1405 1407	13
+T54	CARDINAL 1408 1410	33
+T55	CURRENCY 1411 1413	08
+T56	MONEY 1411 1413	08
+T57	CARDINAL 1414 1415	+

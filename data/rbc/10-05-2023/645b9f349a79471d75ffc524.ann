@@ -1,0 +1,78 @@
+T0	COUNTRY 65 72	Украины
+T1	COUNTRY 117 127	украинских
+T3	COUNTRY 168 178	российской
+T4	GROUP 179 187	молодежи
+T7	PERSON 217 236	Александр Гребенкин
+T10	REGION 325 336	Запорожской
+T12	COUNTRY 422 432	украинских
+T14	COUNTRY 487 497	российской
+T15	GROUP 498 506	молодежи
+T16	NEWS_SOURCE 511 528	отметил Гребенкин
+T17	PERSON 519 528	Гребенкин
+T18	DATE 530 551	В марте текущего года
+T20	COUNTRY 568 574	России
+T21	PERSON 575 595	Владимир Колокольцев
+T24	DATE 650 661	за 2022 год
+T25	CARDINAL 677 684	173 тыс
+T26	CRIME 686 703	наркопреступлений
+T27	QUANTITY 706 718	свыше 75 тыс
+T29	DATE 753 782	За этот же период в 2021 году
+T31	CARDINAL 797 804	179 тыс
+T32	CRIME 806 823	наркопреступлений
+T36	CARDINAL 854 874	на одну треть больше
+T37	DATE 880 891	в 2021 году
+T44	CARDINAL 986 997	более 2 тыс
+T48	CARDINAL 1049 1052	240
+T51	DATE 1083 1104	в марте текущего года
+T52	PROFESSION 1105 1114	президент
+T53	COUNTRY 1115 1121	России
+T54	PERSON 1122 1136	Владимир Путин
+T59	COUNTRY 1384 1390	России
+T64	ORGANIZATION 2 9	Совбезе
+T65	NEWS_SOURCE 0 17	В Совбезе заявили
+T66	EVENT 23 35	спецоперация
+T67	CRIME 46 62	поток наркотиков
+R1	ORGANIZES Arg1:T0 Arg2:T67	
+T2	CRIME 108 138	поставки украинских наркотиков
+T68	EVENT 85 97	спецоперации
+R2	TAKES_PLACE_IN Arg1:T68 Arg2:T0	
+R3	ORGANIZES Arg1:T0 Arg2:T2	
+R4	ORIGINS_FROM Arg1:T4 Arg2:T3	
+T57	GROUP 1253 1307	экстремистские организации, включая националистические
+T58	CRIME 1309 1381	по незаконному производству, контрабанде наркотиков и их распространению
+R5	TAKES_PLACE_IN Arg1:T58 Arg2:T59	
+T60	CRIME 1253 1267	экстремистские
+T61	ORGANIZATION 248 267	«Российской газете»
+T5	ORGANIZATION 209 216	Совбеза
+T6	PROFESSION 196 208	замсекретаря
+R6	WORKPLACE Arg1:T6 Arg2:T5	
+R7	WORKPLACE Arg1:T7 Arg2:T5	
+R8	WORKS_AS Arg1:T7 Arg2:T6	
+T8	NEWS_SOURCE 189 267	заявил замсекретаря Совбеза Александр Гребенкин в интервью «Российской газете»
+T9	REGION 339 358	Херсонской областей
+T11	CRIME 413 443	поставки украинских наркотиков
+R9	WORKPLACE Arg1:T15 Arg2:T14	
+T62	EVENT 312 324	освобождение
+T13	EVENT 281 309	специальной военной операции
+R10	TAKES_PLACE_IN Arg1:T62 Arg2:T10	
+R11	TAKES_PLACE_IN Arg1:T62 Arg2:T9	
+R12	TAKES_PLACE_IN Arg1:T13 Arg2:T12	
+T19	ORGANIZATION 560 567	полиции
+T63	PROFESSION 552 559	генерал
+R13	WORKPLACE Arg1:T63 Arg2:T19	
+R14	WORKPLACE Arg1:T21 Arg2:T20	
+R15	WORKS_AS Arg1:T21 Arg2:T63	
+T69	NEWS_SOURCE 530 615	В марте текущего года генерал полиции России Владимир Колокольцев выступил с докладом
+T22	GROUP 631 649	внутренних органов
+T23	CARDINAL 833 837	31 т
+T28	CRIME 826 848	Изъяли 31 т наркотиков
+T30	CARDINAL 906 914	8,5 тыс.
+T33	GROUP 932 952	организованных групп
+T34	CRIME 955 975	преступных сообществ
+T35	CRIME 1004 1039	незаконного изготовления наркотиков
+T38	CRIME 1053 1075	подпольных лабораторий
+T39	CRIME 1200 1221	по обороту наркотиков
+R16	WORKPLACE Arg1:T54 Arg2:T53	
+R17	WORKS_AS Arg1:T54 Arg2:T52	
+T40	GROUP 1178 1199	иностранных спецслужб
+R18	EVENT_TAKES_PART_IN Arg1:T40 Arg2:T39	
