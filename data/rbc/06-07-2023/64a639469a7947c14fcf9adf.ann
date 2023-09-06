@@ -1,0 +1,50 @@
+T0	PERSON 0 6	Песков
+T1	NEWS_SOURCE 0 13	Песков заявил
+T2	NEWS_SOURCE 42 52	чиновников
+T3	PROFESSION 42 52	чиновников
+T4	GPE 53 59	Кремля
+T5	CARDINAL 61 66	Часть
+T6	GROUP 88 99	сотрудников
+T7	ORGANIZATION 100 124	администрации президента
+T8	ORGANIZATION 172 191	РИА Новости» пресс-
+T9	PROFESSION 191 218	секретарь главы государства
+T10	NEWS_SOURCE 163 233	сообщил «РИА Новости» пресс-секретарь главы государства Дмитрий Песков
+T11	PERSON 219 233	Дмитрий Песков
+T12	ORGANIZATION 302 315	администрации
+T13	NEWS_SOURCE 339 352	сказал Песков
+T14	PERSON 346 352	Песков
+T15	PROFESSION 355 364	Президент
+T16	PROFESSION 366 374	депутаты
+T17	PROFESSION 376 384	сенаторы
+T18	PROFESSION 394 403	чиновники
+T19	DATE 444 452	ежегодно
+T20	DATE 461 470	с 1 марта
+T21	LAW 518 528	декларации
+T22	PROFESSION 529 538	депутатов
+T23	LAW 596 615	персональных данных
+T24	PROFESSION 710 716	спикер
+T25	ORGANIZATION 717 724	Госдумы
+T26	NEWS_SOURCE 702 741	отмечал спикер Госдумы Вячеслав Володин
+T27	PERSON 725 741	Вячеслав Володин
+T28	PROFESSION 752 761	силовиков
+T29	GROUP 752 761	силовиков
+T30	PROFESSION 764 774	чиновников
+T31	GROUP 835 842	военных
+T32	PROFESSION 923 932	президент
+T33	PERSON 933 947	Владимир Путин
+T34	DATE 957 974	в прошлом декабре
+T35	DATE 976 987	В этом году
+T36	DATE 1027 1038	до 1 апреля
+T37	PERSON 1040 1045	Путин
+T38	PROFESSION 1048 1058	сотрудники
+T39	GROUP 1048 1058	сотрудники
+T40	ORGANIZATION 1063 1076	администрации
+T41	DATE 1112 1123	в этом году
+T42	NEWS_SOURCE 1162 1180	рассказывал Песков
+T43	PERSON 1174 1180	Песков
+T44	ORGANIZATION 1195 1198	rbc
+T45	CARDINAL 1214 1238	64a639469a7947c14fcf9adf
+T46	CARDINAL 1245 1247	06
+T47	ORGANIZATION 1248 1251	Jul
+T48	CARDINAL 1260 1262	38
+T49	CARDINAL 1263 1265	45

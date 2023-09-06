@@ -1,0 +1,46 @@
+T0	ORGANIZATION 0 13	Правительство
+T1	ECONOMIC_SECTOR 33 38	въезд
+T2	FAC 39 42	фур
+T3	FAC 47 62	недружественных
+T4	GROUP 47 68	недружественных стран
+T5	ORGANIZATION 71 84	Правительство
+T6	ECONOMIC_SECTOR 104 109	въезд
+T7	COUNTRY 112 118	Россию
+T8	FAC 119 129	грузовиков
+T9	GROUP 134 155	недружественных стран
+T10	DATE 157 170	до 30 декабря
+T11	ORGANIZATION 181 192	РИА Новости
+T12	PROFESSION 202 237	представитель первого вице-премьера
+T13	NEWS_SOURCE 180 254	«РИА Новости» сообщил представитель первого вице-премьера Андрея Белоусова
+T14	PERSON 238 254	Андрея Белоусова
+T15	DATE 275 299	10 октября прошлого года
+T16	GROUP 314 329	недружественные
+T17	CRIME 330 361	и противоречащие международному
+T18	ORGANIZATION 430 432	ЕС
+T19	COUNTRY 434 448	Великобритании
+T20	COUNTRY 450 458	Норвегии
+T21	COUNTRY 461 468	Украины
+T22	CITY 514 529	Калининградскую
+T23	REGION 530 537	область
+T24	ORGANIZATION 539 541	ЕС
+T25	DATE 542 564	в апреле прошлого года
+T26	ORGANIZATION 575 589	грузоперевозки
+T27	COUNTRY 590 600	российских
+T28	ORGANIZATION 601 609	компаний
+T29	ORGANIZATION 654 657	РБК
+T30	ORGANIZATION 671 679	компании
+T31	NEWS_SOURCE 654 687	РБК транспортные компании заявили
+T32	ORGANIZATION 707 709	ЕС
+T33	ECONOMIC_SECTOR 730 735	рынке
+T34	DATE 752 755	фур
+T35	GROUP 783 788	члены
+T36	ORGANIZATION 789 817	Ассоциации грузоперевозчиков
+T37	PRODUCT 839 844	фурам
+T38	ORGANIZATION 848 850	ЕС
+T39	COUNTRY 860 866	Россию
+T40	COUNTRY 956 966	Белоруссии
+T41	DATE 1032 1034	01
+T42	CITY 1035 1038	Jun
+T43	DATE 1039 1043	2023
+T44	ORGANIZATION 1044 1046	16
+T45	CARDINAL 1050 1054	16 +

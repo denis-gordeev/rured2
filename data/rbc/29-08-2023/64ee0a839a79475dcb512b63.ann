@@ -1,0 +1,32 @@
+T0	CITY 2 8	Москве
+T1	ECONOMIC_SECTOR 19 24	склад
+T2	NEWS_SOURCE 25 27	на
+T3	ORGANIZATION 28 49	Комсомольской площади
+T4	NEWS_SOURCE 42 53	площади
+
+На
+T5	ORGANIZATION 54 75	Комсомольской площади
+T6	CITY 78 84	Москве
+T7	CITY 102 113	Ярославский
+T8	ORGANIZATION 115 128	Ленинградский
+T9	FAC 131 148	Казанский вокзалы
+T10	FAC 157 162	пожар
+T11	FAC 165 196	одноэтажном складском помещении
+T12	ORGANIZATION 206 209	РБК
+T13	ORGANIZATION 221 227	ГУ МЧС
+T14	NEWS_SOURCE 206 234	РБК сообщили в ГУ МЧС России
+T15	COUNTRY 228 234	России
+T16	CITY 238 244	Москве
+T17	CARDINAL 301 303	17
+T18	CARDINAL 304 306	30
+T19	PERCENT 307 310	мск
+T20	ECONOMIC_SECTOR 325 332	пожарно
+T21	FAC 325 359	пожарно-спасательных подразделений
+T22	FAC 400 421	одноэтажном складском
+T23	NEWS_SOURCE 433 454	говорится в сообщении
+T24	GROUP 465 477	пострадавших
+T25	NEWS_SOURCE 499 513	отметили в МЧС
+T26	ORGANIZATION 510 513	МЧС
+T27	CARDINAL 568 592	64ee0a839a79475dcb512b63
+T28	CARDINAL 599 613	29 Aug 2023 18
+T29	CARDINAL 614 616	16

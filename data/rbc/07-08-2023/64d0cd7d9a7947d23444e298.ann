@@ -1,0 +1,58 @@
+T0	WEAPON 25 37	беспилотнике
+T1	ORGANIZATION 38 41	ВСУ
+T3	COUNTRY 66 76	Российская
+T4	WEAPON 77 88	система ПВО
+T5	WEAPON 95 123	беспилотник самолетного типа
+T7	PROFESSION 164 169	глава
+T11	PERSON 191 207	Вячеслав Гладков
+T14	GROUP 305 317	пострадавших
+T15	WEAPON 360 371	система ПВО
+T17	DATE 405 414	2 августа
+T23	REGION 513 520	Сумской
+T25	COUNTRY 531 538	Украины
+T26	COUNTRY 585 595	украинских
+T27	PROFESSION 596 603	военных
+T30	PROFESSION 686 697	президентом
+T31	CARDINAL 700 706	восьми
+T32	DATE 758 768	за 30 июля
+T36	WEAPON 822 835	беспилотников
+T37	CARDINAL 846 849	115
+T44	PERSON 0 7	Гладков
+T45	NEWS_SOURCE 0 15	Гладков сообщил
+T2	CITY 53 64	к Белгороду
+T46	EVENT 18 41	сбитом беспилотнике ВСУ
+R1	TAKES_PLACE_IN Arg1:T46 Arg2:T2	
+T6	CITY 135 146	к Белгороду
+T41	EVENT 77 146	система ПВО сбила беспилотник самолетного типа на подлете к Белгороду
+R2	TAKES_PLACE_IN Arg1:T41 Arg2:T3	
+T8	REGION 170 190	Белгородской области
+R3	WORKPLACE Arg1:T11 Arg2:T8	
+R4	WORKS_AS Arg1:T11 Arg2:T7	
+T9	NEWS_SOURCE 156 225	сообщил глава Белгородской области Вячеслав Гладков в телеграм-канале
+T10	GROUP 258 276	оперативные службы
+T12	NEWS_SOURCE 278 303	По предварительным данным
+T13	REGION 382 404	в Белгородской области
+T16	EVENT 360 404	система ПВО сработала в Белгородской области
+R5	DATE_TAKES_PLACE_ON Arg1:T16 Arg2:T17	
+T18	WEAPON 436 464	беспилотник самолетного типа
+T19	EVENT 431 464	сбит беспилотник самолетного типа
+R6	TAKES_PLACE_IN Arg1:T19 Arg2:T13	
+T20	REGION 467 487	Белгородская область
+T21	REGION 497 510	с Харьковской
+R7	OWNERSHIP Arg1:T25 Arg2:T23	
+R8	OWNERSHIP Arg1:T25 Arg2:T21	
+T22	EVENT 541 573	регулярно подвергается обстрелам
+R9	TAKES_PLACE_IN Arg1:T22 Arg2:T20	
+R10	ORGANIZES Arg1:T26 Arg2:T22	
+T24	EVENT 615 666	действуют желтый уровень террористической опасности
+R11	TAKES_PLACE_IN Arg1:T24 Arg2:T20	
+T28	REGION 769 791	в Белгородской области
+T29	EVENT 805 814	обстрелов
+T33	EVENT 817 835	атак беспилотников
+R12	TAKES_PLACE_IN Arg1:T29 Arg2:T28	
+R13	TAKES_PLACE_IN Arg1:T33 Arg2:T28	
+T34	PROFESSION 869 887	губернатор региона
+T35	NEWS_SOURCE 859 887	рассказал губернатор региона
+T38	EVENT 836 857	произошло 115 взрывов
+R14	DATE_TAKES_PLACE_ON Arg1:T38 Arg2:T32	
+R15	TAKES_PLACE_IN Arg1:T38 Arg2:T28	

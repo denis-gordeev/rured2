@@ -1,0 +1,53 @@
+T3	REGION 82 97	Курской области
+T4	COUNTRY 131 138	Украины
+T5	CARDINAL 149 155	четыре
+T6	PROFESSION 172 182	губернатор
+T8	NEWS_SOURCE 164 198	сообщил губернатор Роман Старовойт
+T10	COUNTRY 259 267	Украиной
+T11	CARDINAL 290 296	четыре
+T15	CARDINAL 460 464	двух
+T16	FAC 465 477	домовладений
+T17	VILLAGE 492 504	Елизаветовки
+T19	DATE 523 532	1 августа
+T20	CARDINAL 560 566	десять
+T21	EVENT 567 574	взрывов
+T23	CARDINAL 619 625	десять
+T24	CARDINAL 660 663	два
+T25	CARDINAL 688 692	один
+T26	VEHICLE 693 703	автомобиль
+T28	GROUP 712 725	собственникам
+T35	REGION 0 17	В Курской области
+T1	VILLAGE 37 57	деревня Елизаветовка
+T36	EVENT 18 57	под обстрел попала деревня Елизаветовка
+R1	TAKES_PLACE_IN Arg1:T36 Arg2:T35	
+T2	VILLAGE 59 81	В деревне Елизаветовка
+R2	OWNERSHIP Arg1:T3 Arg2:T2	
+T37	EVENT 139 162	произошли четыре взрыва
+R3	TAKES_PLACE_IN Arg1:T37 Arg2:T2	
+T7	PERSON 183 198	Роман Старовойт
+R4	WORKS_AS Arg1:T7 Arg2:T6	
+T9	BOROUGH 218 238	в Глушковском районе
+R5	OWNERSHIP Arg1:T9 Arg2:T2	
+T38	EVENT 276 304	зафиксировано четыре прилета
+R6	TAKES_PLACE_IN Arg1:T38 Arg2:T3	
+T12	FAC 330 351	линия электропередачи
+T13	FAC 354 367	газовая труба
+T39	EVENT 319 367	повреждены линия электропередачи и газовая труба
+R7	TAKES_PLACE_IN Arg1:T39 Arg2:T9	
+T14	PROFESSION 380 393	глава региона
+T40	NEWS_SOURCE 372 393	написал глава региона
+T18	PERSON 505 514	Старовойт
+T41	EVENT 480 491	Об обстреле
+R8	TAKES_PLACE_IN Arg1:T41 Arg2:T17	
+R9	DATE_TAKES_PLACE_ON Arg1:T41 Arg2:T19	
+T42	NEWS_SOURCE 505 532	Старовойт сообщал 1 августа
+T29	WEAPON 580 591	боеприпасов
+R10	TAKES_PLACE_IN Arg1:T21 Arg2:T17	
+T22	EVENT 626 634	прилетов
+R11	TAKES_PLACE_IN Arg1:T22 Arg2:T17	
+T30	FAC 664 676	домовладения
+T27	NEWS_SOURCE 762 772	написал он
+T31	EVENT 649 676	пострадали два домовладения
+T32	EVENT 678 703	поврежден один автомобиль
+R12	TAKES_PLACE_IN Arg1:T32 Arg2:T17	
+R13	HEADQUARTERED_IN Arg1:T30 Arg2:T17	

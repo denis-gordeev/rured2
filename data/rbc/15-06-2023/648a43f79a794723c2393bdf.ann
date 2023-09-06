@@ -1,0 +1,46 @@
+T1	PROFESSION 0 3	Мэр
+T2	CITY 4 10	Майами
+T4	EVENT 27 46	президентской гонке
+T5	COUNTRY 49 52	США
+T6	PROFESSION 54 57	Мэр
+T8	COUNTRY 74 86	американском
+T10	PERSON 101 115	Фрэнсис Суарес
+T14	PROFESSION 225 235	президента
+T15	COUNTRY 236 239	США
+T16	NEWS_SOURCE 241 266	сообщает издание Politico
+T19	PERSON 335 341	Суарес
+T20	ORDINAL 353 360	третьим
+T21	PROFESSION 361 371	кандидатом
+T22	REGION 375 382	Флориды
+T23	PROFESSION 389 407	бывшего президента
+T24	COUNTRY 408 411	США
+T25	PERSON 412 427	Дональда Трампа
+T28	CARDINAL 517 546	648a43f79a794723c2393bdf
+
+Thu
+R1	TAKES_PLACE_IN Arg1:T4 Arg2:T5	
+R2	WORKPLACE Arg1:T1 Arg2:T2	
+T3	CITY 58 71	города Майами
+T7	REGION 87 100	штате Флорида
+R3	WORKS_AS Arg1:T10 Arg2:T6	
+R4	WORKPLACE Arg1:T10 Arg2:T3	
+R5	WORKPLACE Arg1:T10 Arg2:T8	
+R6	WORKPLACE Arg1:T10 Arg2:T7	
+T9	ORGANIZATION 134 168	Федеральную избирательную комиссию
+T11	EVENT 116 168	подал документы в Федеральную избирательную комиссию
+R7	ORGANIZES Arg1:T10 Arg2:T11	
+T12	EVENT 215 239	в выборах президента США
+T13	EVENT 176 202	выдвинуть свою кандидатуру
+R8	SUBEVENT_OF Arg1:T12 Arg2:T13	
+T17	ORGANIZATION 250 266	издание Politico
+T18	ORGANIZATION 296 318	республиканской партии
+R9	MEMBER Arg1:T19 Arg2:T18	
+R10	WORKPLACE Arg1:T21 Arg2:T22	
+R11	WORKS_AS Arg1:T19 Arg2:T21	
+R12	WORKPLACE Arg1:T25 Arg2:T24	
+R13	WORKS_AS Arg1:T25 Arg2:T23	
+R14	MEMBER Arg1:T25 Arg2:T18	
+T26	PERSON 448 462	Рона ДеСантиса
+T27	PROFESSION 430 447	губернатора штата
+R15	WORKS_AS Arg1:T26 Arg2:T27	
+R16	MEMBER Arg1:T26 Arg2:T18	

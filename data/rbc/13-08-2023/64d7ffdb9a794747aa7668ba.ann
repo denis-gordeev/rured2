@@ -1,0 +1,67 @@
+T0	CARDINAL 0 3	Два
+T1	CRIME 4 12	человека
+T2	FAC 23 37	автомобиле BMW
+T3	FAC 51 56	столб
+T4	CITY 59 65	Москве
+T5	CITY 70 81	Кутузовском
+T6	CITY 94 100	Москве
+T7	FAC 101 111	автомобиль
+T8	NEWS_SOURCE 151 158	сообщил
+T9	CITY 159 168	столичный
+T10	ORGANIZATION 169 191	департамент транспорта
+T11	NEWS_SOURCE 169 191	департамент транспорта
+T12	EVENT 200 208	телеграм
+T13	LAW 208 215	-канале
+T14	ECONOMIC_SECTOR 248 254	службы
+T15	EVENT 332 340	Движение
+T16	EVENT 369 381	департаменте
+T17	PRODUCT 394 404	автомобиль
+T18	FAC 394 404	автомобиль
+T19	ORGANIZATION 411 414	BMW
+T20	NEWS_SOURCE 416 437	пишут телеграм-каналы
+T21	CITY 450 456	Москва
+T22	GPE 450 456	Москва
+T23	NEWS_SOURCE 460 464	Baza
+T24	ORGANIZATION 460 464	Baza
+T25	FAC 475 480	канал
+T26	CARDINAL 482 485	112
+T27	NEWS_SOURCE 487 495	сообщает
+T28	ECONOMIC_SECTOR 514 517	ДТП
+T29	CARDINAL 526 529	два
+T30	GROUP 544 552	водитель
+T31	GROUP 555 563	пассажир
+T32	NEWS_SOURCE 565 575	пишет Mash
+T33	ORGANIZATION 571 575	Mash
+T34	NEWS_SOURCE 577 595	По данным телеграм
+T35	LAW 595 596	-
+T36	FAC 596 602	канала
+T37	FAC 604 614	автомобиль
+T38	ORGANIZATION 637 679	пресс-службе столичного управления полиции
+T39	NEWS_SOURCE 635 702	в пресс-службе столичного управления полиции сообщили "РИА Новости"
+T40	ORGANIZATION 690 702	РИА Новости"
+T41	GROUP 708 716	водитель
+T42	GROUP 719 727	пассажир
+T43	FAC 728 734	машины
+T44	DATE 746 756	11 августа
+T45	PRODUCT 757 765	легковой
+T46	FAC 757 776	легковой автомобиль
+T47	REGION 790 803	Ленинградском
+T48	CITY 816 822	Москве
+T49	NEWS_SOURCE 824 844	сообщали РБК в пресс
+T50	NEWS_SOURCE 845 851	службе
+T51	ORGANIZATION 833 877	РБК в пресс-службе столичного управления МЧС
+T52	PRODUCT 894 902	моторном
+T53	FAC 903 916	отсеке машины
+T54	PRODUCT 910 916	машины
+T55	PRODUCT 918 928	Автомобиль
+T56	NEWS_SOURCE 959 967	Телеграм
+T57	NEWS_SOURCE 968 979	каналы Mash
+T58	ORGANIZATION 975 979	Mash
+T59	NEWS_SOURCE 982 993	Baza писали
+T60	GPE 1002 1015	Ленинградском
+T61	FAC 1036 1050	автомобиль BMW
+T62	ORGANIZATION 1053 1071	правительственными
+T63	GROUP 1072 1080	номерами
+T64	CARDINAL 1114 1138	64d7ffdb9a794747aa7668ba
+T65	CARDINAL 1160 1162	01
+T66	CARDINAL 1163 1167	24 +

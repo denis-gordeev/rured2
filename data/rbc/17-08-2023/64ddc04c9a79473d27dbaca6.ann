@@ -1,0 +1,64 @@
+T0	ORGANIZATION 0 2	СК
+T1	ORGANIZATION 40 47	Голоса»
+T2	PERSON 48 60	Мельконьянца
+T5	ORGANIZATION 116 124	Минюстом
+T8	ORGANIZATION 229 234	ENEMO
+T12	ORGANIZATION 294 298	ТАСС
+T14	ORGANIZATION 301 314	«РИА Новости»
+T17	PERSON 382 394	Мельконьянца
+T19	NEWS_SOURCE 516 538	сказал собеседник ТАСС
+T20	ORGANIZATION 534 538	ТАСС
+T21	ORGANIZATION 540 543	РБК
+T22	ORGANIZATION 562 565	СКР
+T23	PERSON 596 617	Григорию Мельконьянцу
+T24	ORGANIZATION 629 641	РИА Новости»
+T25	NEWS_SOURCE 619 649	Источник «РИА Новости» уточнил
+T30	COUNTRY 858 864	России
+T33	NEWS_SOURCE 911 930	По данным агентства
+T34	ORGANIZATION 921 930	агентства
+T35	QUANTITY 948 950	15
+T36	CARDINAL 957 963	восьми
+T37	COUNTRY 964 974	российских
+T38	CITY 986 992	Москве
+T41	CITY 1012 1018	Казани
+T42	ORGANIZATION 1026 1031	Голос
+T45	DATE 1081 1098	В августе 2021-го
+T46	COUNTRY 1187 1194	Армении
+T47	DATE 1196 1211	В марте 2022-го
+T53	PROFESSION 24 38	сопредседателя
+T54	PENALTY 3 16	возбудил дело
+R1	PENALIZED_AS Arg1:T2 Arg2:T54	
+R2	WORKPLACE Arg1:T2 Arg2:T1	
+R3	WORKS_AS Arg1:T2 Arg2:T53	
+T3	ORGANIZATION 89 105	движения «Голос»
+T4	PROFESSION 74 88	сопредседателя
+T55	PENALTY 107 135	признано Минюстом иноагентом
+T6	ORGANIZATION 171 227	«Европейскую сеть организаций по наблюдению на выборами»
+R4	ABBREVIATION Arg1:T6 Arg2:T8	
+T7	PERSON 236 257	Григория Мельконьянца
+T9	PENALTY 258 283	возбуждено уголовное дело
+R5	PENALIZED_AS Arg1:T7 Arg2:T9	
+T10	GROUP 339 367	в правоохранительных органах
+T11	NEWS_SOURCE 285 367	сообщают ТАСС и «РИА Новости» со ссылкой на источники в правоохранительных органах
+R6	WORKS_AS Arg1:T7 Arg2:T4	
+R7	WORKPLACE Arg1:T7 Arg2:T3	
+T13	PENALTY 395 420	возбуждено уголовное дело
+T15	CRIME 421 468	об организации работы нежелательной организации
+R8	PENALIZED_AS Arg1:T17 Arg2:T13	
+T16	GROUP 501 511	соратников
+T18	LAW 675 692	ч. 3 ст. 284.1 УК
+T26	CRIME 694 864	организация деятельности иностранной или международной неправительственной организации, в отношении которой принято решение о признании нежелательной на территории России
+T27	CARDINAL 881 889	до шести
+T28	PENALTY 881 909	до шести лет лишения свободы
+T29	CITY 994 1010	Санкт-Петербурге
+T31	EVENT 932 983	обыски прошли у 15 лиц в восьми российских регионах
+R9	TAKES_PLACE_IN Arg1:T31 Arg2:T38	
+R10	TAKES_PLACE_IN Arg1:T31 Arg2:T29	
+R11	TAKES_PLACE_IN Arg1:T31 Arg2:T41	
+T32	EVENT 1033 1079	занимается независимым наблюдением за выборами
+R12	ORGANIZES Arg1:T42 Arg2:T32	
+T39	EVENT 1103 1122	признали иноагентом
+R13	DATE_TAKES_PLACE_ON Arg1:T39 Arg2:T45	
+T40	ORGANIZATION 1217 1225	«Голоса»
+T43	EVENT 1212 1239	сайт «Голоса» заблокировали
+R14	DATE_TAKES_PLACE_ON Arg1:T43 Arg2:T47	

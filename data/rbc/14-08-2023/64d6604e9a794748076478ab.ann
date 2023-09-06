@@ -1,0 +1,25 @@
+T0	ECONOMIC_SECTOR 32 44	экспорт газа
+T1	COMMODITY 40 44	газа
+T2	COUNTRY 48 54	России
+T3	ECONOMIC_SECTOR 56 81	Инфографика
+
+Экспорт газа
+T4	COMMODITY 77 81	газа
+T5	COUNTRY 85 91	России
+T7	DATE 154 165	к 2030 году
+T10	ORGANIZATION 237 240	РБК
+T14	FAC 303 315	трубопроводы
+T16	PRODUCT 341 344	СПГ
+T18	DATE 367 378	в 2021 году
+T19	FAC 386 398	трубопроводы
+T23	COMMODITY 420 424	газа
+T25	PRODUCT 438 441	СПГ
+T34	ECONOMIC_SECTOR 69 81	Экспорт газа
+T8	ORGANIZATION 187 228	консалтинговой компании «Яков и партнеры»
+R1	HEADQUARTERED_IN Arg1:T8 Arg2:T5	
+T9	NEWS_SOURCE 167 241	следует из прогноза консалтинговой компании «Яков и партнеры» (есть у РБК)
+T6	CARDINAL 138 146	200 млрд
+T11	CARDINAL 250 258	106 млрд
+T12	CARDINAL 317 325	105 млрд
+T13	CARDINAL 404 412	206 млрд
+T15	CARDINAL 451 458	41 млрд

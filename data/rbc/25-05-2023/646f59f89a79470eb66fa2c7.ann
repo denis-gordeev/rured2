@@ -1,0 +1,56 @@
+T1	CITY 35 44	Белгороду
+T3	REGION 50 62	Белгородским
+T7	WEAPON 123 134	беспилотник
+T8	PROFESSION 144 154	губернатор
+T11	PERSON 176 192	Вячеслав Гладков
+T12	DATE 194 207	В то же время
+T15	DATE 306 314	накануне
+T22	WEAPON 509 522	беспилотников
+T23	PERSON 546 553	Гладков
+T26	DATE 583 596	В тот же день
+T27	WEAPON 597 608	беспилотник
+T28	CITY 643 652	Белгороде
+T30	VEHICLE 668 678	автомобиль
+T31	GROUP 690 704	местные жители
+T36	FAC 855 879	железнодорожного вокзала
+T43	WEAPON 0 3	ПВО
+T44	WEAPON 10 21	беспилотник
+T2	WEAPON 81 92	система ПВО
+T4	REGION 155 175	Белгородской области
+R1	WORKPLACE Arg1:T8 Arg2:T4	
+R2	WORKS_AS Arg1:T11 Arg2:T8	
+T5	NEWS_SOURCE 136 192	сообщил губернатор Белгородской области Вячеслав Гладков
+T6	CITY 210 238	Яковлевском городском округе
+T9	WEAPON 280 290	боеприпаса
+T10	EVENT 239 290	приступили к ликвидации неразорвавшегося боеприпаса
+R3	TAKES_PLACE_IN Arg1:T10 Arg2:T6	
+T13	VILLAGE 330 345	хутором Калинин
+R4	TAKES_PLACE_IN Arg1:T10 Arg2:T13	
+R5	DATE_TAKES_PLACE_ON Arg1:T10 Arg2:T12	
+T14	WEAPON 361 368	снаряда
+T16	GROUP 378 402	жителей близлежащих улиц
+T17	EVENT 403 444	временно вывозят на безопасное расстояние
+R6	TAKES_PLACE_IN Arg1:T17 Arg2:T13	
+R7	ORIGINS_FROM Arg1:T16 Arg2:T13	
+T18	REGION 446 466	Белгородская область
+T19	EVENT 467 522	регулярно подвергается обстрелам и атакам беспилотников
+R8	TAKES_PLACE_IN Arg1:T19 Arg2:T18	
+T20	WEAPON 539 545	дронов
+T21	DATE 575 581	24 мая
+T24	TIME 562 566	днем
+T25	TIME 569 574	ночью
+T32	EVENT 527 545	уничтожении дронов
+T39	NEWS_SOURCE 546 581	Гладков сообщал днем и ночью 24 мая
+R9	DATE_TAKES_PLACE_ON Arg1:T32 Arg2:T21	
+T40	WEAPON 617 622	бомбу
+T29	EVENT 597 640	беспилотник сбросил бомбу на проезжую часть
+R10	TAKES_PLACE_IN Arg1:T29 Arg2:T28	
+R11	DATE_TAKES_PLACE_ON Arg1:T29 Arg2:T21	
+T33	ORGANIZATION 786 805	телеграм-канал Mash
+T34	NEWS_SOURCE 780 805	писал телеграм-канал Mash
+T38	WEAPON 807 826	взрывное устройство
+T41	VEHICLE 836 842	машину
+T35	REGION 881 903	В Белгородской области
+T37	CRIME 950 966	террористической
+T42	EVENT 904 976	действуют бессрочный высокий (желтый) уровень террористической опасности
+R12	TAKES_PLACE_IN Arg1:T42 Arg2:T35	

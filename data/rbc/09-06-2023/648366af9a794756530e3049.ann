@@ -1,0 +1,34 @@
+T0	PERSON 0 5	Рогов
+T1	NEWS_SOURCE 6 12	заявил
+T2	PROFESSION 25 36	фермерского
+T3	ORGANIZATION 37 46	хозяйства
+T4	PROFESSION 47 48	в
+T5	CITY 49 60	Запорожской
+T6	REGION 61 68	области
+T7	INVESTMENT_PROGRAM 70 73	ВСУ
+T8	CRIME 74 84	обстреляли
+T9	PROFESSION 85 95	фермерское
+T10	ECONOMIC_SECTOR 96 105	хозяйство
+T11	PERSON 107 112	Алоис
+T12	REGION 121 140	Запорожской области
+T13	NEWS_SOURCE 150 171	сообщил член главного
+T14	PROFESSION 158 192	член главного совета администрации
+T15	NEWS_SOURCE 201 215	Владимир Рогов
+T16	PERSON 201 215	Владимир Рогов
+T17	GROUP 266 270	Люди
+T18	EVENT 292 304	референдумов
+T19	DATE 305 335	в конце сентября прошлого года
+T20	ORGANIZATION 336 347	Запорожская
+T21	REGION 348 355	область
+T22	COUNTRY 371 377	России
+T23	DATE 449 471	начале июня этого года
+T24	ORGANIZATION 472 482	Минобороны
+T25	NEWS_SOURCE 472 491	Минобороны сообщило
+T26	COUNTRY 516 526	российскую
+T27	DATE 562 568	8 июня
+T28	NEWS_SOURCE 569 575	заявил
+T29	CARDINAL 579 583	трех
+T30	COUNTRY 591 602	украинского
+T31	CARDINAL 701 712	Jun 2023 21
+T32	CARDINAL 713 715	44
+T33	DATE 716 718	06

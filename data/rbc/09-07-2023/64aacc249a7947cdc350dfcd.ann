@@ -1,0 +1,42 @@
+T0	CITY 2 10	Иркутске
+T1	CITY 37 54	полуторагодовалой
+T2	CITY 82 90	Иркутске
+T3	CARDINAL 117 134	полуторагодовалой
+T4	NEWS_SOURCE 144 197	сообщает управление Следственного комитета по региону
+T5	ORGANIZATION 153 197	управление Следственного комитета по региону
+T6	DATE 215 227	месяца назад
+T7	NEWS_SOURCE 229 248	По версии следствия
+T8	DATE 250 256	9 июня
+T9	CARDINAL 257 266	несколько
+T10	LOCATION 287 293	берегу
+T11	FAC 294 298	реки
+T12	PRODUCT 311 327	спиртные напитки
+T13	DATE 388 403	какой-то момент
+T14	GROUP 404 412	родители
+T15	DATE 413 430	полуторагодовалой
+T16	GROUP 431 438	девочки
+T17	DATE 512 528	в течение месяца
+T18	ORGANIZATION 549 551	СК
+T19	LAW 593 602	смерти по
+T20	LAW 619 621	ст
+T21	COUNTRY 630 632	РФ
+T22	LAW 623 633	109 УК РФ,
+T23	DATE 665 673	два года
+T24	LAW 647 674	лишения свободы — два года)
+T25	DATE 676 682	Сейчас
+T26	GROUP 704 708	тела
+T27	CRIME 704 708	тела
+T28	PROFESSION 726 737	следователи
+T29	CRIME 739 753	криминалисты и
+T30	GROUP 754 764	сотрудники
+T31	ORGANIZATION 765 768	МЧС
+T32	NEWS_SOURCE 889 910	говорится в сообщении
+T33	ORGANIZATION 911 913	СК
+T34	ORGANIZATION 928 931	rbc
+T35	PERCENT 947 971	64aacc249a7947cdc350dfcd
+T36	CARDINAL 947 971	64aacc249a7947cdc350dfcd
+T37	ORGANIZATION 981 984	Jul
+T38	DATE 985 989	2023
+T39	PERCENT 990 992	18
+T40	CARDINAL 990 992	18
+T41	CARDINAL 996 1000	42 +

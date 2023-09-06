@@ -1,0 +1,50 @@
+T0	PERSON 0 11	Стивен Кинг
+T2	PROFESSION 47 56	режиссеру
+T3	COUNTRY 60 85	Узбекистана
+
+Американский
+T4	PROFESSION 86 94	писатель
+T5	PERSON 95 106	Стивен Кинг
+T8	PROFESSION 170 179	студентке
+T12	PERSON 208 225	Гульнаре Ивановой
+T15	WORK_OF_ART 252 257	фильм
+T16	PROFESSION 267 275	режиссер
+T17	NEWS_SOURCE 293 311	По словам Ивановой
+T18	PERSON 303 311	Ивановой
+T20	PERSON 371 375	Кинг
+T22	WORK_OF_ART 439 451	произведения
+T23	GROUP 506 519	организаторам
+T25	PROFESSION 563 572	студентка
+T26	WORK_OF_ART 585 590	фильм
+T28	COUNTRY 627 635	Малайзии
+T41	COUNTRY 57 71	из Узбекистана
+T1	CURRENCY 22 23	$
+T42	QUANTITY 23 24	1
+T43	CARDINAL 22 24	$1
+T45	CITY 73 85	Американский
+T44	EVENT 12 46	продал за $1 права на свой рассказ
+R1	ORGANIZES Arg1:T0 Arg2:T44	
+R2	WORKPLACE Arg1:T4 Arg2:T45	
+R3	WORKS_AS Arg1:T5 Arg2:T4	
+R4	WORKPLACE Arg1:T5 Arg2:T45	
+T6	WORK_OF_ART 39 46	рассказ
+T7	WORK_OF_ART 128 169	рассказ «Человек, который не пожимал рук»
+T46	EVENT 107 169	продал права на свой рассказ «Человек, который не пожимал рук»
+R5	ORGANIZES Arg1:T5 Arg2:T46	
+T9	ORGANIZATION 188 193	ВГИКа
+T35	ORGANIZATION 180 187	филиала
+R6	OWNERSHIP Arg1:T9 Arg2:T35	
+T10	COUNTRY 194 207	в Узбекистане
+T11	CURRENCY 229 230	$
+T13	QUANTITY 230 231	1
+T14	MONEY 229 231	$1
+R7	ORIGINS_FROM Arg1:T12 Arg2:T10	
+T36	NEWS_SOURCE 267 291	режиссер рассказала RTVI
+T19	PROFESSION 386 407	начинающим режиссерам
+T21	EVENT 371 451	Кинг разрешает начинающим режиссерам со всего мира использовать его произведения
+T24	NEWS_SOURCE 552 572	рассказала студентка
+T27	EVENT 608 624	на кинофестивале
+R8	TAKES_PLACE_IN Arg1:T27 Arg2:T28	
+T29	WORK_OF_ART 701 708	В книге
+T30	PERSON 709 714	Кинга
+T31	CHARACTER 730 755	о персонаже Генри Броуере

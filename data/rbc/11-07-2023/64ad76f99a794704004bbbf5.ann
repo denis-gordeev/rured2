@@ -1,0 +1,34 @@
+T4	PROFESSION 67 82	Министр обороны
+T5	PERSON 83 95	Сергей Шойгу
+T7	ORGANIZATION 114 135	оборонных предприятий
+T19	EVENT 336 342	визита
+T20	GROUP 357 368	руководство
+T1	REGION 53 65	в Татарстане
+T2	PERSON 16 21	Шойгу
+T27	ORGANIZATION 22 52	на предприятия гособоронзаказа
+T28	EVENT 6 15	с визитом
+T29	NEWS_SOURCE 0 15	Кадры с визитом
+R1	ORGANIZES Arg1:T2 Arg2:T28	
+R2	HEADQUARTERED_IN Arg1:T27 Arg2:T1	
+R3	WORKS_AS Arg1:T5 Arg2:T4	
+T3	REGION 155 167	в Татарстане
+R4	HEADQUARTERED_IN Arg1:T7 Arg2:T3	
+T6	EVENT 96 135	посетил несколько оборонных предприятий
+R5	ORGANIZES Arg1:T5 Arg2:T6	
+T8	ORGANIZATION 193 211	завод «Ремдизель»,
+T9	ORGANIZATION 276 287	завод КамАЗ
+T10	PRODUCT 306 325	грузовые автомобили
+R6	PRODUCES Arg1:T9 Arg2:T10	
+T11	ECONOMIC_SECTOR 224 273	капитальный ремонт и модернизация военной техники
+T12	PERSON 343 348	Шойгу
+T13	ORGANIZATION 369 387	завода «Ремдизель»
+R7	WORKPLACE Arg1:T20 Arg2:T13	
+R8	ORGANIZES Arg1:T12 Arg2:T19	
+T14	ORGANIZATION 418 424	КамАЗу
+T15	PROFESSION 425 432	министр
+T16	GROUP 451 465	рабочую группу
+T17	VEHICLE 490 511	автомобильную технику
+T18	EVENT 519 535	военной операции
+T21	EVENT 443 465	создать рабочую группу
+R9	TAKES_PLACE_IN Arg1:T21 Arg2:T14	
+R10	SUBEVENT_OF Arg1:T21 Arg2:T18	

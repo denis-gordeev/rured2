@@ -1,0 +1,97 @@
+T2	GROUP 42 49	жителей
+T3	CITY 50 58	Шебекино
+T6	PERSON 74 90	Валентин Демидов
+T8	GROUP 119 126	жителей
+T17	GROUP 267 277	шебекинцев
+T24	PERSON 502 509	Демидов
+T25	CITY 542 551	Белгорода
+T26	NEWS_SOURCE 615 626	добавил мэр
+T27	PROFESSION 623 626	мэр
+T28	DATE 628 638	За сегодня
+T29	GROUP 639 645	власти
+T30	CARDINAL 690 694	трех
+T33	PROFESSION 716 726	губернатор
+T34	REGION 727 747	Белгородской области
+T35	PERSON 748 764	Вячеслав Гладков
+T36	CITY 781 789	Шебекино
+T37	CITY 792 800	Белгород
+T45	DATE 910 925	в последние дни
+T46	DATE 927 945	За последние сутки
+T47	CARDINAL 968 971	371
+T48	DATE 983 992	За 1 июня
+T49	CARDINAL 1012 1021	более 850
+T50	GROUP 1032 1038	Власти
+T52	ORDINAL 1074 1080	первую
+T53	REGION 1158 1169	Воронежской
+T54	REGION 1171 1178	Томской
+T55	REGION 1180 1190	Пензенской
+T56	REGION 1192 1212	Ярославской областях
+T57	NEWS_SOURCE 1232 1247	Гладков объявил
+T58	CITY 1276 1284	Шебекино
+T61	GROUP 1419 1426	жителей
+T62	CITY 1446 1454	Шебекино
+T63	REGION 1485 1505	Белгородской области
+T65	PROFESSION 1543 1554	заместитель
+T68	GROUP 1578 1584	Власти
+T1	PROFESSION 0 3	Мэр
+T75	CITY 4 13	Белгорода
+T76	NEWS_SOURCE 0 31	Мэр Белгорода опубликовал видео
+T77	EVENT 32 41	эвакуации
+R1	TAKES_PLACE_IN Arg1:T77 Arg2:T3	
+R2	ORIGINS_FROM Arg1:T2 Arg2:T3	
+T4	CITY 64 73	Белгорода
+T5	PROFESSION 60 63	Мэр
+R3	WORKPLACE Arg1:T5 Arg2:T4	
+R4	WORKPLACE Arg1:T6 Arg2:T4	
+T7	NEWS_SOURCE 60 108	Мэр Белгорода Валентин Демидов опубликовал кадры
+T78	EVENT 109 118	эвакуации
+T9	REGION 158 178	Белгородской области
+T10	CITY 127 157	Шебекинского городского округа
+R5	ORIGINS_FROM Arg1:T8 Arg2:T10	
+R6	TAKES_PLACE_IN Arg1:T78 Arg2:T10	
+R7	TAKES_PLACE_IN Arg1:T78 Arg2:T9	
+T11	NEWS_SOURCE 206 246	Видео он выложил в своем телеграм-канале
+T12	REGION 344 366	[Белгородской] области
+T13	EVENT 291 343	для отправки на временное проживание в другие районы
+R8	EVENT_TAKES_PART_IN Arg1:T17 Arg2:T13	
+R9	TAKES_PLACE_IN Arg1:T13 Arg2:T12	
+T14	VEHICLE 479 489	автобусами
+T15	NEWS_SOURCE 494 509	написал Демидов
+T16	FAC 589 598	общежития
+T18	ORGANIZATION 599 604	вузов
+T19	ORGANIZATION 607 613	училищ
+R10	OWNERSHIP Arg1:T18 Arg2:T16	
+R11	OWNERSHIP Arg1:T19 Arg2:T16	
+R12	WORKPLACE Arg1:T35 Arg2:T34	
+R13	WORKS_AS Arg1:T35 Arg2:T33	
+T20	NEWS_SOURCE 707 772	Накануне губернатор Белгородской области Вячеслав Гладков говорил
+T21	CITY 803 815	Старый Оскол
+T22	QUANTITY 824 838	более 2,5 тыс.
+T23	EVENT 849 857	Обстрелы
+T31	CITY 858 866	Шебекино
+T32	CITY 869 899	Шебекинского городского округа
+R14	DATE_TAKES_PLACE_ON Arg1:T23 Arg2:T45	
+R15	TAKES_PLACE_IN Arg1:T23 Arg2:T31	
+R16	TAKES_PLACE_IN Arg1:T23 Arg2:T32	
+T38	WEAPON 972 981	боеприпас
+T39	EVENT 1048 1070	добровольную эвакуацию
+R17	ORGANIZES Arg1:T50 Arg2:T39	
+T40	GROUP 1116 1131	семьям с детьми
+R18	EVENT_TAKES_PART_IN Arg1:T40 Arg2:T39	
+T41	PERSON 1232 1239	Гладков
+T42	GROUP 1253 1275	эвакуированным жителям
+R19	ORIGINS_FROM Arg1:T42 Arg2:T58	
+T43	GROUP 1311 1366	Работникам бюджетной, муниципальной и региональной сфер
+R20	ORIGINS_FROM Arg1:T43 Arg2:T58	
+R21	ORIGINS_FROM Arg1:T61 Arg2:T62	
+T44	FAC 1527 1532	приют
+T51	GROUP 1405 1418	Кошек и собак
+R22	USES Arg1:T51 Arg2:T44	
+R23	OWNERSHIP Arg1:T63 Arg2:T62	
+T59	PERSON 1564 1576	Юлия Щедрина
+T60	PERSON 1555 1563	Гладкова
+R24	WORKS_AS Arg1:T59 Arg2:T65	
+R25	SUBORDINATE_OF Arg1:T59 Arg2:T60	
+T64	NEWS_SOURCE 1534 1576	сообщила заместитель Гладкова Юлия Щедрина
+T66	EVENT 1585 1640	обязались кормить оставленный в населенных пунктах скот
+R26	ORGANIZES Arg1:T68 Arg2:T66	

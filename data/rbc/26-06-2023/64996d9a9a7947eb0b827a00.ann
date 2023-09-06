@@ -1,0 +1,60 @@
+T0	NORP 0 10	Россиянина
+T1	PROFESSION 41 51	парковщика
+T2	COUNTRY 61 65	Бали
+T3	COUNTRY 87 93	России
+T9	NEWS_SOURCE 171 185	сообщает Detik
+T10	ORGANIZATION 180 185	Detik
+T11	NEWS_SOURCE 187 204	По данным издания
+T12	PROFESSION 206 215	парковщик
+T15	NORP 236 245	россиянин
+T16	CARDINAL 246 257	четыре раза
+T17	PROFESSION 312 320	работник
+T18	VEHICLE 334 342	мотоцикл
+T19	FAC 363 369	дорогу
+T21	NORP 378 388	россиянина
+T23	PERSON 422 436	Максим Стерник
+T24	DATE 459 479	с июня прошлого года
+T25	DATE 482 489	В марте
+T28	GROUP 589 595	Власти
+T29	DATE 657 662	В мае
+T30	PROFESSION 663 668	глава
+T34	GROUP 724 731	туристы
+T35	VEHICLE 766 775	мотоциклы
+T36	COUNTRY 779 783	Бали
+T49	COUNTRY 24 28	Бали
+T50	CRIME 32 51	избиение парковщика
+R1	TAKES_PLACE_IN Arg1:T50 Arg2:T49	
+T51	EVENT 0 28	Россиянина задержали на Бали
+R2	TAKES_PLACE_IN Arg1:T51 Arg2:T49	
+T52	PROFESSION 53 60	Полиция
+R3	WORKPLACE Arg1:T52 Arg2:T2	
+T53	PROFESSION 115 125	парковщика
+T54	CRIME 97 125	избиение местного парковщика
+T4	FAC 132 148	пляжа Келингкинг
+T5	BOROUGH 149 169	в районе Нуса-Пенида
+T6	EVENT 53 93	Полиция Бали задержала гражданина России
+R4	TAKES_PLACE_IN Arg1:T54 Arg2:T2	
+R5	TAKES_PLACE_IN Arg1:T6 Arg2:T5	
+R6	TAKES_PLACE_IN Arg1:T6 Arg2:T4	
+T7	CRIME 206 281	парковщик был избит до крови: россиянин четыре раза ударил его в подбородок
+R7	TAKES_PLACE_IN Arg1:T7 Arg2:T2	
+T8	AGE 412 421	25-летний
+R8	AGE_IS Arg1:T23 Arg2:T8	
+T13	PENALTY 378 398	россиянина задержали
+R9	PENALIZED_AS Arg1:T23 Arg2:T13	
+T14	COUNTRY 451 458	на Бали
+T20	GROUP 490 510	иностранным туристам
+T22	COUNTRY 511 518	на Бали
+T26	EVENT 519 587	запретили арендовать транспортные средства из-за участившихся аварий
+R10	TAKES_PLACE_IN Arg1:T26 Arg2:T22	
+R11	DATE_TAKES_PLACE_ON Arg1:T26 Arg2:T25	
+T27	NEWS_SOURCE 589 605	Власти объяснили
+T43	GROUP 611 621	иностранцы
+T32	PERSON 697 710	Самси Гунарта
+T31	ORGANIZATION 669 688	транспортной службы
+R12	WORKS_AS Arg1:T32 Arg2:T30	
+R13	WORKPLACE Arg1:T32 Arg2:T31	
+T33	NEWS_SOURCE 657 718	В мае глава транспортной службы острова Самси Гунарта уточнил
+T44	EVENT 740 775	могут арендовать и водить мотоциклы
+R14	EVENT_TAKES_PART_IN Arg1:T34 Arg2:T44	
+T37	NEWS_SOURCE 865 878	По его словам

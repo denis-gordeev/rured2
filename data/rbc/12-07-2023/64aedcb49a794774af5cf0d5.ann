@@ -1,0 +1,54 @@
+T12	DATE 197 203	сейчас
+T13	ORGANIZATION 256 260	ТАСС
+T16	FAC 307 313	здания
+T17	ORGANIZATION 323 326	МЧС
+T19	ORGANIZATION 336 339	РБК
+T24	VILLAGE 455 465	Немчиновке
+T27	REGION 488 506	Московской области
+T30	DATE 541 552	в 2006 году
+T31	DATE 555 561	6 июля
+T41	CARDINAL 697 709	трехэтажного
+T49	REGION 0 13	В Подмосковье
+T50	FAC 42 65	отеля «Немчиновка парк»
+T51	EVENT 14 27	начался пожар
+R1	TAKES_PLACE_IN Arg1:T51 Arg2:T50	
+R2	TAKES_PLACE_IN Arg1:T51 Arg2:T49	
+R3	HEADQUARTERED_IN Arg1:T50 Arg2:T49	
+T1	REGION 67 80	В Подмосковье
+T2	FAC 91 119	шато-отель «Немчиновка парк»
+T3	EVENT 81 119	загорелся шато-отель «Немчиновка парк»
+R4	TAKES_PLACE_IN Arg1:T3 Arg2:T1	
+T4	ORGANIZATION 148 154	РЕН ТВ
+T5	ORGANIZATION 157 178	телеграм-канала «112»
+T6	NEWS_SOURCE 129 178	сообщают источники РЕН ТВ и телеграм-канала «112»
+T7	NEWS_SOURCE 180 195	По данным «112»
+T8	EVENT 204 218	идет эвакуация
+R5	DATE_TAKES_PLACE_ON Arg1:T8 Arg2:T12	
+T9	GROUP 261 281	в экстренных службах
+T10	EVENT 295 313	горит крыша здания
+T11	NEWS_SOURCE 247 289	Источник ТАСС в экстренных службах сообщил
+T14	NEWS_SOURCE 315 339	Позже в МЧС сообщили РБК
+T15	CARDINAL 362 371	100 кв. м
+T18	FAC 380 399	в строящемся здании
+T20	EVENT 345 350	пожар
+T21	FAC 406 414	с отелем
+R6	TAKES_PLACE_IN Arg1:T20 Arg2:T18	
+T22	FAC 416 442	Комплекс «Немчиновка парк»
+T23	BOROUGH 467 487	в Одинцовском районе
+R7	OWNERSHIP Arg1:T27 Arg2:T23	
+R8	OWNERSHIP Arg1:T23 Arg2:T24	
+R9	HEADQUARTERED_IN Arg1:T22 Arg2:T24	
+T25	FAC 508 531	Четырехзвездочный отель
+T26	CITY 562 570	в Москве
+T28	FAC 582 588	здание
+T29	FAC 589 618	с кондитерской «Кафе Пушкинъ»
+T32	STREET 643 663	на Тверском бульваре
+T33	FAC 621 642	рестораном «Турандот»
+T34	EVENT 571 588	загорелось здание
+R10	TAKES_PLACE_IN Arg1:T34 Arg2:T26	
+R11	DATE_TAKES_PLACE_ON Arg1:T34 Arg2:T31	
+R12	HEADQUARTERED_IN Arg1:T33 Arg2:T32	
+R13	HEADQUARTERED_IN Arg1:T29 Arg2:T32	
+T35	FAC 697 734	трехэтажного административного здания
+T36	EVENT 665 675	Возгорание
+R14	TAKES_PLACE_IN Arg1:T36 Arg2:T35	

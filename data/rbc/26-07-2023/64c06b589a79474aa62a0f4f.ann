@@ -1,0 +1,48 @@
+T3	FAC 43 63	промышленные объекты
+T9	ORGANIZATION 139 144	УНИАН
+T15	PERSON 184 200	Николая Бакшеева
+T16	CITY 243 255	Первомайской
+T19	NEWS_SOURCE 283 304	говорится в сообщении
+T22	ORGANIZATION 384 395	РБК Украина
+T23	NEWS_SOURCE 374 396	сообщает «РБК Украина»
+T26	REGION 446 462	Киевской области
+T28	COUNTRY 523 530	Украине
+T29	DATE 551 570	с октября 2022 года
+T30	COUNTRY 578 588	российские
+T31	PROFESSION 589 596	военные
+T33	PROFESSION 692 701	Президент
+T34	COUNTRY 702 708	России
+T35	PERSON 709 723	Владимир Путин
+R1	WORKPLACE Arg1:T35 Arg2:T34	
+R2	WORKS_AS Arg1:T35 Arg2:T33	
+T36	LOCATION 762 779	на Крымском мосту
+T1	REGION 0 21	В Харьковской области
+T2	EVENT 22 63	получили повреждения промышленные объекты
+R3	TAKES_PLACE_IN Arg1:T2 Arg2:T1	
+T4	REGION 65 86	В Харьковской области
+T5	FAC 87 107	промышленные объекты
+T6	EVENT 87 128	промышленные объекты получили повреждения
+R4	TAKES_PLACE_IN Arg1:T6 Arg2:T4	
+T7	CITY 171 183	Первомайский
+T8	PROFESSION 159 170	мэра города
+R5	WORKPLACE Arg1:T15 Arg2:T7	
+R6	WORKS_AS Arg1:T15 Arg2:T8	
+T10	NEWS_SOURCE 130 200	сообщает УНИАН со ссылкой на мэра города Первомайский Николая Бакшеева
+T11	FAC 218 242	по промышленным объектам
+T12	EVENT 265 278	начался пожар
+R7	TAKES_PLACE_IN Arg1:T12 Arg2:T16	
+T13	REGION 329 344	Сумской области
+T14	EVENT 345 372	объявляли воздушную тревогу
+R8	TAKES_PLACE_IN Arg1:T14 Arg2:T13	
+T17	EVENT 408 435	воздушную тревогу объявляли
+T18	CITY 436 443	в Киеве
+R9	TAKES_PLACE_IN Arg1:T17 Arg2:T18	
+R10	TAKES_PLACE_IN Arg1:T17 Arg2:T26	
+T20	GROUP 464 478	Местные власти
+T21	WEAPON 497 500	ПВО
+T24	NEWS_SOURCE 464 487	Местные власти сообщали
+T25	EVENT 502 550	Воздушную тревогу на Украине объявляют регулярно
+R11	DATE_TAKES_PLACE_ON Arg1:T25 Arg2:T29	
+R12	WORKPLACE Arg1:T31 Arg2:T30	
+T27	FAC 661 690	энергетической системы страны
+T32	NEWS_SOURCE 578 616	российские военные начали отчитываться

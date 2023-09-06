@@ -1,0 +1,47 @@
+T1	ORGANIZATION 0 4	ТАСС
+T9	NEWS_SOURCE 132 145	сообщает ТАСС
+T10	ORGANIZATION 141 145	ТАСС
+T11	NEWS_SOURCE 171 177	службы
+T12	ORGANIZATION 171 177	службы
+T13	NEWS_SOURCE 179 200	По словам собеседника
+T17	HOUSE 264 268	10с2
+T18	ORDINAL 279 285	пятого
+T19	ORDINAL 286 293	шестого
+T21	NEWS_SOURCE 329 345	Источник уточнил
+T25	WEAPON 420 431	беспилотник
+T26	ORGANIZATION 459 463	ТАСС
+T28	GROUP 502 527	правоохранительные органы
+T29	NEWS_SOURCE 548 566	агентство сообщило
+T33	NEWS_SOURCE 650 663	По данным 112
+T35	CITY 686 694	Одинцово
+T36	CITY 697 709	Красногорска
+T44	NEWS_SOURCE 0 12	ТАСС сообщил
+T2	BOROUGH 31 46	в «Москва-Сити»
+T3	FAC 22 30	в здании
+T4	EVENT 13 21	о взрыве
+R1	TAKES_PLACE_IN Arg1:T4 Arg2:T2	
+R2	TAKES_PLACE_IN Arg1:T4 Arg2:T3	
+T5	FAC 48 81	В 50-этажном здании «IQ-квартала»
+T6	CARDINAL 50 52	50
+T7	BOROUGH 98 113	в «Москва-Сити»
+T8	WEAPON 665 670	дроны
+T14	FAC 221 229	в здании
+T15	STREET 240 262	Пресненская набережная
+R3	HEADQUARTERED_IN Arg1:T14 Arg2:T15	
+T16	EVENT 202 210	инцидент
+R4	TAKES_PLACE_IN Arg1:T16 Arg2:T14	
+T20	NEWS_SOURCE 371 400	По данным телеграм-канала 112
+T22	FAC 402 410	в здание
+T23	EVENT 402 431	в здание врезался беспилотник
+R5	TAKES_PLACE_IN Arg1:T23 Arg2:T15	
+T24	NEWS_SOURCE 441 463	об этом написал и ТАСС
+T27	EVENT 465 483	Башню эвакуировали
+T34	ORGANIZATION 548 557	агентство
+T30	WEAPON 572 605	средства противовоздушной обороны
+T31	WEAPON 621 634	беспилотников
+T32	REGION 635 648	в Подмосковье
+T38	EVENT 572 634	средства противовоздушной обороны отразили атаку беспилотников
+R6	TAKES_PLACE_IN Arg1:T38 Arg2:T32	
+T37	EVENT 665 676	дроны сбили
+R7	TAKES_PLACE_IN Arg1:T37 Arg2:T35	
+R8	TAKES_PLACE_IN Arg1:T37 Arg2:T36	

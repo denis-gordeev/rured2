@@ -1,0 +1,28 @@
+T0	QUANTITY 26 28	53
+T3	REGION 63 70	Гавайев
+T4	EVENT 78 95	природных пожаров
+T5	REGION 99 108	гавайском
+T7	QUANTITY 129 131	53
+T8	GROUP 151 157	власти
+T9	NEWS_SOURCE 142 165	сообщили власти острова
+T20	CARDINAL 343 346	три
+T23	CARDINAL 371 381	более 1700
+T1	EVENT 6 12	пожара
+T2	NEWS_SOURCE 0 12	Кадры пожара
+T24	EVENT 40 62	сгорела старая столица
+R1	TAKES_PLACE_IN Arg1:T24 Arg2:T3	
+R2	TAKES_PLACE_IN Arg1:T1 Arg2:T3	
+T6	LOCATION 109 120	острое Мауи
+R3	TAKES_PLACE_IN Arg1:T4 Arg2:T5	
+T10	CITY 211 224	город Лахайна
+R4	OWNERSHIP Arg1:T10 Arg2:T5	
+T11	EVENT 226 263	Город из-за пожаров полностью выгорел
+R5	TAKES_PLACE_IN Arg1:T11 Arg2:T5	
+T13	EVENT 265 275	До пожаров
+T12	QUANTITY 292 304	более 10 тыс
+T14	LOCATION 321 331	на острове
+T15	FAC 382 387	домов
+T16	EVENT 352 387	пожарами разрушены более 1700 домов
+T17	GROUP 399 406	жителям
+T18	EVENT 407 445	пришлось спасаться от пожаров в океане
+R6	ORGANIZES Arg1:T17 Arg2:T18	

@@ -1,0 +1,40 @@
+T0	PERSON 0 5	Путин
+T1	PROFESSION 20 30	чиновников
+T2	GROUP 44 57	отечественные
+T3	FAC 58 81	автомобили
+
+Госслужащие
+T4	FAC 99 110	автомобилях
+T5	COUNTRY 111 122	российского
+T6	ECONOMIC_SECTOR 123 135	производства
+T7	PROFESSION 144 153	президент
+T8	NEWS_SOURCE 137 168	заявил президент Владимир Путин
+T9	PERSON 154 168	Владимир Путин
+T10	EVENT 169 196	на встрече с руководителями
+T11	FAC 197 208	предприятий
+T12	INVESTMENT_PROGRAM 209 238	обрабатывающей промышленности
+T13	ECONOMIC_SECTOR 224 238	промышленности
+T14	NEWS_SOURCE 240 253	По его словам
+T15	NEWS_SOURCE 255 267	министерства
+T16	ORGANIZATION 255 267	министерства
+T17	ORGANIZATION 269 278	ведомства
+T18	PROFESSION 299 309	президента
+T19	PRODUCT 337 342	машин
+T20	GROUP 359 384	зарубежных производителей
+T21	NEWS_SOURCE 389 395	сказал
+T22	PROFESSION 444 453	чиновники
+T23	FAC 492 503	автомобилях
+T24	NEWS_SOURCE 508 520	сказал Путин
+T25	PERSON 515 520	Путин
+T26	PROFESSION 522 531	Президент
+T27	NEWS_SOURCE 522 539	Президент считает
+T28	GROUP 682 702	отечественные бренды
+T29	NEWS_SOURCE 790 806	подчеркнул Путин
+T30	PERSON 801 806	Путин
+T31	DATE 808 821	В то же время
+T32	NEWS_SOURCE 823 840	отметил президент
+T33	PROFESSION 831 840	президент
+T34	PERCENT 1023 1047	64cb89489a7947f46caf2254
+T35	CARDINAL 1023 1047	64cb89489a7947f46caf2254
+T36	CARDINAL 1066 1068	14
+T37	CARDINAL 1069 1071	15

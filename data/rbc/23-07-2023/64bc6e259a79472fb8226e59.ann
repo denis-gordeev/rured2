@@ -1,0 +1,65 @@
+T0	ORGANIZATION 2 5	ООН
+T1	PROFESSION 43 51	военкора
+T2	NEWS_SOURCE 57 65	Новости»
+T3	ORGANIZATION 52 70	«РИА Новости»
+
+ООН
+T4	PROFESSION 115 138	военного корреспондента
+T5	ORGANIZATION 140 152	РИА Новости»
+T6	NEWS_SOURCE 124 163	корреспондента «РИА Новости» Ростислава
+T7	PERSON 164 173	Журавлева
+T8	ECONOMIC_SECTOR 187 195	обстрела
+T9	CITY 196 207	Запорожской
+T10	REGION 208 215	области
+T11	ORGANIZATION 227 230	ВСУ
+T12	NEWS_SOURCE 240 290	агентству заявил представитель генсека организации
+T13	PROFESSION 257 290	представитель генсека организации
+T14	NEWS_SOURCE 298 306	Дюжаррик
+T15	PERSON 298 306	Дюжаррик
+T16	CARDINAL 343 349	одного
+T17	PROFESSION 350 360	журналиста
+T18	EVENT 361 374	на этой войне
+T19	GROUP 431 438	друзьям
+T20	GROUP 441 449	коллегам
+T21	NEWS_SOURCE 454 469	сказал Дюжаррик
+T22	PERSON 461 469	Дюжаррик
+T23	PERSON 472 480	Журавлев
+T24	CITY 528 537	Пятихатки
+T25	NEWS_SOURCE 539 561	сообщало «РИА Новости»
+T26	ORGANIZATION 549 561	РИА Новости»
+T27	ORGANIZATION 565 575	Минобороны
+T28	CITY 616 627	Запорожской
+T29	REGION 616 635	Запорожской области
+T30	NEWS_SOURCE 637 656	По данным ведомства
+T31	ORGANIZATION 647 656	ведомства
+T32	COUNTRY 658 668	украинские
+T33	NEWS_SOURCE 658 668	украинские
+T34	PRODUCT 700 712	боеприпасами
+T35	ORGANIZATION 716 724	Минцифры
+T36	ORGANIZATION 727 746	Общественной палате
+T37	PERSON 766 775	Журавлева
+T38	CRIME 778 784	ордену
+T39	GROUP 785 793	Мужества
+T40	CARDINAL 835 838	три
+T41	PROFESSION 839 849	журналиста
+T42	EVENT 852 869	фотокорреспондент
+T43	ORGANIZATION 871 883	РИА Новости»
+T44	NEWS_SOURCE 852 883	фотокорреспондент «РИА Новости»
+T45	PERSON 884 908	Константин Михальчевский
+T46	PROFESSION 910 923	корреспондент
+T47	NEWS_SOURCE 910 934	корреспондент «Известий»
+T48	PERSON 935 940	Роман
+T49	COUNTRY 941 950	Польшаков
+T50	NEWS_SOURCE 962 972	телеканала
+T51	PERSON 973 986	Дмитрий Шиков
+T52	NEWS_SOURCE 981 986	Шиков
+T53	FAC 1054 1073	полевые медицинские
+T54	ORGANIZATION 1074 1095	учреждения Минобороны
+T55	COUNTRY 1097 1107	Польшакову
+T56	CARDINAL 1172 1196	64bc6e259a79472fb8226e59
+T57	ORGANIZATION 1198 1201	Sun
+T58	CARDINAL 1203 1205	23
+T59	ORGANIZATION 1206 1209	Jul
+T60	DATE 1210 1214	2023
+T61	PRODUCT 1215 1217	03
+T62	CARDINAL 1218 1220	25

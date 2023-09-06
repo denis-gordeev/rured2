@@ -1,0 +1,54 @@
+T0	NEWS_SOURCE 0 23	ВСУ сообщили о ракетном
+T1	PERSON 48 61	Кропивницкого
+T2	PERSON 98 111	Кропивницкого
+T3	REGION 114 136	Кировоградской области
+T4	PROFESSION 146 162	спикер Воздушных
+T5	ORGANIZATION 163 166	сил
+T6	PERSON 171 175	Юрий
+T7	NEWS_SOURCE 138 218	сообщил спикер Воздушных сил ВСУ Юрий Игнат в эфире телемарафона, передает УНИАН
+T8	ORGANIZATION 213 218	УНИАН
+T9	REGION 283 298	Сумской области
+T10	ORGANIZATION 300 308	Минувшей
+T11	COUNTRY 323 330	Украине
+T12	NEWS_SOURCE 368 378	Издание ZN
+T13	ORGANIZATION 376 378	ZN
+T14	ORGANIZATION 379 381	ua
+T15	NEWS_SOURCE 379 390	ua сообщало
+T16	ECONOMIC_SECTOR 393 400	взрывах
+T17	CITY 416 428	Кропивницком
+T18	REGION 431 455	Днепропетровской области
+T19	GROUP 466 469	ПВО
+T20	COUNTRY 487 497	украинской
+T21	REGION 508 524	Киевской области
+T22	REGION 539 553	Кировоградской
+T23	REGION 555 562	Сумской
+T24	REGION 565 590	Днепропетровской областях
+T25	NEWS_SOURCE 599 609	портал ТСН
+T26	ORGANIZATION 606 609	ТСН
+T27	NEWS_SOURCE 610 612	ua
+T28	ORGANIZATION 610 612	ua
+T29	CARDINAL 614 615	В
+T30	TIME 616 623	ночь на
+T31	CARDINAL 621 623	на
+T32	DATE 624 630	2 июня
+T33	NEWS_SOURCE 631 634	мэр
+T34	PROFESSION 631 634	мэр
+T35	CITY 635 640	Киева
+T36	PERSON 641 655	Виталий Кличко
+T37	NEWS_SOURCE 641 663	Виталий Кличко сообщал
+T38	FAC 683 688	ракет
+T39	REGION 691 700	Дарницком
+T40	CITY 703 713	Подольском
+T41	NEWS_SOURCE 771 777	Кличко
+T42	PERSON 771 777	Кличко
+T43	ORGANIZATION 799 802	ПВО
+T44	DATE 804 822	С прошлого октября
+T45	ORGANIZATION 823 840	Минобороны России
+T46	COUNTRY 834 840	России
+T47	FAC 922 941	военного управления
+T48	FAC 959 966	системы
+T49	COUNTRY 967 974	Украины
+T50	FAC 1002 1022	гражданские объекты.
+T51	DATE 1058 1062	2023
+T52	PERSON 1097 1100	Jun
+T53	CARDINAL 1109 1111	22

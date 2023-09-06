@@ -1,0 +1,47 @@
+T0	CITY 5 24	Сочи — Екатеринбург
+T1	FAC 41 71	Минеральных Водах
+
+Следовавший
+T2	EVENT 75 83	маршруту
+T3	CITY 84 103	Екатеринбург — Сочи
+T4	FAC 104 124	пассажирский самолет
+T5	ORGANIZATION 125 136	Airbus A321
+T6	FAC 132 136	A321
+T7	ORGANIZATION 138 157	Уральских авиалиний
+T8	FAC 199 210	Минеральных
+T9	EVENT 211 214	Вод
+T10	NEWS_SOURCE 224 291	говорится в сообщении для прессы, которое опубликовала авиакомпания
+T11	ORGANIZATION 279 291	авиакомпания
+T12	CITY 329 331	U6
+T13	CARDINAL 332 335	306
+T14	ORGANIZATION 359 371	авиакомпании
+T15	CITY 383 387	Сочи
+T16	CITY 390 402	Екатеринбург
+T17	ORGANIZATION 534 554	Уральских авиалиниях
+T18	PROFESSION 557 565	Командир
+T19	GROUP 557 565	Командир
+T20	FAC 566 582	воздушного судна
+T21	ORGANIZATION 577 582	судна
+T22	ECONOMIC_SECTOR 645 657	сигнализации
+T23	ORGANIZATION 661 673	авиакомпании
+T24	NEWS_SOURCE 761 775	агентство ТАСС
+T25	ORGANIZATION 771 775	ТАСС
+T26	PROFESSION 790 801	авиационные
+T27	GROUP 790 801	авиационные
+T28	ORGANIZATION 802 808	службы
+T29	NEWS_SOURCE 779 817	ссылкой на авиационные службы сообщило
+T30	FAC 823 830	самолет
+T31	ORGANIZATION 837 845	Минводах
+T32	PRODUCT 848 855	Самолет
+T33	CITY 872 876	Сочи
+T34	NEWS_SOURCE 879 891	Екатеринбург
+T35	CITY 879 891	Екатеринбург
+T36	NEWS_SOURCE 893 900	сообщил
+T37	FAC 992 1009	Минеральных Водах
+T38	NEWS_SOURCE 1014 1036	сказал собеседник ТАСС
+T39	ORGANIZATION 1032 1036	ТАСС
+T40	CARDINAL 1070 1094	64e734e99a79473386f409ee
+T41	CARDINAL 1101 1103	24
+T42	COUNTRY 1108 1112	2023
+T43	CARDINAL 1113 1115	14
+T44	CARDINAL 1116 1118	09

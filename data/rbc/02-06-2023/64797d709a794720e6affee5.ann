@@ -1,0 +1,47 @@
+T0	DATE 0 1	В
+T1	CITY 2 14	Комсомольске
+T2	PRODUCT 32 42	мороженого
+T3	REGION 66 95	Прокуратура Хабаровского края
+T4	PRODUCT 158 168	мороженого
+T5	FAC 171 185	гипермаркете в
+T6	CITY 186 198	Комсомольске
+T7	FAC 198 199	-
+T8	INVESTMENT_PROGRAM 202 207	Амуре
+T9	NEWS_SOURCE 217 238	говорится на ее сайте
+T10	PROFESSION 275 287	организатору
+T11	GROUP 275 287	организатору
+T12	EVENT 288 299	мероприятия
+T13	INVESTMENT_PROGRAM 303 314	обеспечению
+T14	GROUP 315 346	безопасности несовершеннолетних
+T15	NEWS_SOURCE 351 372	говорится в сообщении
+T16	DATE 375 381	30 мая
+T17	FAC 387 400	гипермаркетов
+T18	GPE 404 419	Дальнем Востоке
+T19	DATE 443 449	1 июня
+T20	EVENT 450 459	вечеринку
+T21	EVENT 468 471	Дня
+T22	GROUP 472 484	защиты детей
+T23	PRODUCT 522 532	мороженого
+T24	ECONOMIC_SECTOR 541 549	телеграм
+T25	FAC 550 555	канал
+T26	ORGANIZATION 556 565	Komsagram
+T27	NEWS_SOURCE 566 577	опубликовал
+T28	EVENT 586 595	праздника
+T29	PERSON 636 645	Мороженое
+T30	EVENT 645 646	!
+T31	PROFESSION 689 702	Представитель
+T32	ORGANIZATION 703 714	прокуратуры
+T33	PERSON 715 727	Хабаровского
+T34	ORGANIZATION 728 732	края
+T35	PERSON 733 744	Анна Исаева
+T36	NEWS_SOURCE 703 767	прокуратуры Хабаровского края Анна Исаева сообщила «РИА Новости»
+T37	ORGANIZATION 755 767	РИА Новости»
+T38	DATE 829 845	На данный момент
+T39	ORGANIZATION 851 858	полицию
+T40	DATE 932 946	вчерашнего дня
+T41	NEWS_SOURCE 962 970	сообщила
+T42	CARDINAL 1008 1032	64797d709a794720e6affee5
+T43	LAW 1042 1045	Jun
+T44	DATE 1046 1050	2023
+T45	CARDINAL 1054 1056	36
+T46	CARDINAL 1057 1059	56

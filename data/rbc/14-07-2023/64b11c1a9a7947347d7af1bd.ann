@@ -1,0 +1,39 @@
+T0	PROFESSION 0 7	Депутат
+T1	ORGANIZATION 8 15	Госдумы
+T5	ORGANIZATION 58 65	Госдумы
+T6	GROUP 69 80	партии ЛДПР
+T7	PERSON 81 95	Борис Чернышов
+T10	PRODUCT 274 281	лангету
+T11	NEWS_SOURCE 298 317	По словам Чернышова
+T12	PERSON 308 317	Чернышова
+T14	PERSON 471 479	Чернышов
+T17	NEWS_SOURCE 517 521	Shot
+T20	FAC 558 579	аэропорта Шереметьево
+T21	VEHICLE 582 592	Автомобиль
+T22	PERSON 593 602	Чернышова
+T25	FAC 647 656	аэропорта
+T2	EVENT 16 44	попал в автомобильную аварию
+R1	WORKPLACE Arg1:T0 Arg2:T1	
+T3	PROFESSION 46 57	Вице-спикер
+T4	EVENT 96 110	попал в аварию
+R2	EVENT_TAKES_PART_IN Arg1:T7 Arg2:T2	
+R3	EVENT_TAKES_PART_IN Arg1:T7 Arg2:T4	
+R4	MEMBER Arg1:T7 Arg2:T6	
+R5	WORKPLACE Arg1:T7 Arg2:T5	
+R6	WORKS_AS Arg1:T7 Arg2:T3	
+T8	NEWS_SOURCE 123 154	написал в своем телеграм-канале
+T9	STREET 612 636	по Шереметьевскому шоссе
+T23	NEWS_SOURCE 661 674	уточнил канал
+R7	OWNERSHIP Arg1:T22 Arg2:T21	
+T18	NEWS_SOURCE 523 536	По его данным
+T24	EVENT 538 541	ДТП
+R8	TAKES_PLACE_IN Arg1:T24 Arg2:T20	
+T19	EVENT 480 494	попал в аварию
+R9	ORGANIZES Arg1:T14 Arg2:T19	
+T15	NEWS_SOURCE 496 521	писал телеграм-канал Shot
+T16	EVENT 165 168	ДТП
+T26	DISEASE 214 232	старой травмы руки
+T27	PROFESSION 233 238	врачи
+T13	EVENT 328 334	аварии
+R10	EVENT_TAKES_PART_IN Arg1:T12 Arg2:T13	
+T28	PRODUCT 375 383	телефону

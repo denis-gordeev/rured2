@@ -1,0 +1,43 @@
+T0	ORGANIZATION 0 10	Минобороны
+T1	NEWS_SOURCE 0 18	Минобороны заявило
+T2	GROUP 34 47	подразделений
+T3	ORGANIZATION 48 51	ВСУ
+T6	COUNTRY 74 84	Российские
+T7	PROFESSION 85 92	военные
+T13	ORGANIZATION 236 246	Минобороны
+T15	COUNTRY 247 253	России
+T16	FAC 255 259	Мост
+T17	CITY 284 290	Херсон
+T19	REGION 313 331	Херсонской области
+T20	COUNTRY 365 371	России
+T21	CITY 377 387	Херсонском
+T26	FAC 486 504	антоновского моста
+T27	NEWS_SOURCE 509 538	говорится в ежедневной сводке
+T4	FAC 52 72	у Антоновского моста
+R1	MEMBER Arg1:T2 Arg2:T3	
+R2	WORKPLACE Arg1:T7 Arg2:T6	
+T5	GROUP 104 117	подразделения
+T8	COUNTRY 118 128	украинской
+T28	ORGANIZATION 129 134	армии
+R3	MEMBER Arg1:T5 Arg2:T28	
+R4	WORKPLACE Arg1:T5 Arg2:T8	
+T29	EVENT 74 134	Российские военные уничтожили подразделения украинской армии
+T9	LOCATION 155 183	в районе острова Антоновский
+T10	FAC 184 204	у одноименного моста
+R5	TAKES_PLACE_IN Arg1:T29 Arg2:T10	
+T11	REGION 205 225	в Херсонской области
+R6	HEADQUARTERED_IN Arg1:T10 Arg2:T11	
+R7	TAKES_PLACE_IN Arg1:T29 Arg2:T11	
+T12	NEWS_SOURCE 227 253	сообщает Минобороны России
+R8	HEADQUARTERED_IN Arg1:T13 Arg2:T15	
+T14	LOCATION 293 312	левобережной частью
+R9	OWNERSHIP Arg1:T19 Arg2:T14	
+R10	OWNERSHIP Arg1:T20 Arg2:T19	
+T18	ORGANIZATION 436 439	ВСУ
+T22	GROUP 422 435	подразделений
+R11	MEMBER Arg1:T22 Arg2:T18	
+T30	EVENT 400 439	завершено уничтожение подразделений ВСУ
+R12	TAKES_PLACE_IN Arg1:T30 Arg2:T21	
+T23	LOCATION 454 476	на острове Антоновский
+R13	HEADQUARTERED_IN Arg1:T26 Arg2:T23	
+T24	DATE 521 531	ежедневной

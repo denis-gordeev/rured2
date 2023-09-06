@@ -1,0 +1,37 @@
+T1	PROFESSION 13 23	губернатор
+T2	GROUP 56 75	диверсантов
+
+Жители
+T7	EVENT 154 171	атаки диверсантов
+T9	PROFESSION 181 191	губернатор
+T10	REGION 192 212	Белгородской области
+T12	PERSON 213 229	Вячеслав Гладков
+T14	GROUP 246 252	жители
+T17	VILLAGE 284 291	Глотово
+T18	VILLAGE 294 301	Козинки
+T20	DATE 339 356	в ближайшее время
+T22	PERSON 358 365	Гладков
+T24	GROUP 397 415	пострадавших селах
+T34	REGION 0 12	Белгородский
+T21	NEWS_SOURCE 358 381	Гладков также рассказал
+R1	WORKPLACE Arg1:T1 Arg2:T34	
+T23	NEWS_SOURCE 0 43	Белгородский губернатор показал фото из сел
+T26	EVENT 50 67	атаки диверсантов
+T27	GROUP 69 75	Жители
+T3	CITY 76 92	города Грайворон
+R2	ORIGINS_FROM Arg1:T27 Arg2:T3	
+T4	VILLAGE 95 109	села Головчино
+R3	ORIGINS_FROM Arg1:T27 Arg2:T4	
+T5	FAC 127 131	дома
+R4	WORKPLACE Arg1:T12 Arg2:T10	
+R5	WORKS_AS Arg1:T12 Arg2:T9	
+R6	TAKES_PLACE_IN Arg1:T7 Arg2:T4	
+R7	TAKES_PLACE_IN Arg1:T7 Arg2:T3	
+T6	NEWS_SOURCE 231 244	По его словам
+T8	VILLAGE 272 282	Гора-Подол
+T11	EVENT 302 334	будут централизованно возвращены
+R8	DATE_TAKES_PLACE_ON Arg1:T11 Arg2:T20	
+R9	ORIGINS_FROM Arg1:T14 Arg2:T8	
+R10	ORIGINS_FROM Arg1:T14 Arg2:T17	
+R11	ORIGINS_FROM Arg1:T14 Arg2:T18	
+T13	NEWS_SOURCE 419 448	опубликовал фотографии оттуда

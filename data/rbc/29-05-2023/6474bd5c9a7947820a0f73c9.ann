@@ -1,0 +1,94 @@
+T0	CITY 64 70	Москве
+T1	PERSON 72 86	Сергей Собянин
+T2	PERSON 96 115	Михаилом Мишустиным
+T7	CITY 169 175	Москвы
+T17	GROUP 412 422	студентами
+T20	ORDINAL 531 538	седьмое
+T23	COUNTRY 579 585	России
+T24	CITY 597 603	Москве
+T25	CARDINAL 606 619	почти 900 тыс
+T29	EVENT 666 673	встречи
+T31	PROFESSION 716 726	сотрудники
+T33	ORGANIZATION 727 730	МСП
+T34	GROUP 733 744	самозанятые
+T39	NEWS_SOURCE 772 790	По словам Собянина
+T40	PERSON 782 790	Собянина
+T42	PROFESSION 792 807	предприниматели
+T43	DATE 856 873	в последнее время
+T44	NEWS_SOURCE 938 960	уточнил градоначальник
+T45	PROFESSION 946 960	градоначальник
+T46	FAC 991 1001	технопарки
+T47	NEWS_SOURCE 1040 1069	По информации столичной мэрии
+T48	CARDINAL 1089 1091	51
+T49	FAC 1092 1101	технопарк
+T50	CARDINAL 1115 1119	семь
+T54	ORGANIZATION 1205 1213	компаний
+T55	QUANTITY 1234 1246	более 72 тыс
+T56	PROFESSION 1248 1260	специалистов
+T57	DATE 1262 1273	С 2016 года
+T60	CURRENCY 1342 1345	руб
+T62	FAC 1363 1374	технопаркам
+T65	CURRENCY 1508 1511	руб
+T67	CURRENCY 1549 1552	руб
+T68	PERSON 1586 1600	Сергей Собянин
+T69	NEWS_SOURCE 1586 1610	Сергей Собянин рассказал
+T71	GROUP 1659 1668	партнеров
+T75	NEWS_SOURCE 1791 1809	По словам Собянина
+T76	CARDINAL 1845 1858	десятки тысяч
+T77	ORGANIZATION 1859 1870	предприятий
+T84	PERSON 0 7	Собянин
+T85	NEWS_SOURCE 0 17	Собянин рассказал
+T3	FAC 131 150	технопарка «Калибр»
+T4	LOCATION 151 168	на северо-востоке
+R1	HEADQUARTERED_IN Arg1:T3 Arg2:T4	
+R2	HEADQUARTERED_IN Arg1:T3 Arg2:T7	
+T5	GROUP 189 218	предпринимателями-резидентами
+T6	PERSON 1801 1809	Собянина
+T8	ORGANIZATION 1613 1631	платформе i.moscow
+T9	GROUP 1670 1694	потенциальных заказчиков
+T10	APPLICATION 1721 1743	инновационные продукты
+T70	EVENT 123 130	осмотра
+R3	EVENT_TAKES_PART_IN Arg1:T2 Arg2:T70	
+R4	ORGANIZES Arg1:T1 Arg2:T70	
+R5	TAKES_PLACE_IN Arg1:T70 Arg2:T3	
+T72	PRODUCT 254 275	инновационные образцы
+T73	CARDINAL 296 301	одной
+T11	ECONOMIC_SECTOR 325 359	высокотехнологичной промышленности
+T12	PROFESSION 360 372	глава города
+T13	PROFESSION 375 390	премьер-министр
+R6	WORKS_AS Arg1:T1 Arg2:T12	
+R7	WORKS_AS Arg1:T2 Arg2:T13	
+T14	EVENT 286 295	посещения
+R8	EVENT_TAKES_PART_IN Arg1:T17 Arg2:T14	
+T15	GROUP 479 510	молодежного предпринимательства
+R9	MEMBER Arg1:T17 Arg2:T15	
+T16	ORGANIZATION 539 576	предприятие малого и среднего бизнеса
+R10	HEADQUARTERED_IN Arg1:T16 Arg2:T23	
+R11	HEADQUARTERED_IN Arg1:T16 Arg2:T24	
+T18	PROFESSION 647 658	мэр столицы
+T19	NEWS_SOURCE 636 673	подчеркнул мэр столицы в ходе встречи
+T21	CARDINAL 677 692	Больше половины
+R12	WORKPLACE Arg1:T31 Arg2:T33	
+T22	QUANTITY 746 751	3 млн
+T26	QUANTITY 754 761	1,3 млн
+T27	ECONOMIC_SECTOR 908 934	в сфере высоких технологий
+R13	WORKS_AS Arg1:T40 Arg2:T45	
+T28	CITY 980 990	московские
+R14	HEADQUARTERED_IN Arg1:T46 Arg2:T28	
+T30	ORGANIZATION 1054 1069	столичной мэрии
+T32	INVESTMENT_PROGRAM 1120 1158	инвестпроектов по созданию технопарков
+T35	CARDINAL 1190 1204	более 2,2 тыс.
+R15	WORKPLACE Arg1:T56 Arg2:T54	
+T36	INVESTMENT_PROGRAM 1274 1290	объем инвестиций
+T37	CITY 1302 1312	московских
+T38	FAC 1313 1324	технопарков
+R16	HEADQUARTERED_IN Arg1:T38 Arg2:T37	
+T41	QUANTITY 1334 1341	80 млрд
+T51	MONEY 1334 1345	80 млрд руб
+T52	LAW 1393 1451	льготы по налогу на прибыль, имуществу и земельному налогу
+T53	LAW 1453 1492	снижение ставок арендной платы за землю
+T58	QUANTITY 1506 1507	1
+T59	MONEY 1506 1511	1 руб
+T61	QUANTITY 1547 1548	9
+T63	MONEY 1547 1553	9 руб.
+T64	TRADE_AGREEMENT 1771 1789	выгодные контракты

@@ -1,0 +1,49 @@
+T2	DATE 34 50	с конца XIX века
+T4	DATE 107 124	26 июля 1894 года
+T17	DATE 394 409	в ближайшие дни
+T19	NEWS_SOURCE 512 528	сообщили в мэрии
+T21	ORDINAL 627 633	первые
+T22	FAC 634 639	этажи
+T23	FAC 651 653	ТЦ
+T25	DATE 666 681	До конца недели
+T26	CITY 715 721	Москва
+T30	PERSON 836 854	Татьяна Позднякова
+T31	DATE 858 875	четверг и пятницу
+T36	CARDINAL 1073 1078	20–22
+T1	CITY 0 8	В Москве
+T43	EVENT 9 33	прошел сильнейший ливень
+R1	TAKES_PLACE_IN Arg1:T43 Arg2:T1	
+R2	DATE_TAKES_PLACE_ON Arg1:T43 Arg2:T2	
+T3	CITY 52 60	В Москве
+T44	EVENT 61 91	побит рекорд по уровню осадков
+R3	TAKES_PLACE_IN Arg1:T44 Arg2:T3	
+R4	DATE_TAKES_PLACE_ON Arg1:T44 Arg2:T4	
+T5	ORGANIZATION 134 171	Комплекс городского хозяйства столицы
+T6	NEWS_SOURCE 126 189	сообщил Комплекс городского хозяйства столицы в телеграм-канале
+T7	TIME 191 209	За несколько часов
+T8	CARDINAL 217 225	до 46 мм
+T9	LOCATION 262 278	на западе города
+T10	BOROUGH 279 297	в Можайском районе
+T11	DATE 319 332	для этого дня
+T12	EVENT 235 278	самые сильные дожди прошли на западе города
+R5	TAKES_PLACE_IN Arg1:T12 Arg2:T10	
+T13	CARDINAL 359 366	42,5 мм
+T14	PROFESSION 382 392	синоптиков
+T15	NEWS_SOURCE 369 392	По прогнозам синоптиков
+T16	EVENT 410 438	сильные дожди не прекратятся
+R6	DATE_TAKES_PLACE_ON Arg1:T16 Arg2:T17	
+T18	GROUP 440 456	Городские службы
+T45	ORGANIZATION 521 528	в мэрии
+T35	DATE 1027 1037	в выходные
+T37	TIME 1038 1045	дневная
+T40	EVENT 1038 1087	дневная температура упадет до плюс 20–22 градусов
+R7	DATE_TAKES_PLACE_ON Arg1:T40 Arg2:T35	
+T20	TIME 589 597	месячной
+T24	FAC 656 664	ряд улиц
+T27	PROFESSION 786 796	специалист
+T28	ORGANIZATION 797 835	информационного портала «Метеоновости»
+R8	WORKPLACE Arg1:T27 Arg2:T28	
+R9	WORKPLACE Arg1:T30 Arg2:T28	
+R10	WORKS_AS Arg1:T30 Arg2:T27	
+T29	NEWS_SOURCE 773 854	предупредила специалист информационного портала «Метеоновости» Татьяна Позднякова
+T32	CARDINAL 944 949	27–29

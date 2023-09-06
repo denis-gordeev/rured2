@@ -1,0 +1,58 @@
+T1	PERSON 0 6	Хамиль
+T5	PROFESSION 83 88	рэпер
+T6	PERSON 89 95	Хамиль
+T8	PERSON 113 128	Андрей Пасечный
+T9	ORGANIZATION 146 155	Instagram
+T12	CRIME 210 224	экстремистской
+T13	DATE 243 250	20 июня
+T15	DATE 327 333	сейчас
+T25	DATE 595 610	В данный момент
+T26	PROFESSION 685 690	рэпер
+T29	DATE 791 802	с 1999 года
+T31	COUNTRY 873 880	Украины
+T32	DATE 882 896	В прошлом году
+T34	PROFESSION 937 947	музыкантов
+T2	GROUP 7 17	из «Касты»
+R1	MEMBER Arg1:T1 Arg2:T2	
+T3	DISEASE 41 57	остановку сердца
+T42	NEWS_SOURCE 0 27	Хамиль из «Касты» рассказал
+T4	GROUP 68 82	группы «Каста»
+R2	ALTERNATIVE_NAME Arg1:T6 Arg2:T8	
+R3	WORKS_AS Arg1:T6 Arg2:T5	
+R4	MEMBER Arg1:T6 Arg2:T4	
+T7	ORGANIZATION 169 182	компании Meta
+T10	COUNTRY 201 209	в России
+T11	DISEASE 259 275	остановку сердца
+T43	EVENT 251 293	перенес остановку сердца во время пробежки
+R5	DATE_TAKES_PLACE_ON Arg1:T43 Arg2:T13	
+T14	COUNTRY 309 321	в Португалии
+T44	PROFESSION 340 348	музыкант
+R6	WORKPLACE Arg1:T44 Arg2:T14	
+R7	TAKES_PLACE_IN Arg1:T43 Arg2:T14	
+T45	PERSON 350 356	Хамиль
+T46	NEWS_SOURCE 350 366	Хамиль рассказал
+T16	EVENT 376 420	провели срочное аортокоронарное шунтирование
+R8	EVENT_TAKES_PART_IN Arg1:T45 Arg2:T16	
+T17	PROFESSION 438 456	пляжного спасателя
+T18	PROFESSION 480 486	врачей
+T19	FAC 487 522	госпиталей Sao Joao и Santo António
+T20	PROFESSION 557 562	врачи
+T21	CARDINAL 578 593	один на миллион
+T22	NEWS_SOURCE 549 562	сказали врачи
+T23	DISEASE 646 656	после комы
+T24	NEWS_SOURCE 677 690	написал рэпер
+T27	EVENT 722 757	вернуться к концертной деятельности
+T35	PERSON 760 766	Хамиль
+R9	ORGANIZES Arg1:T35 Arg2:T27	
+T38	EVENT 613 656	нахожусь в процессе реабилитации после комы
+R10	EVENT_TAKES_PART_IN Arg1:T35 Arg2:T38	
+T28	GROUP 774 790	в группу «Каста»
+R11	MEMBER Arg1:T35 Arg2:T28	
+T30	GROUP 804 824	Участники коллектива
+T39	EVENT 825 880	выступали против военных действий на территории Украины
+R12	EVENT_TAKES_PART_IN Arg1:T30 Arg2:T39	
+T33	GROUP 897 904	«Каста»
+T40	PENALTY 949 1001	выступления которых находятся под негласным запретом
+T36	EVENT 905 947	попала в список «нежелательных» музыкантов
+R13	EVENT_TAKES_PART_IN Arg1:T33 Arg2:T36	
+R14	DATE_TAKES_PLACE_ON Arg1:T36 Arg2:T32	

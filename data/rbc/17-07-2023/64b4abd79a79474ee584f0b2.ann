@@ -1,0 +1,30 @@
+T0	GROUP 0 6	Власти
+T1	NEWS_SOURCE 7 15	сообщили
+T2	FAC 34 37	ГСМ
+T3	REGION 57 62	Крыму
+T4	REGION 66 71	Крыму
+T5	PRODUCT 91 100	смазочных
+T6	PRODUCT 133 153	промышленных товаров
+T7	ORGANIZATION 178 190	промышленной
+T8	NEWS_SOURCE 155 199	сообщила врио министра промышленной политики
+T9	PROFESSION 164 199	врио министра промышленной политики
+T10	NEWS_SOURCE 211 224	Елена Элекчян
+T11	PERSON 211 224	Елена Элекчян
+T12	NEWS_SOURCE 229 258	слова приводит советник главы
+T13	PROFESSION 244 258	советник главы
+T14	PROFESSION 267 269	по
+T15	NEWS_SOURCE 267 284	по информационной
+T16	ORGANIZATION 270 284	информационной
+T17	NEWS_SOURCE 294 298	Олег
+T18	PERSON 294 306	Олег Крючков
+T19	NEWS_SOURCE 307 317	в телеграм
+T20	NEWS_SOURCE 318 324	канале
+T21	EVENT 318 324	канале
+T22	REGION 327 331	Крым
+T23	FAC 347 365	продовольственными
+T24	FAC 403 410	складах
+T25	CARDINAL 506 508	17
+T26	CARDINAL 517 541	64b4abd79a79474ee584f0b2
+T27	CARDINAL 548 550	17
+T28	ORGANIZATION 551 554	Jul
+T29	CARDINAL 563 565	47

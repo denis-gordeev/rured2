@@ -1,0 +1,30 @@
+T1	FAC 33 38	дорог
+T2	COUNTRY 41 48	Россией
+T3	GROUP 68 74	Власти
+T4	COUNTRY 75 85	Белоруссии
+T5	FAC 116 121	дорог
+T6	COUNTRY 135 142	Россией
+T14	GPE 330 335	Минск
+T15	GROUP 368 379	диверсантов
+T18	LOCATION 447 457	на востоке
+T20	GROUP 498 522	стратегических партнеров
+T21	COUNTRY 524 544	Российской Федерации
+T25	GROUP 639 647	союзники
+T26	FAC 721 726	дорог
+T27	NEWS_SOURCE 755 772	сообщил Вольфович
+T28	PERSON 763 772	Вольфович
+T29	COUNTRY 0 12	В Белоруссии
+R1	HEADQUARTERED_IN Arg1:T1 Arg2:T29	
+R2	WORKPLACE Arg1:T3 Arg2:T4	
+T30	LOCATION 122 132	на границе
+R3	OWNERSHIP Arg1:T6 Arg2:T30	
+T7	PERSON 265 284	Александр Вольфович
+T8	LOCATION 410 433	государственная граница
+T9	COUNTRY 592 613	Российской Федерацией
+T10	ORGANIZATION 197 211	телеканалу ОНТ
+T11	ORGANIZATION 238 264	Совета безопасности страны
+T12	PROFESSION 212 237	государственный секретарь
+R4	WORKPLACE Arg1:T7 Arg2:T11	
+R5	WORKS_AS Arg1:T7 Arg2:T12	
+T13	NEWS_SOURCE 178 284	сообщил в интервью телеканалу ОНТ государственный секретарь Совета безопасности страны Александр Вольфович
+T16	NEWS_SOURCE 381 391	он сообщил

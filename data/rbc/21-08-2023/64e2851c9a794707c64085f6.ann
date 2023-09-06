@@ -1,0 +1,57 @@
+T1	FAC 13 15	ТЦ
+T2	LOCATION 60 70	на востоке
+T3	CITY 71 77	Москвы
+T4	NEWS_SOURCE 104 136	сообщили в столичной прокуратуре
+T9	NEWS_SOURCE 328 349	говорится в сообщении
+T10	NEWS_SOURCE 351 373	В прокуратуре сообщили
+T18	NEWS_SOURCE 483 502	По данным ведомства
+T26	DATE 649 659	16 августа
+T29	CITY 682 690	Пикалево
+T32	GROUP 715 729	местные жители
+T33	CARDINAL 784 786	78
+T36	NEWS_SOURCE 891 904	сообщал канал
+T39	NEWS_SOURCE 1034 1046	По их данным
+T42	CARDINAL 1108 1137	64e2851c9a794707c64085f6
+
+Mon
+T48	CITY 0 12	В московском
+T49	EVENT 16 40	обнаружили труп младенца
+R1	TAKES_PLACE_IN Arg1:T49 Arg2:T1	
+R2	TAKES_PLACE_IN Arg1:T49 Arg2:T48	
+R3	HEADQUARTERED_IN Arg1:T1 Arg2:T48	
+T50	FAC 42 59	В торговом центре
+R4	ABBREVIATION Arg1:T50 Arg2:T1	
+T51	EVENT 78 102	обнаружили труп младенца
+R5	TAKES_PLACE_IN Arg1:T51 Arg2:T50	
+R6	TAKES_PLACE_IN Arg1:T51 Arg2:T3	
+R7	HEADQUARTERED_IN Arg1:T50 Arg2:T3	
+T5	ORGANIZATION 113 136	в столичной прокуратуре
+T52	STREET 175 197	на Свободном проспекте
+T53	FAC 157 174	в торговом центре
+R8	HEADQUARTERED_IN Arg1:T53 Arg2:T52	
+T54	EVENT 198 236	обнаружено тело новорожденного ребенка
+R9	TAKES_PLACE_IN Arg1:T54 Arg2:T52	
+R10	TAKES_PLACE_IN Arg1:T54 Arg2:T53	
+T6	ORGANIZATION 351 364	В прокуратуре
+T7	CARDINAL 426 431	10-12
+T8	AGE 505 514	27-летняя
+T11	FAC 551 575	в медицинском учреждении
+T12	TIME 523 540	в настоящее время
+T13	CITY 579 591	В московском
+T15	ORGANIZATION 603 605	СК
+T14	ORGANIZATION 579 602	В московском управлении
+R11	OWNERSHIP Arg1:T15 Arg2:T14	
+T16	NEWS_SOURCE 579 614	В московском управлении СК сообщили
+T17	REGION 691 714	в Ленинградской области
+T19	EVENT 715 767	местные жители нашли пакет, в котором лежал младенец
+R12	TAKES_PLACE_IN Arg1:T19 Arg2:T29	
+R13	DATE_TAKES_PLACE_ON Arg1:T19 Arg2:T26	
+R14	TAKES_PLACE_IN Arg1:T19 Arg2:T17	
+T20	NEWS_SOURCE 769 787	По информации «78»
+T21	GROUP 808 838	жители садоводства «Металлург»
+T22	EVENT 789 838	ребенка обнаружили жители садоводства «Металлург»
+T23	FAC 916 926	в больницу
+T24	ORGANIZATION 944 950	РЕН ТВ
+T25	ORGANIZATION 928 941	«Пятый канал»
+T27	NEWS_SOURCE 928 959	«Пятый канал» и РЕН ТВ сообщали
+T28	AGE 1057 1074	один день от роду

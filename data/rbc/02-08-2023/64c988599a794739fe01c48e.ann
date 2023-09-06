@@ -1,0 +1,33 @@
+T0	ORGANIZATION 0 15	Агентство Fitch
+T1	COUNTRY 33 36	США
+T6	COUNTRY 109 112	США
+T9	NEWS_SOURCE 127 163	говорится в сообщении на сайте Fitch
+T10	ORGANIZATION 158 163	Fitch
+T12	COUNTRY 185 203	Соединенных Штатов
+T14	DATE 257 283	течение следующих трех лет
+T15	ORGANIZATION 322 335	правительства
+T16	DATE 369 397	за последние два десятилетия
+T17	ORGANIZATION 523 532	агентства
+T18	ORGANIZATION 572 577	Fitch
+T20	COUNTRY 607 610	США
+T23	DATE 638 649	в 2023 году
+T26	DATE 657 668	в 2022 году
+T28	ORGANIZATION 743 746	ФРС
+T29	ORGANIZATION 801 806	Fitch
+T31	CARDINAL 1270 1274	один
+T32	ORGANIZATION 1391 1396	Fitch
+T2	EVENT 16 49	понизило рейтинг США с AAA до AA+
+R1	ORGANIZES Arg1:T0 Arg2:T2	
+T3	ORGANIZATION 51 78	Рейтинговое агентство Fitch
+T4	EVENT 79 125	понизило долгосрочный рейтинг США с AAA до AA+
+R2	ORGANIZES Arg1:T3 Arg2:T4	
+T5	CARDINAL 275 279	трех
+T7	CARDINAL 382 385	два
+T8	TIME 477 495	в последнюю минуту
+T11	EVENT 587 606	дефицит госубюджета
+R3	TAKES_PLACE_IN Arg1:T11 Arg2:T20	
+T13	PERCENT 626 633	до 6,3%
+T19	PERCENT 650 656	с 3,7%
+T21	EVENT 671 795	общий рост госдолга; повышение процентных ставок и ужесточение политики ФРС; общая тенденция к переходу экономики в рецессию
+R4	TAKES_PLACE_IN Arg1:T21 Arg2:T20	
+T22	NEWS_SOURCE 1381 1396	по мнению Fitch

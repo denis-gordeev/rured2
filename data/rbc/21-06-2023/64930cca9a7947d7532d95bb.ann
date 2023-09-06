@@ -1,0 +1,54 @@
+T1	ORGANIZATION 20 26	Билайн
+T2	ORGANIZATION 75 81	Билайн
+T3	ORGANIZATION 134 137	РБК
+T4	PROFESSION 146 159	представитель
+T8	NEWS_SOURCE 275 284	сказал он
+T9	NEWS_SOURCE 286 319	Согласно данным сервиса Downradar
+T11	CITY 352 358	Москвы
+T12	CITY 360 370	Петербурга
+T13	CITY 372 380	Воронежа
+T16	CITY 402 414	Новосибирска
+T18	PERCENT 477 480	53%
+T19	GROUP 481 494	пользователей
+T20	PERCENT 528 530	9%
+T21	PERCENT 548 551	14%
+T22	DATE 554 567	В начале июня
+T23	ORGANIZATION 569 575	Билайн
+T26	CITY 644 650	Москве
+T31	PROFESSION 809 822	представитель
+T33	GROUP 889 897	клиентов
+T34	ORGANIZATION 898 906	компании
+T40	ORGANIZATION 1064 1071	Билайна
+T51	EVENT 28 42	произошел сбой
+R1	TAKES_PLACE_IN Arg1:T51 Arg2:T1	
+T52	EVENT 104 124	наблюдаются проблемы
+R2	TAKES_PLACE_IN Arg1:T52 Arg2:T2	
+T5	ORGANIZATION 160 180	компании «ВымпелКом»
+R3	WORKPLACE Arg1:T4 Arg2:T5	
+T6	NEWS_SOURCE 134 180	РБК сообщил представитель компании «ВымпелКом»
+T7	DATE 210 227	В настоящее время
+T53	EVENT 251 270	доступ восстановлен
+R4	DATE_TAKES_PLACE_ON Arg1:T53 Arg2:T7	
+T43	ORGANIZATION 302 319	сервиса Downradar
+T10	TIME 1010 1018	30 минут
+T14	PERCENT 1039 1052	не более 0,6%
+T15	NEWS_SOURCE 1074 1106	следует из внутренней статистики
+T35	ORGANIZATION 837 845	Компания
+T36	NEWS_SOURCE 837 855	Компания объяснила
+R5	MEMBER Arg1:T33 Arg2:T34	
+T37	REGION 382 400	Московской области
+T17	EVENT 321 338	сообщения о сбоях
+R6	TAKES_PLACE_IN Arg1:T17 Arg2:T11	
+R7	TAKES_PLACE_IN Arg1:T17 Arg2:T12	
+R8	TAKES_PLACE_IN Arg1:T17 Arg2:T13	
+R9	TAKES_PLACE_IN Arg1:T17 Arg2:T37	
+R10	TAKES_PLACE_IN Arg1:T17 Arg2:T16	
+T25	EVENT 577 622	ограничил предельную продолжительность звонка
+T24	TIME 623 641	с часа до 30 минут
+R11	TAKES_PLACE_IN Arg1:T25 Arg2:T26	
+R12	ORGANIZES Arg1:T23 Arg2:T25	
+R13	DATE_TAKES_PLACE_ON Arg1:T25 Arg2:T22	
+T27	TRADE_AGREEMENT 775 799	в абонентских контрактах
+T28	ORGANIZATION 823 835	«ВымпелКома»
+R14	WORKPLACE Arg1:T31 Arg2:T28	
+T29	NEWS_SOURCE 801 835	отмечал представитель «ВымпелКома»

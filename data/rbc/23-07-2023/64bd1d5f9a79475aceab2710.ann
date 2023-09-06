@@ -1,0 +1,36 @@
+T0	ORGANIZATION 1 9	Аэрофлот
+T1	VEHICLE 28 36	самолета
+T3	CITY 59 65	Москве
+T7	CITY 100 107	Бишкека
+T9	CITY 110 116	Москву
+T11	ORGANIZATION 159 162	РБК
+T22	VEHICLE 391 399	самолета
+T24	NEWS_SOURCE 464 489	рассказали в пресс-службе
+T25	VEHICLE 528 535	самолет
+T27	ORGANIZATION 604 613	Аэрофлоте
+T28	ORGANIZATION 635 643	Известия
+T34	CITY 776 782	Москве
+T35	CARDINAL 836 865	64bd1d5f9a79475aceab2710
+
+Sun
+T2	NEWS_SOURCE 0 19	«Аэрофлот» опроверг
+T4	VEHICLE 67 77	У самолета
+T5	ORGANIZATION 178 189	«Аэрофлота»
+T6	ORGANIZATION 163 177	в пресс-службе
+R1	OWNERSHIP Arg1:T5 Arg2:T6	
+T8	NEWS_SOURCE 150 189	сообщили РБК в пресс-службе «Аэрофлота»
+T10	ORGANIZATION 221 240	изданием «Известия»
+T12	GROUP 243 265	рядом телеграм-каналов
+T13	NEWS_SOURCE 192 265	Информация, распространяемая изданием «Известия» и рядом телеграм-каналов
+T14	VEHICLE 299 317	у воздушного судна
+T15	ORGANIZATION 475 489	в пресс-службе
+T16	PROFESSION 491 497	Пилоты
+T17	VEHICLE 682 692	у самолета
+T18	ORGANIZATION 693 712	компании «Аэрофлот»
+T19	FAC 750 773	в аэропорту Шереметьево
+R2	HEADQUARTERED_IN Arg1:T19 Arg2:T34	
+T20	NEWS_SOURCE 634 676	«Известия» со ссылкой на источник сообщили
+R3	OWNERSHIP Arg1:T18 Arg2:T17	
+T21	EVENT 682 749	у самолета компании «Аэрофлот» лопнуло колесо при заходе на посадку
+R4	TAKES_PLACE_IN Arg1:T21 Arg2:T19	
+R5	TAKES_PLACE_IN Arg1:T21 Arg2:T34	

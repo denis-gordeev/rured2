@@ -1,0 +1,101 @@
+T4	REGION 113 132	Ульяновской области
+T5	QUANTITY 140 142	33
+T9	PERSON 191 203	Сергей Кучиц
+T13	QUANTITY 367 369	16
+T14	NEWS_SOURCE 402 415	сообщил Кучиц
+T17	GROUP 662 668	жители
+T18	REGION 669 677	Удмуртии
+T19	REGION 679 688	Самарской
+T21	REGION 717 734	Самарской области
+T22	QUANTITY 746 749	два
+T23	ORGANIZATION 771 773	СК
+T24	PROFESSION 775 785	Губернатор
+T25	PERSON 786 800	Дмитрий Азаров
+T26	NEWS_SOURCE 786 808	Дмитрий Азаров сообщал
+T27	GROUP 840 847	медикам
+T28	QUANTITY 859 863	семь
+T29	CARDINAL 859 871	семь человек
+T32	QUANTITY 940 943	два
+T33	REGION 956 977	Нижегородской области
+T35	ORGANIZATION 1089 1099	ООО «Анди»
+T36	REGION 1101 1112	Ульяновское
+T37	ORGANIZATION 1113 1115	СК
+T42	REGION 1173 1190	Самарской области
+T43	NEWS_SOURCE 1192 1211	По данным ведомства
+T45	PRODUCT 1229 1250	алкогольную продукцию
+T54	PERSON 1405 1416	Анна Попова
+T55	ORGANIZATION 1469 1493	Росалкогольрегулирование
+T1	REGION 0 21	В Ульяновской области
+T2	NEWS_SOURCE 0 30	В Ульяновской области сообщили
+T61	DISEASE 43 55	отравившихся
+T62	PRODUCT 56 62	сидром
+T63	FAC 64 74	В больницу
+R1	HEADQUARTERED_IN Arg1:T63 Arg2:T1	
+T3	PRODUCT 92 110	суррогатным сидром
+T64	DISEASE 81 91	отравления
+T6	PROFESSION 161 168	зампред
+T7	ORGANIZATION 169 190	правительства региона
+R2	WORKPLACE Arg1:T6 Arg2:T7	
+R3	WORKPLACE Arg1:T9 Arg2:T7	
+R4	WORKS_AS Arg1:T9 Arg2:T6	
+T8	NEWS_SOURCE 153 227	сообщил зампред правительства региона Сергей Кучиц в своем телеграм-канале
+T10	GROUP 239 251	пострадавших
+R5	USES Arg1:T10 Arg2:T63	
+T11	DISEASE 229 275	Состояние пострадавших оценивается как тяжелое
+R6	HEADQUARTERED_IN Arg1:T63 Arg2:T4	
+T12	DISEASE 297 321	смертельный интоксикации
+T65	DISEASE 325 365	развившейся полиорганной недостаточности
+T66	GROUP 370 379	пациентов
+T67	PERSON 410 415	Кучиц
+T68	EVENT 367 397	16 пациентов спасти не удалось
+T69	PRODUCT 460 465	сидра
+T15	PRODUCT 468 489	алкогольных коктейлей
+T70	DISEASE 502 509	тошноты
+T71	DISEASE 511 516	рвоты
+T72	DISEASE 518 540	сильных головных болей
+T73	DISEASE 542 549	судорог
+T74	DISEASE 554 570	нарушений зрения
+T16	PRODUCT 626 644	Суррогатным сидром
+T75	DISEASE 651 661	отравились
+T20	REGION 691 713	Нижегородской областей
+R7	BUYS Arg1:T18 Arg2:T16	
+R8	BUYS Arg1:T19 Arg2:T16	
+R9	BUYS Arg1:T20 Arg2:T16	
+T76	EVENT 735 758	скончались два человека
+R10	TAKES_PLACE_IN Arg1:T76 Arg2:T21	
+T77	NEWS_SOURCE 760 773	говорили в СК
+T30	REGION 896 906	В Удмуртии
+T31	PRODUCT 910 928	суррогатного сидра
+T78	EVENT 929 952	пострадали два человека
+R11	TAKES_PLACE_IN Arg1:T78 Arg2:T30	
+T79	GROUP 999 1006	жителей
+T80	EVENT 978 1006	скончались несколько жителей
+R12	TAKES_PLACE_IN Arg1:T80 Arg2:T33	
+T56	PRODUCT 1525 1532	напитка
+T57	NEWS_SOURCE 1008 1033	По предварительным данным
+T34	PRODUCT 1051 1073	напитком «Мистер Сидр»
+T58	DISEASE 1040 1050	отравились
+R13	PRODUCES Arg1:T35 Arg2:T34	
+T38	NEWS_SOURCE 1101 1124	Ульяновское СК сообщало
+T59	PENALTY 1127 1137	задержании
+T39	PROFESSION 1138 1169	индивидуального предпринимателя
+R14	WORKPLACE Arg1:T39 Arg2:T42	
+T40	VILLAGE 1251 1267	в поселке Винтай
+T41	BOROUGH 1268 1290	Красноглинского района
+T44	REGION 1291 1308	Самарской области
+R15	OWNERSHIP Arg1:T44 Arg2:T40	
+T46	CRIME 1035 1099	люди отравились напитком «Мистер Сидр», изготовленным ООО «Анди»
+R16	ORGANIZES Arg1:T35 Arg2:T46	
+T47	ORGANIZATION 1333 1347	торговые точки
+T48	REGION 1348 1357	Самарской
+T49	REGION 1360 1380	Ульяновской областей
+R17	SELLS_TO Arg1:T47 Arg2:T48	
+R18	SELLS_TO Arg1:T47 Arg2:T49	
+T50	ORGANIZATION 1388 1404	Роспотребнадзора
+T51	PROFESSION 1382 1387	Глава
+R19	WORKPLACE Arg1:T51 Arg2:T50	
+R20	WORKPLACE Arg1:T54 Arg2:T50	
+R21	WORKS_AS Arg1:T54 Arg2:T51	
+T52	PRODUCT 1452 1467	сидр этой марки
+T53	EVENT 1494 1532	остановило отгрузку и поставки напитка
+R22	ORGANIZES Arg1:T55 Arg2:T53	

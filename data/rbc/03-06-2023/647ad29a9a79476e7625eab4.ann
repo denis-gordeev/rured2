@@ -1,0 +1,52 @@
+T0	FAC 22 29	поездов
+T1	COUNTRY 32 37	Индии
+T2	FAC 78 93	железной дороге
+T3	PERSON 126 131	Одиша
+T4	LOCATION 132 142	на востоке
+T5	COUNTRY 143 148	Индии
+T6	FAC 161 184	рельсов вагона экспресс
+T7	FAC 185 191	поезда
+T8	PROFESSION 211 234	исполнительный директор
+T9	ORGANIZATION 261 286	Индийские железные дороги
+T10	ORGANIZATION 288 295	Амитабх
+T11	NEWS_SOURCE 201 301	рассказал исполнительный директор государственной компании «Индийские железные дороги» Амитабх Шарма
+T12	PERSON 296 301	Шарма
+T13	NEWS_SOURCE 303 330	передает The Times of India
+T14	ORGANIZATION 312 330	The Times of India
+T15	FAC 345 361	поезд Coromandel
+T16	ECONOMIC_SECTOR 362 369	Express
+T17	ECONOMIC_SECTOR 372 380	товарный
+T18	FAC 381 386	поезд
+T19	QUANTITY 399 404	около
+T20	PERCENT 399 407	около 19
+T21	CARDINAL 399 407	около 19
+T22	PERCENT 408 410	20
+T23	TIME 414 430	местному времени
+T24	PERCENT 432 441	16:50 мск
+T25	FAC 467 474	станции
+T26	REGION 475 483	Баханага
+T27	PERSON 484 489	Базар
+T28	FAC 497 502	поезд
+T29	FAC 518 525	станции
+T30	PERSON 526 533	Шалимар
+T31	LOCATION 546 555	Калькутты
+T32	PERSON 558 564	Ченнаи
+T33	NEWS_SOURCE 567 586	По последним данным
+T34	QUANTITY 616 627	238 человек
+T35	ORGANIZATION 629 642	Агентство AFP
+T36	NEWS_SOURCE 629 651	Агентство AFP сообщает
+T37	QUANTITY 661 672	288 человек
+T38	NEWS_SOURCE 698 713	выразил премьер
+T39	PROFESSION 706 713	премьер
+T40	NEWS_SOURCE 714 721	министр
+T41	PROFESSION 714 721	министр
+T42	COUNTRY 722 727	Индии
+T43	EVENT 728 736	Нарендра
+T44	NEWS_SOURCE 737 741	Моди
+T45	ORGANIZATION 743 761	The Times of India
+T46	NEWS_SOURCE 743 770	The Times of India сообщает
+T47	COUNTRY 776 785	индийский
+T48	PROFESSION 786 793	премьер
+T49	CARDINAL 866 890	647ad29a9a79476e7625eab4
+T50	PERSON 892 895	Sat
+T51	DATE 904 908	2023

@@ -1,0 +1,103 @@
+T0	PERSON 0 7	Шрёдера
+T2	PROFESSION 49 63	Бывший канцлер
+T3	COUNTRY 64 72	Германии
+T4	PERSON 73 87	Герхард Шрёдер
+T5	EVENT 114 125	конференцию
+T9	ORGANIZATION 157 161	СДПГ
+T10	PROFESSION 164 170	главой
+T14	NEWS_SOURCE 246 259	передает Zeit
+T15	EVENT 261 272	Конференция
+T16	DATE 289 306	с 8 по 10 декабря
+T17	CITY 309 316	Берлине
+T19	EVENT 334 345	мероприятия
+T20	PERSON 408 424	Герхарде Шрёдере
+T22	PROFESSION 485 495	бизнесмена
+T26	EVENT 602 613	мероприятия
+T27	COUNTRY 635 646	российскому
+T28	PROFESSION 647 657	президенту
+T29	PERSON 658 674	Владимиру Путину
+T30	DATE 677 690	В прошлый раз
+T34	COUNTRY 769 777	Германии
+T35	DATE 798 804	23 мая
+T36	DATE 807 824	В настоящее время
+T37	PROFESSION 872 893	генеральный секретарь
+T39	ORGANIZATION 894 898	СДПГ
+T41	PROFESSION 913 924	Экс-канцлер
+T43	PERSON 957 963	Шрёдер
+T44	PROFESSION 987 995	канцлера
+T45	DATE 996 1007	в 2005 году
+T46	COUNTRY 1022 1032	российских
+T47	ORGANIZATION 1041 1050	компаниях
+T48	GROUP 1063 1079	совет директоров
+T49	ORGANIZATION 1081 1089	Роснефти
+T52	ORGANIZATION 1112 1126	Nord Stream AG
+T55	GPE 1171 1177	Берлин
+T56	GROUP 1233 1250	совета директоров
+T57	ORGANIZATION 1252 1260	Роснефти
+T59	ORGANIZATION 1312 1320	Газпрома
+T62	COUNTRY 1380 1387	Россией
+T1	EVENT 25 36	конференцию
+T69	ORGANIZATION 41 47	партии
+R1	ORGANIZES Arg1:T69 Arg2:T1	
+R2	WORKPLACE Arg1:T4 Arg2:T3	
+R3	WORKS_AS Arg1:T4 Arg2:T2	
+T6	ORGANIZATION 126 155	Социал-демократической партии
+R4	ABBREVIATION Arg1:T6 Arg2:T9	
+T7	EVENT 88 110	не получил приглашение
+R5	SUBEVENT_OF Arg1:T5 Arg2:T7	
+R6	MEMBER Arg1:T4 Arg2:T6	
+T8	PERSON 232 244	Саския Эскен
+T13	ORGANIZATION 255 259	Zeit
+T11	PROFESSION 210 231	нынешний лидер партии
+R7	WORKS_AS Arg1:T8 Arg2:T11	
+T12	NEWS_SOURCE 201 259	сообщила нынешний лидер партии Саския Эскен, передает Zeit
+R8	TAKES_PLACE_IN Arg1:T15 Arg2:T17	
+R9	DATE_TAKES_PLACE_ON Arg1:T15 Arg2:T16	
+T18	PROFESSION 359 385	бывшие председатели партии
+T21	PROFESSION 425 441	бывшего канцлера
+T70	PROFESSION 444 469	бывшего партийного лидера
+R10	WORKS_AS Arg1:T20 Arg2:T21	
+R11	WORKS_AS Arg1:T20 Arg2:T70	
+R12	WORKS_AS Arg1:T20 Arg2:T18	
+R13	WORKS_AS Arg1:T20 Arg2:T22	
+T23	PERSON 545 550	Эскен
+T71	NEWS_SOURCE 537 550	сказала Эскен
+R14	WORKPLACE Arg1:T28 Arg2:T27	
+T24	PROFESSION 566 578	экс-канцлера
+R15	WORKS_AS Arg1:T20 Arg2:T24	
+R16	WORKS_AS Arg1:T29 Arg2:T28	
+R17	WORKPLACE Arg1:T29 Arg2:T27	
+T25	PERSON 691 698	Шрёдера
+T31	DATE 729 738	160-летия
+T32	ORGANIZATION 739 777	Социал-демократической партии Германии
+R18	HEADQUARTERED_IN Arg1:T32 Arg2:T34	
+T33	EVENT 699 728	не пригласили на празднование
+T72	EVENT 729 777	160-летия Социал-демократической партии Германии
+R19	SUBEVENT_OF Arg1:T72 Arg2:T33	
+R20	EVENT_TAKES_PART_IN Arg1:T25 Arg2:T33	
+R21	DATE_TAKES_PLACE_ON Arg1:T72 Arg2:T35	
+T38	PERSON 899 911	Кевин Кюнерт
+R22	MEMBER Arg1:T38 Arg2:T39	
+R23	WORKS_AS Arg1:T38 Arg2:T37	
+T40	NEWS_SOURCE 865 911	заявил генеральный секретарь СДПГ Кевин Кюнерт
+T42	PROFESSION 942 955	членом партии
+R24	WORKPLACE Arg1:T42 Arg2:T39	
+R25	HEADQUARTERED_IN Arg1:T47 Arg2:T46	
+R26	WORKPLACE Arg1:T43 Arg2:T47	
+R27	WORKPLACE Arg1:T48 Arg2:T49	
+R28	MEMBER Arg1:T43 Arg2:T48	
+T50	GROUP 1093 1111	комитет акционеров
+R29	MEMBER Arg1:T43 Arg2:T50	
+R30	FOUNDED_BY Arg1:T52 Arg2:T50	
+T51	FAC 1139 1169	газопровода «Северный поток-2»
+T53	PROFESSION 1187 1195	политика
+T54	GROUP 1293 1310	состав директоров
+R31	WORKPLACE Arg1:T54 Arg2:T59	
+R32	WORKPLACE Arg1:T56 Arg2:T57	
+T58	EVENT 1224 1261	вышел из совета директоров «Роснефти»
+R33	ORGANIZES Arg1:T43 Arg2:T58	
+T60	EVENT 1264 1321	отклонил предложение войти в состав директоров «Газпрома»
+R34	ORGANIZES Arg1:T43 Arg2:T60	
+T61	PROFESSION 1323 1335	Экс-канцлера
+T73	EVENT 1323 1387	Экс-канцлера также лишили части привилегий за контакты с Россией
+R35	ORGANIZES Arg1:T55 Arg2:T73	

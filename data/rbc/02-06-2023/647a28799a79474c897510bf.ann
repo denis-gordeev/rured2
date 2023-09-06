@@ -1,0 +1,52 @@
+T0	PROFESSION 0 10	Губернатор
+T1	NEWS_SOURCE 0 17	Губернатор заявил
+T3	PERSON 83 99	Захару Прилепину
+T8	PERSON 222 234	Глеб Никитин
+T9	DATE 270 275	6 мая
+T10	VEHICLE 276 286	автомобиль
+T12	PROFESSION 304 312	писатель
+T13	REGION 326 347	Нижегородской области
+T14	REGION 381 410	Луганской народной республике
+T15	REGION 412 415	ЛНР
+T16	PERSON 417 432	Александр Шубин
+T17	PROFESSION 481 489	писатель
+T18	DATE 582 599	На следующий день
+T20	GROUP 691 709	сотрудники полиции
+T22	PERSON 766 786	Александра Пермякова
+T26	COUNTRY 855 865	украинских
+T27	GROUP 866 875	спецслужб
+T33	PERSON 23 32	Прилепина
+T34	CRIME 39 46	теракта
+T35	DISEASE 53 72	заново учить ходить
+R1	WORKPLACE Arg1:T27 Arg2:T26	
+T2	PROFESSION 74 82	Писателю
+R2	WORKS_AS Arg1:T3 Arg2:T2	
+T23	CRIME 106 115	покушения
+T28	DISEASE 131 152	заново учиться ходить
+T4	PROFESSION 189 199	губернатор
+T5	REGION 200 221	Нижегородской области
+T6	PERSON 248 257	Прилепина
+T7	FAC 258 268	в больнице
+R3	HEADQUARTERED_IN Arg1:T7 Arg2:T5	
+R4	WORKS_AS Arg1:T8 Arg2:T4	
+R5	WORKPLACE Arg1:T8 Arg2:T5	
+R6	WORKPLACE Arg1:T6 Arg2:T5	
+T11	PROFESSION 355 378	ветеран боевых действий
+T29	EVENT 349 432	Погиб ветеран боевых действий в Луганской народной республике (ЛНР) Александр Шубин
+R7	DATE_TAKES_PLACE_ON Arg1:T29 Arg2:T9	
+T30	DISEASE 494 499	ранен
+T31	PERSON 600 609	Прилепина
+T32	DISEASE 620 638	искусственной комы
+T36	EVENT 610 638	вывели из искусственной комы
+R8	DATE_TAKES_PLACE_ON Arg1:T36 Arg2:T18	
+R9	EVENT_TAKES_PART_IN Arg1:T31 Arg2:T36	
+T19	CRIME 743 752	о теракте
+T21	AGE 755 765	29-летнего
+R10	AGE_IS Arg1:T22 Arg2:T21	
+R11	EVENT_TAKES_PART_IN Arg1:T22 Arg2:T19	
+T37	PENALTY 691 734	сотрудники полиции задержали подозреваемого
+T38	DATE 676 690	день покушения
+R12	DATE_TAKES_PLACE_ON Arg1:T19 Arg2:T38	
+T24	NEWS_SOURCE 788 827	Он дал признательные показания и заявил
+R13	ORGANIZES Arg1:T27 Arg2:T19	
+R14	ORGANIZES Arg1:T26 Arg2:T19	

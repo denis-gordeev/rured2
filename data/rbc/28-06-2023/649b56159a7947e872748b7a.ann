@@ -1,0 +1,33 @@
+T0	CITY 2 12	Мелитополе
+T1	CITY 34 44	Мелитополе
+T2	NEWS_SOURCE 71 81	сообщили в
+T3	ORGANIZATION 82 102	администрации города
+T4	GROUP 104 108	Член
+T5	PROFESSION 104 117	Член главного
+T6	ORGANIZATION 118 150	совета администрации Запорожской
+T7	GROUP 151 158	области
+T8	PERSON 159 173	Владимир Рогов
+T9	DATE 234 250	На данный момент
+T10	CARDINAL 263 268	шести
+T11	NEWS_SOURCE 281 296	уточнил политик
+T12	PROFESSION 289 296	политик
+T13	DATE 339 346	22 июня
+T14	FAC 349 359	Мелитополе
+T15	CITY 349 359	Мелитополе
+T16	NEWS_SOURCE 384 397	сообщал Рогов
+T17	PERSON 392 397	Рогов
+T18	FAC 449 473	противовоздушной обороны
+T19	CITY 475 485	Мелитополь
+T20	DATE 495 502	в марте
+T21	REGION 533 540	области
+T22	COUNTRY 551 557	России
+T23	COUNTRY 603 610	Украины
+T24	DATE 612 618	3 июня
+T25	CARDINAL 638 642	пять
+T26	CARDINAL 663 666	три
+T27	PRODUCT 694 699	ракет
+T28	FAC 710 720	жилые дома
+T29	ORGANIZATION 735 738	rbc
+T30	CARDINAL 785 787	28
+T31	DATE 788 791	Jun
+T32	CARDINAL 800 802	54

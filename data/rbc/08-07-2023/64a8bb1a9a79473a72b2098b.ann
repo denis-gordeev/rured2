@@ -1,0 +1,54 @@
+T2	CITY 87 95	Шебекино
+T4	PROFESSION 148 158	губернатор
+T8	PERSON 180 196	Вячеслав Гладков
+T9	NEWS_SOURCE 198 216	По словам Гладкова
+T10	PERSON 208 216	Гладкова
+T12	CARDINAL 258 262	Один
+T13	CARDINAL 368 372	один
+T14	VEHICLE 373 383	автомобиль
+T16	CITY 400 408	Шебекино
+T18	COUNTRY 456 464	Украиной
+T20	DATE 530 555	с конца мая текущего года
+T21	DATE 572 585	В начале июня
+T23	DATE 617 623	4 июля
+T24	PERSON 661 668	Гладков
+T25	NEWS_SOURCE 661 675	Гладков сказал
+T26	DATE 681 702	в течение двух недель
+T27	GROUP 703 709	власти
+T30	FAC 771 775	дома
+T42	CITY 0 10	В Шебекино
+T1	WEAPON 26 35	«Градами»
+T43	FAC 46 63	центральный рынок
+T44	EVENT 36 63	загорелся центральный рынок
+R1	TAKES_PLACE_IN Arg1:T44 Arg2:T42	
+T3	FAC 106 123	центральный рынок
+T45	EVENT 96 123	загорелся центральный рынок
+R2	TAKES_PLACE_IN Arg1:T45 Arg2:T2	
+T5	REGION 159 179	Белгородской области
+R3	WORKPLACE Arg1:T8 Arg2:T5	
+R4	WORKS_AS Arg1:T8 Arg2:T4	
+T6	NEWS_SOURCE 140 196	сообщил губернатор Белгородской области Вячеслав Гладков
+T7	ORGANIZATION 218 221	ВСУ
+T11	WEAPON 239 254	системой «Град»
+T46	EVENT 218 254	ВСУ обстреляли город системой «Град»
+R5	TAKES_PLACE_IN Arg1:T46 Arg2:T5	
+T47	WEAPON 266 274	снарядов
+T48	FAC 295 313	центрального рынка
+T49	FAC 353 365	овощная база
+T15	NEWS_SOURCE 388 398	написал он
+T50	EVENT 347 383	горит овощная база и один автомобиль
+R6	TAKES_PLACE_IN Arg1:T50 Arg2:T16	
+T17	EVENT 476 492	военной операции
+R7	TAKES_PLACE_IN Arg1:T17 Arg2:T18	
+T19	EVENT 493 526	город стал подвергаться обстрелам
+R8	SUBEVENT_OF Arg1:T19 Arg2:T17	
+T22	GROUP 608 615	жителей
+R9	ORIGINS_FROM Arg1:T22 Arg2:T16	
+T51	EVENT 593 615	стали вывозить жителей
+R10	DATE_TAKES_PLACE_ON Arg1:T51 Arg2:T21	
+T28	GROUP 728 753	эвакуированным шебекинцам
+T29	EVENT 640 659	обстрелы стали реже
+R11	DATE_TAKES_PLACE_ON Arg1:T29 Arg2:T23	
+T52	EVENT 703 775	власти начнут предлагать эвакуированным шебекинцам вернуться в свои дома
+R12	DATE_TAKES_PLACE_ON Arg1:T52 Arg2:T26	
+R13	SUBEVENT_OF Arg1:T52 Arg2:T29	

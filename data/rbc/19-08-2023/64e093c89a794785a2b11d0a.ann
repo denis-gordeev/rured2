@@ -1,0 +1,120 @@
+T0	ORGANIZATION 0 10	Минобороны
+T1	NEWS_SOURCE 0 19	Минобороны сообщило
+T2	WEAPON 29 34	дрона
+T5	COUNTRY 71 78	Украина
+T6	WEAPON 89 102	беспилотником
+T7	FAC 103 119	военный аэродром
+T9	CARDINAL 154 158	один
+T10	WEAPON 159 166	самолет
+T11	NEWS_SOURCE 168 189	сообщили в Минобороны
+T12	ORGANIZATION 179 189	Минобороны
+T13	DATE 192 199	Сегодня
+T16	GPE 216 224	киевский
+T19	FAC 396 405	аэродрома
+T22	NEWS_SOURCE 444 465	говорится в сообщении
+T23	FAC 500 509	аэродрома
+T26	CARDINAL 632 636	один
+T27	WEAPON 637 644	самолет
+T28	GROUP 646 658	пострадавших
+T29	CRIME 672 694	террористического акта
+T30	ORGANIZATION 714 724	Минобороны
+T32	COUNTRY 818 825	Украины
+T33	REGION 827 847	Черниговская область
+T34	CARDINAL 851 863	около 560 км
+T36	GROUP 919 925	власти
+T38	COUNTRY 1003 1009	России
+T39	DATE 1016 1031	в конце декабря
+T40	COUNTRY 1032 1042	российская
+T41	FAC 1043 1046	ПВО
+T42	COUNTRY 1053 1063	украинский
+T43	WEAPON 1064 1075	беспилотник
+T46	CITY 1125 1132	Энгельс
+T49	ORGANIZATION 1167 1177	Минобороны
+T50	COUNTRY 1178 1184	России
+T51	CARDINAL 1230 1234	трое
+T52	COUNTRY 1235 1245	российских
+T53	PROFESSION 1246 1260	военнослужащих
+T56	ORGANIZATION 1273 1285	министерстве
+T58	ORGANIZATION 1361 1373	министерство
+T59	NEWS_SOURCE 1361 1382	министерство сообщало
+T60	COUNTRY 1392 1402	украинских
+T61	WEAPON 1403 1427	реактивных беспилотников
+T63	CITY 1441 1448	Энгельс
+T65	CITY 1473 1481	Дягилево
+T67	REGION 1484 1493	Рязанской
+T68	WEAPON 1495 1500	Дроны
+T69	FAC 1518 1521	ПВО
+T71	CARDINAL 1568 1572	двух
+T72	WEAPON 1573 1582	самолетов
+T73	CARDINAL 1592 1596	трое
+T74	PROFESSION 1597 1604	военных
+T75	ORGANIZATION 1608 1618	Минобороны
+T76	COUNTRY 1712 1722	российской
+T77	FAC 1723 1738	дальней авиации
+T86	FAC 35 46	на аэродром
+T3	REGION 47 69	в Новгородской области
+R1	HEADQUARTERED_IN Arg1:T86 Arg2:T3	
+T4	EVENT 23 46	атаке дрона на аэродром
+R2	TAKES_PLACE_IN Arg1:T4 Arg2:T3	
+T8	REGION 120 142	в Новгородской области
+R3	HEADQUARTERED_IN Arg1:T7 Arg2:T8	
+T87	EVENT 71 119	Украина атаковала беспилотником военный аэродром
+R4	TAKES_PLACE_IN Arg1:T87 Arg2:T8	
+T88	EVENT 144 166	поврежден один самолет
+R5	SUBEVENT_OF Arg1:T88 Arg2:T87	
+T14	TIME 200 215	около 10:00 мск
+T15	WEAPON 277 297	БПЛА коптерного типа
+T17	FAC 301 317	военный аэродром
+T18	REGION 318 340	в Новгородской области
+R6	HEADQUARTERED_IN Arg1:T17 Arg2:T18	
+T89	EVENT 216 297	киевский режим совершил террористическую атаку с применением БПЛА коптерного типа
+R7	DATE_TAKES_PLACE_ON Arg1:T89 Arg2:T13	
+R8	TAKES_PLACE_IN Arg1:T89 Arg2:T17	
+R9	TAKES_PLACE_IN Arg1:T89 Arg2:T18	
+T90	WEAPON 342 346	БПЛА
+T20	WEAPON 418 439	из стрелкового оружия
+T21	GROUP 361 375	расчетом поста
+T24	WEAPON 541 550	самолетов
+T25	GROUP 590 609	пожарными расчетами
+T91	EVENT 510 550	возникло возгорание на стоянке самолетов
+R10	TAKES_PLACE_IN Arg1:T91 Arg2:T23	
+T92	NEWS_SOURCE 703 724	уточнили в Минобороны
+T93	EVENT 612 644	Повреждение получил один самолет
+R11	TAKES_PLACE_IN Arg1:T93 Arg2:T23	
+T31	REGION 727 749	В Новгородской области
+T78	FAC 765 783	военных аэродромов
+R12	HEADQUARTERED_IN Arg1:T78 Arg2:T31	
+T79	EVENT 873 896	начала военной операции
+R13	OWNERSHIP Arg1:T32 Arg2:T33	
+T35	COUNTRY 897 907	на Украине
+R14	TAKES_PLACE_IN Arg1:T79 Arg2:T35	
+T80	COUNTRY 908 918	российские
+R15	WORKPLACE Arg1:T36 Arg2:T80	
+T37	ORGANIZATION 959 962	ВСУ
+T81	NEWS_SOURCE 908 947	российские власти неоднократно сообщали
+T82	FAC 973 988	военные объекты
+R16	HEADQUARTERED_IN Arg1:T82 Arg2:T38	
+R17	HEADQUARTERED_IN Arg1:T41 Arg2:T40	
+T83	EVENT 1032 1075	российская ПВО сбила украинский беспилотник
+R18	DATE_TAKES_PLACE_ON Arg1:T83 Arg2:T39	
+T44	FAC 1104 1124	к военному аэродрому
+T45	REGION 1133 1154	в Саратовской области
+R19	OWNERSHIP Arg1:T50 Arg2:T49	
+T47	NEWS_SOURCE 1156 1184	сообщали в Минобороны России
+R20	HEADQUARTERED_IN Arg1:T44 Arg2:T46	
+R21	OWNERSHIP Arg1:T45 Arg2:T46	
+T48	WEAPON 1216 1221	дрона
+R22	WORKPLACE Arg1:T53 Arg2:T52	
+T84	EVENT 1222 1260	погибли трое российских военнослужащих
+R23	TAKES_PLACE_IN Arg1:T84 Arg2:T44	
+T54	NEWS_SOURCE 1262 1285	говорили в министерстве
+T55	DATE 1332 1360	За несколько недель до этого
+T57	FAC 1428 1440	на аэродромы
+T62	REGION 1449 1470	в Саратовской области
+R24	OWNERSHIP Arg1:T62 Arg2:T63	
+R25	HEADQUARTERED_IN Arg1:T57 Arg2:T63	
+R26	OWNERSHIP Arg1:T67 Arg2:T65	
+T64	GPE 1650 1659	киевского
+T66	NEWS_SOURCE 1606 1626	В Минобороны назвали
+T70	CRIME 1675 1697	террористическим актом
+R27	HEADQUARTERED_IN Arg1:T77 Arg2:T76	

@@ -1,0 +1,43 @@
+T0	PERSON 0 7	Эрдоган
+T1	ORDINAL 40 46	втором
+T4	PROFESSION 61 77	Видео
+
+Кандидаты
+T5	COUNTRY 91 97	Турции
+T6	ORDINAL 115 121	втором
+T9	PERSON 166 186	Реджеп Тайип Эрдоган
+T15	COUNTRY 339 351	аргентинской
+T17	CITY 370 376	Анкаре
+T19	ORDINAL 378 384	Первый
+T21	DATE 404 410	14 мая
+T22	PERCENT 433 436	87%
+T23	PERSON 438 445	Эрдоган
+T26	PERSON 472 484	Кылычдароглу
+T29	PERCENT 525 534	более 50%
+T30	GROUP 543 554	избирателей
+T39	PERSON 10 22	Кылычдароглу
+T2	EVENT 37 59	во втором туре выборов
+R1	EVENT_TAKES_PART_IN Arg1:T39 Arg2:T2	
+R2	EVENT_TAKES_PART_IN Arg1:T0 Arg2:T2	
+T3	NEWS_SOURCE 61 66	Видео
+T40	PROFESSION 68 90	Кандидаты в президенты
+R3	WORKPLACE Arg1:T40 Arg2:T5	
+T7	EVENT 112 134	во втором туре выборов
+R4	TAKES_PLACE_IN Arg1:T7 Arg2:T5	
+T8	PROFESSION 136 165	Действующий глава государства
+R5	WORKS_AS Arg1:T9 Arg2:T8	
+T41	FAC 197 218	избирательный участок
+R6	USES Arg1:T9 Arg2:T41	
+T10	FAC 234 261	в средней школе Саффет Чеби
+T11	BOROUGH 262 278	в районе Ускюдар
+T12	CITY 279 289	в Стамбуле
+R7	OWNERSHIP Arg1:T12 Arg2:T11	
+R8	HEADQUARTERED_IN Arg1:T10 Arg2:T12	
+T13	PERCENT 487 493	44,88%
+T18	EVENT 378 396	Первый тур выборов
+R9	DATE_TAKES_PLACE_ON Arg1:T18 Arg2:T21	
+T20	PERCENT 454 460	49,51%
+T14	FAC 337 367	в аргентинской начальной школе
+R10	HEADQUARTERED_IN Arg1:T14 Arg2:T17	
+T16	PERSON 304 323	Кемаль Кылычдароглу
+R11	USES Arg1:T16 Arg2:T14	

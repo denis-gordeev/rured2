@@ -1,0 +1,60 @@
+T0	ORGANIZATION 2 10	Горловке
+T1	PERSON 2 10	Горловке
+T2	FAC 54 63	жилой дом
+T3	ORGANIZATION 74 82	Горловка
+T4	GPE 84 92	Донецкая
+T5	COUNTRY 140 147	Украины
+T6	FAC 176 185	жилой дом
+T7	NEWS_SOURCE 187 211	сообщил в своем телеграм
+T8	EVENT 203 211	телеграм
+T9	EVENT 212 218	канале
+T10	PROFESSION 219 222	мэр
+T11	PERSON 223 227	Иван
+T12	NEWS_SOURCE 212 237	канале мэр Иван Приходько
+T13	FAC 265 275	жилом доме
+T14	CITY 298 309	Кишиневской
+T15	NEWS_SOURCE 319 336	Представительство
+T16	PROFESSION 319 336	Представительство
+T17	COUNTRY 337 340	ДНР
+T18	DATE 391 405	вечером 4 июня
+T19	NEWS_SOURCE 406 414	сообщило
+T20	ORGANIZATION 430 438	Горловки
+T21	PERSON 430 438	Горловки
+T22	CARDINAL 453 457	пять
+T23	CARDINAL 476 479	152
+T24	COUNTRY 527 538	украинскими
+T25	PROFESSION 539 547	военными
+T26	CARDINAL 552 554	11
+T27	PROFESSION 555 560	ракет
+T28	ORGANIZATION 571 575	РЗСО
+T29	PROFESSION 577 594	Представительство
+T30	COUNTRY 595 598	ДНР
+T31	DATE 606 615	в течение
+T32	NEWS_SOURCE 629 637	сообщало
+T33	NEWS_SOURCE 640 654	своем телеграм
+T34	NEWS_SOURCE 655 661	канале
+T35	FAC 670 679	ВСУ ракет
+T36	CITY 683 690	Донецку
+T37	NEWS_SOURCE 707 718	Петровскому
+T38	PERSON 707 718	Петровскому
+T39	CITY 720 733	Куйбышевскому
+T40	CITY 735 744	Киевскому
+T41	FAC 747 765	Кировскому районам
+T42	COUNTRY 767 777	Украинские
+T43	NEWS_SOURCE 767 784	Украинские власти
+T44	GROUP 778 784	власти
+T45	DATE 785 813	в течение нескольких месяцев
+T46	NEWS_SOURCE 814 822	сообщают
+T47	PROFESSION 893 902	президент
+T48	NEWS_SOURCE 885 921	говорил президент Владимир Зеленский
+T49	PERSON 903 921	Владимир Зеленский
+T50	COUNTRY 978 988	Российские
+T51	PROFESSION 989 996	военные
+T52	NEWS_SOURCE 1078 1091	сообщал пресс
+T53	PROFESSION 1092 1112	секретарь президента
+T54	COUNTRY 1113 1119	России
+T55	NEWS_SOURCE 1092 1134	секретарь президента России Дмитрий Песков
+T56	PERSON 1120 1134	Дмитрий Песков
+T57	DATE 1214 1218	2023
+T58	CARDINAL 1219 1221	00
+T59	CARDINAL 1222 1224	44

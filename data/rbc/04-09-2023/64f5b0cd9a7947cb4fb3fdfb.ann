@@ -1,0 +1,49 @@
+T0	ORGANIZATION 0 10	Минобороны
+T1	NEWS_SOURCE 0 19	Минобороны сообщило
+T2	PRODUCT 46 53	катеров
+T3	FAC 46 53	катеров
+T4	FAC 54 60	дронов
+T5	COUNTRY 64 83	Украине
+
+Российские
+T6	ECONOMIC_SECTOR 84 96	беспилотники
+T7	DATE 97 104	сегодня
+T8	COUNTRY 127 138	украинскому
+T9	ECONOMIC_SECTOR 139 156	судостроительному
+T10	FAC 139 168	судостроительному предприятию
+T11	NEWS_SOURCE 170 196	сообщает Минобороны России
+T12	ORGANIZATION 179 196	Минобороны России
+T13	COUNTRY 190 196	России
+T14	NEWS_SOURCE 198 217	По данным ведомства
+T15	FAC 245 251	катера
+T16	PRODUCT 271 284	комплектующих
+T17	DATE 286 303	В последнее время
+T18	GROUP 304 310	власти
+T19	DATE 314 317	раз
+T20	COUNTRY 343 353	украинских
+T21	FAC 367 374	катеров
+T22	LOCATION 377 388	Черном море
+T23	COUNTRY 418 425	Украины
+T24	GROUP 476 482	власти
+T25	CARDINAL 483 487	двух
+T26	REGION 499 507	Одесской
+T27	REGION 510 526	Днепропетровской
+T28	NEWS_SOURCE 528 533	Глава
+T29	PROFESSION 528 533	Глава
+T30	REGION 534 550	Днепропетровской
+T31	PROFESSION 551 560	областной
+T32	ORGANIZATION 561 574	администрации
+T33	PERSON 575 587	Сергей Лысак
+T34	NEWS_SOURCE 551 595	областной администрации Сергей Лысак сообщал
+T35	CITY 663 671	Одесской
+T36	COUNTRY 740 750	украинские
+T37	GROUP 751 757	власти
+T38	NEWS_SOURCE 758 766	сообщили
+T39	FAC 781 790	складских
+T40	FAC 793 809	производственных
+T41	CARDINAL 883 907	64f5b0cd9a7947cb4fb3fdfb
+T42	CITY 909 912	Mon
+T43	DATE 921 925	2023
+T44	CARDINAL 926 928	13
+T45	CARDINAL 929 931	47
+T46	CARDINAL 932 936	45 +

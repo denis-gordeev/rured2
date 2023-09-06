@@ -1,0 +1,51 @@
+T0	CITY 2 7	Киеве
+T1	NEWS_SOURCE 8 15	заявили
+T2	COUNTRY 30 40	российских
+T3	EVENT 41 49	войск на
+T4	CARDINAL 50 57	четырех
+T5	COUNTRY 72 82	Российские
+T6	FAC 83 89	войска
+T7	CARDINAL 106 113	четырех
+T8	REGION 129 139	Авдеевском
+T9	REGION 141 151	Марьинском
+T10	CITY 153 168	Краснолиманском
+T11	EVENT 171 181	Сватовском
+T12	PROFESSION 192 211	замминистра обороны
+T13	COUNTRY 212 219	Украины
+T14	NEWS_SOURCE 183 230	сообщила замминистра обороны Украины Анна Маляр
+T15	PERSON 220 230	Анна Маляр
+T16	NEWS_SOURCE 232 244	По ее словам
+T17	DATE 263 280	в настоящее время
+T18	ECONOMIC_SECTOR 289 299	Сватовском
+T19	ORGANIZATION 336 347	Белогоровки
+T20	DATE 369 375	сейчас
+T21	NEWS_SOURCE 386 409	подчеркнула замминистра
+T22	PROFESSION 398 409	замминистра
+T23	PERSON 411 416	Маляр
+T24	NEWS_SOURCE 411 431	Маляр также отметила
+T25	FAC 466 493	боевого соприкосновения ВСУ
+T26	COUNTRY 538 548	российских
+T27	GROUP 549 552	сил
+T28	PROFESSION 568 577	президент
+T29	NEWS_SOURCE 560 592	заявлял президент Владимир Путин
+T30	PERSON 578 592	Владимир Путин
+T31	COUNTRY 594 604	украинское
+T32	NEWS_SOURCE 594 604	украинское
+T33	DATE 629 635	4 июня
+T34	PROFESSION 673 690	глава государства
+T35	COUNTRY 718 728	Российское
+T36	ORGANIZATION 729 739	Минобороны
+T37	COUNTRY 781 791	украинских
+T38	PROFESSION 792 799	военных
+T39	GROUP 792 799	военных
+T40	PROFESSION 827 836	Президент
+T41	COUNTRY 837 844	Украины
+T42	PERSON 845 863	Владимир Зеленский
+T43	PROFESSION 938 945	Главком
+T44	ORGANIZATION 946 949	ВСУ
+T45	PERSON 950 957	Валерий
+T46	GPE 998 1002	Киев
+T47	CARDINAL 1065 1089	64a1c22c9a7947255e2edb36
+T48	ORGANIZATION 1099 1102	Jul
+T49	CARDINAL 1103 1110	2023 21
+T50	CARDINAL 1111 1113	38

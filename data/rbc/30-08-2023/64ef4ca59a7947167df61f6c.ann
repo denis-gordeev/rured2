@@ -1,0 +1,50 @@
+T0	NEWS_SOURCE 0 1	В
+T1	COUNTRY 2 7	Новой
+T2	FAC 8 15	Каховке
+T3	NEWS_SOURCE 16 24	сообщили
+T4	INVESTMENT_PROGRAM 27 33	пожаре
+T5	LAW 36 43	детском
+T6	FAC 44 48	саду
+T7	LAW 55 60	удара
+T8	ORGANIZATION 61 64	ВСУ
+T9	COUNTRY 68 73	Новой
+T10	FAC 74 81	Каховке
+T11	REGION 74 100	Каховке Херсонской области
+T12	FAC 107 132	артиллерийского удара ВСУ
+T13	LAW 129 132	ВСУ
+T14	ECONOMIC_SECTOR 143 148	пожар
+T15	LAW 151 163	детском саду
+T16	LAW 165 172	Золотая
+T17	FAC 165 178	Золотая рыбка
+T18	ORGANIZATION 190 229	администрация Новокаховского городского
+T19	NEWS_SOURCE 181 229	сообщает администрация Новокаховского городского
+T20	REGION 230 236	округа
+T21	NEWS_SOURCE 237 244	в своем
+T22	LAW 245 260	телеграм-канале
+T23	NEWS_SOURCE 254 260	канале
+T24	ORGANIZATION 402 415	администрации
+T25	GROUP 476 484	пожарные
+T26	TIME 496 503	вечером
+T27	COUNTRY 506 511	Новой
+T28	FAC 512 519	Каховке
+T29	ORGANIZATION 544 548	доме
+T30	FAC 544 548	доме
+T31	ORGANIZATION 564 586	региональное отделение
+T32	ORGANIZATION 595 608	Единая Россия
+T33	GROUP 647 663	пострадавших нет
+T34	PROFESSION 666 679	Представитель
+T35	ORGANIZATION 680 693	администрации
+T36	NEWS_SOURCE 666 701	Представитель администрации сообщил
+T37	ECONOMIC_SECTOR 715 721	зданию
+T38	COUNTRY 734 744	украинским
+T39	ECONOMIC_SECTOR 745 758	беспилотником
+T40	DATE 760 770	Днем ранее
+T41	DATE 773 777	этом
+T42	EVENT 778 787	помещении
+T43	PROFESSION 788 793	глава
+T44	ORGANIZATION 794 807	администрации
+T45	PERSON 815 832	Владимир Леонтьев
+T46	CARDINAL 884 908	64ef4ca59a7947167df61f6c
+T47	CARDINAL 915 917	30
+T48	CARDINAL 922 929	2023 17
+T49	CARDINAL 930 932	30

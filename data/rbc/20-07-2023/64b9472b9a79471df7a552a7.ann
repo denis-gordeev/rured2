@@ -1,0 +1,60 @@
+T0	PERSON 0 7	Аксенов
+T1	NEWS_SOURCE 0 15	Аксенов сообщил
+T8	REGION 107 112	Крыма
+T9	PROFESSION 135 148	глава региона
+T11	PERSON 149 163	Сергей Аксенов
+T14	DATE 189 196	19 июля
+T15	FAC 209 215	трассе
+T16	EVENT 232 238	пожара
+T17	FAC 239 250	на полигоне
+T18	PERSON 291 298	Аксенов
+T19	NEWS_SOURCE 291 308	Аксенов рассказал
+T20	FAC 331 339	полигону
+T22	GROUP 375 382	жителей
+T23	CARDINAL 383 390	четырех
+T28	FAC 531 537	Трасса
+T37	ORGANIZATION 589 592	МЧС
+T39	REGION 593 598	Крыма
+T40	NEWS_SOURCE 589 607	МЧС Крыма сообщило
+T41	FAC 616 632	военном полигоне
+T42	EVENT 653 658	пожар
+T43	ORGANIZATION 698 708	Минобороны
+T44	FAC 770 778	полигоне
+T45	GROUP 791 797	власти
+T46	BOROUGH 837 852	Кировский район
+T48	CITY 887 893	Керчью
+T49	CITY 896 908	Симферополем
+T3	REGION 50 57	в Крыму
+T2	FAC 37 49	по «Тавриде»
+T4	FAC 68 87	по трассе «Таврида»
+T5	BOROUGH 88 106	в Кировском районе
+R1	HEADQUARTERED_IN Arg1:T4 Arg2:T8	
+T6	NEWS_SOURCE 127 187	сообщил глава региона Сергей Аксенов в своем телеграм-канале
+R2	WORKS_AS Arg1:T11 Arg2:T9	
+R3	TAKES_PLACE_IN Arg1:T16 Arg2:T17	
+T7	EVENT 197 225	движение по трассе перекрыли
+R4	SUBEVENT_OF Arg1:T7 Arg2:T16	
+R5	DATE_TAKES_PLACE_ON Arg1:T7 Arg2:T14	
+R6	DATE_TAKES_PLACE_ON Arg1:T16 Arg2:T14	
+T10	WEAPON 258 269	боеприпасов
+T12	EVENT 252 283	Часть боеприпасов сдетонировала
+R7	TAKES_PLACE_IN Arg1:T12 Arg2:T17	
+T13	EVENT 345 382	планируют временную эвакуацию жителей
+T21	QUANTITY 416 432	более двух тысяч
+T24	NEWS_SOURCE 442 452	Он уточнил
+T25	GROUP 480 497	профильные службы
+T26	FAC 513 529	оперативный штаб
+T27	EVENT 503 529	развернут оперативный штаб
+R8	EVENT_TAKES_PART_IN Arg1:T25 Arg2:T27	
+T29	ORDINAL 553 561	с 118-го
+T30	LOCATION 864 908	на середине пути между Керчью и Симферополем
+T31	ORDINAL 562 570	по 130-й
+T32	TIME 576 580	Днем
+T33	DATE 581 588	20 июля
+R9	HEADQUARTERED_IN Arg1:T37 Arg2:T39	
+R10	TAKES_PLACE_IN Arg1:T42 Arg2:T41	
+R11	DATE_TAKES_PLACE_ON Arg1:T42 Arg2:T33	
+T34	PROFESSION 690 697	Военные
+R12	WORKPLACE Arg1:T34 Arg2:T43	
+T35	EVENT 709 778	заявили о готовности приступить к обследованию территории на полигоне
+R13	EVENT_TAKES_PART_IN Arg1:T43 Arg2:T35	

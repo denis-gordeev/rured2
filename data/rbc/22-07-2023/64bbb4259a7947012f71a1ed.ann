@@ -1,0 +1,32 @@
+T0	PERSON 0 7	Военкор
+T1	NEWS_SOURCE 0 21	Военкор «РИА Новости»
+T2	ORGANIZATION 9 21	РИА Новости»
+T3	COUNTRY 70 80	украинской
+T4	ORGANIZATION 81 86	армии
+T5	EVENT 94 101	военной
+T6	NEWS_SOURCE 102 110	операции
+T7	EVENT 111 124	погиб военный
+T8	ORGANIZATION 140 152	РИА Новости»
+T9	PERSON 153 171	Ростислав Журавлев
+T10	NEWS_SOURCE 125 191	корреспондент «РИА Новости» Ростислав Журавлев, сообщило агентство
+T11	LOCATION 216 244	населенного пункта Пятихатки
+T12	NEWS_SOURCE 314 323	агентства
+T13	PERSON 324 348	Константин Михальчевский
+T14	PROFESSION 358 367	журналист
+T15	EVENT 384 394	последнего
+T16	NEWS_SOURCE 395 407	агентство не
+T17	NEWS_SOURCE 418 424	газета
+T18	PROFESSION 435 449	корреспондента
+T19	NEWS_SOURCE 435 461	корреспондента не сообщила
+T20	DATE 463 477	В прошлом июле
+T21	PERSON 478 486	Журавлев
+T22	FAC 511 515	перо
+T23	PROFESSION 561 575	журналистского
+T24	CARDINAL 635 637	22
+T25	CARDINAL 646 670	64bbb4259a7947012f71a1ed
+T26	PERSON 672 675	Sat
+T27	CARDINAL 677 679	22
+T28	ORGANIZATION 680 683	Jul
+T29	DATE 684 688	2023
+T30	CARDINAL 689 691	14
+T31	CARDINAL 692 694	01

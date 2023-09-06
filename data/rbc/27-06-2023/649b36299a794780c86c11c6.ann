@@ -1,0 +1,64 @@
+T0	GPE 0 4	Киев
+T1	NEWS_SOURCE 5 12	сообщил
+T2	FAC 40 46	ракеты
+T3	EVENT 49 57	пиццерию
+T4	CITY 60 71	Краматорске
+T5	CITY 75 86	Краматорске
+T6	COUNTRY 103 111	Украиной
+T7	COUNTRY 118 121	ДНР
+T8	FAC 136 151	ракетного удара
+T9	CARDINAL 160 163	три
+T10	MONEY 181 183	42
+T11	CARDINAL 181 183	42
+T12	ORGANIZATION 195 204	Укринформ
+T13	NEWS_SOURCE 185 208	сообщает «Укринформ» со
+T14	NEWS_SOURCE 220 234	данные полиции
+T15	ORGANIZATION 227 234	полиции
+T16	PROFESSION 237 242	главы
+T17	ORGANIZATION 243 259	офиса президента
+T18	COUNTRY 260 267	Украины
+T19	PERSON 268 274	Андрея
+T20	NEWS_SOURCE 237 281	главы офиса президента Украины Андрея Ермака
+T21	ORGANIZATION 275 281	Ермака
+T22	PROFESSION 295 310	глава областной
+T23	NEWS_SOURCE 287 340	уточнил глава областной администрации Павел Кириленко
+T24	PERSON 325 340	Павел Кириленко
+T25	PRODUCT 368 376	пиццерии
+T26	FAC 395 405	жилые дома
+T27	FAC 407 411	кафе
+T28	FAC 413 421	магазины
+T29	NEWS_SOURCE 464 483	По словам Кириленко
+T30	PERSON 474 483	Кириленко
+T31	CARDINAL 514 518	трое
+T32	GROUP 519 530	иностранцев
+T33	COUNTRY 532 542	Российская
+T34	GROUP 596 603	военным
+T35	ECONOMIC_SECTOR 623 634	гражданской
+T36	PROFESSION 661 674	Представитель
+T37	ORGANIZATION 675 681	Кремля
+T38	PERSON 682 696	Дмитрий Песков
+T39	NEWS_SOURCE 690 705	Песков указывал
+T40	PROFESSION 754 761	военные
+T41	ORGANIZATION 768 778	Минобороны
+T42	ECONOMIC_SECTOR 800 806	склады
+T43	PRODUCT 807 818	боеприпасов
+T44	FAC 820 851	элементы военной инфраструктуры
+T45	ORGANIZATION 853 864	предприятия
+T46	FAC 865 873	оборонно
+T47	ECONOMIC_SECTOR 874 887	промышленного
+T48	FAC 888 897	комплекса
+T49	FAC 917 937	объекты энергетики и
+T50	DATE 942 975	В этот вечер примерно на половине
+T51	COUNTRY 987 994	Украины
+T52	LOCATION 997 1011	на востоке и в
+T53	GPE 1012 1023	центральной
+T54	LOCATION 1024 1029	части
+T55	PERSON 1073 1082	Суспiльне
+T56	ECONOMIC_SECTOR 1095 1102	взрывах
+T57	GPE 1120 1135	Киеву Запорожье
+T58	CARDINAL 1166 1168	27
+T59	CARDINAL 1208 1210	28
+T60	DATE 1208 1219	28 Jun 2023
+T61	TIME 1220 1222	00
+T62	DATE 1223 1225	12
+T63	CARDINAL 1223 1225	12

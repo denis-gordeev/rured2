@@ -1,0 +1,36 @@
+T0	LOCATION 12 17	горах
+T1	REGION 18 24	Адыгеи
+T12	ORGANIZATION 256 259	МЧС
+T14	TIME 269 274	утром
+T4	PROFESSION 469 478	Спасатели
+T23	LOCATION 496 512	у озера Псенодах
+T24	TIME 326 331	Ночью
+T25	PROFESSION 332 341	спасатели
+T32	REGION 342 353	адыгейского
+T17	ORGANIZATION 384 387	МЧС
+T33	GROUP 354 383	поисково-спасательного отряда
+R1	USES Arg1:T17 Arg2:T33	
+T18	LOCATION 402 428	район Майкопского перевала
+R2	WORKPLACE Arg1:T25 Arg2:T32	
+R3	WORKPLACE Arg1:T25 Arg2:T17	
+T19	VEHICLE 453 467	вертолет Ка-32
+T2	AGE 25 34	11-летнюю
+T3	EVENT 25 54	11-летнюю девочку нашли живой
+R4	TAKES_PLACE_IN Arg1:T3 Arg2:T1	
+T5	LOCATION 66 73	в горах
+T20	COUNTRY 74 80	Адыгеи
+T6	AGE 81 90	11-летнюю
+T7	EVENT 81 121	11-летнюю девочку нашли живой и здоровой
+R5	TAKES_PLACE_IN Arg1:T7 Arg2:T20	
+T8	PERSON 148 162	Мурат Кумпилов
+T9	PROFESSION 131 147	глава республики
+R6	WORKS_AS Arg1:T8 Arg2:T9	
+T10	NEWS_SOURCE 123 162	сообщил глава республики Мурат Кумпилов
+T11	FAMILY 214 223	родителям
+T21	NEWS_SOURCE 225 235	добавил он
+T13	NEWS_SOURCE 256 274	МЧС сообщило утром
+T22	EVENT 238 274	О пропаже девочки МЧС сообщило утром
+T26	FAMILY 289 301	с родителями
+T15	FAC 302 324	на турбазе Верхний Чуб
+T16	EVENT 276 301	Она отдыхала с родителями
+R7	TAKES_PLACE_IN Arg1:T16 Arg2:T15	

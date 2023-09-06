@@ -1,0 +1,35 @@
+T0	ORGANIZATION 0 11	Минпромторг
+T1	PRODUCT 90 105	контактных линз
+T2	COUNTRY 108 114	Россию
+T3	GROUP 115 121	власти
+T4	ORGANIZATION 210 214	ТАСС
+T7	ORGANIZATION 247 259	Минпромторге
+T8	COUNTRY 260 266	России
+T10	PRODUCT 310 325	контактных линз
+T11	ORGANIZATION 326 335	ведомство
+T12	NEWS_SOURCE 452 473	говорится в сообщении
+T13	ORGANIZATION 481 493	министерстве
+T17	ORGANIZATION 553 570	Johnson & Johnson
+T23	ORGANIZATION 708 722	Коммерсантъ ФМ
+T24	NEWS_SOURCE 698 723	отмечает «Коммерсантъ ФМ»
+T25	COUNTRY 766 779	американского
+T26	CARDINAL 798 812	в полтора раза
+T27	DATE 815 832	На прошлой неделе
+T28	ORGANIZATION 833 844	Минпромторг
+T29	COUNTRY 845 848	США
+T30	COUNTRY 884 890	Россию
+T37	PRODUCT 43 58	контактных линз
+R1	WORKPLACE Arg1:T3 Arg2:T2	
+T5	ORGANIZATION 230 242	Минпромторга
+T6	ORGANIZATION 217 229	пресс-службе
+R2	OWNERSHIP Arg1:T5 Arg2:T6	
+T38	NEWS_SOURCE 201 242	сообщили ТАСС в пресс-службе Минпромторга
+R3	OWNERSHIP Arg1:T8 Arg2:T7	
+T39	NEWS_SOURCE 245 274	В Минпромторге России обещают
+T9	PRODUCT 582 632	линзы под брендами Acuvue Oasys и Acuvue True Eyes
+T14	NEWS_SOURCE 479 522	в министерстве прокомментировали информацию
+T15	PRODUCT 745 749	линз
+T16	PENALTY 849 890	расширил санкции на ввоз товаров в Россию
+R4	PENALIZED_AS Arg1:T30 Arg2:T16	
+R5	OWNERSHIP Arg1:T29 Arg2:T28	
+T18	PRODUCT 920 936	контактные линзы

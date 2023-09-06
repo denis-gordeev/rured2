@@ -1,0 +1,37 @@
+T3	VEHICLE 77 87	Volkswagen
+T7	COUNTRY 133 139	России
+T13	PROFESSION 243 251	Водитель
+T16	NEWS_SOURCE 308 329	говорится в сообщении
+T21	PROFESSION 508 516	Водитель
+T22	VEHICLE 517 526	грузовика
+T33	VEHICLE 15 21	машина
+T34	EVENT 39 42	ДТП
+T1	CITY 0 14	В Калининграде
+R1	TAKES_PLACE_IN Arg1:T34 Arg2:T1	
+T35	CITY 44 58	В Калининграде
+T2	STREET 59 76	на улице Горького
+R2	OWNERSHIP Arg1:T35 Arg2:T2	
+T4	EVENT 77 102	Volkswagen въехал в столб
+T23	EVENT 508 575	Водитель грузовика не справился с управлением и въехал в ограждение
+T5	REGION 143 166	Калининградской области
+T6	ORGANIZATION 128 132	УМВД
+T8	ORGANIZATION 113 127	телеграм-канал
+R3	OWNERSHIP Arg1:T6 Arg2:T8	
+R4	HEADQUARTERED_IN Arg1:T6 Arg2:T7	
+R5	OWNERSHIP Arg1:T7 Arg2:T5	
+T9	NEWS_SOURCE 104 166	сообщает телеграм-канал УМВД России по Калининградской области
+R6	TAKES_PLACE_IN Arg1:T4 Arg2:T35	
+T10	EVENT 182 185	ДТП
+T11	FAC 219 241	медицинское учреждение
+T12	EVENT 196 241	пассажир — доставлен в медицинское учреждение
+R7	SUBEVENT_OF Arg1:T12 Arg2:T10	
+T14	CRIME 243 289	Водитель, находившийся в алкогольном опьянении
+T15	ORGANIZATION 331 338	Полиция
+T24	ORGANIZATION 379 382	ДТП
+T25	NEWS_SOURCE 369 388	На кадрах ДТП видно
+T26	EVENT 394 428	после столкновения произошел взрыв
+T17	ORDINAL 439 446	на 85-м
+T18	FAC 457 461	МКАД
+T19	VEHICLE 462 481	грузовой автомобиль
+T20	EVENT 462 506	грузовой автомобиль перевернулся и загорелся
+R8	TAKES_PLACE_IN Arg1:T20 Arg2:T18	

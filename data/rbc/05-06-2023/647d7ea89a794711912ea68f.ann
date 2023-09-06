@@ -1,0 +1,58 @@
+T0	GROUP 0 11	Руководство
+T1	COUNTRY 12 23	российского
+T2	PERSON 24 33	Polymetal
+T3	GROUP 64 75	Руководство
+T4	GROUP 102 112	первичного
+T5	PRODUCT 113 120	серебра
+T6	ORDINAL 123 130	второго
+T7	PRODUCT 156 162	золота
+T8	COUNTRY 165 171	России
+T9	ORGANIZATION 172 195	Polymetal International
+T10	FAC 205 210	посты
+T11	COUNTRY 213 223	российском
+T12	FAC 224 231	филиале
+T13	ORGANIZATION 232 233	«
+T14	FAC 233 243	Полиметалл
+T15	PROFESSION 289 320	Главный исполнительный директор
+T16	PERSON 321 328	Виталий
+T17	PROFESSION 329 334	Несис
+T18	PROFESSION 337 364	главный финансовый директор
+T19	PERSON 365 371	Максим
+T20	ORGANIZATION 451 469	дочерних компаниях
+T21	ORGANIZATION 488 511	Polymetal International
+T22	PROFESSION 513 545	Исполнительный вице-президент по
+T23	PROFESSION 562 570	развитию
+T24	PERSON 571 584	Павел Данилин
+T25	PERSON 593 602	Polymetal
+T26	FAC 613 626	подразделений
+T27	NEWS_SOURCE 632 641	говорится
+T28	NEWS_SOURCE 644 653	сообщении
+T29	ORGANIZATION 654 662	компании
+T30	NEWS_SOURCE 662 663	,
+T31	ORGANIZATION 664 669	Несис
+T32	COUNTRY 741 751	Казахстане
+T33	ORGANIZATION 795 803	компании
+T34	ORGANIZATION 807 820	Международный
+T35	ORGANIZATION 832 846	центр «Астана»
+T36	ORGANIZATION 848 852	МФЦА
+T37	ORGANIZATION 954 960	Группы
+T38	NEWS_SOURCE 1077 1097	сказано в публикации
+T39	ORGANIZATION 1101 1113	пресс-службе
+T40	ORGANIZATION 1115 1126	Полиметалла
+T41	NEWS_SOURCE 1099 1142	В пресс-службе «Полиметалла» рассказали РБК
+T42	ORGANIZATION 1139 1142	РБК
+T43	PROFESSION 1148 1170	генеральным директором
+T44	PERSON 1180 1195	Сергей Черкашин
+T45	PROFESSION 1219 1243	заместителя гендиректора
+T46	PROFESSION 1262 1286	заместителем по финансам
+T47	PERSON 1292 1308	Сергей Сальманов
+T48	ORGANIZATION 1358 1372	аналитического
+T49	DATE 1421 1434	в 1998 году в
+T50	CITY 1435 1440	Санкт
+T51	CITY 1441 1451	Петербурге
+T52	DATE 1453 1474	В марте прошлого года
+T53	ORGANIZATION 1478 1504	совета директоров компании
+T54	CARDINAL 1510 1515	шесть
+T55	GROUP 1528 1534	членов
+T56	CARDINAL 1598 1622	647d7ea89a794711912ea68f
+T57	CARDINAL 1641 1643	10

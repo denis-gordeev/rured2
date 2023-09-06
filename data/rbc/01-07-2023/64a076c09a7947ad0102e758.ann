@@ -1,0 +1,53 @@
+T5	ORGANIZATION 166 179	Администрация
+T6	NEWS_SOURCE 166 198	Администрация также опубликовала
+T7	EVENT 262 268	Взрывы
+T10	DATE 316 323	28 июня
+T11	CARDINAL 326 331	шести
+T12	EVENT 332 339	взрывах
+T14	PROFESSION 357 377	член главного совета
+T15	ORGANIZATION 378 391	администрации
+T16	REGION 392 411	Запорожской области
+T18	PERSON 412 426	Владимир Рогов
+T19	CITY 429 439	Мелитополь
+T20	DATE 449 456	в марте
+T22	COUNTRY 505 511	России
+T23	COUNTRY 557 564	Украины
+T24	DATE 566 574	3 июня в
+T25	CARDINAL 592 596	пять
+T26	QUANTITY 617 620	три
+T27	WEAPON 648 653	ракет
+T28	FAC 664 674	жилые дома
+T29	CITY 0 12	В Мелитополе
+T30	EVENT 13 28	прогремел взрыв
+R1	TAKES_PLACE_IN Arg1:T30 Arg2:T29	
+T1	CITY 30 42	В Мелитополе
+T31	REGION 43 62	Запорожской области
+T32	EVENT 63 78	прогремел взрыв
+T33	WEAPON 90 101	система ПВО
+T34	EVENT 80 101	сработала система ПВО
+R2	TAKES_PLACE_IN Arg1:T32 Arg2:T31	
+R3	TAKES_PLACE_IN Arg1:T32 Arg2:T1	
+R4	SUBEVENT_OF Arg1:T32 Arg2:T34	
+T2	ORGANIZATION 120 140	администрация города
+T3	NEWS_SOURCE 111 164	сообщила администрация города в своем телеграм-канале
+R5	HEADQUARTERED_IN Arg1:T2 Arg2:T1	
+T4	WEAPON 214 220	ракеты
+T8	CITY 281 293	в Мелитополе
+R6	TAKES_PLACE_IN Arg1:T7 Arg2:T8	
+R7	WORKPLACE Arg1:T18 Arg2:T16	
+R8	WORKPLACE Arg1:T18 Arg2:T15	
+R9	WORKS_AS Arg1:T18 Arg2:T14	
+T9	NEWS_SOURCE 349 426	сообщил член главного совета администрации Запорожской области Владимир Рогов
+R10	DATE_TAKES_PLACE_ON Arg1:T12 Arg2:T10	
+R11	TAKES_PLACE_IN Arg1:T12 Arg2:T8	
+R12	OWNERSHIP Arg1:T22 Arg2:T19	
+T13	EVENT 513 545	регулярно подвергается обстрелам
+R13	TAKES_PLACE_IN Arg1:T13 Arg2:T19	
+R14	ORGANIZES Arg1:T23 Arg2:T13	
+T17	EVENT 597 604	взрывов
+R15	DATE_TAKES_PLACE_ON Arg1:T17 Arg2:T24	
+R16	TAKES_PLACE_IN Arg1:T17 Arg2:T19	
+T21	EVENT 606 629	пострадали три человека
+T35	EVENT 633 674	осколки сбитых ракет повредили жилые дома
+R17	SUBEVENT_OF Arg1:T17 Arg2:T35	
+R18	SUBEVENT_OF Arg1:T17 Arg2:T21	

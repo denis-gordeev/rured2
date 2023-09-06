@@ -1,36 +1,21 @@
-T0	CITY 2 10	Брянскую
-T1	REGION 11 18	область
 T2	PROFESSION 29 41	следователей
 T3	GROUP 54 65	диверсантов
-T4	ORGANIZATION 67 79	Следственная
-T5	GROUP 87 100	криминалистов
-T6	GROUP 103 112	экспертов
-T7	FAC 127 131	село
-T8	CITY 132 140	Любечане
-T9	REGION 143 159	Брянской области
-T10	DATE 161 173	куда 2 марта
+T5	PROFESSION 87 100	криминалистов
+T6	PROFESSION 103 112	экспертов
 T11	COUNTRY 185 192	Украины
-T12	ECONOMIC_SECTOR 214 230	разведывательная
 T13	PROFESSION 268 283	глава ведомства
 T14	PERSON 284 303	Александр Бастрыкин
 T15	DATE 306 323	В настоящее время
 T16	GROUP 354 382	правоохранительными органами
-T17	ORGANIZATION 374 382	органами
-T18	EVENT 406 417	мероприятия
-T19	LAW 406 417	мероприятия
 T20	NEWS_SOURCE 422 443	говорится в сообщении
 T21	DATE 446 453	2 марта
-T22	PROFESSION 454 464	губернатор
 T23	PERSON 473 490	Александр Богомаз
-T24	NEWS_SOURCE 473 498	Александр Богомаз сообщил
-T25	FAC 506 510	село
 T26	COUNTRY 573 580	Украины
-T27	ECONOMIC_SECTOR 583 593	обстреляли
-T28	PRODUCT 594 604	автомобиль
+T28	VEHICLE 594 604	автомобиль
 T29	NEWS_SOURCE 606 618	По данным СК
 T30	ORGANIZATION 616 618	СК
-T31	CARDINAL 641 644	два
-T32	DATE 655 667	Десятилетний
+T31	QUANTITY 641 644	два
+T32	AGE 655 667	Десятилетний
 T33	PROFESSION 693 702	Президент
 T34	PERSON 703 717	Владимир Путин
 T35	ORGANIZATION 756 759	ФСБ
@@ -39,9 +24,45 @@ T37	ORGANIZATION 786 796	Минобороны
 T38	COUNTRY 836 846	украинских
 T39	GROUP 847 858	диверсантов
 T40	REGION 894 910	Брянской области
-T41	PRODUCT 952 966	артиллерийский
-T42	CARDINAL 1005 1029	6400fcec9a79478c28817e7f
-T43	ORGANIZATION 1039 1042	Mar
-T44	PERCENT 1043 1050	2023 23
-T45	CARDINAL 1048 1050	23
-T46	CARDINAL 1057 1058	+
+T41	WEAPON 952 966	артиллерийский
+T1	REGION 0 18	В Брянскую область
+T47	EVENT 48 65	атаки диверсантов
+R1	TAKES_PLACE_IN Arg1:T47 Arg2:T1	
+T4	GROUP 67 86	Следственная группа
+T7	VILLAGE 125 140	в село Любечане
+T8	REGION 141 159	в Брянской области
+R2	OWNERSHIP Arg1:T8 Arg2:T7	
+R3	WORKPLACE Arg1:T6 Arg2:T7	
+R4	WORKPLACE Arg1:T5 Arg2:T7	
+T9	DATE 166 173	2 марта
+T10	EVENT 193 237	проникла диверсионно-разведывательная группа
+R5	DATE_TAKES_PLACE_ON Arg1:T10 Arg2:T9	
+R6	TAKES_PLACE_IN Arg1:T10 Arg2:T7	
+R7	WORKS_AS Arg1:T14 Arg2:T13	
+T12	EVENT 383 417	проводятся оперативные мероприятия
+R8	ORGANIZES Arg1:T16 Arg2:T12	
+R9	DATE_TAKES_PLACE_ON Arg1:T12 Arg2:T15	
+T17	PROFESSION 454 472	губернатор региона
+R10	WORKS_AS Arg1:T23 Arg2:T17	
+T18	NEWS_SOURCE 446 498	2 марта губернатор региона Александр Богомаз сообщил
+T19	VILLAGE 504 519	в село Любечане
+T22	BOROUGH 520 539	в Климовском районе
+T24	EVENT 540 559	проникли диверсанты
+R11	TAKES_PLACE_IN Arg1:T24 Arg2:T19	
+T25	EVENT 583 604	обстреляли автомобиль
+R12	SUBEVENT_OF Arg1:T25 Arg2:T24	
+T27	EVENT 633 653	погибли два человека
+R13	TAKES_PLACE_IN Arg1:T27 Arg2:T19	
+T42	DISEASE 684 691	ранение
+T43	EVENT 655 691	Десятилетний ребенок получил ранение
+R14	TAKES_PLACE_IN Arg1:T43 Arg2:T19	
+R15	WORKS_AS Arg1:T34 Arg2:T33	
+T44	CRIME 738 746	терактом
+T45	EVENT 802 858	проведена операция по уничтожению украинских диверсантов
+R16	EVENT_TAKES_PART_IN Arg1:T37 Arg2:T45	
+R17	EVENT_TAKES_PART_IN Arg1:T35 Arg2:T45	
+T46	EVENT 869 910	«выдавлены» с территории Брянской области
+T48	EVENT 930 971	нанесли массированный артиллерийский удар
+R18	EVENT_TAKES_PART_IN Arg1:T35 Arg2:T46	
+R19	EVENT_TAKES_PART_IN Arg1:T37 Arg2:T46	
+R20	ORGANIZES Arg1:T37 Arg2:T48	

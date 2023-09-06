@@ -1,0 +1,66 @@
+T0	PERSON 0 9	Старовойт
+T2	FAC 52 65	завод подушек
+T3	EVENT 100 105	пожар
+T4	ORGANIZATION 109 120	предприятии
+T5	CARDINAL 121 127	одного
+T7	PRODUCT 157 164	подушек
+T8	PRODUCT 167 172	одеял
+T14	PROFESSION 251 261	губернатор
+T15	PERSON 262 277	Роман Старовойт
+T17	GROUP 431 441	Спецслужбы
+T20	ORGANIZATION 540 551	предприятию
+T29	QUANTITY 676 684	более 40
+T30	CARDINAL 704 717	десяти единиц
+T31	PRODUCT 718 725	техники
+T37	WEAPON 876 880	дрон
+T49	ORGANIZATION 1119 1123	Shot
+T1	WEAPON 36 48	беспилотника
+T58	PRODUCT 58 65	подушек
+T59	NEWS_SOURCE 0 17	Старовойт сообщил
+T60	TIME 67 72	Ночью
+T61	REGION 73 89	в Курском районе
+T6	GROUP 131 172	крупнейших производителей подушек и одеял
+T9	ORGANIZATION 173 183	«Бел-Поль»
+R1	PRODUCES Arg1:T9 Arg2:T7	
+R2	PRODUCES Arg1:T9 Arg2:T8	
+R3	TAKES_PLACE_IN Arg1:T3 Arg2:T9	
+R4	TAKES_PLACE_IN Arg1:T3 Arg2:T61	
+R5	HEADQUARTERED_IN Arg1:T9 Arg2:T61	
+T10	EVENT 185 215	открытое горение ликвидировано
+R6	TAKES_PLACE_IN Arg1:T10 Arg2:T9	
+T11	REGION 243 250	курский
+R7	WORKPLACE Arg1:T15 Arg2:T11	
+R8	WORKS_AS Arg1:T15 Arg2:T14	
+T12	NEWS_SOURCE 217 277	сообщил в телеграм-канале курский губернатор Роман Старовойт
+T13	FAC 301 326	в административном здании
+T16	FAC 332 348	складе продукции
+R9	TAKES_PLACE_IN Arg1:T3 Arg2:T13	
+R10	TAKES_PLACE_IN Arg1:T3 Arg2:T16	
+T18	WEAPON 486 498	беспилотника
+T42	CITY 810 819	от Курска
+T44	EVENT 999 1028	Перед пожаром прозвучал взрыв
+T43	TIME 1029 1040	в 2:14 ночи
+T45	ORGANIZATION 1092 1096	Baza
+T46	PRODUCT 1060 1075	камеры домофона
+T47	NEWS_SOURCE 1042 1096	следует из записи камеры домофона, опубликованной Baza
+T48	NEWS_SOURCE 1113 1123	писал Shot
+T50	PERSON 511 520	Старовойт
+T19	NEWS_SOURCE 503 520	добавил Старовойт
+T51	ORGANIZATION 576 579	МЧС
+T52	NEWS_SOURCE 576 588	МЧС сообщило
+T53	EVENT 589 597	о пожаре
+T21	TIME 598 604	в 4:02
+T22	CARDINAL 649 661	2 тыс. кв. м
+T23	ORGANIZATION 750 761	Предприятие
+T24	VILLAGE 772 799	в поселке Первое Красниково
+T25	LOCATION 800 809	к востоку
+R11	HEADQUARTERED_IN Arg1:T23 Arg2:T24	
+R12	HEADQUARTERED_IN Arg1:T23 Arg2:T42	
+T26	ORGANIZATION 855 874	телеграм-канал Baza
+T27	NEWS_SOURCE 822 874	По предварительным данным, писал телеграм-канал Baza
+T28	FAC 899 910	вышку связи
+T32	VILLAGE 911 931	в поселке Красниково
+T33	ORGANIZATION 987 997	«Бел-Поль»
+T34	FAC 963 986	административное здание
+R13	OWNERSHIP Arg1:T33 Arg2:T34	
+R14	HEADQUARTERED_IN Arg1:T28 Arg2:T32	

@@ -1,0 +1,34 @@
+T0	PERSON 0 5	Путин
+T5	COUNTRY 79 85	России
+T7	PROFESSION 236 246	президента
+T8	PERSON 247 263	Владимира Путина
+T10	ECONOMIC_SECTOR 319 342	жилищного строительства
+T11	PROFESSION 410 420	строителей
+T12	REGION 453 461	Донецкой
+T14	REGION 494 504	Херсонской
+T15	REGION 507 527	Запорожской областей
+T16	PROFESSION 559 568	Президент
+T17	DATE 626 637	с 1955 года
+T18	ORDINAL 641 647	второе
+T20	COUNTRY 671 675	СССР
+T22	FAC 729 742	станций метро
+T25	ECONOMIC_SECTOR 778 785	отрасли
+T26	QUANTITY 797 804	200 тыс
+T27	GROUP 806 812	кадров
+T1	NEWS_SOURCE 0 12	Путин назвал
+T2	ECONOMIC_SECTOR 21 34	строительства
+T3	ECONOMIC_SECTOR 58 78	Строительная отрасль
+T6	EVENT 274 287	Дня строителя
+T4	NEWS_SOURCE 211 287	говорится в поздравлении президента Владимира Путина по случаю Дня строителя
+T9	REGION 464 492	Луганской народных республик
+T13	NEWS_SOURCE 532 556	говорится в поздравлении
+R1	WORKPLACE Arg1:T11 Arg2:T12	
+R2	WORKPLACE Arg1:T11 Arg2:T9	
+R3	WORKPLACE Arg1:T11 Arg2:T14	
+R4	WORKPLACE Arg1:T11 Arg2:T15	
+T33	PROFESSION 577 587	строителям
+T19	DATE 638 667	во второе воскресение августа
+T21	FAC 710 726	крупных объектов
+T23	DATE 744 753	В феврале
+T24	ORGANIZATION 754 764	в Минстрое
+T34	NEWS_SOURCE 744 772	В феврале в Минстрое заявили

@@ -1,0 +1,40 @@
+T0	FAC 6 9	дом
+T1	FAC 33 47	брянского села
+T2	COUNTRY 49 59	Украинские
+T3	PROFESSION 60 67	военные
+T4	PERSON 84 93	Ломаковка
+T5	REGION 94 146	Стародубского муниципального округа Брянской области
+T6	PROFESSION 156 166	губернатор
+T7	PERSON 167 176	Александр
+T8	NEWS_SOURCE 148 184	сообщил губернатор Александр Богомаз
+T9	NEWS_SOURCE 187 195	телеграм
+T10	NEWS_SOURCE 196 202	канале
+T11	ECONOMIC_SECTOR 227 232	жилой
+T12	FAC 227 236	жилой дом
+T13	COUNTRY 288 295	Украине
+T14	GROUP 296 302	власти
+T15	ECONOMIC_SECTOR 336 345	обстрелах
+T16	ORGANIZATION 357 360	ВСУ
+T17	DATE 367 378	в конце мая
+T18	GPE 400 406	Сушаны
+T19	PERSON 408 416	Хоромное
+T20	PERSON 419 438	Забрама Климовского
+T21	DATE 447 464	На следующий день
+T22	PROFESSION 465 493	глава районной администрации
+T23	PERSON 494 509	Александр Исаев
+T24	NEWS_SOURCE 471 517	районной администрации Александр Исаев сообщил
+T25	ECONOMIC_SECTOR 536 544	обстрела
+T26	QUANTITY 563 571	пунктами
+T27	REGION 572 578	Сушаны
+T28	FAC 572 578	Сушаны
+T29	PERSON 581 589	Бровничи
+T30	ECONOMIC_SECTOR 597 609	лесной пожар
+T31	MONEY 621 629	около 80
+T32	QUANTITY 621 629	около 80
+T33	COUNTRY 630 632	га
+T34	PROFESSION 634 644	Губернатор
+T35	EVENT 660 669	сообщения
+T36	CRIME 672 679	попытке
+T37	CARDINAL 800 803	Jun
+T38	DATE 804 808	2023
+T39	CARDINAL 812 814	14

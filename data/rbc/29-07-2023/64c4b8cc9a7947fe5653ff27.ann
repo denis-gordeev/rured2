@@ -1,0 +1,51 @@
+T0	PERSON 0 7	Гладков
+T1	CRIME 19 27	обстреле
+T2	CITY 28 40	шебекинского
+T3	REGION 41 47	пункта
+T4	PRODUCT 60 68	миномета
+T5	FAC 60 68	миномета
+T6	DATE 70 77	28 июля
+T7	REGION 80 100	Белгородской области
+T8	PRODUCT 127 140	автомобильный
+T9	FAC 127 140	автомобильный
+T10	PERSON 159 167	Шебекино
+T11	NEWS_SOURCE 170 177	сообщил
+T12	PROFESSION 189 199	губернатор
+T13	NEWS_SOURCE 180 224	Telegram губернатор региона Вячеслав Гладков
+T14	PERSON 208 224	Вячеслав Гладков
+T15	FAC 229 243	погранпереходу
+T16	CARDINAL 258 260	16
+T17	PRODUCT 261 269	снарядов
+T18	PRODUCT 273 281	миномета
+T19	GROUP 296 308	пострадавших
+T20	DATE 326 342	в минувшие сутки
+T21	REGION 345 357	Белгородском
+T22	PERSON 386 397	Жукравлевка
+T23	NEWS_SOURCE 419 439	рассказал губернатор
+T24	PROFESSION 429 439	губернатор
+T25	DATE 441 454	В тот же день
+T26	COUNTRY 464 474	российском
+T27	FAC 485 495	Ростовской
+T28	FAC 526 535	Таганрога
+T29	EVENT 537 542	Взрыв
+T30	FAC 567 580	Таганрогского
+T31	FAC 597 602	музея
+T32	PERSON 604 617	Лермонтовский
+T33	EVENT 618 626	переулок
+T34	CARDINAL 628 630	22
+T35	ORGANIZATION 665 682	Минобороны России
+T36	COUNTRY 676 682	России
+T37	NEWS_SOURCE 665 690	Минобороны России заявило
+T38	GROUP 709 712	ВСУ
+T39	PRODUCT 714 720	ракета
+T40	FAC 714 720	ракета
+T41	COUNTRY 738 749	российскими
+T42	GROUP 761 764	ПВО
+T43	ORGANIZATION 766 786	Следственный комитет
+T44	EVENT 814 820	статье
+T45	PERCENT 864 888	64c4b8cc9a7947fe5653ff27
+T46	CARDINAL 864 888	64c4b8cc9a7947fe5653ff27
+T47	PERSON 890 893	Sat
+T48	CARDINAL 895 897	29
+T49	ORGANIZATION 898 901	Jul
+T50	CARDINAL 902 909	2023 10

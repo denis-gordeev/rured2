@@ -1,0 +1,36 @@
+T0	REGION 2 17	Курской области
+T1	LOCATION 33 43	обесточили
+T2	PERSON 58 65	Теткино
+T3	PROFESSION 67 74	Поселок
+T4	ORGANIZATION 75 82	Теткино
+T5	PERSON 83 95	Глушковского
+T6	REGION 103 118	Курской области
+T7	NEWS_SOURCE 138 156	сообщил губернатор
+T8	PROFESSION 146 156	губернатор
+T9	PERSON 165 170	Роман
+T10	NEWS_SOURCE 165 180	Роман Старовойт
+T11	EVENT 183 191	телеграм
+T12	LAW 191 198	-канале
+T13	EVENT 192 198	канале
+T14	CARDINAL 217 223	восемь
+T15	NEWS_SOURCE 255 287	говорится в сообщении Старовойта
+T16	ORGANIZATION 277 287	Старовойта
+T17	FAC 342 357	электропередачи
+T18	CARDINAL 387 397	обесточили
+T19	FAC 399 408	Аварийные
+T20	GROUP 409 416	бригады
+T21	CARDINAL 533 545	около десяти
+T22	FAC 546 551	домов
+T23	FAC 573 577	окон
+T24	FAC 579 585	фасада
+T25	FAC 588 593	крыши
+T26	NEWS_SOURCE 595 612	Старовойт добавил
+T27	PERSON 637 657	деревня Елизаветовка
+T28	PERSON 685 696	Глушковском
+T29	CARDINAL 783 812	64abae359a7947592439da03
+
+Mon
+T30	CARDINAL 814 820	10 Jul
+T31	DATE 821 825	2023
+T32	CARDINAL 826 828	10
+T33	CARDINAL 829 831	10

@@ -1,0 +1,65 @@
+T0	NEWS_SOURCE 0 15	Балицкий заявил
+T1	FAC 21 24	ВСУ
+T2	ORDINAL 37 43	первой
+T3	FAC 44 57	линии обороны
+T4	CITY 60 69	Запорожье
+T5	ORGANIZATION 71 74	ВСУ
+T6	ORDINAL 92 98	первой
+T7	FAC 99 112	линии обороны
+T8	COUNTRY 113 123	российской
+T9	EVENT 124 129	армии
+T10	EVENT 132 143	Запорожской
+T11	REGION 144 151	области
+T12	PROFESSION 160 170	врио главы
+T13	NEWS_SOURCE 153 176	заявил врио главы этого
+T14	PERSON 185 201	Евгений Балицкий
+T15	EVENT 204 224	эфире «Соловьев Live
+T16	NEWS_SOURCE 193 225	Балицкий в эфире «Соловьев Live»
+T17	NEWS_SOURCE 227 253	По словам врио губернатора
+T18	PROFESSION 237 253	врио губернатора
+T19	FAC 303 308	линия
+T20	COUNTRY 319 326	Украина
+T21	DATE 351 364	в начале июня
+T22	COUNTRY 372 382	российские
+T23	PROFESSION 383 390	военные
+T24	REGION 405 424	Запорожской области
+T25	ECONOMIC_SECTOR 436 452	разведка заранее
+T26	DATE 489 495	8 июня
+T27	PROFESSION 496 503	генерал
+T28	PROFESSION 504 513	полковник
+T29	NEWS_SOURCE 504 532	полковник Александр Романчук
+T30	PERSON 514 532	Александр Романчук
+T31	DATE 534 546	В конце июля
+T32	NEWS_SOURCE 547 563	Балицкий говорил
+T33	COUNTRY 599 609	российских
+T34	EVENT 610 629	войск в Запорожской
+T35	REGION 630 637	области
+T36	ORGANIZATION 705 722	Минобороны России
+T37	COUNTRY 716 722	России
+T38	GROUP 725 731	власти
+T39	REGION 732 751	Запорожской области
+T40	COUNTRY 814 824	российские
+T41	PROFESSION 825 832	военные
+T42	CARDINAL 848 855	четырех
+T43	GROUP 856 871	штурмовых групп
+T44	FAC 872 875	ВСУ
+T45	CARDINAL 879 881	12
+T46	PERSON 899 906	Орехова
+T47	NEWS_SOURCE 908 932	сообщал врио губернатора
+T48	PROFESSION 916 932	врио губернатора
+T49	NEWS_SOURCE 934 943	По словам
+T50	FAC 944 953	Балицкого
+T51	PRODUCT 1012 1017	машин
+T52	GROUP 1030 1044	военнослужащие
+T53	CARDINAL 1078 1087	Пятихаток
+T54	ORDINAL 1078 1087	Пятихаток
+T55	COUNTRY 1088 1098	российские
+T56	PROFESSION 1099 1106	военные
+T57	PRODUCT 1152 1162	боеприпасы
+T58	PRODUCT 1172 1180	снарядов
+T59	CARDINAL 1214 1238	64d4a0cc9a794737577609a9
+T60	PRODUCT 1240 1243	Thu
+T61	CARDINAL 1245 1247	10
+T62	DATE 1252 1256	2023
+T63	CARDINAL 1257 1259	12
+T64	CARDINAL 1263 1265	37

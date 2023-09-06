@@ -1,0 +1,44 @@
+T0	PERSON 0 5	Путин
+T1	NEWS_SOURCE 0 12	Путин заявил
+T2	COUNTRY 18 24	Россия
+T3	ORGANIZATION 49 53	НАТО
+T4	COUNTRY 55 61	Россия
+T5	ORGANIZATION 101 105	НАТО
+T6	PROFESSION 143 152	президент
+T7	PERSON 153 167	Владимир Путин
+T8	NEWS_SOURCE 136 188	заявил президент Владимир Путин на пресс-конференции
+T9	EVENT 168 229	на пресс-конференции по итогам саммита с лидерами африканских
+T10	GROUP 230 235	стран
+T11	CITY 238 248	Петербурге
+T12	PERSON 250 255	Путин
+T13	COUNTRY 284 287	США
+T14	PROFESSION 349 359	начальники
+T15	FAC 376 389	подразделений
+T16	PROFESSION 473 482	Президент
+T17	ECONOMIC_SECTOR 499 504	вывод
+T18	DATE 600 623	В августе прошлого года
+T19	ORGANIZATION 624 627	МИД
+T20	NEWS_SOURCE 666 702	Замдиректора департамента информации
+T21	PROFESSION 666 702	Замдиректора департамента информации
+T22	PROFESSION 705 711	печати
+T23	ORGANIZATION 712 724	министерства
+T24	PERSON 725 736	Иван Нечаев
+T25	NEWS_SOURCE 705 744	печати министерства Иван Нечаев говорил
+T26	DATE 778 798	Но 13 июля 2023 года
+T27	PROFESSION 799 806	министр
+T28	PERSON 807 820	Сергей Лавров
+T29	NEWS_SOURCE 807 827	Сергей Лавров заявил
+T30	COUNTRY 833 839	Россия
+T31	GPE 869 874	Киеву
+T32	PRODUCT 875 889	истребителей F
+T33	CARDINAL 890 892	16
+T34	GPE 915 921	Запада
+T35	CITY 958 964	Москвы
+T36	COUNTRY 967 970	США
+T37	CARDINAL 1041 1065	64c586219a79478b7ba4d4ff
+T38	ORGANIZATION 1067 1070	Sun
+T39	CARDINAL 1072 1074	30
+T40	ORGANIZATION 1075 1078	Jul
+T41	TIME 1079 1083	2023
+T42	CARDINAL 1084 1086	00
+T43	CARDINAL 1087 1089	35

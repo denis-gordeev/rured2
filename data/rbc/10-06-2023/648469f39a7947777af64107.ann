@@ -1,0 +1,58 @@
+T0	PERSON 0 6	Песков
+T1	NEWS_SOURCE 0 13	Песков заявил
+T2	PERSON 29 35	Путина
+T3	PERSON 47 53	Шольца
+T4	EVENT 57 64	графике
+T5	PROFESSION 65 75	президента
+T6	COUNTRY 76 82	России
+T7	PERSON 83 99	Владимира Путина
+T8	EVENT 109 130	телефонного разговора
+T9	NEWS_SOURCE 133 142	канцлером
+T10	PROFESSION 133 142	канцлером
+T11	COUNTRY 143 151	Германии
+T12	NEWS_SOURCE 152 166	Олафом Шольцем
+T13	PERSON 152 166	Олафом Шольцем
+T14	PROFESSION 175 180	пресс
+T15	PROFESSION 181 201	секретарь президента
+T16	NEWS_SOURCE 168 216	заявил пресс-секретарь президента Дмитрий Песков
+T17	PERSON 202 216	Дмитрий Песков
+T18	NEWS_SOURCE 218 250	Его слова приводит «РИА Новости»
+T19	ORGANIZATION 238 250	РИА Новости»
+T20	PERSON 252 258	Песков
+T21	NEWS_SOURCE 252 266	Песков отметил
+T22	COUNTRY 274 282	немецкой
+T23	DATE 324 337	10 июня Шольц
+T24	PERSON 368 375	Путиным
+T25	DATE 376 394	впервые за полгода
+T26	PROFESSION 413 421	канцлера
+T27	COUNTRY 422 430	Германии
+T28	PROFESSION 433 443	президента
+T29	COUNTRY 444 450	России
+T30	DATE 458 477	в декабре 2022 года
+T31	PERSON 479 484	Путин
+T32	NEWS_SOURCE 485 490	тогда
+T33	CITY 519 525	Москвы
+T34	GPE 519 525	Москвы
+T35	COUNTRY 538 545	Украине
+T36	EVENT 560 567	взрывом
+T37	REGION 571 579	Крымском
+T38	FAC 580 585	мосту
+T39	PERSON 587 592	Шольц
+T40	COUNTRY 601 612	российского
+T41	PROFESSION 613 623	президента
+T42	PROFESSION 630 645	дипломатический
+T43	DATE 665 676	В конце мая
+T44	PERSON 677 683	Песков
+T45	NEWS_SOURCE 677 691	Песков сообщал
+T46	PERSON 697 702	Путин
+T47	PERSON 721 728	Шольцем
+T48	PROFESSION 751 760	Президент
+T49	PERSON 761 766	Путин
+T50	NEWS_SOURCE 885 908	говорил пресс-секретарь
+T51	PROFESSION 893 908	пресс-секретарь
+T52	PERSON 968 971	Sat
+T53	CARDINAL 973 975	10
+T54	DATE 980 984	2023
+T55	CARDINAL 985 987	16
+T56	CARDINAL 988 990	17
+T57	CARDINAL 991 995	51 +

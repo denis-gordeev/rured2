@@ -1,0 +1,77 @@
+T0	PERSON 0 5	Путин
+T2	PROFESSION 114 123	президент
+T3	COUNTRY 124 130	России
+T5	PERSON 131 145	Владимир Путин
+T8	PROFESSION 159 169	врио главы
+T9	COUNTRY 170 173	ЛНР
+T11	PERSON 174 193	Леонидом Пасечником
+T12	DATE 196 202	Сейчас
+T14	WEAPON 437 451	артиллерийские
+T18	PERSON 581 589	Пасечник
+T22	PROFESSION 615 625	президенту
+T23	COUNTRY 644 647	ЛНР
+T26	NEWS_SOURCE 805 829	По словам врио главы ЛНР
+T27	COUNTRY 826 829	ЛНР
+T28	COUNTRY 875 882	Украина
+T29	DATE 910 923	в начале июня
+T30	GPE 925 933	Западные
+T31	GPE 943 947	Киев
+T32	PROFESSION 981 990	Президент
+T33	COUNTRY 991 998	Украины
+T34	PERSON 999 1017	Владимир Зеленский
+T35	COUNTRY 1100 1106	России
+T38	GPE 1190 1195	Киеву
+T40	GPE 1207 1215	западное
+T42	COUNTRY 1224 1234	Российская
+T43	PERSON 1269 1274	Путин
+T44	NEWS_SOURCE 1269 1282	Путин отмечал
+T45	PROFESSION 1322 1337	министр обороны
+T48	COUNTRY 1450 1460	российской
+T49	ORGANIZATION 1461 1466	армии
+T50	COUNTRY 1468 1478	Британское
+T51	ORGANIZATION 1479 1492	издание Times
+T52	PROFESSION 1507 1512	главу
+T53	CITY 1513 1523	лондонской
+T58	PERSON 1568 1582	Марка Галеотти
+T60	COUNTRY 1658 1668	российской
+T61	ORGANIZATION 1669 1674	армии
+T64	WEAPON 1765 1771	минных
+T66	WEAPON 1813 1821	танковых
+T78	NEWS_SOURCE 0 12	Путин назвал
+R1	WORKPLACE Arg1:T5 Arg2:T3	
+R2	WORKS_AS Arg1:T5 Arg2:T2	
+T1	EVENT 146 156	на встрече
+R3	WORKPLACE Arg1:T11 Arg2:T9	
+R4	WORKS_AS Arg1:T11 Arg2:T8	
+R5	EVENT_TAKES_PART_IN Arg1:T5 Arg2:T1	
+R6	EVENT_TAKES_PART_IN Arg1:T11 Arg2:T1	
+T4	WEAPON 415 421	минные
+T6	NEWS_SOURCE 107 193	заявил президент России Владимир Путин на встрече с врио главы ЛНР Леонидом Пасечником
+T7	EVENT 590 606	в начале встречи
+R7	EVENT_TAKES_PART_IN Arg1:T18 Arg2:T7	
+T10	NEWS_SOURCE 581 625	Пасечник в начале встречи сообщил президенту
+T13	PROFESSION 815 825	врио главы
+T15	EVENT 883 909	перешла в контрнаступление
+R8	TAKES_PLACE_IN Arg1:T15 Arg2:T28	
+R9	DATE_TAKES_PLACE_ON Arg1:T15 Arg2:T29	
+T16	GROUP 925 940	Западные страны
+T17	NEWS_SOURCE 925 956	Западные страны и Киев признали
+R10	WORKPLACE Arg1:T34 Arg2:T33	
+R11	WORKS_AS Arg1:T34 Arg2:T32	
+T19	NEWS_SOURCE 981 1026	Президент Украины Владимир Зеленский объяснял
+T20	NEWS_SOURCE 1108 1121	По его словам
+T21	EVENT 1142 1158	контрнаступление
+T24	WEAPON 1207 1222	западное оружие
+T25	PERSON 1338 1350	Сергей Шойгу
+R12	OWNERSHIP Arg1:T48 Arg2:T49	
+R13	WORKS_AS Arg1:T25 Arg2:T45	
+R14	HEADQUARTERED_IN Arg1:T51 Arg2:T50	
+T36	ORGANIZATION 1524 1567	расследовательской фирмы Mayak Intelligence
+R15	WORKPLACE Arg1:T58 Arg2:T36	
+R16	WORKPLACE Arg1:T58 Arg2:T53	
+R17	WORKS_AS Arg1:T58 Arg2:T52	
+T37	NEWS_SOURCE 1468 1591	Британское издание Times со ссылкой на главу лондонской расследовательской фирмы Mayak Intelligence Марка Галеотти сообщало
+T39	ORGANIZATION 1629 1632	ВСУ
+R18	HEADQUARTERED_IN Arg1:T61 Arg2:T60	
+T41	PERSON 1700 1710	Суровикина
+T46	WEAPON 1832 1847	огневых позиций

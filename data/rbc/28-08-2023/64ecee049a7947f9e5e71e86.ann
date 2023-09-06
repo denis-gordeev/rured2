@@ -1,0 +1,38 @@
+T0	COUNTRY 0 10	Российская
+T1	ORGANIZATION 11 14	ПВО
+T2	ECONOMIC_SECTOR 21 32	беспилотник
+T3	REGION 37 58	Белгородской областью
+T4	COUNTRY 60 70	Российские
+T5	FAC 71 82	системы ПВО
+T6	REGION 93 105	Белгородской
+T7	GPE 106 114	областью
+T8	COUNTRY 115 125	украинский
+T9	ECONOMIC_SECTOR 126 137	беспилотник
+T10	NEWS_SOURCE 147 179	сообщает пресс-служба Минобороны
+T11	ORGANIZATION 156 179	пресс-служба Минобороны
+T12	CARDINAL 200 208	около 21
+T13	TIME 208 211	:00
+T14	GROUP 215 227	пострадавших
+T15	FAC 250 261	самолетного
+T16	FAC 298 301	ПВО
+T17	ORGANIZATION 306 318	Белгородской
+T18	REGION 306 318	Белгородской
+T19	GPE 319 327	областью
+T20	NEWS_SOURCE 332 353	говорится в сообщении
+T21	REGION 355 375	Белгородская область
+T22	COUNTRY 403 411	Украиной
+T23	FAC 463 469	дронов
+T24	COUNTRY 481 488	Украины
+T25	DATE 496 503	сегодня
+T26	PROFESSION 504 514	губернатор
+T27	PERSON 515 531	Вячеслав Гладков
+T28	REGION 557 562	Новая
+T29	ORGANIZATION 563 573	Таволжанка
+T30	ECONOMIC_SECTOR 601 606	фасад
+T31	FAC 601 618	фасад жилого дома
+T32	ORGANIZATION 622 626	доме
+T33	FAC 622 626	доме
+T34	PRODUCT 634 640	стекла
+T35	CARDINAL 692 716	64ecee049a7947f9e5e71e86
+T36	CARDINAL 723 737	28 Aug 2023 22
+T37	CARDINAL 738 740	12

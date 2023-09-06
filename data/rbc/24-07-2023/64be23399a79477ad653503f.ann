@@ -1,0 +1,46 @@
+T3	ORDINAL 97 107	четвертого
+T7	COUNTRY 219 225	России
+T10	NEWS_SOURCE 190 238	сообщила пресс-служба ГУ МВД России по Иркутской
+T12	NEWS_SOURCE 248 265	По данным полиции
+T16	ORDINAL 334 344	четвертого
+T20	FAMILY 480 491	родственник
+T21	NEWS_SOURCE 576 597	говорится в сообщении
+T24	ORGANIZATION 686 693	полиции
+T25	ORGANIZATION 721 728	полиции
+T27	CITY 817 830	Нижнеудинская
+T30	DATE 948 955	14 июля
+T44	REGION 0 19	В Иркутской области
+T45	EVENT 20 53	ребенок пострадал от удара молнии
+R1	TAKES_PLACE_IN Arg1:T45 Arg2:T44	
+T1	CITY 75 89	В Нижнеудинске
+R2	TAKES_PLACE_IN Arg1:T45 Arg2:T1	
+R3	OWNERSHIP Arg1:T44 Arg2:T1	
+T2	REGION 226 246	по Иркутской области
+T4	ORGANIZATION 215 218	МВД
+T5	ORGANIZATION 199 214	пресс-служба ГУ
+R4	OWNERSHIP Arg1:T4 Arg2:T5	
+T6	ORGANIZATION 258 265	полиции
+T8	DATE 294 301	23 июля
+T9	TIME 286 293	вечером
+T11	EVENT 267 275	инцидент
+R5	DATE_TAKES_PLACE_ON Arg1:T11 Arg2:T8	
+T13	FAMILY 379 385	братом
+T14	FAMILY 411 423	старший брат
+T15	DISEASE 511 520	с ожогами
+T17	FAC 558 571	медучреждение
+T18	EVENT 533 571	школьник был доставлен в медучреждение
+T19	PROFESSION 638 643	врачи
+T22	NEWS_SOURCE 675 693	отметили в полиции
+T23	CARDINAL 705 710	одной
+T46	NEWS_SOURCE 696 728	Согласно одной из версий полиции
+T26	DISEASE 746 751	ожоги
+T47	EVENT 730 777	мальчик получил ожоги в результате удара молнии
+T28	ORGANIZATION 831 854	межрайонная прокуратура
+R6	HEADQUARTERED_IN Arg1:T28 Arg2:T27	
+T29	DISEASE 918 931	травмирования
+T31	REGION 957 980	в Новосибирской области
+T32	AGE 981 990	16-летний
+T33	AGE 1076 1086	13-летнего
+T34	EVENT 981 1022	16-летний подросток погиб от удара молнии
+R7	TAKES_PLACE_IN Arg1:T34 Arg2:T31	
+R8	DATE_TAKES_PLACE_ON Arg1:T34 Arg2:T30	

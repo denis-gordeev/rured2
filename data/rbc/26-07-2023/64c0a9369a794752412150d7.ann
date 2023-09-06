@@ -1,0 +1,29 @@
+T3	FAC 31 46	склад винзавода
+T5	REGION 68 87	Краснодарского края
+T10	NEWS_SOURCE 163 177	сообщили в МЧС
+T11	ORGANIZATION 174 177	МЧС
+T13	ORGANIZATION 291 294	МЧС
+T19	NEWS_SOURCE 384 412	уточнило издание «Кубань 24»
+T22	FAC 429 434	склад
+T1	REGION 0 20	В Краснодарском крае
+T2	EVENT 21 46	загорелся склад винзавода
+R1	TAKES_PLACE_IN Arg1:T2 Arg2:T1	
+T4	BOROUGH 48 67	В Темрюкском районе
+R2	OWNERSHIP Arg1:T5 Arg2:T4	
+T6	FAC 104 128	на складе винного завода
+T7	EVENT 88 128	произошел пожар на складе винного завода
+R3	TAKES_PLACE_IN Arg1:T7 Arg2:T5	
+T8	CARDINAL 152 161	900 кв. м
+T9	QUANTITY 303 305	85
+T14	CARDINAL 316 318	17
+T15	NEWS_SOURCE 179 204	По предварительным данным
+T16	PROFESSION 224 232	Пожарным
+T12	STREET 352 365	на улице Мира
+T17	VILLAGE 366 382	в поселке Сенном
+T18	ORGANIZATION 393 412	издание «Кубань 24»
+T20	NEWS_SOURCE 414 427	По его данным
+T21	TIME 449 454	ночью
+T29	EVENT 429 454	склад загорелся еще ночью
+T23	CITY 520 529	от Тамани
+T24	LOCATION 475 502	на берегу Таманского залива
+T25	LOCATION 503 529	к северо-востоку от Тамани

@@ -1,0 +1,76 @@
+T0	ORGANIZATION 0 11	Минобрнауки
+T1	COUNTRY 203 210	Украине
+T2	ORGANIZATION 220 224	ТАСС
+T3	PROFESSION 233 241	замглавы
+T4	NEWS_SOURCE 220 274	ТАСС сообщил замглавы ведомства Константин Могилевский
+T5	PERSON 252 274	Константин Могилевский
+T8	ORGANIZATION 368 372	вуза
+T9	PROFESSION 429 443	преподавателей
+T10	DATE 460 494	в течение следующего учебного года
+T11	NEWS_SOURCE 516 534	сказал Могилевский
+T12	PERSON 523 534	Могилевский
+T13	DATE 625 634	27 апреля
+T14	PROFESSION 635 644	президент
+T15	PERSON 645 659	Владимир Путин
+T16	ORGANIZATION 668 679	Минобрнауки
+T17	ORGANIZATION 681 691	Минобороны
+T18	ORGANIZATION 694 718	Российской академии наук
+T19	ORGANIZATION 720 723	РАН
+T20	DATE 725 739	до 30 сентября
+T21	COUNTRY 816 823	Украине
+T22	ORGANIZATION 863 877	Минпросвещения
+T23	ORGANIZATION 879 890	Минобрнауки
+T24	ORGANIZATION 893 903	Минобороны
+T25	DATE 904 917	до 30 декабря
+T26	ORGANIZATION 938 944	музеев
+T27	GROUP 990 1000	участников
+T28	NEWS_SOURCE 1002 1022	Рособрнадзор сообщал
+T30	COUNTRY 1084 1091	Украине
+T31	ORGANIZATION 1159 1164	школы
+T32	GROUP 1167 1174	ученики
+T33	PROFESSION 1193 1212	Министр просвещения
+T34	PERSON 1213 1227	Сергей Кравцов
+T35	NEWS_SOURCE 1201 1235	просвещения Сергей Кравцов говорил
+T36	GROUP 1267 1282	старших классов
+T37	ORGANIZATION 1283 1287	школ
+T38	ORGANIZATION 1322 1331	ведомство
+T41	ORGANIZATION 1426 1431	школы
+T42	DATE 1432 1442	1 сентября
+T46	PRODUCT 24 39	учебник истории
+T47	EVENT 12 65	разработает учебник истории с разделом о спецоперации
+R1	ORGANIZES Arg1:T0 Arg2:T47	
+T48	ORGANIZATION 67 78	Минобрнауки
+T49	ORGANIZATION 141 148	в вузах
+T50	EVENT 181 199	о военной операции
+R2	TAKES_PLACE_IN Arg1:T50 Arg2:T1	
+T51	PRODUCT 93 140	учебник истории для непрофильных специальностей
+T52	EVENT 79 140	разрабатывает учебник истории для непрофильных специальностей
+R3	ORGANIZES Arg1:T48 Arg2:T52	
+T53	ORGANIZATION 242 251	ведомства
+R4	WORKPLACE Arg1:T5 Arg2:T53	
+R5	WORKS_AS Arg1:T5 Arg2:T3	
+T6	PRODUCT 356 363	Учебник
+T7	PRODUCT 405 420	типовой учебник
+R6	ABBREVIATION Arg1:T18 Arg2:T19	
+T54	EVENT 796 812	военной операции
+R7	TAKES_PLACE_IN Arg1:T54 Arg2:T21	
+R8	WORKS_AS Arg1:T15 Arg2:T14	
+T55	ORGANIZATION 850 861	Минкультуры
+T56	ORGANIZATION 1002 1014	Рособрнадзор
+T57	EVENT 1062 1080	о военной операции
+R9	TAKES_PLACE_IN Arg1:T57 Arg2:T30	
+T29	PRODUCT 1108 1121	новый учебник
+R10	WORKS_AS Arg1:T34 Arg2:T33	
+T58	PRODUCT 1241 1262	новый учебник истории
+R11	USES Arg1:T36 Arg2:T58	
+T59	DATE 1297 1303	сейчас
+T60	EVENT 1357 1369	спецоперации
+T39	EVENT 1398 1414	военной операции
+T40	PRODUCT 1371 1414	Новое издание с разделом о военной операции
+R12	USES Arg1:T41 Arg2:T40	
+T61	EVENT 1371 1431	Новое издание с разделом о военной операции поступит в школы
+R13	DATE_TAKES_PLACE_ON Arg1:T61 Arg2:T42	
+R14	FOUNDED_BY Arg1:T24 Arg2:T26	
+R15	FOUNDED_BY Arg1:T23 Arg2:T26	
+R16	FOUNDED_BY Arg1:T22 Arg2:T26	
+R17	FOUNDED_BY Arg1:T55 Arg2:T26	

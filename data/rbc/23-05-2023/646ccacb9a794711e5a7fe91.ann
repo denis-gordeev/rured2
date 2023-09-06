@@ -1,0 +1,64 @@
+T0	QUANTITY 0 3	Три
+T2	FAC 32 48	понтонного ящика
+T3	REGION 51 72	Ленинградской области
+T4	FAC 98 129	ремонтируемого морского понтона
+T6	REGION 153 174	Ленинградской области
+T7	QUANTITY 183 186	три
+T22	QUANTITY 416 419	Три
+T24	NEWS_SOURCE 526 547	говорится в сообщении
+T31	FAC 671 685	понтонный ящик
+T32	ORGANIZATION 698 707	агентства
+T33	NEWS_SOURCE 687 715	Собеседник агентства уточнил
+T36	DATE 842 848	23 мая
+T39	CITY 870 880	московским
+T41	QUANTITY 920 924	трое
+T42	PERSON 926 957	Назаралиев Бахтияр Баротолиевич
+T46	AGE 1007 1025	1973 года рождения
+T48	QUANTITY 1032 1036	один
+T51	QUANTITY 1092 1096	Один
+T52	GROUP 1100 1112	пострадавших
+T53	ORDINAL 1151 1157	второй
+T1	EVENT 25 48	взрыве понтонного ящика
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T3	
+T5	BOROUGH 130 152	во Всеволожском районе
+R2	OWNERSHIP Arg1:T6 Arg2:T5	
+R3	HEADQUARTERED_IN Arg1:T4 Arg2:T6	
+T8	ORGANIZATION 206 227	администрация региона
+T9	EVENT 175 195	погибли три человека
+R4	TAKES_PLACE_IN Arg1:T9 Arg2:T6	
+T10	NEWS_SOURCE 197 245	сообщила администрация региона в телеграм-канале
+T11	GROUP 257 272	местных властей
+T12	NEWS_SOURCE 247 272	По данным местных властей
+T13	ORGANIZATION 388 413	на предприятии «Дидал СК»
+T14	EVENT 274 302	разрыв конструкций произошел
+R5	TAKES_PLACE_IN Arg1:T14 Arg2:T13	
+T15	EVENT 416 445	Три человека погибли на месте
+T16	CARDINAL 447 452	двоим
+T17	FAC 482 490	больнице
+T18	CITY 469 481	Всеволожской
+R6	HEADQUARTERED_IN Arg1:T17 Arg2:T18	
+R7	TAKES_PLACE_IN Arg1:T15 Arg2:T18	
+T19	BOROUGH 588 608	Всеволожского района
+T20	FAC 549 587	В единой дежурной диспетчерской службе
+R8	OWNERSHIP Arg1:T19 Arg2:T20	
+T21	NEWS_SOURCE 609 633	рассказали «РИА Новости»
+T23	DISEASE 1123 1149	в крайне тяжелом состоянии
+T25	DISEASE 1158 1167	в тяжелом
+T26	ORGANIZATION 1178 1184	47news
+T27	NEWS_SOURCE 1169 1184	передает 47news
+T28	EVENT 639 685	при сварочных работах взорвался понтонный ящик
+R9	TAKES_PLACE_IN Arg1:T28 Arg2:T19	
+T29	VILLAGE 754 766	Соржа-Старая
+T30	FAC 769 799	производственно-складской зоне
+R10	HEADQUARTERED_IN Arg1:T30 Arg2:T29	
+R11	TAKES_PLACE_IN Arg1:T28 Arg2:T30	
+T34	ORGANIZATION 811 824	портала 78.ru
+T35	NEWS_SOURCE 801 824	По данным портала 78.ru
+T54	EVENT 826 841	взрыв произошел
+T37	TIME 849 856	в 14:15
+T38	EVENT 892 924	В результате взрыва погибли трое
+T40	AGE 958 976	1986 года рождения
+R12	AGE_IS Arg1:T42 Arg2:T40	
+T43	PERSON 978 1006	Чориев Абдулло Мингпулатович
+R13	AGE_IS Arg1:T43 Arg2:T46	
+T44	DATE 1054 1060	23 мая

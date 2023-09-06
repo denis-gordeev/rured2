@@ -1,0 +1,42 @@
+T0	FAC 29 38	без света
+T1	ECONOMIC_SECTOR 45 51	аварии
+T2	FAC 55 58	ГЭС
+T3	REGION 88 93	Кении
+T4	FAC 107 138	аварии на гидроэлектростанции «
+T5	COUNTRY 138 145	Турквел
+T6	DATE 147 160	на двое суток
+T7	COMMODITY 169 183	электроэнергия
+T8	NEWS_SOURCE 185 202	сообщает The Star
+T9	ORGANIZATION 194 202	The Star
+T10	ECONOMIC_SECTOR 249 269	подачу электричества
+T11	ORGANIZATION 272 280	Инженеры
+T12	TIME 294 298	ночь
+T13	FAC 332 346	электростанцию
+T14	COUNTRY 348 355	Турквел
+T15	COMMODITY 373 387	электроэнергии
+T16	FAC 395 399	сеть
+T17	NEWS_SOURCE 404 434	сказала председатель правления
+T18	PROFESSION 412 434	председатель правления
+T19	ECONOMIC_SECTOR 435 456	электроэнергетической
+T20	ORGANIZATION 457 488	компании Kenya Power Джой Мдиво
+T21	NEWS_SOURCE 489 496	Масинде
+T22	NEWS_SOURCE 499 511	Она отметила
+T23	DATE 580 592	до конца дня
+T24	DATE 649 667	в течение выходных
+T25	DATE 700 710	25 августа
+T26	COMMODITY 764 778	электроэнергии
+T27	FAC 801 808	столицу
+T28	GPE 809 814	Кении
+T29	REGION 815 822	Найроби
+T30	LOCATION 832 853	Центральную провинцию
+T31	PERSON 860 865	Валли
+T32	ORGANIZATION 868 876	западные
+T33	EVENT 958 963	света
+T34	FAC 1010 1032	объекты инфраструктуры
+T35	COMMODITY 1044 1058	электроэнергии
+T36	CARDINAL 1134 1158	64ea09a29a7947f2000a1c78
+T37	PERSON 1160 1163	Sat
+T38	CARDINAL 1165 1167	26
+T39	DATE 1172 1176	2023
+T40	CARDINAL 1177 1179	18
+T41	CARDINAL 1183 1187	34 +

@@ -1,0 +1,22 @@
+T0	ORGANIZATION 0 3	МВД
+T1	ORGANIZATION 40 49	Интерпола
+T2	COUNTRY 52 58	России
+T3	ORGANIZATION 113 116	МВД
+T4	COUNTRY 117 123	России
+T7	ORGANIZATION 271 280	Интерпола
+T9	COUNTRY 283 289	России
+T15	ORGANIZATION 398 407	Интерпола
+T20	ORGANIZATION 618 627	Интерпола
+T22	NEWS_SOURCE 686 707	говорится в сообщении
+T6	COUNTRY 441 461	Российская Федерация
+T16	ORGANIZATION 485 540	Международной организации уголовной полиции — Интерпола
+T17	GROUP 637 665	странами-членами организации
+R1	HEADQUARTERED_IN Arg1:T3 Arg2:T4	
+T18	NEWS_SOURCE 60 112	Опубликованный на портале правовой информации приказ
+T5	ORGANIZATION 160 182	органов внутренних дел
+T8	ORGANIZATION 314 317	МВД
+T10	ORGANIZATION 299 313	в пресс-службе
+R2	OWNERSHIP Arg1:T8 Arg2:T10	
+T11	NEWS_SOURCE 291 317	заявили в пресс-службе МВД
+T12	GROUP 410 426	странами-членами
+R3	MEMBER Arg1:T6 Arg2:T16	

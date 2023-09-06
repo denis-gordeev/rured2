@@ -1,0 +1,40 @@
+T3	NEWS_SOURCE 54 59	Видео
+T9	PROFESSION 149 160	губернатора
+T10	REGION 161 179	Московской области
+T14	FAC 267 276	кирпичная
+T16	GROUP 300 306	Власти
+T17	GROUP 326 337	сотрудников
+T20	FAC 379 390	детский сад
+T21	EVENT 422 427	Взрыв
+T25	FAC 500 518	складе пиротехники
+T26	CITY 11 29	в Сергиевом Посаде
+T1	EVENT 30 42	после взрыва
+T2	FAC 43 52	на заводе
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T26	
+R2	TAKES_PLACE_IN Arg1:T1 Arg2:T2	
+R3	HEADQUARTERED_IN Arg1:T2 Arg2:T26	
+T4	EVENT 61 73	После взрыва
+T5	FAC 74 83	на заводе
+T27	FAC 113 118	домах
+T6	CITY 84 102	в Сергиевом Посаде
+R4	HEADQUARTERED_IN Arg1:T5 Arg2:T6	
+R5	TAKES_PLACE_IN Arg1:T4 Arg2:T6	
+R6	HEADQUARTERED_IN Arg1:T27 Arg2:T6	
+R7	WORKPLACE Arg1:T9 Arg2:T10	
+T7	NEWS_SOURCE 139 179	по словам губернатора Московской области
+T8	FAC 204 223	спорткомплекс «Луч»
+T11	EVENT 194 223	поврежден спорткомплекс «Луч»
+R8	TAKES_PLACE_IN Arg1:T11 Arg2:T10	
+T12	FAC 256 264	бассейна
+T13	EVENT 241 264	разрушен фасад бассейна
+R9	TAKES_PLACE_IN Arg1:T13 Arg2:T8	
+T15	ORGANIZATION 338 376	Загорского оптико-механического завода
+R10	WORKPLACE Arg1:T17 Arg2:T15	
+T18	FAC 428 437	на заводе
+T19	CITY 438 456	в Сергиевом Посаде
+T22	TIME 467 472	утром
+T23	DATE 473 482	9 августа
+R11	TAKES_PLACE_IN Arg1:T21 Arg2:T19	
+R12	TAKES_PLACE_IN Arg1:T21 Arg2:T18	
+R13	DATE_TAKES_PLACE_ON Arg1:T21 Arg2:T23	
+R14	TAKES_PLACE_IN Arg1:T21 Arg2:T25	

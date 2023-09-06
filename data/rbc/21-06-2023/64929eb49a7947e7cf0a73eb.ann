@@ -1,0 +1,34 @@
+T0	PROFESSION 0 10	Россиянина
+T1	PROFESSION 73 83	Сотрудники
+T2	ORGANIZATION 84 87	ФСБ
+T3	GROUP 98 104	жителя
+T4	REGION 105 122	Хабаровского края
+T5	COUNTRY 186 196	украинских
+T6	GROUP 197 217	военных криптовалюту
+T7	ORGANIZATION 246 249	РБК
+T8	NEWS_SOURCE 219 269	сообщается в поступившем в РБК сообщении ведомства
+T9	ORGANIZATION 260 269	ведомства
+T10	GROUP 310 316	жителя
+T11	ORGANIZATION 317 325	Советско
+T12	CITY 326 336	Гаванского
+T13	ORGANIZATION 337 343	района
+T14	REGION 344 361	Хабаровского края
+T15	ORGANIZATION 446 463	Вооруженным силам
+T16	COUNTRY 464 471	Украины
+T17	NEWS_SOURCE 476 497	говорится в сообщении
+T18	NEWS_SOURCE 499 518	По данным ведомства
+T19	GROUP 540 547	третьих
+T20	COUNTRY 555 562	Украине
+T21	COUNTRY 645 655	украинской
+T22	PRODUCT 656 662	армией
+T23	FAC 656 662	армией
+T24	ECONOMIC_SECTOR 663 676	беспилотников
+T25	FAC 678 701	тепловизионных прицелов
+T26	ECONOMIC_SECTOR 703 714	боеприпасов
+T27	ECONOMIC_SECTOR 718 745	медицинского обмундирования
+T28	ORDINAL 796 799	275
+T29	LAW 781 813	дело по статье 275 УК (госизмена
+T30	CARDINAL 905 907	21
+T31	CARDINAL 916 940	64929eb49a7947e7cf0a73eb
+T32	CARDINAL 947 953	21 Jun
+T33	CARDINAL 962 964	56

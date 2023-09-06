@@ -1,0 +1,23 @@
+T0	EVENT 6 16	переворота
+T2	ORGANIZATION 53 59	ЭКОВАС
+T7	ORGANIZATION 151 157	ЭКОВАС
+T10	PROFESSION 227 234	генерал
+T12	PERSON 235 252	Абдурахман Тчиани
+T16	PROFESSION 505 512	генерал
+T17	NEWS_SOURCE 498 528	сказал генерал в телеобращении
+T18	PERSON 530 536	Тчиани
+T23	EVENT 812 822	переворота
+T1	COUNTRY 17 25	в Нигере
+T22	NEWS_SOURCE 798 822	заверил лидер переворота
+R1	TAKES_PLACE_IN Arg1:T0 Arg2:T1	
+T3	ORGANIZATION 94 149	Экономического сообщества западноафриканских государств
+R2	ABBREVIATION Arg1:T3 Arg2:T7	
+T4	EVENT 207 217	переворота
+T5	COUNTRY 218 226	в Нигере
+R3	WORKS_AS Arg1:T12 Arg2:T10	
+R4	TAKES_PLACE_IN Arg1:T4 Arg2:T5	
+T6	ORGANIZATION 273 293	телеканал Al Arabiya
+T8	NEWS_SOURCE 254 293	его слова приводит телеканал Al Arabiya
+T9	GROUP 416 431	некоторых стран
+T11	EVENT 575 602	возможным военным действиям
+T13	DATE 776 793	не более трех лет

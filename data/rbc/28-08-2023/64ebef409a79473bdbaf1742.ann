@@ -1,0 +1,44 @@
+T0	ORGANIZATION 0 10	Минобороны
+T1	NEWS_SOURCE 0 19	Минобороны сообщило
+T2	COUNTRY 50 58	Брянской
+T3	CITY 59 67	областью
+T4	COUNTRY 69 79	Российские
+T5	ORGANIZATION 80 109	силы противовоздушной обороны
+T6	FAC 111 114	ПВО
+T7	CARDINAL 127 130	два
+T8	COUNTRY 131 141	украинских
+T9	ECONOMIC_SECTOR 142 154	беспилотника
+T10	FAC 142 154	беспилотника
+T11	REGION 159 176	Брянской областью
+T12	NEWS_SOURCE 178 201	сообщили в пресс-службе
+T13	ORGANIZATION 189 212	пресс-службе Минобороны
+T14	NEWS_SOURCE 213 219	России
+T15	COUNTRY 213 219	России
+T16	DATE 222 229	Сегодня
+T17	GROUP 314 318	БПЛА
+T18	ECONOMIC_SECTOR 319 330	самолетного
+T19	FAC 331 335	типа
+T20	COUNTRY 362 382	Российской Федерации
+T21	DATE 384 387	Два
+T22	ECONOMIC_SECTOR 388 399	беспилотных
+T23	PRODUCT 400 411	летательных
+T24	LAW 400 411	летательных
+T25	ECONOMIC_SECTOR 412 420	аппарата
+T26	FAC 458 461	ПВО
+T27	FAC 466 477	территорией
+T28	REGION 478 494	Брянской области
+T29	NEWS_SOURCE 499 520	говорится в сообщении
+T30	CITY 523 531	Брянская
+T31	REGION 532 539	область
+T32	COUNTRY 571 579	Украиной
+T33	PRODUCT 659 665	дронов
+T34	FAC 659 665	дронов
+T35	FAC 825 833	объектов
+T36	FAC 835 849	объектов связи
+T37	FAC 851 861	транспорта
+T38	ECONOMIC_SECTOR 864 874	типографий
+T39	FAC 893 907	автотранспорта
+T40	CARDINAL 941 965	64ebef409a79473bdbaf1742
+T41	CARDINAL 972 974	28
+T42	CARDINAL 979 983	2023
+T43	CARDINAL 987 989	54

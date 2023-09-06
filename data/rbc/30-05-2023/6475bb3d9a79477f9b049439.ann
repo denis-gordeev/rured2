@@ -1,0 +1,67 @@
+T0	PERSON 0 9	Лукашенко
+T1	PROFESSION 17 22	главу
+T2	ORGANIZATION 23 40	Госпогранкомитета
+T3	PROFESSION 42 51	Президент
+T4	COUNTRY 52 62	Белоруссии
+T5	PERSON 63 82	Александр Лукашенко
+T6	PROFESSION 90 95	главу
+T7	ORGANIZATION 96 134	Государственного пограничного комитета
+T8	NEWS_SOURCE 126 134	комитета
+T9	ORGANIZATION 150 157	Первого
+T10	NEWS_SOURCE 136 158	сообщает «Пул Первого»
+T11	PERSON 160 168	Анатолий
+T12	FAC 196 212	Госпогранкомитет
+T13	PERSON 264 283	Константин Молостов
+T14	PROFESSION 306 317	начальником
+T15	REGION 318 329	Гродненской
+T16	FAC 330 348	пограничной группы
+T17	PERSON 362 371	Лукашенко
+T18	CRIME 372 375	дал
+T19	PROFESSION 405 410	мэров
+T20	PERSON 412 418	Андрея
+T21	PROFESSION 426 438	министра ЖКХ
+T22	PROFESSION 450 463	председателем
+T23	ORGANIZATION 464 489	Гродненского горисполкома
+T24	PROFESSION 491 497	членом
+T25	ORGANIZATION 498 523	Гродненского облисполкома
+T26	PERSON 525 530	Игоря
+T27	PROFESSION 548 561	председателем
+T28	PERSON 562 572	Оршанского
+T29	FAC 573 585	райисполкома
+T30	PERSON 587 602	Анатолия Лодыгу
+T31	PROFESSION 605 618	председателем
+T32	PERSON 619 631	Солигорского
+T33	FAC 632 644	райисполкома
+T34	PERSON 646 660	Юрия Карловича
+T35	PROFESSION 663 676	председателем
+T36	PERSON 677 685	Клецкого
+T37	ORGANIZATION 686 698	райисполкома
+T38	PERSON 702 716	Вадима Передни
+T39	PROFESSION 719 739	главой администрации
+T40	ORGANIZATION 726 760	администрации Первомайского района
+T41	GPE 761 767	Минска
+T42	DATE 770 782	В начале мая
+T43	PERSON 783 792	Лукашенко
+T44	NEWS_SOURCE 783 799	Лукашенко заявил
+T45	COUNTRY 839 849	Белоруссию
+T46	ORGANIZATION 862 875	правительству
+T47	ORGANIZATION 878 886	силовому
+T48	FAC 887 892	блоку
+T49	EVENT 902 913	мероприятия
+T50	GROUP 946 957	диверсантам
+T51	ECONOMIC_SECTOR 1076 1084	военного
+T52	ORGANIZATION 1096 1100	НАТО
+T53	DATE 1102 1115	В конце марта
+T54	PERSON 1116 1125	Лукашенко
+T55	NEWS_SOURCE 1116 1133	Лукашенко говорил
+T56	DATE 1140 1142	за
+T57	DATE 1147 1151	годы
+T58	COUNTRY 1166 1174	Беларусь
+T59	DATE 1250 1257	сегодня
+T60	CARDINAL 1342 1371	6475bb3d9a79477f9b049439
+
+Tue
+T61	CARDINAL 1373 1375	30
+T62	DATE 1380 1384	2023
+T63	CARDINAL 1385 1387	12
+T64	CARDINAL 1388 1390	26

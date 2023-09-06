@@ -1,0 +1,37 @@
+T1	PROFESSION 74 89	Премьер-министр
+T2	COUNTRY 90 96	России
+T3	PERSON 97 112	Михаил Мишустин
+T6	COUNTRY 169 178	корейской
+T9	PRODUCT 262 267	орехи
+T11	PRODUCT 270 278	скорлупе
+T18	PROFESSION 580 590	президенту
+T19	COUNTRY 591 597	России
+T20	PERSON 598 614	Владимиру Путину
+T21	PROFESSION 625 635	губернатор
+T24	PERSON 653 666	Олег Кожемяко
+T26	PRODUCT 678 683	ореха
+T27	PRODUCT 759 764	ореха
+T34	PRODUCT 974 979	ореха
+T43	PRODUCT 0 14	Кедровые орехи
+R1	WORKPLACE Arg1:T3 Arg2:T2	
+R2	WORKS_AS Arg1:T3 Arg2:T1	
+T4	PRODUCT 155 168	кедровый орех
+T5	EVENT 155 240	кедровый орех корейской сосны внесли в список стратегически важных товаров и ресурсов
+R3	ORGANIZES Arg1:T3 Arg2:T5	
+T7	LAW 359 390	статьи 226.1 Уголовного кодекса
+T8	CRIME 409 444	контрабанда стратегических ресурсов
+T10	CARDINAL 485 486	7
+T12	PENALTY 458 490	лишением свободы сроком до 7 лет
+T13	PRODUCT 515 528	кедровый орех
+R4	WORKPLACE Arg1:T20 Arg2:T19	
+R5	WORKS_AS Arg1:T20 Arg2:T18	
+T14	REGION 636 652	Приморского края
+R6	WORKPLACE Arg1:T24 Arg2:T14	
+R7	WORKS_AS Arg1:T24 Arg2:T21	
+T15	REGION 781 798	в Приморском крае
+T16	LOCATION 832 850	сибирских регионов
+T17	ORGANIZATION 1036 1057	правительства региона
+T22	NEWS_SOURCE 1018 1057	оворится на сайте правительства региона
+R8	SELLS Arg1:T15 Arg2:T27	
+T23	EVENT 935 1012	снижению объемов нелегальной заготовки ореха с применением варварских методов
+R9	TAKES_PLACE_IN Arg1:T23 Arg2:T15	

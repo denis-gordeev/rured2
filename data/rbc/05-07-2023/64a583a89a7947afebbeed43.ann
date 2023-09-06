@@ -1,0 +1,31 @@
+T0	ORGANIZATION 0 15	Роспотребнадзор
+T1	NEWS_SOURCE 0 23	Роспотребнадзор сообщил
+T2	NEWS_SOURCE 26 35	менингите
+T3	GROUP 38 49	сотрудников
+T4	ORGANIZATION 50 54	Ozon
+T5	CITY 57 70	Екатеринбурге
+T6	CITY 74 87	Екатеринбурге
+T7	GROUP 109 124	менингококковой
+T8	GROUP 136 147	сотрудников
+T9	ORGANIZATION 174 178	Ozon
+T10	NEWS_SOURCE 180 231	сообщили в региональном управлении Роспотребнадзора
+T11	ORGANIZATION 204 231	управлении Роспотребнадзора
+T12	DATE 253 267	на 5 июля 2023
+T13	CARDINAL 288 292	семь
+T14	CITY 301 316	менингококковой
+T15	NEWS_SOURCE 330 351	говорится в сообщении
+T16	ORGANIZATION 355 364	ведомстве
+T17	QUANTITY 401 417	свыше 60 человек
+T18	ORGANIZATION 433 449	Роспотребнадзоре
+T19	NEWS_SOURCE 419 458	В федеральном Роспотребнадзоре отметили
+T20	GROUP 518 533	менингококковой
+T21	GROUP 553 565	meningitides
+T22	PRODUCT 611 618	картона
+T23	PRODUCT 620 632	гофрокартона
+T24	PRODUCT 634 640	фанеры
+T25	PRODUCT 650 660	материалов
+T26	PRODUCT 673 704	изготовлены упаковочные коробки
+T27	NEWS_SOURCE 783 803	пояснили в ведомстве
+T28	ORGANIZATION 794 803	ведомстве
+T29	CARDINAL 867 891	64a583a89a7947afebbeed43
+T30	CARDINAL 905 912	2023 18

@@ -1,0 +1,64 @@
+T0	PERSON 0 9	Зеленский
+T1	NEWS_SOURCE 0 16	Зеленский заявил
+T2	COUNTRY 57 64	Украине
+T3	PROFESSION 66 75	Президент
+T4	COUNTRY 76 83	Украины
+T5	PERSON 84 102	Владимир Зеленский
+T6	NEWS_SOURCE 84 112	Владимир Зеленский сообщил в
+T7	EVENT 119 127	вечернем
+T8	DATE 176 183	26 июля
+T9	NEWS_SOURCE 236 259	опубликовано в телеграм
+T10	LAW 259 260	-
+T11	NEWS_SOURCE 260 284	канале главы государства
+T12	PROFESSION 267 284	главы государства
+T13	PRODUCT 337 342	ракет
+T14	FAC 337 342	ракет
+T15	NEWS_SOURCE 347 363	заявил Зеленский
+T16	PERSON 354 363	Зеленский
+T17	ECONOMIC_SECTOR 419 422	ПВО
+T18	DATE 425 440	Вечером 26 июля
+T19	PERSON 441 452	Хмельницкая
+T20	NEWS_SOURCE 441 462	Хмельницкая областная
+T21	FAC 463 470	военная
+T22	ORGANIZATION 471 484	администрация
+T23	NEWS_SOURCE 485 493	сообщила
+T24	NEWS_SOURCE 496 502	работе
+T25	GROUP 535 541	Власти
+T26	NEWS_SOURCE 580 597	По словам спикера
+T27	PROFESSION 590 611	спикера Воздушных сил
+T28	NEWS_SOURCE 612 627	ВСУ Юрия Игната
+T29	PERSON 616 627	Юрия Игната
+T30	EVENT 639 646	военный
+T31	FAC 639 655	военный аэродром
+T32	CITY 656 673	Староконстантинов
+T33	CARDINAL 689 695	в 5 км
+T34	FAC 696 718	восточнее одноименного
+T35	FAC 728 747	Хмельницкой области
+T36	FAC 783 798	воздушным целям
+T37	EVENT 801 807	Днепре
+T38	REGION 809 817	Киевской
+T39	REGION 820 831	Харьковской
+T40	FAC 832 840	областях
+T41	ORGANIZATION 850 852	ua
+T42	REGION 876 885	Львовской
+T43	REGION 887 898	Житомирской
+T44	REGION 901 917	Сумской областях
+T45	COUNTRY 918 925	Украины
+T46	GROUP 927 933	Власти
+T47	REGION 951 967	Киевской области
+T48	ORGANIZATION 998 1015	Минобороны России
+T49	ECONOMIC_SECTOR 1019 1025	ударах
+T50	DATE 1026 1037	в этот день
+T51	NEWS_SOURCE 1046 1054	сообщало
+T52	EVENT 1058 1065	военном
+T53	ORGANIZATION 1066 1075	ведомстве
+T54	NEWS_SOURCE 1058 1088	военном ведомстве подчеркивают
+T55	PROFESSION 1125 1132	военным
+T56	CARDINAL 1175 1204	64c1ac119a794791fd55c44d
+
+Thu
+T57	CARDINAL 1206 1208	27
+T58	ORGANIZATION 1209 1212	Jul
+T59	CURRENCY 1213 1217	2023
+T60	CARDINAL 1221 1223	55
+T61	CARDINAL 1227 1228	+

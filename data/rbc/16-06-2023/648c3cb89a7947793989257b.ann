@@ -1,0 +1,64 @@
+T1	PROFESSION 47 54	актрисы
+T2	PERSON 55 65	Бабушкиной
+T5	PROFESSION 132 139	актрисы
+T6	PERSON 140 159	Кристины Бабушкиной
+T7	CITY 181 187	Москве
+T9	FAC 209 215	театра
+T10	DATE 243 250	16 июня
+T11	PRODUCT 335 341	билеты
+T12	NEWS_SOURCE 446 465	указано в сообщении
+T13	DATE 487 496	на 1 июля
+T14	PERSON 517 526	Бабушкина
+T17	CARDINAL 639 641	13
+T20	DATE 736 743	16 июня
+T22	NEWS_SOURCE 775 788	По их данным,
+T23	VEHICLE 789 799	автомобиль
+T31	PERSON 911 920	Бабушкину
+T32	FAC 943 960	отделение полиции
+T33	FAMILY 1047 1055	супругом
+T48	FAC 0 5	Театр
+T49	WORK_OF_ART 14 23	спектакль
+R1	WORKS_AS Arg1:T2 Arg2:T1	
+T3	FAC 67 82	Театр Ермоловой
+T4	WORK_OF_ART 91 120	спектакль «(Не) идеальный че»
+R2	WORKS_AS Arg1:T6 Arg2:T5	
+T8	NEWS_SOURCE 189 215	сообщается на сайте театра
+T50	EVENT 67 159	Театр Ермоловой отменил спектакль «(Не) идеальный че» с участием актрисы Кристины Бабушкиной
+R3	TAKES_PLACE_IN Arg1:T50 Arg2:T7	
+T51	WORK_OF_ART 217 226	Спектакль
+R4	DATE_TAKES_PLACE_ON Arg1:T50 Arg2:T10	
+T52	PRODUCT 265 271	билеты
+T53	PRODUCT 306 311	карту
+T54	WORK_OF_ART 381 390	спектакля
+T55	WORK_OF_ART 477 486	спектакль
+T15	PROFESSION 545 564	предпринимательницы
+T16	CHARACTER 565 584	Киры Павловны Плотт
+T40	PROFESSION 586 593	Актриса
+T41	WORK_OF_ART 612 636	сериалам «Беспринципные»
+T42	WORK_OF_ART 638 654	«13 клиническая»
+T43	PERSON 679 689	Бабушкиной
+R5	WORKS_AS Arg1:T43 Arg2:T40	
+T18	PERSON 708 726	Андреем Гацунаевым
+T44	FAMILY 702 707	мужем
+T45	EVENT 666 678	О задержании
+R6	EVENT_TAKES_PART_IN Arg1:T43 Arg2:T45	
+R7	EVENT_TAKES_PART_IN Arg1:T18 Arg2:T45	
+R8	DATE_TAKES_PLACE_ON Arg1:T45 Arg2:T20	
+T19	ORGANIZATION 754 764	«Известий»
+T21	ORGANIZATION 767 773	РЕН ТВ
+T46	NEWS_SOURCE 727 773	сообщили 16 июня источники «Известий» и РЕН ТВ
+T24	PROFESSION 800 807	актрисы
+T25	PROFESSION 819 829	сотрудники
+T26	ORGANIZATION 830 835	ГИБДД
+R9	WORKPLACE Arg1:T25 Arg2:T26	
+T27	STREET 836 856	на улице Коровий Вал
+T28	BOROUGH 857 879	в районе Замоскворечье
+T29	FAMILY 926 930	мужа
+T30	EVENT 931 960	доставили в отделение полиции
+R10	EVENT_TAKES_PART_IN Arg1:T31 Arg2:T30	
+T47	VEHICLE 962 970	В машине
+T56	PROFESSION 1037 1044	актрису
+T34	ORGANIZATION 1093 1113	телеграм-канал «112»
+T35	NEWS_SOURCE 1085 1113	уточнял телеграм-канал «112»
+T36	EVENT 975 1004	найден пакет с белым порошком
+R11	TAKES_PLACE_IN Arg1:T36 Arg2:T47	

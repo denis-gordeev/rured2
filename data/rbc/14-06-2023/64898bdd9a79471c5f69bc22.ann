@@ -1,0 +1,36 @@
+T0	PERSON 0 9	Лукашенко
+T1	NEWS_SOURCE 10 19	рассказал
+T2	FAMILY 36 47	младший сын
+T3	PERSON 48 64	Николай
+
+Младший
+T4	FAMILY 65 68	сын
+T5	PROFESSION 69 79	президента
+T6	COUNTRY 80 90	Белоруссии
+T7	PERSON 91 119	Александра Лукашенко Николай
+T8	DATE 120 126	сейчас
+T9	GPE 136 145	Пекинском
+T10	ORGANIZATION 146 158	университете
+T11	COUNTRY 168 179	белорусский
+T12	ORGANIZATION 212 218	Россия
+T13	NEWS_SOURCE 168 221	белорусский лидер рассказал в эфире канала «Россия 1»
+T14	FAMILY 237 241	сына
+T15	PERSON 257 274	Николаю Лукашенко
+T16	DATE 275 281	18 лет
+T17	PROFESSION 321 325	мать
+T18	PROFESSION 327 336	президент
+T19	COUNTRY 337 347	Белоруссии
+T20	DATE 364 375	В 2022 году
+T21	FAMILY 376 379	сын
+T22	PROFESSION 380 390	президента
+T23	ORGANIZATION 399 404	школу
+T24	DATE 425 444	В мае прошлого года
+T25	PERSON 445 454	Лукашенко
+T26	NEWS_SOURCE 445 462	Лукашенко заявлял
+T27	COUNTRY 471 477	Китаем
+T28	NEWS_SOURCE 487 500	По его словам
+T29	COUNTRY 502 512	Белоруссии
+T30	CARDINAL 627 629	14
+T31	DATE 634 638	2023
+T32	CARDINAL 639 641	13
+T33	CARDINAL 645 649	26 +

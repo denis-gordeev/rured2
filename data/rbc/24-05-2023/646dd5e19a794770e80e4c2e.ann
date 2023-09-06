@@ -1,0 +1,47 @@
+T0	PERSON 0 7	Пушилин
+T1	NEWS_SOURCE 0 14	Пушилин заявил
+T2	NEWS_SOURCE 46 56	Артемовске
+T3	PERSON 46 56	Артемовске
+T4	PERSON 60 70	Артемовске
+T5	NEWS_SOURCE 60 73	Артемовске по
+T6	EVENT 98 104	мирных
+T7	GROUP 105 112	жителей
+T8	EVENT 113 116	нет
+T9	PROFESSION 126 136	врио главы
+T10	COUNTRY 137 140	ДНР
+T11	PERSON 141 154	Денис Пушилин
+T12	ORGANIZATION 175 184	Россия 24
+T13	NEWS_SOURCE 118 185	сообщил врио главы ДНР Денис Пушилин в эфире телеканала «Россия 24»
+T14	PRODUCT 201 212	гражданских
+T15	DATE 217 222	вчера
+T16	GROUP 256 267	гражданских
+T17	ORGANIZATION 315 322	Вагнера
+T18	LAW 329 340	этот период
+T19	GROUP 354 365	гражданских
+T20	GROUP 412 423	гражданских
+T21	PROFESSION 448 458	врио главы
+T22	COUNTRY 459 462	ДНР
+T23	PERSON 463 476	Денис Пушилин
+T24	ORGANIZATION 497 506	Россия 24
+T25	NEWS_SOURCE 441 507	сказал врио главы ДНР Денис Пушилин в эфире телеканала «Россия 24»
+T26	NEWS_SOURCE 509 519	Он отметил
+T27	PROFESSION 564 574	сотрудники
+T28	GROUP 564 574	сотрудники
+T29	ORGANIZATION 575 578	МВД
+T30	PERSON 587 594	Пушилин
+T31	NEWS_SOURCE 587 601	Пушилин сказал
+T32	PERSON 628 638	Артемовска
+T33	FAC 715 722	флангам
+T34	PERSON 723 733	Артемовска
+T35	COUNTRY 771 781	российских
+T36	GROUP 782 789	военных
+T37	DATE 791 797	21 мая
+T38	ORGANIZATION 798 815	Минобороны России
+T39	COUNTRY 809 815	России
+T40	PERSON 847 857	Артемовска
+T41	CARDINAL 891 915	646dd5e19a794770e80e4c2e
+T42	CARDINAL 922 924	24
+T43	DATE 929 933	2023
+T44	CARDINAL 934 936	12
+T45	CARDINAL 937 939	36
+T46	CARDINAL 940 944	12 +

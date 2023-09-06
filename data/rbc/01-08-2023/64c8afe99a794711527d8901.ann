@@ -1,0 +1,50 @@
+T0	DATE 0 1	В
+T1	REGION 2 10	Приморье
+T2	ORGANIZATION 17 22	медуз
+T3	QUANTITY 23 33	15 человек
+T4	CARDINAL 53 54	В
+T5	REGION 55 70	Приморском крае
+T6	QUANTITY 89 91	15
+T7	CARDINAL 89 99	15 человек
+T8	FAC 111 119	медузами
+T9	NEWS_SOURCE 138 157	сообщает PrimaMedia
+T10	ORGANIZATION 147 157	PrimaMedia
+T11	ORGANIZATION 159 168	Агентству
+T12	PERSON 159 168	Агентству
+T13	NEWS_SOURCE 159 191	Агентству подтвердили информацию
+T14	NEWS_SOURCE 202 224	региональном минздраве
+T15	ORGANIZATION 215 224	минздраве
+T16	ORGANIZATION 269 319	отделение Владивостокской клинической больницы № 2
+T17	NEWS_SOURCE 372 391	рассказал агентству
+T18	ORGANIZATION 382 391	агентству
+T19	GROUP 533 537	дети
+T20	ORGANIZATION 542 554	РИА Новости»
+T21	ORGANIZATION 569 590	региональный минздрав
+T22	NEWS_SOURCE 541 599	«РИА Новости» со ссылкой на региональный минздрав сообщило
+T23	QUANTITY 623 633	13 человек
+T24	DATE 657 669	17 до 66 лет
+T25	DATE 690 719	в течение трех последних дней
+T26	DATE 796 814	в течение 3–4 дней
+T27	NEWS_SOURCE 852 872	сообщили в ведомстве
+T28	ORGANIZATION 863 872	ведомстве
+T29	FAC 909 916	купания
+T30	FAC 919 924	бухте
+T31	PERSON 925 935	Муравьиная
+T32	ORGANIZATION 938 949	Уссурийском
+T33	FAC 950 956	заливе
+T34	FAC 958 969	бухте Новик
+T35	FAC 973 980	острове
+T36	ORGANIZATION 981 988	Русский
+T37	FAC 1000 1023	железнодорожной станции
+T38	PERSON 1024 1034	Санаторная
+T39	CITY 1058 1080	пригороде Владивостока
+T40	LOCATION 1084 1100	берегу Амурского
+T41	FAC 1101 1107	залива
+T42	PERCENT 1163 1187	64c8afe99a794711527d8901
+T43	CARDINAL 1163 1187	64c8afe99a794711527d8901
+T44	CITY 1189 1192	Tue
+T45	DATE 1194 1196	01
+T46	CARDINAL 1194 1196	01
+T47	DATE 1201 1205	2023
+T48	CARDINAL 1209 1211	00
+T49	CARDINAL 1212 1216	16 +

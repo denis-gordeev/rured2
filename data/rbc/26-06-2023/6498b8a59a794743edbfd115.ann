@@ -1,0 +1,33 @@
+T0	ORGANIZATION 0 3	КГБ
+T1	NEWS_SOURCE 0 10	КГБ заявил
+T2	GROUP 24 36	спецслужбами
+T3	GPE 37 43	Запада
+T4	GROUP 52 58	власти
+T5	COUNTRY 61 71	Белоруссии
+T6	ORGANIZATION 73 80	Комитет
+T7	ORGANIZATION 97 109	безопасности
+T8	COUNTRY 110 120	Белоруссии
+T9	GROUP 127 138	сотрудников
+T10	GPE 139 147	западных
+T11	GROUP 175 183	боевиков
+T12	GROUP 196 202	власти
+T13	NEWS_SOURCE 203 204	в
+T14	PROFESSION 220 242	заместитель начальника
+T15	ORGANIZATION 232 271	начальника Следственного управления КГБ
+T16	PERSON 272 282	Константин
+T17	PROFESSION 283 288	Бычек
+T18	NEWS_SOURCE 213 312	заявил заместитель начальника Следственного управления КГБ Константин Бычек, передает телеканал ОНТ
+T19	ORGANIZATION 309 312	ОНТ
+T20	ORGANIZATION 315 323	Комитету
+T21	GROUP 357 361	лица
+T22	GROUP 385 392	боевики
+T23	GROUP 426 447	сотрудников спецслужб
+T24	ORGANIZATION 492 497	фонды
+T25	NEWS_SOURCE 595 607	сказал Бычек
+T26	PROFESSION 602 607	Бычек
+T27	NEWS_SOURCE 609 611	По
+T28	ORGANIZATION 715 718	КГБ
+T29	COUNTRY 719 729	Белоруссии
+T30	CARDINAL 851 875	6498b8a59a794743edbfd115
+T31	DATE 882 884	26
+T32	DATE 889 896	2023 01

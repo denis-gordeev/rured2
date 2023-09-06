@@ -1,0 +1,52 @@
+T5	FAC 132 140	больницу
+T6	NEWS_SOURCE 152 174	сообщает «РИА Новости»
+T7	ORGANIZATION 162 174	РИА Новости»
+T8	GROUP 266 272	власти
+T9	REGION 273 278	Крыма
+T12	FAC 340 355	Крымского моста
+T13	GROUP 382 388	власти
+T15	REGION 437 457	Белгородской области
+T17	FAMILY 532 540	родители
+T21	PERSON 577 593	Вячеслав Гладков
+T26	VEHICLE 664 671	паромов
+T27	REGION 678 685	Кубанью
+T28	REGION 688 694	Крымом
+T30	GROUP 732 740	туристов
+T33	REGION 830 835	Крыма
+T36	NEWS_SOURCE 947 967	отметили в ведомстве
+T37	ORGANIZATION 958 967	ведомстве
+T1	EVENT 15 17	ЧП
+T44	FAC 18 35	на Крымском мосту
+T45	EVENT 36 66	девочку доставили в реанимацию
+R1	SUBEVENT_OF Arg1:T45 Arg2:T1	
+T2	EVENT 98 100	ЧП
+T3	FAC 101 118	на Крымском мосту
+T4	CITY 141 150	в Темрюке
+R2	HEADQUARTERED_IN Arg1:T5 Arg2:T4	
+T46	PROFESSION 204 209	Врачи
+T38	FAC 190 202	в реанимации
+T39	DISEASE 224 258	степень тяжести состояния пациента
+T40	TIME 260 265	Ночью
+R3	WORKPLACE Arg1:T8 Arg2:T9	
+T41	NEWS_SOURCE 266 287	власти Крыма сообщили
+T10	ORDINAL 327 333	145-ой
+R4	TAKES_PLACE_IN Arg1:T2 Arg2:T3	
+R5	TAKES_PLACE_IN Arg1:T1 Arg2:T44	
+T11	EVENT 414 416	ЧП
+T14	DISEASE 495 527	закрытую черепно-мозговую травму
+T16	EVENT 459 527	несовершеннолетняя девочка получила закрытую черепно-мозговую травму
+R6	SUBEVENT_OF Arg1:T16 Arg2:T11	
+T42	EVENT 529 548	ее родители погибли
+R7	SUBEVENT_OF Arg1:T42 Arg2:T11	
+T18	PROFESSION 558 576	губернатор региона
+R8	WORKS_AS Arg1:T21 Arg2:T18	
+T19	NEWS_SOURCE 550 593	сообщил губернатор региона Вячеслав Гладков
+T20	FAC 637 645	по мосту
+T22	EVENT 655 708	движение паромов между Кубанью и Крымом приостановили
+R9	SUBEVENT_OF Arg1:T22 Arg2:T11	
+T23	GROUP 710 729	Жителей полуострова
+T24	ORGANIZATION 794 805	В Минтрансе
+T25	NEWS_SOURCE 794 813	В Минтрансе заявили
+T29	FAC 883 888	моста
+T31	EVENT 841 888	повреждение дорожного полотна на пролетах моста
+R10	TAKES_PLACE_IN Arg1:T31 Arg2:T33	

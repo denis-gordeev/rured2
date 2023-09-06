@@ -1,0 +1,68 @@
+T0	PERSON 0 7	Гладков
+T1	CARDINAL 18 21	611
+T2	PERSON 35 46	Шебекинском
+T3	REGION 47 53	округе
+T4	DATE 54 62	за сутки
+T5	COUNTRY 64 74	Украинские
+T6	PROFESSION 75 82	военные
+T7	DATE 83 91	за сутки
+T8	ECONOMIC_SECTOR 106 114	снарядов
+T9	CITY 118 130	Шебекинскому
+T10	PERSON 118 130	Шебекинскому
+T11	FAC 131 148	городскому округу
+T12	PROFESSION 190 200	губернатор
+T13	NEWS_SOURCE 158 213	сообщил в своем телеграм-канале губернатор Белгородской
+T14	REGION 201 221	Белгородской области
+T15	NEWS_SOURCE 222 238	Вячеслав Гладков
+T16	PERSON 222 238	Вячеслав Гладков
+T17	CRIME 258 267	о попытке
+T18	COUNTRY 268 278	украинских
+T19	CRIME 279 290	диверсантов
+T20	INVESTMENT_PROGRAM 301 305	село
+T21	CITY 306 322	Новая Таволжанка
+T22	ORGANIZATION 333 343	Минобороны
+T23	NEWS_SOURCE 333 352	Минобороны сообщило
+T24	NEWS_SOURCE 385 392	Гладков
+T25	PERSON 385 392	Гладков
+T26	NEWS_SOURCE 404 410	сводке
+T27	DATE 411 419	за сутки
+T28	PERSON 438 446	Шебекино
+T29	PRODUCT 484 491	модулей
+T30	GROUP 492 504	центрального
+T31	ECONOMIC_SECTOR 505 510	рынка
+T32	GROUP 512 524	коммерческих
+T33	ECONOMIC_SECTOR 525 533	объектов
+T34	ECONOMIC_SECTOR 535 560	промышленного предприятия
+T35	NEWS_SOURCE 565 572	уточнил
+T36	NEWS_SOURCE 575 589	сводке Гладков
+T37	PERSON 582 589	Гладков
+T38	NEWS_SOURCE 592 613	По словам губернатора
+T39	PROFESSION 602 613	губернатора
+T40	FAC 635 646	системы ПВО
+T41	INVESTMENT_PROGRAM 649 653	селе
+T42	ORGANIZATION 654 676	Разумное Белгородского
+T43	CARDINAL 684 688	один
+T44	FAC 709 715	дорогу
+T45	ECONOMIC_SECTOR 728 736	проезжал
+T46	FAC 737 747	автомобиль
+T47	GROUP 761 769	водитель
+T48	PERSON 848 855	Гладков
+T49	PRODUCT 866 876	минометных
+T50	GROUP 877 886	обстрелах
+T51	PERSON 887 897	Валуйского
+T52	PERSON 899 913	Грайворонского
+T53	PERSON 915 929	Волоконовского
+T54	PERSON 932 944	Борисовского
+T55	REGION 953 973	Белгородской области
+T56	DATE 1001 1018	В последнее время
+T57	COUNTRY 1041 1049	Украиной
+T58	PERSON 1050 1061	Шебекинский
+T59	ORGANIZATION 1062 1067	округ
+T60	GROUP 1079 1086	Жителей
+T61	PERSON 1087 1095	Шебекино
+T62	REGION 1116 1143	районы Белгородской области
+T63	COUNTRY 1154 1160	России
+T64	CARDINAL 1194 1218	647d9ea89a7947857cb7c1ea
+T65	DATE 1232 1236	2023
+T66	CARDINAL 1237 1239	12
+T67	CARDINAL 1240 1242	20

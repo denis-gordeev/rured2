@@ -1,0 +1,51 @@
+T18	GROUP 314 326	пострадавших
+T19	NEWS_SOURCE 344 364	сообщили в ведомстве
+T20	ORGANIZATION 355 364	ведомстве
+T21	CARDINAL 400 401	3
+T22	QUANTITY 420 422	15
+T24	ORGANIZATION 447 450	МЧС
+T25	DATE 452 463	В конце мая
+T29	ORGANIZATION 516 522	УФСИН)
+T33	REGION 545 566	Ленинградской области
+T45	DATE 698 709	С 2017 года
+T51	CITY 0 12	В Петербурге
+T1	FAC 28 58	в здании бывшего СИЗО «Кресты»
+T2	EVENT 13 27	потушили пожар
+R1	TAKES_PLACE_IN Arg1:T2 Arg2:T51	
+R2	TAKES_PLACE_IN Arg1:T2 Arg2:T1	
+R3	HEADQUARTERED_IN Arg1:T1 Arg2:T51	
+T3	CITY 60 78	В Санкт-Петербурге
+T4	EVENT 79 93	потушили пожар
+T5	STREET 139 164	на Арсенальной набережной
+T6	FAC 94 138	в здании на территории бывшего СИЗО «Кресты»
+R4	TAKES_PLACE_IN Arg1:T4 Arg2:T6	
+R5	TAKES_PLACE_IN Arg1:T4 Arg2:T3	
+R6	TAKES_PLACE_IN Arg1:T4 Arg2:T5	
+T7	ORGANIZATION 188 191	МЧС
+T8	ORGANIZATION 175 187	городское ГУ
+R7	OWNERSHIP Arg1:T7 Arg2:T8	
+T9	NEWS_SOURCE 166 191	сообщает городское ГУ МЧС
+T10	FAC 710 716	здание
+T11	FAC 737 741	СИЗО
+T12	EVENT 710 741	здание не используется как СИЗО
+R8	DATE_TAKES_PLACE_ON Arg1:T12 Arg2:T45	
+T13	CITY 523 542	по Санкт-Петербургу
+T14	FAC 620 637	земельный участок
+T30	FAC 640 696	комплекс зданий бывшего следственного изолятора «Кресты»
+T26	ORGANIZATION 464 514	Управления Федеральной службы исполнения наказаний
+R9	ABBREVIATION Arg1:T26 Arg2:T29	
+R10	HEADQUARTERED_IN Arg1:T26 Arg2:T13	
+R11	HEADQUARTERED_IN Arg1:T26 Arg2:T33	
+T27	ORGANIZATION 581 610	акционерное общество «ДОМ.РФ»
+R12	OWNERSHIP Arg1:T27 Arg2:T14	
+R13	OWNERSHIP Arg1:T27 Arg2:T30	
+T23	GROUP 431 446	личного состава
+R14	WORKPLACE Arg1:T23 Arg2:T24	
+T28	EVENT 367 386	К ликвидации пожара
+R15	EVENT_TAKES_PART_IN Arg1:T24 Arg2:T28	
+T15	TIME 275 282	В 20:35
+T17	EVENT 283 301	пожар ликвидирован
+T31	FAC 194 233	В двухэтажном, неэксплуатируемом здании
+T16	CARDINAL 265 274	50 кв. м.
+T32	EVENT 234 253	происходило горение
+R16	TAKES_PLACE_IN Arg1:T32 Arg2:T31	

@@ -1,0 +1,76 @@
+T0	FAC 17 23	поезда
+T1	COUNTRY 26 31	Китае
+T2	FAC 54 101	фекалиями
+
+Рост высокоскоростных железных дорог
+T3	COUNTRY 104 109	Китае
+T4	FAC 182 198	туалетах поездов
+T5	FAC 228 268	очистных сооружений железнодорожной сети
+T6	GROUP 293 304	специалисты
+T7	ORGANIZATION 308 333	China State Railway Group
+T8	ORGANIZATION 365 378	правительство
+T9	GROUP 365 378	правительство
+T10	NEWS_SOURCE 380 410	пишет South China Morning Post
+T11	ORGANIZATION 386 410	South China Morning Post
+T12	FAC 430 438	туалетов
+T13	FAC 543 566	железнодороных станциях
+T14	PROFESSION 584 596	специалистов
+T15	GROUP 598 610	разработчики
+T16	ORGANIZATION 662 686	South China Morning Post
+T17	NEWS_SOURCE 668 712	China Morning Post, ссылаясь на исследования
+T18	NEWS_SOURCE 714 719	пишет
+T19	QUANTITY 735 747	один человек
+T20	QUANTITY 759 776	около 128 граммов
+T21	PRODUCT 777 784	фекалий
+T22	CARDINAL 787 793	одного
+T23	QUANTITY 794 799	литра
+T24	PRODUCT 800 804	мочи
+T25	DATE 805 811	в день
+T26	GROUP 813 824	Специалисты
+T27	FAC 857 883	жизнедеятельности человека
+T28	FAC 887 895	станциях
+T29	CARDINAL 898 903	сотни
+T30	CARDINAL 913 919	тысячи
+T31	FAC 950 983	городской канализационной системы
+T32	ORGANIZATION 1025 1051	государственных праздников
+T33	GROUP 1054 1067	Исследователи
+T34	NEWS_SOURCE 1068 1076	отметили
+T35	CARDINAL 1082 1089	сточные
+T36	FAC 1098 1106	туалетов
+T37	PRODUCT 1177 1197	органических веществ
+T38	PRODUCT 1199 1204	азота
+T39	PRODUCT 1207 1214	фосфора
+T40	CARDINAL 1234 1241	сточные
+T41	PRODUCT 1242 1246	воды
+T42	FAC 1242 1246	воды
+T43	PROFESSION 1359 1370	специалисты
+T44	GROUP 1359 1370	специалисты
+T45	ORDINAL 1372 1378	Первая
+T46	FAC 1379 1411	высокоскоростная железная дорога
+T47	COUNTRY 1424 1429	Китае
+T48	DATE 1430 1441	в 2008 году
+T49	CARDINAL 1451 1457	100 км
+T50	GPE 1468 1473	Пекин
+T51	FAC 1476 1493	северный портовый
+T52	FAC 1500 1509	Тяньцзинь
+T53	CARDINAL 1556 1559	350
+T54	DATE 1576 1585	за 15 лет
+T55	FAC 1600 1637	высокоскоростной железнодорожной сети
+T56	MONEY 1653 1662	до 42 тыс
+T57	FAC 1680 1686	поезда
+T58	FAC 1716 1726	транспорта
+T59	FAC 1731 1752	междугородних поездок
+T60	NEWS_SOURCE 1764 1785	по официальным данным
+T61	CARDINAL 1800 1801	1
+T62	CARDINAL 1802 1807	3 тыс
+T63	CARDINAL 1809 1811	км
+T64	CITY 1818 1825	Шанхаем
+T65	GPE 1828 1835	Пекином
+T66	CARDINAL 1846 1859	более 200 млн
+T67	QUANTITY 1856 1859	млн
+T68	GROUP 1860 1870	пассажиров
+T69	DATE 1871 1876	в год
+T70	CARDINAL 1910 1934	64794ed49a7947e99161df70
+T71	ORGANIZATION 1936 1939	Fri
+T72	DATE 1944 1952	Jun 2023
+T73	CARDINAL 1956 1958	32

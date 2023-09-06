@@ -1,0 +1,66 @@
+T1	CITY 15 21	Москвы
+T3	CITY 59 65	Москвы
+T4	BOROUGH 68 75	Люблино
+T5	ORGANIZATION 86 96	автосервис
+T7	ORGANIZATION 107 111	ТАСС
+T9	EVENT 146 151	Пожар
+T10	HOUSE 182 184	64
+T14	FAC 301 315	соседний склад
+T15	NEWS_SOURCE 320 350	рассказал собеседник агентства
+T16	NEWS_SOURCE 352 365	По его данным
+T17	CARDINAL 384 386	18
+T18	EVENT 417 422	пожар
+T21	NEWS_SOURCE 461 483	сказал собеседник ТАСС
+T22	ORGANIZATION 479 483	ТАСС
+T23	NEWS_SOURCE 485 498	По его словам
+T28	NEWS_SOURCE 617 649	сообщило агентство «РИА Новости»
+T30	PROFESSION 651 659	Пожарным
+T33	DATE 710 716	7 июня
+T35	CITY 777 783	Москве
+T36	ORDINAL 831 840	на шестом
+T39	PROFESSION 873 884	Сотрудникам
+T42	QUANTITY 941 949	четверых
+T43	GROUP 950 955	детей
+T51	ORGANIZATION 32 42	автосервис
+T52	LOCATION 0 14	На юго-востоке
+R1	OWNERSHIP Arg1:T1 Arg2:T52	
+T53	EVENT 22 42	загорелся автосервис
+R2	TAKES_PLACE_IN Arg1:T53 Arg2:T1	
+T2	LOCATION 44 58	На юго-востоке
+T54	EVENT 76 96	загорелся автосервис
+R3	TAKES_PLACE_IN Arg1:T54 Arg2:T4	
+T6	GROUP 126 143	экстренные службы
+T8	NEWS_SOURCE 98 143	сообщает ТАСС со ссылкой на экстренные службы
+T55	STREET 170 180	Люблинская
+R4	TAKES_PLACE_IN Arg1:T9 Arg2:T55	
+T56	ORGANIZATION 196 206	автосервис
+T57	EVENT 186 206	Загорелся автосервис
+T58	NEWS_SOURCE 208 233	По предварительным данным
+T11	CARDINAL 261 271	500 кв. м.
+T12	ORGANIZATION 341 350	агентства
+T13	GROUP 387 404	пожарных расчетов
+T41	QUANTITY 917 923	восемь
+T40	GROUP 885 901	экстренных служб
+T45	EVENT 602 610	О пожаре
+T29	ORGANIZATION 626 649	агентство «РИА Новости»
+T19	CARDINAL 450 459	600 кв. м
+T20	ORGANIZATION 516 527	автосервиса
+T24	EVENT 500 545	внутри горящего автосервиса происходят взрывы
+T25	FAC 572 578	здания
+T26	CARDINAL 590 600	750 кв. м.
+T27	EVENT 651 687	Пожарным удалось ликвидировать пожар
+T31	CARDINAL 699 708	600 кв. м
+T32	EVENT 730 736	пожара
+T34	FAC 737 751	в жилом здании
+T44	STREET 752 774	на Ленинском проспекте
+T46	EVENT 784 808	погиб малолетний ребенок
+R5	SUBEVENT_OF Arg1:T32 Arg2:T46	
+R6	TAKES_PLACE_IN Arg1:T32 Arg2:T34	
+R7	TAKES_PLACE_IN Arg1:T32 Arg2:T35	
+R8	DATE_TAKES_PLACE_ON Arg1:T32 Arg2:T33	
+R9	DATE_TAKES_PLACE_ON Arg1:T46 Arg2:T33	
+T37	FAC 847 871	в двухкомнатной квартире
+T38	EVENT 810 820	Возгорание
+R10	TAKES_PLACE_IN Arg1:T38 Arg2:T37	
+R11	HEADQUARTERED_IN Arg1:T37 Arg2:T44	
+T47	EVENT 978 1023	была назначена пожарно-техническая экспертиза

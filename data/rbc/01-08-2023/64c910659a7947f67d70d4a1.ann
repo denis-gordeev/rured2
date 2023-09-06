@@ -1,0 +1,54 @@
+T4	PROFESSION 25 32	военных
+T11	GROUP 253 260	граждан
+T12	ORGANIZATION 271 297	The Sierra Leone Telegraph
+T14	ORGANIZATION 322 329	полиции
+T15	GROUP 331 356	Правоохранительные органы
+T18	NEWS_SOURCE 448 464	отмечает издание
+T29	NEWS_SOURCE 839 852	Издание пишет
+T30	PROFESSION 858 868	политологи
+T32	GROUP 902 930	президентской администрацией
+T33	PROFESSION 933 941	военными
+T34	DATE 943 955	В конце июня
+T42	GROUP 1073 1079	власти
+T44	NEWS_SOURCE 1185 1200	отмечает газета
+T1	COUNTRY 0 14	В Сьерра-Леоне
+T2	EVENT 15 57	задержали военных по подозрению в заговоре
+R1	TAKES_PLACE_IN Arg1:T2 Arg2:T1	
+T3	COUNTRY 59 73	В Сьерра-Леоне
+T5	PROFESSION 132 158	высокопоставленные военные
+T6	CRIME 180 260	в заговоре для развязывания насильственных действий против государства и граждан
+R2	WORKPLACE Arg1:T5 Arg2:T3	
+R3	TAKES_PLACE_IN Arg1:T6 Arg2:T3	
+T7	NEWS_SOURCE 262 329	передает The Sierra Leone Telegraph со ссылкой на заявление полиции
+T8	PENALTY 74 114	задержали и арестовали несколько человек
+R4	PENALIZED_AS Arg1:T5 Arg2:T8	
+T9	NEWS_SOURCE 331 374	Правоохранительные органы в своем сообщении
+T10	CRIME 410 446	попыткой государственного переворота
+T13	ORGANIZATION 476 483	полиции
+T16	COUNTRY 484 496	Сьерра-Леоне
+R5	HEADQUARTERED_IN Arg1:T13 Arg2:T16	
+T17	NEWS_SOURCE 466 496	По версии полиции Сьерра-Леоне
+T19	DATE 523 540	с 7 по 10 августа
+T20	EVENT 585 606	президентских выборов
+R6	TAKES_PLACE_IN Arg1:T20 Arg2:T16	
+T21	EVENT 607 621	акции протеста
+R7	DATE_TAKES_PLACE_ON Arg1:T21 Arg2:T19	
+R8	TAKES_PLACE_IN Arg1:T21 Arg2:T16	
+T22	ORGANIZATION 723 749	Главное управление полиции
+T23	COUNTRY 750 762	Сьерра-Леоне
+R9	HEADQUARTERED_IN Arg1:T22 Arg2:T23	
+T24	EVENT 826 836	о заговоре
+R10	TAKES_PLACE_IN Arg1:T24 Arg2:T23	
+T25	NEWS_SOURCE 858 883	политологи ранее сообщали
+T26	EVENT 884 895	о конфликте
+R11	EVENT_TAKES_PART_IN Arg1:T32 Arg2:T26	
+T27	EVENT 956 980	на президентских выборах
+T28	COUNTRY 981 995	в Сьерра-Леоне
+T31	PROFESSION 1021 1050	действующий глава государства
+T35	PERSON 1051 1062	Джулиус Био
+R12	WORKS_AS Arg1:T35 Arg2:T31	
+T36	EVENT 996 1062	победителем был объявлен действующий глава государства Джулиус Био
+R13	TAKES_PLACE_IN Arg1:T36 Arg2:T28	
+R14	SUBEVENT_OF Arg1:T36 Arg2:T27	
+T37	EVENT 1080 1131	скрыли разбивку результатов голосования по участкам
+R15	ORGANIZES Arg1:T42 Arg2:T37	

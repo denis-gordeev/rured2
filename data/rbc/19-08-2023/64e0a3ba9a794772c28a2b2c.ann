@@ -1,0 +1,42 @@
+T0	FAC 0 8	Силы ПВО
+T1	REGION 43 52	Белгороду
+T2	COUNTRY 54 64	Российская
+T3	ORGANIZATION 65 76	система ПВО
+T4	REGION 91 101	Белгородом
+T5	REGION 104 116	Белгородским
+T6	LOCATION 117 124	районом
+T7	FAC 153 162	воздушная
+T8	NEWS_SOURCE 170 177	сообщил
+T9	NEWS_SOURCE 180 194	своем телеграм
+T10	EVENT 186 201	телеграм-канале
+T11	PROFESSION 202 212	губернатор
+T12	NEWS_SOURCE 195 237	канале губернатор региона Вячеслав Гладков
+T13	PERSON 221 237	Вячеслав Гладков
+T14	GROUP 331 343	пострадавших
+T15	REGION 380 400	Белгородской области
+T16	PROFESSION 472 483	президентом
+T17	ORGANIZATION 513 519	Регион
+T18	CITY 531 551	Харьковской областью
+T19	COUNTRY 552 559	Украины
+T20	PRODUCT 604 610	дронов
+T21	FAC 604 610	дронов
+T22	ORGANIZATION 622 625	ВСУ
+T23	DATE 629 639	17 августа
+T24	COUNTRY 655 666	украинского
+T25	REGION 686 707	Белгородской областью
+T26	NEWS_SOURCE 708 727	сообщало Минобороны
+T27	ORGANIZATION 717 727	Минобороны
+T28	ORGANIZATION 793 802	Ведомство
+T29	ECONOMIC_SECTOR 842 853	беспилотник
+T30	ORGANIZATION 864 874	Минобороны
+T31	NEWS_SOURCE 875 883	сообщало
+T32	REGION 897 909	Белгородской
+T33	GPE 910 918	областью
+T34	COUNTRY 919 929	украинских
+T35	FAC 930 936	дронах
+T36	DATE 937 947	14 августа
+T37	PERSON 949 954	Дроны
+T38	CARDINAL 1044 1068	64e0a3ba9a794772c28a2b2c
+T39	PERSON 1070 1073	Sat
+T40	CARDINAL 1075 1077	19
+T41	CARDINAL 1087 1089	15

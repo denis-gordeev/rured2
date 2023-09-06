@@ -1,0 +1,50 @@
+T0	ORGANIZATION 0 3	Суд
+T3	FAMILY 58 62	мужа
+T4	PERSON 63 87	Канделаки
+
+Хамовнический
+T5	ORGANIZATION 88 91	суд
+T6	CITY 92 98	Москвы
+T7	QUANTITY 126 130	трех
+T8	PROFESSION 131 146	администраторов
+T11	CRIME 178 192	вымогательстве
+T12	PROFESSION 195 206	телеведущей
+T13	PERSON 207 221	Тины Канделаки
+T14	FAMILY 227 234	супруга
+T15	PERSON 235 249	Василия Бровко
+T16	ORGANIZATION 260 263	РБК
+T20	QUANTITY 290 294	трех
+T21	GROUP 295 305	фигурантов
+T22	DATE 320 327	8 годам
+T27	DATE 423 432	в августе
+T28	NEWS_SOURCE 434 455	По данным прокуратуры
+T30	GROUP 512 528	публичных персон
+T31	FAMILY 544 548	мужа
+T32	PERSON 549 558	Канделаки
+T41	PERSON 63 72	Канделаки
+T1	PENALTY 4 38	отправил в колонию фигурантов дела
+T2	CRIME 39 55	о вымогательстве
+T34	BOROUGH 74 87	Хамовнический
+R1	HEADQUARTERED_IN Arg1:T5 Arg2:T6	
+R2	OWNERSHIP Arg1:T6 Arg2:T34	
+T35	PENALTY 99 113	вынес приговор
+T9	ORGANIZATION 147 163	телеграм-каналов
+R3	PENALIZED_AS Arg1:T8 Arg2:T35	
+R4	WORKS_AS Arg1:T13 Arg2:T12	
+R5	CONVICTED_OF Arg1:T8 Arg2:T11	
+T10	ORGANIZATION 279 283	суда
+T17	ORGANIZATION 264 278	в пресс-службе
+R6	OWNERSHIP Arg1:T10 Arg2:T17	
+T18	NEWS_SOURCE 251 283	сообщили РБК в пресс-службе суда
+T19	FAC 328 351	колонии строгого режима
+T23	PENALTY 306 351	приговорили к 8 годам колонии строгого режима
+R7	USES Arg1:T21 Arg2:T19	
+T24	PROFESSION 353 368	Администраторов
+T25	ORGANIZATION 369 411	телеграм-каналов «Проект «Сканер» и Riddle
+R8	WORKPLACE Arg1:T24 Arg2:T25	
+T26	PENALTY 412 432	арестовали в августе
+R9	PENALIZED_AS Arg1:T24 Arg2:T26	
+T36	ORGANIZATION 444 455	прокуратуры
+T29	CRIME 461 528	размещали порочащие публикации и вымогали деньги у публичных персон
+T33	PERSON 559 573	Василия Бровко
+R10	CONVICTED_OF Arg1:T24 Arg2:T29	

@@ -1,0 +1,47 @@
+T0	ORGANIZATION 0 2	СК
+T8	GROUP 124 134	подростков
+T10	CARDINAL 175 178	два
+T11	PRODUCT 179 193	релейных шкафа
+T17	NEWS_SOURCE 267 289	По версии следователей
+T18	PROFESSION 277 289	следователей
+T24	GROUP 507 517	подростков
+T29	FAC 604 619	железной дороги
+T33	GROUP 701 726	правоохранительные органы
+T37	GROUP 11 21	подростков
+T1	FAC 33 51	на железной дороге
+T2	REGION 52 71	в Красноярском крае
+T3	CRIME 22 32	в диверсии
+R1	TAKES_PLACE_IN Arg1:T3 Arg2:T1	
+R2	TAKES_PLACE_IN Arg1:T3 Arg2:T2	
+R3	HEADQUARTERED_IN Arg1:T1 Arg2:T2	
+R4	EVENT_TAKES_PART_IN Arg1:T37 Arg2:T3	
+T4	REGION 73 92	В Красноярском крае
+T5	PENALTY 93 114	завели уголовное дело
+T6	CARDINAL 115 123	на троих
+R5	TAKES_PLACE_IN Arg1:T5 Arg2:T4	
+T7	FAC 194 237	на перегоне станция Шушь — станция Шарыпово
+T9	NEWS_SOURCE 145 164	по данным следствия
+T12	CRIME 166 193	подожгли два релейных шкафа
+R6	TAKES_PLACE_IN Arg1:T12 Arg2:T7	
+R7	EVENT_TAKES_PART_IN Arg1:T8 Arg2:T12	
+T13	ORGANIZATION 248 265	в региональном СК
+T14	NEWS_SOURCE 239 265	сообщили в региональном СК
+T15	GROUP 341 356	Фигурантов дела
+T16	PENALTY 341 389	Фигурантов дела задержали и предъявили обвинение
+T19	CRIME 417 425	диверсия
+T20	LAW 400 415	ч. 2 ст. 281 УК
+T21	CARDINAL 463 465	12
+T22	PENALTY 463 485	12 лет лишения свободы
+T23	EVENT 531 537	Поджог
+T25	TIME 548 554	в ночь
+T26	DATE 555 565	на 30 июля
+R8	DATE_TAKES_PLACE_ON Arg1:T23 Arg2:T26	
+T27	REGION 591 603	Красноярской
+R9	HEADQUARTERED_IN Arg1:T29 Arg2:T27	
+T28	ORGANIZATION 576 590	в пресс-службе
+R10	HEADQUARTERED_IN Arg1:T28 Arg2:T27	
+T34	NEWS_SOURCE 567 619	сообщали в пресс-службе Красноярской железной дороги
+T32	VEHICLE 676 683	поездов
+T35	EVENT 621 631	Возгорание
+T30	FAC 632 651	на станции Шарыпово
+R11	TAKES_PLACE_IN Arg1:T35 Arg2:T30	

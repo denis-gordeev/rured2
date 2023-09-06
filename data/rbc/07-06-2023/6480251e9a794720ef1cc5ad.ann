@@ -1,0 +1,32 @@
+T0	FAC 6 8	ЧС
+T1	FAC 12 25	Каховской ГЭС
+T2	QUANTITY 52 61	до 40 тыс
+T3	QUANTITY 63 70	человек
+T4	REGION 90 108	Херсонской области
+T5	FAC 126 147	плотины Каховской ГЭС
+T6	QUANTITY 158 167	от 22 тыс
+T7	QUANTITY 169 178	до 40 тыс
+T8	QUANTITY 180 187	человек
+T9	PROFESSION 204 239	врио губернатора Херсонской области
+T10	PERSON 240 255	Владимир Сальдо
+T11	NEWS_SOURCE 197 277	заявил врио губернатора Херсонской области Владимир Сальдо в эфире Соловьев Live
+T12	NEWS_SOURCE 279 292	По его словам
+T13	DATE 301 307	7 июня
+T14	FAC 316 340	Каховского водохранилища
+T15	DATE 346 351	более
+T16	DATE 356 358	на
+T17	CARDINAL 359 360	3
+T18	CARDINAL 361 362	5
+T19	ORGANIZATION 374 384	Энергодара
+T20	REGION 399 406	области
+T21	ORGANIZATION 424 439	Запорожская АЭС
+T22	FAC 436 439	АЭС
+T23	FAC 468 475	военной
+T24	FAC 539 550	плотины ГЭС
+T25	ORGANIZATION 570 572	ВС
+T26	COUNTRY 573 579	России
+T27	CARDINAL 643 667	6480251e9a794720ef1cc5ad
+T28	CARDINAL 677 680	Jun
+T29	CARDINAL 686 688	10
+T30	CARDINAL 689 691	06
+T31	CARDINAL 692 696	48 +

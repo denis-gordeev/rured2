@@ -1,0 +1,61 @@
+T0	EVENT 21 30	обрушения
+T1	FAC 31 44	Каховской ГЭС
+T2	QUANTITY 53 58	до 53
+T3	FAC 102 115	Каховской ГЭС
+T4	QUANTITY 125 127	53
+T5	NEWS_SOURCE 129 142	сообщили ТАСС
+T6	ORGANIZATION 138 142	ТАСС
+T7	DATE 166 173	четверг
+T8	QUANTITY 193 198	троих
+T9	QUANTITY 239 241	53
+T10	QUANTITY 261 264	139
+T11	NEWS_SOURCE 277 304	сказал собеседник агентства
+T12	NEWS_SOURCE 315 343	источник агентства рассказал
+T13	QUANTITY 359 367	еще двух
+T15	QUANTITY 461 464	137
+T18	DATE 520 526	6 июня
+T22	COUNTRY 665 675	российских
+T23	COUNTRY 711 721	украинские
+T24	ORGANIZATION 722 728	войска
+T26	PERSON 766 781	Владимир Сальдо
+T28	LOCATION 810 816	Днепра
+T30	FAC 834 847	Каховской ГЭС
+T36	GROUP 6 14	погибших
+T37	GROUP 71 79	погибших
+T38	EVENT 91 101	разрушения
+R1	TAKES_PLACE_IN Arg1:T0 Arg2:T1	
+R2	TAKES_PLACE_IN Arg1:T38 Arg2:T3	
+T39	GROUP 143 163	в экстренных службах
+T40	GROUP 199 207	погибших
+T41	GROUP 221 229	погибших
+T42	ORGANIZATION 295 304	агентства
+T43	EVENT 243 272	Госпитализированы 139 человек
+T44	ORGANIZATION 324 333	агентства
+T45	GROUP 372 380	погибших
+T14	QUANTITY 419 424	до 50
+T46	FAC 443 453	в больницы
+T16	FAC 491 504	Каховской ГЭС
+T17	FAC 484 490	здание
+T47	FAC 474 481	Плотина
+R3	OWNERSHIP Arg1:T16 Arg2:T17	
+R4	OWNERSHIP Arg1:T16 Arg2:T47	
+T19	LOCATION 559 581	ниже по течению Днепра
+T20	LOCATION 605 627	по обеим сторонам реки
+T21	EVENT 541 627	населенные пункты ниже по течению Днепра оказались затопленными по обеим сторонам реки
+R5	DATE_TAKES_PLACE_ON Arg1:T21 Arg2:T18	
+T48	PROFESSION 676 683	военных
+R6	WORKPLACE Arg1:T48 Arg2:T22	
+T49	LOCATION 629 640	левый берег
+R7	OWNERSHIP Arg1:T22 Arg2:T49	
+T50	LOCATION 685 691	правый
+R8	OWNERSHIP Arg1:T23 Arg2:T24	
+R9	OWNERSHIP Arg1:T23 Arg2:T50	
+T25	PROFESSION 730 746	Врио губернатора
+T51	REGION 747 765	Херсонской области
+R10	WORKPLACE Arg1:T26 Arg2:T51	
+R11	WORKS_AS Arg1:T26 Arg2:T25	
+T27	NEWS_SOURCE 730 789	Врио губернатора Херсонской области Владимир Сальдо говорил
+T29	EVENT 823 833	разрушения
+R12	TAKES_PLACE_IN Arg1:T29 Arg2:T30	
+T31	EVENT 870 894	экологической катастрофы
+R13	SUBEVENT_OF Arg1:T31 Arg2:T29	

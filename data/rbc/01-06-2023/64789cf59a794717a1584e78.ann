@@ -1,0 +1,38 @@
+T0	PERSON 0 5	Путин
+T1	NEWS_SOURCE 0 15	Путин рассказал
+T2	TIME 25 30	часов
+T3	DATE 36 47	каждый день
+T4	PROFESSION 49 58	Президент
+T5	COUNTRY 59 65	России
+T6	NEWS_SOURCE 66 80	Владимир Путин
+T7	PERSON 66 80	Владимир Путин
+T8	EVENT 91 98	встрече
+T9	GROUP 101 121	многодетными семьями
+T10	NEWS_SOURCE 122 131	рассказал
+T11	TIME 196 205	6–7 часов
+T12	TIME 207 212	шесть
+T13	DATE 230 237	Сегодня
+T14	NEWS_SOURCE 287 302	рассказал Путин
+T15	PERSON 297 302	Путин
+T16	NEWS_SOURCE 304 331	По словам главы государства
+T17	PROFESSION 314 331	главы государства
+T18	DATE 373 384	В 2019 году
+T19	PROFESSION 385 411	пресс-секретарь президента
+T20	PERSON 412 426	Дмитрий Песков
+T21	NEWS_SOURCE 412 438	Дмитрий Песков рассказывал
+T22	CARDINAL 444 449	шести
+T23	TIME 450 455	часов
+T24	DATE 460 467	в сутки
+T25	PROFESSION 468 485	главе государства
+T26	DATE 507 509	же
+T27	PERSON 510 515	Путин
+T28	PROFESSION 553 566	представитель
+T29	CITY 567 573	Кремля
+T30	GPE 567 573	Кремля
+T31	CARDINAL 607 636	64789cf59a794717a1584e78
+
+Thu
+T32	CARDINAL 638 640	01
+T33	DATE 645 649	2023
+T34	CARDINAL 650 652	16
+T35	CARDINAL 653 655	46

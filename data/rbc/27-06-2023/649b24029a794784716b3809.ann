@@ -1,0 +1,32 @@
+T0	COUNTRY 0 9	Финляндия
+T2	NORP 59 66	россиян
+T4	NORP 108 115	россиян
+T5	COUNTRY 118 127	Финляндию
+T6	NEWS_SOURCE 214 249	сообщила пресс-служба правительства
+T8	DATE 309 318	июльского
+T10	COUNTRY 333 342	Финляндия
+T11	ORGANIZATION 354 366	военный блок
+T12	DATE 367 382	минувшей весной
+T13	CITY 386 394	Вильнюсе
+T15	PERSON 414 428	Саули Ниинистё
+T18	PROFESSION 476 485	Президент
+T21	COUNTRY 539 545	России
+T23	COUNTRY 604 613	Финляндии
+T24	NEWS_SOURCE 618 639	говорится в сообщении
+T1	ORGANIZATION 236 249	правительства
+T3	ORGANIZATION 223 235	пресс-служба
+R1	OWNERSHIP Arg1:T1 Arg2:T3	
+T7	ORGANIZATION 327 331	НАТО
+T9	EVENT 319 326	саммита
+R2	ORGANIZES Arg1:T7 Arg2:T9	
+R3	DATE_TAKES_PLACE_ON Arg1:T9 Arg2:T8	
+R4	ALTERNATIVE_NAME Arg1:T7 Arg2:T11	
+R5	MEMBER Arg1:T10 Arg2:T11	
+R6	MEMBER Arg1:T10 Arg2:T7	
+T14	PROFESSION 395 413	президентом страны
+R7	WORKS_AS Arg1:T15 Arg2:T14	
+R8	TAKES_PLACE_IN Arg1:T9 Arg2:T13	
+T17	ORGANIZATION 488 508	министерский комитет
+T16	ORGANIZATION 431 473	министерским комитетом по внешней политике
+R9	WORKS_AS Arg1:T15 Arg2:T18	
+T19	NEWS_SOURCE 476 517	Президент и министерский комитет отметили

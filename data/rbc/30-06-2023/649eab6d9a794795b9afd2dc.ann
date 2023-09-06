@@ -1,0 +1,44 @@
+T1	COUNTRY 142 152	украинское
+T4	ORGANIZATION 227 246	The Washington Post
+T6	NEWS_SOURCE 317 331	выразил мнение
+T7	DATE 380 386	сейчас
+T8	GPE 397 401	Киев
+T10	COUNTRY 483 490	Украина
+T11	WEAPON 514 537	современные истребители
+T12	NEWS_SOURCE 601 611	считает он
+T13	NEWS_SOURCE 613 628	Газета отмечает
+T14	GPE 634 638	Киев
+T21	DATE 770 781	Каждый день
+T25	NEWS_SOURCE 813 828	заявил Залужный
+T26	PERSON 820 828	Залужный
+T28	COUNTRY 861 868	Украины
+T29	GROUP 1017 1027	участникам
+T30	GROUP 1033 1045	наблюдателям
+T31	PROFESSION 1081 1088	главком
+T32	NEWS_SOURCE 1070 1092	подчеркнул главком ВСУ
+T42	PERSON 0 8	Залужный
+T43	EVENT 57 73	контрнаступлении
+T44	PROFESSION 75 93	Главнокомандующего
+T45	ORGANIZATION 94 97	ВСУ
+T46	PERSON 98 115	Валерия Залужного
+T47	EVENT 153 169	контрнаступление
+R1	TAKES_PLACE_IN Arg1:T47 Arg2:T1	
+R2	WORKPLACE Arg1:T46 Arg2:T45	
+R3	EVENT_TAKES_PART_IN Arg1:T42 Arg2:T43	
+R4	WORKPLACE Arg1:T44 Arg2:T45	
+T2	ORGANIZATION 1089 1092	ВСУ
+R5	WORKPLACE Arg1:T31 Arg2:T2	
+T3	NEWS_SOURCE 205 246	сообщил он в интервью The Washington Post
+T5	PERSON 248 256	Залужный
+T33	NEWS_SOURCE 248 263	Залужный заявил
+T34	WEAPON 286 307	всех видов вооружений
+T9	GROUP 403 418	западные страны
+T35	EVENT 441 480	наступление без превосходства в воздухе
+R6	EVENT_TAKES_PART_IN Arg1:T8 Arg2:T35	
+T36	EVENT 583 599	контрнаступления
+T15	WEAPON 655 668	самолеты F-16
+T16	DATE 669 677	до осени
+T17	EVENT 634 677	Киев вряд ли получит самолеты F-16 до осени
+T18	NEWS_SOURCE 830 843	По его словам
+T19	EVENT 908 924	контрнаступления
+R7	EVENT_TAKES_PART_IN Arg1:T28 Arg2:T19	

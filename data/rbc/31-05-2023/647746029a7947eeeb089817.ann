@@ -1,0 +1,77 @@
+T0	PROFESSION 0 9	Зеленский
+T1	PERSON 0 9	Зеленский
+T2	PROFESSION 17 39	главу Одесской военной
+T3	ORGANIZATION 40 53	администрации
+T4	PROFESSION 55 64	Президент
+T5	COUNTRY 65 72	Украины
+T6	PERSON 73 91	Владимир Зеленский
+T7	PERSON 101 113	Олега Кипера
+T8	PROFESSION 114 120	главой
+T9	CITY 121 129	Одесской
+T10	ORGANIZATION 130 161	областной военной администрации
+T11	NEWS_SOURCE 184 219	размещен на сайте главы государства
+T12	PROFESSION 202 219	главы государства
+T13	PERSON 232 259	Кипера Олега Александровича
+T14	PROFESSION 260 273	председателем
+T15	ORGANIZATION 274 322	Одесской областной государственной администрации
+T16	NEWS_SOURCE 327 338	говорится в
+T17	COUNTRY 373 383	украинской
+T18	DATE 396 407	в 2001 году
+T19	ORGANIZATION 442 454	прокуратурах
+T20	CITY 455 463	Одесской
+T21	CITY 466 471	Ивано
+T22	REGION 466 492	Ивано-Франковской областей
+T23	DATE 494 502	В период
+T24	PROFESSION 503 516	президентства
+T25	PERSON 517 534	Виктора Януковича
+T26	PROFESSION 556 592	заместителя начальника следственного
+T27	ORGANIZATION 579 618	следственного управления Генпрокуратуры
+T28	COUNTRY 619 626	Украины
+T29	PROFESSION 629 638	Президент
+T30	COUNTRY 639 646	Украины
+T31	PERSON 647 665	Владимир Зеленский
+T32	DATE 666 674	15 марта
+T33	PROFESSION 682 687	главу
+T34	ORGANIZATION 688 700	Одесской ОВА
+T35	PERSON 701 717	Максима Марченко
+T36	CITY 733 741	Одесскую
+T37	ORGANIZATION 742 745	ОВА
+T38	DATE 746 765	с 1 марта 2022 года
+T39	NEWS_SOURCE 794 804	говорилось
+T40	ORGANIZATION 825 828	РБК
+T41	ORGANIZATION 829 836	Украина
+T42	COUNTRY 829 836	Украина
+T43	NEWS_SOURCE 814 837	по данным «РБК-Украина»
+T44	DATE 839 858	в последнее время с
+T45	CITY 859 867	Одесской
+T46	ORGANIZATION 868 871	ОВА
+T47	DATE 925 936	в январе по
+T48	PROFESSION 973 990	заместитель главы
+T49	PERSON 991 1014	Марченко — Олег Муратов
+T50	NEWS_SOURCE 1016 1029	По данным СБУ
+T51	ORGANIZATION 1026 1029	СБУ
+T52	NEWS_SOURCE 1031 1033	он
+T53	CARDINAL 1034 1044	за $35 тыс
+T54	ECONOMIC_SECTOR 1120 1130	присвоение
+T55	CRIME 1131 1157	государственного имущества
+T56	CARDINAL 1164 1171	$35 тыс
+T57	ECONOMIC_SECTOR 1225 1237	производства
+T58	NEWS_SOURCE 1255 1263	чиновник
+T59	PROFESSION 1255 1263	чиновник
+T60	NEWS_SOURCE 1268 1290	говорилось в сообщении
+T61	ORGANIZATION 1291 1294	СБУ
+T62	PERSON 1306 1313	Муратов
+T63	GROUP 1353 1379	правоохранительных органах
+T64	DATE 1381 1395	В начале марта
+T65	PROFESSION 1396 1406	сотрудники
+T66	ORGANIZATION 1407 1410	СБУ
+T67	PROFESSION 1429 1437	замглавы
+T68	ORGANIZATION 1438 1450	Одесской ОВА
+T69	PERSON 1451 1464	Игоря Ткачука
+T70	CARDINAL 1539 1541	31
+T71	CARDINAL 1550 1574	647746029a7947eeeb089817
+T72	DATE 1581 1583	31
+T73	DATE 1588 1592	2023
+T74	CARDINAL 1593 1595	17
+T75	DATE 1599 1601	19
+T76	CARDINAL 1599 1603	19 +

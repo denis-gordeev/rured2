@@ -1,0 +1,36 @@
+T0	COUNTRY 0 9	Финляндия
+T1	CARDINAL 27 33	девять
+T2	GROUP 34 45	сотрудников
+T3	COUNTRY 46 57	российского
+T4	ORGANIZATION 58 68	посольства
+T5	COUNTRY 70 79	Финляндия
+T6	CARDINAL 87 93	девять
+T7	GROUP 94 105	сотрудников
+T8	COUNTRY 106 117	российского
+T9	ORGANIZATION 118 128	посольства
+T10	NEWS_SOURCE 130 148	сообщает Aamulehti
+T11	ORGANIZATION 139 148	Aamulehti
+T12	ORGANIZATION 173 186	правительства
+T13	NEWS_SOURCE 199 215	По данным газеты
+T14	EVENT 241 250	заседании
+T15	ORGANIZATION 251 258	кабмина
+T16	NEWS_SOURCE 251 258	кабмина
+T17	PROFESSION 263 291	председательством президента
+T18	PERSON 292 306	Саули Ниинистё
+T19	GROUP 308 314	Власти
+T20	CARDINAL 346 352	девяти
+T21	GROUP 375 386	сотрудников
+T22	COUNTRY 387 398	российского
+T23	ORGANIZATION 399 409	посольства
+T24	FAC 410 430	противоречат Венской
+T25	LAW 431 440	конвенции
+T26	ORGANIZATION 471 485	В пресс-службе
+T27	NEWS_SOURCE 471 497	В пресс-службе российского
+T28	COUNTRY 486 497	российского
+T29	ORGANIZATION 498 502	МИДа
+T30	NEWS_SOURCE 503 525	сообщили «РИА Новости»
+T31	ORGANIZATION 513 525	РИА Новости»
+T32	GROUP 547 554	властей
+T33	CARDINAL 642 666	647f46249a79475d864edef6
+T34	CARDINAL 676 679	Jun
+T35	CARDINAL 685 687	18

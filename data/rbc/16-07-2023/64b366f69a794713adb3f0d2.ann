@@ -1,0 +1,55 @@
+T1	QUANTITY 13 16	два
+T8	QUANTITY 101 104	два
+T12	VEHICLE 165 175	автомобиля
+T20	COUNTRY 342 352	Казахстана
+T23	CARDINAL 538 540	40
+T24	DATE 546 554	месячный
+T27	QUANTITY 615 622	138 тыс
+T28	CURRENCY 624 629	тенге
+T30	QUANTITY 634 640	28 тыс
+T31	CURRENCY 642 645	руб
+T36	DATE 749 756	18 июня
+T37	VEHICLE 757 767	автомобиль
+T38	ORDINAL 790 795	32-го
+T40	FAC 806 810	МКАД
+T41	CITY 813 819	Москве
+T43	CARDINAL 833 838	тремя
+T50	COUNTRY 0 12	В Казахстане
+T2	EVENT 13 59	два человека чуть не погибли в ДТП с верблюдом
+R1	TAKES_PLACE_IN Arg1:T2 Arg2:T50	
+T3	COUNTRY 88 100	в Казахстане
+T4	FAC 73 87	аэропорт Актау
+R2	HEADQUARTERED_IN Arg1:T4 Arg2:T3	
+T5	EVENT 101 142	два человека пострадали в ДТП с верблюдом
+R3	TAKES_PLACE_IN Arg1:T5 Arg2:T3	
+R4	TAKES_PLACE_IN Arg1:T5 Arg2:T4	
+T6	EVENT 144 193	Водителя и пассажира автомобиля госпитализировали
+T7	EVENT 195 226	животное умерло на месте аварии
+T9	ORGANIZATION 278 285	полиции
+T10	ORGANIZATION 266 277	департамент
+R5	OWNERSHIP Arg1:T9 Arg2:T10	
+T11	ORGANIZATION 237 251	портал Lada.kz
+T13	NEWS_SOURCE 228 293	сообщает портал Lada.kz со ссылкой на департамент полиции региона
+R6	TAKES_PLACE_IN Arg1:T7 Arg2:T3	
+R7	TAKES_PLACE_IN Arg1:T6 Arg2:T3	
+T14	LAW 326 341	по ст. 610 КоАП
+T15	VEHICLE 375 395	транспортных средств
+T16	CRIME 354 486	нарушение водителями транспортных средств ПДД, повлекшее причинение вреда здоровью людей, повреждение транспорта или иного имущества
+R8	TAKES_PLACE_IN Arg1:T16 Arg2:T20	
+T17	QUANTITY 595 599	3450
+T18	CURRENCY 600 605	тенге
+T19	MONEY 595 605	3450 тенге
+T21	MONEY 615 629	138 тыс. тенге
+T22	QUANTITY 634 646	28 тыс. руб.
+T25	VEHICLE 680 702	транспортным средством
+T26	DATE 711 728	до девяти месяцев
+T29	ORGANIZATION 739 747	Lada.kz.
+T32	NEWS_SOURCE 730 747	уточняет Lada.kz.
+T33	PENALTY 522 647	штраф в размере 40 МРП (месячный расчетный показатель, который равняется 3450 тенге, то есть 138 тыс. тенге или 28 тыс. руб.)
+T34	PENALTY 652 728	лишение права на управление транспортным средством на срок до девяти месяцев
+T35	GROUP 847 865	Оперативные службы
+T39	EVENT 847 895	Оперативные службы выехали на место происшествия
+T42	EVENT 757 845	автомобиль на внутренней стороне 32-го километра МКАД в Москве столкнулся с тремя лосями
+R9	TAKES_PLACE_IN Arg1:T42 Arg2:T41	
+R10	DATE_TAKES_PLACE_ON Arg1:T42 Arg2:T36	
+R11	TAKES_PLACE_IN Arg1:T39 Arg2:T41	

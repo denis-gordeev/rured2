@@ -1,0 +1,55 @@
+T0	CITY 2 15	волгоградском
+T1	FAC 16 20	кафе
+T3	FAC 150 154	кафе
+T4	CITY 157 167	Волгограде
+T5	QUANTITY 182 186	трое
+T6	GROUP 187 193	мужчин
+T7	NEWS_SOURCE 206 242	сообщает региональное управление МВД
+T8	ORGANIZATION 239 242	МВД
+T9	TIME 263 270	вечером
+T10	DATE 271 277	2 июня
+T12	GROUP 405 411	мужчин
+T16	ORGANIZATION 509 512	МВД
+T21	GROUP 602 611	очевидцев
+T22	CRIME 613 621	стрельба
+T27	QUANTITY 773 778	двоих
+T28	GROUP 779 791	пострадавших
+T29	QUANTITY 866 870	один
+T35	EVENT 31 52	конфликт со стрельбой
+R1	TAKES_PLACE_IN Arg1:T35 Arg2:T1	
+R2	HEADQUARTERED_IN Arg1:T1 Arg2:T0	
+T36	CRIME 54 81	Неизвестный открыл стрельбу
+T2	PRODUCT 104 129	травматического пистолета
+T37	EVENT 138 147	конфликта
+R3	TAKES_PLACE_IN Arg1:T37 Arg2:T3	
+R4	TAKES_PLACE_IN Arg1:T37 Arg2:T4	
+R5	TAKES_PLACE_IN Arg1:T36 Arg2:T4	
+T38	ORGANIZATION 215 238	региональное управление
+R6	OWNERSHIP Arg1:T8 Arg2:T38	
+T39	EVENT 244 252	Инцидент
+T40	FAC 280 284	кафе
+T11	STREET 288 302	улице Вучетича
+T41	BOROUGH 303 326	Красноармейского района
+R7	HEADQUARTERED_IN Arg1:T40 Arg2:T11	
+R8	TAKES_PLACE_IN Arg1:T39 Arg2:T41	
+R9	DATE_TAKES_PLACE_ON Arg1:T39 Arg2:T10	
+R10	TAKES_PLACE_IN Arg1:T39 Arg2:T40	
+T42	FAC 328 338	В больницу
+T43	DISEASE 340 373	с ранениями различных частей тела
+T13	AGE 412 444	1979, 1999 и 2005 годов рождения
+R11	USES Arg1:T12 Arg2:T42	
+T14	NEWS_SOURCE 486 530	говорится в публикации МВД в телеграм-канале
+T15	ORGANIZATION 575 587	портал V1.ru
+T17	NEWS_SOURCE 569 611	пишет портал V1.ru со ссылкой на очевидцев
+T18	FAC 634 649	кафе Black Lion
+R12	TAKES_PLACE_IN Arg1:T22 Arg2:T18	
+T19	GROUP 661 676	местных жителей
+T20	NEWS_SOURCE 651 676	По словам местных жителей
+T23	DISEASE 686 709	с окровавленной головой
+T24	ORGANIZATION 751 759	облздрав
+T25	EVENT 678 743	мужчина с окровавленной головой выбежал на улицу в поисках помощи
+R13	TAKES_PLACE_IN Arg1:T25 Arg2:T18	
+T26	NEWS_SOURCE 745 767	Позже облздрав уточнил
+T44	CRIME 799 807	стрельбы
+T45	DISEASE 871 878	раненый
+R14	TAKES_PLACE_IN Arg1:T44 Arg2:T18	

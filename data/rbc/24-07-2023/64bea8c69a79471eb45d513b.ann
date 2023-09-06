@@ -1,0 +1,34 @@
+T0	COUNTRY 0 4	КНДР
+T1	CARDINAL 15 18	две
+T5	ORGANIZATION 37 53	море
+
+Минобороны
+T6	COUNTRY 54 60	Японии
+T8	COUNTRY 75 89	Северная Корея
+T9	CARDINAL 109 113	двух
+T10	WEAPON 114 134	баллистических ракет
+T11	ORGANIZATION 147 156	ведомства
+T15	DATE 257 264	22 июля
+T16	COUNTRY 265 269	КНДР
+T18	LOCATION 321 333	Желтого моря
+T19	LOCATION 335 346	Желтое море
+T26	COUNTRY 429 435	Китаем
+T4	LOCATION 26 41	в Японское море
+T2	WEAPON 19 25	ракеты
+T3	EVENT 0 41	КНДР запустила две ракеты в Японское море
+T30	ORGANIZATION 43 53	Минобороны
+R1	HEADQUARTERED_IN Arg1:T30 Arg2:T6	
+T7	NEWS_SOURCE 43 69	Минобороны Японии сообщило
+T31	EVENT 75 134	Северная Корея осуществила запуск двух баллистических ракет
+R2	ORGANIZES Arg1:T8 Arg2:T31	
+T12	ORGANIZATION 166 179	телеканал NHK
+T32	NEWS_SOURCE 136 179	Информацию ведомства передает телеканал NHK
+T33	WEAPON 181 187	Ракеты
+T13	LOCATION 196 209	Японское море
+T14	EVENT 181 209	Ракеты упали в Японское море
+T17	WEAPON 296 310	крылатых ракет
+T34	EVENT 265 310	КНДР запустила сразу несколько крылатых ракет
+R3	DATE_TAKES_PLACE_ON Arg1:T34 Arg2:T15	
+T20	LOCATION 371 394	Западно-Корейским морем
+T21	COUNTRY 414 426	Южной Кореей
+T22	LOCATION 436 450	в Тихом океане

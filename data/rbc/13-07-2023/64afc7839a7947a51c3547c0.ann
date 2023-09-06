@@ -1,0 +1,82 @@
+T2	GROUP 34 45	сотрудникам
+T6	GROUP 104 115	сотрудникам
+T7	ORGANIZATION 137 142	Apple
+T8	ORGANIZATION 171 174	РБК
+T12	ORGANIZATION 250 260	корпорации
+T13	COUNTRY 295 308	американского
+T14	NEWS_SOURCE 327 348	говорится в сообщении
+T15	ORGANIZATION 384 389	Apple
+T16	GROUP 400 411	сотрудникам
+T17	ORGANIZATION 413 418	Швабе
+T23	ORGANIZATION 565 577	РИА Новости»
+T25	ORGANIZATION 609 612	ФСБ
+T27	COUNTRY 627 639	американские
+T29	COUNTRY 683 694	российскими
+T30	PROFESSION 695 706	дипломатами
+T31	NEWS_SOURCE 708 732	По информации спецслужбы
+T32	CARDINAL 790 805	несколько тысяч
+T36	COUNTRY 929 941	американской
+T37	ORGANIZATION 942 956	компании Apple
+T38	ORGANIZATION 1003 1039	Агентством национальной безопасности
+T39	COUNTRY 1040 1043	США
+T41	ORGANIZATION 1163 1168	Apple
+T42	ORGANIZATION 1215 1218	ФСБ
+T43	ORGANIZATION 1220 1225	Apple
+T44	COUNTRY 1274 1277	США
+T45	DATE 1279 1292	В конце марта
+T48	PERSON 1320 1334	Дмитрий Песков
+T50	GROUP 1353 1364	сотрудникам
+T53	PRODUCT 1418 1427	смартфоны
+T1	ORGANIZATION 0 9	В Ростехе
+T4	EVENT 24 72	запретили сотрудникам использовать технику Apple
+R1	TAKES_PLACE_IN Arg1:T4 Arg2:T1	
+R2	WORKPLACE Arg1:T2 Arg2:T1	
+T5	ORGANIZATION 74 83	В Ростехе
+T3	ORGANIZATION 67 72	Apple
+T63	PRODUCT 59 66	технику
+R3	PRODUCES Arg1:T3 Arg2:T63	
+T64	PRODUCT 129 136	технику
+R4	PRODUCES Arg1:T7 Arg2:T64	
+R5	USES Arg1:T6 Arg2:T64	
+T65	EVENT 94 160	запретили сотрудникам использовать технику Apple в служебных целях
+R6	TAKES_PLACE_IN Arg1:T65 Arg2:T5	
+T9	ORGANIZATION 190 203	госкорпорации
+T10	ORGANIZATION 175 189	в пресс-службе
+R7	OWNERSHIP Arg1:T9 Arg2:T10	
+T66	NEWS_SOURCE 162 203	сообщили РБК в пресс-службе госкорпорации
+T11	PRODUCT 287 294	техники
+R8	PRODUCES Arg1:T13 Arg2:T11	
+T67	PRODUCT 372 383	смартфонами
+R9	PRODUCES Arg1:T15 Arg2:T67	
+R10	WORKPLACE Arg1:T16 Arg2:T17	
+T18	ORGANIZATION 422 452	холдинговой компании «Ростеха»
+T19	ECONOMIC_SECTOR 468 519	разработку и производство оптико-электронных систем
+T20	EVENT 359 419	пользоваться смартфонами Apple запретили сотрудникам «Швабе»
+T21	QUANTITY 537 545	600 тыс.
+T22	NEWS_SOURCE 555 577	уточнили «РИА Новости»
+T68	ORGANIZATION 578 593	в госкорпорации
+T24	DATE 595 608	В начале июня
+T26	NEWS_SOURCE 595 621	В начале июня ФСБ сообщила
+T28	GROUP 640 650	спецслужбы
+R11	WORKPLACE Arg1:T28 Arg2:T27	
+T69	PRODUCT 662 668	iPhone
+R12	WORKPLACE Arg1:T30 Arg2:T29	
+T70	EVENT 627 706	американские спецслужбы используют iPhone для слежки за российскими дипломатами
+T46	PROFESSION 1293 1308	пресс-секретарь
+T47	PROFESSION 1309 1319	президента
+R13	WORKS_AS Arg1:T48 Arg2:T46	
+R14	SUBORDINATE_OF Arg1:T47 Arg2:T46	
+T49	NEWS_SOURCE 1279 1342	В конце марта пресс-секретарь президента Дмитрий Песков сообщил
+T51	ORGANIZATION 1365 1404	внутриполитического блока администрации
+R15	WORKPLACE Arg1:T50 Arg2:T51	
+T52	EVENT 1345 1489	запрете сотрудникам внутриполитического блока администрации использовать смартфоны на базе операционных системах iOS и Android в служебных целях
+T54	GROUP 722 732	спецслужбы
+T55	PRODUCT 806 812	iPhone
+T33	ORGANIZATION 837 873	в дипломатических представительствах
+T34	COUNTRY 874 882	в России
+R16	HEADQUARTERED_IN Arg1:T33 Arg2:T34	
+T35	CRIME 734 812	вредоносным программным обеспечением оказались заражены несколько тысяч iPhone
+R17	HEADQUARTERED_IN Arg1:T37 Arg2:T36	
+T56	ORGANIZATION 959 989	национальным разведсообществом
+R18	HEADQUARTERED_IN Arg1:T38 Arg2:T39	
+T40	NEWS_SOURCE 1205 1218	заявили в ФСБ

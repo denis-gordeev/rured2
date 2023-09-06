@@ -1,0 +1,54 @@
+T0	EVENT 0 5	Пожар
+T2	REGION 52 64	подмосковной
+T5	ORGANIZATION 122 125	РБК
+T12	CARDINAL 213 216	675
+T15	NEWS_SOURCE 284 305	говорится в сообщении
+T20	PRODUCT 361 368	техники
+T21	ORGANIZATION 378 381	МЧС
+T22	NEWS_SOURCE 376 390	в МЧС сообщили
+T30	EVENT 575 581	пожара
+T31	CARDINAL 630 635	3 тыс
+T33	QUANTITY 662 671	более 130
+T34	GROUP 672 684	специалистов
+T36	PRODUCT 697 704	техники
+T37	PRODUCT 727 736	вертолеты
+T45	CITY 28 35	в Истре
+T1	FAC 6 27	на строительном рынке
+R1	HEADQUARTERED_IN Arg1:T1 Arg2:T45	
+R2	TAKES_PLACE_IN Arg1:T0 Arg2:T1	
+R3	TAKES_PLACE_IN Arg1:T0 Arg2:T45	
+T46	CITY 65 70	Истре
+T3	EVENT 71 89	локализовали пожар
+T4	FAC 90 111	на строительном рынке
+R4	TAKES_PLACE_IN Arg1:T3 Arg2:T4	
+R5	OWNERSHIP Arg1:T2 Arg2:T46	
+R6	TAKES_PLACE_IN Arg1:T3 Arg2:T46	
+T6	ORGANIZATION 144 147	МЧС
+T7	ORGANIZATION 126 143	в пресс-службе ГУ
+R7	OWNERSHIP Arg1:T6 Arg2:T7	
+T8	COUNTRY 148 154	России
+T9	REGION 155 176	по Московской области
+R8	OWNERSHIP Arg1:T8 Arg2:T9	
+R9	HEADQUARTERED_IN Arg1:T6 Arg2:T8	
+T10	NEWS_SOURCE 113 176	сообщили РБК в пресс-службе ГУ МЧС России по Московской области
+T11	EVENT 178 201	Возгорание локализовано
+T13	EVENT 248 268	возникновения пожара
+T14	EVENT 706 715	К тушению
+T16	EVENT 307 323	В тушении пожара
+T17	QUANTITY 338 340	50
+T18	CARDINAL 351 353	15
+T19	EVENT 396 426	открытое горение ликвидировано
+T23	DATE 429 439	21 августа
+T24	BOROUGH 440 470	в Богородском городском округе
+T25	REGION 471 489	Московской области
+R10	OWNERSHIP Arg1:T25 Arg2:T24	
+T27	FAC 506 515	на складе
+T26	EVENT 490 505	произошел пожар
+R11	TAKES_PLACE_IN Arg1:T26 Arg2:T27	
+R12	TAKES_PLACE_IN Arg1:T26 Arg2:T25	
+R13	DATE_TAKES_PLACE_ON Arg1:T26 Arg2:T23	
+T28	ECONOMIC_SECTOR 531 565	производство лакокрасочных изделий
+T29	PRODUCT 594 618	лакокрасочными изделиями
+T38	FAC 582 618	на складе с лакокрасочными изделиями
+R14	TAKES_PLACE_IN Arg1:T30 Arg2:T38	
+T32	CARDINAL 687 689	38

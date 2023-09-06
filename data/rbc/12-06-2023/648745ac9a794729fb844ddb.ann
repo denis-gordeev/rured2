@@ -1,0 +1,37 @@
+T2	VEHICLE 37 44	автобус
+T19	NEWS_SOURCE 265 286	говорится в сообщении
+T25	VEHICLE 400 419	грузовой автомобиль
+T33	PROFESSION 593 601	Водитель
+T34	VEHICLE 602 611	грузовика
+T41	CITY 0 8	В Москве
+T1	STREET 9 26	на Донецкой улице
+T37	EVENT 27 44	загорелся автобус
+R1	TAKES_PLACE_IN Arg1:T37 Arg2:T41	
+R2	TAKES_PLACE_IN Arg1:T37 Arg2:T1	
+T3	CITY 46 54	В Москве
+T38	VEHICLE 65 72	автобус
+T39	EVENT 55 72	загорелся автобус
+T4	ORGANIZATION 83 98	дептранс города
+R3	TAKES_PLACE_IN Arg1:T39 Arg2:T3	
+T40	NEWS_SOURCE 74 98	сообщает дептранс города
+T9	STREET 113 130	на Донецкой улице
+T5	TIME 101 112	Около 17:00
+T6	HOUSE 140 147	дома 23
+T7	ORGANIZATION 230 259	ООО «Таксомоторный парк № 20»
+T8	VEHICLE 169 194	негородского автобуса 650
+T10	EVENT 148 168	произошло возгорание
+R4	TAKES_PLACE_IN Arg1:T10 Arg2:T8	
+R5	OWNERSHIP Arg1:T7 Arg2:T8	
+R6	TAKES_PLACE_IN Arg1:T10 Arg2:T9	
+T11	GROUP 324 342	оперативные службы
+T12	DATE 345 351	9 июня
+T13	ORDINAL 352 359	на 85-м
+T14	FAC 370 374	МКАД
+T15	EVENT 375 419	перевернулся и загорелся грузовой автомобиль
+R7	TAKES_PLACE_IN Arg1:T15 Arg2:T14	
+R8	DATE_TAKES_PLACE_ON Arg1:T15 Arg2:T12	
+T16	FAC 490 506	кольцевой дороги
+T17	STREET 535 554	Альтуфьевским шоссе
+T18	STREET 570 591	с Осташковской улицей
+T20	EVENT 593 660	Водитель грузовика не справился с управлением и въехал в ограждение
+R9	TAKES_PLACE_IN Arg1:T20 Arg2:T16	

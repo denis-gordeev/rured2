@@ -1,0 +1,56 @@
+T0	DATE 0 10	Годовалого
+T1	PRODUCT 11 18	ребенка
+T2	LOCATION 28 33	траве
+T3	CARDINAL 34 39	около
+T4	FAC 40 51	жилого дома
+T5	CITY 54 60	Москве
+T6	LOCATION 62 70	Во дворе
+T7	FAC 71 82	жилого дома
+T8	LOCATION 83 92	на севере
+T9	CITY 93 99	Москвы
+T10	DATE 106 116	годовалого
+T11	ORGANIZATION 126 137	прокуратура
+T12	ORGANIZATION 178 190	пресс-служба
+T13	NEWS_SOURCE 169 190	сообщила пресс-служба
+T14	CITY 191 202	московского
+T15	ORGANIZATION 203 223	управления ведомства
+T16	NEWS_SOURCE 203 225	управления ведомства в
+T17	EVENT 226 234	телеграм
+T18	EVENT 235 241	канале
+T19	NEWS_SOURCE 251 272	по данным прокуратуры
+T20	ORGANIZATION 261 272	прокуратуры
+T21	GROUP 302 322	Сельскохозяйственной
+T22	ORGANIZATION 367 372	пресс
+T23	NEWS_SOURCE 354 379	опубликовала пресс-служба
+T24	ORGANIZATION 373 379	служба
+T25	CARDINAL 417 422	одном
+T26	PRODUCT 423 431	памперсе
+T27	PRODUCT 448 454	одежды
+T28	GROUP 625 634	родителей
+T29	DATE 686 701	в середине июля
+T30	DATE 703 712	годовалый
+T31	PRODUCT 713 720	ребенок
+T32	ORDINAL 729 735	пятого
+T33	FAC 736 741	этажа
+T34	PRODUCT 762 766	мать
+T35	GROUP 769 774	отчим
+T36	PRODUCT 800 808	алкоголя
+T37	EVENT 836 842	диване
+T38	DATE 861 866	какой
+T39	DATE 870 876	момент
+T40	ORGANIZATION 989 992	РБК
+T41	PROFESSION 993 1022	старший помощник руководителя
+T42	NEWS_SOURCE 981 1036	говорил РБК старший помощник руководителя Следственного
+T43	ORGANIZATION 1023 1056	Следственного комитета по региону
+T44	NEWS_SOURCE 1049 1073	региону Александр Шульга
+T45	PERSON 1057 1073	Александр Шульга
+T46	PROFESSION 1098 1109	собеседника
+T47	NEWS_SOURCE 1088 1113	по словам собеседника РБК
+T48	ORGANIZATION 1110 1113	РБК
+T49	CARDINAL 1174 1198	64b3e2a39a7947a524caecff
+T50	ORGANIZATION 1200 1203	Sun
+T51	CARDINAL 1205 1207	16
+T52	ORGANIZATION 1208 1211	Jul
+T53	DATE 1212 1216	2023
+T54	CARDINAL 1217 1219	16
+T55	CARDINAL 1223 1227	26 +

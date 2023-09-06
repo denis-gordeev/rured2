@@ -1,0 +1,70 @@
+T2	ORDINAL 60 66	Первый
+T3	NEWS_SOURCE 85 103	сообщает Суспільне
+T4	ORGANIZATION 94 103	Суспільне
+T5	CITY 105 112	Харьков
+T7	PROFESSION 143 146	мэр
+T8	PERSON 147 160	Игорь Терехов
+T12	PERSON 253 267	Олег Синегубов
+T17	GROUP 435 441	Власти
+T18	WEAPON 460 463	ПВО
+T21	COUNTRY 489 496	Украины
+T22	TIME 537 544	вечером
+T23	COUNTRY 545 555	украинские
+T24	GROUP 556 559	СМИ
+T30	FAC 634 650	военный аэродром
+T32	CITY 672 681	Запорожье
+T33	REGION 684 700	Киевской области
+T34	ORGANIZATION 702 719	Минобороны России
+T35	COUNTRY 713 719	России
+T36	COUNTRY 746 753	Украине
+T38	FAC 781 803	энергетические объекты
+T39	ORGANIZATION 805 814	Ведомство
+T41	FAC 842 861	гражданские объекты
+T47	CITY 0 10	В Харькове
+T1	EVENT 11 28	прогремели взрывы
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T47	
+T48	CITY 30 40	В Харькове
+T49	EVENT 41 58	прогремели взрывы
+R2	TAKES_PLACE_IN Arg1:T49 Arg2:T48	
+T50	TIME 76 83	в 09:04
+T6	EVENT 113 130	попал под обстрел
+R3	TAKES_PLACE_IN Arg1:T6 Arg2:T5	
+R4	WORKS_AS Arg1:T8 Arg2:T7	
+T51	NEWS_SOURCE 132 160	подтвердил мэр Игорь Терехов
+T9	TIME 162 169	В 09:06
+T52	EVENT 189 221	была объявлена воздушная тревога
+R5	TAKES_PLACE_IN Arg1:T52 Arg2:T5	
+T10	ORGANIZATION 229 252	областной администрации
+T11	PROFESSION 223 228	Глава
+R6	WORKPLACE Arg1:T11 Arg2:T10	
+R7	WORKS_AS Arg1:T12 Arg2:T11	
+R8	WORKPLACE Arg1:T12 Arg2:T10	
+T53	GROUP 276 283	жителей
+T54	FAC 295 305	в укрытиях
+T55	NEWS_SOURCE 307 325	Позднее он уточнил
+T13	BOROUGH 353 378	по Холодногорскому району
+T14	EVENT 331 352	ракетный удар нанесен
+R9	TAKES_PLACE_IN Arg1:T14 Arg2:T13	
+T56	TIME 388 393	Ночью
+T15	EVENT 394 411	взрывы прогремели
+T16	REGION 412 433	в Хмельницкой области
+R10	TAKES_PLACE_IN Arg1:T15 Arg2:T16	
+T57	NEWS_SOURCE 435 450	Власти сообщали
+T19	CITY 465 472	В Киеве
+T20	EVENT 497 526	объявлялась воздушная тревога
+R11	TAKES_PLACE_IN Arg1:T20 Arg2:T21	
+T25	NEWS_SOURCE 528 566	Накануне вечером украинские СМИ писали
+T26	EVENT 567 576	о взрывах
+T40	NEWS_SOURCE 805 825	Ведомство утверждает
+T27	CITY 577 597	в Староконстантинове
+T28	REGION 598 617	Хмельницкой области
+R12	TAKES_PLACE_IN Arg1:T26 Arg2:T27	
+R13	TAKES_PLACE_IN Arg1:T26 Arg2:T28	
+R14	HEADQUARTERED_IN Arg1:T30 Arg2:T27	
+R15	HEADQUARTERED_IN Arg1:T30 Arg2:T28	
+T29	CITY 660 670	в Житомире
+R16	TAKES_PLACE_IN Arg1:T26 Arg2:T29	
+R17	TAKES_PLACE_IN Arg1:T26 Arg2:T32	
+R18	TAKES_PLACE_IN Arg1:T26 Arg2:T33	
+R19	OWNERSHIP Arg1:T35 Arg2:T34	
+R20	HEADQUARTERED_IN Arg1:T38 Arg2:T36	

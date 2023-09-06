@@ -1,0 +1,38 @@
+T0	COUNTRY 0 10	Российский
+T1	PROFESSION 11 18	генерал
+T2	PERSON 43 51	краповый
+T3	PROFESSION 59 94	Командир дивизии имени Дзержинского
+T4	ORGANIZATION 95 105	Росгвардии
+T5	PROFESSION 106 119	генерал-майор
+T6	PERSON 120 136	Николай Кузнецов
+T7	ORDINAL 142 148	первым
+T8	COUNTRY 151 161	российской
+T9	PROFESSION 170 179	генералом
+T10	PRODUCT 205 213	краповый
+T11	NEWS_SOURCE 229 260	сообщила пресс-служба ведомства
+T12	ORGANIZATION 238 260	пресс-служба ведомства
+T13	PROFESSION 301 310	основному
+T14	CARDINAL 330 332	39
+T15	PROFESSION 333 343	кандидатов
+T16	GROUP 333 343	кандидатов
+T17	FAMILY 345 347	до
+T18	CARDINAL 361 365	семь
+T19	PROFESSION 430 480	заместитель директора Росгвардии генерал-полковник
+T20	PERSON 481 496	Владислав Ершов
+T21	PROFESSION 497 509	и губернатор
+T22	REGION 510 528	Московской области
+T23	PERSON 529 544	Андрей Воробьев
+T24	PERSON 547 555	Краповый
+T25	GROUP 620 634	военнослужащих
+T26	EVENT 635 671	спецподразделений войск национальной
+T27	ORGANIZATION 659 679	национальной гвардии
+T28	COUNTRY 680 686	России
+T29	GROUP 780 790	сотрудники
+T30	ORGANIZATION 791 800	ведомства
+T31	ORGANIZATION 839 848	по службе
+T32	CARDINAL 903 927	649015c09a794786f1a56223
+T33	CARDINAL 934 936	19
+T34	DATE 941 945	2023
+T35	CARDINAL 946 948	13
+T36	CARDINAL 949 951	47
+T37	CARDINAL 952 956	14 +

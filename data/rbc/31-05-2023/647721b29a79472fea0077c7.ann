@@ -1,0 +1,72 @@
+T0	PERSON 0 7	Гладков
+T2	REGION 51 71	Белгородской области
+T4	REGION 94 114	Белгородской области
+T12	PERSON 221 237	Вячеслав Гладков
+T17	NEWS_SOURCE 307 325	уточнил губернатор
+T18	PROFESSION 315 325	губернатор
+T19	CARDINAL 327 331	Один
+T20	FAC 353 373	автомобильной дороге
+T22	VEHICLE 396 406	автомобиль
+T23	PROFESSION 409 417	водителя
+T24	DATE 476 482	Сейчас
+T25	PROFESSION 657 667	губернатор
+T31	REGION 736 756	Харьковской областью
+T32	COUNTRY 757 764	Украины
+T35	GROUP 825 831	Власти
+T36	COUNTRY 845 855	российских
+T42	COUNTRY 925 935	российской
+T43	EVENT 936 948	спецоперации
+T47	PERSON 1003 1010	Гладков
+T48	DATE 1017 1023	23 мая
+T58	NEWS_SOURCE 0 15	Гладков сообщил
+T1	EVENT 35 48	обстреле села
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T2	
+T3	BOROUGH 73 93	В Борисовском районе
+T5	VILLAGE 134 152	село Богун-Городок
+T6	QUANTITY 177 181	один
+T7	EVENT 167 189	пострадал один человек
+T8	EVENT 119 126	обстрел
+R2	TAKES_PLACE_IN Arg1:T8 Arg2:T5	
+R3	SUBEVENT_OF Arg1:T8 Arg2:T7	
+R4	OWNERSHIP Arg1:T4 Arg2:T3	
+T9	PROFESSION 207 220	глава региона
+R5	WORKS_AS Arg1:T12 Arg2:T9	
+T10	NEWS_SOURCE 199 261	сообщил глава региона Вячеслав Гладков в своем телеграм-канале
+T11	EVENT 263 305	Удар нанесли по окраине населенного пункта
+R6	TAKES_PLACE_IN Arg1:T11 Arg2:T5	
+T13	WEAPON 335 343	снарядов
+T14	EVENT 379 417	осколки зацепили автомобиль и водителя
+R7	TAKES_PLACE_IN Arg1:T14 Arg2:T4	
+T15	FAC 443 451	больницу
+T16	EVENT 419 451	Пострадавшего отвезли в больницу
+T21	DISEASE 543 569	ранение правого предплечья
+T59	DISEASE 573 606	состоянии средней степени тяжести
+T60	EVENT 611 644	госпитализировали в травматологию
+T61	NEWS_SOURCE 649 667	написал губернатор
+R8	TAKES_PLACE_IN Arg1:T60 Arg2:T15	
+T54	EVENT 1066 1086	Под обстрел попадали
+T49	VILLAGE 1096 1113	населенные пункты
+T50	BOROUGH 1114 1133	Борисовского района
+T51	VILLAGE 1147 1166	хутор Лозовая Рудка
+T52	VILLAGE 1169 1181	село Цаповка
+R9	TAKES_PLACE_IN Arg1:T54 Arg2:T51	
+R10	TAKES_PLACE_IN Arg1:T54 Arg2:T52	
+R11	OWNERSHIP Arg1:T50 Arg2:T49	
+T44	VILLAGE 970 988	село Богун-Городок
+T45	EVENT 950 967	Под удар попадало
+R12	TAKES_PLACE_IN Arg1:T45 Arg2:T44	
+R13	DATE_TAKES_PLACE_ON Arg1:T45 Arg2:T48	
+T46	NEWS_SOURCE 991 1023	об обстреле Гладков писал 23 мая
+T26	BOROUGH 670 687	Борисовский район
+T27	VILLAGE 703 716	Богун-Городок
+R14	OWNERSHIP Arg1:T26 Arg2:T27	
+T28	LOCATION 718 724	на юге
+R15	OWNERSHIP Arg1:T32 Arg2:T31	
+T29	CARDINAL 790 796	1,5 км
+T30	LOCATION 797 823	от государственной границы
+T33	REGION 832 864	приграничных российских регионов
+T34	NEWS_SOURCE 825 883	Власти приграничных российских регионов регулярно сообщают
+T37	EVENT 884 915	об обстрелах населенных пунктов
+R16	TAKES_PLACE_IN Arg1:T43 Arg2:T42	
+R17	SUBEVENT_OF Arg1:T43 Arg2:T37	
+R18	TAKES_PLACE_IN Arg1:T37 Arg2:T42	

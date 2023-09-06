@@ -1,0 +1,67 @@
+T1	FAC 39 56	электроподстанция
+T4	FAC 89 113	электрическая подстанция
+T6	PROFESSION 123 133	губернатор
+T9	PERSON 142 157	Владислав Шапша
+T10	DATE 225 232	Сегодня
+T11	TIME 233 238	утром
+T12	CITY 239 247	в Калуге
+T19	PROFESSION 408 418	губернатор
+T20	PROFESSION 475 483	Пожарные
+T22	GROUP 602 614	пострадавших
+T23	EVENT 626 632	пожара
+T25	VILLAGE 662 667	Росва
+T26	VILLAGE 686 696	Плетеневка
+T27	VILLAGE 698 706	Мстихино
+T29	VILLAGE 708 717	Куровской
+T33	PROFESSION 755 758	мэр
+T36	DATE 835 842	Сегодня
+T37	TIME 843 848	утром
+T39	CARDINAL 905 907	12
+T41	NEWS_SOURCE 913 937	По данным Гидрометцентра
+T42	TIME 939 961	во второй половине дня
+T43	CITY 0 8	В Калуге
+T44	EVENT 28 56	загорелась электроподстанция
+R1	TAKES_PLACE_IN Arg1:T44 Arg2:T43	
+T2	REGION 58 77	В Калужской области
+T3	EVENT 78 113	загорелась электрическая подстанция
+R2	TAKES_PLACE_IN Arg1:T3 Arg2:T2	
+R3	WORKS_AS Arg1:T9 Arg2:T6	
+R4	WORKPLACE Arg1:T9 Arg2:T2	
+T5	NEWS_SOURCE 115 157	сообщил губернатор области Владислав Шапша
+T7	EVENT 178 222	населенные пункты остались без электричества
+R5	TAKES_PLACE_IN Arg1:T7 Arg2:T2	
+T8	ORGANIZATION 923 937	Гидрометцентра
+T13	FAC 269 296	на электрической подстанции
+T14	EVENT 248 268	произошло возгорание
+R6	TAKES_PLACE_IN Arg1:T14 Arg2:T13	
+R7	DATE_TAKES_PLACE_ON Arg1:T14 Arg2:T10	
+R8	TAKES_PLACE_IN Arg1:T14 Arg2:T12	
+T15	VILLAGE 311 321	села Росва
+R9	HEADQUARTERED_IN Arg1:T13 Arg2:T15	
+T16	FAC 355 367	к подстанции
+T17	NEWS_SOURCE 400 418	написал губернатор
+T18	EVENT 323 395	Населенные пункты, подключенные к подстанции, остались без электричества
+R10	TAKES_PLACE_IN Arg1:T18 Arg2:T12	
+T21	GROUP 486 502	аварийные службы
+T45	EVENT 522 573	ликвидируют пожар и восстанавливают энергоснабжение
+R11	EVENT_TAKES_PART_IN Arg1:T21 Arg2:T45	
+T46	NEWS_SOURCE 575 600	По предварительным данным
+T24	VILLAGE 669 675	Яглово
+T47	VILLAGE 677 684	Резвань
+T28	BOROUGH 720 745	часть Бабынинского района
+T30	EVENT 633 661	обесточены населенные пункты
+R12	TAKES_PLACE_IN Arg1:T30 Arg2:T25	
+R13	TAKES_PLACE_IN Arg1:T30 Arg2:T24	
+R14	TAKES_PLACE_IN Arg1:T30 Arg2:T47	
+R15	TAKES_PLACE_IN Arg1:T30 Arg2:T26	
+R16	TAKES_PLACE_IN Arg1:T30 Arg2:T27	
+R17	TAKES_PLACE_IN Arg1:T30 Arg2:T29	
+R18	SUBEVENT_OF Arg1:T30 Arg2:T23	
+T31	CITY 759 765	Калуги
+T32	PERSON 766 781	Дмитрий Денисов
+R19	WORKPLACE Arg1:T32 Arg2:T31	
+R20	WORKS_AS Arg1:T32 Arg2:T33	
+T34	CITY 849 857	в Калуге
+T35	EVENT 858 880	прошел ливень с грозой
+R21	TAKES_PLACE_IN Arg1:T35 Arg2:T34	
+R22	DATE_TAKES_PLACE_ON Arg1:T35 Arg2:T36	

@@ -1,0 +1,60 @@
+T0	CITY 2 12	Смоленской
+T1	REGION 2 12	Смоленской
+T2	REGION 15 33	Калужской областях
+T3	ECONOMIC_SECTOR 44 57	беспилотниках
+T4	ECONOMIC_SECTOR 60 67	взрывах
+T5	REGION 71 80	Кировском
+T6	REGION 88 105	Калужской области
+T7	TIME 106 111	утром
+T8	DATE 112 118	2 июня
+T9	PROFESSION 199 209	губернатор
+T10	NEWS_SOURCE 190 225	Telegram губернатор Владислав Шапша
+T11	PERSON 210 225	Владислав Шапша
+T12	GROUP 246 258	пострадавших
+T13	DATE 322 323	в
+T14	CARDINAL 324 328	двух
+T15	REGION 329 355	районах Смоленской области
+T16	ORGANIZATION 358 370	Починковском
+T17	FAC 371 383	и Смоленском
+T18	ECONOMIC_SECTOR 386 400	беспилотниками
+T19	CARDINAL 416 419	два
+T20	FAC 428 431	ТЭК
+T21	PROFESSION 443 459	врио губернатора
+T22	PERSON 460 467	Василия
+T23	NEWS_SOURCE 433 475	По словам врио губернатора Василия Анохина
+T24	COUNTRY 468 475	Анохина
+T25	ECONOMIC_SECTOR 547 553	взрывы
+T26	REGION 556 574	Смоленской области
+T27	FAC 588 609	газораспределительной
+T28	ECONOMIC_SECTOR 612 633	нефтеперерабатывающей
+T29	FAC 612 642	нефтеперерабатывающей станциях
+T30	NEWS_SOURCE 644 662	По данным телеграм
+T31	FAC 663 669	канала
+T32	ORDINAL 674 680	первом
+T33	FAC 721 725	цеха
+T34	ECONOMIC_SECTOR 721 725	цеха
+T35	ORDINAL 730 736	втором
+T36	PRODUCT 749 754	водой
+T37	FAC 749 754	водой
+T38	FAC 759 772	пожаротушения
+T39	TIME 783 790	вечером
+T40	ECONOMIC_SECTOR 791 802	беспилотник
+T41	FAC 820 837	электроподстанцию
+T42	PERSON 845 854	Гоголевка
+T43	REGION 875 890	Курской области
+T44	GROUP 892 898	жители
+T45	FAC 899 903	села
+T46	ECONOMIC_SECTOR 917 922	света
+T47	DATE 924 929	Ночью
+T48	PROFESSION 930 940	губернатор
+T49	PERSON 941 956	Роман Старовойт
+T50	NEWS_SOURCE 930 964	губернатор Роман Старовойт сообщил
+T51	CARDINAL 970 975	около
+T52	ORGANIZATION 983 987	силы
+T53	FAC 988 991	ПВО
+T54	GROUP 998 1007	несколько
+T55	COUNTRY 1008 1018	украинских
+T56	ECONOMIC_SECTOR 1019 1032	беспилотников
+T57	CARDINAL 1108 1111	Jun
+T58	CARDINAL 1120 1122	41
+T59	CARDINAL 1123 1127	32 +

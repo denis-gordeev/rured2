@@ -1,0 +1,96 @@
+T1	VEHICLE 57 64	поездов
+T3	VEHICLE 99 106	поездов
+T8	COUNTRY 199 208	Абхазской
+T12	ORGANIZATION 226 229	АЖД
+T14	FAC 265 286	железнодорожного пути
+T16	FAC 315 322	станции
+T17	CITY 323 328	Гагра
+T18	GROUP 330 337	Бригады
+T20	DATE 346 352	сейчас
+T21	NEWS_SOURCE 420 441	говорится в сообщении
+T22	VEHICLE 477 484	поездов
+T25	CITY 555 560	Сухум
+T28	CITY 618 623	Гагры
+T31	COUNTRY 665 672	Абхазии
+T33	FAC 724 732	магазины
+T34	ORDINAL 734 740	первые
+T36	FAC 761 781	автомобильные дороги
+T37	ORGANIZATION 794 797	МЧС
+T43	COMMODITY 955 969	электроэнергии
+T44	CITY 1009 1013	Сочи
+T45	CITY 1016 1026	Краснодаре
+T48	CARDINAL 1077 1089	около десяти
+T49	VEHICLE 1090 1095	машин
+T52	FAC 1153 1164	жилых домов
+T53	GROUP 1166 1172	Власти
+T54	FAC 1185 1200	городские пляжи
+T56	DATE 1228 1238	до 11 июля
+T62	COUNTRY 0 9	В Абхазии
+T63	EVENT 34 64	приостановили движение поездов
+R1	TAKES_PLACE_IN Arg1:T63 Arg2:T62	
+T2	COUNTRY 66 75	В Абхазии
+T64	EVENT 76 106	приостановили движение поездов
+R2	TAKES_PLACE_IN Arg1:T64 Arg2:T2	
+T4	BOROUGH 154 168	Гагрский район
+R3	TAKES_PLACE_IN Arg1:T64 Arg2:T4	
+T5	ORGANIZATION 199 224	Абхазской железной дороги
+R4	ABBREVIATION Arg1:T5 Arg2:T12	
+T6	NEWS_SOURCE 170 230	сообщается в телеграм-канале Абхазской железной дороги (АЖД)
+T7	CARDINAL 253 264	более 200 м
+T9	FAC 287 312	на перегоне Бзыбь — Гагра
+R5	HEADQUARTERED_IN Arg1:T16 Arg2:T17	
+T10	EVENT 233 286	Сильный ливень смыл более 200 м железнодорожного пути
+R6	TAKES_PLACE_IN Arg1:T10 Arg2:T9	
+R7	TAKES_PLACE_IN Arg1:T10 Arg2:T16	
+T11	ORGANIZATION 342 345	АЖД
+T13	ORGANIZATION 338 341	РУП
+R8	WORKPLACE Arg1:T18 Arg2:T11	
+T15	ORGANIZATION 443 453	В компании
+T19	NEWS_SOURCE 443 462	В компании уточнили
+T23	CITY 546 552	Москва
+T24	VEHICLE 525 560	пассажирского поезда Москва — Сухум
+T26	VEHICLE 571 594	электропоезд «Ласточка»
+T27	EVENT 468 509	движение поездов было временно прекращено
+T29	BOROUGH 647 664	в Гагрском районе
+R9	TAKES_PLACE_IN Arg1:T27 Arg2:T31	
+T30	FAC 693 722	объекты общественного питания
+T32	FAC 734 758	первые этажи жилых домов
+T35	EVENT 673 692	оказались затоплены
+R10	TAKES_PLACE_IN Arg1:T35 Arg2:T30	
+R11	TAKES_PLACE_IN Arg1:T35 Arg2:T33	
+R12	TAKES_PLACE_IN Arg1:T35 Arg2:T32	
+R13	TAKES_PLACE_IN Arg1:T35 Arg2:T36	
+R14	TAKES_PLACE_IN Arg1:T35 Arg2:T31	
+R15	TAKES_PLACE_IN Arg1:T35 Arg2:T29	
+T38	NEWS_SOURCE 783 808	сообщали в МЧС республики
+T57	FAC 839 867	распределительных подстанций
+T39	BOROUGH 898 914	Гагрского района
+T40	CITY 917 931	города Пицунды
+T41	EVENT 828 838	затопления
+R16	TAKES_PLACE_IN Arg1:T41 Arg2:T57	
+R17	TAKES_PLACE_IN Arg1:T41 Arg2:T39	
+R18	TAKES_PLACE_IN Arg1:T41 Arg2:T40	
+T42	EVENT 932 969	была прекращена подача электроэнергии
+R19	SUBEVENT_OF Arg1:T42 Arg2:T41	
+R20	HEADQUARTERED_IN Arg1:T57 Arg2:T40	
+R21	TAKES_PLACE_IN Arg1:T42 Arg2:T40	
+R22	TAKES_PLACE_IN Arg1:T42 Arg2:T39	
+T58	EVENT 980 1006	сильные ливни также прошли
+R23	TAKES_PLACE_IN Arg1:T58 Arg2:T44	
+R24	TAKES_PLACE_IN Arg1:T58 Arg2:T45	
+T59	DATE 971 979	Накануне
+R25	DATE_TAKES_PLACE_ON Arg1:T58 Arg2:T59	
+T46	CITY 1028 1034	В Сочи
+T47	STREET 1035 1056	по улице Ручей Видный
+T50	EVENT 1057 1095	потоком воды снесло около десяти машин
+R26	TAKES_PLACE_IN Arg1:T50 Arg2:T47	
+R27	TAKES_PLACE_IN Arg1:T50 Arg2:T46	
+T51	BOROUGH 1103 1122	в Хостинском районе
+T60	EVENT 1133 1164	затоплены несколько жилых домов
+R28	TAKES_PLACE_IN Arg1:T60 Arg2:T51	
+T55	EVENT 1173 1200	закрыли все городские пляжи
+T61	EVENT 1203 1227	запретили плавать в море
+R29	DATE_TAKES_PLACE_ON Arg1:T61 Arg2:T56	
+R30	DATE_TAKES_PLACE_ON Arg1:T55 Arg2:T56	
+R31	ORGANIZES Arg1:T53 Arg2:T55	
+R32	ORGANIZES Arg1:T53 Arg2:T61	

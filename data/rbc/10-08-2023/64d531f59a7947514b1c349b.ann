@@ -1,0 +1,46 @@
+T3	GROUP 70 82	пострадавших
+T5	FAC 94 103	на заводе
+T8	DATE 123 132	9 августа
+T9	QUANTITY 142 147	до 80
+T10	QUANTITY 149 151	15
+T11	NEWS_SOURCE 179 212	сообщили в пресс-службе Минздрава
+T13	ORDINAL 214 217	Три
+T17	CITY 409 420	Мытищинскую
+T29	QUANTITY 590 599	восьмерых
+T30	QUANTITY 616 620	один
+T32	DATE 650 658	накануне
+T40	EVENT 19 29	при взрыве
+T41	GROUP 6 18	пострадавших
+T34	NEWS_SOURCE 671 709	по данным телеграм-каналов Mash и Shot
+T35	ORGANIZATION 698 702	Mash
+T36	ORGANIZATION 705 709	Shot
+T37	FAC 722 734	в реанимацию
+T42	DISEASE 735 755	с ожогами всего тела
+T38	CITY 30 48	в Сергиевом Посаде
+T1	QUANTITY 57 62	до 80
+R1	TAKES_PLACE_IN Arg1:T40 Arg2:T38	
+T2	EVENT 83 93	при взрыве
+T4	CITY 104 122	в Сергиевом Посаде
+T6	ORGANIZATION 203 212	Минздрава
+T7	ORGANIZATION 188 202	в пресс-службе
+R2	OWNERSHIP Arg1:T6 Arg2:T7	
+R3	TAKES_PLACE_IN Arg1:T2 Arg2:T5	
+R4	TAKES_PLACE_IN Arg1:T2 Arg2:T4	
+R5	DATE_TAKES_PLACE_ON Arg1:T2 Arg2:T8	
+T12	EVENT 149 177	15 человек госпитализированы
+R6	TAKES_PLACE_IN Arg1:T12 Arg2:T4	
+R7	DATE_TAKES_PLACE_ON Arg1:T12 Arg2:T8	
+R8	SUBEVENT_OF Arg1:T12 Arg2:T2	
+T14	CITY 357 377	в Сергиево-Посадскую
+T18	EVENT 334 356	Людей госпитализровали
+T15	FAC 357 407	в Сергиево-Посадскую центральную районную больницу
+T16	FAC 409 451	Мытищинскую городскую клиническую больницу
+T19	FAC 454 547	Национальный медицинский исследовательский центр нейрохирургии имени академика Н. Н. Бурденко
+R9	TAKES_PLACE_IN Arg1:T18 Arg2:T15	
+R10	TAKES_PLACE_IN Arg1:T18 Arg2:T16	
+R11	TAKES_PLACE_IN Arg1:T18 Arg2:T19	
+T20	QUANTITY 549 551	56
+T21	EVENT 610 628	Погиб один человек
+T22	FAC 659 669	в больнице
+R12	TAKES_PLACE_IN Arg1:T21 Arg2:T22	
+R13	TAKES_PLACE_IN Arg1:T21 Arg2:T37	

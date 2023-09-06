@@ -1,0 +1,35 @@
+T0	PERSON 0 5	Рогов
+T1	NEWS_SOURCE 6 13	сообщил
+T2	NEWS_SOURCE 34 44	Ореховском
+T3	PERSON 34 44	Ореховском
+T4	PERSON 61 71	Ореховском
+T5	REGION 84 103	Запорожской области
+T6	PROFESSION 127 140	член главного
+T7	NEWS_SOURCE 119 161	сообщил член главного совета администрации
+T8	ORGANIZATION 141 161	совета администрации
+T9	PERSON 170 184	Владимир Рогов
+T10	ORGANIZATION 195 196	-
+T11	NEWS_SOURCE 170 202	Владимир Рогов в телеграм-канале
+T12	DATE 205 212	Сегодня
+T13	TIME 213 220	вечером
+T14	PERSON 257 267	Ореховском
+T15	NEWS_SOURCE 296 309	По его словам
+T16	GROUP 366 378	бронетехники
+T17	PRODUCT 393 403	артиллерии
+T18	ECONOMIC_SECTOR 425 433	боевиках
+T19	PERSON 451 456	Рогов
+T20	NEWS_SOURCE 451 463	Рогов заявил
+T21	DATE 469 471	за
+T22	COUNTRY 485 496	украинскиеп
+T23	AWARD 525 534	подтянули
+T24	PRODUCT 535 569	бронетехнику со стороны Каменского
+T25	PERSON 570 579	Лобкового
+T26	ECONOMIC_SECTOR 584 589	удара
+T27	CITY 612 621	Пятихатки
+T28	REGION 624 633	Жеребянки
+T29	PERSON 636 648	Васильевском
+T30	CARDINAL 707 709	17
+T31	CARDINAL 718 742	648e04879a7947d29280d48a
+T32	PERSON 744 747	Sat
+T33	CARDINAL 749 755	17 Jun
+T34	CARDINAL 761 763	22

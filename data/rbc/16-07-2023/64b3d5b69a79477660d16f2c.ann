@@ -1,0 +1,35 @@
+T0	PERSON 0 7	Гладков
+T1	CRIME 19 27	обстреле
+T2	REGION 36 47	Горьковский
+T3	REGION 50 91	Белгородской области
+
+Поселок Горьковский
+T4	PERSON 92 106	Грайворонского
+T5	ORGANIZATION 107 117	городского
+T6	REGION 118 145	округа Белгородской области
+T7	PROFESSION 181 191	губернатор
+T8	NEWS_SOURCE 173 216	сообщил губернатор региона Вячеслав Гладков
+T9	PERSON 200 216	Вячеслав Гладков
+T10	NEWS_SOURCE 218 236	По словам Гладкова
+T11	PERSON 228 236	Гладкова
+T12	PRODUCT 266 288	снарядов выбили стекла
+T13	FAC 308 314	фасады
+T14	PRODUCT 316 321	крыши
+T15	CARDINAL 331 337	в трех
+T16	GROUP 338 351	домовладениях
+T17	COMMODITY 377 390	газоснабжения
+T18	NEWS_SOURCE 395 413	сообщил губернатор
+T19	PROFESSION 403 413	губернатор
+T20	ORDINAL 416 421	Утром
+T21	PERSON 422 429	Гладков
+T22	ORGANIZATION 457 475	центрального рынка
+T23	PERSON 478 486	Шебекино
+T24	CARDINAL 496 500	одна
+T25	DATE 518 526	в момент
+T26	PRODUCT 559 567	тротуару
+T27	ORGANIZATION 618 622	Град
+T28	CARDINAL 657 681	64b3d5b69a79477660d16f2c
+T29	CARDINAL 688 690	16
+T30	ORGANIZATION 691 694	Jul
+T31	CARDINAL 695 702	2023 15
+T32	CARDINAL 703 705	44

@@ -1,0 +1,69 @@
+T1	NEWS_SOURCE 2 20	Минобороны заявили
+T2	ORGANIZATION 43 46	ВСУ
+T3	COUNTRY 75 85	Российские
+T4	ORGANIZATION 86 92	войска
+T6	COUNTRY 130 137	Украины
+T8	ORGANIZATION 188 192	ТАСС
+T9	ORGANIZATION 207 217	Минобороны
+T11	COUNTRY 218 224	России
+T12	ORGANIZATION 228 237	ведомстве
+T13	NEWS_SOURCE 226 245	В ведомстве заявили
+T14	COUNTRY 303 313	Украинская
+T15	DATE 382 388	4 июня
+T16	PROFESSION 397 406	президент
+T17	COUNTRY 407 413	России
+T18	NEWS_SOURCE 390 428	заявил президент России Владимир Путин
+T19	PERSON 414 428	Владимир Путин
+T20	NEWS_SOURCE 430 443	По его словам
+T21	ORGANIZATION 445 448	ВСУ
+T22	PERCENT 482 491	почти 50%
+T27	PROFESSION 525 545	член главного совета
+T28	ORGANIZATION 546 559	администрации
+T31	PERSON 580 594	Владимир Рогов
+T33	BOROUGH 663 673	ореховском
+T39	DATE 763 779	на данный момент
+T40	ORDINAL 843 849	первой
+T41	ORDINAL 851 857	второй
+T42	ORDINAL 860 867	третьей
+T52	ORGANIZATION 0 12	В Минобороны
+T53	REGION 50 61	запорожском
+T54	LOCATION 47 73	на запорожском направлении
+T55	EVENT 21 42	о провале продвижения
+R1	TAKES_PLACE_IN Arg1:T55 Arg2:T2	
+R2	TAKES_PLACE_IN Arg1:T55 Arg2:T53	
+R3	OWNERSHIP Arg1:T3 Arg2:T4	
+T5	ORGANIZATION 114 137	Вооруженных сил Украины
+R4	ABBREVIATION Arg1:T5 Arg2:T2	
+T45	REGION 151 165	на запорожском
+T56	LOCATION 151 177	на запорожском направлении
+R5	HEADQUARTERED_IN Arg1:T9 Arg2:T11	
+T7	NEWS_SOURCE 179 224	сообщает ТАСС со ссылкой на Минобороны России
+T10	ORGANIZATION 251 254	ВСУ
+T57	EVENT 255 278	несут «огромные потери»
+R6	TAKES_PLACE_IN Arg1:T57 Arg2:T10	
+T58	ORGANIZATION 314 319	армия
+R7	HEADQUARTERED_IN Arg1:T58 Arg2:T14	
+T59	EVENT 320 354	перешла к наступательным действиям
+R8	ORGANIZES Arg1:T58 Arg2:T59	
+R9	DATE_TAKES_PLACE_ON Arg1:T59 Arg2:T15	
+R10	WORKPLACE Arg1:T19 Arg2:T17	
+R11	WORKS_AS Arg1:T19 Arg2:T16	
+T60	EVENT 449 469	несут большие потери
+R12	TAKES_PLACE_IN Arg1:T60 Arg2:T21	
+T23	TIME 507 513	В ночь
+T24	DATE 514 524	на 14 июня
+T25	REGION 560 579	Запорожской области
+R13	WORKPLACE Arg1:T31 Arg2:T25	
+R14	WORKPLACE Arg1:T31 Arg2:T28	
+R15	WORKS_AS Arg1:T31 Arg2:T27	
+T26	NEWS_SOURCE 507 602	В ночь на 14 июня член главного совета администрации Запорожской области Владимир Рогов сообщил
+T29	ORGANIZATION 608 611	ВСУ
+T30	EVENT 612 645	снизили наступательную активность
+T32	BOROUGH 649 661	васильевском
+T34	BOROUGH 676 700	гуляйпольско-пологовском
+R16	TAKES_PLACE_IN Arg1:T30 Arg2:T32	
+R17	TAKES_PLACE_IN Arg1:T30 Arg2:T33	
+R18	TAKES_PLACE_IN Arg1:T30 Arg2:T34	
+T35	EVENT 791 829	массированным артиллерийским обстрелам
+R19	DATE_TAKES_PLACE_ON Arg1:T35 Arg2:T39	
+T36	NEWS_SOURCE 890 903	утверждает он

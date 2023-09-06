@@ -1,0 +1,49 @@
+T0	ORGANIZATION 29 33	ЕАЭС
+T1	ORGANIZATION 81 114	Евразийского экономического союза
+T2	ORGANIZATION 218 229	Wildberries
+T3	PROFESSION 197 229	генеральный директор Wildberries
+T4	NEWS_SOURCE 188 247	сообщила генеральный директор Wildberries Татьяна Бакальчук
+T5	PERSON 230 247	Татьяна Бакальчук
+T6	EVENT 248 250	во
+T7	ORGANIZATION 257 284	Евразийского экономического
+T8	NEWS_SOURCE 270 284	экономического
+T9	EVENT 270 291	экономического форума
+T10	NEWS_SOURCE 303 310	заявила
+T11	ORGANIZATION 323 374	Таможенного союза Евразийского экономического союза
+T12	GROUP 520 541	товаров дистанционным
+T13	CRIME 542 550	способом
+T14	DATE 582 587	конце
+T15	EVENT 640 644	прав
+T16	GROUP 645 657	потребителей
+T17	GROUP 659 668	продавцов
+T18	PROFESSION 725 737	руководители
+T19	ORGANIZATION 766 781	Таможенный союз
+T20	DATE 841 846	конце
+T21	NEWS_SOURCE 871 889	отметила Бакальчук
+T22	GROUP 891 902	Wildberries
+T23	FAC 891 902	Wildberries
+T24	COUNTRY 911 917	России
+T25	COUNTRY 936 946	Белоруссии
+T26	COUNTRY 948 958	Казахстане
+T27	COUNTRY 961 969	Киргизии
+T28	ORGANIZATION 973 1022	Таможенный союз Евразийского экономического союза
+T29	COUNTRY 1030 1036	Россия
+T30	COUNTRY 1038 1047	Казахстан
+T31	COUNTRY 1049 1059	Белоруссия
+T32	COUNTRY 1061 1068	Армения
+T33	GPE 1070 1078	Киргизия
+T34	ORGANIZATION 1092 1096	союз
+T35	REGION 1099 1104	Сирия
+T36	COUNTRY 1107 1112	Тунис
+T37	DATE 1114 1123	24–25 мая
+T38	CITY 1126 1132	Москве
+T39	ORDINAL 1142 1148	второй
+T40	ORGANIZATION 1149 1160	Евразийский
+T41	EVENT 1161 1180	экономический форум
+T42	CARDINAL 1214 1238	646e073d9a794715037b183d
+T43	ORGANIZATION 1245 1247	24
+T44	DATE 1252 1256	2023
+T45	CARDINAL 1257 1259	16
+T46	CARDINAL 1260 1262	53
+T47	TIME 1263 1265	34
+T48	ORGANIZATION 1266 1267	+

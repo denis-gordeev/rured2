@@ -1,0 +1,40 @@
+T0	REGION 36 41	Белая
+T1	FAC 42 49	Березка
+T2	REGION 52 83	Брянской области
+
+Поселок Белая
+T3	FAC 84 91	Березка
+T4	PERSON 92 104	Трубчевского
+T5	REGION 114 130	Брянской области
+T6	PRODUCT 160 163	ВСУ
+T7	PROFESSION 173 183	губернатор
+T8	NEWS_SOURCE 165 201	сообщил губернатор Александр Богомаз
+T9	PERSON 184 201	Александр Богомаз
+T10	NEWS_SOURCE 204 209	своем
+T11	EVENT 210 218	телеграм
+T12	EVENT 219 225	канале
+T13	PROFESSION 237 242	главы
+T14	NEWS_SOURCE 227 250	По словам главы региона
+T15	ECONOMIC_SECTOR 287 292	жилые
+T16	FAC 287 297	жилые дома
+T17	ECONOMIC_SECTOR 298 323	и хозяйственные постройки
+T18	ECONOMIC_SECTOR 350 356	здание
+T19	ECONOMIC_SECTOR 359 394	помещения промышленного предприятия
+T20	FAC 439 456	торговых объектов
+T21	DATE 459 474	Утром 6 августа
+T22	ORGANIZATION 479 490	Карачевским
+T23	FAC 507 515	силы ПВО
+T24	CARDINAL 522 525	два
+T25	ECONOMIC_SECTOR 526 538	беспилотника
+T26	CARDINAL 575 576	В
+T27	TIME 577 584	ночь на
+T28	DATE 585 592	31 июля
+T29	COUNTRY 593 603	украинский
+T30	FAC 636 639	УВД
+T31	ORGANIZATION 642 653	Трубчевском
+T32	FAC 716 726	окна домов
+T33	CARDINAL 760 784	64d299aa9a79470cd1a34d2f
+T34	ORGANIZATION 786 789	Tue
+T35	CARDINAL 803 805	22
+T36	CARDINAL 806 808	51
+T37	PRODUCT 812 813	+

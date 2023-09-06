@@ -1,0 +1,42 @@
+T0	PERSON 0 5	Путин
+T1	NORP 16 23	россиян
+T5	NORP 68 75	россиян
+T6	EVENT 138 152	видеообращении
+T9	PROFESSION 181 190	президент
+T10	COUNTRY 191 197	России
+T11	NEWS_SOURCE 174 212	заявил президент России Владимир Путин
+T12	PERSON 198 212	Владимир Путин
+T14	GROUP 340 345	людям
+T15	NEWS_SOURCE 381 397	заявил президент
+T16	PROFESSION 388 397	президент
+T17	DATE 400 411	С 1993 года
+T18	PROFESSION 421 431	президента
+T23	COUNTRY 463 469	России
+T24	DATE 482 489	27 июня
+T25	COUNTRY 493 503	Белоруссии
+T26	COUNTRY 509 516	Украине
+T27	EVENT 522 530	праздник
+T29	DATE 540 568	в последнее воскресенье июня
+T30	DATE 577 596	2 мая текущего года
+T31	PERSON 597 602	Путин
+T37	DATE 722 744	последнюю субботу июня
+T38	DATE 756 765	этом году
+T39	CARDINAL 784 786	24
+T2	EVENT 24 39	с Днем молодежи
+T3	GROUP 50 67	молодое поколение
+T4	EVENT 161 173	Дня молодежи
+R1	SUBEVENT_OF Arg1:T4 Arg2:T6	
+R2	WORKPLACE Arg1:T12 Arg2:T10	
+R3	WORKS_AS Arg1:T12 Arg2:T9	
+T7	GROUP 246 263	молодое поколение
+T8	PERSON 432 446	Бориса Ельцина
+T13	EVENT 447 460	День молодежи
+R4	DATE_TAKES_PLACE_ON Arg1:T13 Arg2:T24	
+R5	TAKES_PLACE_IN Arg1:T13 Arg2:T23	
+R6	DATE_TAKES_PLACE_ON Arg1:T13 Arg2:T17	
+T19	LAW 609 660	распоряжение N 132-рп «О праздновании Дня молодежи»
+T20	EVENT 706 718	Дня молодежи
+R7	DATE_TAKES_PLACE_ON Arg1:T20 Arg2:T37	
+R8	TAKES_PLACE_IN Arg1:T27 Arg2:T26	
+R9	TAKES_PLACE_IN Arg1:T27 Arg2:T25	
+R10	DATE_TAKES_PLACE_ON Arg1:T27 Arg2:T29	

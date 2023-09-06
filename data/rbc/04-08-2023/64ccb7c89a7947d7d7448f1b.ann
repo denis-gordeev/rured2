@@ -1,0 +1,61 @@
+T0	FAC 2 7	порту
+T1	CITY 8 21	Новороссийска
+T2	FAC 43 48	судов
+T3	FAC 61 67	дронов
+T4	FAC 71 76	порту
+T5	CITY 77 90	Новороссийска
+T6	ORGANIZATION 132 135	РБК
+T7	NEWS_SOURCE 123 144	сообщили РБК в пресс-
+T8	ORGANIZATION 138 150	пресс-службе
+T9	REGION 151 162	Каспийского
+T10	FAC 163 178	трубопроводного
+T11	ORGANIZATION 179 190	консорциума
+T12	ORGANIZATION 192 195	КТК
+T13	CARDINAL 201 206	10:39
+T14	FAC 247 252	порту
+T15	CITY 253 265	Новороссийск
+T16	FAC 267 270	КТК
+T17	FAC 304 305	-
+T18	CARDINAL 305 306	3
+T19	FAC 308 338	выносное причальное устройство
+T20	NEWS_SOURCE 393 396	РБК
+T21	ORGANIZATION 393 396	РБК
+T22	ORGANIZATION 469 474	пресс
+T23	NEWS_SOURCE 447 481	говорится в сообщении пресс-службы
+T24	ORGANIZATION 475 481	службы
+T25	CARDINAL 526 527	2
+T26	ORGANIZATION 536 553	Минобороны России
+T27	COUNTRY 547 553	России
+T28	NEWS_SOURCE 536 562	Минобороны России сообщило
+T29	CRIME 565 572	попытке
+T30	CARDINAL 573 577	двух
+T31	COUNTRY 578 588	украинских
+T32	ECONOMIC_SECTOR 589 625	беспилотных катеров атаковать военно
+T33	FAC 626 633	морскую
+T34	CITY 641 654	Новороссийске
+T35	FAC 698 716	десантного корабля
+T36	PERSON 718 730	Оленегорский
+T37	ORGANIZATION 731 737	горняк
+T38	FAC 762 768	катера
+T39	FAC 770 779	Суворовец
+T40	PROFESSION 840 850	губернатор
+T41	NEWS_SOURCE 819 870	заявил краснодарский губернатор Вениамин Кондратьев
+T42	PERSON 851 870	Вениамин Кондратьев
+T43	NEWS_SOURCE 872 883	КТК сообщал
+T44	FAC 904 912	компании
+T45	FAC 947 952	порту
+T46	CITY 953 966	Новороссийска
+T47	FAC 1007 1012	судов
+T48	FAC 1015 1023	Телеграм
+T49	FAC 1024 1029	канал
+T50	NEWS_SOURCE 1030 1034	Baza
+T51	ECONOMIC_SECTOR 1085 1092	взрывов
+T52	NEWS_SOURCE 1094 1098	Shot
+T53	GROUP 1162 1183	каналу местные жители
+T54	ECONOMIC_SECTOR 1200 1233	морской беспилотник сначала долго
+T55	ORGANIZATION 1289 1293	Mash
+T56	NEWS_SOURCE 1289 1301	Mash сообщал
+T57	FAC 1338 1349	автомобилей
+T58	CARDINAL 1386 1390	2023
+T59	CARDINAL 1391 1415	64ccb7c89a7947d7d7448f1b
+T60	CARDINAL 1425 1436	Aug 2023 12

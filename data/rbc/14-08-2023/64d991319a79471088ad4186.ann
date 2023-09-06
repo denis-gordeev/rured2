@@ -1,0 +1,41 @@
+T3	ORGANIZATION 42 46	НАТО
+T12	WEAPON 163 180	трофейную технику
+T13	ORGANIZATION 181 185	НАТО
+T18	EVENT 262 268	форума
+T19	ORGANIZATION 308 312	НАТО
+T20	COUNTRY 326 337	российскими
+T21	PROFESSION 338 353	военнослужащими
+T22	COUNTRY 393 400	Украине
+T23	NEWS_SOURCE 405 432	сказал собеседник агентства
+T24	EVENT 449 455	форуме
+T25	COUNTRY 481 491	российская
+T26	EVENT 540 547	военной
+T27	COUNTRY 560 567	Украине
+T28	DATE 570 575	В мае
+T32	ORGANIZATION 687 701	АО «Ремдизель»
+T42	PRODUCT 960 975	воинских грузов
+T48	CARDINAL 1098 1127	64d991319a79471088ad4186
+
+Mon
+T1	EVENT 0 15	На «Армии-2023»
+T2	WEAPON 24 41	трофейную технику
+T4	EVENT 48 103	На международном военно-техническом форуме «Армия-2023»
+T5	DATE 121 134	14-20 августа
+T6	CITY 135 144	в Кубинке
+R1	TAKES_PLACE_IN Arg1:T4 Arg2:T6	
+R2	DATE_TAKES_PLACE_ON Arg1:T4 Arg2:T5	
+T7	ORGANIZATION 204 227	агентство «РИА Новости»
+T8	NEWS_SOURCE 195 250	сообщает агентство «РИА Новости» со ссылкой на источник
+T9	WEAPON 290 307	трофейную технику
+T10	EVENT 361 389	специальной военной операции
+R3	TAKES_PLACE_IN Arg1:T10 Arg2:T22	
+T11	ORGANIZATION 423 432	агентства
+T14	WEAPON 492 499	техника
+R4	TAKES_PLACE_IN Arg1:T24 Arg2:T25	
+R5	TAKES_PLACE_IN Arg1:T26 Arg2:T27	
+T15	NEWS_SOURCE 570 586	В мае сообщалось
+T16	EVENT 592 601	на форуме
+T17	WEAPON 619 661	импортозамещенный бронеавтомобиль «Феникс»
+T29	WEAPON 891 906	Бронеавтомобиль
+T30	GROUP 942 957	личного состава
+T31	WEAPON 703 728	«Тайфун-К» модели К-53949

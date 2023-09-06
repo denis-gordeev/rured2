@@ -1,0 +1,39 @@
+T0	FAC 0 8	Силы ПВО
+T1	ECONOMIC_SECTOR 15 26	беспилотник
+T2	REGION 31 43	белгородским
+T3	CITY 50 60	Никольское
+T4	COUNTRY 62 72	Российская
+T5	FAC 73 84	система ПВО
+T6	COUNTRY 91 101	украинский
+T7	ECONOMIC_SECTOR 102 113	беспилотник
+T8	FAC 118 123	селом
+T9	CITY 124 134	Никольское
+T10	PERSON 137 148	Шебекинским
+T11	FAC 149 165	городском округе
+T12	PROFESSION 183 193	губернатор
+T13	NEWS_SOURCE 175 206	сообщил губернатор Белгородской
+T14	REGION 207 214	области
+T15	NEWS_SOURCE 215 231	Вячеслав Гладков
+T16	PERSON 215 231	Вячеслав Гладков
+T17	NEWS_SOURCE 359 379	рассказал губернатор
+T18	PROFESSION 369 379	губернатор
+T19	COUNTRY 397 408	украинского
+T20	REGION 428 449	Белгородской областью
+T21	TIME 450 455	утром
+T22	NEWS_SOURCE 456 464	сообщало
+T23	ORGANIZATION 465 475	Минобороны
+T24	GROUP 490 502	пострадавших
+T25	NEWS_SOURCE 504 517	по информации
+T26	ORGANIZATION 507 528	информации Минобороны
+T27	ORGANIZATION 535 544	Ведомство
+T28	ECONOMIC_SECTOR 584 595	беспилотник
+T29	FAC 597 609	Белгородская
+T30	REGION 610 617	область
+T31	ECONOMIC_SECTOR 662 686	беспилотников со стороны
+T32	COUNTRY 687 694	Украины
+T33	ORGANIZATION 773 776	rbc
+T34	CARDINAL 792 816	64de7f1c9a794782bd95f816
+T35	CARDINAL 823 825	17
+T36	DATE 830 834	2023
+T37	CARDINAL 835 837	23
+T38	CARDINAL 838 840	23

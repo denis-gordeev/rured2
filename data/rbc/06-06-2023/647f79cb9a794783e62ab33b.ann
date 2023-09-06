@@ -1,0 +1,61 @@
+T0	LOCATION 0 10	На востоке
+T1	REGION 11 16	Крыма
+T2	COUNTRY 26 36	украинский
+T3	WEAPON 37 48	беспилотник
+T4	LOCATION 50 60	На востоке
+T5	REGION 61 66	Крыма
+T7	COUNTRY 121 131	украинский
+T9	WEAPON 132 143	беспилотник
+T11	NEWS_SOURCE 145 184	сообщил глава республики Сергей Аксенов
+T12	PERSON 170 184	Сергей Аксенов
+T13	DATE 223 229	4 июня
+T14	PERSON 230 237	Аксенов
+T16	CARDINAL 248 254	девяти
+T18	REGION 267 271	Крым
+T19	WEAPON 272 285	беспилотниках
+T20	WEAPON 287 295	Силы ПВО
+T21	CARDINAL 302 306	пять
+T22	WEAPON 307 320	беспилотников
+T24	CARDINAL 326 332	четыре
+T27	CARDINAL 406 412	одного
+T28	WEAPON 416 420	БПЛА
+T31	CARDINAL 437 441	трех
+T34	CARDINAL 467 471	двух
+T35	VEHICLE 472 483	автомобилях
+T36	CITY 493 500	Джанкое
+T38	NEWS_SOURCE 505 529	говорил глава республики
+T39	DATE 531 543	В начале мая
+T40	PROFESSION 544 554	губернатор
+T41	CITY 555 566	Севастополя
+T42	PERSON 567 583	Михаил Развожаев
+T44	WEAPON 630 636	дронов
+T45	VILLAGE 648 652	Качи
+T49	CARDINAL 706 709	два
+T50	WEAPON 710 714	БПЛА
+T52	WEAPON 730 743	беспилотников
+T54	EVENT 17 48	посадили украинский беспилотник
+R1	TAKES_PLACE_IN Arg1:T54 Arg2:T1	
+R2	OWNERSHIP Arg1:T1 Arg2:T0	
+R3	OWNERSHIP Arg1:T5 Arg2:T4	
+T6	WEAPON 67 101	средствами радиоэлектронной борьбы
+T8	EVENT 102 143	заглушен и посажен украинский беспилотник
+R4	TAKES_PLACE_IN Arg1:T8 Arg2:T5	
+T10	PROFESSION 153 169	глава республики
+R5	WORKS_AS Arg1:T12 Arg2:T10	
+T15	NEWS_SOURCE 223 245	4 июня Аксенов сообщил
+T17	WEAPON 348 382	средствами радиоэлектронной борьбы
+T23	FAC 442 464	домах частного сектора
+T25	PROFESSION 513 529	глава республики
+R6	WORKPLACE Arg1:T42 Arg2:T41	
+R7	WORKS_AS Arg1:T42 Arg2:T40	
+T26	NEWS_SOURCE 531 591	В начале мая губернатор Севастополя Михаил Развожаев сообщал
+T29	EVENT 597 636	в городе отбили атаку нескольких дронов
+R8	DATE_TAKES_PLACE_ON Arg1:T29 Arg2:T39	
+T30	WEAPON 653 674	из стрелкового оружия
+T32	ORGANIZATION 675 699	силы Черноморского флота
+T33	WEAPON 770 784	средствами РЭБ
+T37	NEWS_SOURCE 789 799	говорил он
+R9	HEADQUARTERED_IN Arg1:T32 Arg2:T45	
+T43	EVENT 700 714	сбили два БПЛА
+R10	TAKES_PLACE_IN Arg1:T43 Arg2:T45	
+R11	EVENT_TAKES_PART_IN Arg1:T32 Arg2:T43	

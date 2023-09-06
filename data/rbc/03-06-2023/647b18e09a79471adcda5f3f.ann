@@ -1,0 +1,59 @@
+T0	DATE 0 10	За сутки в
+T1	REGION 11 31	Белгородской области
+T2	QUANTITY 54 66	пять человек
+T3	PRODUCT 68 72	Пять
+T4	GROUP 73 80	жителей
+T5	REGION 81 101	Белгородской области
+T6	FAC 135 138	ВСУ
+T7	DATE 139 156	за минувшие сутки
+T8	PROFESSION 198 208	губернатор
+T9	NEWS_SOURCE 166 225	в своем телеграм-канале сообщил губернатор Вячеслав Гладков
+T10	PERSON 209 225	Вячеслав Гладков
+T11	ORDINAL 227 230	Три
+T12	CRIME 231 239	человека
+T13	REGION 250 276	Валуйском городском округе
+T14	CARDINAL 282 285	два
+T15	PERSON 316 328	Шебекинского
+T16	ORGANIZATION 329 339	городского
+T17	REGION 340 346	округа
+T18	COUNTRY 364 374	украинские
+T19	PROFESSION 375 382	военные
+T20	CARDINAL 393 396	371
+T21	PRODUCT 397 406	боеприпас
+T22	CARDINAL 419 433	восемь человек
+T23	CARDINAL 435 440	шесть
+T24	ECONOMIC_SECTOR 522 535	водоснабжение
+T25	CARDINAL 541 545	один
+T26	ORGANIZATION 583 596	селе Разумное
+T27	FAC 599 611	Белгородская
+T28	REGION 612 619	область
+T29	ECONOMIC_SECTOR 633 642	обстрелам
+T30	ECONOMIC_SECTOR 654 657	ВСУ
+T31	DATE 660 679	осени прошлого года
+T32	DATE 688 707	за последнюю неделю
+T33	GROUP 741 747	власти
+T34	PERSON 790 797	Гладков
+T35	PERSON 825 837	Шебекинскому
+T36	FAC 838 855	городскому округу
+T37	DATE 856 865	ежедневно
+T38	CARDINAL 876 883	150–250
+T39	PRODUCT 884 892	снарядов
+T40	FAC 912 918	Градов
+T41	PROFESSION 921 926	Пресс
+T42	PROFESSION 927 947	секретарь президента
+T43	PERSON 948 962	Дмитрий Песков
+T44	NEWS_SOURCE 927 970	секретарь президента Дмитрий Песков говорил
+T45	NEWS_SOURCE 976 990	Владимир Путин
+T46	PERSON 976 990	Владимир Путин
+T47	GROUP 1025 1042	местными властями
+T48	PROFESSION 1045 1053	военными
+T49	ORGANIZATION 1066 1069	РБК
+T50	GROUP 1070 1076	жители
+T51	NEWS_SOURCE 1077 1085	Шебекино
+T52	PERSON 1077 1085	Шебекино
+T53	CARDINAL 1179 1203	647b18e09a79471adcda5f3f
+T54	PERSON 1205 1208	Sat
+T55	MONEY 1217 1221	2023
+T56	CARDINAL 1222 1224	14
+T57	CARDINAL 1225 1227	00
+T58	CARDINAL 1228 1232	46 +

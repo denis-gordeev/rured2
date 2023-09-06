@@ -1,0 +1,58 @@
+T0	PERSON 20 26	Шольца
+T1	PROFESSION 33 47	телохранителей
+T2	PROFESSION 33 56	телохранителей
+
+Канцлер
+T3	COUNTRY 57 65	Германии
+T4	PERSON 66 76	Олаф Шольц
+T5	DATE 77 97	несколько дней назад
+T7	VEHICLE 142 152	автомобиля
+T8	ORGANIZATION 214 236	Федерального ведомства
+T10	PROFESSION 329 348	главу правительства
+T12	ORGANIZATION 377 382	Focus
+T13	DATE 394 400	24 мая
+T16	PERSON 504 509	Шольц
+T17	PROFESSION 591 599	канцлера
+T18	VEHICLE 602 610	самолету
+T19	PRODUCT 672 680	сигарету
+T20	PROFESSION 702 713	полицейские
+T21	NEWS_SOURCE 737 751	По данным Bild
+T22	PRODUCT 788 797	наркотики
+T24	ORGANIZATION 855 862	полиции
+T25	VEHICLE 902 908	машины
+T27	PROFESSION 924 932	канцлеру
+T29	ORGANIZATION 961 966	Focus
+T30	PROFESSION 981 992	полицейский
+T32	PERSON 1094 1100	Шольца
+T33	VEHICLE 1125 1135	автомобиль
+T37	FAC 1203 1212	аэропорта
+T38	GROUP 1247 1257	сотрудники
+T45	ORGANIZATION 0 5	Focus
+T46	NEWS_SOURCE 0 12	Focus назвал
+T47	PROFESSION 49 56	Канцлер
+R1	WORKPLACE Arg1:T4 Arg2:T3	
+R2	WORKS_AS Arg1:T4 Arg2:T47	
+T6	ORGANIZATION 177 182	Focus
+T9	NEWS_SOURCE 177 261	Focus со ссылкой на внутренний отчет Федерального ведомства по уголовным делам пишет
+T11	CITY 401 423	во Франкфурте-на-Майне
+T14	EVENT 351 357	Случай
+T15	NEWS_SOURCE 367 382	описывает Focus
+R3	DATE_TAKES_PLACE_ON Arg1:T14 Arg2:T13	
+R4	TAKES_PLACE_IN Arg1:T14 Arg2:T11	
+R5	WORKS_AS Arg1:T4 Arg2:T10	
+T48	FAC 445 456	в аэропорту
+T49	PERSON 466 474	к Шольцу
+T50	GROUP 548 554	Охрана
+T51	EVENT 425 502	Неизвестный мужчина в аэропорту подбежал к Шольцу, пожал ему руку и обнял его
+R6	EVENT_TAKES_PART_IN Arg1:T16 Arg2:T51	
+T52	VEHICLE 655 661	машину
+T53	ORGANIZATION 747 751	Bild
+T23	AGE 827 836	48-летний
+T26	NEWS_SOURCE 951 998	объясняет Focus со ссылкой на полицейский отчет
+T28	PROFESSION 1019 1032	телохранитель
+T31	GROUP 1087 1093	охрана
+T34	VEHICLE 1229 1235	машину
+T35	FAC 1258 1274	воздушной гавани
+R7	USES Arg1:T38 Arg2:T35	
+T36	EVENT 1229 1274	машину пропустили сотрудники воздушной гавани
+R8	TAKES_PLACE_IN Arg1:T36 Arg2:T37	

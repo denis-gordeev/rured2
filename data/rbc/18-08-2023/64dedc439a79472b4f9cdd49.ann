@@ -1,0 +1,35 @@
+T0	COUNTRY 9 12	США
+T1	ORGANIZATION 31 34	ВСУ
+T2	COUNTRY 74 86	Американская
+T3	GROUP 87 95	разведка
+T4	COUNTRY 109 116	Украина
+T7	CITY 324 334	Мелитополя
+T9	REGION 369 373	Крым
+T10	COUNTRY 405 412	Россией
+T12	COUNTRY 489 499	Украинским
+T13	ORDINAL 537 543	первую
+T14	COUNTRY 550 560	российской
+T16	DATE 570 585	В первые недели
+T18	GPE 697 704	Западом
+T19	ORDINAL 708 714	первую
+T20	COUNTRY 736 744	немецких
+T24	COUNTRY 764 776	американских
+T32	GROUP 0 8	Разведка
+R1	WORKPLACE Arg1:T3 Arg2:T2	
+R2	WORKPLACE Arg1:T32 Arg2:T0	
+T6	ORGANIZATION 201 227	газета The Washington Post
+T5	NEWS_SOURCE 195 251	пишет газета The Washington Post со ссылкой на источники
+T33	GROUP 274 282	разведки
+T34	ORGANIZATION 301 304	ВСУ
+T27	NEWS_SOURCE 253 295	В секретном прогнозе разведки утверждается
+T8	EVENT 301 373	ВСУ не удастся достичь Мелитополя и перерезать сухопутный коридор в Крым
+T11	ORGANIZATION 500 507	войскам
+R3	HEADQUARTERED_IN Arg1:T11 Arg2:T12	
+T15	EVENT 519 568	не удалось пройти первую линию российской обороны
+R4	TAKES_PLACE_IN Arg1:T15 Arg2:T12	
+T17	ORGANIZATION 603 606	ВСУ
+T28	EVENT 586 602	контрнаступления
+R5	DATE_TAKES_PLACE_ON Arg1:T28 Arg2:T16	
+R6	ORGANIZES Arg1:T17 Arg2:T28	
+T21	WEAPON 745 761	танках Leopard 2
+T22	WEAPON 777 788	БМП Bradley

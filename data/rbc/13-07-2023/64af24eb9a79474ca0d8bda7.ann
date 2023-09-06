@@ -1,0 +1,58 @@
+T2	FAC 46 49	ЛЭП
+T3	VEHICLE 63 76	Воздушный шар
+T8	ORGANIZATION 205 218	правительства
+T12	COMMODITY 245 259	электроэнергии
+T13	FAC 263 266	ЛЭП
+T15	FAC 300 303	ЛЭП
+T16	GROUP 304 313	пассажиры
+T20	GROUP 496 506	пассажиров
+T21	DATE 552 558	1 июля
+T23	VEHICLE 571 584	воздушный шар
+T25	PROFESSION 610 636	Старший помощник прокурора
+T31	QUANTITY 799 805	четыре
+T37	CARDINAL 995 1024	64af24eb9a79474ca0d8bda7
+
+Thu
+T1	REGION 0 18	В Липецкой области
+T46	VEHICLE 19 32	воздушный шар
+T47	EVENT 19 61	воздушный шар зацепился за ЛЭП и загорелся
+R1	TAKES_PLACE_IN Arg1:T47 Arg2:T1	
+T4	QUANTITY 77 84	с пятью
+T5	GROUP 85 96	пассажирами
+T48	FAC 110 130	высоковольтную линию
+T6	REGION 219 235	Липецкой области
+R2	HEADQUARTERED_IN Arg1:T8 Arg2:T6	
+T7	NEWS_SOURCE 176 235	сообщается в телеграм-канале правительства Липецкой области
+T9	EVENT 63 130	Воздушный шар с пятью пассажирами зацепился за высоковольтную линию
+R3	TAKES_PLACE_IN Arg1:T9 Arg2:T6	
+T10	LOCATION 131 174	в районе особой экономической зоны «Липецк»
+T11	EVENT 304 359	пассажиры самостоятельно потушили начавшееся возгорание
+R4	TAKES_PLACE_IN Arg1:T11 Arg2:T6	
+T14	PROFESSION 361 370	Спасатели
+T17	ORGANIZATION 441 454	правительства
+T49	ORGANIZATION 426 440	в пресс-службе
+R5	OWNERSHIP Arg1:T17 Arg2:T49	
+T50	NEWS_SOURCE 411 454	уточнили позже в пресс-службе правительства
+T18	GROUP 462 476	власти региона
+T19	NEWS_SOURCE 456 485	Затем власти региона сообщили
+T36	VEHICLE 516 522	с шара
+T51	EVENT 491 522	всех пассажиров спустили с шара
+T22	CITY 559 570	в Махачкале
+T52	EVENT 571 608	воздушный шар ударился о скалу и упал
+R6	TAKES_PLACE_IN Arg1:T52 Arg2:T22	
+R7	DATE_TAKES_PLACE_ON Arg1:T52 Arg2:T21	
+T24	REGION 637 646	Дагестана
+T26	PERSON 647 663	Татьяна Голубова
+R8	WORKPLACE Arg1:T26 Arg2:T24	
+R9	WORKS_AS Arg1:T26 Arg2:T25	
+T27	NEWS_SOURCE 610 672	Старший помощник прокурора Дагестана Татьяна Голубова сообщила
+T28	GROUP 683 695	пострадавшие
+T29	ORGANIZATION 758 761	МВД
+T30	ORGANIZATION 732 757	в региональном управлении
+R10	OWNERSHIP Arg1:T29 Arg2:T30	
+T38	ORGANIZATION 773 782	«Подъему»
+T39	NEWS_SOURCE 726 782	Позже в региональном управлении МВД рассказали «Подъему»
+T32	ORGANIZATION 816 835	Местная прокуратура
+T33	VEHICLE 944 961	на воздушном шаре
+T34	EVENT 816 860	Местная прокуратура решила провести проверку
+R11	TAKES_PLACE_IN Arg1:T34 Arg2:T24	

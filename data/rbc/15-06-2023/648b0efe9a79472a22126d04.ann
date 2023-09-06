@@ -1,0 +1,30 @@
+T5	REGION 67 82	Курской области
+T6	FAMILY 123 127	мужа
+T7	ORGANIZATION 138 141	РБК
+T8	NEWS_SOURCE 129 190	сообщили РБК в региональном управлении Следственного комитета
+T9	ORGANIZATION 144 190	региональном управлении Следственного комитета
+T10	ORGANIZATION 194 203	ведомстве
+T18	DATE 362 369	15 июня
+T21	AGE 389 402	Трехгодовалый
+T24	GROUP 460 472	пострадавшие
+T25	PROFESSION 499 510	Следователи
+T1	REGION 0 17	В Курской области
+T2	EVENT 18 46	бык насмерть забодал женщину
+R1	TAKES_PLACE_IN Arg1:T2 Arg2:T1	
+T3	BOROUGH 48 66	В Фатежском районе
+T4	EVENT 83 127	бык насмерть забодал женщину и ранил ее мужа
+R2	TAKES_PLACE_IN Arg1:T4 Arg2:T3	
+R3	TAKES_PLACE_IN Arg1:T4 Arg2:T5	
+T27	NEWS_SOURCE 192 212	В ведомстве уточнили
+T28	FAC 233 243	в больнице
+T29	DISEASE 244 263	от полученных травм
+T30	EVENT 218 263	женщина умерла в больнице от полученных травм
+R4	TAKES_PLACE_IN Arg1:T30 Arg2:T5	
+T11	ORGANIZATION 286 292	РЕН ТВ
+T12	ORGANIZATION 295 315	телеграм-канала SHOT
+T13	NEWS_SOURCE 265 315	По данным источников РЕН ТВ и телеграм-канала SHOT
+T14	FAMILY 335 351	супружескую пару
+T15	EVENT 317 351	нападение быка на супружескую пару
+T16	VILLAGE 370 387	в селе Солдатское
+R5	TAKES_PLACE_IN Arg1:T15 Arg2:T16	
+R6	DATE_TAKES_PLACE_ON Arg1:T15 Arg2:T18	

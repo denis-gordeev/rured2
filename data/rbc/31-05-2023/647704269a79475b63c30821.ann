@@ -1,0 +1,68 @@
+T0	PROFESSION 0 12	Умер депутат
+T1	ORGANIZATION 13 20	Госдумы
+T2	PERSON 21 35	Виктор Зубарев
+T3	PROFESSION 37 49	Умер депутат
+T4	ORGANIZATION 50 57	Госдумы
+T5	PERSON 58 72	Виктор Зубарев
+T6	ORGANIZATION 77 91	Единой России»
+T7	DATE 102 109	62 года
+T8	NEWS_SOURCE 119 143	газете «Наш Красноярский
+T9	ORGANIZATION 131 148	Красноярский край
+T10	ORGANIZATION 161 174	администрации
+T11	NEWS_SOURCE 148 182	» сообщили в администрации региона
+T12	DATE 216 223	сегодня
+T13	PERSON 242 256	Виктор Зубарев
+T14	ORGANIZATION 329 332	РБК
+T15	PROFESSION 333 340	депутат
+T16	NEWS_SOURCE 321 353	сообщил РБК депутат Юрий Швыткин
+T17	PERSON 341 353	Юрий Швыткин
+T18	PERSON 355 362	Зубарев
+T19	EVENT 373 378	Ужуре
+T20	DATE 379 399	20 февраля 1961 года
+T21	ORGANIZATION 409 446	Красноярский политехнический институт
+T22	ORGANIZATION 449 500	Российскую академию государственной службы (РАНХиГС
+T23	DATE 503 520	В 1997–2007 годах
+T24	CITY 550 563	Красноярского
+T25	ORGANIZATION 564 568	края
+T26	PROFESSION 570 579	Депутатом
+T27	ORGANIZATION 580 590	Госдумы он
+T28	DATE 604 615	в 2007 году
+T29	PROFESSION 621 627	членом
+T30	ORGANIZATION 628 636	комитета
+T31	INVESTMENT_PROGRAM 640 645	науке
+T32	INVESTMENT_PROGRAM 648 670	наукоемким технологиям
+T33	PROFESSION 672 699	зампредседателя комитета по
+T34	INVESTMENT_PROGRAM 700 718	природным ресурсам
+T35	INVESTMENT_PROGRAM 741 749	экологии
+T36	DATE 751 768	В 2011–2012 годах
+T37	PERSON 769 776	Зубарев
+T38	PROFESSION 788 797	депутатом
+T39	GROUP 788 823	депутатом красноярского заксобрания
+T40	REGION 824 837	Красноярского
+T41	ORGANIZATION 838 842	края
+T42	ORGANIZATION 855 891	комитет по промышленности и вопросам
+T43	DATE 916 928	до 2014 года
+T44	PROFESSION 933 942	депутатом
+T45	ORGANIZATION 943 950	Госдумы
+T46	DATE 952 970	В течение двух лет
+T47	PROFESSION 990 1004	вице-премьером
+T48	ORGANIZATION 995 1018	премьером правительства
+T49	CITY 1019 1032	Красноярского
+T50	ORGANIZATION 1033 1037	края
+T51	PROFESSION 1039 1080	министром экономического развития региона
+T52	ORGANIZATION 1084 1091	Госдуму
+T53	PERSON 1092 1099	Зубарев
+T54	DATE 1109 1120	в 2016 году
+T55	DATE 1122 1142	В сентябре 2021 года
+T56	ORGANIZATION 1158 1167	парламент
+T57	DATE 1168 1170	от
+T58	PROFESSION 1171 1175	края
+T59	PROFESSION 1177 1191	депутат входил
+T60	ORGANIZATION 1194 1222	комитет по бюджету и налогам
+T61	DATE 1253 1255	31
+T62	DATE 1295 1297	31
+T63	PERSON 1298 1301	May
+T64	DATE 1302 1309	2023 13
+T65	CARDINAL 1310 1312	46
+T66	DATE 1313 1315	01
+T67	CARDINAL 1313 1317	01 +

@@ -1,0 +1,64 @@
+T0	GPE 0 4	Киев
+T1	NEWS_SOURCE 5 11	заявил
+T2	COUNTRY 31 43	американская
+T3	GROUP 44 51	техника
+T4	GROUP 61 72	диверсантам
+T5	COUNTRY 74 84	Украинские
+T6	GROUP 85 91	власти
+T7	REGION 123 143	Белгородскую область
+T8	GROUP 144 155	диверсантов
+T9	NEWS_SOURCE 156 168	американская
+T10	COUNTRY 156 168	американская
+T11	FAC 169 176	военная
+T12	GROUP 177 184	техника
+T13	PERSON 194 202	Politico
+T14	PROFESSION 203 216	представитель
+T15	NEWS_SOURCE 186 236	сообщил Politico представитель Главного управления
+T16	ORGANIZATION 217 236	Главного управления
+T17	ORGANIZATION 246 264	Минобороны Украины
+T18	COUNTRY 257 264	Украины
+T19	NEWS_SOURCE 246 278	Минобороны Украины Андрей Черняк
+T20	PERSON 265 278	Андрей Черняк
+T21	GROUP 335 355	западными союзниками
+T22	PRODUCT 358 364	оружие
+T23	COUNTRY 385 395	украинской
+T24	GROUP 396 402	армией
+T25	GROUP 425 436	диверсантов
+T26	FAC 454 463	городской
+T27	REGION 464 490	округ Белгородской области
+T28	DATE 500 506	22 мая
+T29	DATE 508 525	на следующий день
+T30	ORGANIZATION 526 536	Минобороны
+T31	NEWS_SOURCE 537 544	заявило
+T32	GROUP 556 567	диверсантов
+T33	NEWS_SOURCE 569 581	По их данным
+T34	QUANTITY 596 598	70
+T35	CARDINAL 596 606	70 человек
+T36	CARDINAL 608 614	четыре
+T37	PRODUCT 636 642	машины
+T38	FAC 636 642	машины
+T39	CARDINAL 645 657	пять пикапов
+T40	ORGANIZATION 670 679	ведомство
+T41	ORGANIZATION 681 696	Financial Times
+T42	GROUP 723 734	диверсантов
+T43	COUNTRY 788 800	американские
+T44	PRODUCT 801 807	машины
+T45	FAC 801 807	машины
+T46	GROUP 819 836	бронетранспортеры
+T47	FAC 819 844	бронетранспортеры MaxxPro
+T48	FAC 847 870	грузовые фургоны Humvee
+T49	NEWS_SOURCE 872 888	Газета указывала
+T50	COUNTRY 915 927	американской
+T51	GPE 943 948	Киеву
+T52	NEWS_SOURCE 950 958	Пентагон
+T53	PROFESSION 950 958	Пентагон
+T54	ORGANIZATION 1018 1027	Ведомство
+T55	NEWS_SOURCE 1018 1035	Ведомство указало
+T56	COUNTRY 1054 1061	Украине
+T57	ORDINAL 1120 1127	третьим
+T58	GROUP 1180 1183	ВСУ
+T59	CARDINAL 1237 1239	25
+T60	CARDINAL 1248 1272	646e8f7d9a79470488e1935b
+T61	CARDINAL 1279 1281	25
+T62	DATE 1286 1290	2023
+T63	CARDINAL 1294 1296	01

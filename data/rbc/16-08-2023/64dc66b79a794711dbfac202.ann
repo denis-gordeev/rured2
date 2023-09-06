@@ -1,0 +1,35 @@
+T0	FAC 20 31	Куршановичи
+T1	REGION 20 31	Куршановичи
+T2	REGION 34 50	Брянской области
+T3	PRODUCT 52 68	Пять жилых домов
+T4	FAC 82 86	селе
+T5	REGION 87 98	Куршановичи
+T6	PERSON 99 110	Климовского
+T7	REGION 118 134	Брянской области
+T8	ECONOMIC_SECTOR 141 149	обстрела
+T9	ORGANIZATION 161 164	ВСУ
+T10	NEWS_SOURCE 174 192	сообщил губернатор
+T11	PROFESSION 182 192	губернатор
+T12	NEWS_SOURCE 201 210	Александр
+T13	PERSON 201 218	Александр Богомаз
+T14	REGION 248 260	Черниговской
+T15	GPE 261 269	областью
+T16	COUNTRY 270 277	Украины
+T17	CARDINAL 314 318	пять
+T18	FAC 325 330	домов
+T19	ORGANIZATION 339 360	школы и дома культуры
+T20	NEWS_SOURCE 416 430	заявил Богомаз
+T21	DATE 432 452	В середине августа в
+T22	REGION 453 469	Брянской области
+T23	COUNTRY 491 501	украинских
+T24	GROUP 502 513	диверсантов
+T25	FAC 540 544	села
+T26	REGION 545 568	Курковичи Стародубского
+T27	INVESTMENT_PROGRAM 569 583	муниципалитета
+T28	GROUP 625 633	работник
+T29	ORGANIZATION 634 652	сельхозпредприятия
+T30	PERCENT 686 710	64dc66b79a794711dbfac202
+T31	CARDINAL 686 710	64dc66b79a794711dbfac202
+T32	CARDINAL 717 719	16
+T33	DATE 724 728	2023
+T34	CARDINAL 735 739	47 +

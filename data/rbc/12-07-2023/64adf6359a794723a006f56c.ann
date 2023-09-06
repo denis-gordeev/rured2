@@ -1,0 +1,58 @@
+T0	ORGANIZATION 0 8	Минстрой
+T2	VEHICLE 87 101	электромобилей
+T3	ORGANIZATION 182 190	Известия
+T6	ORGANIZATION 206 214	Минстрой
+T7	DATE 216 234	В настоящий момент
+T10	VEHICLE 284 296	электромашин
+T12	ORGANIZATION 304 315	Минпромторг
+T13	DATE 329 347	до конца 2023 года
+T14	CARDINAL 350 352	32
+T15	COUNTRY 362 368	России
+T17	FAC 404 407	ЭЗС
+T18	VEHICLE 412 423	автомобилей
+T23	DATE 474 493	на сегодняшний день
+T25	GROUP 580 591	девелоперов
+T28	ECONOMIC_SECTOR 656 675	строительства домов
+T31	FAC 713 720	станции
+T32	PROFESSION 751 754	мэр
+T33	CITY 755 761	Москвы
+T37	VEHICLE 861 875	электромобилей
+T39	DATE 977 983	за год
+T41	DATE 1036 1054	В настоящий момент
+T42	CITY 1057 1063	Москве
+T43	CARDINAL 1076 1085	более 400
+T44	CARDINAL 1138 1147	около 500
+T45	DATE 1165 1173	ежегодно
+T50	GROUP 66 73	жильцов
+T51	VEHICLE 40 52	электрокаров
+T1	FAC 124 132	с домами
+T52	GROUP 151 158	жильцов
+T4	NEWS_SOURCE 168 214	пишет газета «Известия» со ссылкой на Минстрой
+T5	COUNTRY 235 243	в России
+T8	DATE 297 303	В июне
+T9	NEWS_SOURCE 297 323	В июне Минпромторг сообщил
+T11	CARDINAL 392 395	659
+T16	CARDINAL 452 460	4,4 тыс.
+T19	GROUP 559 572	собственников
+T20	FAC 514 521	станций
+T21	FAC 626 642	зарядные станции
+T22	FAC 670 675	домов
+T24	ORGANIZATION 677 687	В Минстрое
+T26	GROUP 736 743	жильцов
+T27	PERSON 762 776	Сергей Собянин
+R1	WORKPLACE Arg1:T27 Arg2:T33	
+R2	WORKS_AS Arg1:T27 Arg2:T32	
+T29	NEWS_SOURCE 745 786	Ранее мэр Москвы Сергей Собянин рассказал
+T30	FAC 816 843	станцию для быстрой зарядки
+T34	PERCENT 887 901	стопроцентному
+T35	FAC 998 1014	зарядных станций
+R3	HEADQUARTERED_IN Arg1:T35 Arg2:T42	
+T36	FAC 1092 1099	зарядок
+R4	HEADQUARTERED_IN Arg1:T36 Arg2:T42	
+T38	EVENT 1064 1099	установлено более 400 таких зарядок
+R5	TAKES_PLACE_IN Arg1:T38 Arg2:T42	
+R6	DATE_TAKES_PLACE_ON Arg1:T38 Arg2:T41	
+T40	ORGANIZATION 1110 1117	в мэрии
+T53	FAC 1157 1164	зарядок
+T54	EVENT 1118 1173	планируют выпускать около 500 подобных зарядок ежегодно
+R7	TAKES_PLACE_IN Arg1:T54 Arg2:T40	

@@ -1,0 +1,38 @@
+T0	PRODUCT 25 33	гранатой
+T1	CITY 36 39	Уфе
+T2	PROFESSION 40 54	военнослужащий
+T3	PROFESSION 81 93	губернатором
+T4	CITY 94 107	Башкортостана
+T5	REGION 94 107	Башкортостана
+T6	COUNTRY 94 107	Башкортостана
+T7	PERSON 108 124	Радием Хабировым
+T8	EVENT 125 132	военный
+T9	PRODUCT 159 167	гранатой
+T10	ORGANIZATION 195 211	РБК Башкортостан
+T11	NEWS_SOURCE 185 212	сообщает «РБК Башкортостан»
+T12	EVENT 214 222	Взрывное
+T13	GROUP 243 265	сотрудникам Росгвардии
+T14	EVENT 290 301	переговоров
+T15	PROFESSION 304 328	руководителем республики
+T16	ORGANIZATION 332 344	пресс-службе
+T17	PROFESSION 345 350	главы
+T18	NEWS_SOURCE 330 370	В пресс-службе главы региона подтвердили
+T19	PERSON 376 383	Хабиров
+T20	PROFESSION 415 429	военнослужащий
+T21	NEWS_SOURCE 435 457	ранее сообщало издание
+T22	NEWS_SOURCE 459 466	мужчина
+T23	PERSON 476 486	Нагаевское
+T24	FAC 487 492	шоссе
+T25	PRODUCT 521 528	гранату
+T26	EVENT 559 567	Движение
+T27	GROUP 597 605	силовики
+T28	NEWS_SOURCE 631 645	По данным Baza
+T29	DATE 647 661	мужчине 39 лет
+T30	FAC 762 767	канал
+T31	PRODUCT 861 869	гранатой
+T32	ORGANIZATION 934 937	rbc
+T33	CARDINAL 960 984	64ca30039a79475e205d519e
+T34	DATE 998 1002	2023
+T35	CARDINAL 1003 1005	13
+T36	CARDINAL 1006 1008	58
+T37	CARDINAL 1009 1013	21 +

@@ -1,0 +1,71 @@
+T0	COUNTRY 2 10	Эквадоре
+T1	CRIME 17 25	убийства
+T2	GROUP 26 35	кандидата
+T3	PROFESSION 38 48	президенты
+T4	PROFESSION 65 74	Президент
+T5	COUNTRY 75 83	Эквадора
+T6	ORGANIZATION 84 92	Гильермо
+T7	PERSON 93 98	Лассо
+T8	DATE 153 163	на 60 дней
+T9	NEWS_SOURCE 166 173	объявил
+T10	DATE 174 185	трехдневный
+T11	LAW 174 191	трехдневный траур
+T12	CRIME 198 216	убийства кандидата
+T13	EVENT 219 229	президенты
+T14	NEWS_SOURCE 230 252	Фернандо Вильявисенсио
+T15	NEWS_SOURCE 254 281	сообщила газета El Universo
+T16	ORGANIZATION 270 281	El Universo
+T17	PROFESSION 283 299	Глава республики
+T18	ORGANIZATION 328 344	вооруженные силы
+T19	EVENT 372 384	Национальный
+T20	DATE 400 418	с 10 по 12 августа
+T21	FAC 482 503	государственные флаги
+T22	EVENT 505 517	Даты выборов
+T23	COUNTRY 520 528	Эквадоре
+T24	NEWS_SOURCE 553 567	сообщила глава
+T25	PROFESSION 562 567	глава
+T26	ORGANIZATION 568 603	Национального избирательного совета
+T27	NEWS_SOURCE 604 617	Диана Атамант
+T28	PERSON 604 617	Диана Атамант
+T29	DATE 641 666	в воскресенье, 20 августа
+T30	PERSON 668 675	Атамант
+T31	NEWS_SOURCE 668 687	Атамант подчеркнула
+T32	ORGANIZATION 693 709	вооруженные силы
+T33	CARDINAL 777 781	Пять
+T34	ORDINAL 777 781	Пять
+T35	CARDINAL 785 789	семи
+T36	PROFESSION 790 800	кандидатов
+T37	GROUP 790 800	кандидатов
+T38	EVENT 803 813	президенты
+T39	COUNTRY 814 822	Эквадора
+T40	CRIME 867 875	убийства
+T41	PERSON 876 889	Вильявисенсио
+T42	PROFESSION 904 914	президенты
+T43	EVENT 904 914	президенты
+T44	EVENT 932 953	предвыборного митинга
+T45	PERSON 956 960	Кито
+T46	CARDINAL 961 968	вечером
+T47	DATE 969 978	9 августа
+T48	PROFESSION 980 997	Глава государства
+T49	ORGANIZATION 1070 1081	El Universo
+T50	NEWS_SOURCE 1084 1109	По данным издания Expreso
+T51	ORGANIZATION 1102 1109	Expreso
+T52	NEWS_SOURCE 1111 1124	Вильявисенсио
+T53	PERSON 1111 1124	Вильявисенсио
+T54	GROUP 1180 1188	полицией
+T55	DATE 1190 1211	За неделю до убийства
+T56	CRIME 1203 1211	убийства
+T57	PROFESSION 1212 1219	политик
+T58	NEWS_SOURCE 1203 1227	убийства политик сообщал
+T59	ORGANIZATION 1248 1271	Генеральной прокуратуре
+T60	NEWS_SOURCE 1272 1287	страны сообщили
+T61	GROUP 1293 1301	силовики
+T62	ORGANIZATION 1372 1383	прокуратуру
+T63	CARDINAL 1456 1485	64d48d459a7947875a9ca7d9
+
+Thu
+T64	CARDINAL 1487 1489	10
+T65	CURRENCY 1494 1498	2023
+T66	CARDINAL 1499 1501	11
+T67	CARDINAL 1502 1504	39
+T68	CARDINAL 1505 1509	48 +

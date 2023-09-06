@@ -1,0 +1,53 @@
+T1	QUANTITY 59 63	один
+T3	NEWS_SOURCE 73 98	По предварительным данным
+T5	CITY 141 146	Сисак
+T6	GPE 149 160	центральной
+T7	COUNTRY 161 169	Хорватии
+T8	QUANTITY 198 202	один
+T16	QUANTITY 337 343	четыре
+T17	CITY 431 436	Сисак
+T18	QUANTITY 563 567	двум
+T19	GROUP 568 573	людям
+T22	NEWS_SOURCE 664 682	сообщает телеканал
+T23	ORGANIZATION 698 706	Vecernji
+T24	NEWS_SOURCE 684 711	По информации Vecernji list
+T27	CITY 777 783	Сисака
+T29	QUANTITY 860 866	восемь
+T30	FAC 901 930	нефтеперерабатывающего завода
+T2	EVENT 876 884	Стрельба
+R1	TAKES_PLACE_IN Arg1:T2 Arg2:T30	
+T31	COUNTRY 0 10	В Хорватии
+T32	CRIME 21 41	устроившего стрельбу
+T33	PENALTY 11 41	задержали устроившего стрельбу
+R2	TAKES_PLACE_IN Arg1:T33 Arg2:T31	
+R3	TAKES_PLACE_IN Arg1:T32 Arg2:T31	
+T4	CRIME 109 131	связанный со стрельбой
+R4	TAKES_PLACE_IN Arg1:T4 Arg2:T5	
+R5	OWNERSHIP Arg1:T7 Arg2:T5	
+R6	TAKES_PLACE_IN Arg1:T4 Arg2:T7	
+T34	QUANTITY 228 235	четверо
+T10	ORGANIZATION 283 295	телеканал N1
+T11	NEWS_SOURCE 274 295	передает телеканал N1
+T12	EVENT 192 210	погиб один человек
+T35	EVENT 213 235	пострадали еще четверо
+R7	TAKES_PLACE_IN Arg1:T12 Arg2:T7	
+R8	TAKES_PLACE_IN Arg1:T35 Arg2:T7	
+T9	ORGANIZATION 256 272	окружная полиция
+T36	NEWS_SOURCE 247 295	сообщила окружная полиция, передает телеканал N1
+T13	AGE 318 327	45-летняя
+T14	DISEASE 353 369	получили ранения
+T15	EVENT 297 335	При стрельбе погибла 45-летняя женщина
+T37	EVENT 337 369	четыре человека получили ранения
+R9	TAKES_PLACE_IN Arg1:T15 Arg2:T17	
+R10	TAKES_PLACE_IN Arg1:T37 Arg2:T17	
+T38	FAC 405 415	в больнице
+R11	HEADQUARTERED_IN Arg1:T38 Arg2:T17	
+T39	DISEASE 477 493	серьезные травмы
+T40	DISEASE 495 513	Легкие повреждения
+T41	PROFESSION 522 530	пожарный
+T20	DISEASE 619 632	легкие травмы
+T21	WEAPON 741 761	автомата Калашникова
+T25	ORGANIZATION 801 809	полицией
+T26	ORGANIZATION 833 840	спецназ
+T28	CRIME 713 761	неизвестный открыл огонь из автомата Калашникова
+R12	TAKES_PLACE_IN Arg1:T28 Arg2:T27	

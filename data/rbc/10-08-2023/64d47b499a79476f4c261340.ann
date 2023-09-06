@@ -1,0 +1,46 @@
+T1	QUANTITY 9 13	трое
+T3	PRODUCT 48 63	электросамоката
+T5	PRODUCT 101 116	электросамоката
+T6	CARDINAL 119 124	одной
+T7	ORGANIZATION 174 177	МЧС
+T8	NEWS_SOURCE 147 184	сообщили в телеграм-канале МЧС России
+T9	COUNTRY 178 184	России
+T10	AGE 192 199	четырех
+T11	AGE 202 212	девяти лет
+T12	AGE 222 234	семимесячный
+T14	NEWS_SOURCE 299 320	говорится в сообщении
+T17	CITY 409 421	Красногорске
+T18	NEWS_SOURCE 466 480	сообщили в МЧС
+T19	ORGANIZATION 477 480	МЧС
+T25	GROUP 610 622	пострадавших
+T27	QUANTITY 663 665	70
+T31	CITY 0 8	В Москве
+T24	ORGANIZATION 572 586	В министерстве
+T28	NEWS_SOURCE 572 595	В министерстве добавили
+T26	QUANTITY 636 640	пять
+T22	CARDINAL 538 545	6 кв. м
+T23	GROUP 14 19	детей
+T2	EVENT 9 63	трое детей пострадали из-за возгорания электросамоката
+R1	TAKES_PLACE_IN Arg1:T2 Arg2:T31	
+T4	QUANTITY 65 69	Трое
+T29	GROUP 70 75	детей
+T30	FAC 128 145	столичных квартир
+T32	EVENT 65 116	Трое детей пострадали от возгорания электросамоката
+R2	TAKES_PLACE_IN Arg1:T32 Arg2:T30	
+R3	HEADQUARTERED_IN Arg1:T30 Arg2:T31	
+R4	HEADQUARTERED_IN Arg1:T7 Arg2:T9	
+T33	GROUP 187 191	Дети
+T13	DISEASE 259 294	с ожогами верхних дыхательных путей
+T34	EVENT 187 294	Дети четырех и девяти лет, а также семимесячный малыш госпитализированы с ожогами верхних дыхательных путей
+T35	EVENT 330 336	пожара
+T15	FAC 337 361	в трехкомнатной квартире
+T16	CARDINAL 375 383	1 кв. м.
+T36	REGION 394 408	в подмосковном
+R5	OWNERSHIP Arg1:T36 Arg2:T17	
+T37	EVENT 422 437	произошел пожар
+T38	FAC 438 460	в многоквартирном доме
+R6	TAKES_PLACE_IN Arg1:T35 Arg2:T15	
+R7	TAKES_PLACE_IN Arg1:T37 Arg2:T38	
+R8	TAKES_PLACE_IN Arg1:T37 Arg2:T17	
+R9	TAKES_PLACE_IN Arg1:T37 Arg2:T36	
+T20	TIME 511 522	в 14:03 мск

@@ -1,0 +1,53 @@
+T0	CITY 2 15	Екатеринбурге
+T1	ORGANIZATION 32 55	Уральского университета
+T2	NEWS_SOURCE 43 55	университета
+T3	ORGANIZATION 59 68	Габона
+
+В
+T4	CITY 69 82	Екатеринбурге
+T5	CARDINAL 89 91	32
+T6	PERSON 100 109	аспиранта
+T7	ORGANIZATION 110 146	Уральского федерального университета
+T8	PERSON 147 166	Франсуа Нджелассили
+T9	ORGANIZATION 155 166	Нджелассили
+T10	PERSON 170 176	Габона
+T11	ORGANIZATION 178 196	Центральная Африка
+T12	ORGANIZATION 216 231	КП-Екатеринбург
+T13	NEWS_SOURCE 199 232	сообщила газета «КП-Екатеринбург»
+T14	ORGANIZATION 236 253	пресс-службе УрФУ
+T15	NEWS_SOURCE 234 269	В пресс-службе УрФУ подтвердили РБК
+T16	ORGANIZATION 266 269	РБК
+T17	NEWS_SOURCE 277 288	Нджелассили
+T18	ORGANIZATION 277 288	Нджелассили
+T19	NEWS_SOURCE 290 307	По данным издания
+T20	NEWS_SOURCE 309 320	Нджелассили
+T21	ORGANIZATION 309 320	Нджелассили
+T22	CITY 353 365	Бургер Кинге
+T23	NEWS_SOURCE 376 384	Малышева
+T24	PERSON 376 384	Малышева
+T25	NEWS_SOURCE 452 471	сказал источник «КП
+T26	ORGANIZATION 469 471	КП
+T27	ORGANIZATION 472 484	Екатеринбург
+T28	NEWS_SOURCE 472 485	Екатеринбург»
+T29	ORGANIZATION 488 502	Ведомости Урал
+T30	NEWS_SOURCE 487 510	«Ведомости Урал» пишут,
+T31	ORGANIZATION 515 526	Нджелассили
+T32	CARDINAL 562 567	двумя
+T33	FAC 631 636	кассе
+T34	CARDINAL 638 642	Один
+T35	GROUP 646 656	участников
+T36	ORGANIZATION 686 697	Нджелассили
+T37	PRODUCT 717 722	грудь
+T38	PRODUCT 725 730	живот
+T39	EVENT 789 801	свердловском
+T40	ORGANIZATION 802 835	управлении Следственного комитета
+T41	NEWS_SOURCE 882 887	сайта
+T42	ORGANIZATION 888 892	УрФУ
+T43	ORGANIZATION 894 905	Нджелассили
+T44	EVENT 959 977	природопользования
+T45	ORGANIZATION 978 1010	Института экономики и управления
+T46	CARDINAL 1044 1068	64df9e9c9a7947c08928b5f5
+T47	CARDINAL 1075 1077	18
+T48	DATE 1082 1086	2023
+T49	CARDINAL 1087 1089	20
+T50	CARDINAL 1090 1092	01

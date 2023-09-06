@@ -1,0 +1,32 @@
+T0	GROUP 0 9	Подросток
+T1	REGION 22 35	нижегородском
+T2	EVENT 36 50	детском лагере
+T3	ORDINAL 59 75	Тринадцатилетний
+T4	FAC 112 118	лагере
+T5	REGION 121 142	Нижегородской области
+T6	FAC 178 186	больнице
+T7	NEWS_SOURCE 196 242	говорится на сайте регионального управления СК
+T8	ORGANIZATION 229 242	управления СК
+T9	NEWS_SOURCE 244 263	По данным следствия
+T10	FAC 281 288	детском
+T11	INVESTMENT_PROGRAM 289 304	оздоровительном
+T12	FAC 305 311	лагере
+T13	ORGANIZATION 312 324	Арзамасского
+T14	PRODUCT 412 420	больницу
+T15	CITY 421 428	Нижнего
+T16	EVENT 429 438	Новгорода
+T17	PROFESSION 471 482	Следователи
+T18	CRIME 508 510	по
+T19	CARDINAL 554 558	1 ст
+T20	COUNTRY 566 568	РФ
+T21	LAW 559 606	109 УК РФ (причинение смерти по неосторожности)
+T22	DATE 640 651	на два года
+T23	ORGANIZATION 673 676	РЕН
+T24	NEWS_SOURCE 653 679	По данным источника РЕН ТВ
+T25	PRODUCT 681 688	ребенок
+T26	ECONOMIC_SECTOR 713 721	инфекции
+T27	ORGANIZATION 759 772	Золотой колос
+T28	CARDINAL 844 868	648b22069a79474e0f7235e4
+T29	CARDINAL 875 881	15 Jun
+T30	CARDINAL 887 889	18
+T31	CARDINAL 893 897	39 +

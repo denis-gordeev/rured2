@@ -1,0 +1,30 @@
+T0	ORGANIZATION 0 10	Минобороны
+T4	ORGANIZATION 171 186	вооруженных сил
+T6	ORGANIZATION 218 228	Минобороны
+T9	NEWS_SOURCE 446 467	говорится в сообщении
+T14	COUNTRY 554 564	российские
+T15	ORGANIZATION 565 581	вооруженные силы
+T16	DATE 607 615	1 апреля
+T17	DATE 629 636	15 июля
+T21	PROFESSION 689 703	Военнослужащие
+T18	QUANTITY 671 679	147 тыс.
+T1	GROUP 20 34	зарубежные СМИ
+T2	EVENT 53 68	весенний призыв
+R1	ORGANIZES Arg1:T0 Arg2:T2	
+T3	EVENT 70 85	Весенний призыв
+T19	EVENT 119 154	попытки срыва призывных мероприятий
+R2	ORGANIZES Arg1:T1 Arg2:T19	
+T5	NEWS_SOURCE 196 228	говорится в сообщении Минобороны
+T7	ORGANIZATION 277 298	военных комиссариатов
+T20	PROFESSION 265 276	сотрудников
+R3	WORKPLACE Arg1:T20 Arg2:T7	
+T8	GROUP 403 441	зарубежных средств массовой информации
+T10	ORGANIZATION 470 482	В Минобороны
+T11	NEWS_SOURCE 470 490	В Минобороны заявили
+T12	GROUP 496 510	зарубежные СМИ
+R4	OWNERSHIP Arg1:T14 Arg2:T15	
+T13	EVENT 511 534	пытались сорвать призыв
+R5	ORGANIZES Arg1:T12 Arg2:T13	
+T22	EVENT 583 598	Весенний призыв
+R6	DATE_TAKES_PLACE_ON Arg1:T22 Arg2:T16	
+R7	DATE_TAKES_PLACE_ON Arg1:T22 Arg2:T17	

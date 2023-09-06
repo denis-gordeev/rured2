@@ -1,0 +1,35 @@
+T0	ORGANIZATION 0 9	OceanGate
+T1	GROUP 29 43	членов экипажа
+T2	COUNTRY 55 64	батискафа
+T3	GROUP 66 79	Члены экипажа
+T4	GROUP 82 91	пассажиры
+T5	PRODUCT 92 101	батискафа
+T6	FAC 102 109	«Титан»
+T7	FAC 128 149	затонувшему «Титанику
+T8	DATE 184 204	несколько дней назад
+T9	ORGANIZATION 236 255	заявлении OceanGate
+T10	ORGANIZATION 257 265	компании
+T11	ORGANIZATION 276 281	судна
+T12	NEWS_SOURCE 291 303	сообщает CNN
+T13	NEWS_SOURCE 311 328	телеканал сообщил
+T14	GROUP 334 343	спасатели
+T15	REGION 364 377	Атлантическом
+T16	LOCATION 364 377	Атлантическом
+T17	FAC 364 417	Атлантическом океане обломки частями корпуса «Титана»
+T18	COUNTRY 436 439	США
+T19	NEWS_SOURCE 440 454	ранее сообщила
+T20	FAC 504 514	Титаником»
+T21	NEWS_SOURCE 520 538	отмечает телеканал
+T22	CARDINAL 563 575	в 500 метрах
+T23	FAC 579 586	носовой
+T24	PRODUCT 587 592	части
+T25	FAC 593 604	затонувшего
+T26	FAC 648 673	морского дна дистанционно
+T27	ECONOMIC_SECTOR 674 697	управляемый беспилотник
+T28	CARDINAL 748 750	22
+T29	PERCENT 759 783	649498159a79474ac3438c6a
+T30	CARDINAL 759 783	649498159a79474ac3438c6a
+T31	DATE 790 801	22 Jun 2023
+T32	CARDINAL 802 804	22
+T33	CARDINAL 805 807	00
+T34	CARDINAL 808 812	39 +

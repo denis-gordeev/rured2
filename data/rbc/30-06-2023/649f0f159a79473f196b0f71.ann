@@ -1,0 +1,51 @@
+T3	BOROUGH 72 83	Савеловский
+T4	ORGANIZATION 84 96	районный суд
+T5	CITY 97 103	Москвы
+T8	ORGANIZATION 174 195	столичная прокуратура
+T17	LOCATION 340 357	на севере столицы
+T21	ORGANIZATION 410 412	СК
+T26	AGE 459 473	десять месяцев
+T27	NEWS_SOURCE 475 486	Канал пишет
+T28	FAMILY 529 533	жена
+T29	ORGANIZATION 595 602	полицию
+T30	PROFESSION 617 628	полицейские
+T31	DATE 653 682	Несколько месяцев в этом году
+T32	FAC 701 725	психиатрической больнице
+T34	ORGANIZATION 738 742	Mash
+T40	CITY 0 10	Московский
+T41	ORGANIZATION 11 14	суд
+R1	HEADQUARTERED_IN Arg1:T41 Arg2:T40	
+T42	FAMILY 25 29	мать
+T1	AGE 50 62	10-месячного
+T2	FAMILY 63 70	ребенка
+T35	CRIME 41 49	убийстве
+T43	PENALTY 15 29	арестовал мать
+R2	HEADQUARTERED_IN Arg1:T4 Arg2:T5	
+T6	AGE 114 123	23-летнюю
+T44	FAMILY 156 163	ребенка
+T45	NEWS_SOURCE 165 195	сообщила столичная прокуратура
+T46	PENALTY 72 131	Савеловский районный суд Москвы арестовал 23-летнюю женщину
+T7	CRIME 145 163	в убийстве ребенка
+R3	TAKES_PLACE_IN Arg1:T7 Arg2:T5	
+T9	CARDINAL 286 295	до 20 лет
+T10	CRIME 253 273	убийство малолетнего
+T12	PENALTY 279 311	грозит до 20 лет лишения свободы
+T13	FAMILY 197 203	Матери
+T11	LAW 229 251	п. «в» ч. 2 ст. 105 УК
+T14	FAC 329 339	в квартире
+T15	CRIME 358 392	теле младенца с ножевыми ранениями
+T16	NEWS_SOURCE 402 412	сообщил СК
+R4	TAKES_PLACE_IN Arg1:T15 Arg2:T14	
+T18	NEWS_SOURCE 727 742	утверждает Mash
+T19	EVENT 683 725	женщина провела в психиатрической больнице
+R5	DATE_TAKES_PLACE_ON Arg1:T19 Arg2:T31	
+T20	ORGANIZATION 424 444	телеграм-канала Mash
+T22	NEWS_SOURCE 414 444	По данным телеграм-канала Mash
+T23	FAMILY 499 503	отец
+T24	FAMILY 504 511	ребенка
+T25	CRIME 529 556	жена напала на него с ножом
+T33	FAC 575 585	в квартире
+T36	EVENT 606 650	приехавшие полицейские нашли убитого ребенка
+R6	TAKES_PLACE_IN Arg1:T36 Arg2:T33	
+T37	CRIME 635 650	убитого ребенка
+R7	TAKES_PLACE_IN Arg1:T37 Arg2:T33	

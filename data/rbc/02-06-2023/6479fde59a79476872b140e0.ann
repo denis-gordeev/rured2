@@ -1,0 +1,61 @@
+T0	GROUP 0 7	Жителей
+T1	CITY 8 16	Шебекино
+T2	GROUP 29 71	студенческих общежитиях Белгорода
+
+Жителей
+T3	CITY 72 80	Шебекино
+T4	FAC 93 116	студенческих общежитиях
+T5	CITY 117 126	Белгорода
+T6	PROFESSION 136 146	губернатор
+T10	PERSON 168 184	Вячеслав Гладков
+T12	ORGANIZATION 195 208	«РИА Новости»
+T13	DATE 220 238	до конца этого дня
+T14	NEWS_SOURCE 255 276	По словам губернатора
+T15	PROFESSION 265 276	губернатора
+T16	CITY 280 288	Белгород
+T17	CITY 291 303	Старый Оскол
+T20	GROUP 327 334	жителей
+T21	CITY 335 343	Шебекино
+T24	DATE 406 421	в последние дни
+T25	DATE 423 432	1 июня по
+T27	CARDINAL 454 457	850
+T28	WEAPON 468 479	боеприпасов
+T29	GROUP 482 488	Власти
+T31	ORDINAL 524 530	первую
+T32	REGION 608 619	Воронежской
+T33	REGION 621 628	Томской
+T34	REGION 630 640	Пензенской
+T35	REGION 642 662	Ярославской областях
+T37	GROUP 688 695	жителей
+T38	CITY 736 745	Белгороде
+T44	FAC 27 52	в студенческих общежитиях
+T45	CITY 53 62	Белгорода
+R1	USES Arg1:T0 Arg2:T44	
+R2	ORIGINS_FROM Arg1:T0 Arg2:T1	
+R3	HEADQUARTERED_IN Arg1:T44 Arg2:T45	
+T39	GROUP 64 71	Жителей
+T7	REGION 147 167	Белгородской области
+R4	WORKS_AS Arg1:T10 Arg2:T6	
+R5	WORKPLACE Arg1:T10 Arg2:T7	
+T8	NEWS_SOURCE 128 208	сообщил губернатор Белгородской области Вячеслав Гладков, передает «РИА Новости»
+R6	HEADQUARTERED_IN Arg1:T4 Arg2:T5	
+R7	ORIGINS_FROM Arg1:T39 Arg2:T3	
+R8	USES Arg1:T39 Arg2:T4	
+T9	NEWS_SOURCE 243 253	добавил он
+T11	QUANTITY 312 326	более 2,5 тыс.
+R9	ORIGINS_FROM Arg1:T20 Arg2:T21	
+T18	EVENT 345 353	Обстрелы
+T19	CITY 354 362	Шебекино
+T22	CITY 365 395	Шебекинского городского округа
+R10	TAKES_PLACE_IN Arg1:T18 Arg2:T19	
+R11	TAKES_PLACE_IN Arg1:T18 Arg2:T22	
+R12	DATE_TAKES_PLACE_ON Arg1:T18 Arg2:T24	
+T23	EVENT 498 520	добровольную эвакуацию
+R13	TAKES_PLACE_IN Arg1:T23 Arg2:T19	
+R14	TAKES_PLACE_IN Arg1:T23 Arg2:T22	
+T26	GROUP 566 581	семьям с детьми
+R15	EVENT_TAKES_PART_IN Arg1:T26 Arg2:T23	
+R16	ORGANIZES Arg1:T29 Arg2:T23	
+T30	FAC 702 733	в пунктах временного размещения
+R17	USES Arg1:T37 Arg2:T30	
+R18	HEADQUARTERED_IN Arg1:T30 Arg2:T38	

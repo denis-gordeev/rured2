@@ -1,0 +1,37 @@
+T0	PERSON 0 7	Гладков
+T1	ECONOMIC_SECTOR 37 48	взрывчатках
+T2	REGION 51 71	Белгородской области
+T3	REGION 75 79	селе
+T4	ORGANIZATION 80 92	Новопетровка
+T5	CITY 93 103	Валуйского
+T6	ORGANIZATION 104 114	городского
+T7	REGION 115 142	округа Белгородской области
+T8	FAC 145 157	беспилотника
+T9	CARDINAL 167 170	три
+T10	NEWS_SOURCE 192 210	сообщил губернатор
+T11	PROFESSION 200 210	губернатор
+T12	NEWS_SOURCE 219 235	Вячеслав Гладков
+T13	PERSON 219 235	Вячеслав Гладков
+T14	CARDINAL 267 271	один
+T15	PRODUCT 279 291	автомобиль с
+T16	ECONOMIC_SECTOR 292 300	прицепом
+T17	PRODUCT 303 310	трактор
+T18	FAC 328 336	телеграм
+T19	LAW 337 343	канале
+T20	EVENT 366 374	операции
+T21	COUNTRY 378 385	Украине
+T22	REGION 386 406	Белгородская область
+T23	FAC 452 458	дронов
+T24	DATE 460 478	В последние недели
+T25	REGION 488 508	Белгородской области
+T26	PERSON 552 563	Шебекинский
+T27	ORGANIZATION 564 579	городской округ
+T28	ECONOMIC_SECTOR 595 602	обстрел
+T29	PERSON 615 635	Тишанка Волоконского
+T30	FAC 686 701	электропередачи
+T31	PRODUCT 743 749	желтый
+T32	DATE 789 798	в октябре
+T33	PERCENT 902 904	18
+T34	CARDINAL 902 908	18 Jun
+T35	MONEY 909 913	2023
+T36	CARDINAL 917 919	10

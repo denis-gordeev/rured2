@@ -1,0 +1,54 @@
+T0	PERSON 0 7	Пушилин
+T1	NEWS_SOURCE 8 15	сообщил
+T2	ORGANIZATION 27 30	ВСУ
+T3	ORGANIZATION 42 55	линию обороны
+T4	NEWS_SOURCE 59 62	ДНР
+T5	COUNTRY 59 74	ДНР
+
+Украинские
+T6	PROFESSION 75 82	военные
+T7	COUNTRY 120 128	Донецкой
+T8	NEWS_SOURCE 129 137	народной
+T9	ORGANIZATION 138 148	республике
+T10	COUNTRY 171 182	российскими
+T11	ORGANIZATION 210 222	РИА Новости»
+T12	PROFESSION 223 233	врио главы
+T13	COUNTRY 234 237	ДНР
+T14	NEWS_SOURCE 191 251	заявил в интервью «РИА Новости» врио главы ДНР Денис Пушилин
+T15	PERSON 238 251	Денис Пушилин
+T16	FAC 268 279	Вооруженные
+T17	ORGANIZATION 280 284	силы
+T18	COUNTRY 285 292	Украины
+T19	PRODUCT 307 312	танки
+T20	FAC 307 312	танки
+T21	ECONOMIC_SECTOR 313 320	Leopard
+T22	PRODUCT 322 330	самолеты
+T23	FAC 322 330	самолеты
+T24	PRODUCT 333 342	вертолеты
+T25	ORGANIZATION 346 359	Подразделения
+T26	FAC 440 455	артиллерийскими
+T27	GROUP 440 471	артиллерийскими подразделениями
+T28	CITY 535 540	моему
+T29	GROUP 580 590	противника
+T30	NEWS_SOURCE 595 609	сказал Пушилин
+T31	DATE 668 674	5 июня
+T32	PROFESSION 675 684	президент
+T33	COUNTRY 685 692	Украины
+T34	PERSON 693 711	Владимир Зеленский
+T35	NEWS_SOURCE 685 718	Украины Владимир Зеленский заявил
+T36	COUNTRY 760 770	российское
+T37	COUNTRY 780 787	Бахмута
+T38	PERSON 790 799	Артемовск
+T39	PERSON 811 818	Пушилин
+T40	NEWS_SOURCE 811 826	Пушилин сообщал
+T41	PERSON 849 858	Артемовск
+T42	DATE 942 959	На следующий день
+T43	ORGANIZATION 960 977	Минобороны России
+T44	COUNTRY 971 977	России
+T45	CARDINAL 1002 1009	четырех
+T46	COUNTRY 1030 1040	украинских
+T47	EVENT 1041 1051	войск близ
+T48	PERSON 1052 1062	Артемовска
+T49	PRODUCT 1130 1133	Jun
+T50	CARDINAL 1134 1138	2023
+T51	DATE 1142 1144	25

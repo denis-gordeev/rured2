@@ -1,0 +1,81 @@
+T0	COUNTRY 0 11	Нигерийские
+T1	CARDINAL 44 51	четырех
+T2	PROFESSION 52 58	послов
+T3	GROUP 67 76	Мятежники
+T6	CARDINAL 125 132	четырех
+T7	PROFESSION 133 139	послов
+T8	NEWS_SOURCE 159 176	передает France24
+T9	ORGANIZATION 168 176	France24
+T10	PROFESSION 200 210	дипломатов
+T11	COUNTRY 214 221	Франции
+T12	COUNTRY 223 230	Нигерии
+T13	COUNTRY 232 236	Того
+T14	COUNTRY 239 242	США
+T15	COUNTRY 300 308	Францией
+T21	PROFESSION 377 384	военные
+T29	ORGANIZATION 575 581	ЭКОВАС
+T31	COUNTRY 615 621	Нигере
+T32	DATE 622 634	в конце июля
+T36	PERSON 727 743	Абдурахман Чиани
+T38	GROUP 785 794	Мятежники
+T40	ORGANIZATION 847 855	Евросоюз
+T41	ORGANIZATION 857 860	ООН
+T42	COUNTRY 862 865	США
+T45	GROUP 902 912	мятежников
+T46	ORGANIZATION 914 917	МИД
+T47	COUNTRY 918 924	России
+T49	PROFESSION 999 1009	президента
+T50	COUNTRY 1010 1016	Нигера
+T52	GPE 1031 1046	Западной Африки
+T53	GROUP 1065 1071	войска
+T54	PROFESSION 1078 1085	военные
+T56	PERSON 1096 1102	Базума
+T60	COUNTRY 1137 1141	Мали
+T64	GROUP 12 21	мятежники
+R1	ORIGINS_FROM Arg1:T64 Arg2:T0	
+T65	EVENT 12 65	мятежники отозвали полномочия у четырех послов страны
+R2	TAKES_PLACE_IN Arg1:T65 Arg2:T0	
+T4	COUNTRY 97 105	в Нигере
+R3	ORIGINS_FROM Arg1:T3 Arg2:T4	
+T5	EVENT 107 157	лишили полномочий четырех послов страны за рубежом
+R4	ORGANIZES Arg1:T3 Arg2:T5	
+R5	TAKES_PLACE_IN Arg1:T5 Arg2:T4	
+R6	WORKPLACE Arg1:T10 Arg2:T11	
+R7	WORKPLACE Arg1:T10 Arg2:T12	
+R8	WORKPLACE Arg1:T10 Arg2:T13	
+R9	WORKPLACE Arg1:T10 Arg2:T14	
+T59	COUNTRY 1122 1134	Буркина-Фасо
+T51	PROFESSION 1018 1030	Лидеры стран
+R10	WORKPLACE Arg1:T51 Arg2:T52	
+T55	EVENT 1047 1111	пригрозили ввести войска, если военные не вернут Базума к власти
+R11	TAKES_PLACE_IN Arg1:T55 Arg2:T52	
+T16	GROUP 256 265	мятежники
+T17	EVENT 266 341	заявили о денонсации соглашений с Францией в области безопасности и обороны
+R12	ORGANIZES Arg1:T16 Arg2:T17	
+T18	NEWS_SOURCE 343 376	В эфире национального телевидения
+T19	EVENT 418 431	госпереворота
+T20	ORGANIZATION 518 573	Экономического сообщества западноафриканских государств
+R13	ABBREVIATION Arg1:T20 Arg2:T29	
+T22	EVENT 585 602	Военный переворот
+R14	TAKES_PLACE_IN Arg1:T22 Arg2:T31	
+R15	DATE_TAKES_PLACE_ON Arg1:T22 Arg2:T32	
+T23	PROFESSION 636 643	Военные
+T24	PERSON 663 678	Мохамеда Базума
+T25	PROFESSION 652 662	президента
+R16	WORKS_AS Arg1:T24 Arg2:T25	
+T26	EVENT 636 678	Военные свергли президента Мохамеда Базума
+T27	PROFESSION 691 726	глава президентской гвардии генерал
+R17	WORKS_AS Arg1:T36 Arg2:T27	
+T28	PROFESSION 759 783	новым главой государства
+R18	WORKS_AS Arg1:T36 Arg2:T28	
+T30	EVENT 795 845	закрыли границы и ввели в стране комендантский час
+R19	ORGANIZES Arg1:T38 Arg2:T30	
+T33	ORGANIZATION 868 884	Африканский союз
+T34	EVENT 885 912	осудили действия мятежников
+R20	EVENT_TAKES_PART_IN Arg1:T40 Arg2:T34	
+R21	EVENT_TAKES_PART_IN Arg1:T41 Arg2:T34	
+R22	EVENT_TAKES_PART_IN Arg1:T42 Arg2:T34	
+R23	EVENT_TAKES_PART_IN Arg1:T33 Arg2:T34	
+R24	OWNERSHIP Arg1:T47 Arg2:T46	
+T35	EVENT 925 964	призвал воздержаться от применения силы
+R25	ORGANIZES Arg1:T46 Arg2:T35	

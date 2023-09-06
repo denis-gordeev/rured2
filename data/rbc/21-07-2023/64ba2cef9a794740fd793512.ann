@@ -1,0 +1,34 @@
+T0	PERSON 0 5	Новак
+T1	PRODUCT 35 41	бензин
+T3	FAC 70 73	НПЗ
+T5	PRODUCT 92 98	бензин
+T6	FAC 122 150	нефтеперерабатывающие заводы
+T9	PERSON 199 214	Александр Новак
+T11	PROFESSION 234 245	журналистам
+T12	ORGANIZATION 257 266	Интерфакс
+T13	NEWS_SOURCE 247 267	передает «Интерфакс»
+T15	DATE 284 301	в ближайшее время
+T16	FAC 306 335	нефтеперерабатывающих заводов
+T18	COMMODITY 397 404	топлива
+T20	ORGANIZATION 408 413	бирже
+T21	FAC 426 432	заводы
+T24	ORGANIZATION 610 623	правительство
+T27	NEWS_SOURCE 740 752	сказал Новак
+T28	PERSON 747 752	Новак
+T29	ORGANIZATION 782 795	правительство
+T30	ECONOMIC_SECTOR 812 834	экспорт нефтепродуктов
+T31	PRODUCT 820 834	нефтепродуктов
+T32	PERSON 836 841	Новак
+T33	NEWS_SOURCE 836 848	Новак сказал
+T34	NEWS_SOURCE 976 989	по его словам
+T35	NEWS_SOURCE 1045 1058	добавил Новак
+T36	PERSON 1053 1058	Новак
+T45	NEWS_SOURCE 0 14	Новак пообещал
+T2	PROFESSION 186 198	вице-премьер
+R1	WORKS_AS Arg1:T9 Arg2:T2	
+T4	NEWS_SOURCE 178 214	считает вице-премьер Александр Новак
+T7	NEWS_SOURCE 224 245	он заявил журналистам
+T8	NEWS_SOURCE 269 282	По его словам
+T10	NEWS_SOURCE 532 541	сказал он
+T14	NEWS_SOURCE 550 563	по его словам
+T17	DATE 669 678	в пятницу

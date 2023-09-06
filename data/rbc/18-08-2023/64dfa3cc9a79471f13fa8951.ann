@@ -1,0 +1,45 @@
+T0	GROUP 0 9	Москвичей
+T2	PRODUCT 56 65	домофонов
+T4	CITY 88 94	Москвы
+T6	GROUP 95 104	мошенники
+T7	PRODUCT 154 163	домофонов
+T15	PROFESSION 279 298	Жилищные инспекторы
+T16	PRODUCT 354 362	домофона
+T20	GROUP 672 681	мошенники
+T25	GROUP 849 858	мошенники
+T26	PRODUCT 916 925	домофонов
+T27	CRIME 949 962	мошенничества
+T28	CITY 987 997	Краснодара
+T32	CITY 1017 1027	Волгограда
+T39	CARDINAL 1117 1126	более 100
+T40	CRIME 1137 1152	о мошенничестве
+T41	PRODUCT 1188 1197	домофонов
+T43	CARDINAL 1210 1212	15
+T1	CRIME 25 66	схеме мошенничества с «заменой домофонов»
+T3	FAC 164 187	в многоквартирных домах
+T5	ORGANIZATION 196 216	управляющей компании
+T8	ORGANIZATION 235 269	Государственная жилищная инспекция
+T9	NEWS_SOURCE 226 277	сообщила Государственная жилищная инспекция столицы
+T10	ORGANIZATION 373 399	с управляющей организацией
+T11	PRODUCT 495 503	домофоны
+T12	ORGANIZATION 553 564	В инспекции
+T13	CRIME 692 727	QR-коды, ведущие на фишинговый сайт
+T14	GROUP 742 756	злоумышленники
+T17	FAC 867 877	в квартиру
+T18	PRODUCT 900 912	новых ключей
+T19	GROUP 980 986	жители
+T21	CITY 999 1015	Санкт-Петербурга
+T22	CITY 1029 1044	Ростова-на-Дону
+T23	EVENT 928 979	На аналогичную схему мошенничества также жаловались
+R1	TAKES_PLACE_IN Arg1:T23 Arg2:T28	
+R2	TAKES_PLACE_IN Arg1:T23 Arg2:T21	
+R3	TAKES_PLACE_IN Arg1:T23 Arg2:T32	
+R4	TAKES_PLACE_IN Arg1:T23 Arg2:T22	
+T24	CITY 1070 1082	в Краснодаре
+T29	DATE 1083 1096	с начала года
+T30	ORGANIZATION 1097 1106	в полицию
+R5	TAKES_PLACE_IN Arg1:T40 Arg2:T24	
+R6	DATE_TAKES_PLACE_ON Arg1:T40 Arg2:T29	
+R7	HEADQUARTERED_IN Arg1:T30 Arg2:T24	
+T31	ORGANIZATION 1237 1259	местное управление МВД
+T33	NEWS_SOURCE 1228 1259	сообщило местное управление МВД

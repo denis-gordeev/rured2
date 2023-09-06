@@ -1,0 +1,52 @@
+T0	PERSON 0 9	Лукашенко
+T2	NORP 18 27	украинцам
+T4	PROFESSION 60 69	Президент
+T5	COUNTRY 70 80	Белоруссии
+T6	PERSON 81 100	Александр Лукашенко
+T7	COUNTRY 121 131	украинский
+T14	COUNTRY 309 321	белорусского
+T17	CARDINAL 383 386	обе
+T19	COUNTRY 645 656	Белорусская
+T21	DATE 784 794	24 августа
+T22	COUNTRY 795 802	Украина
+T26	DATE 946 957	В этом году
+T27	EVENT 958 964	запрет
+T29	REGION 980 992	Николаевской
+T31	REGION 994 1004	Полтавской
+T32	REGION 1006 1020	Кировоградской
+T33	REGION 1022 1043	Черниговской областей
+T37	DATE 1078 1092	В прошлом году
+T38	PERSON 1093 1102	Лукашенко
+T39	NORP 1115 1124	украинцев
+T41	NORP 1155 1164	украинцам
+T42	GROUP 1393 1401	народами
+T43	CARDINAL 1402 1406	двух
+T44	COUNTRY 1415 1426	Белорусский
+T45	PROFESSION 1427 1436	президент
+T46	NEWS_SOURCE 1415 1450	Белорусский президент тогда говорил
+T47	GPE 1456 1461	Минск
+R1	WORKPLACE Arg1:T6 Arg2:T5	
+R2	WORKS_AS Arg1:T6 Arg2:T4	
+T1	EVENT 139 159	с Днем независимости
+R3	TAKES_PLACE_IN Arg1:T1 Arg2:T7	
+T3	NEWS_SOURCE 277 328	говорится в публикации на сайте белорусского лидера
+T8	DATE 353 381	более трех десятилетий назад
+T9	EVENT 331 352	Получив независимость
+R4	DATE_TAKES_PLACE_ON Arg1:T9 Arg2:T8	
+T10	EVENT 812 830	День независимости
+R5	TAKES_PLACE_IN Arg1:T10 Arg2:T22	
+R6	DATE_TAKES_PLACE_ON Arg1:T10 Arg2:T21	
+T11	EVENT 863 886	образования государства
+R7	DATE_TAKES_PLACE_ON Arg1:T11 Arg2:T21	
+T12	CITY 888 895	В Киеве
+T13	DATE 896 913	второй год подряд
+T15	EVENT 915 944	апрещены массовые мероприятия
+R8	TAKES_PLACE_IN Arg1:T15 Arg2:T12	
+R9	DATE_TAKES_PLACE_ON Arg1:T15 Arg2:T13	
+T16	CITY 1045 1057	Кривого Рога
+R10	TAKES_PLACE_IN Arg1:T27 Arg2:T29	
+R11	TAKES_PLACE_IN Arg1:T27 Arg2:T31	
+R12	TAKES_PLACE_IN Arg1:T27 Arg2:T32	
+R13	TAKES_PLACE_IN Arg1:T27 Arg2:T33	
+R14	TAKES_PLACE_IN Arg1:T27 Arg2:T16	
+T18	EVENT 1125 1145	с Днем независимости

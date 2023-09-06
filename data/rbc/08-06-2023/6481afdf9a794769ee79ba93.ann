@@ -1,0 +1,34 @@
+T0	PERSON 0 5	Дроны
+T1	REGION 6 15	камикадзе
+T2	CARDINAL 26 29	два
+T3	FAC 30 34	села
+T4	REGION 37 57	Белгородской области
+T5	PERSON 59 63	Села
+T6	ECONOMIC_SECTOR 64 71	Вязовое
+T7	REGION 74 84	Староселье
+T8	CITY 87 101	Краснояружском
+T9	REGION 109 129	Белгородской области
+T10	FAC 148 154	дронов
+T11	REGION 155 164	камикадзе
+T12	PROFESSION 182 192	губернатор
+T13	NEWS_SOURCE 174 209	сообщил губернатор Вячеслав Гладков
+T14	PERSON 193 209	Вячеслав Гладков
+T15	FAC 314 318	скот
+T16	LOCATION 322 334	окраине села
+T17	PRODUCT 352 360	больницу
+T18	REGION 434 454	Белгородской области
+T19	DATE 465 483	в последние недели
+T20	PERSON 516 527	Шебекинский
+T21	ORGANIZATION 528 543	городской округ
+T22	ORDINAL 582 587	Утром
+T23	PERSON 588 595	Гладков
+T24	PERSON 611 619	Шебекино
+T25	COUNTRY 622 627	Новой
+T26	CITY 628 638	Таволжанке
+T27	DATE 639 657	за прошедшие сутки
+T28	CARDINAL 688 697	почти 400
+T29	ORGANIZATION 766 769	Thu
+T30	DATE 774 782	Jun 2023
+T31	CARDINAL 783 785	14
+T32	PERCENT 789 791	46
+T33	CARDINAL 789 793	46 +

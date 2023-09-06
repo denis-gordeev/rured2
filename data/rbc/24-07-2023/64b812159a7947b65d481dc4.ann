@@ -1,0 +1,31 @@
+T3	ECONOMIC_SECTOR 61 79	Инфографика
+
+Сборы
+T4	COUNTRY 82 92	российских
+T5	FAC 93 104	кинотеатрах
+T6	DATE 105 123	в первом полугодии
+T10	CURRENCY 143 146	руб
+T14	ORGANIZATION 225 235	Фонда кино
+T15	DATE 265 294	в тот же период прошлого года
+T18	CURRENCY 306 309	руб
+T21	CURRENCY 338 341	руб
+T7	WORK_OF_ART 13 17	кино
+T1	COUNTRY 18 26	в России
+T2	EVENT 48 59	до пандемии
+R1	HEADQUARTERED_IN Arg1:T5 Arg2:T4	
+T8	QUANTITY 133 142	23,9 млрд
+T9	WORK_OF_ART 374 391	фильм «Чебурашка»
+T16	CURRENCY 402 406	руб.
+T17	QUANTITY 393 401	6,8 млрд
+T19	QUANTITY 296 305	14,6 млрд
+T20	QUANTITY 328 337	21,8 млрд
+T22	DATE 314 326	позапрошлого
+T23	MONEY 296 310	14,6 млрд руб.
+T24	MONEY 328 342	21,8 млрд руб.
+T25	MONEY 393 406	6,8 млрд руб.
+T26	EVENT 345 407	Основную часть сборов принес фильм «Чебурашка» (6,8 млрд руб.)
+T27	MONEY 133 148	23,9 млрд руб.,
+T11	ECONOMIC_SECTOR 4 17	сборы от кино
+T12	EVENT 74 146	Сборы в российских кинотеатрах в первом полугодии достигли 23,9 млрд руб
+R2	TAKES_PLACE_IN Arg1:T12 Arg2:T4	
+R3	HEADQUARTERED_IN Arg1:T14 Arg2:T4	

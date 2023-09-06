@@ -1,0 +1,36 @@
+T0	ORDINAL 7 13	первом
+T1	COUNTRY 64 70	России
+T2	ORGANIZATION 72 79	Госдума
+T3	ORDINAL 82 88	первом
+T4	COUNTRY 147 153	России
+T5	NEWS_SOURCE 163 196	сообщается на сайте нижней палаты
+T6	ORGANIZATION 183 196	нижней палаты
+T11	AGE 507 521	с 27 до 30 лет
+T12	DATE 564 576	до 2026 года
+T14	DATE 615 626	в 2024 году
+T15	AGE 644 659	от 19 до 30 лет
+T18	ORGANIZATION 765 769	Думу
+T19	DATE 770 777	в марте
+T20	PROFESSION 813 829	министра обороны
+T21	PERSON 830 842	Сергея Шойгу
+T30	ORGANIZATION 0 4	Дума
+T31	EVENT 32 61	повышение призывного возраста
+R1	TAKES_PLACE_IN Arg1:T31 Arg2:T1	
+R2	HEADQUARTERED_IN Arg1:T30 Arg2:T1	
+T32	EVENT 5 20	в первом чтении
+R3	TAKES_PLACE_IN Arg1:T32 Arg2:T30	
+T33	EVENT 80 95	в первом чтении
+R4	TAKES_PLACE_IN Arg1:T33 Arg2:T2	
+T34	EVENT 105 144	поэтапное повышение призывного возраста
+R5	TAKES_PLACE_IN Arg1:T34 Arg2:T4	
+T7	AGE 234 249	с 18 до 21 года
+T8	NEWS_SOURCE 251 300	В пояснительной записке к законопроекту говорится
+T9	LAW 198 249	Нижний порог предлагается увеличить с 18 до 21 года
+T10	LAW 457 521	Верхний предел призывного возраста будет увеличен с 27 до 30 лет
+R6	WORKS_AS Arg1:T21 Arg2:T20	
+T13	DATE 661 672	в 2025 году
+T16	AGE 675 690	от 20 до 30 лет
+T17	DATE 694 714	с 1 января 2026 года
+T22	AGE 717 737	от 21 года до 30 лет
+T23	EVENT 739 777	Законопроект был внесен в Думу в марте
+R7	DATE_TAKES_PLACE_ON Arg1:T23 Arg2:T19	

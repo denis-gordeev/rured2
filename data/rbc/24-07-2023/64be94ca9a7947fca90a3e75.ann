@@ -1,0 +1,36 @@
+T0	PERSON 0 9	Санитарку
+T1	PERSON 12 21	Махачкале
+T2	GPE 71 80	Дагестане
+T3	ORGANIZATION 81 84	суд
+T4	GROUP 105 137	психоневрологического диспансера
+T5	GROUP 177 186	пациентом
+T6	NEWS_SOURCE 196 218	сообщает «РИА Новости»
+T7	ORGANIZATION 206 218	РИА Новости»
+T8	ORGANIZATION 233 259	пресс-службу СК по региону
+T9	PRODUCT 274 283	санитарки
+T10	ORGANIZATION 320 341	психоневрологического
+T11	GROUP 284 352	мужского отделения Республиканского психоневрологического диспансера
+T12	NEWS_SOURCE 416 443	сказал собеседник агентства
+T13	NEWS_SOURCE 454 462	соцсетях
+T14	NEWS_SOURCE 473 478	видео
+T15	PROFESSION 491 501	сотрудница
+T16	GROUP 502 512	диспансера
+T17	PERSON 515 524	Махачкале
+T18	ORDINAL 569 575	вторая
+T19	ORGANIZATION 591 598	телефон
+T20	GROUP 781 789	Минздрав
+T21	PROFESSION 869 884	Глава Дагестана
+T22	PERSON 885 899	Сергей Меликов
+T23	PROFESSION 915 922	мужчина
+T24	GROUP 982 991	санитарки
+T25	CARDINAL 1030 1034	двух
+T26	GROUP 1035 1044	санитарок
+T27	DATE 1076 1082	начало
+T28	GROUP 1093 1118	правоохранительные органы
+T29	CARDINAL 1334 1358	64be94ca9a7947fca90a3e75
+T30	ORGANIZATION 1360 1363	Mon
+T31	CARDINAL 1365 1367	24
+T32	ORGANIZATION 1368 1371	Jul
+T33	DATE 1372 1376	2023
+T34	CARDINAL 1377 1379	18
+T35	CARDINAL 1380 1382	33

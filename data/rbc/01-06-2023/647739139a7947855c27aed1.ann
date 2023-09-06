@@ -1,0 +1,34 @@
+T0	COUNTRY 2 8	России
+T1	TRADE_AGREEMENT 52 58	вейпов
+T2	PRODUCT 61 69	кальянов
+T3	DATE 71 86	Сегодня, 1 июня
+T4	ECONOMIC_SECTOR 141 148	продаже
+T5	TRADE_AGREEMENT 149 155	вейпов
+T6	ECONOMIC_SECTOR 158 166	кальянов
+T7	NEWS_SOURCE 166 210	, сообщает пресс-служба Государственной думы
+T8	ORGANIZATION 182 210	-служба Государственной думы
+T9	ECONOMIC_SECTOR 241 249	торговля
+T10	FAC 279 296	никотинсодержащей
+T11	PRODUCT 279 306	никотинсодержащей продукции
+T12	EVENT 310 318	ярмарках
+T13	NEWS_SOURCE 376 397	говорится в сообщении
+T14	FAC 401 410	магазинах
+T15	PRODUCT 463 470	кальяны
+T16	PRODUCT 496 523	никотинсодержащей продукции
+T17	PROFESSION 642 651	президент
+T18	COUNTRY 652 658	России
+T19	PERSON 659 673	Владимир Путин
+T20	DATE 683 692	28 апреля
+T21	ORGANIZATION 784 799	охране здоровья
+T22	GROUP 800 807	граждан
+T23	PRODUCT 835 849	табачного дыма
+T24	PRODUCT 875 881	табака
+T25	PRODUCT 898 925	никотинсодержащей продукции
+T26	DATE 928 941	28 апреля уже
+T27	CARDINAL 1014 1016	18
+T28	DATE 1125 1154	647739139a7947855c27aed1
+
+Thu
+T29	DATE 1156 1167	01 Jun 2023
+T30	CARDINAL 1171 1173	00
+T31	CARDINAL 1174 1178	24 +

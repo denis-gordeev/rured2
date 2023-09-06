@@ -1,0 +1,26 @@
+T0	ORGANIZATION 0 3	ОАК
+T4	ORGANIZATION 60 100	Объединенная авиастроительная корпорация
+T11	ORGANIZATION 211 221	корпорации
+T18	ORDINAL 331 338	первому
+T19	NEWS_SOURCE 350 371	говорится в сообщении
+T31	ORGANIZATION 649 652	ОАК
+T1	VEHICLE 25 58	пассажирского самолета Ил-96-400М
+T2	NEWS_SOURCE 0 17	ОАК показала фото
+R1	ABBREVIATION Arg1:T4 Arg2:T0	
+T3	NEWS_SOURCE 60 109	Объединенная авиастроительная корпорация показала
+T5	VEHICLE 124 173	модернизированный пассажирский самолет Ил-96-400М
+T6	NEWS_SOURCE 175 221	Фото опубликованы в телеграм-канале корпорации
+T7	VEHICLE 224 248	Новый опытный Ил-96-400М
+T8	VEHICLE 292 317	самолетов семейства Ил-96
+R2	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+T9	EVENT 319 345	готовится к первому полету
+R3	ORGANIZES Arg1:T11 Arg2:T9	
+T10	NEWS_SOURCE 631 652	объясняли ранее в ОАК
+T12	EVENT 373 385	Модернизация
+R4	ORGANIZES Arg1:T31 Arg2:T12	
+T13	EVENT 279 291	модернизации
+R5	ORGANIZES Arg1:T11 Arg2:T13	
+R6	SUBEVENT_OF Arg1:T13 Arg2:T9	
+T14	PRODUCT 479 497	двигателей ПС-90А1
+T15	PRODUCT 410 418	фюзеляжа
+T16	PRODUCT 500 569	отечественного пилотажно-навигационного оборудования нового поколения

@@ -1,0 +1,43 @@
+T1	CITY 40 51	Владивосток
+T2	FAC 82 91	заправкой
+T4	CITY 102 111	Хабаровск
+T6	CITY 114 125	Владивосток
+T9	REGION 184 200	Приморского края
+T13	ORGANIZATION 302 311	ведомства
+T24	VEHICLE 570 580	автомобили
+T25	CRIME 596 604	стрельбы
+T27	DATE 682 690	19 мая в
+T28	CITY 698 704	Москвы
+T30	QUANTITY 711 716	тремя
+T31	GROUP 717 726	мужчинами
+T32	QUANTITY 747 751	один
+T41	CITY 28 37	Хабаровск
+T42	FAC 6 17	с заправкой
+T43	FAC 18 51	на трассе Хабаровск — Владивосток
+T44	EVENT 52 72	мужчина открыл огонь
+R1	TAKES_PLACE_IN Arg1:T44 Arg2:T43	
+R2	TAKES_PLACE_IN Arg1:T44 Arg2:T42	
+T3	FAC 92 125	на трассе Хабаровск — Владивосток
+T5	EVENT 126 149	мужчина открыл стрельбу
+R3	TAKES_PLACE_IN Arg1:T5 Arg2:T3	
+R4	TAKES_PLACE_IN Arg1:T5 Arg2:T2	
+T7	ORGANIZATION 151 162	Прокуратура
+T8	BOROUGH 163 183	Надежнинского района
+R5	HEADQUARTERED_IN Arg1:T7 Arg2:T9	
+R6	OWNERSHIP Arg1:T9 Arg2:T8	
+T10	ORGANIZATION 284 301	в телеграм-канале
+R7	OWNERSHIP Arg1:T13 Arg2:T10	
+T11	NEWS_SOURCE 273 311	сообщается в телеграм-канале ведомства
+T12	EVENT 727 745	произошел конфликт
+T14	CRIME 759 774	открыл стрельбу
+T16	PENALTY 776 805	Стрелявшего мужчину задержали
+T29	CRIME 816 824	стрельбы
+T15	FAC 335 352	торговый павильон
+T33	CRIME 326 334	стрельбы
+T17	ORDINAL 392 400	на 721-м
+T18	FAC 404 410	трассы
+T19	EVENT 335 372	торговый павильон получил повреждения
+R8	TAKES_PLACE_IN Arg1:T33 Arg2:T18	
+T20	ORGANIZATION 524 543	телеграм-канал Shot
+T21	NEWS_SOURCE 516 543	сообщил телеграм-канал Shot
+T22	CRIME 625 680	После нескольких выстрелов мужчина скрылся в лесополосе

@@ -1,0 +1,33 @@
+T0	ORGANIZATION 1 8	Газпром
+T1	DATE 10 19	на неделю
+T2	FAC 31 45	Турецкий поток
+T3	FAC 73 83	Газопровод
+T4	FAC 85 99	Турецкий поток
+T5	NEWS_SOURCE 155 203	говорится в сообщении, опубликованном в телеграм
+T6	ORGANIZATION 212 220	Газпрома
+T7	NEWS_SOURCE 204 221	канале «Газпрома»
+T8	DATE 255 269	с 5 по 12 июня
+T9	DATE 307 317	каждый год
+T10	FAC 320 335	Транспортировка
+T11	ECONOMIC_SECTOR 320 340	Транспортировка газа
+T12	COMMODITY 336 340	газа
+T13	FAC 344 368	обеим ниткам газопровода
+T14	NEWS_SOURCE 409 419	сообщили в
+T15	ORGANIZATION 420 428	компании
+T16	FAC 537 551	Турецкий поток
+T17	LOCATION 569 581	Черного моря
+T18	QUANTITY 613 618	до 31
+T19	QUANTITY 619 629	5 млрд куб
+T20	DATE 631 632	м
+T21	COMMODITY 633 637	газа
+T22	DATE 638 643	в год
+T23	FAC 648 659	газопроводу
+T24	COUNTRY 676 682	Турцию
+T25	GROUP 685 691	страны
+T26	ORGANIZATION 692 695	Юго
+T27	GPE 696 712	Восточной Европы
+T28	CARDINAL 746 770	6479b7a09a7947a67e5b1170
+T29	CARDINAL 780 783	Jun
+T30	DATE 784 788	2023
+T31	CARDINAL 789 791	12
+T32	CARDINAL 792 794	54

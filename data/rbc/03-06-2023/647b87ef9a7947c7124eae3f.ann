@@ -1,0 +1,79 @@
+T0	PROFESSION 0 3	Мэр
+T1	CITY 4 11	Донецка
+T2	NEWS_SOURCE 0 19	Мэр Донецка сообщил
+T4	CARDINAL 54 59	Шесть
+T5	EVENT 60 67	взрывов
+T6	CITY 100 107	Донецка
+T7	NEWS_SOURCE 109 137	сообщили корреспонденты ТАСС
+T8	ORGANIZATION 133 137	ТАСС
+T11	ORGANIZATION 177 186	агентству
+T12	WEAPON 210 221	система ПВО
+T13	PROFESSION 223 226	Мэр
+T14	PERSON 227 243	Алексей Кулемзин
+T19	CARDINAL 368 372	двух
+T24	DATE 440 444	Днем
+T25	ORGANIZATION 445 462	представительство
+T26	REGION 463 466	ДНР
+T29	CITY 572 579	Донецка
+T31	FAC 618 635	частный жилой дом
+T34	CARDINAL 675 679	один
+T35	FAC 680 683	дом
+T38	BOROUGH 733 745	Куйбышевский
+T39	BOROUGH 747 755	Киевский
+T41	BOROUGH 757 766	Кировский
+T44	CITY 787 794	Донецка
+T48	AGE 844 862	1951 года рождения
+R1	WORKPLACE Arg1:T0 Arg2:T1	
+T3	BOROUGH 32 52	Куйбышевского района
+T53	EVENT 20 31	об обстреле
+R2	TAKES_PLACE_IN Arg1:T53 Arg2:T3	
+R3	TAKES_PLACE_IN Arg1:T5 Arg2:T6	
+T54	PROFESSION 118 132	корреспонденты
+R4	WORKPLACE Arg1:T54 Arg2:T8	
+T9	PROFESSION 139 169	Представитель силовых структур
+T10	NEWS_SOURCE 139 186	Представитель силовых структур заявил агентству
+R5	WORKS_AS Arg1:T14 Arg2:T13	
+T15	NEWS_SOURCE 223 275	Мэр Алексей Кулемзин сообщил в своем телеграм-канале
+T16	BOROUGH 281 299	Куйбышевский район
+T17	CITY 300 307	Донецка
+T18	EVENT 308 325	попал под обстрел
+R6	TAKES_PLACE_IN Arg1:T18 Arg2:T16	
+R7	TAKES_PLACE_IN Arg1:T18 Arg2:T17	
+T20	FAC 373 394	многоквартирных домов
+T21	STREET 395 412	на улице Нарвской
+T22	STREET 415 437	улице Шахтерской Славы
+R8	HEADQUARTERED_IN Arg1:T20 Arg2:T21	
+R9	HEADQUARTERED_IN Arg1:T20 Arg2:T22	
+T23	EVENT 327 394	Повреждения получили кровля и остекление двух многоквартирных домов
+R10	TAKES_PLACE_IN Arg1:T23 Arg2:T21	
+R11	TAKES_PLACE_IN Arg1:T23 Arg2:T22	
+T55	ORGANIZATION 469 512	совместном центре по контролю и координации
+T56	ORGANIZATION 514 518	СЦКК
+R12	ABBREVIATION Arg1:T55 Arg2:T56	
+R13	HEADQUARTERED_IN Arg1:T25 Arg2:T26	
+R14	HEADQUARTERED_IN Arg1:T55 Arg2:T26	
+T27	NEWS_SOURCE 440 546	Днем представительство ДНР в совместном центре по контролю и координации (СЦКК) в телеграм-канале сообщало
+T28	BOROUGH 552 571	в Петровском районе
+R15	OWNERSHIP Arg1:T29 Arg2:T28	
+T30	EVENT 585 615	зафиксировано прямое попадание
+T32	STREET 636 657	на улице Карнавальной
+R16	HEADQUARTERED_IN Arg1:T31 Arg2:T32	
+R17	TAKES_PLACE_IN Arg1:T30 Arg2:T32	
+R18	TAKES_PLACE_IN Arg1:T30 Arg2:T29	
+T33	EVENT 684 703	получил повреждения
+R19	TAKES_PLACE_IN Arg1:T33 Arg2:T35	
+T36	DATE 705 713	За сутки
+T37	EVENT 714 732	под обстрел попали
+T40	BOROUGH 769 779	Петровский
+R20	TAKES_PLACE_IN Arg1:T37 Arg2:T38	
+R21	TAKES_PLACE_IN Arg1:T37 Arg2:T39	
+R22	TAKES_PLACE_IN Arg1:T37 Arg2:T41	
+R23	TAKES_PLACE_IN Arg1:T37 Arg2:T40	
+R24	DATE_TAKES_PLACE_ON Arg1:T37 Arg2:T36	
+R25	TAKES_PLACE_IN Arg1:T37 Arg2:T44	
+T42	BOROUGH 808 829	в Куйбышевской районе
+T43	DATE 801 807	2 июня
+T45	TIME 796 800	Днем
+T46	EVENT 830 843	погиб мужчина
+R26	TAKES_PLACE_IN Arg1:T46 Arg2:T42	
+R27	DATE_TAKES_PLACE_ON Arg1:T46 Arg2:T43	

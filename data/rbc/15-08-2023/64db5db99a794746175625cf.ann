@@ -1,0 +1,41 @@
+T0	PROFESSION 0 10	Губернатор
+T1	NEWS_SOURCE 0 18	Губернатор сообщил
+T5	COUNTRY 67 77	Украинские
+T6	GROUP 78 88	диверсанты
+T7	REGION 125 141	Брянской области
+T8	PROFESSION 168 178	губернатор
+T10	NEWS_SOURCE 143 196	сообщил в своем Telegram губернатор Александр Богомаз
+T11	NEWS_SOURCE 198 211	По его словам
+T12	COUNTRY 213 223	российские
+T13	PROFESSION 224 231	военные
+T14	PROFESSION 234 244	сотрудники
+T15	ORGANIZATION 245 248	ФСБ
+T17	ORGANIZATION 408 411	ВСУ
+T18	CARDINAL 420 424	одно
+T20	ORGANIZATION 434 452	сельхозпредприятия
+T21	VEHICLE 512 522	автомобиля
+T23	NEWS_SOURCE 527 542	сообщил Богомаз
+T24	EVENT 388 396	обстрела
+T2	GROUP 29 40	диверсантов
+T3	REGION 47 65	в Брянскую область
+R1	ORIGINS_FROM Arg1:T6 Arg2:T5	
+T4	EVENT 67 141	Украинские диверсанты попытались проникнуть на территорию Брянской области
+T9	PERSON 179 196	Александр Богомаз
+R2	WORKS_AS Arg1:T9 Arg2:T8	
+R3	WORKPLACE Arg1:T9 Arg2:T7	
+R4	WORKPLACE Arg1:T13 Arg2:T12	
+R5	WORKPLACE Arg1:T14 Arg2:T15	
+T25	EVENT 249 274	предотвратили эту попытку
+R6	EVENT_TAKES_PART_IN Arg1:T15 Arg2:T25	
+T26	EVENT 276 284	Инцидент
+T16	VILLAGE 304 318	села Курковичи
+R7	TAKES_PLACE_IN Arg1:T26 Arg2:T16	
+T27	BOROUGH 319 354	Стародубского муниципального округа
+R8	TAKES_PLACE_IN Arg1:T26 Arg2:T27	
+R9	ORGANIZES Arg1:T17 Arg2:T24	
+T19	FAC 484 510	производственных помещений
+T22	EVENT 454 483	имеются частичные повреждения
+R10	TAKES_PLACE_IN Arg1:T22 Arg2:T19	
+R11	TAKES_PLACE_IN Arg1:T22 Arg2:T21	
+T28	EVENT 412 452	погибло одно животное сельхозпредприятия
+R12	TAKES_PLACE_IN Arg1:T28 Arg2:T16	

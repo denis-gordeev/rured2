@@ -1,0 +1,51 @@
+T0	COUNTRY 3 10	Украине
+T1	CARDINAL 13 20	четырех
+T2	EVENT 60 66	Днепре
+T3	ECONOMIC_SECTOR 78 84	взрывы
+T4	REGION 88 112	Днепропетровской области
+T5	NEWS_SOURCE 142 150	сообщило
+T6	COUNTRY 151 161	украинское
+T7	NEWS_SOURCE 162 177	издание «Страна
+T8	REGION 187 211	Днепропетровской области
+T9	FAC 213 222	воздушную
+T10	NEWS_SOURCE 231 239	объявили
+T11	REGION 242 261	Харьковской области
+T12	COUNTRY 279 286	Украине
+T13	COUNTRY 294 302	Донецкой
+T14	CITY 305 316	Запорожской
+T15	DATE 327 345	С прошлого октября
+T16	ORGANIZATION 346 363	Минобороны России
+T17	COUNTRY 357 363	России
+T18	ECONOMIC_SECTOR 394 400	ударах
+T19	ECONOMIC_SECTOR 435 443	военного
+T20	FAC 435 454	военного управления
+T21	FAC 472 479	системы
+T22	COUNTRY 480 487	Украины
+T23	FAC 507 534	атакует гражданские объекты
+T24	COUNTRY 536 546	Украинские
+T25	NEWS_SOURCE 547 553	власти
+T26	GROUP 547 553	власти
+T27	NEWS_SOURCE 556 559	СМИ
+T28	GROUP 556 559	СМИ
+T29	NEWS_SOURCE 570 578	сообщают
+T30	PROFESSION 622 626	член
+T31	ORGANIZATION 627 660	администрации Запорожской области
+T32	PERSON 661 675	Владимир Рогов
+T33	NEWS_SOURCE 622 683	член администрации Запорожской области Владимир Рогов сообщил
+T34	CITY 691 701	Мелитополе
+T35	CARDINAL 713 723	около пяти
+T36	FAC 742 753	система ПВО
+T37	NEWS_SOURCE 762 775	по его словам
+T38	COUNTRY 777 787	украинские
+T39	PROFESSION 788 795	военные
+T40	PERSON 823 832	Бердянску
+T41	FAC 842 845	ПВО
+T42	CARDINAL 852 857	шесть
+T43	PRODUCT 858 863	ракет
+T44	PERSON 923 926	Sat
+T45	GROUP 928 930	03
+T46	DATE 935 939	2023
+T47	CARDINAL 940 942	21
+T48	MONEY 943 945	48
+T49	CARDINAL 943 945	48
+T50	CARDINAL 946 948	35

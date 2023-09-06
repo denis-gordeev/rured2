@@ -1,0 +1,65 @@
+T0	FAC 29 46	электроподстанцию
+T9	FAC 156 166	подстанцию
+T10	WEAPON 180 192	беспилотника
+T11	PROFESSION 210 220	губернатор
+T12	NEWS_SOURCE 202 236	сообщил губернатор Роман Старовойт
+T13	PERSON 221 236	Роман Старовойт
+T16	DATE 324 341	в ближайшее время
+T18	COUNTRY 403 410	Украины
+T20	ORGANIZATION 468 471	ВСУ
+T23	PROFESSION 554 564	строителей
+T28	DATE 642 655	В тот же день
+T29	COUNTRY 656 666	украинские
+T30	ORGANIZATION 667 671	силы
+T38	WEAPON 0 11	Беспилотник
+T39	WEAPON 20 25	бомбу
+T1	REGION 47 56	в курском
+T34	VILLAGE 57 61	селе
+R1	HEADQUARTERED_IN Arg1:T0 Arg2:T34	
+R2	HEADQUARTERED_IN Arg1:T0 Arg2:T1	
+T2	GROUP 63 69	Жители
+T3	VILLAGE 70 84	села Гоголевка
+T4	BOROUGH 85 104	в Суджанском районе
+T5	REGION 105 120	Курской области
+T6	EVENT 121 139	остались без света
+T7	WEAPON 167 177	боеприпаса
+T8	EVENT 146 192	сброса на подстанцию боеприпаса с беспилотника
+R3	SUBEVENT_OF Arg1:T8 Arg2:T6	
+R4	ORIGINS_FROM Arg1:T2 Arg2:T3	
+R5	OWNERSHIP Arg1:T5 Arg2:T4	
+R6	OWNERSHIP Arg1:T4 Arg2:T3	
+R7	EVENT_TAKES_PART_IN Arg1:T2 Arg2:T6	
+R8	WORKS_AS Arg1:T13 Arg2:T11	
+R9	WORKPLACE Arg1:T13 Arg2:T5	
+T14	GROUP 238 255	Аварийные бригады
+T40	EVENT 256 294	начали ликвидировать последствия атаки
+R10	EVENT_TAKES_PART_IN Arg1:T14 Arg2:T40	
+T15	PROFESSION 296 309	Глава региона
+T41	NEWS_SOURCE 296 318	Глава региона пообещал
+T42	EVENT 342 370	электроснабжение восстановят
+R11	DATE_TAKES_PLACE_ON Arg1:T42 Arg2:T16	
+R12	EVENT_TAKES_PART_IN Arg1:T14 Arg2:T42	
+T17	EVENT 383 399	военной операции
+R13	TAKES_PLACE_IN Arg1:T17 Arg2:T18	
+T19	REGION 411 426	Курская область
+T43	EVENT 427 456	регулярно подвергается атакам
+R14	TAKES_PLACE_IN Arg1:T43 Arg2:T19	
+R15	ORGANIZES Arg1:T20 Arg2:T43	
+R16	EVENT_TAKES_PART_IN Arg1:T20 Arg2:T17	
+T21	PERSON 482 491	Старовойт
+T44	NEWS_SOURCE 473 499	Накануне Старовойт сообщил
+T22	BOROUGH 518 537	Кореневского района
+T45	EVENT 505 517	при обстреле
+R17	TAKES_PLACE_IN Arg1:T45 Arg2:T22	
+T46	QUANTITY 549 553	двое
+T24	BOROUGH 620 640	в Кореневском районе
+T25	EVENT 538 564	пострадали двое строителей
+R18	SUBEVENT_OF Arg1:T45 Arg2:T25	
+T26	LOCATION 603 619	вдоль госграницы
+R19	OWNERSHIP Arg1:T24 Arg2:T26	
+R20	OWNERSHIP Arg1:T29 Arg2:T30	
+T27	VILLAGE 683 698	поселок Теткино
+T31	BOROUGH 699 719	в Глушковском районе
+T32	EVENT 656 698	украинские силы обстреляли поселок Теткино
+R21	DATE_TAKES_PLACE_ON Arg1:T32 Arg2:T28	
+R22	OWNERSHIP Arg1:T31 Arg2:T27	

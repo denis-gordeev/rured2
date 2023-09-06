@@ -1,0 +1,49 @@
+T0	CITY 2 8	Москве
+T1	PRODUCT 57 68	посудомойке
+T5	CITY 99 105	Москвы
+T7	PROFESSION 145 154	спасатели
+T9	PRODUCT 230 241	посудомойке
+T11	NEWS_SOURCE 243 286	сообщила пресс-служба столичной прокуратуры
+T13	EVENT 288 293	Пожар
+T15	ORGANIZATION 305 307	СК
+T16	FAC 321 325	доме
+T18	DATE 351 357	29 мая
+T19	AGE 374 381	32 года
+T21	NEWS_SOURCE 429 451	отмечают в прокуратуре
+T22	NEWS_SOURCE 526 545	сказано в сообщении
+T23	ORGANIZATION 568 570	СК
+T24	ORGANIZATION 572 581	Ведомство
+T26	FAC 715 722	магазин
+T27	PRODUCT 726 735	алкоголем
+T37	EVENT 9 68	нашли тело мужчины, пристегнутого наручниками к посудомойке
+R1	TAKES_PLACE_IN Arg1:T37 Arg2:T0	
+T2	FAC 70 80	В квартире
+T6	EVENT 106 121	произошел пожар
+T3	LOCATION 81 98	на северо-востоке
+R2	TAKES_PLACE_IN Arg1:T6 Arg2:T5	
+R3	HEADQUARTERED_IN Arg1:T2 Arg2:T3	
+R4	HEADQUARTERED_IN Arg1:T2 Arg2:T5	
+T4	EVENT 177 241	обнаружили тело мужчины, пристегнутого наручниками к посудомойке
+R5	TAKES_PLACE_IN Arg1:T4 Arg2:T5	
+T8	ORGANIZATION 265 286	столичной прокуратуры
+T10	ORGANIZATION 252 264	пресс-служба
+R6	OWNERSHIP Arg1:T8 Arg2:T10	
+T12	NEWS_SOURCE 295 307	по данным СК
+T14	TIME 346 350	днем
+T17	STREET 329 345	улице Бойцовская
+R7	HEADQUARTERED_IN Arg1:T16 Arg2:T17	
+R8	TAKES_PLACE_IN Arg1:T13 Arg2:T17	
+R9	DATE_TAKES_PLACE_ON Arg1:T13 Arg2:T18	
+T34	ORGANIZATION 438 451	в прокуратуре
+T20	NEWS_SOURCE 454 483	По предварительной информации
+T38	EVENT 485 521	мужчина покончил жизнь самоубийством
+R10	TAKES_PLACE_IN Arg1:T38 Arg2:T17	
+R11	DATE_TAKES_PLACE_ON Arg1:T38 Arg2:T18	
+T39	NEWS_SOURCE 558 570	заявили в СК
+T40	EVENT 572 620	Ведомство начало проверку по факту произошедшего
+T25	PRODUCT 646 666	посудомоечной машине
+T28	ORGANIZATION 748 767	телеграм-канал SHOT
+T29	NEWS_SOURCE 737 767	утверждает телеграм-канал SHOT
+T30	NEWS_SOURCE 778 795	по его информации
+R12	SELLS Arg1:T26 Arg2:T27	
+T31	EVENT 769 839	Мужчина, по его информации, решил закурить и в результате вызвал пожар

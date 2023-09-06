@@ -1,0 +1,68 @@
+T0	ORGANIZATION 0 3	ФСБ
+T1	GROUP 14 25	сотрудников
+T2	PROFESSION 64 85	украинцам
+
+Сотрудники
+T3	ORGANIZATION 86 89	ФСБ
+T4	GROUP 90 113	задержали руководителей
+T5	PROFESSION 100 113	руководителей
+T6	GROUP 116 126	работников
+T7	GROUP 135 142	клиники
+T8	CITY 145 151	Москве
+T9	GPE 145 151	Москве
+T10	COUNTRY 211 218	Украины
+T11	COUNTRY 239 245	Россию
+T12	NEWS_SOURCE 255 281	сообщает управление службы
+T13	ORGANIZATION 275 281	службы
+T14	CITY 285 291	Москве
+T15	CITY 294 304	Московской
+T16	ORGANIZATION 294 312	Московской области
+T17	COUNTRY 392 412	Российской Федерации
+T18	EVENT 431 447	руководителями и
+T19	GROUP 448 460	сотрудниками
+T20	INVESTMENT_PROGRAM 461 468	частной
+T21	CRIME 469 480	медицинской
+T22	GROUP 469 488	медицинской клиники
+T23	GROUP 490 502	организовали
+T24	CRIME 490 526	организовали незаконное изготовление
+T25	GROUP 536 545	гражданам
+T26	COUNTRY 546 553	Украины
+T27	CRIME 564 571	справок
+T28	CRIME 602 612	диагнозами
+T29	GROUP 644 666	медицинском учреждении
+T30	ORGANIZATION 656 666	учреждении
+T31	ORGANIZATION 693 698	пресс
+T32	NEWS_SOURCE 671 705	говорится в сообщении пресс-службы
+T33	ORGANIZATION 699 705	службы
+T34	NEWS_SOURCE 718 731	По данным ФСБ
+T35	ORGANIZATION 728 731	ФСБ
+T36	CRIME 733 740	лечение
+T37	NORP 741 750	украинцам
+T38	GROUP 824 832	Граждане
+T39	COUNTRY 833 840	Украины
+T40	ECONOMIC_SECTOR 851 855	учет
+T41	REGION 858 876	Московском регионе
+T42	COUNTRY 897 903	Россию
+T43	LAW 972 978	«в» ч.
+T44	CARDINAL 979 983	2 ст
+T45	LAW 983 1081	. 322.1 УК (организация незаконной миграции группой по предварительному сговору или организованной
+T46	LAW 1100 1143	использованием своего служебного положения)
+T47	DATE 1187 1198	до семи лет
+T48	NEWS_SOURCE 1216 1224	На видео
+T49	NEWS_SOURCE 1234 1250	опубликовала ФСБ
+T50	ORGANIZATION 1247 1250	ФСБ
+T51	GROUP 1265 1272	клиники
+T52	GROUP 1334 1346	пользователь
+T53	EVENT 1359 1363	сайт
+T54	EVENT 1372 1380	Docprofi
+T55	ORGANIZATION 1382 1385	РБК
+T56	GROUP 1412 1433	диагностический центр
+T57	EVENT 1434 1442	Docprofi
+T58	CARDINAL 1476 1500	64abd6e09a7947c1dfeef949
+T59	ORGANIZATION 1502 1505	Mon
+T60	CARDINAL 1507 1509	10
+T61	ORGANIZATION 1510 1513	Jul
+T62	DATE 1514 1518	2023
+T63	CARDINAL 1519 1521	13
+T64	GROUP 1525 1527	32
+T65	ORGANIZATION 1528 1529	+

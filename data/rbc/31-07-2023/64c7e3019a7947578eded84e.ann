@@ -1,0 +1,54 @@
+T4	CARDINAL 57 60	Три
+T9	ORGANIZATION 173 176	ВСУ
+T10	PROFESSION 186 196	губернатор
+T12	REGION 197 217	Белгородской области
+T19	CARDINAL 309 312	три
+T27	NEWS_SOURCE 534 549	сообщил Гладков
+T28	PERSON 542 549	Гладков
+T31	NEWS_SOURCE 658 676	По словам Гладкова
+T32	PERSON 668 676	Гладкова
+T33	DATE 678 688	за 30 июля
+T34	CARDINAL 709 712	115
+T35	EVENT 713 720	взрывов
+T40	CARDINAL 855 884	64c7e3019a7947578eded84e
+
+Mon
+T3	VILLAGE 44 55	села Ржевка
+T36	WEAPON 739 752	беспилотников
+T37	REGION 0 12	Белгородский
+T1	PROFESSION 13 23	губернатор
+T38	NEWS_SOURCE 0 31	Белгородский губернатор сообщил
+R1	WORKPLACE Arg1:T1 Arg2:T37	
+T2	EVENT 32 43	об обстреле
+R2	TAKES_PLACE_IN Arg1:T2 Arg2:T3	
+T39	FAC 61 73	частных дома
+T41	EVENT 57 94	Три частных дома получили повреждения
+T5	VILLAGE 95 108	в селе Ржевка
+T6	CITY 109 139	в Шебекинском городском округе
+R3	TAKES_PLACE_IN Arg1:T41 Arg2:T5	
+R4	TAKES_PLACE_IN Arg1:T41 Arg2:T6	
+T7	EVENT 153 176	обстрела со стороны ВСУ
+R5	SUBEVENT_OF Arg1:T41 Arg2:T7	
+T8	PERSON 218 234	Вячеслав Гладков
+R6	WORKPLACE Arg1:T8 Arg2:T12	
+R7	WORKS_AS Arg1:T8 Arg2:T10	
+T11	NEWS_SOURCE 178 258	сообщил губернатор Белгородской области Вячеслав Гладков в своем телеграм-канале
+T13	WEAPON 289 297	снарядов
+T14	FAC 313 339	частных жилых домовладения
+T15	FAC 398 419	линия электропередачи
+T16	EVENT 279 339	Осколками снарядов повреждены три частных жилых домовладения
+R8	TAKES_PLACE_IN Arg1:T16 Arg2:T12	
+T17	PROFESSION 432 445	глава региона
+T18	NEWS_SOURCE 424 445	написал глава региона
+T20	GROUP 447 477	Аварийные и оперативные службы
+T21	EVENT 447 494	Аварийные и оперативные службы выехали на место
+T22	FAC 552 582	Приграничные населенные пункты
+T23	EVENT 622 645	начала военной операции
+T24	EVENT 593 615	подвергаются обстрелам
+R9	TAKES_PLACE_IN Arg1:T24 Arg2:T22	
+T25	COUNTRY 646 656	на Украине
+R10	TAKES_PLACE_IN Arg1:T23 Arg2:T25	
+R11	SUBEVENT_OF Arg1:T24 Arg2:T23	
+T26	EVENT 755 764	обстрелов
+R12	DATE_TAKES_PLACE_ON Arg1:T35 Arg2:T33	
+R13	DATE_TAKES_PLACE_ON Arg1:T26 Arg2:T33	

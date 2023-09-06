@@ -1,0 +1,40 @@
+T2	ORGANIZATION 52 56	УГМК
+T6	ORGANIZATION 102 106	УГМК
+T17	FAC 341 347	здания
+T19	NEWS_SOURCE 361 381	сообщили в ведомстве
+T20	ORGANIZATION 372 381	ведомстве
+T22	CARDINAL 523 525	10
+T23	CARDINAL 539 548	на 12 тыс
+T24	DATE 574 585	в 2018 году
+T25	QUANTITY 612 619	23 млрд
+T26	CURRENCY 620 623	руб
+T1	CITY 0 15	В Екатеринбурге
+T33	EVENT 16 31	произошел пожар
+T34	FAC 32 51	на строящейся арене
+R1	OWNERSHIP Arg1:T2 Arg2:T34	
+R2	TAKES_PLACE_IN Arg1:T33 Arg2:T1	
+R3	TAKES_PLACE_IN Arg1:T33 Arg2:T34	
+T3	CITY 58 73	В Екатеринбурге
+T4	FAC 74 101	на строящейся ледовой арене
+T5	EVENT 107 122	произошел пожар
+R4	TAKES_PLACE_IN Arg1:T5 Arg2:T4	
+R5	TAKES_PLACE_IN Arg1:T5 Arg2:T3	
+T7	FAC 144 160	на стройплощадке
+T8	STREET 161 184	на улице Степана Разина
+R6	HEADQUARTERED_IN Arg1:T7 Arg2:T8	
+T9	DATE 199 209	17 августа
+T35	TIME 194 198	днем
+T10	ORGANIZATION 222 225	МЧС
+T11	NEWS_SOURCE 211 232	сообщили в МЧС города
+R7	DATE_TAKES_PLACE_ON Arg1:T5 Arg2:T9	
+T12	GROUP 260 294	пожарно-спасательные подразделения
+T13	FAC 396 417	строительной площадки
+T14	QUANTITY 431 434	200
+T15	EVENT 418 442	эвакуировали 200 человек
+R8	TAKES_PLACE_IN Arg1:T15 Arg2:T13	
+T16	PROFESSION 450 458	пожарные
+T18	EVENT 459 482	локализовали возгорание
+T21	EVENT 533 573	Арену на 12 тыс. зрителей начали строить
+R9	DATE_TAKES_PLACE_ON Arg1:T21 Arg2:T24	
+T36	MONEY 612 623	23 млрд руб
+T27	GROUP 550 558	зрителей

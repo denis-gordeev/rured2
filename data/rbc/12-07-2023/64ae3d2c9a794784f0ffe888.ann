@@ -1,0 +1,50 @@
+T0	PERSON 0 10	Черкасскую
+T1	REGION 0 18	Черкасскую область
+T2	COUNTRY 22 29	Украине
+T3	ECONOMIC_SECTOR 40 52	беспилотники
+T4	REGION 54 72	Черкасскую область
+T5	COUNTRY 76 83	Украине
+T6	ECONOMIC_SECTOR 94 106	беспилотники
+T7	PROFESSION 116 129	глава военной
+T8	ORGANIZATION 130 143	администрации
+T9	NEWS_SOURCE 108 165	сообщил глава военной администрации региона Игорь Табурец
+T10	PERSON 152 165	Игорь Табурец
+T11	NEWS_SOURCE 177 185	объявили
+T12	FAC 186 195	воздушную
+T13	CARDINAL 223 227	один
+T14	FAC 231 239	объектов
+T15	CITY 265 275	Черкасском
+T16	NEWS_SOURCE 394 408	сказал Табурец
+T17	ORGANIZATION 401 408	Табурец
+T18	PERSON 401 408	Табурец
+T19	FAC 420 433	беспилотников
+T20	NEWS_SOURCE 434 448	также сообщали
+T21	REGION 451 469	Киевской городской
+T22	NEWS_SOURCE 470 477	военной
+T23	ORGANIZATION 478 491	администрации
+T24	PERCENT 524 529	более
+T25	TIME 530 540	двух часов
+T26	FAC 570 573	ПВО
+T27	ORGANIZATION 575 592	Минобороны России
+T28	COUNTRY 586 592	России
+T29	DATE 593 611	с прошлого октября
+T30	ECONOMIC_SECTOR 693 701	военного
+T31	FAC 693 712	военного управления
+T32	FAC 730 737	системы
+T33	COUNTRY 738 745	Украины
+T34	FAC 763 790	атакует гражданские объекты
+T35	COUNTRY 792 802	Российская
+T36	ECONOMIC_SECTOR 845 858	беспилотников
+T37	COUNTRY 862 867	Ирана
+T38	CITY 875 881	Москву
+T39	GPE 884 891	Тегеран
+T40	COUNTRY 904 911	Украина
+T41	GPE 921 927	Запада
+T42	COUNTRY 929 937	Иранские
+T43	GROUP 938 944	власти
+T44	CARDINAL 1000 1024	64ae3d2c9a794784f0ffe888
+T45	CARDINAL 1031 1033	12
+T46	ORGANIZATION 1034 1037	Jul
+T47	DATE 1038 1042	2023
+T48	CARDINAL 1046 1048	59
+T49	CARDINAL 1049 1053	32 +

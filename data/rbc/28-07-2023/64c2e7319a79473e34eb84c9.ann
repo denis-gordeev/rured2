@@ -1,0 +1,48 @@
+T0	CITY 0 10	Тамбовский
+T8	DISEASE 149 159	отравления
+T9	GROUP 160 168	клиентов
+T11	ORGANIZATION 190 206	Роспотребнадзора
+T14	ORGANIZATION 270 280	Суши Даром
+T16	QUANTITY 345 347	25
+T17	GROUP 348 355	жителей
+T18	CITY 356 363	Тамбова
+T19	FAC 383 387	кафе
+T20	ORGANIZATION 470 481	предприятия
+T21	PROFESSION 482 493	специалисты
+T29	ORGANIZATION 803 806	суд
+T30	ORGANIZATION 808 819	Прокуратура
+T31	NEWS_SOURCE 808 836	Прокуратура области сообщила
+T32	GROUP 907 915	клиентов
+T35	ORGANIZATION 930 933	РБК
+T2	QUANTITY 54 56	25
+T44	FAC 11 19	суши-бар
+T1	DISEASE 43 53	отравления
+R1	HEADQUARTERED_IN Arg1:T44 Arg2:T0	
+T45	EVENT 11 64	суши-бар временно закрыли из-за отравления 25 человек
+R2	TAKES_PLACE_IN Arg1:T45 Arg2:T0	
+T3	CITY 97 106	в Тамбове
+T4	ORGANIZATION 79 96	кафе «Суши Даром»
+T5	PROFESSION 66 78	На владельца
+R3	HEADQUARTERED_IN Arg1:T4 Arg2:T3	
+T6	PENALTY 107 142	составили административный протокол
+R4	PENALIZED_AS Arg1:T5 Arg2:T6	
+T7	REGION 207 228	по Тамбовской области
+T10	NEWS_SOURCE 170 228	сообщило управление Роспотребнадзора по Тамбовской области
+R5	WORKPLACE Arg1:T5 Arg2:T4	
+T12	ORGANIZATION 243 252	заведения
+T13	EVENT 230 267	Деятельность заведения приостановлена
+T15	DISEASE 310 334	Острую кишечную инфекцию
+T22	EVENT 482 555	специалисты выявили ряд нарушений санитарно-эпидемиологических требований
+T46	GROUP 399 411	пострадавших
+R6	ORIGINS_FROM Arg1:T46 Arg2:T18	
+T23	LAW 665 758	по статье о нарушении санитарно-эпидемиологических требований к организации питания населения
+T24	LAW 760 772	ст. 6.6 КоАП
+T25	PRODUCT 563 580	готовой продукции
+T26	PRODUCT 582 587	сырья
+T27	PRODUCT 590 604	полуфабрикатов
+T28	REGION 981 999	Тамбовской области
+T36	ORGANIZATION 952 980	Министерство здравоохранения
+R7	HEADQUARTERED_IN Arg1:T36 Arg2:T28	
+T33	ORGANIZATION 916 929	«Суши Даром».
+R8	SELLS_TO Arg1:T33 Arg2:T32	
+T34	DISEASE 896 906	отравления

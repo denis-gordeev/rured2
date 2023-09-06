@@ -1,0 +1,48 @@
+T0	CITY 2 8	Анкаре
+T1	EVENT 45 51	визита
+T2	PERSON 52 58	Путина
+T3	CITY 60 66	Анкара
+T4	GPE 60 66	Анкара
+T5	GPE 69 75	Москва
+T6	EVENT 104 110	визита
+T7	PROFESSION 111 121	президента
+T8	COUNTRY 122 128	России
+T9	PERSON 129 145	Владимира Путина
+T10	COUNTRY 148 154	Турцию
+T11	PROFESSION 171 197	первый советник президента
+T12	COUNTRY 198 204	Турции
+T13	NEWS_SOURCE 164 223	заявил первый советник президента Турции Акиф Чагатай Кылыч
+T14	PERSON 205 223	Акиф Чагатай Кылыч
+T15	ORGANIZATION 218 223	Кылыч
+T16	NEWS_SOURCE 225 242	передает Hürriyet
+T17	ORGANIZATION 234 242	Hürriyet
+T18	PERSON 266 272	Путина
+T19	COUNTRY 275 281	Турцию
+T20	PERSON 282 289	Эрдоган
+T21	NEWS_SOURCE 275 299	Турцию Эрдоган сообщил в
+T22	DATE 298 304	в июле
+T23	GPE 308 314	Кремле
+T24	NEWS_SOURCE 308 323	Кремле говорили
+T25	DATE 362 371	2 августа
+T26	EVENT 372 382	президенты
+T27	PROFESSION 372 382	президенты
+T28	EVENT 391 410	телефонный разговор
+T29	PERSON 464 470	Путина
+T30	NEWS_SOURCE 472 512	сообщала канцелярия турецкого президента
+T31	ORGANIZATION 502 512	президента
+T32	PROFESSION 502 512	президента
+T33	PERSON 527 535	Hurriyet
+T34	PERSON 556 562	Путина
+T35	DATE 582 606	последнюю неделю августа
+T36	EVENT 641 652	переговоров
+T37	PERSON 653 661	Эрдогана
+T38	PERSON 664 670	Путина
+T39	PRODUCT 683 691	зерновая
+T40	TRADE_AGREEMENT 692 698	сделка
+T41	CARDINAL 732 756	64e079f79a794762309032f0
+T42	PERSON 758 761	Sat
+T43	CARDINAL 763 765	19
+T44	DATE 770 774	2023
+T45	CARDINAL 775 777	12
+T46	CARDINAL 778 780	18
+T47	CARDINAL 781 785	14 +

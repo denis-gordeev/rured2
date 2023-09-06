@@ -1,0 +1,43 @@
+T0	CITY 2 14	Оренбургской
+T1	REGION 15 22	области
+T2	PROFESSION 63 110	детей
+
+Сотрудники Роспотребнадзора инициировали
+T3	EVENT 111 129	эпидемиологическое
+T4	PRODUCT 168 176	кишечной
+T5	ORGANIZATION 187 190	ОКИ
+T6	GROUP 198 203	детей
+T7	ORGANIZATION 204 246	дошкольных учреждений в Орске Оренбургской
+T8	REGION 247 254	области
+T9	NEWS_SOURCE 264 316	сообщает региональное отделение надзорного ведомства
+T10	ORGANIZATION 286 316	отделение надзорного ведомства
+T11	DATE 318 336	В настоящий момент
+T12	PROFESSION 337 347	сотрудники
+T13	GROUP 337 347	сотрудники
+T14	ORGANIZATION 348 364	Роспотребнадзора
+T15	ECONOMIC_SECTOR 387 402	распространения
+T16	PROFESSION 440 455	Глава ведомства
+T17	PERSON 456 460	Анна
+T18	NEWS_SOURCE 487 493	личный
+T19	ORGANIZATION 506 524	Специалисты Службы
+T20	FAC 533 543	на объекты
+T21	PRODUCT 631 641	материалов
+T22	ORGANIZATION 659 671	исследований
+T23	NEWS_SOURCE 659 697	исследований», — говорится в сообщении
+T24	DATE 699 712	В начале июля
+T25	PRODUCT 713 721	кишечной
+T26	CARDINAL 743 747	семь
+T27	FAC 758 768	спортивной
+T28	ORGANIZATION 776 779	Тея
+T29	CITY 783 790	Хакасии
+T30	CARDINAL 809 815	пятеро
+T31	PRODUCT 816 821	детей
+T32	FAC 853 862	помещений
+T33	PRODUCT 863 872	пищеблока
+T34	CARDINAL 932 956	64adc3cc9a7947c4fa73ba35
+T35	CARDINAL 963 965	12
+T36	PRODUCT 966 969	Jul
+T37	DATE 970 974	2023
+T38	TIME 975 977	00
+T39	CARDINAL 978 980	14
+T40	CARDINAL 984 985	+

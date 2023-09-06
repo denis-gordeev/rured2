@@ -1,0 +1,63 @@
+T0	ORGANIZATION 0 10	Минобороны
+T1	GROUP 43 55	боеприпасами
+T2	ECONOMIC_SECTOR 59 68	военкорам
+T3	ORGANIZATION 70 86	Вооруженные силы
+T4	COUNTRY 87 94	Украины
+T5	ECONOMIC_SECTOR 119 131	боеприпасами
+T6	GROUP 142 153	журналистов
+T7	NEWS_SOURCE 167 180	«РИА Новости»
+T8	ORGANIZATION 168 180	РИА Новости»
+T9	CITY 183 194	Запорожской
+T10	ORGANIZATION 195 202	области
+T11	ORGANIZATION 213 223	Минобороны
+T12	NEWS_SOURCE 204 223	сообщило Минобороны
+T13	COUNTRY 224 230	России
+T14	CARDINAL 288 294	четыре
+T15	PROFESSION 295 305	журналиста
+T16	GROUP 325 355	полевые медицинские учреждения
+T17	ORGANIZATION 345 366	учреждения Минобороны
+T18	GROUP 378 383	жизни
+T19	PROFESSION 408 417	журналист
+T20	NEWS_SOURCE 418 419	«
+T21	ORGANIZATION 418 431	«РИА Новости»
+T22	NEWS_SOURCE 423 441	Новости» Ростислав
+T23	PERSON 442 450	Журавлев
+T24	ORGANIZATION 482 492	Минобороны
+T25	NEWS_SOURCE 480 501	В Минобороны отметили
+T26	PROFESSION 507 517	журналисты
+T27	REGION 541 548	области
+T28	PRODUCT 585 596	боеприпасов
+T29	ORGANIZATION 600 612	РИА Новости»
+T30	NEWS_SOURCE 599 621	«РИА Новости» сообщало
+T31	ORGANIZATION 661 670	агентства
+T32	NEWS_SOURCE 661 695	агентства Константин Михальчевский
+T33	PERSON 671 695	Константин Михальчевский
+T34	LOCATION 724 735	населенного
+T35	ORDINAL 743 752	Пятихатки
+T36	PERSON 754 768	Михальчевского
+T37	CITY 777 787	Мелитополь
+T38	REGION 777 787	Мелитополь
+T39	REGION 848 852	Крым
+T40	NEWS_SOURCE 854 872	сообщает агентство
+T41	NEWS_SOURCE 876 883	ссылкой
+T42	NEWS_SOURCE 887 913	советника главы республики
+T43	PROFESSION 887 913	советника главы республики
+T44	ORGANIZATION 923 931	Известия
+T45	NEWS_SOURCE 915 938	Газета «Известия» пишет
+T46	PERSON 974 987	корреспондент
+T47	PERSON 996 1001	Роман
+T48	NEWS_SOURCE 974 1011	корреспондент издания Роман Польшаков
+T49	COUNTRY 1002 1011	Польшаков
+T50	NEWS_SOURCE 1014 1047	оператор телеканала Дмитрий Шиков
+T51	PERSON 1034 1047	Дмитрий Шиков
+T52	COUNTRY 1051 1061	Польшакова
+T53	CARDINAL 1062 1068	четыре
+T54	PRODUCT 1105 1112	навылет
+T55	NEWS_SOURCE 1116 1122	Шикова
+T56	PERSON 1116 1122	Шикова
+T57	CARDINAL 1221 1245	64bbc00b9a79475fca445377
+T58	PERSON 1247 1250	Sat
+T59	CARDINAL 1252 1254	22
+T60	PERCENT 1259 1266	2023 16
+T61	CARDINAL 1264 1266	16
+T62	CARDINAL 1270 1274	36 +

@@ -1,0 +1,46 @@
+T0	EVENT 17 26	заседание
+T1	ORGANIZATION 59 62	ГЭС
+T2	FAC 49 62	Каховской ГЭС
+T3	PROFESSION 64 73	Президент
+T4	COUNTRY 74 81	Украины
+T5	PERSON 82 100	Владимир Зеленский
+T6	EVENT 108 128	экстренное заседание
+T7	ORGANIZATION 129 161	Совета национальной безопасности
+T8	ORGANIZATION 164 171	обороны
+T9	ORGANIZATION 173 177	СНБО
+T10	FAC 207 220	Каховской ГЭС
+T11	PROFESSION 238 255	секретарь Совбеза
+T12	PERSON 256 271	Алексей Данилов
+T13	NEWS_SOURCE 230 281	сообщил секретарь Совбеза Алексей Данилов в Twitter
+T14	ORGANIZATION 274 281	Twitter
+T15	PERSON 287 296	Зеленский
+T16	NEWS_SOURCE 287 307	Зеленский подтвердил
+T17	NEWS_SOURCE 310 324	видеообращении
+T18	NEWS_SOURCE 326 362	опубликованном в его телеграм-канале
+T19	ORGANIZATION 378 383	Совет
+T20	FAC 437 458	плотины Каховской ГЭС
+T21	COUNTRY 470 480	российскую
+T22	DATE 491 503	Утром 6 июня
+T23	PROFESSION 504 507	мэр
+T24	COUNTRY 508 513	Новой
+T25	FAC 514 521	Каховки
+T26	REGION 522 540	Херсонской области
+T27	PERSON 541 558	Владимир Леонтьев
+T28	NEWS_SOURCE 541 566	Владимир Леонтьев сообщил
+T29	FAC 590 593	ГЭС
+T30	ECONOMIC_SECTOR 607 616	обстрелов
+T31	NEWS_SOURCE 618 631	По его словам
+T32	FAC 680 683	ГЭС
+T33	PROFESSION 757 762	Глава
+T34	CARDINAL 820 835	около 300 домов
+T35	CITY 846 854	Днепряны
+T36	PERSON 862 870	Корсунка
+T37	COUNTRY 883 888	Новой
+T38	FAC 889 896	Каховки
+T39	REGION 969 973	Крым
+T40	CARDINAL 1007 1031	647ec9819a794736f306b309
+T41	FAC 1033 1036	Tue
+T42	TIME 1041 1044	Jun
+T43	DATE 1045 1049	2023
+T44	CARDINAL 1053 1055	35
+T45	CARDINAL 1056 1058	27

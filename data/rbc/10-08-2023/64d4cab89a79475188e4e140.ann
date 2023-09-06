@@ -1,0 +1,41 @@
+T0	PERSON 0 7	Гладков
+T1	ORGANIZATION 49 60	Горьковский
+T2	COUNTRY 77 85	Украиной
+T3	EVENT 86 93	поселок
+T4	NEWS_SOURCE 94 105	Горьковский
+T5	PERSON 94 105	Горьковский
+T6	REGION 108 128	Белгородской области
+T7	PROFESSION 160 165	глава
+T8	NEWS_SOURCE 152 190	сообщил глава региона Вячеслав Гладков
+T9	PERSON 174 190	Вячеслав Гладков
+T10	EVENT 193 207	своем телеграм
+T11	LAW 207 208	-
+T12	EVENT 208 214	канале
+T13	CARDINAL 254 258	трех
+T14	GROUP 267 280	домовладениях
+T15	PRODUCT 311 317	фасады
+T16	PROFESSION 339 349	губернатор
+T17	FAC 373 381	силы ПВО
+T18	REGION 390 402	Белгородском
+T19	ECONOMIC_SECTOR 403 421	районе беспилотный
+T20	DATE 422 433	летательный
+T21	FAC 442 453	самолетного
+T22	PERSON 481 500	Горьковский Гладков
+T23	NEWS_SOURCE 481 508	Горьковский Гладков сообщал
+T24	DATE 513 529	предыдущие сутки
+T25	PROFESSION 562 572	Губернатор
+T26	NEWS_SOURCE 562 582	Губернатор рассказал
+T27	CARDINAL 617 621	пять
+T28	CARDINAL 632 636	один
+T29	CARDINAL 689 701	один человек
+T30	CARDINAL 768 783	четверо человек
+T31	CARDINAL 798 803	троих
+T32	GROUP 804 810	мужчин
+T33	PERSON 881 888	Гладков
+T34	CARDINAL 922 951	64d4cab89a79475188e4e140
+
+Thu
+T35	CARDINAL 953 955	10
+T36	PERCENT 960 964	2023
+T37	CARDINAL 965 967	14
+T38	CARDINAL 968 970	43

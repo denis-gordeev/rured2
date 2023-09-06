@@ -1,0 +1,41 @@
+T4	COUNTRY 69 79	Российская
+T7	COUNTRY 128 135	Украины
+T12	ORGANIZATION 204 208	ТАСС
+T13	PROFESSION 209 218	начальник
+T17	ORGANIZATION 232 243	группировки
+T19	PERSON 244 254	Олег Чехов
+T20	NEWS_SOURCE 256 269	По его словам
+T22	GROUP 309 320	бронегруппа
+T26	ORGANIZATION 378 381	ВСУ
+T28	PROFESSION 418 447	командира мотострелковой роты
+T29	PROFESSION 449 457	капитана
+T35	NEWS_SOURCE 580 593	сообщил Чехов
+T36	PERSON 588 593	Чехов
+T41	ORGANIZATION 42 45	ВСУ
+T1	ORGANIZATION 0 20	Группировка «Восток»
+T2	REGION 46 67	в Запорожской области
+R1	HEADQUARTERED_IN Arg1:T41 Arg2:T2	
+T3	EVENT 21 41	не допустила прорыва
+R2	EVENT_TAKES_PART_IN Arg1:T1 Arg2:T3	
+R3	TAKES_PLACE_IN Arg1:T3 Arg2:T2	
+T5	ORGANIZATION 80 100	группировка «Восток»
+R4	HEADQUARTERED_IN Arg1:T5 Arg2:T4	
+T6	ORGANIZATION 110 135	Вооруженным силам Украины
+R5	ABBREVIATION Arg1:T6 Arg2:T41	
+T8	VILLAGE 156 172	села Новодаровка
+T9	REGION 173 194	в Запорожской области
+R6	OWNERSHIP Arg1:T9 Arg2:T8	
+T10	ORGANIZATION 219 231	пресс-центра
+R7	OWNERSHIP Arg1:T17 Arg2:T10	
+R8	WORKPLACE Arg1:T13 Arg2:T10	
+R9	WORKPLACE Arg1:T19 Arg2:T10	
+T11	NEWS_SOURCE 196 254	сообщил ТАСС начальник пресс-центра группировки Олег Чехов
+T14	WEAPON 324 329	БМП-2
+T15	EVENT 340 381	успешно поразила технику и живую силу ВСУ
+R10	EVENT_TAKES_PART_IN Arg1:T22 Arg2:T15	
+T16	PERSON 458 477	[Рустама] Хисматова
+T18	GROUP 478 505	личный состав подразделения
+T21	EVENT 506 536	не допустил прорыва противника
+R11	EVENT_TAKES_PART_IN Arg1:T18 Arg2:T21	
+R12	WORKS_AS Arg1:T16 Arg2:T28	
+R13	WORKS_AS Arg1:T16 Arg2:T29	
