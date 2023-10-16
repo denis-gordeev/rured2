@@ -1,0 +1,63 @@
+T0	PERSON 0 13	Ксения Юдаева
+T1	DATE 16 23	октябре
+T2	PROFESSION 32 48	совет директоров
+T3	ORGANIZATION 49 51	ЦБ
+T4	PROFESSION 53 95	Советник и бывший заместитель председателя
+T5	ORGANIZATION 96 107	Центробанка
+T6	PERSON 108 121	Ксения Юдаева
+T7	ORGANIZATION 130 149	совет директоров ЦБ
+T8	DATE 150 159	в октябре
+T9	ORGANIZATION 171 180	Интерфакс
+T10	NEWS_SOURCE 161 181	сообщает «Интерфакс»
+T11	PROFESSION 196 201	главу
+T12	NEWS_SOURCE 196 210	главу комитета
+T13	ORGANIZATION 202 230	комитета Госдумы по финрынку
+T14	NEWS_SOURCE 222 230	финрынку
+T15	PERSON 231 248	Анатолия Аксакова
+T16	DATE 250 259	9 октября
+T17	ORGANIZATION 260 267	комитет
+T18	DATE 314 318	семи
+T19	CARDINAL 314 318	семи
+T20	GROUP 319 325	членов
+T21	ORGANIZATION 326 346	совета директоров ЦБ
+T22	PERSON 349 355	Юдаеву
+T23	NEWS_SOURCE 383 416	передает агентство слова Аксакова
+T24	PERSON 408 416	Аксакова
+T25	PERSON 429 443	Ксении Юдаевой
+T26	GROUP 453 458	члена
+T27	ORGANIZATION 459 489	совета директоров Банка России
+T28	DATE 499 519	10 октября 2023 года
+T29	ORGANIZATION 528 548	совета директоров ЦБ
+T30	ORGANIZATION 561 569	Госдумой
+T31	DATE 577 588	на пять лет
+T32	DATE 592 608	В конце сентября
+T33	PROFESSION 609 621	председатель
+T34	ORGANIZATION 622 634	Банка России
+T35	PERSON 635 653	Эльвира Набиуллина
+T36	CARDINAL 685 692	четырех
+T37	GROUP 705 711	членов
+T38	ORGANIZATION 712 729	совета директоров
+T39	PROFESSION 719 729	директоров
+T40	CARDINAL 751 755	трех
+T41	PERSON 799 818	Владимира Чистюхина
+T42	PERSON 820 835	Алексея Гузнова
+T43	PERSON 837 851	Михаила Мамуты
+T44	PERSON 854 874	Алексея Симановского
+T45	PERSON 884 891	Юдаевой
+T46	DATE 916 925	в октябре
+T47	PERSON 927 940	Ксения Юдаева
+T48	ORDINAL 957 964	первого
+T49	PROFESSION 965 973	зампреда
+T50	ORGANIZATION 974 976	ЦБ
+T51	DATE 995 1006	с 2013 года
+T52	PROFESSION 1021 1036	советника главы
+T53	ORGANIZATION 1037 1047	регулятора
+T54	DATE 1048 1057	1 августа
+T55	ORGANIZATION 1089 1106	совете директоров
+T56	ORGANIZATION 1111 1130	комитете финансовой
+T57	ORGANIZATION 1144 1146	ЦБ
+T58	NEWS_SOURCE 1206 1209	Tue
+T59	DATE 1214 1222	Oct 2023
+T60	CARDINAL 1223 1225	18
+T61	CARDINAL 1226 1228	21
+T62	CARDINAL 1229 1231	00

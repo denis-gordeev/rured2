@@ -1,0 +1,39 @@
+T0	COUNTRY 0 3	США
+T1	ORDINAL 14 20	второй
+T2	LOCATION 33 49	Средиземное море
+T3	COUNTRY 51 54	США
+T4	FAC 73 82	авианосца
+T5	EVENT 90 100	Эйзенхауэр
+T6	LOCATION 104 120	Средиземное море
+T7	NEWS_SOURCE 122 130	сообщило
+T8	FAC 148 153	флота
+T9	ORGANIZATION 131 160	Командование сил флота страны
+T10	ORGANIZATION 206 247	Европейского командования Вооруженных сил
+T11	COUNTRY 248 251	США
+T12	FAC 325 345	морского судоходства
+T13	ECONOMIC_SECTOR 355 361	военно
+T14	ECONOMIC_SECTOR 362 369	морскую
+T15	EVENT 370 380	дипломатию
+T16	ORGANIZATION 383 398	государственные
+T17	COUNTRY 449 452	США
+T18	GROUP 458 467	союзников
+T19	PROFESSION 470 479	Источники
+T20	NEWS_SOURCE 470 483	Источники ABC
+T21	COUNTRY 490 502	американских
+T22	PROFESSION 503 513	чиновников
+T23	NEWS_SOURCE 503 524	чиновников утверждают
+T24	PERSON 531 536	Дуайт
+T25	EVENT 537 547	Эйзенхауэр
+T26	LOCATION 568 601	восточной части Средиземного моря
+T27	FAC 611 621	авианосцем
+T28	EVENT 623 636	Джеральд Форд
+T29	LOCATION 659 678	международных водах
+T30	LOCATION 681 688	берегов
+T31	COUNTRY 689 696	Израиля
+T32	DATE 697 709	с 11 октября
+T33	CARDINAL 764 793	652b17fa9a794709183e6485
+
+Sun
+T34	CARDINAL 795 797	15
+T35	DATE 802 806	2023
+T36	CARDINAL 807 809	01

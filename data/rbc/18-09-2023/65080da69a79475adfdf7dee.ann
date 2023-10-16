@@ -1,0 +1,40 @@
+T0	EVENT 0 6	Взрывы
+T1	PRODUCT 40 54	зерносушильный
+T2	ECONOMIC_SECTOR 69 77	обстреле
+T3	REGION 95 111	Брянской области
+T4	PRODUCT 132 146	зерносушильный
+T5	NEWS_SOURCE 157 175	сообщил губернатор
+T6	PROFESSION 165 175	губернатор
+T7	NEWS_SOURCE 184 201	Александр Богомаз
+T8	PERSON 184 201	Александр Богомаз
+T9	ORGANIZATION 234 242	Севского
+T10	PRODUCT 301 315	зерносушильный
+T11	FAC 316 324	комплекс
+T12	FAC 326 384	хозяйственные помещения и трансформатор сельхозпредприятия
+T13	FAC 408 417	телеграм-
+T14	LAW 417 423	канале
+T15	NEWS_SOURCE 425 446	По словам губернатора
+T16	PROFESSION 435 446	губернатора
+T17	CARDINAL 506 509	в 1
+T18	COUNTRY 526 534	Украиной
+T19	DATE 537 547	4 сентября
+T20	ORGANIZATION 548 555	Богомаз
+T21	PERSON 548 555	Богомаз
+T22	NEWS_SOURCE 548 563	Богомаз сообщил
+T23	ORGANIZATION 571 578	Севском
+T24	GROUP 586 596	сотрудники
+T25	FAC 597 613	погрануправления
+T26	ORGANIZATION 614 617	ФСБ
+T27	ORGANIZATION 620 630	Минобороны
+T28	COUNTRY 654 664	украинской
+T29	ECONOMIC_SECTOR 677 700	разведывательной группы
+T30	GROUP 750 762	диверсантами
+T31	PRODUCT 763 773	вооружение
+T32	PRODUCT 776 786	боеприпасы
+T33	ECONOMIC_SECTOR 800 825	иностранного производства
+T34	PROFESSION 870 875	глава
+T35	CARDINAL 928 952	65080da69a79475adfdf7dee
+T36	CARDINAL 959 961	18
+T37	CITY 962 965	Sep
+T38	CARDINAL 966 973	2023 11
+T39	CARDINAL 974 976	53

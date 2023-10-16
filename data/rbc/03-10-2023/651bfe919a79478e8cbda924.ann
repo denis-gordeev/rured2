@@ -1,0 +1,33 @@
+T0	COUNTRY 0 6	Кремль
+T1	GPE 0 6	Кремль
+T2	COUNTRY 46 52	Россия
+T3	PROFESSION 133 148	пресс-секретарь
+T4	COUNTRY 149 160	российского
+T5	PROFESSION 161 171	президента
+T6	PERSON 172 186	Дмитрий Песков
+T7	NEWS_SOURCE 126 214	заявил пресс-секретарь российского президента Дмитрий Песков, передает корреспондент РБК
+T8	ORGANIZATION 211 214	РБК
+T9	PERSON 273 291	Маргариты Симоньян
+T10	GPE 339 346	Сибирью
+T11	PERSON 496 498	Ни
+T12	ECONOMIC_SECTOR 499 506	ядерной
+T13	DATE 507 511	зимы
+T14	ORGANIZATION 612 615	ЧТД
+T15	NEWS_SOURCE 622 629	заявила
+T16	ECONOMIC_SECTOR 686 694	военного
+T17	COUNTRY 708 715	Украине
+T18	PROFESSION 717 722	Пресс
+T19	PROFESSION 723 746	секретарь президента не
+T20	DATE 776 793	В настоящее время
+T21	DATE 899 905	сейчас
+T22	NEWS_SOURCE 933 944	официальной
+T23	NEWS_SOURCE 962 975	сказал Песков
+T24	PERSON 969 975	Песков
+T25	NEWS_SOURCE 977 996	Он также подчеркнул
+T26	PERSON 1002 1010	Симоньян
+T27	NEWS_SOURCE 1025 1036	официальных
+T28	GROUP 1037 1051	органах власти
+T29	CARDINAL 1167 1191	651bfe919a79478e8cbda924
+T30	CARDINAL 1201 1204	Oct
+T31	CARDINAL 1210 1212	15
+T32	CARDINAL 1213 1215	36

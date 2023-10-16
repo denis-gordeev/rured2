@@ -1,0 +1,56 @@
+T0	PROFESSION 11 20	директора
+T1	CITY 40 50	Петербурге
+T2	PROFESSION 72 81	Директора
+T3	CITY 82 87	Санкт
+T4	ORGANIZATION 88 138	Петербургского научно-исследовательского института
+T5	PRODUCT 148 157	сывороток
+T6	ORGANIZATION 160 171	предприятия
+T7	ECONOMIC_SECTOR 175 187	производству
+T8	PRODUCT 188 199	бактерийных
+T9	GROUP 200 210	препаратов
+T10	PERSON 211 226	Виктора Трухина
+T11	NEWS_SOURCE 248 270	сообщили в Федеральном
+T12	ORGANIZATION 271 277	медико
+T13	ORGANIZATION 278 302	биологического агентстве
+T14	ORGANIZATION 304 308	ФМБА
+T15	COUNTRY 310 316	России
+T16	ORGANIZATION 310 316	России
+T17	PERSON 318 324	Трухин
+T18	EVENT 325 328	был
+T19	DATE 336 346	4 сентября
+T20	CRIME 393 402	нарушения
+T21	NEWS_SOURCE 452 465	сообщает ФМБА
+T22	ORGANIZATION 461 465	ФМБА
+T23	GROUP 500 509	материалы
+T24	GROUP 524 549	правоохранительные органы
+T25	ORGANIZATION 586 598	РИА Новости»
+T26	ORGANIZATION 602 610	Известия
+T27	NEWS_SOURCE 585 620	«РИА Новости» и «Известия» сообщали
+T28	NEWS_SOURCE 623 626	его
+T29	ORGANIZATION 636 645	Новостное
+T30	NEWS_SOURCE 636 655	Новостное агентство
+T31	GROUP 670 695	правоохранительные органы
+T32	NEWS_SOURCE 696 704	сообщало
+T33	PERSON 710 716	Трухин
+T34	CITY 726 732	Москве
+T35	ORGANIZATION 736 743	полицию
+T36	ORDINAL 759 763	дочь
+T37	NEWS_SOURCE 785 804	По данным источника
+T38	NEWS_SOURCE 806 814	Известий
+T39	FAMILY 817 821	дочь
+T40	DATE 859 872	последний раз
+T41	DATE 880 895	отца 3 сентября
+T42	TIME 896 903	вечером
+T43	CARDINAL 904 909	около
+T44	EVENT 945 951	Трухин
+T45	EVENT 982 994	мессенджерах
+T46	DATE 995 1010	в последний раз
+T47	DATE 1024 1034	5 сентября
+T48	DATE 1066 1083	в настоящее время
+T49	GROUP 1084 1091	абонент
+T50	NEWS_SOURCE 1104 1120	сообщает издание
+T51	CARDINAL 1154 1183	64f9fbc69a7947838aaba145
+
+Thu
+T52	DATE 1192 1196	2023
+T53	CARDINAL 1197 1199	20

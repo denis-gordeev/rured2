@@ -1,0 +1,58 @@
+T0	EVENT 0 9	Дипломаты
+T1	NEWS_SOURCE 10 17	заявили
+T2	EVENT 23 29	данных
+T3	NORP 32 41	россиянах
+T4	FAC 55 60	ХАМАС
+T5	NEWS_SOURCE 81 91	информации
+T6	GROUP 103 122	заложников боевиков
+T7	GPE 123 136	палестинского
+T8	FAC 137 151	движения ХАМАС
+T9	COUNTRY 157 167	российские
+T10	NEWS_SOURCE 178 181	нет
+T11	NEWS_SOURCE 183 211	сообщила «РИА Новости» пресс
+T12	ORGANIZATION 193 211	РИА Новости» пресс
+T13	PROFESSION 212 221	секретарь
+T14	COUNTRY 222 233	российского
+T15	ORGANIZATION 234 251	представительства
+T16	ORGANIZATION 254 263	Палестине
+T17	PERSON 264 277	Алия Зарипова
+T18	NEWS_SOURCE 269 277	Зарипова
+T19	NEWS_SOURCE 336 352	заявила Зарипова
+T20	PERSON 344 352	Зарипова
+T21	GROUP 372 382	заложников
+T22	GROUP 392 405	боевики ХАМАС
+T23	COUNTRY 430 437	Израиля
+T24	CARDINAL 444 459	десятки человек
+T25	COUNTRY 496 504	россияне
+T26	NORP 496 504	россияне
+T27	DATE 506 514	накануне
+T28	NEWS_SOURCE 515 530	сообщил Reuters
+T29	ORGANIZATION 523 530	Reuters
+T30	PROFESSION 543 556	представитель
+T31	NEWS_SOURCE 543 565	представитель движения
+T32	PROFESSION 567 590	Министр иностранных дел
+T33	COUNTRY 591 598	Израиля
+T34	PERSON 603 607	Коэн
+T35	NEWS_SOURCE 567 621	Министр иностранных дел Израиля Эли Коэн ранее говорил
+T36	DATE 627 647	за последние три дня
+T37	QUANTITY 644 665	дня более 100 человек
+T38	GROUP 679 699	плен боевиками ХАМАС
+T39	PROFESSION 701 714	Представитель
+T40	ECONOMIC_SECTOR 715 723	военного
+T41	CITY 739 742	Абу
+T42	COUNTRY 823 830	Израиля
+T43	FAC 831 836	ХАМАС
+T44	CARDINAL 851 857	одного
+T45	GROUP 890 901	группировки
+T46	PERSON 902 917	Муса Абу Марзук
+T47	NEWS_SOURCE 902 924	Муса Абу Марзук заявил
+T48	ORGANIZATION 930 935	ХАМАС
+T49	COUNTRY 938 944	Россия
+T50	COUNTRY 981 991	израильтян
+T51	COUNTRY 994 1004	российским
+T52	CARDINAL 1079 1093	10 Oct 2023 10
+T53	PERCENT 1091 1093	10
+T54	PERCENT 1094 1096	10
+T55	CARDINAL 1094 1096	10
+T56	CARDINAL 1097 1099	33
+T57	ORGANIZATION 1100 1101	+

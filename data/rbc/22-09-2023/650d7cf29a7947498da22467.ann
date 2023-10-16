@@ -1,0 +1,43 @@
+T0	PERSON 0 7	Аксенов
+T1	NEWS_SOURCE 0 15	Аксенов сообщил
+T2	REGION 27 32	Крыму
+T3	AWARD 33 41	крылатых
+T4	FAC 42 49	ракетах
+T5	PERSON 51 54	Над
+T6	EVENT 55 66	территорией
+T7	REGION 67 72	Крыма
+T8	ORGANIZATION 73 102	силы противовоздушной обороны
+T9	FAC 118 124	ракеты
+T10	NEWS_SOURCE 126 138	заявил глава
+T11	PROFESSION 133 138	глава
+T12	PERSON 151 165	Сергей Аксенов
+T13	NEWS_SOURCE 151 176	Сергей Аксенов в телеграм
+T14	LAW 168 183	телеграм-канале
+T15	NEWS_SOURCE 177 183	канале
+T16	ORGANIZATION 194 199	штабу
+T17	FAC 200 219	Черноморского флота
+T18	CITY 222 233	Севастополе
+T19	PROFESSION 303 308	главы
+T20	CITY 309 320	Севастополя
+T21	NEWS_SOURCE 293 339	По словам главы Севастополя Михаила Развожаева
+T22	PERSON 321 339	Михаила Развожаева
+T23	ORGANIZATION 383 402	Минобороны сообщило
+T24	NEWS_SOURCE 394 402	сообщило
+T25	CARDINAL 406 411	одном
+T26	EVENT 421 428	военном
+T27	FAC 438 444	первая
+T28	ORGANIZATION 454 458	штаб
+T29	FAC 459 478	Черноморского флота
+T30	DATE 496 512	в июле 2022 года
+T31	COUNTRY 520 530	украинские
+T32	PROFESSION 531 538	военные
+T33	ECONOMIC_SECTOR 575 587	беспилотника
+T34	NEWS_SOURCE 647 654	сообщал
+T35	CARDINAL 687 692	шесть
+T36	ORGANIZATION 702 722	Следственный комитет
+T37	CITY 790 801	Севастополе
+T38	CARDINAL 883 907	650d7cf29a7947498da22467
+T39	CARDINAL 914 916	22
+T40	DATE 921 925	2023
+T41	CARDINAL 926 928	15
+T42	CARDINAL 929 931	15

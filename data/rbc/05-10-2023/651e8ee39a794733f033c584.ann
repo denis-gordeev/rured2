@@ -1,0 +1,64 @@
+T0	PERSON 0 5	Путин
+T1	FAC 24 32	ядерного
+T2	PRODUCT 24 40	ядерного топлива
+T3	COUNTRY 44 57	Бангладешскую
+T4	FAC 58 61	АЭС
+T5	ORGANIZATION 62 63	«
+T6	NEWS_SOURCE 62 63	«
+T7	PERSON 63 69	Руппур
+T8	NEWS_SOURCE 69 70	»
+T9	PROFESSION 72 81	Президент
+T10	COUNTRY 82 88	России
+T11	PERSON 89 103	Владимир Путин
+T12	PRODUCT 145 161	ядерного топлива
+T13	LOCATION 165 178	бангладешскую
+T14	FAC 179 201	атомную электростанцию
+T15	COUNTRY 223 234	российскому
+T16	NEWS_SOURCE 244 272	сообщает пресс-служба Кремля
+T17	ORGANIZATION 253 272	пресс-служба Кремля
+T18	DATE 275 281	Сейчас
+T19	EVENT 297 320	церемонии бангладешским
+T20	GROUP 321 329	коллегам
+T21	COUNTRY 366 377	российского
+T22	PRODUCT 378 394	ядерного топлива
+T23	FAC 398 408	энергоблок
+T24	CARDINAL 415 416	1
+T25	FAC 417 420	АЭС
+T26	ORGANIZATION 422 428	Руппур
+T27	NEWS_SOURCE 443 450	«Руппур
+T28	PERSON 444 450	Руппур
+T29	PRODUCT 479 487	ядерного
+T30	FAC 479 487	ядерного
+T31	NEWS_SOURCE 500 515	рассказал Путин
+T32	PERSON 510 515	Путин
+T33	EVENT 519 535	видеоконференции
+T34	NEWS_SOURCE 538 545	премьер
+T35	NEWS_SOURCE 546 555	министром
+T36	PROFESSION 538 555	премьер-министром
+T37	COUNTRY 556 565	Бангладеш
+T38	PERSON 566 578	Шейх Хасиной
+T39	PROFESSION 579 603	и генеральным директором
+T40	NEWS_SOURCE 566 647	Шейх Хасиной и генеральным директором Международного агентства по атомной энергии
+T41	ORGANIZATION 604 647	Международного агентства по атомной энергии
+T42	NEWS_SOURCE 649 655	МАГАТЭ
+T43	ORGANIZATION 649 655	МАГАТЭ
+T44	PERSON 666 672	Гросси
+T45	ECONOMIC_SECTOR 675 688	Строительство
+T46	FAC 689 692	АЭС
+T47	PERSON 705 710	Пабна
+T48	ORGANIZATION 726 740	госкорпорацией
+T49	ORGANIZATION 742 749	Росатом
+T50	DATE 808 819	в 2011 году
+T51	FAC 821 824	АЭС
+T52	CARDINAL 843 847	двух
+T53	FAC 848 860	энергоблоков
+T54	ORDINAL 871 874	III
+T55	CARDINAL 874 875	+
+T56	QUANTITY 896 909	2400 мегаватт
+T57	CARDINAL 946 960	свыше 20 тысяч
+T58	CARDINAL 986 1005	более четырех тысяч
+T59	COUNTRY 1017 1023	России
+T60	CARDINAL 1078 1102	651e8ee39a794733f033c584
+T61	DATE 1116 1120	2023
+T62	CARDINAL 1121 1123	13
+T63	CARDINAL 1130 1131	+

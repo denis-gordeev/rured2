@@ -1,0 +1,51 @@
+T0	PERSON 0 6	Лавров
+T1	ORDINAL 12 18	первым
+T2	PROFESSION 12 25	первым главой
+T3	ORGANIZATION 26 29	МИД
+T4	COUNTRY 30 36	России
+T5	COUNTRY 49 58	Бангладеш
+T6	PERSON 60 73	Сергей Лавров
+T7	ORDINAL 79 85	первым
+T8	PROFESSION 86 111	министром иностранных дел
+T9	COUNTRY 134 140	России
+T10	COUNTRY 158 167	Бангладеш
+T11	PROFESSION 190 213	представитель ведомства
+T12	PERSON 214 219	Мария
+T13	NEWS_SOURCE 169 228	сообщила официальный представитель ведомства Мария Захарова
+T14	PERSON 231 244	Сергей Лавров
+T15	COUNTRY 254 263	Бангладеш
+T16	PROFESSION 265 271	Первый
+T17	PROFESSION 278 302	министра иностранных дел
+T18	COUNTRY 315 321	России
+T19	NEWS_SOURCE 347 355	телеграм
+T20	NEWS_SOURCE 356 362	канале
+T21	EVENT 364 380	Программа визита
+T22	PROFESSION 381 389	министра
+T23	EVENT 399 406	встречу
+T24	PROFESSION 409 418	премьером
+T25	PROFESSION 426 430	Шейх
+T26	PERSON 426 438	Шейх Хасиной
+T27	EVENT 441 451	переговоры
+T28	EVENT 454 467	бангладешским
+T29	PERSON 477 497	Абдулкаламом Абдулом
+T30	NEWS_SOURCE 507 524	сообщала Захарова
+T31	EVENT 525 536	на брифинге
+T32	EVENT 560 566	визита
+T33	PROFESSION 759 772	представитель
+T34	NEWS_SOURCE 750 784	уточнила представитель российского
+T35	COUNTRY 773 784	российского
+T36	ORGANIZATION 785 789	МИДа
+T37	PERSON 791 797	Лавров
+T38	COUNTRY 809 818	Бангладеш
+T39	COUNTRY 822 831	Индонезии
+T40	GPE 856 864	Восточно
+T41	GPE 865 874	Азиатском
+T42	EVENT 875 882	саммите
+T43	ORGANIZATION 886 894	Джакарте
+T44	DATE 932 933	с
+T45	COUNTRY 934 949	Бангладеш Индии
+T46	PERSON 964 976	Джайшанкаром
+T47	PERSON 1044 1047	Sep
+T48	DATE 1048 1052	2023
+T49	ORGANIZATION 1053 1055	16
+T50	CARDINAL 1059 1063	49 +

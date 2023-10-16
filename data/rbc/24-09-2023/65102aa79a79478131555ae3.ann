@@ -1,0 +1,60 @@
+T0	REGION 4 36	Курской и Белгородской областями
+T1	FAC 50 79	Силы противовоздушной обороны
+T2	REGION 80 92	Белгородской
+T3	REGION 95 102	Курской
+T4	FAC 125 148	дронов самолетного типа
+T5	NEWS_SOURCE 150 169	сообщило Минобороны
+T6	ORGANIZATION 159 169	Минобороны
+T7	FAC 172 181	Дежурными
+T8	CARDINAL 208 211	два
+T9	COUNTRY 212 222	украинских
+T10	ECONOMIC_SECTOR 223 255	беспилотных летательных аппарата
+T11	FAC 235 255	летательных аппарата
+T12	REGION 260 272	Белгородской
+T13	REGION 275 292	Курской областями
+T14	NEWS_SOURCE 297 339	говорится в сообщении оборонного ведомства
+T15	ORGANIZATION 330 339	ведомства
+T16	NEWS_SOURCE 350 385	сообщили также губернаторы регионов
+T17	PROFESSION 365 385	губернаторы регионов
+T18	PROFESSION 398 403	главы
+T19	NEWS_SOURCE 388 416	По словам главы Белгородской
+T20	REGION 417 424	области
+T21	PERSON 425 443	Вячеслава Гладкова
+T22	NEWS_SOURCE 435 443	Гладкова
+T23	FAC 445 456	система ПВО
+T24	ECONOMIC_SECTOR 463 474	беспилотник
+T25	INVESTMENT_PROGRAM 478 485	подлете
+T26	LOCATION 488 494	городу
+T27	REGION 497 509	Белгородском
+T28	PROFESSION 549 559	Губернатор
+T29	NEWS_SOURCE 560 567	Курской
+T30	REGION 560 575	Курской области
+T31	PERSON 576 591	Роман Старовойт
+T32	NEWS_SOURCE 576 598	Роман Старовойт заявил
+T33	PERSON 604 615	Глушковский
+T34	REGION 616 621	район
+T35	GROUP 655 667	пострадавших
+T36	PERSON 680 692	Елизаветовка
+T37	CARDINAL 704 709	шесть
+T38	ORGANIZATION 732 735	КРС
+T39	PRODUCT 738 745	машинно
+T40	PRODUCT 746 757	тракторному
+T41	FAC 758 763	двору
+T42	ORGANIZATION 758 782	двору сельхозпредприятия
+T43	CARDINAL 792 796	пять
+T44	NEWS_SOURCE 822 829	поселке
+T45	ORGANIZATION 830 837	Теткино
+T46	GROUP 840 846	Власти
+T47	COUNTRY 860 870	российских
+T48	GROUP 871 879	регионов
+T49	NEWS_SOURCE 890 898	сообщают
+T50	GROUP 912 919	городов
+T51	GROUP 922 930	поселков
+T52	CARDINAL 964 988	65102aa79a79478131555ae3
+T53	ORGANIZATION 990 993	Sun
+T54	NEWS_SOURCE 990 993	Sun
+T55	CARDINAL 995 1001	24 Sep
+T56	DATE 1002 1006	2023
+T57	CARDINAL 1007 1009	15
+T58	CARDINAL 1010 1012	47
+T59	CARDINAL 1013 1017	12 +

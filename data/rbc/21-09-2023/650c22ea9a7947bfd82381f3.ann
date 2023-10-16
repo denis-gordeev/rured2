@@ -1,0 +1,46 @@
+T0	ORGANIZATION 0 13	Правительство
+T1	PRODUCT 43 50	бензина
+T2	ECONOMIC_SECTOR 35 50	экспорт бензина
+T3	ORGANIZATION 52 65	Правительство
+T4	COUNTRY 66 72	России
+T5	PRODUCT 127 134	бензина
+T6	ECONOMIC_SECTOR 104 155	экспорт автомобильного бензина и дизельного топлива
+T7	PRODUCT 137 155	дизельного топлива
+T8	PROFESSION 196 211	премьер-министр
+T9	PERSON 212 227	Михаил Мишустин
+T10	COMMODITY 270 277	топливо
+T11	ORGANIZATION 324 329	пресс
+T12	NEWS_SOURCE 302 350	говорится в сообщении пресс-службы правительства
+T13	ORGANIZATION 330 350	службы правительства
+T14	ORGANIZATION 354 363	Минэнерго
+T15	PRODUCT 452 474	моторных топлив внутри
+T16	DATE 546 557	20 сентября
+T17	PROFESSION 559 563	вице
+T18	PROFESSION 564 571	премьер
+T19	PERSON 572 587	Александр Новак
+T20	NEWS_SOURCE 572 594	Александр Новак заявил
+T21	ORGANIZATION 600 609	Минэнерго
+T22	CARDINAL 623 628	более
+T23	PRODUCT 683 697	нефтепродуктов
+T24	ECONOMIC_SECTOR 699 711	производство
+T25	EVENT 821 831	совещаниях
+T26	PROFESSION 876 880	вице
+T27	NEWS_SOURCE 869 888	сказал вице-премьер
+T28	PROFESSION 881 888	премьер
+T29	PROFESSION 890 905	Первый замглавы
+T30	ORGANIZATION 906 915	Минэнерго
+T31	PERSON 916 929	Павел Сорокин
+T32	NEWS_SOURCE 890 943	Первый замглавы Минэнерго Павел Сорокин ранее говорил
+T33	ORGANIZATION 949 962	правительство
+T34	GROUP 949 962	правительство
+T35	PRODUCT 1008 1014	серого
+T36	ECONOMIC_SECTOR 1015 1023	экспорта
+T37	PRODUCT 1024 1038	нефтепродуктов
+T38	COMMODITY 1096 1105	топливный
+T39	DATE 1114 1123	в будущем
+T40	CARDINAL 1177 1179	21
+T41	CARDINAL 1188 1212	650c22ea9a7947bfd82381f3
+T42	CARDINAL 1219 1221	21
+T43	DATE 1222 1225	Sep
+T44	CARDINAL 1226 1233	2023 14
+T45	CARDINAL 1234 1236	15

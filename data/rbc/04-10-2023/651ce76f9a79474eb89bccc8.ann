@@ -1,0 +1,49 @@
+T0	NEWS_SOURCE 8 15	сообщил
+T1	EVENT 19 27	обстреле
+T2	REGION 28 44	Брянской области
+T3	PRODUCT 56 68	боеприпасами
+T4	REGION 72 88	Брянской области
+T5	PRODUCT 112 124	боеприпасами
+T6	ORGANIZATION 145 152	Севский
+T7	NEWS_SOURCE 165 175	Климовский
+T8	PERSON 165 175	Климовский
+T9	NEWS_SOURCE 178 189	Трубчевский
+T10	PERSON 178 189	Трубчевский
+T11	ORGANIZATION 190 196	районы
+T12	PROFESSION 206 216	губернатор
+T13	PERSON 217 226	Александр
+T14	PROFESSION 227 234	Богомаз
+T15	NEWS_SOURCE 198 252	сообщил губернатор Александр Богомаз в телеграм-канале
+T16	GROUP 281 293	пострадавших
+T17	GROUP 324 336	домовладения
+T18	ECONOMIC_SECTOR 339 362	хозяйственные постройки
+T19	NEWS_SOURCE 364 371	добавил
+T20	ORGANIZATION 372 379	Богомаз
+T21	NEWS_SOURCE 432 441	сказал он
+T22	REGION 453 461	Брянской
+T23	GPE 462 470	областью
+T24	ECONOMIC_SECTOR 477 488	беспилотник
+T25	FAC 489 500	самолетного
+T26	NEWS_SOURCE 515 522	уточнил
+T27	ORGANIZATION 560 566	Регион
+T28	REGION 578 590	Черниговской
+T29	REGION 593 600	Сумской
+T30	GPE 601 610	областями
+T31	COUNTRY 611 618	Украины
+T32	CITY 620 628	Брянская
+T33	REGION 629 636	область
+T34	DATE 637 645	с начала
+T35	EVENT 646 653	военной
+T36	FAC 705 711	дронов
+T37	DATE 723 732	3 октября
+T38	FAC 734 741	поселок
+T39	REGION 752 768	Брянской области
+T40	PRODUCT 798 810	боеприпасами
+T41	PERSON 872 882	Трубчевске
+T42	DATE 883 894	30 сентября
+T43	GROUP 895 908	мирный житель
+T44	ECONOMIC_SECTOR 925 931	легкой
+T45	FAC 1019 1025	зданий
+T46	CARDINAL 1095 1119	651ce76f9a79474eb89bccc8
+T47	CARDINAL 1141 1143	25
+T48	CARDINAL 1144 1146	14

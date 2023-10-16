@@ -1,0 +1,43 @@
+T0	PERSON 0 9	Лукашенко
+T1	COUNTRY 58 68	Белоруссии
+T2	PROFESSION 70 79	Президент
+T3	COUNTRY 80 90	Белоруссии
+T4	PERSON 91 110	Александр Лукашенко
+T5	PROFESSION 120 130	полковника
+T6	PERSON 131 144	Андрея Расюка
+T7	PROFESSION 145 165	начальником главного
+T8	ORGANIZATION 198 208	управления
+T9	PROFESSION 211 234	заместителем начальника
+T10	ORGANIZATION 235 269	Генерального штаба Вооруженных сил
+T11	NEWS_SOURCE 286 325	сообщила пресс-служба главы государства
+T12	PROFESSION 308 325	главы государства
+T13	PERSON 327 332	Расюк
+T14	NEWS_SOURCE 333 338	ранее
+T15	PROFESSION 343 353	командиром
+T16	ORDINAL 354 359	361-й
+T17	REGION 387 398	центральных
+T18	INVESTMENT_PROGRAM 399 406	органов
+T19	ECONOMIC_SECTOR 407 415	военного
+T20	COUNTRY 427 437	Белоруссии
+T21	PROFESSION 451 485	начальника главного организационно
+T22	PROFESSION 516 551	заместителя начальника Генерального
+T23	ORGANIZATION 552 573	штаба Вооруженных сил
+T24	COUNTRY 574 584	Белоруссии
+T25	PROFESSION 593 600	генерал
+T26	PROFESSION 601 606	майор
+T27	PERSON 607 622	Владислав Будик
+T28	PERSON 624 633	Лукашенко
+T29	DATE 657 675	в середине августа
+T30	EVENT 730 739	на службе
+T31	PROFESSION 745 752	генерал
+T32	PROFESSION 753 759	майора
+T33	DATE 762 768	55 лет
+T34	PERSON 783 788	Будик
+T35	PROFESSION 811 818	Генерал
+T36	PROFESSION 819 824	майор
+T37	CARDINAL 911 935	651aecc39a7947763bae3b30
+T38	FAC 937 940	Mon
+T39	DATE 949 953	2023
+T40	CARDINAL 954 956	19
+T41	CARDINAL 957 959	42
+T42	CARDINAL 960 964	28 +

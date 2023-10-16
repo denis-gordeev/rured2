@@ -1,0 +1,53 @@
+T0	ORGANIZATION 0 10	Минобороны
+T1	NEWS_SOURCE 0 18	Минобороны заявило
+T2	ECONOMIC_SECTOR 34 42	авиацией
+T3	CARDINAL 43 47	трех
+T4	DATE 66 89	Во вторник, 13 сентября
+T5	COUNTRY 91 101	российская
+T6	FAC 110 117	авиация
+T7	LOCATION 131 142	Черном море
+T8	CARDINAL 143 146	три
+T9	COUNTRY 147 157	украинских
+T10	ECONOMIC_SECTOR 158 169	беспилотных
+T11	FAC 170 176	катера
+T12	ORGANIZATION 187 197	Минобороны
+T13	NEWS_SOURCE 178 214	сообщает Минобороны в своем телеграм
+T14	LAW 215 221	канале
+T15	DATE 224 235	13 сентября
+T16	LOCATION 238 260	акватории Черного моря
+T17	FAC 261 297	Морской авиацией Черноморского флота
+T18	CARDINAL 322 323	3
+T19	FAC 337 347	катера ВСУ
+T20	NEWS_SOURCE 352 373	говорится в сообщении
+T21	FAC 401 420	судоремонтный завод
+T22	CITY 425 443	Серго Орджоникидзе
+T23	CITY 446 457	Севастополе
+T24	NEWS_SOURCE 459 492	По информации телеканала Sky News
+T25	ORGANIZATION 484 492	Sky News
+T26	GROUP 526 531	ракет
+T27	ORGANIZATION 532 545	Storm Shadows
+T28	COUNTRY 561 567	Россия
+T29	FAC 569 571	ни
+T30	COUNTRY 572 579	Украина
+T31	GROUP 611 616	ракет
+T32	PROFESSION 625 636	командующий
+T33	COUNTRY 637 648	украинскими
+T34	ORGANIZATION 649 652	ВВС
+T35	PERSON 653 667	Николай Олещук
+T36	FAC 707 714	авиации
+T37	COUNTRY 718 728	российском
+T38	ORGANIZATION 729 739	Минобороны
+T39	GROUP 780 785	атаки
+T40	NEWS_SOURCE 836 861	По официальной информации
+T41	CARDINAL 893 895	24
+T42	LOCATION 928 932	море
+T43	FAC 957 991	отряд кораблей Черноморского флота
+T44	PRODUCT 1022 1029	катеров
+T45	PERSON 1064 1077	Василий Быков
+T46	NEWS_SOURCE 1064 1078	Василий Быков»
+T47	NEWS_SOURCE 1080 1088	сообщило
+T48	CARDINAL 1132 1156	6501e4c39a79475296a3768b
+T49	CARDINAL 1163 1165	13
+T50	DATE 1170 1174	2023
+T51	CARDINAL 1175 1177	20
+T52	CARDINAL 1181 1185	24 +

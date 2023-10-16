@@ -1,0 +1,37 @@
+T0	LOCATION 3 10	окраине
+T1	CITY 11 18	Брянска
+T2	FAC 49 83	дрон
+
+Силы радиоэлектронной борьбы
+T3	COUNTRY 93 103	украинский
+T4	ECONOMIC_SECTOR 104 115	беспилотник
+T5	FAC 119 126	окраине
+T6	CITY 127 134	Брянска
+T7	FAC 136 140	дрон
+T8	PROFESSION 167 177	губернатор
+T9	NEWS_SOURCE 159 186	сообщил губернатор Брянской
+T10	REGION 187 194	области
+T11	NEWS_SOURCE 195 212	Александр Богомаз
+T12	PERSON 195 212	Александр Богомаз
+T13	ECONOMIC_SECTOR 221 229	телеграм
+T14	EVENT 230 236	канале
+T15	LAW 230 236	канале
+T16	ECONOMIC_SECTOR 251 263	беспилотника
+T17	GROUP 395 401	Власти
+T18	COUNTRY 415 425	российских
+T19	GROUP 426 434	регионов
+T20	NEWS_SOURCE 426 453	регионов регулярно сообщают
+T21	ECONOMIC_SECTOR 469 489	атаках беспилотников
+T22	COUNTRY 523 530	Украине
+T23	DATE 532 547	Днем 12 октября
+T24	PERSON 548 555	Богомаз
+T25	NEWS_SOURCE 548 563	Богомаз сообщал
+T26	COUNTRY 580 587	Украины
+T27	EVENT 610 616	пункты
+T28	PERSON 617 625	Азаровка
+T29	PERSON 628 636	Демьянка
+T30	CARDINAL 686 688	12
+T31	CARDINAL 728 730	12
+T32	DATE 735 739	2023
+T33	CARDINAL 740 742	22
+T34	CARDINAL 743 745	52

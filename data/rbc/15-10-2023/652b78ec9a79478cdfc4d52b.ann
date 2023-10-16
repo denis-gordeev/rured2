@@ -1,0 +1,40 @@
+T0	CITY 35 46	Севастополе
+T1	ORGANIZATION 48 55	Громкие
+T2	CITY 64 75	Севастополе
+T3	FAC 85 104	Черноморского флота
+T4	PROFESSION 113 123	губернатор
+T5	CITY 124 135	Севастополя
+T6	NEWS_SOURCE 106 152	заявил губернатор Севастополя Михаил Развожаев
+T7	PERSON 136 152	Михаил Развожаев
+T8	ORGANIZATION 155 162	Громкие
+T9	FAC 178 187	Северного
+T10	ORGANIZATION 199 211	Черноморский
+T11	FAC 212 216	флот
+T12	PRODUCT 258 268	бомбометов
+T13	NEWS_SOURCE 315 323	телеграм
+T14	NEWS_SOURCE 324 330	канале
+T15	DATE 333 343	13 октября
+T16	PROFESSION 344 354	губернатор
+T17	CITY 355 366	Севастополя
+T18	NEWS_SOURCE 344 383	губернатор Севастополя Михаил Развожаев
+T19	PERSON 367 383	Михаил Развожаев
+T20	NEWS_SOURCE 388 395	сообщал
+T21	FAC 424 433	Северного
+T22	NEWS_SOURCE 466 487	своем телеграм-канале
+T23	FAC 516 521	флота
+T24	LOCATION 582 604	акватории Черного моря
+T25	NEWS_SOURCE 691 699	уточняли
+T26	ORGANIZATION 702 714	Черноморском
+T27	LAW 715 720	флоте
+T28	PROFESSION 735 742	военные
+T29	ECONOMIC_SECTOR 787 791	мины
+T30	ECONOMIC_SECTOR 794 814	морские беспилотники
+T31	PERSON 858 863	Павел
+T32	FAC 875 881	катера
+T33	FAC 884 891	морские
+T34	GROUP 892 901	тральщики
+T35	CARDINAL 935 959	652b78ec9a79478cdfc4d52b
+T36	ORGANIZATION 961 964	Sun
+T37	CARDINAL 966 968	15
+T38	CARDINAL 981 983	41
+T39	CARDINAL 984 986	43

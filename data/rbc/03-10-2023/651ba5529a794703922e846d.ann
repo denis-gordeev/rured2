@@ -1,0 +1,37 @@
+T0	FAC 19 29	территория
+T1	ORGANIZATION 30 41	предприятия
+T2	CITY 44 56	белгородском
+T3	REGION 44 56	белгородском
+T4	PERSON 57 65	Шебекино
+T5	COUNTRY 90 97	Украины
+T6	PERSON 110 118	Шебекино
+T7	REGION 119 139	Белгородской области
+T8	PROFESSION 149 159	губернатор
+T9	NEWS_SOURCE 141 176	сообщил губернатор Вячеслав Гладков
+T10	PERSON 160 176	Вячеслав Гладков
+T11	NEWS_SOURCE 179 193	своем телеграм
+T12	NEWS_SOURCE 194 200	канале
+T13	NEWS_SOURCE 299 317	По словам Гладкова
+T14	PERSON 309 317	Гладкова
+T15	GROUP 319 331	пострадавших
+T16	REGION 338 358	Белгородская область
+T17	ECONOMIC_SECTOR 394 401	стороны
+T18	ECONOMIC_SECTOR 421 441	атакам беспилотников
+T19	DATE 443 452	1 октября
+T20	PERSON 453 460	Гладков
+T21	FAC 474 477	ВСУ
+T22	FAC 489 494	район
+T23	ORGANIZATION 495 507	центрального
+T24	PERSON 516 524	Шебекино
+T25	CARDINAL 537 540	три
+T26	CARDINAL 551 555	одна
+T27	CARDINAL 599 604	двоих
+T28	GROUP 605 611	мужчин
+T29	FAC 657 683	фасады торговых павильонов
+T30	FAC 687 692	рынке
+T31	FAC 708 714	гаражи
+T32	CARDINAL 717 720	три
+T33	PRODUCT 721 731	автомобиля
+T34	ORGANIZATION 791 794	Tue
+T35	CARDINAL 814 816	41
+T36	PRODUCT 817 818	+

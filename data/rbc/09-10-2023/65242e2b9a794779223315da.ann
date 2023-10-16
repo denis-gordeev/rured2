@@ -1,0 +1,44 @@
+T0	PERSON 0 5	Путин
+T1	ORGANIZATION 45 59	госкорпорациях
+T2	PROFESSION 61 70	Президент
+T3	COUNTRY 71 77	России
+T4	PERSON 78 92	Владимир Путин
+T5	GROUP 101 114	правительству
+T6	ORGANIZATION 184 198	госкорпорациях
+T7	ORGANIZATION 201 224	компаниях с госучастием
+T8	EVENT 268 277	заседания
+T9	ORGANIZATION 278 287	Совета по
+T10	NEWS_SOURCE 347 373	приводится на сайте Кремля
+T11	CITY 367 373	Кремля
+T12	PROFESSION 375 392	Глава государства
+T13	NEWS_SOURCE 375 400	Глава государства отметил
+T14	ORGANIZATION 497 507	компаниями
+T15	INVESTMENT_PROGRAM 508 522	инвестиционных
+T16	QUANTITY 616 628	рабочих мест
+T17	DATE 662 681	к 1 марта 2024 года
+T18	PROFESSION 697 706	президент
+T19	PROFESSION 716 732	премьер-министра
+T20	PERSON 733 750	Михаила Мишустина
+T21	DATE 753 778	В конце января этого года
+T22	PERSON 779 784	Путин
+T23	ORGANIZATION 793 806	правительству
+T24	DATE 807 816	до 1 июля
+T25	ECONOMIC_SECTOR 858 885	отечественной робототехники
+T26	PROFESSION 887 896	Президент
+T27	NEWS_SOURCE 887 904	Президент уточнил
+T28	ECONOMIC_SECTOR 1001 1013	производства
+T29	PRODUCT 1026 1038	промышленных
+T30	COUNTRY 1049 1055	России
+T31	ECONOMIC_SECTOR 1104 1111	отрасли
+T32	ECONOMIC_SECTOR 1121 1153	финансирование исследовательских
+T33	INVESTMENT_PROGRAM 1154 1159	работ
+T34	CARDINAL 1271 1277	10 тыс
+T35	QUANTITY 1296 1303	рабочих
+T36	NEWS_SOURCE 1340 1352	говорилось в
+T37	PROFESSION 1363 1368	главы
+T38	NEWS_SOURCE 1363 1380	главы государства
+T39	EVENT 1369 1383	государства по
+T40	EVENT 1391 1421	конференции «Путешествие в мир
+T41	DATE 1520 1524	2023
+T42	CARDINAL 1525 1527	20
+T43	CARDINAL 1531 1535	11 +

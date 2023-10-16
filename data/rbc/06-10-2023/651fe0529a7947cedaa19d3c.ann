@@ -1,0 +1,61 @@
+T0	COUNTRY 0 6	Кремль
+T1	GPE 0 6	Кремль
+T2	ECONOMIC_SECTOR 20 28	обстреле
+T3	PERSON 29 34	Грозы
+T4	COUNTRY 86 96	российских
+T5	GROUP 97 104	военных
+T6	FAC 121 151	объекты военной инфраструктуры
+T7	GROUP 170 176	солдат
+T8	FAC 181 189	военного
+T9	GROUP 190 201	руководства
+T10	COUNTRY 202 209	Украины
+T11	PROFESSION 226 252	пресс-секретарь президента
+T12	COUNTRY 253 259	России
+T13	NEWS_SOURCE 219 274	заявил пресс-секретарь президента России Дмитрий Песков
+T14	PERSON 260 274	Дмитрий Песков
+T15	QUANTITY 295 311	более 50 человек
+T16	PERSON 330 335	Гроза
+T17	REGION 338 357	Харьковской области
+T18	NEWS_SOURCE 359 385	передает корреспондент РБК
+T19	ORGANIZATION 382 385	РБК
+T20	COUNTRY 414 424	российские
+T21	PROFESSION 425 432	военные
+T22	GROUP 425 432	военные
+T23	FAC 500 507	военной
+T24	GROUP 541 555	военнослужащих
+T25	GROUP 557 592	представителей военного руководства
+T26	PROFESSION 604 609	пресс
+T27	NEWS_SOURCE 597 619	заявил пресс-секретарь
+T28	PROFESSION 610 619	секретарь
+T29	COUNTRY 630 640	украинское
+T30	ORGANIZATION 641 644	МВД
+T31	NEWS_SOURCE 630 652	украинское МВД заявило
+T32	PERSON 684 700	Гроза Купянского
+T33	QUANTITY 716 726	50 человек
+T34	NEWS_SOURCE 728 737	По данным
+T35	GROUP 738 745	властей
+T36	NEWS_SOURCE 746 757	Харьковской
+T37	REGION 758 765	области
+T38	FAC 782 789	магазин
+T39	FAC 792 796	кафе
+T40	PROFESSION 829 834	глава
+T41	PERSON 852 866	Олег Синегубов
+T42	NEWS_SOURCE 852 876	Олег Синегубов рассказал
+T43	GROUP 888 896	погибших
+T44	MONEY 905 910	до 52
+T45	PROFESSION 912 921	Президент
+T46	COUNTRY 922 929	Украины
+T47	NEWS_SOURCE 930 938	Владимир
+T48	PERSON 930 948	Владимир Зеленский
+T49	COUNTRY 972 978	Россию
+T50	NEWS_SOURCE 988 994	заявил
+T51	GPE 1012 1024	европейскими
+T52	COUNTRY 1043 1053	украинской
+T53	GROUP 1054 1057	ПВО
+T54	CARDINAL 1091 1093	10
+T55	CARDINAL 1099 1123	651fe0529a7947cedaa19d3c
+T56	NEWS_SOURCE 1133 1136	Oct
+T57	DATE 1137 1141	2023
+T58	CARDINAL 1142 1144	14
+T59	CARDINAL 1145 1147	15
+T60	CARDINAL 1148 1150	43
