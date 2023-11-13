@@ -1,0 +1,53 @@
+T0	FAC 14 27	Афипского НПЗ
+T1	REGION 30 48	Краснодарском крае
+T2	INVESTMENT_PROGRAM 59 64	пожар
+T3	ORGANIZATION 122 131	Северском
+T4	FAC 80 138	Афипского нефтеперерабатывающего завода в Северском районе
+T5	REGION 139 158	Краснодарского края
+T6	ECONOMIC_SECTOR 179 189	возгорание
+T7	ORGANIZATION 220 236	оперативный штаб
+T8	NEWS_SOURCE 199 253	сообщил региональный оперативный штаб в своем телеграм
+T9	NEWS_SOURCE 254 260	канале
+T10	EVENT 254 260	канале
+T11	ECONOMIC_SECTOR 275 285	возгорания
+T12	FAC 319 322	НПЗ
+T13	GROUP 355 366	предприятию
+T14	GROUP 369 388	жителям близлежащих
+T15	GPE 389 399	населенных
+T16	QUANTITY 400 407	пунктов
+T17	TIME 466 474	30 минут
+T18	FAC 485 490	канал
+T19	GROUP 510 519	очевидцев
+T20	FAC 542 555	Афипского НПЗ
+T21	GROUP 581 587	жители
+T22	EVENT 610 617	взрывом
+T23	FAC 643 656	газонокосилку
+T24	NEWS_SOURCE 658 660	По
+T25	FAC 685 688	НПЗ
+T26	ECONOMIC_SECTOR 698 709	беспилотник
+T27	NEWS_SOURCE 711 721	пишет SHOT
+T28	ORGANIZATION 717 721	SHOT
+T29	DATE 724 729	В мае
+T30	NEWS_SOURCE 730 740	губернатор
+T31	PROFESSION 730 740	губернатор
+T32	CITY 741 755	Краснодарского
+T33	REGION 741 760	Краснодарского края
+T34	PERSON 761 780	Вениамин Кондратьев
+T35	NEWS_SOURCE 761 788	Вениамин Кондратьев сообщил
+T36	FAC 812 825	Афипского НПЗ
+T37	FAC 845 850	дрона
+T38	PROFESSION 876 881	главы
+T39	NEWS_SOURCE 866 889	по словам главы региона
+T40	ORGANIZATION 906 926	Следственный комитет
+T41	NEWS_SOURCE 933 939	заявил
+T42	FAC 959 962	НПЗ
+T43	NEWS_SOURCE 964 966	по
+T44	ECONOMIC_SECTOR 1007 1025	удара беспилотника
+T45	FAC 1013 1025	беспилотника
+T46	ORGANIZATION 1027 1036	Ведомство
+T47	CARDINAL 1091 1115	653dc1169a7947fe7c2b4f08
+T48	CARDINAL 1122 1124	29
+T49	DATE 1129 1133	2023
+T50	CARDINAL 1137 1139	45
+T51	CARDINAL 1140 1142	20
+T52	ORGANIZATION 1143 1144	+

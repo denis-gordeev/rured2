@@ -1,0 +1,64 @@
+T0	GPE 0 6	Москва
+T1	ECONOMIC_SECTOR 16 29	льготный заем
+T2	ECONOMIC_SECTOR 33 62	экспорт мясоперерабатывающему
+T3	FAC 63 69	заводу
+T4	CARDINAL 71 75	Один
+T5	GROUP 79 103	столичных производителей
+T6	PRODUCT 104 120	мясной продукции
+T7	ORGANIZATION 132 145	правительства
+T8	GPE 146 152	Москвы
+T9	MONEY 179 182	250
+T10	CARDINAL 179 186	250 млн
+T11	CURRENCY 187 190	руб
+T12	ECONOMIC_SECTOR 210 220	экспортной
+T13	PROFESSION 253 260	заммэра
+T14	CITY 261 267	Москвы
+T15	NEWS_SOURCE 243 279	рассказал заммэра Москвы по вопросам
+T16	PROFESSION 268 302	по вопросам экономической политики
+T17	NEWS_SOURCE 338 353	Владимир Ефимов
+T18	PERSON 338 353	Владимир Ефимов
+T19	ECONOMIC_SECTOR 355 361	Кредит
+T20	LAW 362 373	предприятию
+T21	DATE 384 403	в октябре 2023 года
+T22	DATE 412 426	в пять лет под
+T23	LAW 423 426	под
+T24	PERCENT 427 429	3%
+T25	DATE 430 437	годовых
+T26	PROFESSION 449 453	вице
+T27	NEWS_SOURCE 439 458	По словам вице-мэра
+T28	PROFESSION 454 458	мэра
+T29	GROUP 519 536	столичных властей
+T30	FAC 551 560	столичным
+T31	GROUP 561 575	промышленникам
+T32	ORGANIZATION 647 687	Московский фонд поддержки промышленности
+T33	PROFESSION 688 689	и
+T34	ECONOMIC_SECTOR 759 769	материалов
+T35	ECONOMIC_SECTOR 772 785	комплектующих
+T36	ECONOMIC_SECTOR 790 802	производства
+T37	ECONOMIC_SECTOR 813 830	экспорт продукции
+T38	PRODUCT 846 866	мясоперерабатывающее
+T39	FAC 867 878	предприятие
+T40	ECONOMIC_SECTOR 901 909	экспорта
+T41	PROFESSION 945 950	главы
+T42	NEWS_SOURCE 935 974	по словам главы столичного департамента
+T43	ORGANIZATION 962 974	департамента
+T44	PROFESSION 1005 1013	политики
+T45	PERSON 1014 1035	Владислава Овчинского
+T46	MONEY 1057 1068	200 млн руб
+T47	CURRENCY 1065 1068	руб
+T48	ORGANIZATION 1070 1132	Московский фонд поддержки промышленности и предпринимательства
+T49	ECONOMIC_SECTOR 1169 1175	займов
+T50	ORGANIZATION 1176 1188	предприятиям
+T51	DATE 1223 1234	до пяти лет
+T52	ECONOMIC_SECTOR 1264 1274	банковской
+T53	PERCENT 1277 1282	от 3%
+T54	DATE 1283 1290	годовых
+T55	ORGANIZATION 1304 1308	фонд
+T56	GROUP 1414 1424	инвесторам
+T57	CITY 1445 1451	Москве
+T58	FAC 1452 1467	нежилые объекты
+T59	ORGANIZATION 1527 1530	Thu
+T60	DATE 1539 1543	2023
+T61	CARDINAL 1544 1546	14
+T62	CARDINAL 1547 1549	20
+T63	CARDINAL 1550 1554	33 +

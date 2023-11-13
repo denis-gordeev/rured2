@@ -1,0 +1,30 @@
+T0	PERSON 0 20	Циркач Василий Шанин
+T1	FAC 50 58	Цирковой
+T2	PROFESSION 59 65	артист
+T3	PERSON 66 79	Василий Шанин
+T4	CITY 103 109	Москве
+T5	DATE 110 120	16 октября
+T6	NEWS_SOURCE 122 134	сообщил ТАСС
+T7	ORGANIZATION 130 134	ТАСС
+T8	NEWS_SOURCE 149 154	пресс
+T9	ORGANIZATION 149 154	пресс
+T10	COUNTRY 162 172	Российской
+T11	ORGANIZATION 155 206	службу Российской государственной цирковой компании
+T12	ORGANIZATION 208 218	Росгосцирк
+T13	ORGANIZATION 261 270	агентству
+T14	NEWS_SOURCE 250 285	рассказали агентству в пресс-службе
+T15	ORGANIZATION 273 285	пресс-службе
+T16	ORGANIZATION 305 316	Росгосцирка
+T17	DATE 317 337	в феврале этого года
+T18	ORGANIZATION 350 358	компании
+T19	CRIME 382 390	лошадьми
+T20	CITY 395 403	Барнауле
+T21	DATE 404 414	31 августа
+T22	GROUP 415 429	артистка цирка
+T23	ORGANIZATION 509 536	прокуратуре Алтайского края
+T24	FAC 616 621	цирке
+T25	CARDINAL 655 679	652e6dcc9a794792f00eba06
+T26	CARDINAL 686 688	17
+T27	CARDINAL 693 700	2023 14
+T28	CARDINAL 701 703	44
+T29	CARDINAL 704 708	25 +

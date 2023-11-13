@@ -1,0 +1,51 @@
+T0	PERSON 0 5	Путин
+T1	NEWS_SOURCE 0 12	Путин заявил
+T2	COUNTRY 51 62	Казахстаном
+T3	COUNTRY 114 121	Россией
+T4	COUNTRY 124 135	Казахстаном
+T5	COUNTRY 156 166	российский
+T6	PROFESSION 167 176	президент
+T7	NEWS_SOURCE 149 191	заявил российский президент Владимир Путин
+T8	PERSON 177 191	Владимир Путин
+T9	PERSON 193 198	Путин
+T10	NEWS_SOURCE 193 206	Путин отметил
+T11	PERCENT 225 226	с
+T12	COUNTRY 227 238	Казахстаном
+T13	DATE 239 250	в 2022 году
+T14	PERCENT 262 278	более чем на 10%
+T15	PERCENT 280 286	до $28
+T16	PERCENT 287 293	2 млрд
+T17	DATE 296 326	За январь—август текущего года
+T18	ECONOMIC_SECTOR 337 355	торговля прибавила
+T19	PERCENT 356 362	еще 7%
+T20	ECONOMIC_SECTOR 428 437	экспортно
+T21	EVENT 472 494	на пленарном заседании
+T22	DATE 495 498	XIX
+T23	EVENT 499 542	Форума межрегионального сотрудничества двух
+T24	CARDINAL 538 542	двух
+T25	NEWS_SOURCE 560 564	ТАСС
+T26	ORGANIZATION 560 564	ТАСС
+T27	COUNTRY 568 574	Россия
+T28	GROUP 604 614	инвесторов
+T29	NEWS_SOURCE 645 665	подчеркнул президент
+T30	PROFESSION 656 665	президент
+T31	PERSON 668 673	Путин
+T32	EVENT 692 703	официальным
+T33	DATE 704 720	визитом 9 ноября
+T34	EVENT 742 748	форуме
+T35	COUNTRY 769 777	Костанае
+T36	EVENT 782 792	видеосвязи
+T37	EVENT 798 809	ходе визита
+T38	PERSON 810 816	Путина
+T39	EVENT 831 841	переговоры
+T40	PROFESSION 844 855	президентом
+T41	COUNTRY 856 866	Казахстана
+T42	PERSON 867 872	Касым
+T43	EVENT 872 890	-Жомартом Токаевым
+T44	PROFESSION 923 928	Главы
+T45	GROUP 923 939	Главы государств
+T46	EVENT 1107 1118	переговоров
+T47	ORGANIZATION 1133 1136	rbc
+T48	CARDINAL 1152 1176	654cdf1b9a79473c7aaa653e
+T49	DATE 1190 1194	2023
+T50	CARDINAL 1195 1200	17:00

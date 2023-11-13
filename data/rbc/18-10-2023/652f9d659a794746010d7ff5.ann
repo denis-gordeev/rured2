@@ -1,0 +1,56 @@
+T0	EVENT 0 10	Переговоры
+T1	PERSON 11 17	Путина
+T2	PERSON 20 32	Си Цзиньпина
+T3	CITY 35 41	Пекине
+T4	TRADE_AGREEMENT 42 53	завершились
+T5	ORGANIZATION 55 64	Российско
+T6	COUNTRY 65 74	китайские
+T7	EVENT 75 85	переговоры
+T8	PROFESSION 92 105	председателем
+T9	COUNTRY 106 109	КНР
+T10	PERSON 110 123	Си Цзиньпином
+T11	PERSON 126 156	Владимиром Путиным завершились
+T12	PROFESSION 166 192	пресс-секретарь президента
+T13	COUNTRY 193 199	России
+T14	NEWS_SOURCE 158 214	сообщил пресс-секретарь президента России Дмитрий Песков
+T15	PERSON 200 214	Дмитрий Песков
+T16	NEWS_SOURCE 216 229	передает ТАСС
+T17	ORGANIZATION 225 229	ТАСС
+T18	NEWS_SOURCE 236 247	[переговоры
+T19	EVENT 237 247	переговоры
+T20	EVENT 269 275	беседа
+T21	PROFESSION 335 345	журналиста
+T22	DATE 348 366	С 17 по 18 октября
+T23	CITY 369 375	Пекине
+T24	EVENT 385 390	форум
+T25	CARDINAL 392 396	Один
+T26	EVENT 397 401	пояс
+T27	CARDINAL 403 407	один
+T28	PERSON 415 426	Си Цзиньпин
+T29	PERSON 445 451	Путина
+T30	COUNTRY 463 474	российского
+T31	NEWS_SOURCE 453 485	По мнению российского президента
+T32	PROFESSION 475 485	президента
+T33	GPE 535 547	евразийского
+T34	CARDINAL 598 603	обеих
+T35	GROUP 604 609	стран
+T36	EVENT 620 626	форума
+T37	COUNTRY 627 637	российский
+T38	PROFESSION 638 655	глава государства
+T39	EVENT 663 670	встречу
+T40	PROFESSION 694 701	премьер
+T41	PROFESSION 702 711	министром
+T42	GPE 712 720	Таиланда
+T43	PERSON 721 736	Сеттха Тхависин
+T44	PROFESSION 738 745	премьер
+T45	PROFESSION 746 755	министром
+T46	COUNTRY 756 763	Венгрии
+T47	PERSON 764 780	Виктором Орбаном
+T48	PROFESSION 783 794	президентом
+T49	PERSON 795 819	Лаоса Тхонглун Сисулитом
+T50	CARDINAL 853 877	652f9d659a794746010d7ff5
+T51	CARDINAL 884 890	18 Oct
+T52	CARDINAL 896 898	12
+T53	PERCENT 899 901	17
+T54	CARDINAL 899 901	17
+T55	CARDINAL 902 906	58 +

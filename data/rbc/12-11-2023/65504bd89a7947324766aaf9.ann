@@ -1,0 +1,37 @@
+T0	FAC 0 8	Силы ПВО
+T1	ECONOMIC_SECTOR 15 26	беспилотник
+T2	REGION 31 43	Белгородской
+T3	GPE 44 52	областью
+T4	COUNTRY 73 83	украинский
+T5	ECONOMIC_SECTOR 84 95	беспилотник
+T6	FAC 84 112	беспилотник самолетного типа
+T7	REGION 117 149	территорией Белгородской области
+T8	ORGANIZATION 168 185	Минобороны России
+T9	COUNTRY 179 185	России
+T10	NEWS_SOURCE 159 187	сообщило Минобороны России в
+T11	NEWS_SOURCE 194 202	телеграм
+T12	NEWS_SOURCE 203 209	канале
+T13	PERSON 212 221	Дежурными
+T14	ECONOMIC_SECTOR 233 236	ПВО
+T15	COUNTRY 237 247	украинский
+T16	ECONOMIC_SECTOR 248 259	беспилотный
+T17	DATE 260 271	летательный
+T18	REGION 294 326	территорией Белгородской области
+T19	NEWS_SOURCE 331 352	говорится в сообщении
+T20	ORGANIZATION 367 377	Минобороны
+T21	REGION 391 411	Белгородская область
+T22	COUNTRY 439 458	Украиной российские
+T23	GROUP 459 466	регионы
+T24	GROUP 517 523	атакам
+T25	ECONOMIC_SECTOR 524 537	беспилотников
+T26	INVESTMENT_PROGRAM 538 539	и
+T27	CRIME 553 561	обстрелы
+T28	DATE 576 585	11 ноября
+T29	FAC 600 612	белгородский
+T30	FAC 757 771	электропередач
+T31	CARDINAL 825 849	65504bd89a7947324766aaf9
+T32	PERCENT 856 858	12
+T33	CARDINAL 856 858	12
+T34	CARDINAL 863 867	2023
+T35	PERCENT 874 876	50
+T36	CARDINAL 874 878	50 +

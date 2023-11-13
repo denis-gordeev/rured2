@@ -1,0 +1,61 @@
+T0	COUNTRY 0 11	Азербайджан
+T1	NEWS_SOURCE 0 11	Азербайджан
+T2	ECONOMIC_SECTOR 37 47	переброски
+T3	FAC 48 56	Арменией
+T4	PRODUCT 57 63	оружия
+T5	REGION 66 73	Карабах
+T6	COUNTRY 75 82	Армения
+T7	GROUP 83 92	незаконно
+T8	ECONOMIC_SECTOR 93 103	перевозила
+T9	FAC 93 103	перевозила
+T10	PRODUCT 93 114	перевозила вооружения
+T11	CITY 117 125	Нагорный
+T12	FAC 126 133	Карабах
+T13	COUNTRY 159 170	Азербайджан
+T14	FAC 188 208	антитеррористические
+T15	EVENT 209 220	мероприятия
+T16	EVENT 224 231	регионе
+T17	DATE 232 251	в минувшем сентябре
+T18	NEWS_SOURCE 253 274	сообщается в телеграм
+T19	NEWS_SOURCE 275 305	канале Минобороны Азербайджана
+T20	ORGANIZATION 282 305	Минобороны Азербайджана
+T21	NEWS_SOURCE 307 330	По информации ведомства
+T22	ORGANIZATION 321 330	ведомства
+T23	GROUP 356 379	азербайджанские военные
+T24	REGION 388 396	Карабахе
+T25	PRODUCT 397 407	боеприпасы
+T26	FAC 397 407	боеприпасы
+T27	DATE 438 449	в 2021 году
+T28	FAC 463 470	ракетах
+T29	ORGANIZATION 499 502	ТОС
+T30	CARDINAL 503 505	1А
+T31	COUNTRY 512 522	российская
+T32	PRODUCT 523 541	система вооружения
+T33	PRODUCT 543 552	Солнцепек
+T34	COUNTRY 562 573	Азербайджан
+T35	NEWS_SOURCE 574 581	выяснил
+T36	FAC 626 631	ракет
+T37	PRODUCT 632 656	противотанковых ракетных
+T38	FAC 657 667	комплексов
+T39	ORGANIZATION 680 685	Фагот
+T40	COUNTRY 687 694	Армения
+T41	ECONOMIC_SECTOR 723 736	производителя
+T42	TRADE_AGREEMENT 740 749	контракту
+T43	TRADE_AGREEMENT 751 763	заключенному
+T44	DATE 764 781	в конце 2020 года
+T45	CARDINAL 818 824	третье
+T46	ORDINAL 818 824	третье
+T47	DATE 850 851	в
+T48	FAC 852 859	Карабах
+T49	PERSON 874 879	Фагот
+T50	COUNTRY 898 904	Россия
+T51	GROUP 966 994	незаконных военных перевозок
+T52	COUNTRY 998 1005	Армении
+T53	ORGANIZATION 1008 1019	Карабахский
+T54	GROUP 1020 1026	регион
+T55	ORGANIZATION 1041 1064	Минобороны Азербайджана
+T56	CARDINAL 1117 1119	26
+T57	CARDINAL 1120 1122	10
+T58	CARDINAL 1128 1152	653a41ce9a7947328d36bd92
+T59	CARDINAL 1159 1161	26
+T60	CARDINAL 1171 1173	14

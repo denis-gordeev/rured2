@@ -1,0 +1,78 @@
+T0	ORGANIZATION 29 36	Балтике
+T1	FAC 29 36	Балтике
+T2	ORGANIZATION 55 76	Balticconnector
+
+НАТО
+T3	LOCATION 103 118	Балтийском море
+T4	FAC 137 164	газопровода Balticconnector
+T5	COUNTRY 171 181	Финляндией
+T6	GPE 184 192	Эстонией
+T7	NEWS_SOURCE 194 215	сообщает пресс-служба
+T8	ORGANIZATION 203 244	пресс-служба Североатлантического альянса
+T9	GROUP 273 287	наблюдательных
+T10	PRODUCT 332 360	морских патрульных самолетов
+T11	PRODUCT 362 377	самолетов AWACS
+T12	ORGANIZATION 379 399	Авиационный комплекс
+T13	FAC 391 399	комплекс
+T14	FAC 419 428	наведения
+T15	ORGANIZATION 432 435	РБК
+T16	ECONOMIC_SECTOR 439 452	беспилотников
+T17	REGION 462 467	район
+T18	CARDINAL 496 502	четыре
+T19	ORGANIZATION 525 543	пресс-службе блока
+T20	ORGANIZATION 596 600	НАТО
+T21	PERSON 601 611	Дилан Уайт
+T22	NEWS_SOURCE 596 622	НАТО Дилан Уайт подчеркнул
+T23	ORGANIZATION 628 634	альянс
+T24	COUNTRY 664 672	Эстонией
+T25	GPE 664 672	Эстонией
+T26	COUNTRY 674 684	Финляндией
+T27	PERSON 687 694	Швецией
+T28	GROUP 758 767	союзников
+T29	FAC 773 800	газопроводе Balticconnector
+T30	LOCATION 826 842	Балтийского моря
+T31	LOCATION 846 854	финского
+T32	CITY 855 860	Инкоо
+T33	NORP 864 874	эстонского
+T34	GROUP 875 883	Палдиски
+T35	DATE 885 894	8 октября
+T36	FAC 927 948	газопровода — финский
+T37	ORGANIZATION 949 956	Gasgrid
+T38	GPE 959 968	эстонский
+T39	ORGANIZATION 969 976	Elering
+T40	ECONOMIC_SECTOR 989 1000	подачу газа
+T41	COMMODITY 996 1000	газа
+T42	PROFESSION 1012 1017	главы
+T43	ORGANIZATION 1018 1025	Gasgrid
+T44	NEWS_SOURCE 1002 1030	По словам главы Gasgrid Янне
+T45	PERSON 1026 1040	Янне Грёнлунда
+T46	FAC 1045 1063	ремонт газопровода
+T47	DATE 1076 1082	месяцы
+T48	PROFESSION 1084 1093	Президент
+T49	COUNTRY 1094 1103	Финляндии
+T50	PERSON 1104 1118	Саули Ниинистё
+T51	NEWS_SOURCE 1084 1125	Президент Финляндии Саули Ниинистё заявил
+T52	GPE 1151 1166	Balticconnector
+T53	GROUP 1212 1218	Власти
+T54	COUNTRY 1219 1228	Финляндии
+T55	COUNTRY 1241 1247	Россию
+T56	FAC 1265 1280	Balticconnector
+T57	GPE 1265 1280	Balticconnector
+T58	NEWS_SOURCE 1282 1294	сообщило Yle
+T59	ORGANIZATION 1291 1294	Yle
+T60	FAC 1326 1333	внешней
+T61	EVENT 1359 1366	Финская
+T62	FAC 1412 1423	газопровода
+T63	EVENT 1433 1442	инцидента
+T64	FAC 1464 1469	судов
+T65	COUNTRY 1483 1493	российский
+T66	FAC 1494 1515	атомный контейнеровоз
+T67	ORGANIZATION 1517 1527	Севморпуть
+T68	ORGANIZATION 1533 1541	Росатоме
+T69	ORGANIZATION 1573 1578	судна
+T70	FAC 1573 1578	судна
+T71	ORGANIZATION 1593 1608	Balticconnector
+T72	FAC 1593 1608	Balticconnector
+T73	CARDINAL 1642 1666	653186bf9a7947b9d3fabc42
+T74	CARDINAL 1673 1687	19 Oct 2023 23
+T75	CARDINAL 1688 1690	42

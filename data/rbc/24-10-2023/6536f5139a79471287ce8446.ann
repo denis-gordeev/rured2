@@ -1,0 +1,70 @@
+T0	COUNTRY 2 8	Швеции
+T1	FAC 29 35	кабеля
+T2	COUNTRY 38 45	Эстонию
+T3	FAC 49 56	внешней
+T4	COUNTRY 77 83	Швецию
+T5	COUNTRY 86 93	Эстонию
+T6	FAC 94 131	подводный телекоммуникационный кабель
+T7	NEWS_SOURCE 170 192	заявил министр обороны
+T8	PROFESSION 177 192	министр обороны
+T9	COUNTRY 193 199	Швеции
+T10	ORGANIZATION 200 203	Пол
+T11	PERSON 204 211	Йонссон
+T12	NEWS_SOURCE 213 228	передает Ekstra
+T13	ORGANIZATION 229 235	Blaget
+T14	FAC 272 278	кабель
+T15	NEWS_SOURCE 344 359	сообщил министр
+T16	PROFESSION 352 359	министр
+T17	FAC 376 382	кабеля
+T18	PERSON 383 390	Йонссон
+T19	NEWS_SOURCE 383 401	Йонссон сообщил 17
+T20	DATE 399 409	17 октября
+T21	FAC 464 500	подводный газопровод Balticconnector
+T22	COUNTRY 507 517	Финляндией
+T23	GPE 520 528	Эстонией
+T24	FAC 531 557	Газопровод Balticconnector
+T25	LOCATION 567 590	по дну Балтийского моря
+T26	LOCATION 594 608	финского Инкоо
+T27	LOCATION 612 622	эстонского
+T28	FAC 623 631	Палдиски
+T29	EVENT 633 648	Balticconnector
+T30	COUNTRY 663 672	Финляндии
+T31	GROUP 682 692	латвийским
+T32	FAC 682 703	латвийским хранилищам
+T33	ECONOMIC_SECTOR 704 719	природного газа
+T34	COMMODITY 704 719	природного газа
+T35	ORGANIZATION 722 732	Инчукалнсе
+T36	DATE 735 744	8 октября
+T37	FAC 755 776	газопровода — финский
+T38	ORGANIZATION 777 784	Gasgrid
+T39	COUNTRY 787 796	эстонский
+T40	ORGANIZATION 797 804	Elering
+T41	FAC 876 888	трубопровода
+T42	DATE 890 907	На следующий день
+T43	PROFESSION 908 913	глава
+T44	ORGANIZATION 914 930	финской компании
+T45	PERSON 931 944	Янне Грёнлунд
+T46	ECONOMIC_SECTOR 960 966	ремонт
+T47	FAC 960 978	ремонт понадобятся
+T48	DATE 979 985	месяцы
+T49	NEWS_SOURCE 988 1001	Представитель
+T50	PROFESSION 988 1001	Представитель
+T51	EVENT 1002 1017	финской полиции
+T52	NEWS_SOURCE 1018 1041	Микко Симола сообщил 11
+T53	DATE 1039 1049	11 октября
+T54	FAC 1074 1089	Balticconnector
+T55	DATE 1136 1146	19 октября
+T56	COUNTRY 1149 1158	Финляндии
+T57	FAC 1176 1187	газопровода
+T58	PROFESSION 1189 1194	Пресс
+T59	PROFESSION 1195 1215	секретарь президента
+T60	COUNTRY 1216 1222	России
+T61	PERSON 1223 1237	Дмитрий Песков
+T62	FAC 1267 1276	тревожной
+T63	FAC 1346 1354	объектов
+T64	ORGANIZATION 1385 1392	Балтике
+T65	ORGANIZATION 1432 1440	Северных
+T66	FAC 1441 1448	потоках
+T67	DATE 1450 1470	в сентябре 2022 года
+T68	CARDINAL 1535 1537	24
+T69	DATE 1542 1546	2023

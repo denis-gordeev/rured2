@@ -1,0 +1,78 @@
+T0	COUNTRY 21 28	Израиль
+T1	ORGANIZATION 31 49	ООН
+
+Правительство
+T2	GPE 50 56	Ливана
+T3	ORGANIZATION 69 72	ООН
+T4	COUNTRY 96 107	израильские
+T5	GROUP 108 114	войска
+T6	PRODUCT 133 156	фосфорными боеприпасами
+T7	PROFESSION 180 224	странице министра иностранных дел республики
+T8	PERSON 225 235	Абдаллы Бу
+T9	NEWS_SOURCE 166 254	сообщается на странице министра иностранных дел республики Абдаллы Бу Хабиба в соцсети X
+T10	LAW 253 254	X
+T11	ORGANIZATION 262 269	Twitter
+T12	NEWS_SOURCE 256 270	ранее Twitter)
+T13	PROFESSION 277 300	министр иностранных дел
+T14	NEWS_SOURCE 301 308	Абдалла
+T15	PERSON 301 317	Абдалла Бу Хабиб
+T16	ORGANIZATION 332 343	Организацию
+T17	COUNTRY 344 356	Объединенных
+T18	ORGANIZATION 357 362	Наций
+T19	GPE 380 388	Израилем
+T20	PRODUCT 389 403	белого фосфора
+T21	PRODUCT 408 422	сжигания лесов
+T22	LAW 425 431	Ливане
+T23	NEWS_SOURCE 436 457	говорится в сообщении
+T24	GROUP 465 474	нападения
+T25	GPE 475 488	палестинского
+T26	GROUP 489 502	исламистского
+T27	FAC 503 517	движения ХАМАС
+T28	COUNTRY 521 528	Израиль
+T29	DATE 529 538	7 октября
+T30	GROUP 539 550	израильские
+T31	FAC 609 618	ливанской
+T32	GROUP 643 648	Армия
+T33	ORGANIZATION 649 656	обороны
+T34	COUNTRY 657 664	Израиля
+T35	ORGANIZATION 666 671	ЦАХАЛ
+T36	PROFESSION 698 705	военным
+T37	GROUP 698 705	военным
+T38	EVENT 717 723	Ливане
+T39	ORGANIZATION 752 770	Human Rights Watch
+T40	NEWS_SOURCE 758 770	Rights Watch
+T41	DATE 771 789	в середине октября
+T42	NEWS_SOURCE 790 797	заявила
+T43	FAC 803 808	Армия
+T44	ORGANIZATION 809 816	обороны
+T45	COUNTRY 817 824	Израиля
+T46	FAC 826 831	ЦАХАЛ
+T47	FAC 857 863	Ливана
+T48	COMMODITY 874 878	Газы
+T49	ECONOMIC_SECTOR 874 889	Газы боеприпасы
+T50	PRODUCT 892 906	белым фосфором
+T51	GROUP 984 998	бомбардировках
+T52	FAC 999 1004	порта
+T53	FAC 1007 1011	Газе
+T54	CARDINAL 1018 1023	двумя
+T55	COUNTRY 1037 1047	израильско
+T56	FAC 1048 1057	ливанской
+T57	ORGANIZATION 1067 1076	Фосфорные
+T58	FAC 1077 1087	боеприпасы
+T59	LAW 1154 1204	Женевской конвенции о защите жертв войны 1949 года
+T60	DATE 1195 1204	1949 года
+T61	EVENT 1207 1217	Конвенцией
+T62	ORGANIZATION 1218 1221	ООН
+T63	LAW 1250 1256	оружия
+T64	DATE 1257 1266	1980 года
+T65	NEWS_SOURCE 1272 1286	отмечают в HRW
+T66	ORGANIZATION 1283 1286	HRW
+T67	PRODUCT 1288 1300	белый фосфор
+T68	PRODUCT 1323 1330	дымовой
+T69	FAC 1323 1337	дымовой завесы
+T70	PRODUCT 1342 1348	оружия
+T71	GROUP 1398 1407	населению
+T72	DATE 1570 1572	01
+T73	DATE 1577 1581	2023
+T74	PERCENT 1585 1587	40
+T75	ORGANIZATION 1591 1592	+

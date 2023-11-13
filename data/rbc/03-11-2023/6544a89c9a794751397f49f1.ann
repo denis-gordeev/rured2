@@ -1,0 +1,88 @@
+T0	ORGANIZATION 0 3	МИД
+T1	ORGANIZATION 16 20	НАТО
+T2	COUNTRY 49 55	России
+T3	LOCATION 56 72	Балтийского моря
+T4	ORGANIZATION 79 83	НАТО
+T5	GPE 98 108	Балтийское
+T6	LOCATION 109 113	море
+T7	COUNTRY 118 128	российских
+T8	FAC 129 134	судов
+T9	GROUP 170 176	членов
+T10	FAC 177 197	Североатлантического
+T11	ORGANIZATION 177 205	Североатлантического альянса
+T12	PROFESSION 222 230	замглавы
+T13	ORGANIZATION 231 234	МИД
+T14	COUNTRY 235 241	России
+T15	NEWS_SOURCE 215 258	заявил замглавы МИД России Александр Грушко
+T16	PERSON 242 258	Александр Грушко
+T17	ORGANIZATION 295 299	НАТО
+T18	PROFESSION 303 310	военные
+T19	LOCATION 353 369	Балтийского моря
+T20	COUNTRY 374 380	России
+T21	LOCATION 390 415	закрытие Балтийского моря
+T22	PERSON 436 442	Грушко
+T23	NEWS_SOURCE 429 454	сказал Грушко журналистам
+T24	PROFESSION 443 454	журналистам
+T25	EVENT 458 500	Веронском евразийском экономическом форуме
+T26	EVENT 503 513	Самарканде
+T27	NEWS_SOURCE 515 537	передает «РИА Новости»
+T28	ORGANIZATION 525 537	РИА Новости»
+T29	DATE 539 554	В конце октября
+T30	PROFESSION 555 564	президент
+T31	COUNTRY 565 571	Латвии
+T32	PERSON 572 588	Эдгарс Ринкевичс
+T33	LOCATION 614 618	НАТО
+T34	LOCATION 636 655	по Балтийскому морю
+T35	COUNTRY 660 670	российских
+T36	FAC 671 676	судов
+T37	COUNTRY 709 715	России
+T38	FAC 730 757	газопровода Balticconnector
+T39	PROFESSION 759 764	Пресс
+T40	PROFESSION 765 774	секретарь
+T41	COUNTRY 775 786	российского
+T42	PROFESSION 787 797	президента
+T43	PERSON 798 812	Дмитрий Песков
+T44	NEWS_SOURCE 798 819	Дмитрий Песков заявил
+T45	GPE 825 831	Москва
+T46	DATE 931 940	8 октября
+T47	GPE 941 948	финский
+T48	FAC 999 1026	газопроводе Balticconnector
+T49	ORGANIZATION 1011 1026	Balticconnector
+T50	PROFESSION 1028 1037	Президент
+T51	COUNTRY 1038 1047	Финляндии
+T52	PERSON 1048 1062	Саули Ниинистё
+T53	NEWS_SOURCE 1028 1070	Президент Финляндии Саули Ниинистё сообщил
+T54	EVENT 1139 1154	финской полиции
+T55	DATE 1168 1176	в момент
+T56	ORGANIZATION 1189 1204	Balticconnector
+T57	FAC 1189 1204	Balticconnector
+T58	PRODUCT 1266 1271	судов
+T59	FAC 1266 1271	судов
+T60	COUNTRY 1285 1295	российский
+T61	FAC 1296 1317	атомный контейнеровоз
+T62	ORGANIZATION 1319 1329	Севморпуть
+T63	GPE 1332 1338	Кремль
+T64	FAC 1378 1389	газопровода
+T65	ORGANIZATION 1392 1399	Росатом
+T66	ORGANIZATION 1439 1449	Севморпуть
+T67	PROFESSION 1476 1496	криминальная полиция
+T68	NEWS_SOURCE 1464 1506	Центральная криминальная полиция Финляндии
+T69	COUNTRY 1497 1506	Финляндии
+T70	DATE 1507 1517	24 октября
+T71	NEWS_SOURCE 1518 1526	сообщила
+T72	FAC 1568 1579	газопроводе
+T73	ORGANIZATION 1617 1632	Balticconnector
+T74	GROUP 1633 1640	полиция
+T75	NEWS_SOURCE 1641 1648	считает
+T76	COUNTRY 1649 1658	китайское
+T77	FAC 1659 1664	судно
+T78	ORGANIZATION 1659 1682	судно Newnew Polar Bear
+T79	GPE 1707 1715	Гонконга
+T80	ORGANIZATION 1775 1778	Fri
+T81	PERSON 1775 1778	Fri
+T82	CARDINAL 1780 1782	03
+T83	CURRENCY 1787 1791	2023
+T84	PERCENT 1792 1794	11
+T85	CARDINAL 1792 1794	11
+T86	PERCENT 1795 1797	40
+T87	CARDINAL 1795 1797	40

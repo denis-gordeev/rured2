@@ -1,0 +1,53 @@
+T0	REGION 2 20	Херсонской области
+T1	PRODUCT 44 49	машин
+T2	FAC 50 56	скорой
+T3	ECONOMIC_SECTOR 61 69	обстреле
+T4	ORGANIZATION 70 73	ВСУ
+T5	CITY 75 80	Город
+T6	PERSON 81 87	Алешки
+T7	REGION 90 108	Херсонской области
+T8	ORGANIZATION 128 151	Вооруженных сил Украины
+T9	COUNTRY 144 151	Украины
+T10	PROFESSION 163 206	Telegram председатель правительства региона
+T11	PERSON 207 224	Андрей Алексеенко
+T12	NEWS_SOURCE 226 239	По его словам
+T13	FAC 256 266	прицельные
+T14	FAC 285 303	городской больнице
+T15	EVENT 337 349	Новая Маячка
+T16	CITY 350 362	Алешкинского
+T17	CARDINAL 395 401	восемь
+T18	PRODUCT 402 407	машин
+T19	FAC 408 414	скорой
+T20	FAC 424 432	автопарк
+T21	PERSON 444 451	Алешках
+T22	NEWS_SOURCE 476 483	написал
+T23	PERSON 484 494	Алексеенко
+T24	FAC 496 501	Жертв
+T25	COUNTRY 508 518	Украинская
+T26	NEWS_SOURCE 508 541	Украинская сторона также сообщила
+T27	NEWS_SOURCE 545 553	обстреле
+T28	CITY 554 561	Херсона
+T29	GPE 587 592	Киева
+T30	ORDINAL 594 599	утром
+T31	DATE 600 610	18 октября
+T32	PROFESSION 622 627	главы
+T33	ORGANIZATION 657 670	администрации
+T34	PROFESSION 639 670	областной военной администрации
+T35	PERSON 671 681	Александра
+T36	NEWS_SOURCE 612 691	По словам главы Херсонской областной военной администрации Александра Прокудина
+T37	PROFESSION 682 691	Прокудина
+T38	ORGANIZATION 730 742	Новоберислав
+T39	CITY 745 759	Благовещенское
+T40	ORGANIZATION 761 778	Минобороны России
+T41	COUNTRY 772 778	России
+T42	PROFESSION 797 804	военные
+T43	PROFESSION 829 836	военным
+T44	FAC 839 853	энергетическим
+T45	COUNTRY 863 870	Украины
+T46	CARDINAL 935 937	18
+T47	CARDINAL 938 940	10
+T48	CARDINAL 977 979	18
+T49	PERCENT 984 988	2023
+T50	CARDINAL 989 991	12
+T51	CARDINAL 992 994	32
+T52	CARDINAL 995 999	25 +

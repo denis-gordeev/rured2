@@ -1,0 +1,41 @@
+T0	COUNTRY 0 6	Япония
+T1	COUNTRY 35 41	России
+T2	PRODUCT 56 63	ядерном
+T3	COUNTRY 72 78	Япония
+T4	CITY 97 103	Москвы
+T5	GPE 97 103	Москвы
+T6	PRODUCT 154 169	ядерного оружия
+T7	COUNTRY 201 207	России
+T8	PROFESSION 216 237	генеральный секретарь
+T9	COUNTRY 238 247	японского
+T10	ORGANIZATION 248 261	правительства
+T11	PROFESSION 248 261	правительства
+T12	NEWS_SOURCE 209 278	заявил генеральный секретарь японского правительства Хирокадзу Мацуно
+T13	PERSON 262 278	Хирокадзу Мацуно
+T14	EVENT 282 287	пресс
+T15	EVENT 288 301	конференции в
+T16	CITY 302 307	Токио
+T17	CARDINAL 350 363	одностороннем
+T18	COUNTRY 388 396	японской
+T19	NEWS_SOURCE 459 474	дипломатическим
+T20	PROFESSION 459 474	дипломатическим
+T21	EVENT 475 482	каналам
+T22	NEWS_SOURCE 487 500	сказал Мацуно
+T23	PERSON 494 500	Мацуно
+T24	NEWS_SOURCE 513 517	ТАСС
+T25	ORGANIZATION 513 517	ТАСС
+T26	PROFESSION 521 536	Премьер-министр
+T27	COUNTRY 537 543	России
+T28	PERSON 544 559	Михаил Мишустин
+T29	DATE 560 568	9 ноября
+T30	COUNTRY 635 642	Японией
+T31	CITY 668 673	Токио
+T32	DATE 674 694	13 октября 1993 года
+T33	COUNTRY 798 804	России
+T34	ORGANIZATION 901 920	специальный комитет
+T35	COUNTRY 926 932	Япония
+T36	COUNTRY 935 941	Россия
+T37	ORGANIZATION 1026 1029	Fri
+T38	CARDINAL 1031 1033	10
+T39	DATE 1034 1042	Nov 2023
+T40	CARDINAL 1046 1048	32

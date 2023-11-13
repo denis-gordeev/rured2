@@ -1,0 +1,35 @@
+T0	GROUP 0 6	Власти
+T1	NEWS_SOURCE 7 17	сообщили о
+T2	FAC 25 28	ПВО
+T3	FAC 32 41	подступах
+T4	GPE 44 49	Киеву
+T5	EVENT 54 63	подступах
+T6	GPE 66 71	Киеву
+T7	ORGANIZATION 81 85	силы
+T8	FAC 86 89	ПВО
+T9	PROFESSION 99 108	начальник
+T10	PROFESSION 119 126	военной
+T11	ORGANIZATION 119 140	военной администрации
+T12	NEWS_SOURCE 91 147	сообщил начальник городской военной администрации Сергей
+T13	PERSON 141 147	Сергей
+T14	GROUP 155 161	Власти
+T15	NEWS_SOURCE 162 178	сообщили также о
+T16	FAC 186 189	ПВО
+T17	REGION 192 208	Киевской области
+T18	FAC 300 304	Силы
+T19	CITY 331 339	Харькове
+T20	REGION 342 349	области
+T21	PROFESSION 358 363	глава
+T22	ORGANIZATION 364 377	администрации
+T23	NEWS_SOURCE 351 392	сказал глава администрации Олег Синегубов
+T24	PERSON 378 392	Олег Синегубов
+T25	ORGANIZATION 459 476	Минобороны России
+T26	COUNTRY 470 476	России
+T27	PROFESSION 521 528	военным
+T28	COUNTRY 555 562	Украины
+T29	PERSON 656 659	Sat
+T30	CARDINAL 661 663	11
+T31	DATE 668 672	2023
+T32	CARDINAL 673 675	00
+T33	PERCENT 676 678	15
+T34	CARDINAL 676 678	15

@@ -1,0 +1,41 @@
+T0	PROFESSION 0 10	Губернатор
+T1	NEWS_SOURCE 0 18	Губернатор сообщил
+T2	INVESTMENT_PROGRAM 22 30	обстреле
+T3	REGION 41 61	Белгородской области
+T4	COUNTRY 63 73	Украинские
+T5	PROFESSION 74 81	военные
+T6	EVENT 93 97	село
+T7	REGION 98 103	Новая
+T8	ORGANIZATION 104 114	Таволжанка
+T9	REGION 117 137	Белгородской области
+T10	PROFESSION 164 174	губернатор
+T11	NEWS_SOURCE 139 191	сообщил в своем Telegram губернатор Вячеслав Гладков
+T12	PERSON 175 191	Вячеслав Гладков
+T13	GROUP 279 287	абоненты
+T14	REGION 292 297	Новая
+T15	ORGANIZATION 298 308	Таволжанка
+T16	ORGANIZATION 311 324	Архангельское
+T17	NEWS_SOURCE 341 359	По словам Гладкова
+T18	PERSON 351 359	Гладкова
+T19	TIME 475 479	ночь
+T20	FAC 484 504	Белгородским районом
+T21	CARDINAL 511 516	шесть
+T22	FAC 517 530	беспилотников
+T23	FAC 534 535	в
+T24	CITY 536 549	Грайворонском
+T25	LOCATION 550 566	городском округе
+T26	LOCATION 570 582	окраине села
+T27	PERSON 583 591	Дроновка
+T28	CARDINAL 601 602	6
+T29	PRODUCT 603 622	минометных снарядов
+T30	CITY 629 634	Новая
+T31	ORGANIZATION 635 645	Таволжанка
+T32	DATE 709 717	сентябре
+T33	FAC 747 752	фасад
+T34	FAC 762 773	жилого дома
+T35	DATE 775 784	В августе
+T36	CARDINAL 814 818	трех
+T37	CARDINAL 866 890	652f76fe9a7947864d1174f0
+T38	CARDINAL 897 899	18
+T39	DATE 904 908	2023
+T40	CARDINAL 912 914	33

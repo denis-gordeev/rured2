@@ -1,0 +1,52 @@
+T0	ORGANIZATION 0 10	Минобороны
+T1	NEWS_SOURCE 11 19	сообщило
+T2	ECONOMIC_SECTOR 23 34	уничтожении
+T3	FAC 35 53	морского дрона ВСУ
+T4	LOCATION 56 67	Черном море
+T5	FAC 69 84	Морская авиация
+T6	COUNTRY 85 96	российского
+T7	REGION 97 110	Черноморского
+T8	LOCATION 97 110	Черноморского
+T9	FAC 97 116	Черноморского флота
+T10	FAC 141 158	катер Вооруженных
+T11	ORGANIZATION 147 162	Вооруженных сил
+T12	COUNTRY 163 170	Украины
+T13	FAC 172 175	ВСУ
+T14	LOCATION 179 190	Черном море
+T15	ORGANIZATION 201 211	Минобороны
+T16	NEWS_SOURCE 192 211	сообщило Минобороны
+T17	COUNTRY 212 218	России
+T18	DATE 221 241	Вечером 17 октября в
+T19	LOCATION 242 264	акватории Черного моря
+T20	FAC 265 301	морской авиацией Черноморского флота
+T21	FAC 337 346	катер ВСУ
+T22	NEWS_SOURCE 351 373	говорится в публикации
+T23	ORGANIZATION 414 424	Минобороны
+T24	FAC 463 474	катеров ВСУ
+T25	LOCATION 477 488	Черном море
+T26	DATE 492 505	последний раз
+T27	DATE 520 529	6 октября
+T28	ORGANIZATION 537 546	ведомство
+T29	NEWS_SOURCE 537 555	ведомство сообщило
+T30	FAC 584 590	катера
+T31	ECONOMIC_SECTOR 559 594	уничтожении беспилотного катера ВСУ
+T32	REGION 627 636	Крымского
+T33	DATE 650 661	10 сентября
+T34	ORGANIZATION 662 672	Минобороны
+T35	NEWS_SOURCE 662 680	Минобороны заявило
+T36	COUNTRY 686 696	российские
+T37	PRODUCT 697 705	самолеты
+T38	FAC 697 705	самолеты
+T39	CARDINAL 717 720	три
+T40	PRODUCT 728 731	ВСУ
+T41	ORGANIZATION 732 749	Willard Sea Force
+T42	ECONOMIC_SECTOR 750 762	производства
+T43	COUNTRY 763 766	США
+T44	FAC 769 784	острова Змеиный
+T45	CARDINAL 849 851	17
+T46	ORGANIZATION 852 855	Oct
+T47	DATE 856 860	2023
+T48	CARDINAL 861 863	21
+T49	CARDINAL 864 866	39
+T50	CARDINAL 867 869	55
+T51	ORGANIZATION 870 871	+

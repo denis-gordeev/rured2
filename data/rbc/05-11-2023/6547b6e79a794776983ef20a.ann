@@ -1,0 +1,37 @@
+T0	REGION 2 18	Брянской области
+T1	FAC 25 46	беспилотник
+
+Силы ПВО
+T2	COUNTRY 53 63	украинский
+T3	ECONOMIC_SECTOR 64 75	беспилотник
+T4	FAC 64 75	беспилотник
+T5	REGION 80 92	Стародубским
+T6	FAC 93 114	муниципальным округом
+T7	REGION 117 133	Брянской области
+T8	PROFESSION 143 148	глава
+T9	PERSON 157 166	Александр
+T10	NEWS_SOURCE 135 174	сообщил глава региона Александр Богомаз
+T11	COUNTRY 195 205	украинских
+T12	ORGANIZATION 244 248	БПЛА
+T13	NEWS_SOURCE 265 286	По словам губернатора
+T14	PROFESSION 275 286	губернатора
+T15	GROUP 288 300	пострадавших
+T16	GROUP 351 359	регионов
+T17	COUNTRY 360 366	России
+T18	ECONOMIC_SECTOR 402 433	атакам беспилотников со стороны
+T19	COUNTRY 434 441	Украины
+T20	DATE 453 461	4 ноября
+T21	COUNTRY 487 497	украинский
+T22	REGION 507 539	территорией Белгородской области
+T23	DATE 541 554	В тот же день
+T24	ORGANIZATION 555 559	силы
+T25	CARDINAL 570 573	два
+T26	ECONOMIC_SECTOR 574 586	беспилотника
+T27	FAC 587 590	ВСУ
+T28	CITY 595 611	Курской областью
+T29	CARDINAL 645 669	6547b6e79a794776983ef20a
+T30	ORGANIZATION 671 674	Sun
+T31	DATE 683 687	2023
+T32	CARDINAL 688 690	19
+T33	CARDINAL 691 693	28
+T34	CARDINAL 694 696	49

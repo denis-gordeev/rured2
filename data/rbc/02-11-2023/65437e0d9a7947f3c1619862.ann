@@ -1,0 +1,42 @@
+T0	LOCATION 16 25	восточный
+T1	FAC 26 49	вестибюль станции метро
+T2	ORGANIZATION 51 62	Новогиреево
+T3	LOCATION 65 70	Часть
+T4	FAC 71 77	входов
+T5	FAC 91 104	станции метро
+T6	ORGANIZATION 106 117	Новогиреево
+T7	CITY 121 127	Москве
+T8	GPE 121 127	Москве
+T9	NEWS_SOURCE 156 195	сообщает департамент транспорта столицы
+T10	ORGANIZATION 165 195	департамент транспорта столицы
+T11	FAC 197 198	«
+T12	LOCATION 255 264	восточный
+T13	FAC 265 284	вестибюль станции «
+T14	ORGANIZATION 284 295	Новогиреево
+T15	CARDINAL 305 306	1
+T16	CARDINAL 307 308	4
+T17	COUNTRY 311 322	Пользуйтесь
+T18	FAC 323 331	западным
+T19	CARDINAL 351 352	5
+T20	CARDINAL 353 354	8
+T21	NEWS_SOURCE 360 381	говорится в сообщении
+T22	ORGANIZATION 409 416	полиции
+T23	ORGANIZATION 419 428	ведомстве
+T24	NEWS_SOURCE 432 440	сообщили
+T25	DATE 443 451	В апреле
+T26	FAC 452 460	северный
+T27	FAC 471 484	станции метро
+T28	ORGANIZATION 486 499	Лермонтовский
+T29	ORGANIZATION 524 531	полиции
+T30	ORGANIZATION 583 595	РИА Новости»
+T31	NEWS_SOURCE 582 606	«РИА Новости» со ссылкой
+T32	NEWS_SOURCE 610 634	источники сообщило тогда
+T33	GROUP 640 650	сотрудники
+T34	FAC 651 663	транспортной
+T35	GROUP 664 697	безопасности остановили пассажира
+T36	PRODUCT 735 750	ручной гранатой
+T37	ORGANIZATION 785 809	65437e0d9a7947f3c1619862
+T38	PERCENT 823 827	2023
+T39	CARDINAL 828 830	14
+T40	CARDINAL 831 833	11
+T41	CARDINAL 834 836	12

@@ -1,0 +1,52 @@
+T0	GPE 2 8	Кремле
+T1	PERSON 41 47	Путина
+T2	ORGANIZATION 50 60	штаб армии
+T3	CITY 63 70	Ростове
+T4	EVENT 72 79	Поездка
+T5	PROFESSION 80 90	президента
+T6	COUNTRY 91 97	России
+T7	PERSON 98 114	Владимира Путина
+T8	ORGANIZATION 117 144	штаб Вооруженных сил России
+T9	COUNTRY 138 144	России
+T10	CITY 147 154	Ростове
+T11	FAC 158 162	Дону
+T12	DATE 163 173	20 октября
+T13	PROFESSION 219 224	пресс
+T14	PROFESSION 225 234	секретарь
+T15	NEWS_SOURCE 208 249	заявил его пресс-секретарь Дмитрий Песков
+T16	PERSON 235 249	Дмитрий Песков
+T17	EVENT 250 261	на брифинге
+T18	NEWS_SOURCE 263 289	передает корреспондент РБК
+T19	ORGANIZATION 286 289	РБК
+T20	PERSON 383 389	Песков
+T21	PROFESSION 400 410	журналиста
+T22	PROFESSION 412 417	Пресс
+T23	PROFESSION 418 427	секретарь
+T24	NEWS_SOURCE 428 435	добавил
+T25	PROFESSION 465 474	президент
+T26	PROFESSION 501 508	военных
+T27	EVENT 533 538	штабе
+T28	CITY 541 548	Ростове
+T29	FAC 552 556	Дону
+T30	PERSON 557 562	Путин
+T31	NEWS_SOURCE 572 593	доклад главы Генштаба
+T32	PROFESSION 579 593	главы Генштаба
+T33	PERSON 594 612	Валерия Герасимова
+T34	EVENT 620 632	спецоперации
+T35	COUNTRY 636 643	Украине
+T36	PROFESSION 651 668	глава государства
+T37	GROUP 691 706	представителями
+T38	GROUP 715 726	руководства
+T39	ORGANIZATION 727 737	Минобороны
+T40	PERSON 739 745	Песков
+T41	NEWS_SOURCE 739 758	Песков ранее заявил
+T42	PROFESSION 764 773	президент
+T43	CITY 783 789	Ростов
+T44	GPE 793 797	Дону
+T45	CITY 814 819	Перми
+T46	PERSON 821 830	Там Путин
+T47	EVENT 838 847	заседание
+T48	ORGANIZATION 848 854	Совета
+T49	ORGANIZATION 859 910	президенте по развитию физической культуры и спорта
+T50	CARDINAL 975 977	20
+T51	CARDINAL 982 989	2023 14

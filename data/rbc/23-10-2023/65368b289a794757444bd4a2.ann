@@ -1,0 +1,72 @@
+T0	EVENT 0 7	Бывшего
+T1	PROFESSION 0 12	Бывшего мэра
+T2	CITY 13 23	Ульяновска
+T3	CRIME 24 32	обвинили
+T4	QUANTITY 54 65	на ₽300 тыс
+T5	NEWS_SOURCE 68 92	В отношении бывшего мэра
+T6	PROFESSION 70 92	отношении бывшего мэра
+T7	CITY 93 103	Ульяновска
+T8	PERSON 104 120	Дмитрия Вавилина
+T9	CRIME 148 156	растрате
+T10	ORGANIZATION 167 170	РБК
+T11	ORGANIZATION 178 211	-службе Следственного комитета по
+T12	NEWS_SOURCE 158 223	сообщили РБК в пресс-службе Следственного комитета по Ульяновской
+T13	REGION 224 231	области
+T14	CARDINAL 251 252	3
+T15	PRODUCT 254 256	ст
+T16	CARDINAL 258 261	160
+T17	LAW 262 264	УК
+T18	LAW 307 334	своего служебного положения
+T19	TRADE_AGREEMENT 368 374	статье
+T20	DATE 401 413	до шести лет
+T21	NEWS_SOURCE 419 442	сообщили источники ТАСС
+T22	ORGANIZATION 438 442	ТАСС
+T23	NEWS_SOURCE 445 458	«РИА Новости»
+T24	ORGANIZATION 446 458	РИА Новости»
+T25	PROFESSION 460 463	экс
+T26	PROFESSION 464 469	глава
+T27	AWARD 497 503	премию
+T28	MONEY 514 521	300 тыс
+T29	MONEY 523 526	руб
+T30	CURRENCY 523 526	руб
+T31	CARDINAL 546 553	большем
+T32	DATE 571 577	Сейчас
+T33	PROFESSION 578 588	бывший мэр
+T34	ORGANIZATION 645 657	РИА Новости»
+T35	NEWS_SOURCE 625 659	уточнил собеседник «РИА Новости» в
+T36	ORGANIZATION 660 678	силовых структурах
+T37	NEWS_SOURCE 668 678	структурах
+T38	ORGANIZATION 682 708	пресс-службе управления СК
+T39	ORGANIZATION 712 723	Ульяновской
+T40	NEWS_SOURCE 680 753	В пресс-службе управления СК по Ульяновской области подтвердили агентству
+T41	PERSON 759 766	Вавилин
+T42	DATE 871 881	20 октября
+T43	PERSON 901 908	Вавилин
+T44	NEWS_SOURCE 901 916	Вавилин изданию
+T45	ORGANIZATION 909 916	изданию
+T46	NEWS_SOURCE 918 929	Коммерсантъ
+T47	ORGANIZATION 918 929	Коммерсантъ
+T48	ORGANIZATION 930 935	Волга
+T49	NEWS_SOURCE 946 957	официальных
+T50	CITY 1073 1083	Ульяновска
+T51	DATE 1086 1095	2021 году
+T52	PROFESSION 1144 1167	министра промышленности
+T53	ECONOMIC_SECTOR 1169 1182	строительства
+T54	ORGANIZATION 1184 1215	жилищно-коммунального комплекса
+T55	ORGANIZATION 1218 1228	транспорта
+T56	REGION 1229 1248	Ульяновской области
+T57	NEWS_SOURCE 1250 1263	пишет издание
+T58	PERSON 1265 1273	Улпресса
+T59	PROFESSION 1299 1304	главы
+T60	ORGANIZATION 1305 1311	города
+T61	PERSON 1312 1319	Вавилин
+T62	DATE 1325 1343	в ноябре 2022 года
+T63	PROFESSION 1374 1399	заместителем гендиректора
+T64	CITY 1400 1412	Ульяновского
+T65	FAC 1413 1434	конструкторского бюро
+T66	CARDINAL 1515 1517	23
+T67	DATE 1522 1526	2023
+T68	CARDINAL 1527 1529	18
+T69	CARDINAL 1530 1532	39
+T70	CARDINAL 1533 1535	35
+T71	FAC 1536 1537	+

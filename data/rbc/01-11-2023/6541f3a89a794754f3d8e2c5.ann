@@ -1,0 +1,49 @@
+T0	REGION 2 18	Брянской области
+T1	ECONOMIC_SECTOR 25 36	беспилотник
+T2	ECONOMIC_SECTOR 57 68	беспилотник
+T3	FAC 69 80	самолетного
+T4	REGION 90 102	Стародубским
+T5	FAC 103 124	муниципальным округом
+T6	REGION 127 143	Брянской области
+T7	PROFESSION 153 163	губернатор
+T8	NEWS_SOURCE 145 189	сообщил губернатор региона Александр Богомаз
+T9	PERSON 172 189	Александр Богомаз
+T10	ORGANIZATION 235 241	службы
+T11	NEWS_SOURCE 277 285	телеграм
+T12	EVENT 286 292	канале
+T13	CARDINAL 294 295	В
+T14	TIME 296 303	ночь на
+T15	DATE 304 312	1 ноября
+T16	ORGANIZATION 313 323	Минобороны
+T17	GROUP 340 348	дежурные
+T18	GROUP 358 361	ПВО
+T19	COUNTRY 377 387	украинских
+T20	ECONOMIC_SECTOR 388 400	беспилотника
+T21	FAC 401 412	самолетного
+T22	FAC 422 433	территорией
+T23	REGION 434 442	Брянской
+T24	REGION 445 461	Курской областей
+T25	NEWS_SOURCE 473 483	губернатор
+T26	PROFESSION 473 483	губернатор
+T27	REGION 484 500	Брянской области
+T28	PERSON 501 518	Александр Богомаз
+T29	NEWS_SOURCE 511 526	Богомаз сообщил
+T30	COUNTRY 559 566	Украины
+T31	DATE 593 603	31 октября
+T32	PERSON 616 626	Алейниково
+T33	REGION 629 641	Стародубском
+T34	INVESTMENT_PROGRAM 642 655	муниципальном
+T35	REGION 656 679	округе Брянской области
+T36	FAC 734 750	электроснабжение
+T37	CARDINAL 752 756	пять
+T38	FAC 757 763	зданий
+T39	CARDINAL 777 780	два
+T40	NEWS_SOURCE 810 825	сообщил Богомаз
+T41	ECONOMIC_SECTOR 837 844	обстрел
+T42	FAC 857 863	Сушаны
+T43	CARDINAL 895 898	два
+T44	FAC 899 911	нежилых дома
+T45	ORGANIZATION 948 951	rbc
+T46	CARDINAL 967 991	6541f3a89a794754f3d8e2c5
+T47	DATE 998 1009	01 Nov 2023
+T48	CARDINAL 1010 1012	10

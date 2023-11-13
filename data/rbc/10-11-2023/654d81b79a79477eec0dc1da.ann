@@ -1,0 +1,49 @@
+T0	ORGANIZATION 0 3	ФСБ
+T1	CRIME 4 28	задержала подозреваемого
+T2	CRIME 31 52	организации покушения
+T3	CITY 55 64	Мариуполе
+T4	COUNTRY 65 73	украинца
+T5	PROFESSION 75 85	Сотрудники
+T6	ORGANIZATION 86 89	ФСБ
+T7	PROFESSION 90 99	задержали
+T8	COUNTRY 102 105	ДНР
+T9	GROUP 106 116	гражданина
+T10	COUNTRY 117 124	Украины
+T11	CRIME 161 170	покушения
+T12	CRIME 174 182	убийство
+T13	PROFESSION 183 192	директора
+T14	CARDINAL 193 199	одного
+T15	ORGANIZATION 220 231	объединений
+T16	CITY 232 241	Мариуполя
+T17	ORGANIZATION 252 256	ТАСС
+T18	NEWS_SOURCE 243 292	сообщили ТАСС в региональном управлении ведомства
+T19	ORGANIZATION 259 292	региональном управлении ведомства
+T20	EVENT 342 351	покушение
+T21	PROFESSION 355 364	директора
+T22	CARDINAL 365 371	одного
+T23	CITY 404 413	Мариуполя
+T24	NEWS_SOURCE 418 439	говорится в сообщении
+T25	NEWS_SOURCE 441 461	По данным спецслужбы
+T26	DATE 576 584	8 ноября
+T27	PROFESSION 585 595	сотрудники
+T28	GROUP 585 595	сотрудники
+T29	ORGANIZATION 596 599	ФСБ
+T30	REGION 617 638	Нижегородской области
+T31	COUNTRY 672 682	украинской
+T32	ORGANIZATION 756 778	Вооруженных сил России
+T33	COUNTRY 772 778	России
+T34	COUNTRY 820 827	Украину
+T35	ORGANIZATION 858 880	Следственный отдел ФСБ
+T36	CARDINAL 939 942	205
+T37	CARDINAL 943 944	5
+T38	FAC 971 999	террористической организации
+T39	LAW 1012 1024	деятельности
+T40	LAW 1042 1043	)
+T41	LAW 1046 1048	ст
+T42	LAW 1050 1056	275 УК
+T43	LAW 1058 1073	государственная
+T44	FAC 1089 1097	перехода
+T45	CARDINAL 1253 1277	654d81b79a79477eec0dc1da
+T46	CARDINAL 1284 1286	10
+T47	DATE 1291 1295	2023
+T48	CARDINAL 1299 1301	21
