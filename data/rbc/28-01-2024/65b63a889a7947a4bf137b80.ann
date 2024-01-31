@@ -1,0 +1,43 @@
+T0	FAC 35 42	церковь
+T1	CITY 45 53	Стамбуле
+T2	GPE 45 53	Стамбуле
+T3	CARDINAL 55 59	Двое
+T4	FAC 91 103	католическую
+T5	EVENT 104 111	церковь
+T6	CITY 114 122	Стамбуле
+T7	CARDINAL 143 147	один
+T8	PROFESSION 165 187	министр внутренних дел
+T9	COUNTRY 188 194	Турции
+T10	NEWS_SOURCE 157 206	сообщил министр внутренних дел Турции Али Ерликая
+T11	PERSON 195 206	Али Ерликая
+T12	DATE 209 216	соцсети
+T13	CITY 217 218	X
+T14	NEWS_SOURCE 220 233	ранее Twitter
+T15	ORGANIZATION 226 233	Twitter
+T16	PERCENT 256 264	около 11
+T17	PERCENT 265 267	40
+T18	TIME 268 287	по местному времени
+T19	CITY 301 311	московским
+T20	REGION 316 322	римско
+T21	ORGANIZATION 323 342	католической церкви
+T22	REGION 343 348	Санта
+T23	REGION 349 354	Мария
+T24	DATE 361 366	время
+T25	DATE 371 381	воскресная
+T26	ORGANIZATION 396 403	Turkiye
+T27	NEWS_SOURCE 389 409	Газета Turkiye пишет
+T28	NEWS_SOURCE 486 501	Ерликая сообщил
+T29	GROUP 507 532	правоохранительные органы
+T30	DATE 575 590	В начале января
+T31	CITY 600 608	Стамбула
+T32	PROFESSION 609 616	мужчина
+T33	EVENT 634 652	имама мечети Фатих
+T34	GROUP 666 677	прихожанина
+T35	GROUP 726 736	прихожанин
+T36	GROUP 737 744	студент
+T37	GROUP 840 877	сотрудники правоохранительных органов
+T38	ORGANIZATION 892 895	rbc
+T39	CARDINAL 911 935	65b63a889a7947a4bf137b80
+T40	CARDINAL 942 944	28
+T41	CARDINAL 949 956	2024 14
+T42	CARDINAL 957 959	57

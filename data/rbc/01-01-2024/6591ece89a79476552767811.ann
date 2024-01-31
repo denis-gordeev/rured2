@@ -1,0 +1,45 @@
+T0	CITY 2 11	Николаеве
+T1	EVENT 40 46	Взрывы
+T2	CITY 59 68	Николаеве
+T3	CITY 71 77	Одессе
+T4	LOCATION 78 84	на юге
+T5	COUNTRY 85 92	Украины
+T6	NEWS_SOURCE 94 119	сообщили «Зеркало недели»
+T7	ORGANIZATION 104 119	Зеркало недели»
+T8	NEWS_SOURCE 123 134	РБК Украина
+T9	ORGANIZATION 123 134	РБК Украина
+T10	PROFESSION 164 178	Telegram глава
+T11	ORGANIZATION 179 215	Николаевской областной администрации
+T12	PERSON 216 227	Виталий Ким
+T13	ORGANIZATION 230 241	РБК Украина
+T14	NEWS_SOURCE 229 251	«РБК Украина» сообщает
+T15	ECONOMIC_SECTOR 254 261	взрывах
+T16	DATE 264 272	в Днепре
+T17	REGION 304 320	Днепропетровской
+T18	REGION 322 336	Кировоградской
+T19	CITY 338 346	Одесской
+T20	REGION 338 346	Одесской
+T21	REGION 349 370	Николаевской областях
+T22	DATE 382 400	вечером 31 декабря
+T23	COUNTRY 435 442	Украине
+T24	REGION 443 450	Херсоне
+T25	REGION 455 471	Киевской области
+T26	DATE 473 477	Днем
+T27	ECONOMIC_SECTOR 482 492	прогремели
+T28	PERSON 495 507	Кропивницком
+T29	REGION 508 530	Кировоградской области
+T30	REGION 533 539	Кривом
+T31	AWARD 540 544	Роге
+T32	REGION 545 569	Днепропетровской области
+T33	COUNTRY 570 577	Украины
+T34	ORGANIZATION 579 596	Минобороны России
+T35	COUNTRY 628 638	российские
+T36	PROFESSION 639 646	военные
+T37	PROFESSION 671 678	военным
+T38	GROUP 671 678	военным
+T39	FAC 681 695	энергетическим
+T40	COUNTRY 705 712	Украины
+T41	DATE 819 821	01
+T42	CARDINAL 819 821	01
+T43	CARDINAL 826 830	2024
+T44	CARDINAL 837 839	46

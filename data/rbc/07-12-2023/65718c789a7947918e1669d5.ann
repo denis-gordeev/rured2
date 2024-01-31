@@ -1,0 +1,38 @@
+T0	CITY 2 10	Одесской
+T1	NEWS_SOURCE 0 10	В Одесской
+T2	REGION 11 18	области
+T3	NEWS_SOURCE 19 27	сообщили
+T4	FAC 42 50	портовой
+T5	REGION 69 85	Одесской области
+T6	FAC 97 127	объекты инфраструктуры в порту
+T7	PROFESSION 137 142	глава
+T8	ORGANIZATION 143 166	областной администрации
+T9	NEWS_SOURCE 129 177	сообщил глава областной администрации Олег Кипер
+T10	PERSON 167 177	Олег Кипер
+T11	PRODUCT 223 232	грузовики
+T12	FAC 223 232	грузовики
+T13	ECONOMIC_SECTOR 250 258	телеграм
+T14	LAW 259 265	канале
+T15	ECONOMIC_SECTOR 296 301	пожар
+T16	NEWS_SOURCE 328 330	По
+T17	NEWS_SOURCE 342 348	Кипера
+T18	PERCENT 376 392	около двух часов
+T19	CITY 416 424	Одесской
+T20	REGION 425 432	области
+T21	CARDINAL 444 448	один
+T22	COUNTRY 466 473	Украине
+T23	FAC 474 489	торговых портов
+T24	FAC 500 505	порта
+T25	FAC 529 536	кранами
+T26	FAC 580 596	железной дорогой
+T27	FAC 615 626	хранилищами
+T28	FAC 629 637	складами
+T29	ECONOMIC_SECTOR 629 637	складами
+T30	ORGANIZATION 640 657	Минобороны России
+T31	COUNTRY 651 657	России
+T32	PROFESSION 702 709	военным
+T33	COUNTRY 736 743	Украины
+T34	DATE 849 853	2023
+T35	CARDINAL 854 856	12
+T36	CARDINAL 857 859	33
+T37	CARDINAL 863 864	+

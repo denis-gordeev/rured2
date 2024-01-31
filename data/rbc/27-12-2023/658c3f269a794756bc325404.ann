@@ -1,0 +1,45 @@
+T0	PERSON 0 8	Хинштейн
+T1	NEWS_SOURCE 0 20	Хинштейн опубликовал
+T2	CRIME 27 35	избиения
+T3	PROFESSION 36 54	прокурором офицера
+T4	ORGANIZATION 55 65	Росгвардии
+T5	PROFESSION 67 79	Председатель
+T6	ORGANIZATION 80 136	комитета Государственной думы по информационной политике
+T7	PROFESSION 138 164	информационным технологиям
+T8	PROFESSION 167 172	связи
+T9	PERSON 173 191	Александр Хинштейн
+T10	CRIME 204 235	видеозапись нападения прокурора
+T11	PERSON 236 249	Кагальницкого
+T12	INVESTMENT_PROGRAM 250 267	района Ростовской
+T13	REGION 268 275	области
+T14	PERSON 276 291	Сагита Ахметова
+T15	PROFESSION 292 302	на офицера
+T16	ORGANIZATION 303 313	Росгвардии
+T17	CARDINAL 316 321	одном
+T18	EVENT 325 329	кафе
+T19	PERSON 331 339	Хинштейн
+T20	DATE 340 350	25 декабря
+T21	GROUP 389 401	пострадавший
+T22	PROFESSION 402 423	офицер — подполковник
+T23	ORGANIZATION 424 434	Росгвардии
+T24	GROUP 511 516	мозга
+T25	DATE 553 561	в момент
+T26	NEWS_SOURCE 594 609	уточнил депутат
+T27	PROFESSION 602 609	депутат
+T28	DATE 611 621	27 декабря
+T29	PERSON 622 630	Хинштейн
+T30	NEWS_SOURCE 622 637	Хинштейн заявил
+T31	PERSON 643 651	Ахметову
+T32	CARDINAL 680 683	111
+T33	CRIME 684 702	Уголовного кодекса
+T34	ORGANIZATION 763 774	прокуратуры
+T35	PROFESSION 776 787	Следователи
+T36	NEWS_SOURCE 827 842	уточнил депутат
+T37	PROFESSION 835 842	депутат
+T38	DATE 876 900	658c3f269a794756bc325404
+T39	DATE 907 909	27
+T40	CARDINAL 907 909	27
+T41	DATE 914 918	2023
+T42	CARDINAL 919 921	18
+T43	PERCENT 922 924	49
+T44	CARDINAL 922 924	49

@@ -1,0 +1,67 @@
+T0	ORGANIZATION 0 10	Минобороны
+T1	NEWS_SOURCE 11 19	сообщило
+T2	CARDINAL 22 28	восьми
+T3	COUNTRY 36 46	украинских
+T4	ECONOMIC_SECTOR 47 60	беспилотниках
+T5	DATE 62 87	Днем во вторник, 9 января
+T6	ORGANIZATION 89 97	силы ПВО
+T7	CARDINAL 106 110	двух
+T8	COUNTRY 111 121	российских
+T9	CARDINAL 149 155	восемь
+T10	COUNTRY 156 166	украинских
+T11	ECONOMIC_SECTOR 167 180	беспилотников
+T12	FAC 167 180	беспилотников
+T13	CARDINAL 183 192	Дежурными
+T14	CARDINAL 208 214	четыре
+T15	COUNTRY 215 225	украинских
+T16	ECONOMIC_SECTOR 226 237	беспилотных
+T17	PRODUCT 238 249	летательных
+T18	ECONOMIC_SECTOR 250 258	аппарата
+T19	FAC 250 258	аппарата
+T20	LOCATION 274 285	территорией
+T21	REGION 286 301	Курской области
+T22	CARDINAL 304 307	два
+T23	REGION 336 353	Орловской области
+T24	NEWS_SOURCE 358 379	говорится в сообщении
+T25	NEWS_SOURCE 381 406	опубликованном в телеграм
+T26	LAW 406 413	-канале
+T27	ORGANIZATION 414 424	Минобороны
+T28	NEWS_SOURCE 414 424	Минобороны
+T29	DATE 426 437	В следующем
+T30	ORGANIZATION 444 453	ведомство
+T31	NEWS_SOURCE 444 462	ведомство сообщило
+T32	CARDINAL 469 473	двух
+T33	REGION 490 499	Орловской
+T34	ECONOMIC_SECTOR 500 501	и
+T35	INVESTMENT_PROGRAM 502 509	Курской
+T36	FAC 510 518	областях
+T37	ECONOMIC_SECTOR 510 532	областях беспилотниках
+T38	PROFESSION 541 555	главы регионов
+T39	NEWS_SOURCE 541 564	главы регионов сообщили
+T40	FAC 574 577	ПВО
+T41	ECONOMIC_SECTOR 587 600	беспилотниках
+T42	PROFESSION 612 633	главы Курской области
+T43	NEWS_SOURCE 602 651	По словам главы Курской области Романа Старовойта
+T44	CARDINAL 653 656	три
+T45	ECONOMIC_SECTOR 657 674	беспилотника были
+T46	ORDINAL 709 718	четвертый
+T47	REGION 723 735	Курчатовском
+T48	FAC 736 742	районе
+T49	PROFESSION 744 764	Орловский губернатор
+T50	PERSON 765 779	Андрей Клычков
+T51	NEWS_SOURCE 744 787	Орловский губернатор Андрей Клычков сообщил
+T52	REGION 807 811	Орла
+T53	CARDINAL 818 821	два
+T54	ECONOMIC_SECTOR 822 834	беспилотника
+T55	FAC 854 874	топливной энергетики
+T56	ECONOMIC_SECTOR 864 874	энергетики
+T57	NEWS_SOURCE 946 951	Глава
+T58	PROFESSION 946 951	Глава
+T59	NEWS_SOURCE 966 973	сообщил
+T60	ORDINAL 979 985	третий
+T61	ECONOMIC_SECTOR 986 997	беспилотник
+T62	REGION 1038 1084	Малая Саханка Орловского муниципального округа
+T63	ORGANIZATION 1144 1147	Tue
+T64	CARDINAL 1156 1163	2024 17
+T65	CARDINAL 1164 1166	36
+T66	CARDINAL 1167 1171	11 +

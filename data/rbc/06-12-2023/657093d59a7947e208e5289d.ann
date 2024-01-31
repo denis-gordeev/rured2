@@ -1,0 +1,55 @@
+T0	ORGANIZATION 0 2	СК
+T1	CRIME 23 31	убийства
+T2	PROFESSION 32 40	депутата
+T3	CITY 43 51	Луганске
+T4	ORGANIZATION 53 65	Следственное
+T5	LAW 66 76	управление
+T6	ORGANIZATION 77 79	СК
+T7	COUNTRY 80 86	России
+T8	LAW 80 89	России по
+T9	COUNTRY 90 93	ЛНР
+T10	ORGANIZATION 154 171	совета республики
+T11	PROFESSION 135 171	депутата Народного совета республики
+T12	PERSON 172 184	Олега Попова
+T13	NEWS_SOURCE 178 184	Попова
+T14	NEWS_SOURCE 186 206	сообщили в ведомстве
+T15	CARDINAL 223 227	трем
+T16	PRODUCT 289 299	взрывчатки
+T17	EVENT 301 306	Взрыв
+T18	PROFESSION 330 343	погиб депутат
+T19	PERSON 344 354	Олег Попов
+T20	CITY 375 383	Луганска
+T21	DATE 384 396	в среду днем
+T22	DATE 398 418	Осенью прошлого года
+T23	NEWS_SOURCE 422 428	Попова
+T24	EVENT 453 462	покушение
+T25	CRIME 453 462	покушение
+T26	COUNTRY 475 485	российские
+T27	GROUP 486 496	спецслужбы
+T28	PROFESSION 543 552	чиновника
+T29	GROUP 585 604	заказчиков убийства
+T30	CRIME 596 604	убийства
+T31	COUNTRY 650 657	Украины
+T32	DATE 660 675	В начале ноября
+T33	FAC 687 697	автомобиля
+T34	PROFESSION 698 732	скончался депутат Народного совета
+T35	COUNTRY 733 736	ЛНР
+T36	PROFESSION 739 742	экс
+T37	PROFESSION 743 752	начальник
+T38	ORGANIZATION 753 780	управления Народной милиции
+T39	COUNTRY 781 784	ЛНР
+T40	PERSON 785 803	Михаил Филипоненко
+T41	DATE 805 811	15 мая
+T42	PROFESSION 893 903	врио главы
+T43	ORGANIZATION 904 907	МВД
+T44	COUNTRY 908 911	ЛНР
+T45	PERSON 912 924	Игорь Корнет
+T46	DATE 926 937	Годом ранее
+T47	PROFESSION 984 1004	генеральный прокурор
+T48	PERSON 1005 1019	Сергей Горенко
+T49	PROFESSION 1026 1037	заместитель
+T50	PERSON 1038 1057	Екатерина Стегленко
+T51	ORGANIZATION 1072 1075	rbc
+T52	DATE 1134 1136	19
+T53	DATE 1137 1139	01
+T54	CARDINAL 1140 1144	25 +

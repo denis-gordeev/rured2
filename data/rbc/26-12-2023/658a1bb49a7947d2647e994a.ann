@@ -1,0 +1,40 @@
+T0	CITY 2 11	Николаеве
+T1	EVENT 31 37	Взрывы
+T2	COUNTRY 51 61	украинском
+T3	NEWS_SOURCE 69 77	Николаев
+T4	PERSON 69 77	Николаев
+T5	NEWS_SOURCE 79 86	пишут «
+T6	EVENT 86 92	Страна
+T7	NEWS_SOURCE 92 93	»
+T8	GPE 96 105	Суспiльне
+T9	NEWS_SOURCE 110 113	РБК
+T10	ORGANIZATION 110 121	РБК-Украина
+T11	NEWS_SOURCE 114 122	Украина»
+T12	NEWS_SOURCE 128 160	сообщает издание «Зеркало Недели
+T13	ORGANIZATION 146 160	Зеркало Недели
+T14	REGION 193 230	Кривого Рога Днепропетровской области
+T15	DATE 232 241	К моменту
+T16	FAC 274 291	воздушной тревоги
+T17	ORGANIZATION 302 312	Черкасской
+T18	CITY 314 328	Кировоградской
+T19	REGION 314 328	Кировоградской
+T20	REGION 331 343	Николаевской
+T21	FAC 344 352	областях
+T22	COUNTRY 353 360	Украины
+T23	CARDINAL 381 383	20
+T24	FAC 388 397	воздушная
+T25	REGION 423 432	Винницкой
+T26	FAC 435 455	Хмельницкой областях
+T27	LOCATION 468 473	части
+T28	REGION 485 509	Днепропетровской области
+T29	DATE 512 521	В течение
+T30	TIME 522 526	ночи
+T31	REGION 551 567	Киевской области
+T32	ORGANIZATION 569 586	Минобороны России
+T33	COUNTRY 580 586	России
+T34	PROFESSION 631 638	военным
+T35	COUNTRY 665 672	Украины
+T36	PRODUCT 766 769	Tue
+T37	PERCENT 778 782	2023
+T38	PERCENT 786 788	31
+T39	CARDINAL 786 788	31

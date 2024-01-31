@@ -1,0 +1,45 @@
+T0	REGION 2 18	Брянской области
+T1	FAC 25 46	беспилотник
+
+Силы ПВО
+T2	ECONOMIC_SECTOR 53 64	беспилотник
+T3	REGION 78 102	районом Брянской области
+T4	NEWS_SOURCE 104 122	сообщил губернатор
+T5	PROFESSION 112 122	губернатор
+T6	NEWS_SOURCE 131 148	Александр Богомаз
+T7	PERSON 131 148	Александр Богомаз
+T8	NEWS_SOURCE 255 263	телеграм
+T9	LAW 264 270	канале
+T10	ORGANIZATION 272 282	Минобороны
+T11	NEWS_SOURCE 272 291	Минобороны сообщило
+T12	ECONOMIC_SECTOR 297 327	атака беспилотника самолетного
+T13	FAC 316 327	самолетного
+T14	COUNTRY 335 343	Брянской
+T15	DATE 368 375	сегодня
+T16	GROUP 410 416	Власти
+T17	COUNTRY 430 440	российских
+T18	GROUP 441 449	регионов
+T19	ORGANIZATION 452 462	Минобороны
+T20	ECONOMIC_SECTOR 484 493	перехвате
+T21	COUNTRY 494 504	украинских
+T22	ECONOMIC_SECTOR 505 518	беспилотников
+T23	ORGANIZATION 529 539	Минобороны
+T24	CARDINAL 566 570	трех
+T25	REGION 582 601	Смоленской областью
+T26	DATE 603 612	11 ноября
+T27	ORGANIZATION 614 621	Богомаз
+T28	CARDINAL 642 649	четырех
+T29	FAC 650 668	дронов самолетного
+T30	FAC 678 712	Стародубским муниципальным округом
+T31	CITY 733 754	Черниговской областью
+T32	COUNTRY 755 762	Украины
+T33	NEWS_SOURCE 791 812	по словам губернатора
+T34	PROFESSION 801 812	губернатора
+T35	CARDINAL 861 885	6558478d9a79472b26b25c22
+T36	NEWS_SOURCE 887 890	Sat
+T37	PERSON 887 890	Sat
+T38	CARDINAL 892 894	18
+T39	DATE 899 903	2023
+T40	CURRENCY 904 906	08
+T41	CARDINAL 907 909	30
+T42	CARDINAL 910 912	28

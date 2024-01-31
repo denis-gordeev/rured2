@@ -1,0 +1,52 @@
+T0	ECONOMIC_SECTOR 6 14	обстрела
+T1	ECONOMIC_SECTOR 28 33	света
+T2	CARDINAL 34 35	6
+T3	REGION 36 48	белгородских
+T4	QUANTITY 60 67	пунктов
+T5	FAC 100 115	электропередачи
+T6	ECONOMIC_SECTOR 120 146	обстреле без электричества
+T7	QUANTITY 179 184	шесть
+T8	QUANTITY 196 203	пунктов
+T9	REGION 206 226	Белгородской области
+T10	EVENT 244 252	телеграм
+T11	PROFESSION 268 273	глава
+T12	NEWS_SOURCE 236 298	в своем телеграм-канале сообщил глава региона Вячеслав Гладков
+T13	PERSON 282 298	Вячеслав Гладков
+T14	ORGANIZATION 331 369	Красное Шебекинского городского округа
+T15	FAC 412 427	электропередачи
+T16	PROFESSION 440 450	губернатор
+T17	NEWS_SOURCE 452 454	По
+T18	ECONOMIC_SECTOR 467 471	свет
+T19	FAC 481 499	населенных пунктах
+T20	ORGANIZATION 500 507	Красное
+T21	CITY 509 515	Панков
+T22	NEWS_SOURCE 517 522	Мухин
+T23	PERSON 517 522	Мухин
+T24	FAC 524 536	Первомайский
+T25	CITY 538 547	Ленинский
+T26	REGION 561 573	Вознесеновке
+T27	ORGANIZATION 653 674	Министерством обороны
+T28	NEWS_SOURCE 676 683	уточнил
+T29	PERSON 684 691	Гладков
+T30	DATE 693 711	За несколько минут
+T31	TIME 706 711	минут
+T32	EVENT 712 714	до
+T33	NEWS_SOURCE 721 730	сообщения
+T34	PROFESSION 731 741	губернатор
+T35	COUNTRY 767 777	украинской
+T36	FAC 778 788	артиллерии
+T37	LOCATION 796 803	окраина
+T38	REGION 804 808	села
+T39	PERSON 809 832	Дроновка Грайворонского
+T40	ORGANIZATION 833 843	городского
+T41	REGION 844 850	округа
+T42	CARDINAL 873 876	два
+T43	GROUP 877 889	домовладения
+T44	GROUP 891 907	пострадавших нет
+T45	NEWS_SOURCE 909 927	уточнил губернатор
+T46	PROFESSION 917 927	губернатор
+T47	CARDINAL 961 985	65ae702d9a7947f26632bc36
+T48	CARDINAL 992 994	22
+T49	CARDINAL 999 1006	2024 17
+T50	CARDINAL 1007 1009	57
+T51	CARDINAL 1010 1014	15 +

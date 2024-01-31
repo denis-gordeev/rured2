@@ -1,0 +1,54 @@
+T0	PROFESSION 26 41	смерти сенатора
+T1	PERSON 42 50	Лебедева
+T2	PROFESSION 52 59	Сенатор
+T3	REGION 63 84	Нижегородской области
+T4	NEWS_SOURCE 94 101	Лебедев
+T5	PERSON 85 106	Владимир Лебедев умер
+T6	PRODUCT 120 128	инфаркта
+T7	ORGANIZATION 139 151	РИА Новости»
+T8	PROFESSION 152 164	председатель
+T9	NEWS_SOURCE 130 173	сообщил «РИА Новости» председатель комитета
+T10	ORGANIZATION 165 190	комитета Совета Федерации
+T11	ORGANIZATION 219 232	парламентской
+T12	NEWS_SOURCE 246 254	Вячеслав
+T13	PERSON 246 263	Вячеслав Тимченко
+T14	PERSON 265 272	Лебедев
+T15	DATE 289 296	61 года
+T16	PROFESSION 319 329	губернатор
+T17	PROFESSION 344 351	области
+T18	NEWS_SOURCE 304 364	смерти сообщил губернатор Нижегородской области Глеб Никитин
+T19	PERSON 352 364	Глеб Никитин
+T20	NEWS_SOURCE 375 384	рассказал
+T21	DATE 390 410	за несколько дней до
+T22	PROFESSION 418 425	сенатор
+T23	PROFESSION 450 458	сенатора
+T24	GROUP 450 458	сенатора
+T25	REGION 462 483	Нижегородской области
+T26	PERSON 484 491	Лебедев
+T27	DATE 498 518	в сентябре 2014 года
+T28	PROFESSION 520 522	Он
+T29	ORDINAL 527 533	первым
+T30	ORGANIZATION 560 576	комитета Совфеда
+T31	PROFESSION 534 587	заместителем председателя комитета Совфеда по аграрно
+T32	PROFESSION 668 676	сенатора
+T33	PERSON 677 684	Лебедев
+T34	PROFESSION 693 711	заместителем главы
+T35	ORGANIZATION 712 722	Минприроды
+T36	PROFESSION 725 738	руководителем
+T37	ORGANIZATION 739 779	Федерального агентства лесного хозяйства
+T38	DATE 781 792	с 2012 года
+T39	ORGANIZATION 815 826	управляющие
+T40	ORGANIZATION 840 855	ЛУКОЙЛ — Нижний
+T41	CITY 856 864	Новгород
+T42	PERSON 868 880	Нижновэнерго
+T43	ORGANIZATION 885 896	Кировэнерго
+T44	CITY 885 896	Кировэнерго
+T45	CARDINAL 928 930	30
+T46	CARDINAL 931 933	11
+T47	DATE 934 938	2023
+T48	CARDINAL 939 963	6568d93e9a794710d7019c7f
+T49	CARDINAL 970 972	30
+T50	CARDINAL 977 984	2023 22
+T51	CARDINAL 985 987	23
+T52	CARDINAL 988 990	42
+T53	ORGANIZATION 991 992	+

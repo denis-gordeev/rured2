@@ -1,0 +1,33 @@
+T0	ORGANIZATION 0 10	Ростовский
+T1	PROFESSION 0 21	Ростовский губернатор
+T2	NEWS_SOURCE 0 29	Ростовский губернатор сообщил
+T3	FAC 39 42	ПВО
+T4	CITY 75 85	Ростовской
+T5	REGION 75 93	Ростовской области
+T6	FAC 104 111	системы
+T7	ORGANIZATION 112 115	ПВО
+T8	PROFESSION 203 213	губернатор
+T9	NEWS_SOURCE 171 229	в своем телеграм-канале сообщил губернатор Василий Голубев
+T10	PERSON 214 229	Василий Голубев
+T11	DATE 232 239	Сегодня
+T12	PERCENT 240 248	около 15
+T13	TIME 246 254	15 часов
+T14	REGION 299 317	Ростовской области
+T15	ORGANIZATION 368 372	СВО»
+T16	NEWS_SOURCE 371 372	»
+T17	PROFESSION 384 389	глава
+T18	NEWS_SOURCE 458 466	сообщает
+T19	FAC 476 479	ПВО
+T20	REGION 521 539	Ростовской области
+T21	DATE 541 559	6 ноября 2023 года
+T22	NEWS_SOURCE 563 570	сообщил
+T23	FAC 576 597	силы противовоздушной
+T24	ORGANIZATION 598 605	обороны
+T25	CITY 692 702	Ростовской
+T26	REGION 692 710	Ростовской области
+T27	CARDINAL 813 837	655368ea9a7947817beff465
+T28	ORGANIZATION 839 842	Tue
+T29	CARDINAL 844 846	14
+T30	DATE 851 855	2023
+T31	CARDINAL 856 858	15
+T32	CARDINAL 859 861	48

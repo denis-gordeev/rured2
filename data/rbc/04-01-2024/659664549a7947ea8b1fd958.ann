@@ -1,0 +1,71 @@
+T0	PERSON 0 5	Путин
+T1	PROFESSION 22 32	начальника
+T2	ORGANIZATION 33 43	Росгвардии
+T3	CITY 46 52	Москве
+T4	PROFESSION 54 63	Президент
+T5	COUNTRY 64 70	России
+T6	PERSON 71 85	Владимир Путин
+T7	PROFESSION 95 121	нового начальника главного
+T8	ORGANIZATION 122 146	управления Росгвардии по
+T9	PROFESSION 144 146	по
+T10	INVESTMENT_PROGRAM 147 153	городу
+T11	CITY 154 160	Москве
+T12	PROFESSION 170 177	генерал
+T13	PROFESSION 178 183	майор
+T14	PERSON 184 197	Василий Сонин
+T15	PROFESSION 239 251	председатель
+T16	NEWS_SOURCE 207 284	сообщил в своем telegram-канале председатель комитета Государственной думы по
+T17	ORGANIZATION 252 308	комитета Государственной думы по информационной политике
+T18	NEWS_SOURCE 308 336	, информационным технологиям
+T19	PROFESSION 310 336	информационным технологиям
+T20	PROFESSION 339 344	связи
+T21	ORGANIZATION 369 379	Росгвардии
+T22	PROFESSION 347 379	бывший советник главы Росгвардии
+T23	NEWS_SOURCE 339 389	связи и бывший советник главы Росгвардии Александр
+T24	PERSON 380 398	Александр Хинштейн
+T25	PROFESSION 400 407	Депутат
+T26	NEWS_SOURCE 400 415	Депутат отметил
+T27	DATE 442 450	4 января
+T28	PERSON 470 476	Сонина
+T29	ORGANIZATION 507 539	столичного управления Росгвардии
+T30	NEWS_SOURCE 498 539	на сайте столичного управления Росгвардии
+T31	PROFESSION 540 551	начальником
+T32	PROFESSION 561 568	генерал
+T33	NEWS_SOURCE 569 574	майор
+T34	PERSON 569 589	майор Виктор Дикевич
+T35	PERSON 597 602	Сонин
+T36	PROFESSION 621 631	начальника
+T37	ORGANIZATION 632 634	на
+T38	NEWS_SOURCE 632 640	на сайте
+T39	NEWS_SOURCE 652 662	Росгвардии
+T40	ORGANIZATION 641 676	управления Росгвардии по Московской
+T41	NEWS_SOURCE 666 676	Московской
+T42	REGION 677 684	области
+T43	ORGANIZATION 706 717	Росгвардией
+T44	PROFESSION 738 753	областной главк
+T45	ORGANIZATION 775 791	внутри ведомства
+T46	PERSON 813 821	Хинштейн
+T47	NEWS_SOURCE 840 848	на сайте
+T48	FAC 849 862	подмосковного
+T49	ORGANIZATION 863 884	управления Росгвардии
+T50	PERSON 886 892	Сонину
+T51	CARDINAL 893 895	46
+T52	DATE 893 899	46 лет
+T53	EVENT 901 907	звание
+T54	PROFESSION 908 915	генерал
+T55	PROFESSION 916 930	майора полиции
+T56	DATE 942 961	в феврале 2023 года
+T57	PROFESSION 978 988	начальника
+T58	ORGANIZATION 989 1002	Росгвардии по
+T59	PROFESSION 1000 1002	по
+T60	CITY 1003 1013	Московской
+T61	REGION 1014 1021	области
+T62	DATE 1035 1052	в марте 2022 года
+T63	DATE 1094 1118	659664549a7947ea8b1fd958
+T64	CARDINAL 1094 1118	659664549a7947ea8b1fd958
+T65	DATE 1125 1127	04
+T66	PERSON 1128 1131	Jan
+T67	DATE 1132 1136	2024
+T68	CARDINAL 1137 1139	11
+T69	MONEY 1140 1142	23
+T70	CARDINAL 1140 1142	23

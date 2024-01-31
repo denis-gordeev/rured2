@@ -1,0 +1,42 @@
+T0	DATE 2 6	Рио-
+T1	PERSON 6 8	де
+T2	EVENT 8 16	-Жанейро
+T3	CARDINAL 48 50	58
+T4	CARDINAL 51 60	5 градуса
+T5	LOCATION 72 75	Рио
+T6	AWARD 75 76	-
+T7	PERSON 76 78	де
+T8	REGION 78 79	-
+T9	LOCATION 79 106	Жанейро температура воздуха
+T10	CARDINAL 116 118	58
+T11	CARDINAL 119 120	5
+T12	DATE 143 160	февраля 2023 года
+T13	CARDINAL 163 165	58
+T14	NEWS_SOURCE 176 200	сообщает газета Folha de
+T15	ORGANIZATION 192 202	Folha de S
+T16	ORGANIZATION 203 208	Paulo
+T17	DATE 242 263	во вторник, 14 ноября
+T18	PRODUCT 283 290	воздуха
+T19	DATE 300 302	58
+T20	CARDINAL 303 304	5
+T21	LOCATION 316 322	западе
+T22	NEWS_SOURCE 380 392	в публикации
+T23	NEWS_SOURCE 394 440	По данным Национального института метеорологии
+T24	ORGANIZATION 397 440	данным Национального института метеорологии
+T25	DATE 476 494	восьмой раз за год
+T26	FAC 631 645	экваториальная
+T27	FAC 652 665	Тихого океана
+T28	CARDINAL 688 694	на три
+T29	DATE 716 734	В ноябре 2022 года
+T30	PROFESSION 735 741	генсек
+T31	ORGANIZATION 742 745	ООН
+T32	PERSON 746 762	Антониу Гутерриш
+T33	DATE 770 790	последние восемь лет
+T34	FAC 821 836	метеонаблюдений
+T35	NEWS_SOURCE 838 848	Он отметил
+T36	FAC 876 881	шоссе
+T37	DATE 932 939	моменту
+T38	DATE 990 1021	Последние два месяца — сентябрь
+T39	DATE 1024 1041	октябрь 2023 года
+T40	LOCATION 1115 1120	Земли
+T41	DATE 1185 1199	15 Nov 2023 15

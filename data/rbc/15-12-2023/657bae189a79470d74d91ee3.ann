@@ -1,0 +1,44 @@
+T0	ORGANIZATION 0 3	МВД
+T1	ECONOMIC_SECTOR 34 47	беспилотников
+T2	ORGANIZATION 49 52	МВД
+T3	ECONOMIC_SECTOR 104 123	видов беспилотников
+T4	FAC 163 171	интернет
+T5	ECONOMIC_SECTOR 225 246	беспилотных воздушных
+T6	FAC 248 257	подводных
+T7	FAC 260 269	надводных
+T8	ORGANIZATION 270 275	судах
+T9	FAC 278 287	аппаратах
+T10	PRODUCT 301 313	транспортных
+T11	ECONOMIC_SECTOR 289 313	беспилотных транспортных
+T12	FAC 314 323	средствах
+T13	ECONOMIC_SECTOR 331 361	автоматизированных беспилотных
+T14	FAC 362 372	комплексах
+T15	FAC 515 525	управления
+T16	ECONOMIC_SECTOR 580 592	беспилотника
+T17	PROFESSION 662 684	министр внутренних дел
+T18	PROFESSION 690 701	заместители
+T19	ORGANIZATION 729 737	аппарата
+T20	PROFESSION 703 747	руководители центрального аппарата ведомства
+T21	PROFESSION 749 785	руководители территориальных органов
+T22	PROFESSION 787 801	их заместители
+T23	DATE 809 810	С
+T24	EVENT 818 830	спецоперации
+T25	COUNTRY 834 852	Украине российские
+T26	GROUP 891 905	вражеских БПЛА
+T27	NEWS_SOURCE 910 923	подсчетам РБК
+T28	ORGANIZATION 920 923	РБК
+T29	DATE 925 940	к концу августа
+T30	CARDINAL 962 971	более 500
+T31	COUNTRY 1023 1031	Украиной
+T32	REGION 1032 1044	Белгородская
+T33	CITY 1047 1055	Брянская
+T34	REGION 1056 1063	области
+T35	REGION 1101 1105	Крым
+T36	PERSON 1119 1128	Рязанскую
+T37	REGION 1130 1139	Калужскую
+T38	REGION 1142 1161	Воронежскую области
+T39	ORGANIZATION 1221 1224	Fri
+T40	CARDINAL 1226 1228	15
+T41	EVENT 1229 1232	Dec
+T42	DATE 1233 1237	2023
+T43	CARDINAL 1247 1248	+

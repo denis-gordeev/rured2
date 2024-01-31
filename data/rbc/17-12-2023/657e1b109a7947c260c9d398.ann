@@ -1,0 +1,50 @@
+T0	DATE 2 8	Одессе
+T1	CITY 2 8	Одессе
+T2	CITY 10 17	Херсоне
+T3	EVENT 54 60	Одессе
+T4	NEWS_SOURCE 80 98	пишет «РБК-Украина
+T5	ORGANIZATION 87 98	РБК-Украина
+T6	ORGANIZATION 103 114	Черноморске
+T7	ORGANIZATION 124 131	системы
+T8	FAC 124 135	системы ПВО
+T9	NEWS_SOURCE 137 147	сообщает «
+T10	ORGANIZATION 147 154	Зеркало
+T11	DATE 155 161	недели
+T12	NEWS_SOURCE 155 161	недели
+T13	NEWS_SOURCE 170 188	одесской областной
+T14	EVENT 189 196	военной
+T15	ORGANIZATION 197 210	администрации
+T16	PROFESSION 164 210	Глава одесской областной военной администрации
+T17	PERSON 211 221	Олег Кипер
+T18	NEWS_SOURCE 197 229	администрации Олег Кипер сообщил
+T19	EVENT 324 330	Взрывы
+T20	PERSON 352 364	Кропивницкий
+T21	REGION 367 389	Кировоградской области
+T22	NEWS_SOURCE 391 399	передает
+T23	CITY 400 409	Суспільне
+T24	NEWS_SOURCE 411 429	По данным «Зеркала
+T25	PERSON 422 429	Зеркала
+T26	DATE 430 436	недели
+T27	ORGANIZATION 473 485	центрального
+T28	CITY 493 500	Херсона
+T29	COUNTRY 518 528	украинским
+T30	PROFESSION 529 536	военным
+T31	REGION 594 604	Полтавской
+T32	ORGANIZATION 606 616	Черкасской
+T33	REGION 618 630	Николаевской
+T34	REGION 632 643	Харьковской
+T35	REGION 645 661	Днепропетровской
+T36	FAC 662 670	областях
+T37	ORGANIZATION 738 755	Минобороны России
+T38	COUNTRY 787 797	российские
+T39	PROFESSION 798 805	военные
+T40	PROFESSION 830 837	военным
+T41	GROUP 830 837	военным
+T42	FAC 840 854	энергетическим
+T43	ECONOMIC_SECTOR 840 854	энергетическим
+T44	COUNTRY 864 871	Украины
+T45	CARDINAL 939 941	12
+T46	CARDINAL 978 980	17
+T47	DATE 985 989	2023
+T48	PERCENT 993 995	26
+T49	CARDINAL 993 995	26

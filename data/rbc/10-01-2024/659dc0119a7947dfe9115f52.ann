@@ -1,0 +1,58 @@
+T0	PROFESSION 0 9	Президент
+T1	COUNTRY 10 18	Эквадора
+T2	PROFESSION 75 84	Президент
+T3	COUNTRY 85 93	Эквадора
+T4	NEWS_SOURCE 94 101	Даниэль
+T5	ORGANIZATION 102 107	Нобоа
+T6	GROUP 180 189	нападений
+T7	CRIME 180 189	нападений
+T8	GROUP 200 210	заложников
+T9	ORGANIZATION 220 246	телекомпании TC Televisión
+T10	PERSON 249 257	Гуаякиле
+T11	NEWS_SOURCE 259 279	сообщает El Universo
+T12	ORGANIZATION 268 279	El Universo
+T13	DATE 434 438	днем
+T14	DATE 447 455	8 января
+T15	DATE 506 516	на 60 дней
+T16	PROFESSION 577 582	главы
+T17	CITY 616 619	Лос
+T18	PERSON 620 627	Чонерос
+T19	NEWS_SOURCE 629 636	Адольфо
+T20	PERSON 637 654	Масияса Вильямара
+T21	PROFESSION 677 694	Глава государства
+T22	ORGANIZATION 721 737	вооруженные силы
+T23	FAC 785 793	системой
+T24	GROUP 818 835	транснациональные
+T25	EVENT 836 850	организованные
+T26	GROUP 874 905	террористическими организациями
+T27	GROUP 917 946	негосударственными субъектами
+T28	GROUP 980 986	членов
+T29	CRIME 992 1002	преступных
+T30	GROUP 992 1014	преступных группировок
+T31	ORGANIZATION 1076 1091	Вооруженных Сил
+T32	FAC 1088 1091	Сил
+T33	ORGANIZATION 1094 1115	Национальной полиции»
+T34	FAC 1151 1178	территориальную целостность
+T35	COUNTRY 1180 1188	Эквадора
+T36	CRIME 1191 1254	воспрепятствовать действиям преступных и террористических групп
+T37	PROFESSION 1256 1265	Президент
+T38	NEWS_SOURCE 1256 1272	Президент заявил
+T39	ORGANIZATION 1332 1345	правительство
+T40	EVENT 1372 1382	переговоры
+T41	DATE 1443 1451	9 января
+T42	NEWS_SOURCE 1453 1460	Полиция
+T43	GROUP 1498 1509	сотрудников
+T44	ORGANIZATION 1510 1519	ведомства
+T45	GROUP 1522 1532	патрульные
+T46	FAC 1522 1539	патрульные машины
+T47	PRODUCT 1567 1577	взрывчатки
+T48	ORGANIZATION 1656 1669	TC Televisión
+T49	PERSON 1672 1680	Гуаякиле
+T50	PROFESSION 1701 1712	телеведущих
+T51	PROFESSION 1715 1721	студии
+T52	GROUP 1738 1749	сотрудников
+T53	ORGANIZATION 1759 1766	полиция
+T54	GROUP 1800 1815	злоумышленников
+T55	CARDINAL 1880 1894	10 Jan 2024 01
+T56	CARDINAL 1895 1897	13
+T57	CARDINAL 1898 1902	50 +

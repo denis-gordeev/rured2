@@ -1,0 +1,60 @@
+T0	PROFESSION 5 13	режиссер
+T1	PERSON 14 27	Олег Рябоконь
+T2	CITY 29 38	Советский
+T3	COUNTRY 41 51	российский
+T4	PROFESSION 52 64	кинорежиссер
+T5	PROFESSION 66 94	заслуженный деятель искусств
+T6	COUNTRY 95 101	России
+T7	PERSON 102 115	Олег Рябоконь
+T8	CITY 123 128	Санкт
+T9	CITY 129 139	Петербурге
+T10	DATE 142 157	возрасте 84 лет
+T11	NEWS_SOURCE 167 186	сообщила «Фонтанка»
+T12	ORGANIZATION 190 272	Санкт-Петербургской организации Союза кинематографистов РБК подтвердили информацию
+T13	NEWS_SOURCE 250 272	подтвердили информацию
+T14	PERSON 282 296	Олега Рябоконя
+T15	NEWS_SOURCE 361 394	В организации также сообщили ТАСС
+T16	ORGANIZATION 390 394	ТАСС
+T17	PROFESSION 400 413	режиссер умер
+T18	DATE 414 430	вечером 6 января
+T19	NEWS_SOURCE 431 443	в своем доме
+T20	ORGANIZATION 439 443	доме
+T21	CITY 465 475	Ленинграде
+T22	DATE 463 497	в Ленинграде 24 сентября 1939 года
+T23	PROFESSION 506 517	выпускником
+T24	REGION 518 532	Ленинградского
+T25	ECONOMIC_SECTOR 533 539	военно
+T26	INVESTMENT_PROGRAM 540 553	механического
+T27	ORGANIZATION 554 563	института
+T28	PROFESSION 566 574	актерско
+T29	PROFESSION 575 588	режиссерского
+T30	FAC 589 598	отделения
+T31	CITY 603 616	Ленинградском
+T32	ORGANIZATION 633 642	институте
+T33	FAC 617 649	государственном институте театра
+T34	FAC 651 657	музыки
+T35	ECONOMIC_SECTOR 660 674	кинематографии
+T36	PROFESSION 676 684	Режиссер
+T37	PERSON 734 737	Али
+T38	PERSON 738 742	Баба
+T39	CARDINAL 745 750	сорок
+T40	GROUP 751 762	разбойников
+T41	PERSON 800 812	Олег Табаков
+T42	PERSON 814 829	Вениамин Смехов
+T43	PERSON 831 844	Сергей Юрский
+T44	PERSON 846 863	Армен Джигарханян
+T45	PERSON 865 873	Рябоконь
+T46	PROFESSION 900 923	музыкального телефильма
+T47	CARDINAL 925 929	Один
+T48	PERSON 942 950	Николаем
+T49	ORGANIZATION 951 963	Караченцовым
+T50	ORGANIZATION 992 999	Физики»
+T51	PERSON 1002 1009	Перегон
+T52	INVESTMENT_PROGRAM 1018 1028	императора
+T53	PERSON 1046 1050	Эзоп
+T54	CARDINAL 1099 1101	01
+T55	CARDINAL 1102 1106	2024
+T56	CARDINAL 1145 1152	2024 17
+T57	PERCENT 1153 1155	57
+T58	CARDINAL 1153 1155	57
+T59	CARDINAL 1159 1160	+

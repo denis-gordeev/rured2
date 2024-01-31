@@ -1,0 +1,54 @@
+T0	COUNTRY 2 7	Сирии
+T1	NEWS_SOURCE 0 16	В Сирии сообщили
+T2	COUNTRY 20 31	израильском
+T3	NEWS_SOURCE 20 31	израильском
+T4	GPE 54 61	Дамаска
+T5	FAC 72 88	противовоздушной
+T6	COUNTRY 97 102	Сирии
+T7	FAC 122 130	ракетную
+T8	GPE 152 159	Дамаска
+T9	ORGANIZATION 180 195	государственное
+T10	ORGANIZATION 206 210	SANA
+T11	NEWS_SOURCE 161 239	сообщило сирийское государственное агентство SANA со ссылкой на корреспондента
+T12	PROFESSION 225 239	корреспондента
+T13	PROFESSION 309 323	корреспондента
+T14	NEWS_SOURCE 299 347	По словам корреспондента телеканала Al Ikhbariya
+T15	ORGANIZATION 338 347	Ikhbariya
+T16	FAC 358 361	ПВО
+T17	COUNTRY 379 390	израильским
+T18	PRODUCT 391 398	ракетам
+T19	EVENT 443 448	войны
+T20	COUNTRY 449 456	Израиля
+T21	GPE 459 471	палестинским
+T22	FAC 472 484	исламистским
+T23	CITY 495 500	ХАМАС
+T24	ORGANIZATION 507 514	обороны
+T25	COUNTRY 515 522	Израиля
+T26	ORGANIZATION 524 529	ЦАХАЛ
+T27	FAC 524 530	ЦАХАЛ)
+T28	CARDINAL 531 544	несколько раз
+T29	FAC 545 589	атаковала объекты критической инфраструктуры
+T30	COUNTRY 590 595	Сирии
+T31	FAC 609 618	аэропорты
+T32	GROUP 620 626	Власти
+T33	COUNTRY 627 632	Сирии
+T34	ORDINAL 643 649	первых
+T35	DATE 689 698	2 декабря
+T36	GROUP 699 715	израильские силы
+T37	COUNTRY 751 760	сирийской
+T38	REGION 761 768	столицы
+T39	GROUP 825 830	ракет
+T40	COUNTRY 854 863	сирийская
+T41	GPE 854 863	сирийская
+T42	DATE 903 913	11 декабря
+T43	PROFESSION 914 923	сирийские
+T44	CITY 982 991	Голанских
+T45	GPE 1014 1021	Дамаска
+T46	ORGANIZATION 1047 1057	Минобороны
+T47	COUNTRY 1058 1063	Сирии
+T48	COUNTRY 1077 1084	Израиль
+T49	CARDINAL 1149 1151	17
+T50	DATE 1156 1160	2023
+T51	CARDINAL 1161 1163	22
+T52	CARDINAL 1164 1166	50
+T53	CARDINAL 1167 1171	59 +

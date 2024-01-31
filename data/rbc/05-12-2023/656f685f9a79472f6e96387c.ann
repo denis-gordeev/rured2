@@ -1,0 +1,44 @@
+T0	GROUP 0 20	Протестующие фермеры
+T1	ORGANIZATION 38 62	администрации президента
+T2	NEWS_SOURCE 52 62	президента
+T3	COUNTRY 63 71	Молдавии
+T4	CITY 75 83	Кишиневе
+T5	GROUP 84 91	фермеры
+T6	EVENT 94 98	знак
+T7	GROUP 156 172	сельхозпродукцию
+T8	PRODUCT 156 172	сельхозпродукцию
+T9	ORGANIZATION 175 199	администрации президента
+T10	PERSON 200 204	Майи
+T11	NEWS_SOURCE 189 210	президента Майи Санду
+T12	NEWS_SOURCE 212 244	сообщает корреспондент NewsMaker
+T13	ORGANIZATION 235 244	NewsMaker
+T14	NEWS_SOURCE 250 266	уточнило издание
+T15	NEWS_SOURCE 268 277	несколько
+T16	GROUP 278 287	тракторов
+T17	ORGANIZATION 300 313	администрации
+T18	GROUP 315 326	Трактористы
+T19	FAC 336 357	машины посреди дороги
+T20	FAC 399 405	зданию
+T21	PRODUCT 424 431	трактор
+T22	GROUP 464 476	протестующие
+T23	GROUP 489 495	зданию
+T24	ORGANIZATION 496 509	администрации
+T25	ORGANIZATION 619 629	парламента
+T26	COUNTRY 632 642	Молдавские
+T27	GROUP 643 650	фермеры
+T28	CITY 694 702	Кишиневе
+T29	DATE 703 712	23 ноября
+T30	EVENT 780 788	комиссии
+T31	GROUP 798 819	сельхозпроизводителей
+T32	PERCENT 875 878	50%
+T33	ORGANIZATION 890 909	Национального фонда
+T34	ORGANIZATION 919 938	сельского хозяйства
+T35	PRODUCT 969 1001	площади подсолнечника и кукурузы
+T36	DATE 1002 1013	в 2023 году
+T37	PERCENT 1071 1095	656f685f9a79472f6e96387c
+T38	PERSON 1097 1100	Tue
+T39	PERCENT 1109 1116	2023 21
+T40	PERCENT 1117 1119	59
+T41	PERCENT 1120 1122	10
+T42	CARDINAL 1120 1122	10
+T43	ORGANIZATION 1123 1124	+

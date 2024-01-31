@@ -1,0 +1,66 @@
+T0	ORGANIZATION 0 10	Минобороны
+T1	NEWS_SOURCE 0 18	Минобороны заявило
+T2	ECONOMIC_SECTOR 31 38	складов
+T3	FAC 31 42	складов ВСУ
+T4	EVENT 46 55	аэродроме
+T5	ORGANIZATION 56 73	Староконстантинов
+T6	COUNTRY 75 85	Российские
+T7	PROFESSION 86 93	военные
+T8	GROUP 86 93	военные
+T9	PRODUCT 137 147	материалов
+T10	ORGANIZATION 150 158	ракетно-
+T11	FAC 157 200	-артиллерийского вооружения в Хмельницкой и
+T12	ORGANIZATION 201 220	Херсонской областях
+T13	ORGANIZATION 231 241	Минобороны
+T14	COUNTRY 242 248	России
+T15	NEWS_SOURCE 222 268	сообщило Минобороны России в ежедневной сводке
+T16	FAC 279 298	склады на аэродроме
+T17	CITY 299 316	Староконстантинов
+T18	REGION 299 316	Староконстантинов
+T19	FAC 317 336	Хмельницкой oбласти
+T20	REGION 367 378	Чернобаевка
+T21	LOCATION 379 389	Херсонской
+T22	REGION 390 397	области
+T23	PROFESSION 405 412	военные
+T24	PRODUCT 422 427	живую
+T25	PRODUCT 435 450	военную технику
+T26	FAC 451 461	противника
+T27	CARDINAL 464 467	118
+T28	NEWS_SOURCE 477 497	отметили в ведомстве
+T29	ORGANIZATION 488 497	ведомстве
+T30	DATE 500 510	14 декабря
+T31	ORGANIZATION 511 521	Минобороны
+T32	NEWS_SOURCE 511 530	Минобороны сообщило
+T33	ECONOMIC_SECTOR 546 553	складов
+T34	FAC 546 553	складов
+T35	CARDINAL 554 558	двух
+T36	ORGANIZATION 559 569	бригад ВСУ
+T37	ORGANIZATION 572 582	Херсонской
+T38	CITY 585 596	Запорожской
+T39	ORGANIZATION 585 605	Запорожской областях
+T40	FAC 597 605	областях
+T41	PRODUCT 627 642	краснолиманском
+T42	FAC 645 653	донецком
+T43	COUNTRY 667 677	украинские
+T44	GROUP 678 685	военные
+T45	GROUP 695 706	французскую
+T46	PRODUCT 718 732	артиллерийскую
+T47	FAC 707 742	самоходную артиллерийскую установку
+T48	ORGANIZATION 743 749	CAESAR
+T49	CARDINAL 751 754	три
+T50	FAC 755 762	гаубицы
+T51	ORGANIZATION 764 770	Мста-Б
+T52	CARDINAL 773 776	две
+T53	PRODUCT 777 780	САУ
+T54	PERSON 782 788	Акация
+T55	PRODUCT 804 814	вооружения
+T56	FAC 804 814	вооружения
+T57	FAC 817 832	военной техники
+T58	PRODUCT 825 832	техники
+T59	PERSON 892 895	Sat
+T60	PERCENT 897 899	30
+T61	CARDINAL 897 899	30
+T62	DATE 904 908	2023
+T63	PERCENT 909 911	15
+T64	MONEY 912 914	34
+T65	CARDINAL 918 919	+

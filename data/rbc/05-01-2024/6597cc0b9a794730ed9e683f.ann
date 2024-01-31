@@ -1,0 +1,44 @@
+T0	FAC 2 21	Хмельницкой области
+T1	COUNTRY 22 29	Украины
+T2	FAC 51 70	Хмельницкой области
+T3	COUNTRY 71 78	Украины
+T4	ECONOMIC_SECTOR 90 96	взрывы
+T5	NEWS_SOURCE 98 122	сообщило издание «Страна
+T6	ORGANIZATION 123 125	ua
+T7	NEWS_SOURCE 123 126	ua»
+T8	FAC 149 165	военный аэродром
+T9	CITY 166 183	Староконстантинов
+T10	CARDINAL 187 188	5
+T11	LOCATION 189 191	км
+T12	FAC 195 207	одноименного
+T13	COUNTRY 256 266	российская
+T14	DATE 302 322	30 декабря 2023 года
+T15	ORGANIZATION 330 347	Минобороны России
+T16	COUNTRY 341 347	России
+T17	NEWS_SOURCE 330 356	Минобороны России сообщило
+T18	FAC 365 374	аэродроме
+T19	FAC 432 439	ракетно
+T20	ECONOMIC_SECTOR 432 439	ракетно
+T21	FAC 440 466	артиллерийским вооружением
+T22	DATE 469 483	Утром 4 января
+T23	COUNTRY 505 515	украинском
+T24	PERSON 523 535	Кропивницкий
+T25	REGION 536 558	Кировоградской области
+T26	NEWS_SOURCE 560 571	ТСН сообщал
+T27	FAC 588 591	ПВО
+T28	PROFESSION 593 598	Глава
+T29	PERSON 607 622	Андрей Райкович
+T30	NEWS_SOURCE 633 641	телеграм
+T31	ECONOMIC_SECTOR 663 676	промышленного
+T32	FAC 692 706	ракетной атаки
+T33	ECONOMIC_SECTOR 701 706	атаки
+T34	ORGANIZATION 708 725	Минобороны России
+T35	NEWS_SOURCE 726 747	неоднократно заявляло
+T36	PROFESSION 779 786	военным
+T37	FAC 789 803	энергетическим
+T38	COUNTRY 813 820	Украины
+T39	CARDINAL 888 912	6597cc0b9a794730ed9e683f
+T40	CARDINAL 926 930	2024
+T41	PERCENT 934 936	57
+T42	CARDINAL 934 936	57
+T43	CARDINAL 937 941	59 +

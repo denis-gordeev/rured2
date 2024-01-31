@@ -1,0 +1,30 @@
+T0	PERSON 2 10	Шебекино
+T1	CARDINAL 33 39	одного
+T2	FAC 56 67	предприятий
+T3	COUNTRY 88 99	украинскими
+T4	ECONOMIC_SECTOR 133 165	здание промышленного предприятия
+T5	FAC 154 165	предприятия
+T6	PERSON 168 176	Шебекино
+T7	PROFESSION 186 196	губернатор
+T8	NEWS_SOURCE 178 213	сообщил губернатор Вячеслав Гладков
+T9	PERSON 197 213	Вячеслав Гладков
+T10	LAW 216 224	телеграм
+T11	LAW 225 231	канале
+T12	PERSON 272 280	Шебекино
+T13	GROUP 313 325	пострадавших
+T14	NEWS_SOURCE 334 349	отметил Гладков
+T15	PERSON 342 349	Гладков
+T16	DATE 352 363	За 2 января
+T17	CARDINAL 371 377	трижды
+T18	FAC 398 406	Силы ПВО
+T19	CARDINAL 431 433	17
+T20	ECONOMIC_SECTOR 434 449	воздушных целей
+T21	ORGANIZATION 471 481	Минобороны
+T22	PERSON 553 558	Ольха
+T23	PROFESSION 605 618	Мэр Белгорода
+T24	PERSON 619 635	Валентин Демидов
+T25	NEWS_SOURCE 605 643	Мэр Белгорода Валентин Демидов сообщил
+T26	ORGANIZATION 760 763	Tue
+T27	CARDINAL 772 779	2024 18
+T28	CARDINAL 780 782	30
+T29	CARDINAL 786 787	+

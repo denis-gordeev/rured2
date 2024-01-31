@@ -1,0 +1,51 @@
+T0	CARDINAL 33 40	четырех
+T1	ECONOMIC_SECTOR 41 46	домов
+T2	ECONOMIC_SECTOR 53 61	обстрела
+T3	ORGANIZATION 62 65	ВСУ
+T4	ECONOMIC_SECTOR 66 70	села
+T5	ORGANIZATION 72 88	Вооруженные силы
+T6	COUNTRY 89 96	Украины
+T7	ORGANIZATION 123 131	Севского
+T8	REGION 141 157	Брянской области
+T9	PROFESSION 167 177	губернатор
+T10	NEWS_SOURCE 159 195	сообщил губернатор Александр Богомаз
+T11	PERSON 178 195	Александр Богомаз
+T12	NEWS_SOURCE 198 206	телеграм
+T13	NEWS_SOURCE 207 213	канале
+T14	CARDINAL 258 264	четыре
+T15	GROUP 271 283	домовладения
+T16	FAC 285 297	хозпостройки
+T17	FAC 299 304	гараж
+T18	CARDINAL 306 309	два
+T19	FAC 310 318	легковых
+T20	PRODUCT 310 329	легковых автомобиля
+T21	FAC 348 376	помещение сельхозпредприятия
+T22	PRODUCT 358 376	сельхозпредприятия
+T23	PROFESSION 389 394	глава
+T24	NEWS_SOURCE 381 402	уточнил глава региона
+T25	NEWS_SOURCE 404 413	По словам
+T26	CITY 458 466	Брянская
+T27	REGION 467 474	область
+T28	EVENT 475 476	с
+T29	DATE 477 483	начала
+T30	EVENT 484 500	военной операции
+T31	COUNTRY 545 552	Украины
+T32	DATE 554 563	30 ноября
+T33	FAC 569 593	противовоздушной обороны
+T34	FAC 602 609	регионе
+T35	COUNTRY 610 620	украинский
+T36	ECONOMIC_SECTOR 621 632	беспилотник
+T37	PROFESSION 634 644	Губернатор
+T38	NEWS_SOURCE 634 652	Губернатор уточнил
+T39	PERSON 658 662	дрон
+T40	PERSON 678 689	Комаричским
+T41	EVENT 690 697	районом
+T42	DATE 734 743	6 декабря
+T43	PERSON 744 751	Богомаз
+T44	PERSON 780 787	Суземка
+T45	ECONOMIC_SECTOR 847 864	производственного
+T46	FAC 847 874	производственного помещения
+T47	ECONOMIC_SECTOR 917 926	постройки
+T48	PERSON 986 989	Sat
+T49	PERCENT 998 1002	2023
+T50	CARDINAL 1003 1005	14

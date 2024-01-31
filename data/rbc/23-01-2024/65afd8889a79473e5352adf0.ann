@@ -1,0 +1,47 @@
+T0	PERSON 0 4	Дрон
+T1	FAC 5 14	камикадзе
+T2	FAC 24 33	жилой дом
+T3	EVENT 37 43	хуторе
+T4	PERSON 44 57	Лозовая Рудка
+T5	COUNTRY 59 69	Украинский
+T6	PERSON 70 74	дрон
+T7	FAC 75 84	камикадзе
+T8	ORGANIZATION 94 111	частный жилой дом
+T9	PERSON 122 135	Лозовая Рудка
+T10	REGION 138 158	Белгородской области
+T11	PROFESSION 168 178	губернатор
+T12	NEWS_SOURCE 160 187	сообщил губернатор Вячеслав
+T13	PERSON 179 195	Вячеслав Гладков
+T14	ORGANIZATION 240 244	доме
+T15	PROFESSION 321 326	глава
+T16	NEWS_SOURCE 321 358	глава региона в своем телеграм-канале
+T17	NEWS_SOURCE 360 375	Гладков уточнил
+T18	EVENT 453 464	операции на
+T19	COUNTRY 465 472	Украине
+T20	REGION 473 493	Белгородская область
+T21	ECONOMIC_SECTOR 517 549	атакам беспилотников и обстрелам
+T22	DATE 551 565	Днем 23 января
+T23	PERSON 566 570	дрон
+T24	REGION 571 580	камикадзе
+T25	REGION 596 601	Балки
+T26	REGION 604 624	Белгородской области
+T27	PRODUCT 636 646	автомобиль
+T28	NEWS_SOURCE 648 663	Гладков уточнил
+T29	EVENT 695 704	инцидента
+T30	PROFESSION 714 724	Губернатор
+T31	FAC 750 759	камикадзе
+T32	CARDINAL 763 767	двум
+T33	PERSON 776 788	Шебекинского
+T34	ORGANIZATION 789 799	городского
+T35	REGION 800 806	округа
+T36	DATE 807 816	21 января
+T37	PERSON 860 869	Терезовка
+T38	PERSON 872 877	Балки
+T39	DATE 881 890	последнем
+T40	ECONOMIC_SECTOR 931 941	экскаватор
+T41	PERCENT 975 999	65afd8889a79473e5352adf0
+T42	CARDINAL 975 999	65afd8889a79473e5352adf0
+T43	CARDINAL 1006 1008	23
+T44	CARDINAL 1013 1020	2024 18
+T45	CARDINAL 1021 1023	29
+T46	CARDINAL 1027 1028	+

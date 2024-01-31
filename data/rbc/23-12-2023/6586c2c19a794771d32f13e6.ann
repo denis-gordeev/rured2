@@ -1,0 +1,54 @@
+T0	PERSON 0 5	Певца
+T1	COUNTRY 6 12	Иракли
+T2	COUNTRY 26 47	Молдавию
+
+Российского
+T3	CRIME 48 79	певца грузинского происхождения
+T4	COUNTRY 80 87	Ираклия
+T5	GROUP 88 98	Пирцхалаву
+T6	COUNTRY 100 106	Иракли
+T7	COUNTRY 122 130	Молдавию
+T8	ORGANIZATION 140 145	Canal
+T9	NEWS_SOURCE 132 145	сообщил Canal
+T10	CARDINAL 146 147	5
+T11	EVENT 180 189	концертах
+T12	DATE 190 191	в
+T13	EVENT 192 199	Оргееве
+T14	DATE 200 210	23 декабря
+T15	FAC 213 220	Бельцах
+T16	DATE 221 231	24 декабря
+T17	ORDINAL 236 245	последние
+T18	TIME 246 256	24 часа 39
+T19	ORGANIZATION 384 402	Республику Молдова
+T20	NEWS_SOURCE 384 403	Республику Молдова»
+T21	ORGANIZATION 443 448	пресс
+T22	ORGANIZATION 449 481	службы Пограничной полиции Раисы
+T23	NEWS_SOURCE 407 489	приводит телеканал слова сотрудника пресс-службы Пограничной полиции Раисы Новицки
+T24	PERSON 482 489	Новицки
+T25	NEWS_SOURCE 554 585	Источники телеканала со ссылкой
+T26	GROUP 589 602	организаторов
+T27	NEWS_SOURCE 589 622	организаторов концерта утверждают
+T28	EVENT 652 662	Пирцхалавы
+T29	COUNTRY 683 689	Грузии
+T30	EVENT 740 750	телефонные
+T31	CRIME 751 757	звонки
+T32	GROUP 758 769	журналистов
+T33	ORGANIZATION 771 774	РБК
+T34	ORGANIZATION 793 798	пресс
+T35	ORGANIZATION 799 805	службу
+T36	ORGANIZATION 818 825	полиции
+T37	FAC 806 825	пограничной полиции
+T38	COUNTRY 826 834	Молдавии
+T39	PROFESSION 886 893	артиста
+T40	ORGANIZATION 923 926	РБК
+T41	COUNTRY 949 957	Молдавию
+T42	PROFESSION 958 970	пограничники
+T43	GROUP 1061 1068	артисты
+T44	GROUP 1071 1078	зрители
+T45	GROUP 1176 1181	людям
+T46	CARDINAL 1310 1312	23
+T47	CARDINAL 1313 1315	12
+T48	PERSON 1347 1350	Sat
+T49	CARDINAL 1352 1354	23
+T50	CARDINAL 1364 1366	16
+T51	CARDINAL 1367 1369	48

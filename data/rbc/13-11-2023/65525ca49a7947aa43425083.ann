@@ -1,0 +1,46 @@
+T0	CITY 2 8	Москве
+T1	GPE 2 8	Москве
+T2	FAC 9 14	такси
+T3	CARDINAL 38 43	двумя
+T4	FAC 44 56	автомобилями
+T5	FAC 61 77	Варшавском шоссе
+T6	CITY 80 86	Москве
+T7	FAC 87 92	такси
+T8	CARDINAL 105 108	два
+T9	FAC 120 140	светофоре автомобиля
+T10	NEWS_SOURCE 155 190	сообщает городская Госавтоинспекция
+T11	ORGANIZATION 174 190	Госавтоинспекция
+T12	REGION 212 222	Варшавском
+T13	FAC 212 228	Варшавском шоссе
+T14	FAC 238 242	дома
+T15	CARDINAL 243 245	37
+T16	FAC 274 279	такси
+T17	ORGANIZATION 286 296	Volkswagen
+T18	PRODUCT 310 317	Hyundai
+T19	PRODUCT 320 326	Toyota
+T20	FAC 320 326	Toyota
+T21	PRODUCT 358 376	автомобиль Hyundai
+T22	FAC 358 376	автомобиль Hyundai
+T23	FAC 406 415	пешеходов
+T24	NEWS_SOURCE 420 442	говорится в публикации
+T25	ECONOMIC_SECTOR 457 463	аварии
+T26	CARDINAL 475 496	пять человек — четыре
+T27	GROUP 497 505	пешехода
+T28	GROUP 508 522	водитель такси
+T29	ECONOMIC_SECTOR 517 522	такси
+T30	PROFESSION 571 581	Сотрудники
+T31	ORGANIZATION 582 598	Госавтоинспекции
+T32	DATE 688 708	30 октября 2023 года
+T33	CARDINAL 735 739	двух
+T34	FAC 740 751	автомобилей
+T35	CITY 755 765	Московском
+T36	REGION 755 765	Московском
+T37	CARDINAL 786 790	один
+T38	NEWS_SOURCE 809 829	По данным столичного
+T39	ORGANIZATION 860 864	дома
+T40	CARDINAL 865 866	6
+T41	REGION 870 877	Яузской
+T42	LOCATION 878 883	аллее
+T43	CARDINAL 968 970	13
+T44	CARDINAL 980 982	21
+T45	ORGANIZATION 989 990	+

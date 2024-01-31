@@ -1,0 +1,54 @@
+T0	CITY 0 8	Брянское
+T1	FAC 9 13	село
+T2	COUNTRY 27 35	Украиной
+T3	COUNTRY 56 66	Украинские
+T4	ORGANIZATION 67 71	силы
+T5	INVESTMENT_PROGRAM 83 97	село Лемешовка
+T6	ORGANIZATION 100 107	Севском
+T7	REGION 115 131	Брянской области
+T8	GROUP 133 145	пострадавших
+T9	EVENT 170 176	канале
+T10	PROFESSION 177 182	глава
+T11	NEWS_SOURCE 151 208	сообщил в телеграм-канале глава региона Александр Богомаз
+T12	PERSON 191 208	Александр Богомаз
+T13	ORGANIZATION 201 208	Богомаз
+T14	NEWS_SOURCE 210 217	По селу
+T15	NEWS_SOURCE 219 240	по словам губернатора
+T16	PROFESSION 229 240	губернатора
+T17	CARDINAL 252 264	более десяти
+T18	CARDINAL 309 315	восемь
+T19	GROUP 322 334	домовладений
+T20	ECONOMIC_SECTOR 336 359	хозяйственные постройки
+T21	CARDINAL 361 364	три
+T22	PRODUCT 374 384	автомобиля
+T23	FAC 365 386	легковых автомобиля и
+T24	CARDINAL 387 391	одна
+T25	FAC 400 411	спецтехники
+T26	ECONOMIC_SECTOR 400 433	спецтехники сельскохозяйственного
+T27	ORGANIZATION 434 445	предприятия
+T28	FAC 434 445	предприятия
+T29	CARDINAL 567 570	в 1
+T30	GPE 587 603	Сумской областью
+T31	COUNTRY 604 611	Украины
+T32	GROUP 613 619	Власти
+T33	COUNTRY 633 643	российских
+T34	NEWS_SOURCE 644 652	регионов
+T35	GROUP 644 652	регионов
+T36	NEWS_SOURCE 663 671	сообщают
+T37	ECONOMIC_SECTOR 675 684	обстрелах
+T38	INVESTMENT_PROGRAM 688 698	территорий
+T39	GROUP 710 714	атак
+T40	ECONOMIC_SECTOR 715 728	беспилотников
+T41	PROFESSION 739 749	губернатор
+T42	COUNTRY 761 771	российские
+T43	FAC 781 804	радиоэлектронной борьбы
+T44	ORGANIZATION 806 809	РЭБ
+T45	COUNTRY 820 830	украинский
+T46	FAC 831 859	беспилотник самолетного типа
+T47	FAC 887 894	объекты
+T48	FAC 914 930	Брянской области
+T49	ORGANIZATION 1020 1030	Минобороны
+T50	CARDINAL 1064 1088	659c00479a79477f5c80cbec
+T51	PERSON 1098 1101	Jan
+T52	CARDINAL 1102 1109	2024 17
+T53	CARDINAL 1110 1112	30

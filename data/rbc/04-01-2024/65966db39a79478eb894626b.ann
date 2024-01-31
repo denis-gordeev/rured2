@@ -1,0 +1,52 @@
+T0	COUNTRY 2 12	украинском
+T1	PERSON 20 32	Кропивницкий
+T2	DATE 52 66	Утром 4 января
+T3	CITY 69 81	Кропивницком
+T4	PROFESSION 83 89	бывший
+T5	ORGANIZATION 90 100	Кировоград
+T6	REGION 102 124	Кировоградской области
+T7	NEWS_SOURCE 152 172	сообщило издание ТСН
+T8	ORGANIZATION 174 188	Корреспонденты
+T9	PERSON 190 199	Суспільне
+T10	NEWS_SOURCE 174 215	Корреспонденты «Суспільне» также сообщили
+T11	PERSON 223 235	Кропивницком
+T12	ORGANIZATION 260 263	ТСН
+T13	NEWS_SOURCE 258 278	В ТСН сообщили также
+T14	ECONOMIC_SECTOR 302 311	Воздушные
+T15	ORGANIZATION 312 320	силы ВСУ
+T16	DATE 321 322	в
+T17	CARDINAL 323 328	10:59
+T18	DATE 329 332	мск
+T19	NEWS_SOURCE 333 341	сообщили
+T20	REGION 344 350	ракете
+T21	DATE 352 359	летящей
+T22	PERSON 374 387	Кропивницкого
+T23	REGION 391 413	Кировоградской области
+T24	NEWS_SOURCE 471 476	глава
+T25	PROFESSION 471 476	глава
+T26	ORGANIZATION 477 491	Кировоградской
+T27	REGION 477 499	Кировоградской области
+T28	PERSON 500 515	Андрей Райкович
+T29	NEWS_SOURCE 500 534	Андрей Райкович сообщил в telegram
+T30	LAW 534 541	-канале
+T31	ECONOMIC_SECTOR 556 577	промышленного объекта
+T32	FAC 570 577	объекта
+T33	ECONOMIC_SECTOR 587 601	ракетной атаки
+T34	FAC 596 601	атаки
+T35	NEWS_SOURCE 603 616	По его словам
+T36	CARDINAL 618 622	один
+T37	CARDINAL 648 652	один
+T38	DATE 661 669	2 января
+T39	NEWS_SOURCE 670 676	власти
+T40	GROUP 670 676	власти
+T41	COUNTRY 677 684	Украины
+T42	NEWS_SOURCE 685 693	сообщили
+T43	CITY 706 711	Киеве
+T44	REGION 713 732	Харьковской области
+T45	PERSON 737 749	Кропивницком
+T46	ORGANIZATION 792 809	Минобороны России
+T47	PROFESSION 867 874	военным
+T48	FAC 877 891	энергетическим
+T49	COUNTRY 901 908	Украины
+T50	CARDINAL 1014 1018	2024
+T51	CARDINAL 1025 1027	12

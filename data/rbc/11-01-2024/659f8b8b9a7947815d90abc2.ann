@@ -1,0 +1,67 @@
+T0	REGION 2 18	Тульской области
+T1	FAC 52 61	дрона ВСУ
+T2	REGION 65 81	Тульской области
+T3	ECONOMIC_SECTOR 82 85	нет
+T4	ECONOMIC_SECTOR 118 140	перехвата беспилотника
+T5	ORGANIZATION 141 156	Вооруженных сил
+T6	COUNTRY 157 164	Украины
+T7	ORGANIZATION 166 169	ВСУ
+T8	ORGANIZATION 181 193	министерство
+T9	NEWS_SOURCE 172 196	сообщило министерство по
+T10	NEWS_SOURCE 210 222	безопасности
+T11	ORGANIZATION 210 222	безопасности
+T12	NEWS_SOURCE 224 243	По данным ведомства
+T13	FAC 245 252	система
+T14	COUNTRY 269 279	украинский
+T15	FAC 280 296	дрон самолетного
+T16	QUANTITY 322 329	пунктов
+T17	ECONOMIC_SECTOR 384 397	беспилотников
+T18	GROUP 398 404	власти
+T19	COUNTRY 405 415	российских
+T20	GROUP 416 424	регионов
+T21	ECONOMIC_SECTOR 453 460	военной
+T22	COUNTRY 473 480	Украине
+T23	CARDINAL 482 483	В
+T24	TIME 484 488	ночь
+T25	DATE 489 501	на 11 января
+T26	ORGANIZATION 502 518	Вооруженные силы
+T27	COUNTRY 519 526	Украины
+T28	CARDINAL 557 560	три
+T29	COUNTRY 561 571	российских
+T30	PRODUCT 593 601	Тульскую
+T31	REGION 593 609	Тульскую область
+T32	FAC 621 627	дронов
+T33	NEWS_SOURCE 629 649	По данным Минобороны
+T34	ORGANIZATION 639 649	Минобороны
+T35	GROUP 651 659	дежурные
+T36	FAC 669 672	ПВО
+T37	ECONOMIC_SECTOR 689 701	беспилотники
+T38	GROUP 703 715	пострадавших
+T39	PROFESSION 748 758	Губернатор
+T40	CITY 759 768	Калужской
+T41	NEWS_SOURCE 748 768	Губернатор Калужской
+T42	REGION 769 776	области
+T43	PERSON 777 792	Владислав Шапша
+T44	NEWS_SOURCE 777 800	Владислав Шапша сообщил
+T45	FAC 806 810	дрон
+T46	FAC 837 865	сооружением насосной станции
+T47	LOCATION 869 883	окраине Калуги
+T48	DATE 932 947	Утром 11 января
+T49	PROFESSION 948 970	губернатор Воронежской
+T50	REGION 959 978	Воронежской области
+T51	PERSON 979 994	Александр Гусев
+T52	NEWS_SOURCE 979 1002	Александр Гусев сообщил
+T53	ECONOMIC_SECTOR 1008 1019	беспилотник
+T54	FAC 1020 1023	ВСУ
+T55	FAC 1038 1053	нежилого здания
+T56	CARDINAL 1056 1061	одном
+T57	GROUP 1065 1080	муниципалитетов
+T58	NEWS_SOURCE 1093 1100	уточнил
+T59	NEWS_SOURCE 1120 1129	на личный
+T60	GROUP 1155 1167	пострадавших
+T61	ECONOMIC_SECTOR 1170 1176	пожара
+T62	CARDINAL 1244 1247	Thu
+T63	CARDINAL 1249 1251	11
+T64	DATE 1252 1255	Jan
+T65	CARDINAL 1261 1263	10
+T66	DATE 1267 1269	00

@@ -1,0 +1,45 @@
+T0	PERSON 0 5	Путин
+T1	PERSON 8 17	Лукашенко
+T2	ORGANIZATION 33 66	медиахолдинг Союзного государства
+T3	COUNTRY 68 74	Россия
+T4	COUNTRY 77 87	Белоруссия
+T5	ORGANIZATION 97 130	медиахолдинг Союзного государства
+T6	COUNTRY 164 174	российский
+T7	PROFESSION 175 184	президент
+T8	PERSON 185 199	Владимир Путин
+T9	COUNTRY 206 217	белорусский
+T10	NEWS_SOURCE 206 217	белорусский
+T11	PERSON 226 245	Александр Лукашенко
+T12	NEWS_SOURCE 247 269	передает «РИА Новости»
+T13	ORGANIZATION 257 269	РИА Новости»
+T14	EVENT 298 315	заседания Высшего
+T15	ORGANIZATION 316 325	госсовета
+T16	COUNTRY 326 332	России
+T17	COUNTRY 335 345	Белоруссии
+T18	CITY 364 369	Санкт
+T19	CITY 370 380	Петербурге
+T20	COUNTRY 383 389	Россия
+T21	COUNTRY 392 402	Белоруссия
+T22	GROUP 441 452	государства
+T23	DATE 453 472	в декабре 1999 года
+T24	DATE 474 492	В ноябре 2021 года
+T25	PERSON 493 498	Путин
+T26	PERSON 501 510	Лукашенко
+T27	CARDINAL 521 523	28
+T28	COUNTRY 588 599	белорусский
+T29	PROFESSION 600 609	президент
+T30	ORGANIZATION 628 661	медиахолдинг Союзного государства
+T31	GROUP 650 661	государства
+T32	PERSON 663 672	Лукашенко
+T33	NEWS_SOURCE 663 680	Лукашенко пояснил
+T34	NEWS_SOURCE 737 744	газетам
+T35	NEWS_SOURCE 746 754	журналам
+T36	ECONOMIC_SECTOR 756 764	телеграм
+T37	LAW 764 772	-каналам
+T38	GROUP 783 786	СМИ
+T39	ORGANIZATION 825 838	медиахолдинга
+T40	PERCENT 907 931	65b7b8739a7947be2c51c32d
+T41	CARDINAL 938 944	29 Jan
+T42	PERCENT 950 952	18
+T43	CARDINAL 950 952	18
+T44	CARDINAL 953 955	15

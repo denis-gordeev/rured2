@@ -1,0 +1,37 @@
+T0	ORGANIZATION 0 2	СК
+T1	GROUP 46 55	школьника
+T2	PROFESSION 56 64	учителем
+T3	REGION 68 87	Воронежской области
+T4	NEWS_SOURCE 97 107	информацию
+T5	GROUP 119 127	школьный
+T6	CRIME 128 135	учитель
+T7	CRIME 151 159	избивает
+T8	GROUP 160 168	учеников
+T9	NEWS_SOURCE 186 194	сообщает
+T10	NEWS_SOURCE 206 239	Следственного комитета по региону
+T11	ORGANIZATION 206 239	Следственного комитета по региону
+T12	ORGANIZATION 242 254	Организовано
+T13	EVENT 293 304	размещенной
+T14	EVENT 307 315	соцмедиа
+T15	PROFESSION 338 345	учитель
+T16	ORGANIZATION 346 388	образовательного учреждения Новоусманского
+T17	GROUP 420 425	детей
+T18	NEWS_SOURCE 446 468	говорится в публикации
+T19	NEWS_SOURCE 470 471	В
+T20	EVENT 472 483	воронежской
+T21	ORGANIZATION 484 502	администрации ТАСС
+T22	NEWS_SOURCE 484 511	администрации ТАСС сообщили
+T23	EVENT 538 545	поселке
+T24	ORGANIZATION 546 554	Отрадное
+T25	NEWS_SOURCE 611 644	«Вести Воронеж» опубликовал видео
+T26	PROFESSION 657 664	учитель
+T27	GROUP 697 705	учеников
+T28	GROUP 717 726	мальчиков
+T29	NEWS_SOURCE 774 793	По словам родителей
+T30	PROFESSION 784 793	родителей
+T31	GROUP 784 793	родителей
+T32	CARDINAL 888 912	65a566d99a79471285176cb8
+T33	CARDINAL 919 921	15
+T34	CARDINAL 926 933	2024 20
+T35	CARDINAL 934 936	51
+T36	CARDINAL 937 941	39 +

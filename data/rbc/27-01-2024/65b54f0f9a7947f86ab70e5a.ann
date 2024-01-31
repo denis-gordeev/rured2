@@ -1,0 +1,54 @@
+T0	DATE 2 10	Харькове
+T1	EVENT 22 32	Кременчуге
+T2	CITY 54 62	Харькове
+T3	PROFESSION 91 94	мэр
+T4	NEWS_SOURCE 83 108	сообщил мэр Игорь Терехов
+T5	PERSON 95 108	Игорь Терехов
+T6	NEWS_SOURCE 111 119	телеграм
+T7	EVENT 111 119	телеграм
+T8	LAW 120 126	канале
+T9	ORGANIZATION 179 192	администрации
+T10	PROFESSION 165 192	Глава военной администрации
+T11	PERSON 193 207	Олег Синегубов
+T12	CITY 272 281	Суспільне
+T13	NEWS_SOURCE 281 290	» пишут о
+T14	LAW 291 298	взрывах
+T15	NEWS_SOURCE 299 308	в Полтаве
+T16	CITY 301 308	Полтаве
+T17	PERSON 321 330	Суспільне
+T18	NEWS_SOURCE 310 331	По данным «Суспільне»
+T19	ORGANIZATION 334 346	«РБК Украина
+T20	NEWS_SOURCE 334 347	«РБК Украина»
+T21	CITY 351 361	Кременчуге
+T22	NEWS_SOURCE 393 403	Полтавской
+T23	PROFESSION 387 425	Глава Полтавской военной администрации
+T24	PERSON 433 439	Пронин
+T25	NEWS_SOURCE 412 455	администрации Филипп Пронин позднее уточнил
+T26	ECONOMIC_SECTOR 464 484	промышленном объекте
+T27	FAC 514 520	района
+T28	ECONOMIC_SECTOR 531 536	пожар
+T29	CITY 549 554	Киеве
+T30	REGION 566 574	Киевской
+T31	CITY 576 586	Полтавской
+T32	REGION 576 586	Полтавской
+T33	REGION 588 599	Харьковской
+T34	REGION 601 611	Черкасской
+T35	REGION 613 627	Кировоградской
+T36	REGION 629 645	Днепропетровской
+T37	REGION 647 658	Житомирской
+T38	REGION 660 667	Сумской
+T39	REGION 669 681	Николаевской
+T40	REGION 683 691	Одесской
+T41	FAC 730 739	воздушная
+T42	DATE 749 765	На данный момент
+T43	ORGANIZATION 791 808	Минобороны России
+T44	COUNTRY 802 808	России
+T45	PROFESSION 853 860	военным
+T46	COUNTRY 887 894	Украины
+T47	CARDINAL 962 986	65b54f0f9a7947f86ab70e5a
+T48	PERSON 988 991	Sat
+T49	CARDINAL 993 995	27
+T50	PERSON 996 999	Jan
+T51	CARDINAL 1000 1007	2024 22
+T52	CURRENCY 1008 1010	08
+T53	CARDINAL 1011 1015	29 +

@@ -1,0 +1,42 @@
+T0	REGION 0 24	Часть Херсонской области
+T1	FAC 34 37	без
+T2	ECONOMIC_SECTOR 34 51	без электричества
+T3	ECONOMIC_SECTOR 58 64	аварии
+T4	GROUP 66 83	Жители нескольких
+T5	REGION 92 110	Херсонской области
+T6	ECONOMIC_SECTOR 124 137	электричества
+T7	ECONOMIC_SECTOR 151 157	аварии
+T8	FAC 161 182	линии электропередачи
+T9	PROFESSION 192 197	глава
+T10	NEWS_SOURCE 184 221	сообщил глава региона Владимир Сальдо
+T11	PERSON 206 221	Владимир Сальдо
+T12	NEWS_SOURCE 224 232	телеграм
+T13	LAW 232 239	-канале
+T14	FAC 273 297	линии электропередачи со
+T15	CITY 306 316	Мелитополя
+T16	CARDINAL 326 336	обесточены
+T17	PERSON 349 359	Ивановский
+T18	ORGANIZATION 361 373	Новотроицкий
+T19	CITY 376 386	Чаплынский
+T20	REGION 387 393	округа
+T21	CITY 394 404	Херсонcкой
+T22	REGION 405 412	области
+T23	PROFESSION 425 435	губернатор
+T24	NEWS_SOURCE 437 453	По словам Сальдо
+T25	TIME 526 536	двух часов
+T26	GROUP 545 551	жители
+T27	DATE 626 634	8 января
+T28	PERSON 649 659	Ивановском
+T29	ORGANIZATION 661 673	Новотроицком
+T30	REGION 711 729	Херсонской области
+T31	ECONOMIC_SECTOR 746 766	подача электричества
+T32	FAC 753 766	электричества
+T33	CITY 778 788	Мелитополя
+T34	REGION 778 788	Мелитополя
+T35	PROFESSION 790 800	Губернатор
+T36	CARDINAL 931 955	65ad54c49a794794180b1f64
+T37	CARDINAL 962 964	21
+T38	PERSON 965 968	Jan
+T39	CARDINAL 969 976	2024 21
+T40	CARDINAL 977 979	18
+T41	CARDINAL 980 984	24 +

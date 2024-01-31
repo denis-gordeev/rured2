@@ -1,0 +1,47 @@
+T0	ORGANIZATION 0 3	ФСБ
+T1	COUNTRY 14 24	россиянина
+T2	REGION 47 66	Челябинской области
+T3	ORGANIZATION 68 71	ФСБ
+T4	COUNTRY 82 92	россиянина
+T5	NORP 82 92	россиянина
+T6	ORGANIZATION 136 146	Минобороны
+T7	REGION 149 168	Челябинской области
+T8	COUNTRY 180 190	украинских
+T9	ORGANIZATION 191 200	спецслужб
+T10	NEWS_SOURCE 202 212	сообщили в
+T11	FAC 213 219	Центре
+T12	ORGANIZATION 220 249	общественных связей ведомства
+T13	NEWS_SOURCE 220 249	общественных связей ведомства
+T14	NEWS_SOURCE 251 264	передает ТАСС
+T15	ORGANIZATION 260 264	ТАСС
+T16	ORGANIZATION 267 299	Федеральной службой безопасности
+T17	COUNTRY 319 325	России
+T18	CRIME 340 347	попытке
+T19	DATE 359 377	в январе 2024 года
+T20	COUNTRY 399 406	Украины
+T21	CARDINAL 419 424	одном
+T22	FAC 428 436	объектов
+T23	ORGANIZATION 437 457	Министерства обороны
+T24	COUNTRY 458 464	России
+T25	REGION 479 498	Челябинской области
+T26	ORGANIZATION 514 524	завербован
+T27	NEWS_SOURCE 548 557	интернете
+T28	NEWS_SOURCE 562 583	говорится в сообщении
+T29	CRIME 608 620	причастность
+T30	DATE 648 676	в ноябре и декабре 2023 года
+T31	ECONOMIC_SECTOR 677 685	поджогам
+T32	ECONOMIC_SECTOR 698 703	связи
+T33	FAC 706 736	железнодорожной инфраструктуры
+T34	ECONOMIC_SECTOR 706 736	железнодорожной инфраструктуры
+T35	EVENT 739 748	Дагестане
+T36	GROUP 782 813	электронные носители информации
+T37	COUNTRY 855 866	украинскими
+T38	PROFESSION 867 877	кураторами
+T39	GROUP 867 877	кураторами
+T40	ORGANIZATION 891 894	ЦОС
+T41	ORGANIZATION 948 968	Следственный комитет
+T42	ORGANIZATION 1006 1009	rbc
+T43	CARDINAL 1028 1032	2024
+T44	CARDINAL 1033 1057	65984e609a794741eaf2cf3a
+T45	DATE 1067 1070	Jan
+T46	CARDINAL 1071 1078	2024 22

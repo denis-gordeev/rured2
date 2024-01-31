@@ -1,0 +1,52 @@
+T0	GROUP 0 6	Власти
+T1	REGION 7 23	Киевской области
+T2	NEWS_SOURCE 0 32	Власти Киевской области сообщили
+T3	INVESTMENT_PROGRAM 55 69	инфраструктуры
+T4	REGION 73 89	Киевской области
+T5	FAC 96 102	ночной
+T6	PROFESSION 150 155	глава
+T7	REGION 156 164	Киевской
+T8	ORGANIZATION 183 196	администрации
+T9	NEWS_SOURCE 142 213	сообщил глава Киевской областной военной администрации Руслан Кравченко
+T10	PERSON 204 213	Кравченко
+T11	GROUP 246 258	пострадавших
+T12	GROUP 261 266	жертв
+T13	ECONOMIC_SECTOR 274 279	пожар
+T14	NEWS_SOURCE 424 441	уточнил Кравченко
+T15	PERSON 432 441	Кравченко
+T16	CARDINAL 443 444	В
+T17	TIME 445 452	ночь на
+T18	DATE 453 462	19 ноября
+T19	CITY 465 470	Киеве
+T20	REGION 473 489	Киевской области
+T21	COUNTRY 511 521	украинской
+T22	PRODUCT 548 551	ПВО
+T23	DATE 560 569	18 ноября
+T24	CITY 572 577	Киеве
+T25	GPE 572 577	Киеве
+T26	FAC 613 637	противовоздушной обороны
+T27	ORGANIZATION 630 637	обороны
+T28	EVENT 639 645	Взрывы
+T29	PERCENT 657 664	около 0
+T30	PERCENT 665 679	30 по местному
+T31	TIME 671 687	местному времени
+T32	PERCENT 689 690	1
+T33	CARDINAL 690 693	:30
+T34	PERCENT 691 693	30
+T35	COUNTRY 700 710	Украинские
+T36	GROUP 711 714	СМИ
+T37	NEWS_SOURCE 700 732	Украинские СМИ сообщили о работе
+T38	ORGANIZATION 733 736	ПВО
+T39	FAC 739 750	Хмельницкой
+T40	REGION 752 760	Киевской
+T41	REGION 763 775	Черниговской
+T42	ORGANIZATION 776 784	областях
+T43	ECONOMIC_SECTOR 797 805	взрывами
+T44	COUNTRY 822 829	Украины
+T45	ORGANIZATION 857 874	Минобороны России
+T46	COUNTRY 868 874	России
+T47	GROUP 930 937	военным
+T48	COUNTRY 950 957	Украине
+T49	CARDINAL 1056 1058	19
+T50	CARDINAL 1068 1070	12
+T51	CARDINAL 1071 1073	38

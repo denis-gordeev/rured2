@@ -1,0 +1,51 @@
+T0	COUNTRY 0 6	Польша
+T1	COUNTRY 17 27	россиянина
+T2	CRIME 47 55	шпионаже
+T3	COUNTRY 60 66	Польши
+T4	COUNTRY 77 87	россиянина
+T5	NORP 77 87	россиянина
+T6	COUNTRY 124 135	российскими
+T7	GROUP 136 148	спецслужбами
+T8	NEWS_SOURCE 150 158	сообщило
+T9	ORGANIZATION 170 195	национальной безопасности
+T10	NEWS_SOURCE 170 214	национальной безопасности канцелярии премьер
+T11	PROFESSION 196 214	канцелярии премьер
+T12	PROFESSION 215 223	министра
+T13	NEWS_SOURCE 215 254	министра страны, передает агентство PAP
+T14	ORGANIZATION 251 254	PAP
+T15	PROFESSION 282 288	Быдгощ
+T16	LOCATION 289 298	на севере
+T17	COUNTRY 299 305	Польши
+T18	ORGANIZATION 351 384	Агентство внутренней безопасности
+T19	COUNTRY 407 427	Российской Федерации
+T20	COUNTRY 472 483	российскими
+T21	GROUP 484 496	спецслужбами
+T22	NEWS_SOURCE 526 535	Агентства
+T23	ORGANIZATION 526 559	Агентства внутренней безопасности
+T24	GROUP 562 580	Пограничной охраны
+T25	DATE 602 611	1 декабря
+T26	NEWS_SOURCE 611 612	»
+T27	NEWS_SOURCE 616 637	говорится в сообщении
+T28	ORGANIZATION 641 650	ведомстве
+T29	DATE 665 678	в 2023 году в
+T30	PROFESSION 679 686	Быдгоще
+T31	NEWS_SOURCE 687 692	ранее
+T32	CARDINAL 711 715	двое
+T33	GROUP 716 727	иностранцев
+T34	PROFESSION 754 763	шпионскую
+T35	COUNTRY 786 792	России
+T36	COUNTRY 795 805	Белоруссии
+T37	ORGANIZATION 823 848	национальной безопасности
+T38	NEWS_SOURCE 808 857	В Департаменте национальной безопасности отметили
+T39	DATE 863 880	за 2016–2023 годы
+T40	COUNTRY 895 901	Польши
+T41	CARDINAL 930 933	100
+T42	COUNTRY 934 944	российских
+T43	COUNTRY 947 958	белорусских
+T44	PROFESSION 959 966	шпионов
+T45	CARDINAL 1054 1056	13
+T46	CARDINAL 1057 1059	12
+T47	CARDINAL 1065 1089	6578d7c79a794751e2fe0703
+T48	DATE 1096 1098	13
+T49	DATE 1103 1110	2023 01
+T50	CARDINAL 1111 1113	34

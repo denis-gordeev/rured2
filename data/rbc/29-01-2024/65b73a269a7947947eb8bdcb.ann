@@ -1,0 +1,57 @@
+T0	FAC 46 53	баз НИИ
+T1	ORGANIZATION 54 64	Минобороны
+T2	PROFESSION 66 73	Министр
+T3	ORGANIZATION 74 81	обороны
+T4	COUNTRY 82 88	России
+T5	PERSON 89 101	Сергей Шойгу
+T6	FAC 146 156	баз научно
+T7	PROFESSION 157 174	исследовательских
+T8	ORGANIZATION 175 204	институтов военного ведомства
+T9	CITY 207 217	Московской
+T10	REGION 207 225	Московской области
+T11	NEWS_SOURCE 235 256	сообщило министерство
+T12	ORGANIZATION 244 256	министерство
+T13	PROFESSION 258 298	Министр проверил развитие инфраструктуры
+T14	ORDINAL 299 304	48-го
+T15	ORGANIZATION 305 364	Центрального научно-исследовательского института Минобороны
+T16	ORGANIZATION 378 384	научно
+T17	ORGANIZATION 385 402	исследовательский
+T18	ORGANIZATION 447 456	ведомстве
+T19	NEWS_SOURCE 445 464	В ведомстве заявили
+T20	PRODUCT 635 644	препараты
+T21	ECONOMIC_SECTOR 736 746	применения
+T22	GROUP 747 768	биологических агентов
+T23	PROFESSION 772 781	Начальник
+T24	EVENT 782 787	войск
+T25	PROFESSION 788 800	радиационной
+T26	FAC 802 812	химической
+T27	PROFESSION 836 843	генерал
+T28	PROFESSION 844 853	лейтенант
+T29	PERSON 854 859	Игорь
+T30	NEWS_SOURCE 860 868	Кириллов
+T31	EVENT 869 880	на брифинге
+T32	ORGANIZATION 881 891	Минобороны
+T33	DATE 892 901	15 января
+T34	NEWS_SOURCE 902 908	заявил
+T35	COUNTRY 941 959	Украине российские
+T36	PROFESSION 960 967	военные
+T37	COUNTRY 1023 1035	американской
+T38	GROUP 1036 1050	администрацией
+T39	ORGANIZATION 1117 1127	Минобороны
+T40	ORGANIZATION 1129 1137	Пентагон
+T41	COUNTRY 1187 1190	США
+T42	GROUP 1311 1322	противников
+T43	ORGANIZATION 1327 1336	ведомстве
+T44	NEWS_SOURCE 1325 1344	В ведомстве считают
+T45	COUNTRY 1357 1369	американских
+T46	GROUP 1370 1377	военных
+T47	PROFESSION 1370 1386	военных биологов
+T48	EVENT 1479 1488	Конвенции
+T49	LAW 1502 1534	разработки биологического оружия
+T50	ORGANIZATION 1547 1573	Генерального секретаря ООН
+T51	NEWS_SOURCE 1560 1573	секретаря ООН
+T52	ORGANIZATION 1779 1789	Минобороны
+T53	CARDINAL 1823 1847	65b73a269a7947947eb8bdcb
+T54	CARDINAL 1854 1856	29
+T55	CARDINAL 1861 1865	2024
+T56	CARDINAL 1869 1871	24

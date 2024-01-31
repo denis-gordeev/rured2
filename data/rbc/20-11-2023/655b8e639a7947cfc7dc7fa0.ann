@@ -1,0 +1,47 @@
+T0	PERSON 0 9	Лукашенко
+T1	EVENT 24 45	парламентских выборов
+T2	COUNTRY 48 58	Белоруссии
+T3	PROFESSION 60 69	Президент
+T4	COUNTRY 70 80	Белоруссии
+T5	PERSON 81 100	Александр Лукашенко
+T6	EVENT 129 136	выборов
+T7	ORGANIZATION 139 145	нижнюю
+T8	ORGANIZATION 148 173	верхнюю палаты парламента
+T9	NEWS_SOURCE 174 180	страны
+T10	ORGANIZATION 198 205	-службе
+T11	NEWS_SOURCE 182 223	сообщили в пресс-службе главы государства
+T12	PROFESSION 206 223	главы государства
+T13	ORGANIZATION 212 223	государства
+T14	DATE 225 245	25 февраля 2024 года
+T15	EVENT 256 262	выборы
+T16	ORGANIZATION 265 271	палату
+T17	GROUP 272 286	представителей
+T18	ORGANIZATION 287 309	Национального собрания
+T19	GROUP 312 326	местные советы
+T20	PROFESSION 327 336	депутатов
+T21	DATE 340 362	4 апреля 2024 года — в
+T22	ORGANIZATION 363 368	Совет
+T23	REGION 369 379	Республики
+T24	ORGANIZATION 380 402	Национального собрания
+T25	EVENT 403 418	восьмого созыва
+T26	ORGANIZATION 412 418	созыва
+T27	PROFESSION 433 443	кандидатов
+T28	GROUP 433 443	кандидатов
+T29	DATE 462 491	не позднее 21 марта 2024 года
+T30	NEWS_SOURCE 493 514	говорится в сообщении
+T31	DATE 516 518	Не
+T32	PERSON 516 518	Не
+T33	DATE 527 530	чем
+T34	DATE 537 544	60 дней
+T35	DATE 651 670	в феврале 2022 года
+T36	LAW 680 691	Конституции
+T37	COUNTRY 692 702	Белоруссии
+T38	PROFESSION 720 736	представительным
+T39	EVENT 737 744	органом
+T40	GROUP 745 758	народовластия
+T41	PROFESSION 807 815	депутаты
+T42	CARDINAL 880 882	20
+T43	DATE 887 891	2023
+T44	CARDINAL 892 894	20
+T45	CARDINAL 895 897	19
+T46	CARDINAL 898 902	27 +

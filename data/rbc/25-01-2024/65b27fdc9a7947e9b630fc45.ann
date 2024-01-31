@@ -1,0 +1,54 @@
+T0	PERSON 0 8	Медведев
+T1	INVESTMENT_PROGRAM 24 36	производство
+T2	INVESTMENT_PROGRAM 61 67	борьбы
+T3	PROFESSION 69 93	Заместитель председателя
+T4	ORGANIZATION 94 120	Совета безопасности России
+T5	COUNTRY 114 120	России
+T6	PERSON 121 137	Дмитрий Медведев
+T7	EVENT 145 154	заседание
+T8	ORGANIZATION 155 176	рабочей группы Военно
+T9	ORGANIZATION 177 189	промышленной
+T10	EVENT 190 198	комиссии
+T11	GROUP 249 255	борьбы
+T12	EVENT 257 268	Видеозапись
+T13	EVENT 275 282	встречи
+T14	ORGANIZATION 320 329	ВКонтакте
+T15	ORDINAL 417 423	первую
+T16	ECONOMIC_SECTOR 446 456	разработка
+T17	ECONOMIC_SECTOR 459 488	производство радиолокационных
+T18	FAC 489 495	систем
+T19	FAC 497 511	артиллерийской
+T20	NEWS_SOURCE 525 540	сказал Медведев
+T21	PERSON 532 540	Медведев
+T22	EVENT 550 559	заседание
+T23	GROUP 560 567	рабочей
+T24	EVENT 568 574	группы
+T25	DATE 586 595	11 января
+T26	PERSON 603 611	Медведев
+T27	NEWS_SOURCE 603 618	Медведев заявил
+T28	DATE 624 635	в 2023 году
+T29	ECONOMIC_SECTOR 671 679	поставки
+T30	PERSON 734 742	Медведев
+T31	NEWS_SOURCE 734 750	Медведев сообщил
+T32	DATE 756 767	в 2024 году
+T33	INVESTMENT_PROGRAM 817 840	инвестиционных проектов
+T34	ECONOMIC_SECTOR 856 874	мощностей оборонно
+T35	ECONOMIC_SECTOR 875 898	промышленного комплекса
+T36	ORDINAL 903 909	первую
+T37	ECONOMIC_SECTOR 952 964	производства
+T38	ECONOMIC_SECTOR 1006 1024	взрывчатых веществ
+T39	FAC 1017 1024	веществ
+T40	FAC 1026 1032	систем
+T41	FAC 1035 1070	комплексов противовоздушной обороны
+T42	FAC 1073 1088	контрбатарейной
+T43	FAC 1097 1099	ну
+T44	FAC 1102 1123	бронетанковой техники
+T45	NEWS_SOURCE 1128 1135	уточнил
+T46	PROFESSION 1140 1155	Зампред Совбеза
+T47	INVESTMENT_PROGRAM 1187 1210	инвестиционных проектов
+T48	ORGANIZATION 1263 1290	Министерство промышленности
+T49	DATE 1291 1301	ежемесячно
+T50	CARDINAL 1376 1400	65b27fdc9a7947e9b630fc45
+T51	CARDINAL 1407 1409	25
+T52	CARDINAL 1414 1421	2024 19
+T53	CARDINAL 1422 1424	19

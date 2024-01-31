@@ -1,0 +1,48 @@
+T0	CITY 2 8	Москве
+T1	ECONOMIC_SECTOR 30 47	водительских прав
+T2	FAC 62 73	автомобилей
+T3	CITY 83 89	Москве
+T4	PRODUCT 111 123	водительских
+T5	GROUP 124 128	прав
+T6	PRODUCT 143 155	транспортных
+T7	NEWS_SOURCE 176 197	сообщается в телеграм
+T8	NEWS_SOURCE 198 204	канале
+T9	LAW 197 204	-канале
+T10	FAC 205 218	автоинспекции
+T11	ORGANIZATION 251 257	работе
+T12	FAC 297 312	государственных
+T13	LAW 322 333	регистрации
+T14	PRODUCT 334 346	транспортных
+T15	PRODUCT 364 376	водительских
+T16	ORGANIZATION 393 431	подразделениях Госавтоинспекции города
+T17	CITY 432 438	Москвы
+T18	ORGANIZATION 439 447	временно
+T19	NEWS_SOURCE 467 486	сказано в сообщении
+T20	ORGANIZATION 563 568	ГИБДД
+T21	ORGANIZATION 592 595	РБК
+T22	FAC 614 623	столичную
+T23	ORGANIZATION 624 640	Госавтоинспекцию
+T24	DATE 643 659	В начале октября
+T25	ORGANIZATION 680 694	информационных
+T26	ORGANIZATION 704 709	ГИБДД
+T27	FAC 750 761	автомобилей
+T28	ORGANIZATION 763 766	МВД
+T29	DATE 908 922	несколько дней
+T30	PROFESSION 924 947	Директор по развитию IT
+T31	INVESTMENT_PROGRAM 947 948	-
+T32	PROFESSION 948 958	технологий
+T33	GROUP 959 986	автомобильного маркетплейса
+T34	NEWS_SOURCE 993 1009	Дмитрий Савченко
+T35	PERSON 993 1009	Дмитрий Савченко
+T36	ORGANIZATION 1024 1027	РБК
+T37	NEWS_SOURCE 1012 1035	разговоре с РБК отмечал
+T38	GROUP 1081 1086	ГИБДД
+T39	DATE 1088 1092	Сбои
+T40	ORGANIZATION 1109 1125	Госавтоинспекции
+T41	CARDINAL 1138 1143	также
+T42	DATE 1144 1193	в сентябре прошлого и в декабре позапрошлого года
+T43	CARDINAL 1223 1225	12
+T44	CARDINAL 1226 1228	12
+T45	CARDINAL 1265 1267	12
+T46	DATE 1272 1276	2023
+T47	CARDINAL 1280 1282	18
